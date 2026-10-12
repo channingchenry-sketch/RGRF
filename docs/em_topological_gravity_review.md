@@ -433,6 +433,9 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
   - Measure induced current to the probe and the potential across it.
   - Prediction: coupling is strong only when the probe sits in corotating plasma (the Io-like case) and drops to wake-only effects outside (the Moon-like case).
 
+### Pending: ponderomotive thread (Channing tracking down)
+*Placeholder.* Channing is tracking down the original ponderomotive-force thread (cf. the 28 Jul 2026 "Self-Correcting Boundary Layer / Elliptical Vortex / Ponderomotive" note in this review). It will be added with verified citations and labels when it is recovered.
+
 **Overall tags:**
 - R2–R5 anchors: **Grounded**.
 - The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.

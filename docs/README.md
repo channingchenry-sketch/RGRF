@@ -15,9 +15,10 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [grow_log_template.csv](grow_log_template.csv) | Blank citizen-science grow log (CSV). |
 | [coral_wave_barriers.md](coral_wave_barriers.md) | Coral reefs as grown wave barriers (Ferrario 2014, USGS 2019), verified Hawaiʻi restoration projects, Biorock/oyster/3D-printed reefs, link to MICP thread. |
 | [em_geometry_map.md](em_geometry_map.md) | Color-coded EM & geometry map (symbolic lens; divergences from physics) and informed-universe threads. |
-| [helium_octave_table.md](helium_octave_table.md) | Russell-inspired helium octave table: a curiosity, not a replacement for the standard table. Transcription, standard-physics mapping, labels. |
+| [helium_octave_table.md](helium_octave_table.md) | Russell-inspired helium octave table (plus a vanadium oxidation-state / charge-separation shallow dive): a curiosity, not a replacement for the standard table. Transcription, standard-physics mapping, labels. |
 | [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md) | Living doc: buoyancy-first lift with EM/ionic trim, Lorentz, Tesla valve, EZ water, ferrofluid loop, Coulomb eggs; power ledger and bench tests. |
 | [ANALYSIS_2026-10-12.md](ANALYSIS_2026-10-12.md) | Honest synthesis of all RGRF threads: spine, grounded core, conflicts, gaps, top-5 bench tests, impact. |
+| [franklin_lightning_rod.md](franklin_lightning_rod.md) | Honoring Benjamin Franklin: the grounded lightning rod (1749–50), Philadelphia steeple plan, Marly 1752, kite-account reliability; links to R6–R8. |
 | [C1-C12_seed_map.md](C1-C12_seed_map.md) | Recovered C1–C12 seed map (originally Grok chat 68a752c4, Aug 2026), verbatim. |
 | [images/RGRF_Regenerative_Periodic_Table_concept.jpg](images/RGRF_Regenerative_Periodic_Table_concept.jpg) | Concept art: regenerative periodic table (scrambled labels, not a data reference) |
 | [images/Color_Coded_EM_Geometry_Map.jpg](images/Color_Coded_EM_Geometry_Map.jpg) | Image: Color-Coded EM & Geometry Map |

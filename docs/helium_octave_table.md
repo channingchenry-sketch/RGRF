@@ -47,6 +47,32 @@ Evidence labels: **Grounded** / **Plausible-untested** / **Speculative**. Licens
 
 **Falsifiable question:** does any measurable property (ionisation energy, binding energy, a biological uptake ratio) follow octave *position* better than the standard group/period description? If not, the octave layer is notation only.
 
+## Vanadium: oxidation states & charge separation
+*Shallow dive, to expand.*
+
+In the octave table vanadium is 23 **V**, in the Argon octave between Ti and Cr. The table gives no special note for it.
+
+**Grounded:**
+- **Four stable aqueous oxidation states, +2 to +5:** V²⁺ (violet), V³⁺ (green), VO²⁺ (V⁴⁺, blue), VO₂⁺ (V⁵⁺, yellow).
+- **Vanadium redox flow battery:**
+  - First proposed by Skyllas-Kazacos and co-workers in 1985.
+  - It uses V²⁺/V³⁺ at the negative electrode and VO²⁺/VO₂⁺ at the positive electrode, separated by an ion-exchange membrane.
+  - Because both sides are the same element, crossover does not poison the electrolyte; it only loses charge, which can be recovered.
+  - See Kim et al. (incl. Skyllas-Kazacos), *J. Mater. Chem. A* 3:16913 (2015), doi 10.1039/C5TA02613J (review).
+- **VO₂ metal–insulator transition near 340 K (~68 °C):** VO₂ switches from a monoclinic insulator to a rutile metal, with hysteresis. Conductivity changes by orders of magnitude: Morin, *Phys. Rev. Lett.* 3:34 (1959), doi 10.1103/PhysRevLett.3.34.
+- **Biology:**
+  - **Tunicates (ascidians):** they store vanadium in blood cells (vanadocytes) at up to ~350 mM in *Ascidia gemmata*, ~10⁷× seawater. Vanabin proteins bind it, and it is reduced from V(V) to V(IV)/V(III).
+  - **Vanadium haloperoxidases:** first found in the alga *Ascophyllum nodosum* (Vilter, 1984). They use vanadate + H₂O₂ to halogenate organic compounds.
+  - **V-nitrogenase:** Robson et al., "The alternative nitrogenase of *Azotobacter chroococcum* is a vanadium enzyme", *Nature* 322:388 (1986). Bacteria make it when molybdenum is scarce.
+
+**Framing (link R7 in `em_topological_gravity_review.md`):**
+- Several stable oxidation states make vanadium a *reversible charge store*. A flow battery is a charge-separation device with a membrane as its selective leaky boundary, which is the R6/R7 pump + gate pattern in chemical form. **Grounded.**
+- VO₂ as a thermally switched gate (insulator ↔ metal at ~68 °C) for a "leaky boundary" that opens with heat, e.g. a passive thermal or electrical switch in a heat-reuse loop. **Plausible-untested** for RGRF use.
+- Biology's vanadium redox (tunicates, enzymes) as a template for low-energy charge handling. **Speculative** as an engineering path.
+- Any octave-position or "tone" reason for vanadium's behaviour. **Speculative**: the multiple oxidation states come from its 3d³4s² electron configuration.
+
+**Bench idea:** a two-tank mini vanadium flow cell from a vanadyl sulfate kit, watching colour changes through charge states. Wear gloves and eye protection; vanadium compounds are toxic.
+
 ## Concept image
 
 ![RGRF Regenerative Periodic Table concept](images/RGRF_Regenerative_Periodic_Table_concept.jpg)
