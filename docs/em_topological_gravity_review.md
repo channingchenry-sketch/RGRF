@@ -372,6 +372,26 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
 - **RGRF extension:** back pressure along the informed path closes the loop from the large scale (R1–R2) to the local boundary. Plausible as a narrative; the physics links are pressure balance and B orientation.
 - **Falsifiable question:** does the IBEX ribbon geometry plus the Voyager shock asymmetry predict a single interstellar B direction and pressure? It largely does in standard models. Any RGRF variant must predict a *different*, measurable residual.
 
+### R6. Controlled leakage, sheath dynamics & dovetailing by design
+- **Grounded:**
+  - **Reconnection as an energy entry point:** Dungey (1961, see R4). Reconnection at the dayside magnetopause opens field lines, and solar-wind energy and plasma enter the magnetosphere. The leak is *regulated* by the IMF direction, strongest for a southward IMF.
+  - **Plasma sheath physics:**
+    - Langmuir, "The interaction of electron and positive ion space charges in cathode sheaths", *Phys. Rev.* 33:954–989 (1929), doi 10.1103/PhysRev.33.954. Sheaths form at every plasma–wall boundary and limit current by space charge.
+    - Bohm, "Minimum ionic kinetic energy for a stable sheath", in Guthrie & Wakerling (eds.), *The Characteristics of Electrical Discharges in Magnetic Fields*, McGraw-Hill (1949), pp. 77–86. Ions must enter the sheath at ≥ the ion sound speed (Bohm criterion). So ion flux to a wall ≈ 0.6 n e c_s is set by plasma conditions, while the wall bias sets the electron flux and ion energy.
+  - **Gated ion channels as selective leakage:** Hodgkin & Huxley, "A quantitative description of membrane current and its application to conduction and excitation in nerve", *J. Physiol.* 117:500–544 (1952), doi 10.1113/jphysiol.1952.sp004764. Voltage-dependent Na⁺/K⁺ conductances act as boundaries that leak selectively and on command.
+  - **Swirl / coaxial injectors and shear-layer interlocking:** in rocket and gas-turbine injectors, swirl and coaxial velocity shear drive Kelvin–Helmholtz roll-up that interleaves the propellant streams to mix them. This is standard combustion engineering; no single citation was verified, so it is described without one. Links to **C7** (rocket swirl injectors & plume dovetailing; see `C1-C12_seed_map.md`).
+  - **Magnetic window:** E×B / static-field depletion of the re-entry plasma layer to open an RF window, a deliberately engineered leak. See `shifting_phase_order_review.md` §B2. Its literature citation is still flagged there as unverified.
+- **RGRF extension:**
+  - Design boundaries that leak *selectively*, by species, energy, direction or timing, for exchange rather than sealing them.
+  - Interlock ("dovetail") counter-flows through shear layers the way injectors do.
+  - This is the engineered counterpart of the natural leaky boundaries in R4–R5.
+  - **Plausible-untested** as a unifying design principle. Each component is Grounded on its own.
+- **Falsifiable bench question:**
+  - In a DC or RF glow discharge, a wall made of segmented electrodes, each with an independently tunable bias, should control the local ion flux and ion energy measured by a planar probe or retarding-field analyser.
+  - A bias pattern should produce a predictable spatial leak map, e.g. biased segments drawing ion-saturation current ∝ local n·c_s.
+  - Prediction: ion *flux* is set by the Bohm criterion and barely changes with bias, while ion *energy* and electron flux track bias.
+  - If flux tracks bias strongly beyond the ion-saturation regime, the simple sheath picture fails for this geometry.
+
 **Overall tags:**
 - R2–R5 anchors: **Grounded**.
 - The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.
