@@ -233,7 +233,15 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
     
     **Confirmed in substance.** The screenshot's "roughly doubling" upper range was not specifically verified.
   - The screenshot's "multi-MHz systems routinely 95–97 %" was not verified as a general figure, so it is omitted.
-  - Nordic-specific WPT projects: none verified, so none are listed.
+  - **Finland (Northern Europe focus; verified):**
+    - **Aalto University (Tretyakov / Simovski groups, with ITMO collaborators).** Labelled Grounded.
+      - Song, Jayathurathnage, … Simovski, Tretyakov & Krasnok, "Wireless power transfer based on novel physical concepts", *Nature Electronics* 4, 707–716 (2021). A review of coherent perfect absorption, parity-time symmetry and exceptional points, metamaterials/metasurfaces, and acoustic power transfer for WPT.
+      - Jayathurathnage, Dang, Simovski & Tretyakov, "Self-tuning omnidirectional wireless power transfer using double-toroidal helix coils", *IEEE Trans. Industrial Electronics* 69(7), 6828–6837 (2022; online 2021).
+      - Markvart, Song, Glybovski, Belov, Simovski & Kapitanova, "Metasurface for near-field wireless power transfer with reduced electric field leakage", *IEEE Access* 8, 40224–40231 (2020): a bi-layer metasurface transmitter with 47× lower specific absorption rate than a spiral coil (listed in Aalto's repository).
+      - Song et al., "Smart table based on a metasurface for wireless power transfer", *Phys. Rev. Applied* 11, 054046 (2019): ~80 % efficiency for a receiver anywhere on the table (ITMO-led, Aalto co-affiliation).
+    - **VTT Technical Research Centre of Finland + WiTricity (Jan 2023).** An 11 kW WiTricity Halo wireless EV charger was installed and tested at VTT's Tampere lab for the EU REFLECTIVE light-EV project. Labelled Grounded (pilot test).
+    - **Destia + Electreon (MoU, Mar 2022).** A Finnish infrastructure company and an Israeli wireless-charging provider plan to showcase static and dynamic wireless EV charging in Vantaa, targeting buses, vans and taxis. Labelled Plausible-untested (announced; deployment results not verified).
+    - Not verified, so not listed: a separate Ra'di WPT paper, and any Finnish-founded wireless-power company.
 - **POL implication (important).** Even 98 % transfer efficiency does not reduce the **~10–17 kW** hover demand found by physical models. That power is dissipated as eddy-current heat in the floor plate and coil (P/F ≥ ωδ). Better WPT only reduces the losses *before* the coil.
 - **RGRF extension.** Wireless power as the energy backbone for pads and nodes. Grounded for near-field charging; Speculative for long-range or "free-air" distribution.
 - **Falsifiable question.** For any proposed RGRF WPT link, does the measured efficiency against gap follow standard coupled-mode theory (η depends on k²Q₁Q₂)? Or does phi or another geometry outperform an equivalently optimised conventional coil? (The POL sim found phi ~8.7 % worse.)
