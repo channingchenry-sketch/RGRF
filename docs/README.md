@@ -13,6 +13,7 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [manta_butterfly_craft.md](manta_butterfly_craft.md) | Manta-Butterfly concept plus re-entry energy harvesting (TEG, MHD, sheath) and storage mass estimates. |
 | [open_grow_kit.md](open_grow_kit.md) | Draft open grow kit: protocol-to-bubble-home gaps, starter panel spec and quantities, measurement log, safety, housing-first placeholder. |
 | [grow_log_template.csv](grow_log_template.csv) | Blank citizen-science grow log (CSV). |
+| [coral_wave_barriers.md](coral_wave_barriers.md) | Coral reefs as grown wave barriers (Ferrario 2014, USGS 2019), verified Hawaiʻi restoration projects, Biorock/oyster/3D-printed reefs, link to MICP thread. |
 | [images/RGRF_Manta_Butterfly_Craft_Concept.jpg](images/RGRF_Manta_Butterfly_Craft_Concept.jpg) | Concept image: Manta-Butterfly craft |
 | [images/POL_v0.1_Hoverboard_System.jpg](images/POL_v0.1_Hoverboard_System.jpg) | Concept diagram: POL v0.1 system overview |
 | [images/Laminar_Precession_Dynamics.jpg](images/Laminar_Precession_Dynamics.jpg) | Concept diagram: laminar precession (speculative design target) |

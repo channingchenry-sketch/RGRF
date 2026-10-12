@@ -141,6 +141,26 @@ A CSV copy is at [`grow_log_template.csv`](grow_log_template.csv).
 - Weathering cut strength by ~50–85 %, so a protective skin is essential.
 - **Coupon testing remains required.**
 
+## Selective living / long-term vision
+*Left here for now; more material will follow.*
+
+Channing's ultimate goal is to **keep panels living where living is useful**, rather than inactivating everything.
+
+| Element | Description | Label |
+|---|---|---|
+| Selective zones | Cured or inactivated structural shell (heat-killed or borate-cured), plus separately contained living layers (interior living wall, repair layer) | Speculative as an integrated building system. The two zones must be isolated: borate or heat in one zone kills or inhibits the other. |
+| Food-growing panels | Fruiting surfaces of edible species, e.g. oyster mushroom (*Pleurotus ostreatus*). **Note: *T. versicolor* (turkey tail) is not a culinary mushroom.** It is tough and leathery, and is used mainly for teas and extracts. | Mushroom cultivation on lignocellulose is Grounded. Fruiting *on a building panel* is Plausible-untested (spore load, humidity and indoor-air issues; see Safety). |
+| Living walls | Plant or moss green walls on a cured mycelium backing | Green walls are Grounded. A mycelium backing is Plausible-untested (moisture and decay). |
+| Petrification / mineralisation | Microbially induced calcite precipitation (MICP): ureolytic *Sporosarcina pasteurii* hydrolyses urea, raising pH, and CaCO₃ precipitates and binds the matrix. MICP is reviewed in "Microbial-induced carbonate precipitation (MICP) technology: a review on the fundamentals and engineering applications" (2023, PMC open access), verified. *N. crassa* mycelium scaffolds mineralised by the fungus or *S. pasteurii* stayed viable for ≥4 weeks (*Cell Rep. Phys. Sci.* 2025, cited above). | MICP Grounded. A "petrified" living building panel is Speculative (ammonium by-product, uniformity, scale). |
+
+**Maintenance protocol outline (draft; Plausible-untested):**
+1. **Moisture:** log relative humidity and panel moisture weekly. Keep living zones moist and structural zones dry, with a vapour break between them.
+2. **Feeding:** add a periodic nutrient or substrate top-up for the living layers only.
+3. **Contamination checks:** look for green, black or orange moulds, odour and soft spots. Remove and replace affected panels.
+4. **Fruiting harvest:** harvest before spore drop. Ventilate during fruiting, and don't fruit in sleeping areas.
+5. **Pest inspection:** check for fungus gnats, mites, beetles and termites. A borate-cured shell resists insects; living layers don't.
+6. **Replacement:** design living panels as removable cassettes with a defined service life.
+
 ## Toward a housing-first protocol (draft placeholder)
 Channing's goal is that open, low-cost grown materials help people get safe shelter.
 
