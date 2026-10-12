@@ -383,3 +383,13 @@ These are Channing's reference sequence, which Channing labels **speculative** a
 - Source and derivation of the ~80° "angular structuring" figure.
 - Mechanism and equations for the Jupiter 'refractive boundary' hypothesis.
 - How (if at all) these planetary analogies feed into RGRF engineering. Rotating-tank polygon experiments are a cheap, grounded bench activity that would link the Saturn thread to RGRF's laminar-precession ideas.
+
+### 17. William Cullen, 1748: evaporative cooling under reduced pressure (historical)
+- **Observed / grounded:**
+  - In 1748 at the University of Glasgow, William Cullen pumped down the air over diethyl ether. The ether boiled and cooled its surroundings enough to form ice.
+  - This was the first documented demonstration of artificial refrigeration. He published it in 1756 as "Of the Cold Produced by Evaporating Fluids, and Some Other Means of Producing Cold" (Encyclopedia.com; Wikipedia, "William Cullen").
+  - Physics: lowering the pressure lowers the boiling point, and the latent heat of vaporisation is drawn from the surroundings. Every vapour-compression and absorption chiller uses this principle.
+- **RGRF extension:** pressure-driven phase change is the bridge between waste heat and cooling. Data-centre heat (thread 16) can drive absorption chillers, where a heat-driven pressure difference makes the refrigerant evaporate. The same lineage links to heat pumps that lift low-grade data-centre heat into district heating.
+- **Tag:** **Grounded** (history and thermodynamics). The RGRF integration is **Plausible-untested** at site scale.
+- **Falsifiable question:** for a given data-centre outlet temperature (~30–60 °C), does an absorption chiller or heat pump deliver a net primary-energy saving versus electric chilling? Measure the COP: absorption chillers typically reach ~0.6–0.8 single-effect.
+- **Missing:** site temperatures, load profile, choice of working fluid.
