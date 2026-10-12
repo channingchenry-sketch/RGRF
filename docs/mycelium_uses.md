@@ -94,7 +94,7 @@ The idea: apply mechanical stress during growth to living mycelium, hemp and bam
   - Jaffe, *Planta* 114:143–157 (1973), doi 10.1007/BF00387472. Rubbing internodes ~10 s once or twice daily significantly retarded elongation in several species; growth recovered 3–4 days after stopping. Possibly ethylene-mediated.
   - The response is shorter, stockier growth, not proven "denser nodes".
 - **Bamboo nodes and diaphragms.**
-  - In *Phyllostachys iridescens* (*Forests* 15:1740, 2024), nodes with diaphragms gave ~+250 % radial stiffness and ~+92 % bending MOE versus internodes, with ~+10 % compressive strength and lower tensile properties.
+  - In *Phyllostachys iridescens* (Wang et al., *Forests* 15(10):1740, 2024, doi 10.3390/f15101740; year verified), nodes with diaphragms gave ~+250 % radial stiffness and ~+92 % bending MOE versus internodes, with ~+10 % compressive strength and lower tensile properties.
   - Buckling studies are mixed: one found nodes had little effect on the critical buckling load (Suada et al., *ARPN J. Eng. Appl. Sci.*, 2020); modelling shows nodal and diaphragm thickness raises local buckling load.
   - So nodes help ring and bending stiffness more than axial strength.
 - **Reaction wood (tension and compression wood).** Trees form specialised wood in response to sustained lean or load. This is textbook plant biology, so no single citation is given.
@@ -102,7 +102,7 @@ The idea: apply mechanical stress during growth to living mycelium, hemp and bam
 - **Fungal mechanosensing (verified):**
   - Fungi have stretch-activated, Ca²⁺-permeable channels: Zhou et al., *Science* 253:1415 (1991), *Uromyces*.
   - Hyphae show thigmotropism (*C. albicans* Mid1/Cch1).
-  - Reviewed in Kumamoto, *Nat. Rev. Microbiol.* (2008), "Molecular mechanisms of mechanosensing and their roles in fungal contact sensing".
+  - Reviewed in Kumamoto, "Molecular mechanisms of mechanosensing and their roles in fungal contact sensing", *Nat. Rev. Microbiol.* 6:667–673 (2008), doi 10.1038/nrmicro1960 (verified).
   - So hyphae *can* sense force. Whether cyclic load changes branching or node density in a growing composite is untested.
 
 **Tags:**
