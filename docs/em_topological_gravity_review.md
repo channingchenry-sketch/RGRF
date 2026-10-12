@@ -150,19 +150,53 @@ This is the order in which Channing developed the threads (all labelled speculat
 - **Tags.** Helium rain itself: Grounded (theory plus experiment; not directly observed). Any resonance/organising role beyond heat and layering: Speculative.
 - **Falsifiable question.** Does a helium-rain layer at the depth implied by Brygoo et al. reproduce Juno's gravity harmonics and Saturn's luminosity at the same time? If RGRF proposes an EM role for the layer, what field signature (e.g. filtering of time-varying field) would it produce?
 
-### L4. Plasma dynamics around an EM field; "electrostatic isotropic tensors"
-- **Archive check.** No earlier session uses "isotropic" or "tensor" (see above). The closest is "EM helicity" and "spin-ion separation" in the boundary-layer thread.
-- **What the grounded terms mean.**
-  - **Isotropic pressure tensor:** in a fluid or plasma with isotropic pressure, the pressure tensor is P·I (same in all directions). In magnetised plasmas it is generally **anisotropic**: P = p⊥ I + (p∥ − p⊥) b̂b̂, with different pressures along and across B. Anisotropy drives firehose and mirror instabilities, which are observed in the solar wind.
-  - **Maxwell stress tensor:** T_ij = ε₀(E_iE_j − ½δ_ij E²) + (1/μ₀)(B_iB_j − ½δ_ij B²). Its isotropic part is the field pressure (E² and B² terms); its anisotropic part is tension along field lines. Force on a plasma or body is the divergence of this tensor.
-  - **"Electrostatic isotropic":** a purely electrostatic field's stress is never isotropic: there is tension along E and pressure across it. An *isotropic* EM stress arises only for random or radiation fields (radiation pressure u/3). The phrase needs definition.
-- **RGRF extension.** Shaping plasma around a craft or node by engineering the stress tensor (field pressure vs. tension) and plasma pressure anisotropy.
-- **Tags.**
-  - The physics of stress tensors and pressure anisotropy: Grounded.
-  - Using it for confinement or shaping: Grounded in principle (magnetic confinement, plasma thrusters).
-  - Gravity-like or lift effects from "isotropic tensors": Speculative.
-- **Falsifiable question.** For a proposed field geometry, does integrating the Maxwell stress tensor over a surface around the device predict a net force? Does a thrust stand measure it? Net force must equal the momentum carried away by plasma or radiation; any excess would be new physics.
-- **Missing.** A definition of "electrostatic isotropic tensor", the field configuration, and the predicted force or pressure.
+### L4. Plasma dynamics around an EM field; the isotropic electrostatic tensor in the interstellar medium
+*Reconstructed from Channing's recollection, 2026-10-11. The original conversation is lost, and no archived session uses "isotropic" or "tensor".*
+
+**Thread as recalled:**
+1. An isotropic electrostatic tensor placed in open space **outside the heliopause**, in the interstellar medium (ISM).
+2. Labelled "possibly scalar".
+3. Discussed alongside Buckminster Fuller's **vector equilibrium**.
+4. Ending at the **Maxwell stress tensor**.
+
+**Observed (Grounded, citations verified).**
+- Voyager 1 crossed the heliopause on 25 Aug 2012 at ~121.6 au; Voyager 2 on 5 Nov 2018 at ~119.0 au.
+- Both have measured the very local ISM directly:
+  - Interstellar magnetic field ~0.4–0.6 nT at Voyager 1 (average ~0.49 nT); Voyager 2 saw somewhat stronger fields.
+  - Field direction changed little across the heliopause.
+  - Electron density ~0.04–0.08 cm⁻³, about 20× the heliosheath value.
+- Sources:
+  - Burlaga et al., "Magnetic field and particle measurements made by Voyager 2 at and near the heliopause", *Nature Astronomy* 3 (2019), doi:10.1038/s41550-019-0920-y.
+  - Gurnett & Kurth, "Plasma densities near and beyond the heliopause from the Voyager 1 and 2 plasma wave instruments", *Nature Astronomy* 3 (2019), doi:10.1038/s41550-019-0918-5.
+  - Gurnett et al., "In situ observations of interstellar plasma with Voyager 1", *Science* (2013).
+- Order of magnitude: magnetic pressure B²/2μ₀ ≈ 1×10⁻¹³ Pa at 0.49 nT. Thermal pressure of the ionised gas (n ~ 0.05 cm⁻³, T ~ 10⁴ K) is ~10⁻¹⁴ Pa, so the ionised-plasma beta is below 1. Neutral gas and cosmic rays also contribute.
+
+**"Possibly scalar" (Grounded maths).**
+- An isotropic rank-2 tensor is necessarily a scalar times the identity, T_ij = p·δ_ij. Physically, that is a pressure.
+- So "possibly scalar" is mathematically exact for an isotropic tensor: it reduces to one number.
+- Claims about "scalar waves" (Tesla/Bearden-style longitudinal EM waves in vacuum) are a separate idea and **Speculative**: Maxwell's equations in vacuum have no free longitudinal EM wave. Longitudinal *plasma* oscillations (Langmuir waves) are real, and Voyager's density measurements come from exactly those plasma-frequency oscillations.
+
+**Vector equilibrium (geometry; Speculative as physics).**
+- Fuller's vector equilibrium is the cuboctahedron: 12 vertices equidistant from the centre, with radial edges equal in length to circumferential edges. It is a genuine geometric balance of radial and circumferential vectors, and the arrangement of nearest neighbours in face-centred-cubic close packing.
+- As a picture of an "isotropic" stress state, the analogy is apt: balanced radial and tangential components.
+- As a physical mechanism (energy from geometry, a "zero-phase" vacuum state), it is Speculative. No equations connect it to field stresses.
+
+**Maxwell stress tensor (Grounded).**
+- T_ij = ε₀(E_iE_j − ½δ_ijE²) + (1/μ₀)(B_iB_j − ½δ_ijB²).
+- For a single static magnetic field, this is an isotropic magnetic pressure B²/2μ₀ minus a tension B²/μ₀ along the field lines. A single static field's stress is therefore **never isotropic**. The same holds for a single electrostatic field: tension along E, pressure across it.
+- A **randomised/turbulent** field with no preferred direction averages to an isotropic pressure: ⟨B_iB_j⟩ = (⟨B²⟩/3)δ_ij, giving a net isotropic pressure of ⟨B²⟩/6μ₀, like radiation pressure u/3.
+- This is relevant to the ISM, which has both a large-scale (ordered) field and a turbulent component. The ordered part gives anisotropic stress; the turbulent part contributes isotropic pressure.
+
+**RGRF extension.** The ISM just outside the heliopause behaves as a near-isotropic, possibly scalar "pressure" medium that balances the heliosphere, read as a vector-equilibrium state. Labelled Speculative; the pressure-balance part is Grounded.
+
+**Falsifiable question.**
+- Do Voyager 1/2 magnetometer and plasma-wave data in the very local ISM show the stress state the RGRF version predicts? That means near-isotropic (turbulence-dominated) stress versus ordered-field anisotropy, at a stated level and on stated scales.
+- Standard models predict a mostly ordered, draped interstellar field (anisotropic stress) with a smaller turbulent fraction. If RGRF predicts a specific isotropy level, or cuboctahedral (12-fold) structure in field-direction statistics, the Voyager data can test it.
+
+**Missing.**
+- The original definition of the "electrostatic" tensor. The ISM is quasi-neutral, so electrostatic stresses are tiny compared with magnetic and thermal pressure.
+- The predicted isotropy level or structure.
+- Equations linking the vector equilibrium to the stress tensor.
 
 ## Planetary & stellar reference threads
 These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
