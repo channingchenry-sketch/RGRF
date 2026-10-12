@@ -110,6 +110,7 @@ This is the order in which Channing developed the threads (all labelled speculat
 6. Sun: plasma structuring (below).
 7. Saturn: the hexagon and the resonant-bottom variant (below).
 8. Jupiter: fuzzy core and metallic hydrogen (below).
+9. Field lines and longitudinal energy channels (recurring; entry L5 below).
 
 **What the archived sessions actually said.** I searched the archive's emails, attachments and docs. There was no OCR tool for the images.
 - "Isotropic", "tensor", "accretion", "sink", "helium rain" and "moon" do **not** appear anywhere. The closest earlier wording:
@@ -197,6 +198,20 @@ This is the order in which Channing developed the threads (all labelled speculat
 - The original definition of the "electrostatic" tensor. The ISM is quasi-neutral, so electrostatic stresses are tiny compared with magnetic and thermal pressure.
 - The predicted isotropy level or structure.
 - Equations linking the vector equilibrium to the stress tensor.
+
+### L5. Field lines & longitudinal energy channels (recurring thread)
+- **Observed (Grounded, citations verified).**
+  - **Field-aligned (Birkeland) currents** connect the magnetosphere and ionosphere along Earth's magnetic field lines and carry energy into the auroral zones. Satellite magnetometers mapped their large-scale pattern ("region 1/region 2"). Iijima & Potemra, "Field-aligned currents in the dayside cusp observed by Triad", *J. Geophys. Res.* 81(34), 5971–5979 (1976).
+  - **Alfvén waves** carry electromagnetic energy (Poynting flux, S = E×B/μ₀) along field lines. Polar spacecraft data showed wave Poynting flux >5 erg cm⁻² s⁻¹ (5 mW/m²) at 25,000–38,000 km, enough to power auroral acceleration. Keiling et al., "The global morphology of wave Poynting flux: powering the aurora", *Science* 299, 383–386 (2003).
+  - **Plasma flux tubes** are the natural channels: field lines threaded by plasma, along which particles, currents and waves travel easily (as in the Io–Jupiter flux tube, L2).
+- **RGRF idea.** Energetic "longitudinal lines" as distribution channels in the architecture: energy routed along field lines between nodes.
+- **Tags.**
+  - Energy transport along field lines in space plasma: Grounded.
+  - Using it for terrestrial power distribution: Speculative. In the lower atmosphere there is no conducting plasma to guide energy, and Earth's field lines close through space.
+  - **"Longitudinal EM waves" in vacuum:** not supported. Maxwell's equations in free space only allow transverse radiating waves.
+  - What does exist: longitudinal *plasma* (Langmuir) waves, and near-field (non-radiative) inductive or capacitive coupling. The near-field is the basis of resonant wireless power and decays rapidly with distance.
+- **Falsifiable question.** For a proposed terrestrial "longitudinal channel" link, what are the transmitted power, distance and medium? Does the received power exceed the near-field (∝ r⁻⁶ for weakly coupled coils) or radiative (∝ r⁻²) expectation for the same hardware, measured with a calibrated load and a shielded control?
+- **Missing.** A physical carrier for the channel (plasma? conductor? field?), frequency and geometry, and predicted efficiency against distance.
 
 ## Planetary & stellar reference threads
 These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
