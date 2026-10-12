@@ -6,7 +6,7 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 |---|---|
 | [shifting_phase_order_review.md](shifting_phase_order_review.md) | Critical review of the physics pathways, laminar precession and perturbation sections. Also covers re-entry plasma, the magnetic egg cavity and ferrofluid ideas. Each step is tagged with an evidence label, with order-of-magnitude numbers and bench experiments. |
 | [regenerative_housing.md](regenerative_housing.md) | Honest summary of the housing concepts (hempcrete, bamboo, mycelium, Mycobam blocks, bubble homes, airform domes), with labels, code realities, gaps and pilot tests. |
-| [em_topological_gravity_review.md](em_topological_gravity_review.md) | Review of the Electric Universe / "tiny gravity" / EM-topological gravity threads: cause-and-effect chains, labels, falsifiable tests and missing pieces. |
+| [em_topological_gravity_review.md](em_topological_gravity_review.md) | Review of the Electric Universe / "tiny gravity" / EM-topological gravity threads, including the R1–R7 re-walk (angular momentum, leaky boundaries, controlled leakage, charge separation): cause-and-effect chains, labels, falsifiable tests and missing pieces. |
 | [tesla_and_ancient_alignments.md](tesla_and_ancient_alignments.md) | Tesla history vs. claims, Schumann resonance, modern resonant wireless power, archaeoastronomy and ley lines, with labels and falsifiable tests. |
 | [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md) | Piezo sensing/actuation plus helium gas-spring damping in the POL height loop: block diagram, realistic numbers, bench test. |
 | [mycelium_uses.md](mycelium_uses.md) | Every mycelium use found in the archive, with source references, honest labels and verified material data (Jones et al. 2020). |
@@ -15,7 +15,9 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [grow_log_template.csv](grow_log_template.csv) | Blank citizen-science grow log (CSV). |
 | [coral_wave_barriers.md](coral_wave_barriers.md) | Coral reefs as grown wave barriers (Ferrario 2014, USGS 2019), verified Hawaiʻi restoration projects, Biorock/oyster/3D-printed reefs, link to MICP thread. |
 | [em_geometry_map.md](em_geometry_map.md) | Color-coded EM & geometry map (symbolic lens; divergences from physics) and informed-universe threads. |
+| [helium_octave_table.md](helium_octave_table.md) | Russell-inspired helium octave table: a curiosity, not a replacement for the standard table. Transcription, standard-physics mapping, labels. |
 | [C1-C12_seed_map.md](C1-C12_seed_map.md) | Recovered C1–C12 seed map (originally Grok chat 68a752c4, Aug 2026), verbatim. |
+| [images/RGRF_Regenerative_Periodic_Table_concept.jpg](images/RGRF_Regenerative_Periodic_Table_concept.jpg) | Concept art: regenerative periodic table (scrambled labels, not a data reference) |
 | [images/Color_Coded_EM_Geometry_Map.jpg](images/Color_Coded_EM_Geometry_Map.jpg) | Image: Color-Coded EM & Geometry Map |
 | [images/RGRF_Manta_Butterfly_Craft_Concept.jpg](images/RGRF_Manta_Butterfly_Craft_Concept.jpg) | Concept image: Manta-Butterfly craft |
 | [images/POL_v0.1_Hoverboard_System.jpg](images/POL_v0.1_Hoverboard_System.jpg) | Concept diagram: POL v0.1 system overview |

@@ -392,6 +392,23 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
   - Prediction: ion *flux* is set by the Bohm criterion and barely changes with bias, while ion *energy* and electron flux track bias.
   - If flux tracks bias strongly beyond the ion-saturation regime, the simple sheath picture fails for this geometry.
 
+### R7. Cation / charge separation
+**Goal:** separate charge (cations from anions or electrons) on purpose, then use the gradient.
+- **Grounded:**
+  - **Mass spectrometry / calutron:** E. O. Lawrence's calutrons separated ions by mass/charge in a magnetic field. They were used at Oak Ridge **Y-12** for electromagnetic uranium enrichment in the Manhattan Project.
+  - **Plasma mass filters:** Ohkawa & Miller, "Band gap ion mass filter", *Phys. Plasmas* 9:5116–5120 (2002), doi 10.1063/1.1523930 (Archimedes Technology Group). Crossed axial B and radial E confine ions below a cutoff mass and lose heavier ions to the wall.
+  - **Electrodialysis and ion exchange:** cation- and anion-selective membranes or resins, driven by an applied field or by exchange equilibria, separate salts industrially (desalination, water softening). These are standard processes; no single citation was verified, so they are described without one.
+  - **Thunderstorm non-inductive charging:** Takahashi, "Riming electrification as a charge generation mechanism in thunderstorms", *J. Atmos. Sci.* 35:1536–1548 (1978). Graupel–ice-crystal collisions separate ~10⁻⁴ esu (~33 fC) per collision, with sign set by temperature and liquid water content.
+  - **Na⁺/K⁺-ATPase:** Jens C. Skou, Nobel Prize in Chemistry 1997 (shared), for discovering the ion-transporting enzyme. It pumps 3 Na⁺ out and 2 K⁺ in per ATP, building the membrane gradient that the gated channels in R6 then leak selectively.
+  - **Biased sheath as a charge separator:** see R6. A negative wall bias repels electrons and collects ions at the Bohm flux.
+- **RGRF extension:** charge separation is the "work" step and selective leakage (R6) is the "use" step. A regenerative device would pair a separator (pump) with a gated leak (channel), like a cell membrane. **Plausible-untested** as a design pattern; Grounded component by component. Any claim that it yields net energy is **Speculative**, because separation always costs at least the free energy of the gradient.
+- **Falsifiable bench test:**
+  - Glow-discharge or electrolyte cell with two biased segmented electrodes (separator) plus a third gated electrode (leak).
+  - Measure collected charge vs input energy.
+  - Prediction: separated charge × potential ≤ electrical input, and efficiency is limited by sheath and ohmic losses.
+  - If measured stored energy exceeds input, the instrumentation is wrong.
+  - The real test is what fraction is recoverable through the gated leak at different gate timings.
+
 **Overall tags:**
 - R2–R5 anchors: **Grounded**.
 - The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.
