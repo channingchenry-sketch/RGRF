@@ -100,6 +100,70 @@ For any "EM-topological gravity" claim:
 - A proposed measurement with controls, and a pre-registered prediction.
 - How it connects (or not) to POL/RGRF engineering. The source already rules it out as a lift path, which is correct.
 
+## Thread lineage
+This is the order in which Channing developed the threads (all labelled speculative as RGRF extensions):
+1. Early solar-system plasma spin dynamics: a mass sitting on a sink / gravity well.
+2. Vortex fields between planets and moons.
+3. Helium rain (fits near Jupiter/Saturn).
+4. Plasma dynamics around an EM field, and "electrostatic isotropic tensors".
+5. Uranus: field/rotation misalignment (below).
+6. Sun: plasma structuring (below).
+7. Saturn: the hexagon and the resonant-bottom variant (below).
+8. Jupiter: fuzzy core and metallic hydrogen (below).
+
+**What the archived sessions actually said.** I searched the archive's emails, attachments and docs. There was no OCR tool for the images.
+- "Isotropic", "tensor", "accretion", "sink", "helium rain" and "moon" do **not** appear anywhere. The closest earlier wording:
+  - "Core Dynamics & Metallic Stacking: Planetary cores as vortex/pressure systems; tungsten comparisons; crystalline stacking models. (July 2026)" (`rgrf_framework.md`)
+  - "Helium Opacity: Speculative role in energy transport or atmospheric resonance. (July 2026)" (`rgrf_framework.md`)
+  - "Self-Correcting Boundary Layer / Elliptical Vortex / Ponderomotive ... spin-ion separation, dual-foci elliptical geometry, EM helicity, and frequency-domain density control" (28 Jul 2026; `rgrf_framework.md`)
+  - "EM-Gravitational Wells: Speculative alternatives to black-hole / singularity models" (Electric Universe compilation, 11 Oct 2026)
+- So threads 1–4 above are recorded here for the first time, from Channing's description.
+
+### L1. Early solar-system plasma spin dynamics (mass on a sink / gravity well)
+- **Observed (Grounded).**
+  - Stars and planets form from rotating protoplanetary disks. Mass moves inward (accretes onto the central "sink") only if angular momentum is transported outward.
+  - In ionised/partly ionised disks, the leading mechanism is the magnetorotational instability (MRI). A weak magnetic field makes a Keplerian shear flow unstable, with growth rates of order the orbital frequency. Balbus & Hawley, *ApJ* 376, 214–222 (1991), and Hawley & Balbus, *ApJ* 376, 223–233 (1991). Citations verified.
+  - Magnetised disk winds and jets also remove angular momentum.
+  - The gravity well is the central star's gravity.
+- **RGRF extension.** Plasma spin organising around the well as a template for "organised field" design, and possibly EM shaping of the well itself.
+- **Tags.** The analogy as inspiration: Plausible-untested. EM *creating* the well: Speculative, and contradicted (see the EU section above).
+- **Falsifiable question.** Do disk-accretion rates or structures (rings/gaps, as seen by ALMA) need any EM-gravity term beyond MRI plus disk winds plus Newtonian gravity to match observations?
+- **Missing.** What "plasma spin dynamics" adds beyond MRI and disk winds, and which observable it changes.
+
+### L2. Vortex fields between planets and moons
+- **Observed (Grounded).**
+  - **Io–Jupiter.** Io moves through Jupiter's corotating plasma and drives a field-aligned current system (Alfvén wings) along the flux tube. Measured currents are ~3 MA: Voyager 1 found ~2.8 MA (Acuña et al. 1981), and Juno ~3.3 MA (Kotsiaros et al., *JGR Space Physics*, 2024). Simulations give ~1–5 MA. This produces Io's auroral footprint in Jupiter's ionosphere. Citations verified via the NASA/NTRS Voyager report and the Juno paper.
+  - **Enceladus–Saturn.** Cassini detected field-aligned ion and electron beams and a faint, variable auroral footprint of Enceladus on Saturn: Pryor et al., "The auroral footprint of Enceladus on Saturn", *Nature* 472, 331–333 (2011). Citation verified.
+- **RGRF extension.** Planet–moon "vortex fields" as natural resonance links or "highways".
+- **Tags.**
+  - The coupling: Grounded. These are electrodynamic current circuits plus Alfvén waves. It is not a vortex in the fluid sense, although the plasma flow around Io does have vortical structure.
+  - Use as a transport or resonance highway: Speculative.
+- **Falsifiable question.** Does the footprint brightness and current scale with plasma density and relative velocity as the unipolar-inductor / Alfvén-wing models predict? If not, is there residual "resonant" behaviour, e.g. preferred orbital-period ratios that the model misses?
+- **Missing.** A definition of "vortex field" (velocity vorticity, magnetic helicity, or current loops?) and the quantity RGRF would use.
+
+### L3. Helium rain
+- **Observed (Grounded).**
+  - Hydrogen and helium are predicted to become immiscible in metallic hydrogen at Jupiter/Saturn interior conditions. Helium droplets would then "rain" inward: Stevenson & Salpeter, *ApJS* 35, 221–237 (1977). Citation verified.
+  - Laser-driven shock compression of pre-compressed H₂–He found an immiscibility region at Jovian conditions, suggesting phase separation in ~15 % of Jupiter's radius: Brygoo et al., "Evidence of hydrogen–helium immiscibility at Jupiter-interior conditions", *Nature* 593, 517–521 (2021). Citation verified.
+  - Helium rain is invoked to explain Saturn's excess luminosity and the helium and neon depletion measured by the Galileo probe at Jupiter. Some later evolution models find the Brygoo curve gives *too much* helium depletion, so the details are still debated.
+- **RGRF extension.** Helium rain as a source of internal layering or "opacity"; connects to the Jupiter fuzzy-core thread and its stratified layers.
+- **Tags.** Helium rain itself: Grounded (theory plus experiment; not directly observed). Any resonance/organising role beyond heat and layering: Speculative.
+- **Falsifiable question.** Does a helium-rain layer at the depth implied by Brygoo et al. reproduce Juno's gravity harmonics and Saturn's luminosity at the same time? If RGRF proposes an EM role for the layer, what field signature (e.g. filtering of time-varying field) would it produce?
+
+### L4. Plasma dynamics around an EM field; "electrostatic isotropic tensors"
+- **Archive check.** No earlier session uses "isotropic" or "tensor" (see above). The closest is "EM helicity" and "spin-ion separation" in the boundary-layer thread.
+- **What the grounded terms mean.**
+  - **Isotropic pressure tensor:** in a fluid or plasma with isotropic pressure, the pressure tensor is P·I (same in all directions). In magnetised plasmas it is generally **anisotropic**: P = p⊥ I + (p∥ − p⊥) b̂b̂, with different pressures along and across B. Anisotropy drives firehose and mirror instabilities, which are observed in the solar wind.
+  - **Maxwell stress tensor:** T_ij = ε₀(E_iE_j − ½δ_ij E²) + (1/μ₀)(B_iB_j − ½δ_ij B²). Its isotropic part is the field pressure (E² and B² terms); its anisotropic part is tension along field lines. Force on a plasma or body is the divergence of this tensor.
+  - **"Electrostatic isotropic":** a purely electrostatic field's stress is never isotropic: there is tension along E and pressure across it. An *isotropic* EM stress arises only for random or radiation fields (radiation pressure u/3). The phrase needs definition.
+- **RGRF extension.** Shaping plasma around a craft or node by engineering the stress tensor (field pressure vs. tension) and plasma pressure anisotropy.
+- **Tags.**
+  - The physics of stress tensors and pressure anisotropy: Grounded.
+  - Using it for confinement or shaping: Grounded in principle (magnetic confinement, plasma thrusters).
+  - Gravity-like or lift effects from "isotropic tensors": Speculative.
+- **Falsifiable question.** For a proposed field geometry, does integrating the Maxwell stress tensor over a surface around the device predict a net force? Does a thrust stand measure it? Net force must equal the momentum carried away by plasma or radiation; any excess would be new physics.
+- **Missing.** A definition of "electrostatic isotropic tensor", the field configuration, and the predicted force or pressure.
+
 ## Planetary & stellar reference threads
 These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
 
