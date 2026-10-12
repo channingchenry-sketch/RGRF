@@ -7,9 +7,15 @@ An open-source (CC0) blueprint for regenerative planetary and cosmic infrastruct
 ## Mission
 Help humanity save itself from itself — one regenerative step at a time. We blend proven physics (Tesla resonance, eddy currents, piezoelectricity) with visionary extensions (phi-geometry, Big Pulse cosmology, living self-healing systems) to create net-positive, buildable technology.
 
+## Evidence labels
+Claims in this repo are tagged so readers can tell what is established from what is a vision:
+- **Grounded**: a known, measured phenomenon with governing equations (e.g. eddy-current lift over a conductive floor).
+- **Plausible-untested**: physics allows it, but it has not been demonstrated in this form.
+- **Speculative**: no known mechanism yet; a design study or vision (e.g. phi scaling, filament riding).
+
 ## Core Principles
 - Biology first: Living triad (mycelium + bacteria + algae) grown before resonant layers.
-- Phi-optimized resonance and golden spirals.
+- Phi (golden-ratio) geometry and golden spirals as a design heuristic — speculative and untested as a performance advantage. The POL hover simulation found the phi spiral ~8.7 % *worse* (more power) than a linear spiral; see [Resona-POL-Modular-Core](https://github.com/channingchenry-sketch/Resona-POL-Modular-Core).
 - Self-healing, carbon-sequestering, and topologically stable structures.
 - Open collaboration and full transparency.
 
@@ -27,7 +33,7 @@ Help humanity save itself from itself — one regenerative step at a time. We bl
 - Book: *Regenerative Planetary & Cosmic Infrastructure Blueprint* (with dedicated Kaku honor chapter).
 
 ## How to Contribute / Replicate
-1. Grow the living triad (detailed protocols in `/docs/`).
+1. Grow the living triad (protocols are still being written up; current notes and reviews are in [`docs/`](docs/README.md)).
 2. Test resonant layers on prepared patches.
 3. Share data, simulations, and improvements.
 
