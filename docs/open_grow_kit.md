@@ -10,6 +10,8 @@
 | Moisture & weather | Basic water-uptake note | Long-term outdoor envelope performance, vapor control, UV/skin | Needs testing plan |
 | Form geometry | Flat or simple moulds | Inflatable or rigid dome forms, geodesic or free-form bubbles | Not written |
 | Living vs. inactivated | Heat-kill required for service | Possible hybrid: inactivated structural shell + living repair layer or interior living wall | Speculative |
+
+*Note on the Living vs. inactivated row (added after the verbatim table): a grow-in-place-then-borate-cure route is a third option. It is cured, so it is not living; see "Grow in place, then cure" below.*
 | Joints & nodes | Not addressed | Overlapping hyphal bonds, mechanical fasteners, or grown-in connection nodes | Open |
 | Open kit packaging | Protocol text only | Actual spawn + substrate starter quantities, mould suggestions, measurement log sheet | Not assembled |
 | Layering | Single substrate | Multi-layer (structural core + insulation + living or weather skin) | Conceptual only |
@@ -75,6 +77,69 @@ A CSV copy is at [`grow_log_template.csv`](grow_log_template.csv).
 - **Heat-kill before use (Grounded practice).** Finished panels should be oven-inactivated and fully dried. The protocol does not leave living tissue in service.
 - **Who should not grow.** People who are immunocompromised, or who have asthma or mould allergies, should not handle cultures or contaminated batches.
 - This is a hobby and research kit, not a certified building product.
+
+## Grow in place, then cure (borax + copper ventilation)
+**Channing's idea:**
+- Grow the living structure in situ, e.g. a bubble shell on its form.
+- Then cure it in place with borax rather than moving panels to an oven.
+- Run copper tubes through the shell for airflow and mould deterrence.
+
+### Borates (borax / boric acid): Grounded for wood and bamboo
+- **Preservative.**
+  - Borates protect wood against decay fungi and insects, including all termite species.
+  - About 1.5 kg/m³ boric-acid equivalent inhibits decay, and ≥3.2 kg/m³ protects against both decay and insects.
+  - Source: Freeman, McIntyre & Jackson, "A critical and comprehensive review of boron in wood preservation", AWPA Proceedings (2008), verified.
+- **Bamboo against *T. versicolor*.** 2 % and 6 % borax–boric-acid treatments put three bamboo species in European durability class I against *T. versicolor* and two brown-rot fungi. Source: "Fungal degradation of bamboo treated with crude lake salt and a mixture of borax and boric acid" (ScienceDirect, 2024), verified. *T. versicolor* was named among the test fungi.
+- **Fire.**
+  - Borates promote char and a glassy layer. Borax reduces flame spread but promotes smouldering; boric acid does the reverse, so the two are combined.
+  - Borate levels high enough for biological protection are **usually too low for reliable fire retardancy**.
+  - Source: USDA Forest Products Laboratory, "Flame-retardant design and protection for wood and wood products" (2024), verified.
+- **Leaching.**
+  - Inorganic borates are water-soluble. Standards limit them to above-ground uses **protected from rain wetting**: Obanda, Shupe & Barnes, "Reducing leaching of boron-based wood preservatives – a review of research", *Bioresource Technology* (2008), verified.
+  - Wood treated with boric acid or borax lost fire resistance after a year of humid exposure (Vakhitova 2019, as cited in a zinc-borate study).
+  - So an outdoor shell needs a weather skin or coating, and re-treatment.
+
+### Does borate alone kill *T. versicolor* in a colonised composite? Not verified (flagged)
+- **Verified:**
+  - Borates *prevent* colonisation and decay by *T. versicolor* in pre-treated wood and bamboo. In poplar, 0.5–2 % boric acid stopped visible growth (BioResources 5(2), 2010).
+  - Agar studies show complete growth inhibition for some fungi but not others at ≤0.5–1 %.
+- **Not found:** any study showing that soaking or spraying an **already fully colonised** mycelium block with borax reliably kills *T. versicolor* throughout its thickness.
+- **Recommendation:**
+  - Treat the borate cure as **Plausible-untested** for inactivation.
+  - Verify it with a re-growth test: put a core sample on malt agar for 14 days and look for no outgrowth.
+  - Keep heat-kill as the reference method where possible.
+
+### Copper ventilation tubes
+- **Grounded but narrow.**
+  - On 29 Feb 2008, the US EPA registered antimicrobial copper alloys (≥60 % Cu). The claim is limited to ">99.9 % of six specified **bacteria** within 2 h on regularly cleaned touch surfaces", as a supplement to cleaning (EPA fact sheet; Copper Development Association), verified.
+  - It is **not** a registered claim against moulds, and the effect is **surface-contact only**.
+- **Main mould control is airflow, drying and vapour management.** Tubes help mainly by moving air, and the metal adds little beyond its own surface.
+- **Condensation risk.** Cold copper (high conductivity) running through a warm, humid shell will drop below the dew point and wet the adjacent mycelium. That is the opposite of the goal. Insulate or sleeve the tubes, route them so drips drain out, and monitor relative humidity.
+
+### Tradeoff
+- A cured shell is **not living**: no self-healing or regrowth.
+- The living-repair-layer option in Table A remains **Speculative** and is incompatible with a borate-cured layer next to it, because borate would inhibit the repair growth.
+
+**Labels:**
+- Borate preservation and fire behaviour (wood/bamboo): **Grounded**.
+- Borate cure of in-situ mycelium: **Plausible-untested**.
+- Copper as mould deterrent: weak, surface-only.
+- Ventilation itself: **Grounded**.
+
+## Published mycelium test results (for comparison with the 2.1–3.6 MPa target)
+| Study (verified) | Material / process | Result |
+|---|---|---|
+| Appels et al., *Materials & Design* 161:64–71 (2019), doi 10.1016/j.matdes.2018.11.027 | *Trametes multicolor* / *Pleurotus* on straw, cotton or sawdust; non-, cold- and hot-pressed | Flexural strength: non-pressed 0.05–0.29 MPa; **hot-pressed 0.62–0.87 MPa** ("cork- and wood-like") |
+| "Mechanical properties of dense mycelium-bound composites under accelerated tropical weathering conditions", *Scientific Reports* (2021), doi 10.1038/s41598-021-01598-4 | Hot-pressed at 120 °C / 20 MPa / 50 min, ~954 kg/m³ | **Compressive ~4.4 MPa before weathering**; after 35 days of tropical weathering ~0.7 MPa uncoated, ~2.2 MPa coated (figures from abstract/search summary) |
+| Jones et al., *Materials & Design* 187, 108397 (2020), review | As-grown composites | Compressive ~0.2–1.1 MPa; densities 87–552 kg/m³ |
+| Jones et al., "Thermal degradation and fire properties of fungal mycelium and mycelium–biomass composite materials", *Scientific Reports* 8 (2018), doi 10.1038/s41598-018-36032-9 | Cone calorimeter at 50 kW/m² | Peak heat-release rate ~180 kW/m² for composites vs ~200 kW/m² for the uncolonised substrate (~10 % lower); char layer protective |
+| Hy-Fi, The Living with Ecovative and Arup, MoMA PS1 (2014) | ~10,000 corn-stalk / mycelium bricks, ~13 m (40 ft) temporary tower | Stood for a summer (scaffold planks limited wind sway), then composted. No published compressive value found; Arup's first strength check was literally a structural engineer standing on a brick. |
+
+**Takeaway.**
+- The POL 2.1–3.6 MPa target is reachable in principle only with heavy densification (~950 kg/m³, about double the POL 420–480 kg/m³ density target).
+- At 420–480 kg/m³, published values suggest ~1 MPa or less.
+- Weathering cut strength by ~50–85 %, so a protective skin is essential.
+- **Coupon testing remains required.**
 
 ## Toward a housing-first protocol (draft placeholder)
 Channing's goal is that open, low-cost grown materials help people get safe shelter.
