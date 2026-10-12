@@ -409,6 +409,30 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
   - If measured stored energy exceeds input, the instrumentation is wrong.
   - The real test is what fraction is recoverable through the gated leak at different gate timings.
 
+### R8. Atmosphere layers & Earth–Moon vortex (spin + plasma flow)
+- **Grounded:**
+  - **Lunar atmospheric tide:** the Moon raises a small semidiurnal pressure tide L₂(p), with a 12.42 h period. It was first determined by Lefroy (1842) from St Helena data and was later systematised by Chapman. At Copenhagen it is ~10 μb, compared with ~225 μb for the solar S₂: Chapman, *QJRMS* 95:381 (1969). The review is Chapman & Lindzen, *Atmospheric Tides: Thermal and Gravitational* (Reidel, 1970), doi 10.1007/978-94-010-3399-2. Tides propagate upward through the layered atmosphere and grow in amplitude with height.
+  - **Plasmasphere corotation:** cold ionospheric plasma inside the plasmapause corotates with Earth, driven by the corotation E-field (v×B of the rotating dipole). The plasmapause sits roughly where corotation balances the dawn–dusk convection field. It was discovered by whistlers in Carpenter, *JGR* 68:1675 (1963), and independently by Gringauz (1963). This is the closest real thing to a "spin-driven plasma vortex" around Earth, and it extends only ~4–6 R_E, far inside lunar orbit (~60 R_E).
+  - **The Moon crosses the magnetotail:**
+    - The Moon spends ~4–6 days per month around full moon inside Earth's magnetotail, and ~10–40 h/month inside the plasma sheet. That figure varies over the 18.6-yr nodal cycle: Hapgood, *Ann. Geophys.* 25:2037 (2007).
+    - ARTEMIS mission paper: ~4.5 days per orbit in the tail, 20–30 h in the plasma sheet.
+    - Kaguya saw plasma-sheet electrons absorbed by the lunar surface and a ~10 mV/m near-Moon E-field: Harada et al., *GRL* 37:L19202 (2010), doi 10.1029/2010GL044574.
+  - **Global electric circuit:** thunderstorms charge the ionosphere to ~+250 kV relative to the ground, and current returns through fair-weather air at ~2 pA/m². Aircraft measurements of ionospheric potential are in Markson, *JGR* 81:1980 (1976); for a review see Rycroft et al. (2012, Reading/CAWSES). This links to R7's Takahashi charging.
+  - **No lunar global dynamo today:** the Moon has only crustal magnetic anomalies, mapped by Lunar Prospector and Kaguya, plus paleomagnetism from an ancient dynamo (~4.25–3.56 Ga): Weiss & Tikoo, "The lunar dynamo", *Science* (2014), doi 10.1126/science.1246753.
+- **RGRF extension (Speculative):**
+  - Earth's spin plus plasma flow forms an Earth–Moon "vortex" that couples the two bodies, extending the planet–moon vortex lineage (**L2**).
+  - **Contrast with Io:**
+    - Io sits *inside* Jupiter's corotating magnetosphere and is a conducting, volcanic, ion-loading obstacle, so it drives ~MA flux-tube currents (L2).
+    - The Moon sits *outside* Earth's corotating plasmasphere, mostly in the solar wind, with no global field and a weak exosphere.
+    - The Earth–Moon electrodynamic coupling is therefore intermittent (magnetotail passages) and weak.
+    - The only robust Earth–Moon couplings are gravitational: tides, and the lunar atmospheric and geomagnetic tides.
+  - "Vortex" is acceptable for corotation, but a corotation-vortex link to the Moon is **Speculative**.
+- **Falsifiable question:** does any magnetospheric or ionospheric quantity show a lunar-phase signal beyond the known gravitational lunar tide and the magnetotail-passage effects? For example, is the ~250 kV ionospheric potential modulated at the synodic month after removing the lunar tidal wind dynamo?
+- **Bench test:**
+  - Rotating magnetised sphere (terrella) in a weakly ionised plasma, with a small unmagnetised conducting "moon" probe placed inside versus outside the corotating region.
+  - Measure induced current to the probe and the potential across it.
+  - Prediction: coupling is strong only when the probe sits in corotating plasma (the Io-like case) and drops to wake-only effects outside (the Moon-like case).
+
 **Overall tags:**
 - R2–R5 anchors: **Grounded**.
 - The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.
