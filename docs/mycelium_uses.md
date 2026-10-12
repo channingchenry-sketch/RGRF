@@ -3,7 +3,7 @@
 License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Speculative**.
 
 ## Verified reference data
-Jones, Mautner, Luenco, Bismarck & John, "Engineered mycelium composite construction materials from fungal biorefineries: a critical review", *Materials & Design* 187, 108397 (2020). Citation verified.
+Jones, Mautner, Bismarck & John, "Engineered mycelium composite construction materials from fungal biorefineries: a critical review", *Materials & Design* 187, 108397 (2020). Citation verified.
 - As-grown composites: density **~87–552 kg/m³**; compressive strength typically **~0.2–1.1 MPa** (e.g. wheat straw 0.17 MPa, white-oak sawdust 1.1 MPa).
 - Insulation grades (straw/hemp): **57–99 kg/m³**, thermal conductivity **0.04–0.08 W/m·K**, comparable to glass wool or XPS.
 - High acoustic absorption and good fire performance.

@@ -8,7 +8,7 @@ License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Spe
 - A controller adjusts the cell pressure or the coil power.
 
 **Archive mentions:**
-- `rgrf_framework.md`, Multi-Egg pathway (10 Aug 2026): "radial fluid pathways, organized eddy currents, density gradients, **piezo + helium dual-purpose**, Lorentz controls".
+- `rgrf_framework.md`, Multi-Egg pathway (first-order geometry 27 Aug 2026; force estimates 30 Aug 2026): "radial fluid pathways, organized eddy currents, density gradients, **piezo + helium dual-purpose**, Lorentz controls".
 - First-order geometry, 27 Aug 2026: 5 eggs, major axis ~0.185 m, arm ~0.485 m, outer ~0.58 m, mass penalty +6–13 kg.
 - Force estimates, 30 Aug 2026: "helium ~0.02 N … gyro = torque not F_z … Not lift".
 
