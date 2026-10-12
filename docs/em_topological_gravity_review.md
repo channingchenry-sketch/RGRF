@@ -136,6 +136,44 @@ These are Channing's reference sequence, which Channing labels **speculative** a
   - Hexagon as evidence that geometry (3-6-9 or φ) itself organises the flow: Speculative. The wavenumber is set by jet width, shear and rotation (Rossby number), not by number symbolism.
 - **Falsifiable question.** In a rotating-tank experiment, does the polygon number N track the predicted shear/Rossby-number dependence? Or does it prefer 6 (or φ-related ratios) independent of those parameters? The published experiments show N varying with rotation and shear, which supports the fluid-dynamics explanation.
 
+- **Channing's variant: "two flow paths and a resonant bottom" (Plausible-untested).**
+  - The published lab analogs drive polygons by *differential rotation* between two flows (a rotating plate vs. stationary walls, or a forced jet/shear layer).
+  - The RGRF variant keeps the two flow paths but makes the bottom plate *oscillating/resonant* (vibrated or pulsed), so a drive frequency is added alongside the shear.
+  - This is physically reasonable: forced oscillation can lock wave modes (parametric excitation, as in Faraday waves). But it has not been demonstrated for rotating-shear polygons, to my knowledge.
+  - This is where the earlier Grok sessions landed: the archived 29 Aug 2026 thread framed the hexagon as a ribbon-Rossby / interior-differential-rotation problem.
+- **Falsifiable bench test.**
+  - Setup: a rotating tank (rotating bottom plate, stationary wall) with the bottom plate also vibrated vertically by a shaker at a controlled frequency f_d and amplitude.
+  - Sweep the shear (rotation rate) at fixed f_d, then sweep f_d at fixed shear. Record polygon mode number N and its rotation rate (overhead camera).
+  - **Prediction to test:** if the resonant bottom matters, N (or the polygon rotation rate) locks to f_d over a range of shear where the unvibrated tank would change N. If N tracks only shear/rotation as in the published experiments, the resonant-bottom hypothesis is falsified for this setup.
+  - Control runs: no vibration, and vibration at non-commensurate frequencies.
+
+### 4. Jupiter: fuzzy (dilute) core & metallic hydrogen
+- **Observed (Grounded, citations verified):**
+  - **Dilute core.** Juno's precise gravity harmonics (J2–J8) are best fit by models in which heavy elements are dissolved and spread through roughly 0.3–0.5 of Jupiter's radius. This is a "fuzzy" or dilute core of ~7–25 Earth masses of heavy elements, rather than a compact one.
+    - Wahl et al., "Comparing Jupiter interior structure models to Juno gravity measurements and the role of a dilute core", *Geophys. Res. Lett.* 44 (2017), doi:10.1002/2017GL073160.
+    - Stevenson, "Jupiter's Interior as Revealed by Juno", *Annu. Rev. Earth Planet. Sci.* 48, 465–489 (2020): "A core exists but is diluted by hydrogen". Winds extend to ~3,000 km depth.
+  - **Dynamo in metallic hydrogen.** Under compression, hydrogen becomes a metallic (electrically conducting) fluid. Convection there generates the field. Juno field models put the effective dynamo radius near ~0.8 R_J, at the outer part of the metallic region.
+  - **Field maps.** Moore et al., "A complex dynamo inferred from the hemispheric dichotomy of Jupiter's magnetic field", *Nature* 561, 76–78 (2018).
+    - Most flux emerges in a narrow northern band, and some returns through an intense, isolated equatorial patch (the "Great Blue Spot").
+    - The non-dipolar field is concentrated in the north; the south is mostly dipolar.
+    - The authors propose radial layering in density and/or conductivity.
+    - Later Juno work attributes most observed secular variation to deep zonal winds shearing the Great Blue Spot.
+- **Channing's hypothesis (Speculative).** The core / metallic-hydrogen boundary acts *repulsive or refractive* to the magnetic field, rather than coupling to it.
+- **How it relates to real concepts:**
+  - **Stably stratified layers:** a compositional gradient (the dilute core) or a helium-rain layer can suppress convection. That would confine or shape where the dynamo operates. This is mainstream and is one of Moore et al.'s suggested explanations. It is the closest grounded cousin of the idea.
+  - **Helium rain:** helium immiscibility in metallic hydrogen, which can form a stable layer. This is predicted by theory and supported indirectly (Saturn's helium depletion; Jupiter's atmospheric helium).
+  - **Skin-depth screening:** a conducting, stably stratified layer *outside* the dynamo filters time-varying field components (skin effect, δ = √(2/(μ₀σω))). This is real and can smooth or "refract" what is seen outside. A layer *inside* the dynamo region mostly affects the boundary conditions.
+  - **Diamagnetism:** genuinely repulsive, but material diamagnetic susceptibilities are ~10⁻⁵. That is negligible next to dynamo fields, so it is not a credible repulsion mechanism at planetary scale.
+- **Falsifiable question.** Does a refractive/repulsive boundary predict *different* Juno observables from standard layered-dynamo models? For example:
+  - specific flux-concentration patterns (where Great Blue Spot-like patches form);
+  - the hemispheric dichotomy;
+  - the magnetic power spectrum's apparent source radius;
+  - the rate and pattern of secular variation.
+  
+  If its predictions match standard stratified-layer models exactly, it adds nothing testable. If it predicts something they don't, Juno's extended-mission data can check it.
+- **Missing:** a stated mechanism (what physical property makes the boundary repulsive or refractive), the equations (boundary conditions on B and the induction equation), and predicted magnitudes.
+
 ### Open items
 - Source and derivation of the ~80° "angular structuring" figure.
+- Mechanism and equations for the Jupiter 'refractive boundary' hypothesis.
 - How (if at all) these planetary analogies feed into RGRF engineering. Rotating-tank polygon experiments are a cheap, grounded bench activity that would link the Saturn thread to RGRF's laminar-precession ideas.
