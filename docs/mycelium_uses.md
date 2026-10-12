@@ -67,3 +67,57 @@ Source: screenshots `2026-10-11_mycelium_recent_1..5.png` in the archive. Every 
 - The POL compressive target (2.1–2.8 MPa, up to ~3.6) exceeds the Jones et al. 2020 range for as-grown composites (~0.2–1.1 MPa). It needs coupon tests.
 - The Bath column is verified.
 - The "typical hemp-mycelium" column values (99–150 kg/m³, ~0.0404 W/m·K) are Channing's summary and were not traced to one source.
+
+## Nodal structuring & mechanical conditioning
+Source: screenshots `2026-10-11_nodal_1.png` and `_2.png` in the archive (Grok summary), plus Channing's new idea. Every citation was checked by web search.
+
+### What controls "node" density today
+| Lever | Evidence | Label |
+|---|---|---|
+| **Living-textile node patterning.** In *C. militaris* sheets, nutrient-induced aerial hyphae grow in deliberate patterns after the sheet is formed (Li et al., *Science Advances*, 2026, cited above). This is spatial control of new growth after fabrication. | Verified | Grounded (lab, textile scale) |
+| **Hot-pressing / densification** after colonisation. It collapses free volume, raises contact-point density and increases stiffness. It is the practical lever from insulation grade (~250 kg/m³) toward the POL range (420–480 kg/m³). | General literature (e.g. Jones et al. 2020 review); already in the grow protocol | Grounded direction. POL-range strength still Plausible-untested. |
+| **Mineralising scaffolds** (*N. crassa* ± *S. pasteurii*; *Cell Rep. Phys. Sci.* 2025, cited above). CaCO₃ stiffens the network, cells stay viable for ≥4 weeks, and bone-like internal geometries were shown. | Verified | Grounded (lab) |
+
+### Gaps (listed by Grok)
+- Quantitative models that link measured node topology (CT / micro-CT) to the damping coefficient and compressive strength under **cyclic rider loads**. The qualitative story exists; the closed-loop numbers are thin.
+- Scalable methods to **place or reinforce high-stress nodes** (under foot pads or coil mounts) instead of relying on uniform colonisation.
+
+### Two near-term paths
+1. Keep **density + hot-press** as the primary node-density lever.
+2. Use pure-mycelium or lightly reinforced **surface skins** (VTT-style sheets or living-textile methods) as a test bed for deliberate node patterning, without risking the main structural core.
+
+### Channing's idea: mechanical stress conditioning to induce denser nodes
+The idea: apply mechanical stress during growth to living mycelium, hemp and bamboo, so that they lay down denser nodes or reinforcement where loads act.
+
+**Grounded analogs:**
+- **Thigmomorphogenesis in plants.**
+  - Jaffe, *Planta* 114:143–157 (1973), doi 10.1007/BF00387472. Rubbing internodes ~10 s once or twice daily significantly retarded elongation in several species; growth recovered 3–4 days after stopping. Possibly ethylene-mediated.
+  - The response is shorter, stockier growth, not proven "denser nodes".
+- **Bamboo nodes and diaphragms.**
+  - In *Phyllostachys iridescens* (*Forests* 15:1740, 2024), nodes with diaphragms gave ~+250 % radial stiffness and ~+92 % bending MOE versus internodes, with ~+10 % compressive strength and lower tensile properties.
+  - Buckling studies are mixed: one found nodes had little effect on the critical buckling load (Suada et al., *ARPN J. Eng. Appl. Sci.*, 2020); modelling shows nodal and diaphragm thickness raises local buckling load.
+  - So nodes help ring and bending stiffness more than axial strength.
+- **Reaction wood (tension and compression wood).** Trees form specialised wood in response to sustained lean or load. This is textbook plant biology, so no single citation is given.
+- **Hemp fibre response to wind or mechanical stimulation:** **no direct study found (flagged).** Hemp fibre properties do shift with cultivation stress (e.g. drought raised fibre modulus in one study), but controlled wind or flexing trials on fibre mechanics were not identified.
+- **Fungal mechanosensing (verified):**
+  - Fungi have stretch-activated, Ca²⁺-permeable channels: Zhou et al., *Science* 253:1415 (1991), *Uromyces*.
+  - Hyphae show thigmotropism (*C. albicans* Mid1/Cch1).
+  - Reviewed in Kumamoto, *Nat. Rev. Microbiol.* (2008), "Molecular mechanisms of mechanosensing and their roles in fungal contact sensing".
+  - So hyphae *can* sense force. Whether cyclic load changes branching or node density in a growing composite is untested.
+
+**Tags:**
+- Plants and bamboo responding to stress: **Grounded**.
+- Stress-conditioned hemp fibre: **Plausible-untested**.
+- Stress-conditioned mycelium node density: **Plausible-untested**.
+- Targeted node placement under foot pads or coil mounts: **Speculative** until shown.
+
+### Bench test: cyclic-loaded vs unloaded colonising blocks
+1. Inoculate matched *T. versicolor* / hemp-hurd blocks (n ≥ 6 per group, same substrate batch and moisture).
+2. During colonisation (days 3–14), apply gentle cyclic compression to one group, e.g. 1–5 kPa at ~0.1–1 Hz for a few minutes per hour, using a cam or servo press. Keep a sham-handled control group at the same temperature and humidity.
+3. Heat-inactivate and dry both groups identically, with optional identical hot-press.
+4. Measure:
+   - density;
+   - micro-CT network metrics (hyphal volume fraction, junction/node density, pore size);
+   - compression (modulus, 10 % strength);
+   - cyclic-compression damping (loss factor).
+5. Pass/fail: the loaded blocks show a statistically higher node density **and** modulus or damping at equal density. A density-only increase means compaction, not conditioning.
