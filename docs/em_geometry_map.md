@@ -44,5 +44,5 @@ License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Spe
 | **Neural networks** | Biological and artificial networks learn by weighted connections. Fungal memristors exist (`mycelium_uses.md`). | "Information network" analogy | Grounded (as networks); analogy to cosmos Speculative |
 | **Fractals** | Self-similarity occurs in coastlines, turbulence, branching (lungs, mycelium) and the large-scale galaxy distribution over a limited range. Archive: rgrf_framework.md, "Fractal Self-Similarity: Every level (personal → planetary → cosmic) mirrors the same phi-spiral, vortex, and docking logic"; 27 May 2026 email, "phi spirals, fractals, mycelium composites, and informed cosmic structures". | Same logic at every scale | Fractal statistics Grounded; "same logic at every scale" Speculative (physics changes with scale) |
 
-## Open item
-The **C1–C12 map** (Multi-Egg / thread coordinates) referenced in Grok chat `68a752c4` (archive email `2026-08-29_multi-egg-geometry-map-updated.md`, 29 Aug 2026) is **still missing**. Only the notification snippet was archived, not the map itself.
+## C1–C12 seed map
+The C1–C12 map from Grok chat `68a752c4` (Aug 2026) has been recovered. See [C1-C12_seed_map.md](C1-C12_seed_map.md).

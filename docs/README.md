@@ -15,6 +15,7 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [grow_log_template.csv](grow_log_template.csv) | Blank citizen-science grow log (CSV). |
 | [coral_wave_barriers.md](coral_wave_barriers.md) | Coral reefs as grown wave barriers (Ferrario 2014, USGS 2019), verified Hawaiʻi restoration projects, Biorock/oyster/3D-printed reefs, link to MICP thread. |
 | [em_geometry_map.md](em_geometry_map.md) | Color-coded EM & geometry map (symbolic lens; divergences from physics) and informed-universe threads. |
+| [C1-C12_seed_map.md](C1-C12_seed_map.md) | Recovered C1–C12 seed map (originally Grok chat 68a752c4, Aug 2026), verbatim. |
 | [images/Color_Coded_EM_Geometry_Map.jpg](images/Color_Coded_EM_Geometry_Map.jpg) | Image: Color-Coded EM & Geometry Map |
 | [images/RGRF_Manta_Butterfly_Craft_Concept.jpg](images/RGRF_Manta_Butterfly_Craft_Concept.jpg) | Concept image: Manta-Butterfly craft |
 | [images/POL_v0.1_Hoverboard_System.jpg](images/POL_v0.1_Hoverboard_System.jpg) | Concept diagram: POL v0.1 system overview |
