@@ -11,6 +11,8 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md) | Piezo sensing/actuation plus helium gas-spring damping in the POL height loop: block diagram, realistic numbers, bench test. |
 | [mycelium_uses.md](mycelium_uses.md) | Every mycelium use found in the archive, with source references, honest labels and verified material data (Jones et al. 2020). |
 | [manta_butterfly_craft.md](manta_butterfly_craft.md) | Manta-Butterfly concept plus re-entry energy harvesting (TEG, MHD, sheath) and storage mass estimates. |
+| [open_grow_kit.md](open_grow_kit.md) | Draft open grow kit: protocol-to-bubble-home gaps, starter panel spec and quantities, measurement log, safety, housing-first placeholder. |
+| [grow_log_template.csv](grow_log_template.csv) | Blank citizen-science grow log (CSV). |
 | [images/RGRF_Manta_Butterfly_Craft_Concept.jpg](images/RGRF_Manta_Butterfly_Craft_Concept.jpg) | Concept image: Manta-Butterfly craft |
 | [images/POL_v0.1_Hoverboard_System.jpg](images/POL_v0.1_Hoverboard_System.jpg) | Concept diagram: POL v0.1 system overview |
 | [images/Laminar_Precession_Dynamics.jpg](images/Laminar_Precession_Dynamics.jpg) | Concept diagram: laminar precession (speculative design target) |
