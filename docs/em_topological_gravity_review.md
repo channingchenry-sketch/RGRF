@@ -111,6 +111,14 @@ This is the order in which Channing developed the threads (all labelled speculat
 7. Saturn: the hexagon and the resonant-bottom variant (below).
 8. Jupiter: fuzzy core and metallic hydrogen (below).
 9. Field lines and longitudinal energy channels (recurring; entry L5 below).
+10. Wireless energy transfer (L6).
+11. Magnetic waveguides & bypasses (L7).
+12. Biology: microtubules and acoustic sand structuring (L8).
+13. Quantum biology, entanglement communications, multiverse escape (L9).
+14. Crystalline "DNA" / stacking information storage (L10).
+15. Loop Quantum Gravity in the black-hole "womb" / ellipsis thread (L11).
+16. Data-centre waste-heat reuse (L12).
+Then the loop returns to **shifting phase order** (see `shifting_phase_order_review.md`).
 
 **What the archived sessions actually said.** I searched the archive's emails, attachments and docs. There was no OCR tool for the images.
 - "Isotropic", "tensor", "accretion", "sink", "helium rain" and "moon" do **not** appear anywhere. The closest earlier wording:
@@ -212,6 +220,83 @@ This is the order in which Channing developed the threads (all labelled speculat
   - What does exist: longitudinal *plasma* (Langmuir) waves, and near-field (non-radiative) inductive or capacitive coupling. The near-field is the basis of resonant wireless power and decays rapidly with distance.
 - **Falsifiable question.** For a proposed terrestrial "longitudinal channel" link, what are the transmitted power, distance and medium? Does the received power exceed the near-field (∝ r⁻⁶ for weakly coupled coils) or radiative (∝ r⁻²) expectation for the same hardware, measured with a calibrated load and a shielded control?
 - **Missing.** A physical carrier for the channel (plasma? conductor? field?), frequency and geometry, and predicted efficiency against distance.
+
+*Entries L6–L12 are reconstructed from Channing's recollection plus 11 Oct 2026 SuperGrok screenshots (2026-10-11). Claims from the screenshots were checked by web search; unverified items were dropped.*
+
+### L6. Wireless energy transfer (Northern Europe focus noted)
+- **Observed (Grounded, verified).**
+  - **20 kW-class inductive EV charger at 98.51 % AC-to-AC efficiency**, using stress-annealed Fe-based nanocrystalline cores (effective permeability 2330; core loss 135 kW/m³ at 85 kHz, 0.2 T; 9.55 kW/L). Wang et al., "Inductive charging systems empowered by stress-annealed nanocrystalline alloys with high induced magnetic anisotropy", *Nature Communications* (2026), doi:10.1038/s41467-026-78003-z. The team was from the CAS Dongguan Institute of Materials Science and Technology, City University of Hong Kong, the University of Cambridge and the CAS Institute of Physics. **The screenshot claim is confirmed.**
+  - **Qi2 25W** (Qi v2.2.1) was launched by the Wireless Power Consortium on 23 July 2025, raising the Qi2 limit from 15 W to 25 W. **Confirmed.**
+  - **Magnetic metamaterials** improve near-field WPT efficiency, range and misalignment tolerance, and reduce leakage. Examples:
+    - a magnetic-metamaterial superlens at 13–16 MHz (*Scientific Reports* 4, 3642, 2014, "Magnetic Metamaterial Superlens for Increased Range Wireless Power Transfer");
+    - a review: "A Review of Metamaterials in Wireless Power Transfer", *Materials* 16, 6008 (2023), reporting e.g. ~30 % efficiency gains.
+    
+    **Confirmed in substance.** The screenshot's "roughly doubling" upper range was not specifically verified.
+  - The screenshot's "multi-MHz systems routinely 95–97 %" was not verified as a general figure, so it is omitted.
+  - Nordic-specific WPT projects: none verified, so none are listed.
+- **POL implication (important).** Even 98 % transfer efficiency does not reduce the **~10–17 kW** hover demand found by physical models. That power is dissipated as eddy-current heat in the floor plate and coil (P/F ≥ ωδ). Better WPT only reduces the losses *before* the coil.
+- **RGRF extension.** Wireless power as the energy backbone for pads and nodes. Grounded for near-field charging; Speculative for long-range or "free-air" distribution.
+- **Falsifiable question.** For any proposed RGRF WPT link, does the measured efficiency against gap follow standard coupled-mode theory (η depends on k²Q₁Q₂)? Or does phi or another geometry outperform an equivalently optimised conventional coil? (The POL sim found phi ~8.7 % worse.)
+- **Missing.** Target power, gap and frequency for RGRF nodes, plus field-exposure (ICNIRP) limits.
+
+### L7. Magnetic waveguides & bypasses
+- **Grounded analogs.**
+  - Ferrite microwave devices (circulators, isolators, ferrite-loaded waveguides) steer RF using magnetised ferrites.
+  - Magnetic flux guides and concentrators (laminated cores, mu-metal shields) route quasi-static flux.
+  - Magnonic waveguides carry spin waves in magnetic films (an active research field).
+  - The nanocrystalline "overpass" core in L6 is a practical flux guide.
+- **RGRF extension.** "Magnetic bypasses" that route energy around obstacles or between nodes. Speculative framing: real flux guides only work at short range, inside high-permeability material, and with core losses.
+- **Falsifiable question.** Does a proposed bypass deliver more flux or power at the target than a conventional ferrite or nanocrystalline guide of the same mass and loss?
+- **Missing.** Geometry, material and frequency.
+
+### L8. Biology: microtubules; acoustic sand structuring
+- **Grounded.**
+  - Microtubules are tubulin polymers (~25 nm diameter) forming the cytoskeleton, with roles in transport and cell division.
+  - The **Orch-OR** proposal (consciousness from orchestrated quantum processes in microtubules) is **Speculative and debated**: Hameroff & Penrose, "Consciousness in the universe: a review of the 'Orch OR' theory", *Physics of Life Reviews* 11, 39–78 (2014). Critics argue decoherence in warm, wet tissue is too fast.
+- **Acoustic structuring of sand (proposed analog; left for testing).**
+  - Grounded phenomena: Chladni figures (particles collect on nodal lines of vibrating plates; e.g. "Controlling the motion of multiple objects on a Chladni plate", *Nature Communications* 7, 12764, 2016).
+  - Acoustophoretic transport in air: Foresti et al., *PNAS* (2013), "Acoustophoretic contactless transport and handling of matter in air".
+  - Holographic acoustic levitation: Marzo et al., "Holographic acoustic elements for manipulation of levitated objects", *Nature Communications* 6, 8661 (2015).
+  - Acoustofluidic holography for micro/nanoparticle patterning: *ACS Nano* 14, 14635 (2020).
+- **RGRF extension.** Sound-structured granular or bio-composite patterning, e.g. aligning particles or fibres in mycelium or hempcrete before curing. Plausible-untested. A link between microtubule vibrations and acoustics is Speculative.
+- **Cheap bench test.** Mount a steel or acrylic plate (~25 cm) on a speaker or shaker, with a signal generator sweeping 50 Hz–5 kHz. Sprinkle fine sand, or wet hemp fibre / mycelium slurry. Photograph the pattern against frequency, and test whether patterns persist after the slurry sets. Afterwards, measure density and strength variation across nodal and antinodal regions against an unvibrated control.
+- **Missing.** What property the structuring should improve (strength, porosity, acoustic damping), and target frequencies.
+
+### L9. Quantum biology; entanglement communications; multiverse escape
+- **Quantum biology** (Flavin organizer map, ~Sept 2026; kept separate from POL hardware):
+  - Radical-pair spin chemistry and flavin photochemistry are **Grounded** chemistry. Cryptochrome flavoproteins form light-induced radical pairs whose spin dynamics are magnetic-field sensitive.
+  - **Cryptochrome-based magnetoreception** in migratory birds is a leading hypothesis with substantial experimental support. Labelled Plausible (well supported, not fully settled). I did not verify a specific review citation, so none is given.
+- **Entanglement for communications.**
+  - Grounded: entanglement-based quantum key distribution.
+  - By the **no-signalling theorem**, entanglement alone cannot transmit information faster than light or without a classical channel. "Entanglement communications" beyond QKD/teleportation (which still need a classical channel) is Speculative or forbidden.
+- **Multiverse escape.** Speculative. This is novel material (e.g. for the *Entanglements* book), not physics.
+- **Falsifiable question (magnetoreception).** Do weak radio-frequency fields at the radical-pair resonance (MHz range, nT amplitudes) disrupt the orientation behaviour or biochemical response, as radical-pair theory predicts?
+- **Missing.** How quantum biology connects to RGRF beyond inspiration.
+
+### L10. Crystalline "DNA" / stacking information storage
+- **RGRF idea.** Crystalline structures in cores or wells carry information-like phi/fractal patterns as a regenerative storage medium. Speculative (as labelled in the archive).
+- **Real analogs (Grounded):**
+  - **5D optical storage in fused silica**: femtosecond-laser nanostructures encoding data by position plus birefringence slow-axis and retardance. Zhang, Gecevičius, Beresna & Kazansky, "Seemingly unlimited lifetime data storage in nanostructured glass", *Phys. Rev. Lett.* 112, 033901 (2014).
+  - **DNA data storage**: Church, Gao & Kosuri, "Next-generation digital information storage in DNA", *Science* 337, 1628 (2012). A 5.27-megabit book was encoded and read back.
+- **Falsifiable question.** Can any natural crystal or core sample be shown to store retrievable, non-random information above what its formation physics predicts (with a stated encoding hypothesis and a blind decode)?
+- **Missing.** Encoding scheme, readout method, and where the information comes from.
+
+### L11. Loop Quantum Gravity in the black-hole "womb" / ellipsis thread
+- **Grounded context.** Loop Quantum Gravity (LQG) is a candidate quantum-gravity theory with discrete spin-network geometry. It is mathematically developed but **experimentally unconfirmed**. LQG-inspired work explores singularity resolution ("bounces").
+- **RGRF extension.** Black holes as an organising "womb" or an information-preserving pause (ellipsis). Speculative. Parked as a narrative and theme for the *Entanglements* novel, not RGRF engineering.
+- **Falsifiable question.** Does the scenario predict a gravitational-wave echo, a remnant signature, or a deviation in black-hole ringdown that LIGO-Virgo-KAGRA or the Event Horizon Telescope could detect?
+- **Missing.** A specific model and observable.
+
+### L12. Data-centre waste-heat reuse (Grounded, verified)
+- **Stockholm, Sweden.** Stockholm Exergi's *Open District Heating* (since ~2013/2014) and Stockholm Data Parks recover data-centre heat into the city network: >100 GWh in 2022 from ~20 suppliers, heat pumps in Hjorthagen (24 MW). Sources: EU Covenant of Mayors case study (2023); Stockholm Exergi references.
+- **Espoo / Kirkkonummi, Finland.** Fortum and Microsoft are building heat-pump plants (Hepokorpi, Kolabacken; operations started 2026). Heat recovery from Microsoft's data centres is phasing in, aiming at ~40 % of the area's district heat. Source: Fortum press release, May 2026.
+- **Odense, Denmark.** Meta's data centre has supplied heat to Fjernvarme Fyn since 2019, ~100,000 MWh/yr. This comes from a secondary industry summary; the primary source was not checked.
+- **Other routes:** greenhouses, aquaculture, absorption chilling (heat-driven cooling), and low-temperature district networks with heat pumps.
+- **RGRF extension.** Co-locating compute with regenerative housing and greenhouses, so data-centre heat closes energy loops. Grounded in principle; site-specific economics.
+- **Falsifiable question.** For a proposed RGRF node, what fraction of compute heat is actually used annually, given summer surplus (Fortum notes ~75 % annual use)? What is the net CO₂ saving against the displaced heat source?
+- **Missing.** Node size, heat-demand profile and temperature levels.
+
+**Loop note.** The lineage returns to **shifting phase order** (laminar precession, perturbation sections; see `shifting_phase_order_review.md`). The recurring motif is energy organised along channels (field lines, flux guides, heat networks) and kept in an ordered phase rather than dissipated.
 
 ## Planetary & stellar reference threads
 These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
