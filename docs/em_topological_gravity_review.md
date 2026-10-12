@@ -316,6 +316,67 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 
 **Loop note.** The lineage returns to **shifting phase order** (laminar precession, perturbation sections; see `shifting_phase_order_review.md`). The recurring motif is energy organised along channels (field lines, flux guides, heat networks) and kept in an ordered phase rather than dissipated.
 
+## Re-walk: angular momentum ↔ isotropic tensor ↔ leaky boundaries
+**Channing's chain:**
+1. A black hole creates a long-wavelength path, etched in early formation along large longitudinal lines.
+2. That path gives angular momentum and an "informed path".
+3. Then come pressure gradients.
+4. Then recurring "leaky boundaries".
+5. Then back pressure at the heliosheath and termination shock.
+
+Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiable question.
+
+### R1. Black-hole jets and long longitudinal lines
+- **Grounded:**
+  - AGN jets are collimated along the black hole's spin and magnetic axis and reach kpc to Mpc scales.
+  - The largest known system, "Porphyrion", spans ~7 Mpc (~23 million light-years) end to end: "Black hole jets on the scale of the cosmic web", *Nature* (2024), doi 10.1038/s41586-024-07879-y, LOFAR, verified.
+  - Matter is organised into a **cosmic web** of filaments, sheets and voids (standard ΛCDM structure formation; observed in redshift surveys).
+- **RGRF extension:** an early black hole "etches" a long-wavelength path that later structure follows, an "informing path". **Speculative.** In standard cosmology, filaments come from gravitational collapse of primordial density fluctuations, not from jets. Jets are far younger and smaller than the web, even at 7 Mpc versus filaments of tens of Mpc.
+- **Falsifiable question:** do giant radio jets align with their host filaments more than chance? A predicted "etched-path" alignment of the oldest, largest jets with filament axes is testable with LOFAR plus filament catalogues.
+
+### R2. Angular momentum from the large-scale field: tidal torques and spin–filament alignment
+- **Grounded:**
+  - **Tidal torque theory:**
+    - Peebles, "Origin of the angular momentum of galaxies", *ApJ* 155:393–401 (1969), doi 10.1086/149876.
+    - White, "Angular momentum growth in protogalaxies", *ApJ* 286:38–41 (1984), doi 10.1086/162573. Spin grows linearly with time from torques by the surrounding tidal field.
+  - **Observed alignment:**
+    - Tempel & Libeskind, *ApJL* 775:L42 (2013), SDSS: spiral spins align *with* host filaments, and elliptical minor axes lie perpendicular.
+    - Welker et al. (SAMI), *MNRAS* 491:2864–2884 (2020), doi 10.1093/mnras/stz2860: low-mass galaxies align with filaments, while above ~10^10.4–10^10.9 M☉ spins flip to perpendicular through mergers.
+  - So angular momentum *is* "informed" by large-scale structure, through gravity.
+- **RGRF extension:** the "informed path" gives spin. **Plausible as a framing** of tidal torque theory. Speculative if it requires an electromagnetic or black-hole etching origin.
+- **Falsifiable question:** does any spin–filament signal remain after removing the tidal-torque and merger prediction (e.g. a residual correlated with jet or field direction)?
+
+### R3. Pressure gradients: isotropic tensor → anisotropy along filaments and B
+- **Grounded:**
+  - A tangled field averages to isotropic magnetic pressure B²/6μ₀, but an ordered field gives pressure ⊥B and tension ∥B (see **L4**, Maxwell stress tensor).
+  - Filaments, flux tubes and the interstellar field therefore turn isotropic pressure into anisotropic, field-aligned structure.
+- **RGRF extension:** "the isotropic tensor breaks along the informed path". **Plausible-untested** as a description, and Grounded as plasma physics.
+- **Falsifiable question:** in Voyager or IBEX data, is local interstellar pressure measurably anisotropic with respect to the interstellar B direction? (See R5.)
+
+### R4. Leaky boundaries (recurring)
+- **Heliopause (Grounded).**
+  - Voyager 1, 2012 (Krimigis et al., "Search for the exit: Voyager 1 at heliosphere's border with the galaxy", *Science* 341:144 (2013)): at ~123 au, solar-origin particles fell >1000× on 25 Aug 2012 while galactic cosmic rays rose 9.3 %. Boundary crossings came first in azimuthal particle directions.
+  - Burlaga, Ness & Stone, *Science* 341:147–150 (2013): B rose from ~0.2 to ~0.4 nT with **no direction change**, which was read as a "magnetic highway" along which particles leak both ways.
+  - Plasma-wave data later indicated interstellar plasma: "In situ observations of interstellar plasma with Voyager 1", *Science* (2013).
+  - The boundary is porous, not a wall.
+- **Magnetopause (Grounded).** Dungey, "Interplanetary magnetic field and the auroral zones", *Phys. Rev. Lett.* 6:47 (1961) introduced reconnection, which opens the magnetosphere to the solar wind. Flux-transfer events (FTEs) are the bursty "leaks". This links to the **C6** seed (magnetopause / bow shock / FTEs / K-H vortices; see `C1-C12_seed_map.md`).
+- **RGRF extension:** leaky boundaries recur at every scale (cell membranes, magnetopause, heliopause, galaxy halos). **Grounded as a pattern of open systems.** Speculative if claimed to be the same mechanism across scales.
+- **Falsifiable question:** does leakage scale with a common dimensionless parameter, e.g. reconnection rate ~0.1 V_A, at magnetopause and heliopause?
+
+### R5. Back pressure: termination shock and heliosheath
+- **Grounded:**
+  - **Voyager 1** crossed the termination shock on **16 Dec 2004 at 94.01 au**: Stone et al., "Voyager 1 explores the termination shock region and the heliosheath beyond", *Science* 309:2017–2020 (2005).
+  - **Voyager 2** crossed at **83.7 au** in the south, ~10 au closer, with multiple crossings 30 Aug–1 Sep 2007: Stone et al., "An asymmetric solar wind termination shock", *Nature* 454:71 (2008); Richardson et al., *Nature* 454:63 (2008).
+  - The asymmetry is attributed to interstellar magnetic-field pressure, transients or solar-wind pressure. This is back pressure from the interstellar medium shaping the boundary.
+  - **IBEX ribbon:** McComas et al., "Global observations of the interstellar interaction from the Interstellar Boundary Explorer (IBEX)", *Science* (2009). A bright energetic-neutral-atom ribbon is ordered by the local interstellar B, effectively a map of where interstellar field pressure presses on the heliosphere.
+- **RGRF extension:** back pressure along the informed path closes the loop from the large scale (R1–R2) to the local boundary. Plausible as a narrative; the physics links are pressure balance and B orientation.
+- **Falsifiable question:** does the IBEX ribbon geometry plus the Voyager shock asymmetry predict a single interstellar B direction and pressure? It largely does in standard models. Any RGRF variant must predict a *different*, measurable residual.
+
+**Overall tags:**
+- R2–R5 anchors: **Grounded**.
+- The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.
+- The chain as a whole: an organising narrative, not a mechanism.
+
 ## Planetary & stellar reference threads
 These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
 
