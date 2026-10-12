@@ -99,3 +99,43 @@ For any "EM-topological gravity" claim:
 - How it squares with equivalence-principle, lensing, gravitational-wave and ephemeris data.
 - A proposed measurement with controls, and a pre-registered prediction.
 - How it connects (or not) to POL/RGRF engineering. The source already rules it out as a lift path, which is correct.
+
+## Planetary & stellar reference threads
+These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
+
+### 1. Uranus: field / rotation misalignment as a large-scale reference
+- **Observed (Grounded).**
+  - The spin axis is tilted ~98° (obliquity ≈ 97.8°).
+  - Voyager 2 (1986) found the magnetic dipole tilted ~59° from the rotation axis and offset from the planet's centre by roughly a third of a planetary radius.
+  - As a result, the magnetosphere tumbles strongly as the planet rotates.
+  - Mainstream explanations: the tilt is attributed to one or more giant impacts (or slow spin-orbit resonance effects). The offset, tilted field is attributed to a dynamo in a thin, shallow convecting shell (ionic/water-rich layer) rather than a deep core.
+- **RGRF extrapolation (Speculative).** A ~80° "angular structuring" as a natural organising angle for field/rotation architecture.
+- **Open item.** The origin of the ~80° figure is not yet stated. It does not match either measured Uranus angle (~98° obliquity, ~59° dipole tilt) or their difference (~39°). It needs a source or a derivation.
+- **Falsifiable question.** If ~80° is a preferred structuring angle, do measured dipole-tilt or obliquity values across planets and exoplanets cluster near 80° more than chance? (Known values today: Earth ~10° dipole tilt, Saturn <0.1°, Jupiter ~10°, Neptune ~47°, Uranus ~59°. These do not cluster.)
+
+### 2. Sun: plasma structuring, not a crystalline lattice
+- **Observed (Grounded).** The Sun is a fully ionised plasma, not a solid or crystalline lattice. Its structure arises from:
+  - **Hot/cold interactions:** convection in the outer ~30 % of the radius. Visible as granulation (~1,000 km cells, minutes-long) and supergranulation (~30,000 km cells, ~1–2 days).
+  - **Magnetic coupling:** magnetic flux tubes that rise to form sunspots and active regions, and the tachocline, a shear layer at ~0.7 R☉ between the rigidly rotating radiative interior and the differentially rotating convection zone. The tachocline is believed to be central to the solar dynamo and its ~11-year (22-year magnetic) cycle.
+  - **Pressure differentials:** the inner-vs-outer pressure and temperature gradient drives radiative transport inside and convection outside. Magnetic pressure (B²/2μ₀) competes with gas pressure in sunspots and the corona.
+- **RGRF extrapolation.**
+  - That such plasma structuring is a template for regenerative "organised field" design: Plausible-untested as an *inspiration/analogy*.
+  - That it implies a crystalline or geometric (φ) order in the Sun: Speculative. Helioseismology shows no crystalline structure.
+- **Falsifiable question.** Does any measured solar periodicity or scale (granule sizes, supergranule sizes, rotation-rate ratios, cycle periods) show a statistically significant golden-ratio or other proposed geometric ratio beyond what standard convection/dynamo models predict?
+
+### 3. Saturn's north polar hexagon
+- **Observed (Grounded).**
+  - A hexagonal jet stream at ~76–78° N, roughly 30,000 km across (each side ≈ 14,500 km).
+  - First seen in Voyager images (1980s; reported by Godfrey, 1988) and persisting through Cassini (2004–2017).
+  - It rotates close to the planet's interior (radio) period.
+- **Lab analogs (Grounded, citations verified):**
+  - Jansson, Haspang, Jensen, Hersen & Bohr, "Polygons on a Rotating Fluid Surface", *Phys. Rev. Lett.* **96**, 174502 (2006). A rotating bottom plate in a stationary cylinder produces rigidly rotating polygonal free surfaces with up to 6 corners. The cause is strong azimuthal shear.
+  - Barbosa Aguiar, Read, Wordsworth, Salter & Yamazaki, "A laboratory model of Saturn's North Polar Hexagon", *Icarus* **206**, 755–763 (2010). Barotropically unstable jets/shear layers in a rotating tank equilibrate into polygons, including hexagons. The paper proposes the hexagon is such an equilibrated wave mode of Saturn's jet.
+- **RGRF extrapolation.**
+  - Hexagon as evidence of geometric resonance "locking" in rotating fluids/plasmas: partly Grounded (shear-instability wavemode selection is real).
+  - Hexagon as evidence that geometry (3-6-9 or φ) itself organises the flow: Speculative. The wavenumber is set by jet width, shear and rotation (Rossby number), not by number symbolism.
+- **Falsifiable question.** In a rotating-tank experiment, does the polygon number N track the predicted shear/Rossby-number dependence? Or does it prefer 6 (or φ-related ratios) independent of those parameters? The published experiments show N varying with rotation and shear, which supports the fluid-dynamics explanation.
+
+### Open items
+- Source and derivation of the ~80° "angular structuring" figure.
+- How (if at all) these planetary analogies feed into RGRF engineering. Rotating-tank polygon experiments are a cheap, grounded bench activity that would link the Saturn thread to RGRF's laminar-precession ideas.
