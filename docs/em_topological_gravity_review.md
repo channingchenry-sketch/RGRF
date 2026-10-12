@@ -329,7 +329,7 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
 ### R1. Black-hole jets and long longitudinal lines
 - **Grounded:**
   - AGN jets are collimated along the black hole's spin and magnetic axis and reach kpc to Mpc scales.
-  - The largest known system, "Porphyrion", spans ~7 Mpc (~23 million light-years) end to end: "Black hole jets on the scale of the cosmic web", *Nature* (2024), doi 10.1038/s41586-024-07879-y, LOFAR, verified.
+  - The largest known system, "Porphyrion", spans ~7 Mpc (~23 million light-years) end to end: Oei, Hardcastle, Timmerman et al., "Black hole jets on the scale of the cosmic web", *Nature* 633:537–541 (2024), doi 10.1038/s41586-024-07879-y; LOFAR–uGMRT–Keck.
   - Matter is organised into a **cosmic web** of filaments, sheets and voids (standard ΛCDM structure formation; observed in redshift surveys).
 - **RGRF extension:** an early black hole "etches" a long-wavelength path that later structure follows, an "informing path". **Speculative.** In standard cosmology, filaments come from gravitational collapse of primordial density fluctuations, not from jets. Jets are far younger and smaller than the web, even at 7 Mpc versus filaments of tens of Mpc.
 - **Falsifiable question:** do giant radio jets align with their host filaments more than chance? A predicted "etched-path" alignment of the oldest, largest jets with filament axes is testable with LOFAR plus filament catalogues.
