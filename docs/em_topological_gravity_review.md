@@ -433,8 +433,57 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
   - Measure induced current to the probe and the potential across it.
   - Prediction: coupling is strong only when the probe sits in corotating plasma (the Io-like case) and drops to wake-only effects outside (the Moon-like case).
 
-### Pending: ponderomotive thread (Channing tracking down)
-*Placeholder.* Channing is tracking down the original ponderomotive-force thread (cf. the 28 Jul 2026 "Self-Correcting Boundary Layer / Elliptical Vortex / Ponderomotive" note in this review). It will be added with verified citations and labels when it is recovered.
+### Ponderomotive Thread (Dive A), restored from 28 Jul 2026
+*Restored from Channing's 28 Jul 2026 note. One or two lines of the source were OCR-garbled; those were reconstructed from context and are flagged where uncertain.*
+
+**Concept: a "self-correcting boundary layer"** built from:
+1. spin-driven ion separation;
+2. dual-foci elliptical geometry;
+3. dual polarity;
+4. EM flux / helicity;
+5. **frequency-domain density control** through the ponderomotive force,
+   **F_p = −(e²/4mω²) ∇⟨E²⟩**, which pushes charged particles (mostly electrons, because of the 1/m) out of regions of strong high-frequency field.
+
+**Medium:** water (electrolyte) or plasma.
+
+**Scales in the source:**
+- lab cavity →
+- POL-adjacent boundary layer →
+- magnetopause / bow shock / K-H vortices / FTEs (**C6**) →
+- rocket plume / swirl injector (**C7**).
+
+**Status in the source:**
+- Ranked **#2 escape vector** from the POL conductive-floor limit; **Multi-Egg is #1** (C8).
+- **Not in hardware or the BOM.** Concept only.
+
+**Proven-retained (Grounded):**
+- Maxwell's equations.
+- Centrifugal plasma separation (plasma centrifuges; cf. the R7 mass filters).
+- Pressure effects of elliptical and vortex flows: low pressure in vortex cores, and streamline curvature setting pressure gradients.
+- **The ponderomotive force:** standard plasma physics, seen in laser–plasma channelling, RF plugging and wave-pressure effects.
+- **Unverified number:** the source's figure of "tens-of-% density shifts under strong inhomogeneous RF" in lab plasmas is plausible but has no specific citation. It is treated as **Plausible-untested** until one is found.
+
+**Recombination physics (sets how long a separated layer survives):**
+- Rate R = α n_e n_i; lifetime **τ_rec ≈ 1/(n_e α)**.
+- **Radiative recombination:** α ∝ ~T^−0.5 to T^−0.7. Hydrogen **Case B α_B = 2.59×10⁻¹³ cm³ s⁻¹ at 10⁴ K**: Osterbrock & Ferland, *Astrophysics of Gaseous Nebulae and Active Galactic Nuclei*, 2nd ed., Table 2.7 (verified; Case A 4.18×10⁻¹³). Hydrogenic scaling is α(Z,T) = Z·α(1, T/Z²) (same table note). **Grounded.**
+- **Three-body recombination:** ∝ n_e² n_i with rate coefficient ∝ T_e^−9/2 in weakly coupled plasmas, so it dominates at high density and low temperature (ultracold-plasma measurements, arXiv 0706.2672; Hahn, *Phys. Lett. A* 231:82 (1997) notes the scaling softens toward T^−1 at very low T). **Grounded.**
+- **Timescales at 10⁴ K:**
+  - Cosmic filaments (n_e ~ 10⁻⁴ cm⁻³): τ ~ 4×10¹⁶ s (~1 Gyr), so separated states effectively persist.
+  - Dense, cool lab or solar filaments (n_e ~ 10¹⁰ cm⁻³): τ ~ minutes. Recombination competes with any separation mechanism, so control must be continuous.
+- **Radial layering (Marklund convection):**
+  - In a filamentary flux tube, E×B convection carries plasma inward into cooler regions. Lower-ionization-potential elements recombine, and so deposit, nearest the axis. The result is concentric layers ordered by ionization potential.
+  - Source: Marklund, *Nature* 277:370–371 (1979), doi 10.1038/277370b0 (verified).
+  - Label: **Plausible** as a mechanism, but not widely confirmed observationally. Speculative when extended to galactic or "EU" structure.
+
+**Speculative edge:**
+- That these pieces combine into a *self-correcting* boundary able to replace the conductive floor, or to produce lift.
+- That one design scales from a lab cavity to the magnetopause.
+- That water behaves like plasma here. Electrolytes have Debye lengths of ~nm, so ponderomotive effects on ions in water are tiny at practical fields.
+- **Power ledger missing:** what RF power per m² yields what density change and what force.
+- **Falsifiable first step:**
+  - In an RF glow discharge with a shaped inhomogeneous antenna field, measure the n_e profile (Langmuir probe) with RF on and off.
+  - Prediction: depletion where ∇⟨E²⟩ is largest, scaling as 1/ω².
+  - Then test whether the shifted layer keeps itself stable after perturbation, i.e. "self-correcting".
 
 **Overall tags:**
 - R2–R5 anchors: **Grounded**.

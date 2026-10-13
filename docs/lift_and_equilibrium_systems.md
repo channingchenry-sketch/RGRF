@@ -76,6 +76,35 @@
   - Internal precession gives torque, not lift (`shifting_phase_order_review.md` §A3).
 - **Label:** attitude control and stabilisation **Grounded**; field-generated lift **Speculative**.
 
+## 8. Chirp packets: rapid adaptation to external stimulus
+**Idea:** send a short frequency-swept probe (a "chirp packet"), read how the system responds across the sweep, and retune fast.
+
+**Grounded:**
+- **Chirp radar / pulse compression.** Sweep a long pulse linearly in frequency, then compress it with a matched filter. This gives the range of a long pulse with the resolution of a short one: Klauder, Price, Darlington & Albersheim, "The theory and design of chirp radars", *Bell Syst. Tech. J.* 39:745–808 (1960).
+- **Biosonar.** Many bats emit FM sweeps, which are natural chirps (IET *Electronics & Power*, 1980: bats use "short pulse, f.m. chirp or Doppler modes"). **Dolphins** mostly use short broadband *clicks* rather than FM sweeps. They are still a wideband probe, but not a chirp in the strict sense.
+- **Adiabatic rapid passage.** Sweeping the drive frequency through resonance fast compared with relaxation, but slow enough for the system to follow, inverts a population robustly and is insensitive to drive-amplitude errors. This goes back to Bloch, "Nuclear induction", *Phys. Rev.* 70:460 (1946). It is used today as chirped / hyperbolic-secant pulses in NMR/MRI and atomic physics.
+- **DRAG pulses (superconducting qubits).** Adding a second quadrature proportional to the drive's time derivative suppresses leakage to higher levels: Motzoi, Gambetta, Rebentrost & Wilhelm, *Phys. Rev. Lett.* 103:110501 (2009), doi 10.1103/PhysRevLett.103.110501.
+- **Closed-loop adaptive control.** A learning loop uses lab measurements to improve pulse shapes, with the experiment itself acting as the "analog computer": Judson & Rabitz, "Teaching lasers to control molecules", *Phys. Rev. Lett.* 68:1500 (1992), doi 10.1103/PhysRevLett.68.1500.
+- **Chirped-pulse amplification.** Stretch a pulse with chirp, amplify it, then recompress it: Strickland & Mourou, "Compression of amplified chirped optical pulses", *Opt. Commun.* 55:447 (1985; corrected reprint 56:219). Nobel Prize in Physics 2018.
+
+**RGRF extension:**
+- **Chirp probes for sheath or field state (Plausible-untested).**
+  - Inject a low-power chirp on the POL drive coil (or on a sheath electrode) alongside the main drive.
+  - The response vs frequency gives the gap, plate coupling and resonance shift in a single sweep.
+  - Feed that to the PID height loop (`piezo_helium_feedback_loop.md`; Resona-POL-Modular-Core `height_control.py`).
+  - This is standard system identification, so the open question is speed and robustness, not principle.
+- **Coulomb eggs / Multi-Egg (C8): Speculative.** Chirp each rotor's drive to find and track its resonance, and retune adiabatically instead of re-locking hard.
+- **Quantum-computing analogy: Speculative.** DRAG-like derivative corrections to suppress "leakage" into unwanted craft modes, or Judson–Rabitz-style learning for disturbance rejection. This is an analogy only. Classical coupled oscillators can use the same control math, but nothing quantum is involved.
+
+**Power ledger:** the probe is a small add-on (mW–W) on top of the drive. The benefit is control bandwidth, not lift.
+
+**Falsifiable bench test (~$40–100):**
+- Use a series-resonant coil (a few hundred kHz) with an aluminium plate at variable gap, driven by an ESP32 DDS or a sweep generator, plus a current-sense resistor and scope or ADC.
+- **Step 1.** Measure resonance shift vs gap with a ~1 ms chirp. Prediction: a monotonic shift, from which gap can be inferred to about ±0.5 mm.
+- **Step 2.** Step the gap or load, then measure **retuning latency**, the time from disturbance to drive back on resonance. Compare chirp tracking against a fixed-frequency PLL or hill-climb.
+- **Pass:** faster recovery at the same probe power.
+- **Fail:** no advantage, in which case a conventional PLL is good enough.
+
 ## Power ledger summary
 | Mechanism | Force per power | Role | Tag |
 |---|---|---|---|
