@@ -207,6 +207,38 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - The predicted isotropy level or structure.
 - Equations linking the vector equilibrium to the stress tensor.
 
+### VE Cage Multimers (MOP masking route)
+*Channing's recovered text, saved faithfully. This material arrives out of order: section "3" is present, but the earlier numbering and the end of point 3 are missing. Links: vector equilibrium (above, L4), Multi-Egg / Elliptical Eye core (below, after Dive A), C8.*
+
+**1) Chemistry anchor (Grounded).**
+- In metal–organic polyhedra (MOP) work, a cuboctahedral Rh(II) cage carries up to **24 reactive surface sites**, one at the 5-position of each of its 24 isophthalate linkers.
+- **Masking 23 of the 24 with protecting groups** leaves a single orthogonal handle. The result is **strictly 1-connected** cages that can be linked into controlled **dimers, tetramers or satellite-like oligomers** without uncontrolled polymerization.
+- In the paper, 1-c MOPs were joined by CuAAC click chemistry, and the triazole link was confirmed by digestion NMR. After deprotection each cage keeps 23 free carboxylic acids.
+- **Sources (verified):**
+  - "Giant oligomeric porous cage-based molecules", *Chemical Science* (2024), doi 10.1039/D4SC01974A, Maspoch / Carné-Sánchez group, ICN2. The full author list was not confirmed, so it is cited without authors.
+  - Protection-strategy precursor: Albalad, Carné-Sánchez, Grancha, Hernández-López & Maspoch, *Chem. Commun.* 55:12785 (2019), doi 10.1039/C9CC07083D. This made 24-COOH and 24-NH₂ cuboctahedral Rh-MOPs, using protecting groups to stop runaway network formation.
+
+**2) Applied to VE nodes (Plausible-untested).**
+- Treat each vector-equilibrium (VE) node as a cage whose **12 vertices (or selected faces) carry functional groups**.
+- **Mask all but one, or a symmetric pair.** The open site becomes a **directed docking / resonance-coupling interface**, while the rest of the cage stays confined and radially balanced.
+- The result is **open yet selective multimerization**: a single handle gives dimers or chains, and a symmetric pair gives linear rods.
+- **Label:** the geometric and chemical route is **Plausible-untested**. It is a real synthesis strategy transposed onto VE geometry; a cuboctahedral MOP *is* a VE-shaped molecule ~2.5 nm across.
+- **"Resonance coupling" through the open site is Speculative.** No measured resonant coupling between such cages has been shown; their links are covalent or coordination bonds.
+
+**3) Minimal multimer with spin-locking and escape channels.**
+- **12-around-1:** a central VE nucleus plus 12 surrounding VE units, the first shell of the isotropic vector matrix. This is the fcc nearest-neighbour shell, so the geometry is Grounded.
+- **[rest missing, Channing to supply]**
+- **Labels:** spin-locking and escape channels **Speculative** until defined.
+- **Chemistry route:** a 12-c core MOP linked to twelve 1-c MOPs, a direct analog of the paper's "satellite" oligomers, would be **Plausible-untested**.
+
+**Link to Multi-Egg / Elliptical Eye.**
+- In the Multi-Egg picture, each "egg" or VE node exposes one controlled interface. That is the molecular version of the gated, selective-leak boundary (R6).
+- The masked cage gives a concrete, buildable analog at nm scale.
+
+**Falsifiable questions:**
+- Can a 12-around-1 MOP satellite be made and characterized (MALDI-TOF, DLS, SAXS) with the expected 13-cage stoichiometry?
+- Does any collective vibrational or electronic mode appear in the multimer that is absent in single cages (Raman, THz)? If not, "resonance coupling" reduces to ordinary bonding.
+
 ### L5. Field lines & longitudinal energy channels (recurring thread)
 - **Observed (Grounded, citations verified).**
   - **Field-aligned (Birkeland) currents** connect the magnetosphere and ionosphere along Earth's magnetic field lines and carry energy into the auroral zones. Satellite magnetometers mapped their large-scale pattern ("region 1/region 2"). Iijima & Potemra, "Field-aligned currents in the dayside cusp observed by Triad", *J. Geophys. Res.* 81(34), 5971–5979 (1976).
