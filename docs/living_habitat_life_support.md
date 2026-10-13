@@ -245,7 +245,9 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
        - **Microbial degradation**: the mycelium can digest vegetable oils.
        - **Peroxide and permanganate oxidize oils**, so keep oxidant flushes separate from oil-lined runs.
      - **Candidates (Channing, verbatim):** "It was castor or CBD. Cbd is interesting because of charge and castor for self organizing with iron and we noted them but never applied any of this."
-       - **CBD oil:** noted for "charge". **Speculative.** CBD is a neutral, lipophilic molecule, so the charge mechanism is **[Channing to clarify]**. Possibly the carrier oil's dielectric/interface charging, as in the leaky-dielectric Dual-Oil Module ([lift_and_equilibrium_systems.md §6b](lift_and_equilibrium_systems.md)).
+       - **CBD oil:** clarified (Channing, verbatim): "CBD conductivity, limited research on this and ion transport". CBD was of interest for **conductivity and ion transport**; research on this is limited. **Speculative.**
+         - **Honest note:** oils, CBD oil included, are generally **electrical insulators**. Any ion transport would likely come from **additives** (dissolved salts or surfactants), **water content** (emulsified or absorbed water), or **interfaces** (charge at oil–water boundaries, as in the leaky-dielectric Dual-Oil Module, [lift_and_equilibrium_systems.md §6b](lift_and_equilibrium_systems.md)). That route is **Plausible-untested**.
+         - No supporting literature is cited here.
        - **Castor oil:** noted for **self-organizing with iron**. **Plausible.** Castor oil has served as a carrier for magnetic and field-responsive suspensions in research (not verified here). It also hosts electrorheological chaining in the Dual-Oil Module. Links: ferrofluid loop ([lift_and_equilibrium_systems.md §6](lift_and_equilibrium_systems.md)) and castor as an oil-based ferrofluid carrier ([helium_water_circulation.md §10d](helium_water_circulation.md)).
      - **Status: noted, never applied.** Still open.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
