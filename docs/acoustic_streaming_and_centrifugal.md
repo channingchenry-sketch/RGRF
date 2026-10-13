@@ -1,71 +1,113 @@
-# Acoustic streaming, centrifugal buoyancy & dual-torus pathways
-*License CC0. Recovered from Channing's notes, which are OCR-damaged and partly truncated. Labels: **Grounded**, **Plausible-untested**, **Speculative**, **Symbolic**. Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen.md), `lift_and_equilibrium_systems.md` (piezo, Tesla valves).*
+# Acoustic streaming, centrifugal buoyancy, dual torus & vortex modes (living doc)
+*License CC0. Recovered from Channing's notes. **OCR damage:** some formulas were reconstructed, as marked; truncations are marked **[Channing to supply]**. Labels: **Grounded**, **Plausible-untested**, **Speculative**, **Symbolic/Fiction**.*
+
+Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen.md), `lift_and_equilibrium_systems.md` (chirp packets §8, levitation methods §9, Grounded loop mechanisms), `piezo_helium_feedback_loop.md`.
 
 ## 1. Acoustic streaming (Grounded)
 
-**Rayleigh–Schlichting (boundary-driven) streaming.**
-- A standing wave over a wall drives a steady streaming flow outside the viscous (Stokes) boundary layer:
-  - **U_s = −(3 / 4ω) · U₁ · dU₁/dx**
-  - the boundary-layer thickness is **δ = √(2ν/ω)**.
-- The formula was reconstructed from OCR-damaged notes. It matches the standard Rayleigh result.
+**Rayleigh (boundary-driven) streaming.**
+- In a standing wave with velocity amplitude U₁(x), a viscous boundary layer of thickness **δ = √(2ν/ω)** forms at the walls.
+- Just outside that layer, the steady slip velocity is **U_s = −(3/(4ω)) U₁ dU₁/dx**.
 - **Sources:**
   - Lord Rayleigh, "On the circulation of air observed in Kundt's tubes, and on some allied acoustical problems," *Phil. Trans. R. Soc. Lond.* 175, 1–21 (1884), doi 10.1098/rstl.1884.0002.
   - H. Schlichting, "Berechnung ebener periodischer Grenzschichtströmungen," *Phys. Z.* 33, 327–335 (1932).
 
 **Eckart (bulk, attenuation-driven) streaming.**
-- An absorbed beam pushes the fluid along. The order-of-magnitude scaling for a beam of width L is **U ~ α I L² / (ρ c ν)**.
-- Eckart's own result has U proportional to the radiated power and to (4/3 + ν′/ν), and inversely proportional to λ²ρ²c³.
-- Source: C. Eckart, "Vortices and streams caused by sound waves," *Phys. Rev.* 73, 68–76 (1948), doi 10.1103/PhysRev.73.68.
+- An attenuated beam deposits momentum in the fluid and drives a jet ("quartz wind").
+- Order-of-magnitude scaling: **u ~ α I L² / (ρ c ν)**, where α is the attenuation, I the intensity and L the beam or vessel scale.
+- Eckart showed the steady speed is proportional to the radiated power and to (4/3 + ν′/ν), where ν′ is the bulk viscosity.
+- **Source:** C. Eckart, "Vortices and streams caused by sound waves," *Phys. Rev.* 73, 68–76 (1948), doi 10.1103/PhysRev.73.68.
 
-**Mechanism:** both are forced by the **Reynolds stress**, the mean of the acoustic momentum flux.
-- Source: J. Lighthill, "Acoustic streaming," *J. Sound Vib.* 61(3), 391–418 (1978), doi 10.1016/0022-460X(78)90388-7.
+**Unifying picture.** Streaming is forced by gradients of the **Reynolds stress** (the mean acoustic momentum flux) and resisted by viscosity. At high power it becomes jet-like and then turbulent.
+- **Source:** J. Lighthill, "Acoustic streaming," *J. Sound Vib.* 61(3), 391–418 (1978), doi 10.1016/0022-460X(78)90388-7.
 
-**Air-mode craft application (Plausible-untested; small at flight speed).**
-- **The idea:** high-frequency piezo vibration along a kirigami or polymorphic hull produces localized streaming. The intended uses are:
+**Air-mode craft application (Plausible; small at flight speed).**
+- **The idea:** high-frequency piezo vibration along a kirigami or polymorphic hull drives localized streaming. Uses would be:
   - boundary-layer control and drag reduction;
   - stabilizing or thinning an external water film;
   - gentle propulsion or attitude assist.
-- **Reality check:** streaming velocities are typically mm/s to cm/s, which is far below flight speeds. Expect effects at low speed or near stagnation only.
-- Its energy cost must go in the power ledger.
+- **Caveat:** streaming speeds are mm/s to m/s. That is significant for films and boundary layers at low speed, and negligible against free-stream flow at flight speed.
 
 ## 2. Centrifugal buoyancy (Grounded)
 
-**In a rotating frame:**
-- a_c = ω²r, and the radial pressure gradient is dp/dr = ρω²r.
-- Denser phases move outward and vapor or lighter phases move inward. This is how centrifuges, gas centrifuges and rotating-wall separators work.
+**The physics.**
+- In a rotating frame, a_c = ω²r and dp/dr = ρω²r.
+- Denser phases move outward and lighter phases (vapor) move inward. This is how centrifuges and rotating separators work.
 
-**Spin throttling:** changing ω changes how water distributes and how the film wraps. **Grounded** as physics; the specific hull design is Plausible-untested.
+**Spin throttling.** Changing ω modulates water distribution and how a film wraps the hull. **Grounded** physics; the application is **Plausible-untested**.
 
-**Combined vibration + centrifugal:** **[truncated, Channing to supply]**.
+**Combined vibration + centrifugal** **[truncated, Channing to supply]**.
 
 **Twisted toroidal geometry with a 60° twist.**
-- g_eff = ω²r acts along a helical gradient. The kinematics are **Grounded**.
-- The functional benefit is **Plausible-untested**.
-- **Details [Channing to supply].**
+- g_eff = ω²r acts along the helical gradient, which gives a helical effective-gravity path.
+- The kinematics are **Grounded**. Any functional benefit is **Plausible-untested**.
 
 ## 3. Dual torus & muon pathways
 
-**Guiding parallel vs perpendicular to B.**
-- **Parallel (Grounded):** streaming along B, and Alfvénic coupling.
-  - Angular-momentum export by magnetic braking: E. J. Weber & L. Davis Jr., "The angular momentum of the solar wind," *ApJ* 148, 217–227 (1967), doi 10.1086/149138. The solar wind effectively co-rotates out to the Alfvén radius, ~15–50 R☉.
-- **Perpendicular (Grounded):** E×B drift, polarization drift, and turbulent cross-field diffusion.
-  - "Controlled perpendicular shifting by **[truncated, Channing to supply]**."
+**Parallel vs perpendicular transport in magnetized plasma (Grounded).**
+- **Along B:** field-aligned streaming, Alfvénic coupling, and angular-momentum export by magnetic stresses (magnetic braking).
+  - E. J. Weber & L. Davis Jr., "The angular momentum of the solar wind," *ApJ* 148, 217–227 (1967), doi 10.1086/149138. Effective corotation extends out to the Alfvén radius, about 15–50 R☉.
+- **Across B:** E×B drift, polarization drift, turbulent diffusion.
+- "Controlled perpendicular shifting by **[truncated, Channing to supply]**".
 
-**Spin-sum concept (Speculative).**
-- **The claim:** paramagnetic enhancement, with **L_total = L_water + S_muon + S_paramagnetic** adding constructively.
-  - The primary torus would carry double angular momentum and the secondary torus would be inverted.
-  - The 60° twist would "helicalize" precession into an information-rich signal.
-- **Reality check:**
-  - A single muon's spin (ħ/2) is negligible against any bulk angular momentum.
-  - Cosmic muons cross a metre-scale device in about ns.
-  - **There is no coupling pathway.**
+**Spin-sum and double-torus concept (Channing's text).**
+- **Constructive addition:** L_total = L_water + S_muon + S_paramagnetic.
+- **Paramagnetic enhancement.**
+- **Two tori:** a primary torus with doubled angular momentum, and an inverted secondary.
+- **The 60° twist** helicalizes precession into an "information-rich signal".
+- **Planetary scanning, three channels:**
+  - density from flux;
+  - magnetic dynamics from wobble;
+  - pathway coherence from buoyancy-guided flow.
+- **"Buoyant lanes"** guide muon and pion cascades.
 
-**Planetary scanning.**
-- **Grounded part, muography:** inferring density from muon flux attenuation.
-  - Source: K. Morishima et al., "Discovery of a big void in Khufu's Pyramid by observation of cosmic-ray muons," *Nature* 552, 386–390 (2017), doi 10.1038/nature24647 (ScanPyramids).
-- **Speculative extensions:** reading "magnetic dynamics from wobble" and "pathway coherence from buoyancy-guided flow."
+**Labels:**
+- **Muography: Grounded.** K. Morishima et al., "Discovery of a big void in Khufu's Pyramid by observation of cosmic-ray muons," *Nature* 552, 386–390 (2017), doi 10.1038/nature24647 (ScanPyramids). Muon flux attenuation maps density.
+- **Spin-sum coupling: Speculative.**
+  - The sea-level cosmic-muon flux is about 1 per cm² per minute.
+  - A muon crosses a metre-scale device in about 3 ns.
+  - Its spin angular momentum (ħ/2) is negligible against any bulk L_water.
+  - Paramagnetic spin contributions add vectorially, but they are not "doubled" by geometry.
+- **Buoyant lanes guiding muons: Speculative.** At GeV energies, muons are unaffected by fluid buoyancy or flow. Only matter density, through energy loss, and strong B fields bend them.
+- **Precession as an information signal: Plausible** in the sense of NMR / magnetometry. The 60° twist's role is untested.
 
-**"Buoyant lanes" for muon/pion cascades: Speculative.**
-- Cosmic muons carry ~GeV energies. Fluid buoyancy and density structure have no meaningful guiding effect beyond simple attenuation by column density.
+**Tesla dialogue lines** in Channing's source: **Entanglements narrative / fiction, not a source.** (The repo mentions "Entanglements" in `em_geometry_map.md` and `C1-C12_seed_map.md`.)
 
-**Tesla dialogue lines in the source notes:** these are **Entanglements narrative / fiction**, not a source. Any physics claims in them are not counted here.
+## 4. Vortex mode theory
+*OCR-reconstructed where marked. Labels: the mathematics is **Grounded / standard**; the paramagnetic analogy and the device application are **Plausible-untested**.*
+
+### (a) Cylindrical modes
+- **Field expansion:** take a free scalar field in a cylinder of radius R and expand it as
+  φ = Σ_m ∫ dk_z φ_ml(k_z, t) J_m(k_ml r) e^{imθ} e^{ik_z z}.
+- **Boundary conditions:**
+  - Dirichlet, J_m(k_ml R) = 0, gives k_ml = j_ml / R, where j_ml is the l-th zero of J_m.
+  - The Neumann alternative uses the zeros of J′_m.
+- **Dispersion:** ω² = k_z² + k_ml² + μ², where μ is the field mass.
+  - The **centrifugal barrier** (the m²/r² term) is encoded in the Bessel zeros: higher m means larger j_ml.
+- **Background vortex:** adds a position-dependent term, equivalent to minimal coupling to a circulatory vector potential **A_θ ∝ 1/r**.
+  - That is the Aharonov–Bohm-like analog: waves on a "bathtub" vortex show AB wavefront dislocations.
+  - M. V. Berry, R. G. Chambers, M. D. Large, C. Upstill & J. C. Walmsley, "Wavefront dislocations in the Aharonov–Bohm effect and its water wave analogue," *Eur. J. Phys.* 1, 154–162 (1980), doi 10.1088/0143-0807/1/3/008.
+
+### (b) Tadpole self-energy (OCR-reconstructed)
+- **Mode sum:** in the cylinder, the one-loop tadpole becomes a discrete mode sum:
+  Σ(h) = Σ_m Σ_l ∫ dk_z/(2π) · g_m / (2 ω_ml(k_z, h)).
+- **Degeneracy:** g_m = 1 for m = 0 and 2 for m ≥ 1 (±m).
+- **Effect of the background field h:** it shifts the effective mass, μ² → μ² − a h², so ω_ml(h) ≈ ω_ml(0) − a h² (to leading order, with a absorbing the 1/(2ω) factor).
+- **Which modes dominate:** low-m modes feel less centrifugal repulsion and contribute most.
+- **Needs UV regularization.** The sum and integral diverge, so a cutoff, zeta function or dimensional regularization is required. Compare the Casimir checkpoint in `em_topological_gravity_review.md`.
+
+### (c) Mode susceptibility (sign convention reconstructed)
+- **Definition:** χ_ml = −(1/2) ∂²ω_ml/∂h² at h = 0.
+- **Sign:** χ > 0 means the field lowers the mode frequency, stabilizing it. This is analogous to paramagnetism, but **only as an analogy**.
+- **Robustness knob:** the vortex winding number selects which m dominates.
+- **Connections:**
+  - crystalline disk and phonon packets;
+  - a static levitating field acting as h (§9 levitation methods);
+  - for the chirp carrier you want χ > 0, so that it gets a restoring shift **[truncated, Channing to supply]** (chirp packets, `lift_and_equilibrium_systems.md` §8).
+
+### (d) Circumference as a design knob (OCR-reconstructed)
+- **Phase around the loop:** for a toroidal or cyclic path of length L = 2πR, the round-trip phase is φ = kL = ωL / c_eff. Here c_eff includes medium or plasma dispersion.
+- **Resonance condition:** L = nλ, which gives **f_n = n c_eff / L**. The free spectral range is c_eff / L.
+- **Near a resonance:** the S-matrix poles move with L. The transmission is S₂₁ ≈ κ / (Δω + iγ/2), with κ the coupling and γ the total loss, and the linewidth gives Q = ω/γ.
+- **What sets the design:** circumference fixes the discrete f_n, together with the material (c_eff), the coupling (κ) and the loss (γ) **[truncated, Channing to supply]**.
+- **Grounded:** ring resonators. W. Bogaerts et al., "Silicon microring resonators," *Laser Photonics Rev.* 6(1), 47–73 (2012), doi 10.1002/lpor.201100017. The same algebra applies to acoustic or fluidic rings, with c_eff the sound or wave speed.

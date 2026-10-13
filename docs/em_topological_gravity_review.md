@@ -282,6 +282,25 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 | Icosahedron | Water | Flow and adaptability (Symbolic) | 20 faces, 30 edges, 12 vertices at the cyclic permutations of (0, ±1, ±φ); dual to the dodecahedron; a jitterbug stage |
 | Dodecahedron | Aether / Cosmos | Pentagons bring φ; dual to the icosahedron; quintessence **[truncated, Channing to supply]** | 12 pentagonal faces, 30 edges, 20 vertices; φ appears in the diagonal-to-edge ratio of each pentagon |
 
+### Platonic solids (Channing's recovered text)
+*Links: jitterbug (above). In the jitterbug, VE → icosahedron → octahedron (→ tetrahedron) contracts through three of these five solids. VE cages, Multi-Egg.*
+
+| Solid | Element (Channing) | Geometry (Grounded) | Channing's reading |
+|---|---|---|---|
+| **Tetrahedron** | Fire | 4 faces, 4 vertices; the simplest rigid polyhedron (triangulated); self-dual | The sharpest and most mobile solid. "Born from the Tetractys 4th row": the Tetractys has rows 1-2-3-4, and the 4th row's four points read as the four vertices. A stable tripod; minimal material for maximal strength (triangulation; compare Fuller's octet truss) |
+| **Cube** | Earth | 6 square faces, 90° angles; dual to the octahedron | Stable; Euclid I.47 (the Pythagorean theorem) appears in every face and space diagonal (√2, √3); orthogonal vector balance. Mycelium nodes and docking foundations favor cubic regularity (**Speculative** as a biological claim) |
+| **Octahedron** | Air | 8 triangular faces; dual to the cube; vertices at (±1,0,0), (0,±1,0), (0,0,±1) | Light and expansive; resonant field symmetry |
+| **Icosahedron** | Water | 20 faces, 12 vertices at cyclic permutations of (0, ±1, ±φ); dual to the dodecahedron | Flow and adaptability; the end state of the jitterbug's first contraction |
+| **Dodecahedron** | Aether / Cosmos | 12 pentagonal faces; φ is built into the pentagon (diagonal/side = φ); dual to the icosahedron | Quintessence **[truncated, Channing to supply]** |
+
+**Labels:**
+- **Geometry: Grounded.** Face counts, dualities, coordinates and the φ relations are standard.
+- **Element pairings: Symbolic, not physical.**
+  - Plato's *Timaeus* assigns fire, earth, air and water to the first four solids. It says the fifth solid was used for "the whole" (the cosmos).
+  - Aristotle (*De Caelo*) introduced aether as a fifth element.
+  - Pairing the dodecahedron specifically with aether is later tradition.
+  - No physical effect follows from these pairings. Compare the POL sim, where φ-based geometry tested worse.
+
 ### Planetary pulse-confinement cycle
 *Channing's recovered text, saved faithfully. It is out of order and truncated at the end. Links: R6 (controlled leakage), `tesla_and_ancient_alignments.md`, Multi-Egg / Elliptical Eye, Jitterbug (above).*
 
