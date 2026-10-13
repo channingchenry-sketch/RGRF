@@ -164,6 +164,36 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 
 **RGRF tie-in — Plausible-untested:** the same inversion math could characterize the core's layered W / Bi / quartz conductivity from surface E/H measurements at several frequencies (skin depths in §7a-math set the probing depth). A real, buildable bench diagnostic: sweep frequency with a small coil, measure surface E/H (or coil impedance), invert for a layered conductivity profile.
 
+### 7a-csamt. CSAMT (controlled-source audio-frequency MT, recovered)
+**Channing's pasted text (as received):**
+> Accurate Mathematical/Physics Solutions:  
+> • Governing Equations: Based on Maxwell's equations in quasi-static or full-wave form.  
+> Apparent resistivity similar to MT:  
+> 1 | E|2  
+> Pa =  
+> wfl  
+> H  
+> , with phase  
+> ф= arg(E/H).  
+> scribd  
+> • Skin Depth: 8 =  
+> 2  
+> wHo  
+> controls  
+> penetration — higher frequencies probe shallower layers.  
+> • Forward Modeling: Often uses integral equation, finite-difference, or finite-element methods for 2D/3D responses from a horizontal electric dipole source.  
+> Inversion employs Occam smoothness,  
+> • Iss-Newton, or joint MT-CSAMT  
+> V  
+> schemes to solve the nonlinear inverse [cut off — Channing to supply]  
+
+**Corrected forms (Grounded):**
+- Apparent resistivity **ρ_a = (1/(ωμ₀)) |E/H|²**, phase **φ = arg(E/H)**; skin depth **δ = √(2/(ωμ₀σ))**.
+- "Iss-Newton" = **Gauss–Newton** (OCR damage); see §7a-inv for the update form.
+- CSAMT uses a **grounded horizontal electric dipole** transmitter instead of natural fields. The plane-wave (MT-like) formulas hold only in the **far field**, several skin depths from the source; closer in, near-field (and transition-zone) effects distort ρ_a and φ and need full controlled-source modelling.
+
+**RGRF tie-in — Plausible-untested:** a controlled-source version is the realistic bench method for the core, because the drive frequency is chosen (e.g. sweep 1 kHz–1 MHz to set δ per §7a-math) rather than waiting for natural telluric signals. At bench scale the measurement is effectively near-field, so invert with a full coil/dipole forward model rather than plane-wave ρ_a.
+
 ## 7b-math. Hall-MHD math (recovered, OCR-damaged)
 **Channing's pasted text (as received):**
 > Accurate Mathematical/Physics Solutions:  
@@ -253,6 +283,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - The HMHD simulation script (equations, units, parameters) behind §7b.
 - Quartz-partner text: end of the "Bell tests proposed for…" sentence (cut off) and the source for "~232 as".
 - Magnetotelluric inversion text: cut off at "Directly ties to telluric currents (GICs) and geomagnetism via…"; the lost Gauss–Newton formula from the screenshot.
+- CSAMT text: cut off at "schemes to solve the nonlinear inverse…".
 - Hall-MHD math: the cut-off helicon text and the arXiv source.
 - APS paper behind the spin-Hall RF-wave citation chip.
 - Opening of screenshot 1 and the bridging text between screenshots 3→4 and 5→6.
