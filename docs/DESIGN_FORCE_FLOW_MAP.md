@@ -154,7 +154,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 - **Perforation pattern (hole size, pitch, open-area fraction, thickness) → mass.** Mass scales with (1 − open fraction) × thickness, so it is lower than a solid plate.
 - **→ eddy currents.** Holes interrupt the current loops, giving shorter paths and less eddy loss than a solid plate (loss also scales with thickness relative to skin depth).
 - **→ flux guiding.** Guiding is partial. Effective permeability falls with open fraction, so the screen carries less flux than solid back-iron of the same thickness.
-- **→ airflow.** Air passes through the holes, which helps cooling and ties to the ion-wind/air-flow paths (§4 ionic wind).
+- **→ airflow.** Air passes through the holes, which helps cooling and ties to the ion-wind/air-flow paths (§5 ionic wind).
 - **→ saturation.** Thin webs between holes concentrate flux and can saturate locally, which limits how much flux the screen can carry.
 - **Unknowns:** hole size, pitch, open area %, thickness, steel grade.
 
