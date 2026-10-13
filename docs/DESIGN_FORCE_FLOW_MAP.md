@@ -222,6 +222,20 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Earth–ionosphere cavity radius | f_n = (c/2πR)√(n(n+1)) | Field | Grounded | — | [bioelectric_coupling](bioelectric_coupling.md) |
 | EZ water / H₃O₂ | None measured | — | Speculative / debated | Bench 4: EZ vs ion concentration | [lift §5](lift_and_equilibrium_systems.md) |
 
+## 11. POL v0.1 zone images (AI concept art, 2026-10-12)
+Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are AI art, not measurements.
+
+| Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
+|---|---|---|---|---|---|
+| Larmor "clock" field B₀ and spin sample | f = γB/2π (needs a polarized spin ensemble + pickup) | Magnetization (precession) → induced charge in pickup | Grounded (law); clock role Plausible-untested; "φ-stable" Speculative | — | [zone 1](pol_v0_1_zones.md#1-larmor-precession-clock-zone) |
+| Coil current / resistance (hot zones) | Joule heating P = I²R (not "Lorentz heating"); q = −k∇T | Heat | Grounded; >400 K flagged (mycelium damage) | IR thermometer on the coil plate | [zone 2](pol_v0_1_zones.md#2-thermal-polarity-zones) |
+| Peripheral "cold zones" | No sub-ambient cooling without a heat pump; cooler periphery only | Heat | Relabeled (was "adiabatic") | — | [zone 2](pol_v0_1_zones.md#2-thermal-polarity-zones) |
+| hBN sheet orientation and thickness | Anisotropic Fourier conduction: k_in-plane ≫ k_through | Heat (lateral spreading) | Grounded; ~600 W/m·K upper bound flagged | — | [zone 3](pol_v0_1_zones.md#3-bn-heat-spreading-layers) |
+| Mycelium-hemp density (~0.65 g/cm³ per image) and liveness | Mass budget (buoyancy/lift); living growth for repair | Mass; biological (repair) | Plausible-untested | — | [zone 4](pol_v0_1_zones.md#4-mycelium-hemp-structural-envelope) |
+| Amide interface (functionalized BN ↔ chitosan/–NH₂) | Covalent bonding; interface shear strength | Stress (load transfer) | Plausible-untested; 4.8 eV/bond unverified | Lap-shear test | [zone 5](pol_v0_1_zones.md#5-amide-bond-interface) |
+| Coil ω vs conductive plane δ | P/F ≥ ωδ | Charge (eddy) → heat; lift | Grounded (hard constraint) | Al-plate bench (ANALYSIS) | [zone 6](pol_v0_1_zones.md#6-eddy-current-lift-field) |
+| Micro Tesla-valve channels | Diodicity at Re ≳ 200; small at micro/low Re | Fluid | Grounded; Optional; lift claim Speculative | — | [zone 7](pol_v0_1_zones.md#7-micro-tesla-valve--density-accents-optional) |
+
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.
 - Heartbeat frequency, geometry and drive mechanism ([core §0, §10](tungsten_bismuth_core.md)).
