@@ -228,6 +228,9 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 **3) Minimal multimer with spin-locking and escape channels.**
 - **12-around-1:** a central VE nucleus plus 12 surrounding VE units, the first shell of the isotropic vector matrix. This is the fcc nearest-neighbour shell, so the geometry is Grounded.
 - **[rest missing, Channing to supply]**
+
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** Each shell unit keeps one open handle facing the nucleus. That leaves 12 radial bonds, and the 6 square-face gaps between shell units serve as escape channels. "Spin-locking" would then mean the 12 links constrain the shell to co-rotate with the nucleus (a rigid-body lock), while the open gaps let fluid or field leak out. Label: geometry **Grounded**; locking and escape function **Speculative**.
+
 - **Labels:** spin-locking and escape channels **Speculative** until defined.
 - **Chemistry route:** a 12-c core MOP linked to twelve 1-c MOPs, a direct analog of the paper's "satellite" oligomers, would be **Plausible-untested**.
 
@@ -249,6 +252,9 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - **Left- and right-handed** versions exist. Symmetric pairing gives **net L = 0**; a **chiral bias** gives **finite L**.
 - The **12 vertices map onto the 12 preferred directions** of a **cuboctahedral magnetic cluster**.
 - The jitterbug works as a **collective spin-precession pathway**, redistributing angular momentum while preserving the isotropic- **[truncated, Channing to supply]**.
+
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…isotropic-vector-matrix symmetry on average": the collective motion redistributes L among the vertices while the time-averaged structure stays the isotropic VE. **Speculative.**
+
 
 **Correction note (Grounded):** the standard jitterbug sequence is **VE (cuboctahedron) → icosahedron → octahedron (edges doubled) → tetrahedron (edges quadrupled)**, with left- and right-hand contraction. Source: Fuller, *Synergetics: Explorations in the Geometry of Thinking* (Macmillan, 1975), §460 / Fig. 460.08 (verified via the online edition).
 
@@ -278,6 +284,8 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 | **Icosahedron** | Water | 20 faces, 12 vertices at cyclic permutations of (0, ±1, ±φ); dual to the dodecahedron | Flow and adaptability; the end state of the jitterbug's first contraction |
 | **Dodecahedron** | Aether / Cosmos | 12 pentagonal faces; φ is built into the pentagon (diagonal/side = φ); dual to the icosahedron | Quintessence **[truncated, Channing to supply]** |
 
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "Quintessence and higher-order (cosmic) structure": the dodecahedron stands for the whole and the heavens beyond the four elements. Label: **Symbolic** (Plato, *Timaeus*: the fifth solid used "for the whole").
+
 **Labels:**
 - **Geometry: Grounded.** Face counts, dualities, coordinates and the φ relations are standard.
 - **Element pairings: Symbolic, not physical.**
@@ -298,12 +306,18 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - **Planetary version:** Earth runs this cycle continuously. Any surface architecture, pyramidal or otherwise, that is **resonantly coupled** to the electric-pulse / magnetic-confinement pair would take part in the same rhythm. It could **damp extremes** when the internal field was weaker or more multipolar.
 - **Next-step options:** map planetary E-field geometry and plasma-layer responses in detail, or move to an engineered pulsed, magnetically confined layered node **[truncated, Channing to supply]**.
 
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…and test whether the pulse/confinement triad gives controlled leakage at bench scale." That is the engineered-node path (Butterfly-Node, dual-oil, dusty-plasma bench). **Plausible-untested.**
+
+
 **Grounded core (Channing's recovered text; the planetary exemplar of R6 controlled leakage). Label: Grounded.**
 - **Confinement:** the Chapman–Ferraro current at the magnetopause confines the geomagnetic field. The solar wind supplies continuous dynamic pressure.
 - **Loading:** a southward IMF drives reconnection, which opens field lines and imposes an electric field across the polar caps. Energy is stored in the magnetotail; this is the compressive phase.
 - **Unloading:** at a critical point the energy is released in a substorm. That brings rapid reconfiguration, earthward plasma flows, intensified field-aligned currents, and a transient electric pulse coupling into the ionosphere.
 - **Breathing:** the magnetosphere expands and contracts. The plasma layers (plasma sheet, boundary layers, ionospheric strata) are compressed, rarefied and redistributed. Then the cycle resets.
 - **Leaky throughout:** the field stays leaky the whole time. The electric pulse does not seal the system; it modulates the leakage rate and redistributes **[truncated, Channing to supply]**.
+
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…energy and plasma among the layers": from the tail lobes to the plasma sheet, the ring current and the ionosphere (Joule heating, particle precipitation). This matches standard substorm energy partition. **Grounded.**
+
 - **Sources:**
   - Chapman & Ferraro, "A new theory of magnetic storms," *Terr. Magn. Atmos. Electr.* 36, 77–97 (1931), doi 10.1029/TE036i002p00077.
   - Dungey, *Phys. Rev. Lett.* 6, 47 (1961) (cited above).
@@ -735,6 +749,9 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
 - The foci carry current or E-field, giving local **magnetic and ponderomotive pressure**.
 - **Radial channels** carry **centrifugal + Bernoulli pressure drop** (rotating flow: p falls toward the axis in vortex cores; faster flow means lower static pressure).
 - "Lorentz pads at spaced stations add a…" **[missing, Channing to supply]**. The source text is truncated here.
+
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…a tangential J×B impulse": localized electrode/magnet pads drive azimuthal force on the conducting fluid. That trims circulation and adds a controllable swirl on top of the centrifugal + Bernoulli drop. Physics **Grounded** (MHD stirring); role in the Multi-Egg **Plausible-untested**.
+
 - **Labels:** individual pressures **Grounded**; the combined Multi-Egg force budget **Plausible-untested** (C8: gyro eggs vs eddy springs); any net lift **Speculative** (an internal-force caveat, see A3).
 
 **3) Double-ellipse as a geometric lens**

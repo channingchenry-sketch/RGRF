@@ -1,5 +1,8 @@
 # RGRF docs
 
+**Start here:** [REBUILD_INDEX.md](REBUILD_INDEX.md) is the canonical living map of all threads (status: Recovered / Reconstructed / Bridged / Missing).
+
+
 All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausible-untested** / **Speculative** (see the main README).
 
 | File | What it is |

@@ -38,6 +38,9 @@ Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen
 
 **Combined vibration + centrifugal** **[truncated, Channing to supply]**.
 
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** Streaming body forces add to centrifugal stratification. Acoustic radiation force moves particles and droplets toward pressure nodes or antinodes depending on their contrast factor, competing with the ρω²r density sorting. Vibration can therefore fine-tune the layers that spin sets coarsely. **Grounded** physics; the combined control is **Plausible-untested.**
+
+
 **Twisted toroidal geometry with a 60° twist.**
 - g_eff = ω²r acts along the helical gradient, which gives a helical effective-gravity path.
 - The kinematics are **Grounded**. Any functional benefit is **Plausible-untested**.
@@ -49,6 +52,9 @@ Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen
   - E. J. Weber & L. Davis Jr., "The angular momentum of the solar wind," *ApJ* 148, 217–227 (1967), doi 10.1086/149138. Effective corotation extends out to the Alfvén radius, about 15–50 R☉.
 - **Across B:** E×B drift, polarization drift, turbulent diffusion.
 - "Controlled perpendicular shifting by **[truncated, Channing to supply]**".
+
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…an imposed radial E-field (E×B drift), polarization drift from a time-varying E, or tailored turbulence (anomalous cross-field diffusion)." These are the standard cross-B transport routes. **Grounded.**
+
 
 **Spin-sum and double-torus concept (Channing's text).**
 - **Constructive addition:** L_total = L_water + S_muon + S_paramagnetic.
@@ -130,9 +136,15 @@ Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen
   - a static levitating field acting as h (§9 levitation methods);
   - for the chirp carrier you want χ > 0, so that it gets a restoring shift **[truncated, Channing to supply]** (chirp packets, `lift_and_equilibrium_systems.md` §8).
 
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…that pulls the carrier frequency back toward the mode centre when h drifts, so the packet stays locked (negative feedback)." **Plausible-untested.**
+
+
 ### (d) Circumference as a design knob (OCR-reconstructed)
 - **Phase around the loop:** for a toroidal or cyclic path of length L = 2πR, the round-trip phase is φ = kL = ωL / c_eff. Here c_eff includes medium or plasma dispersion.
 - **Resonance condition:** L = nλ, which gives **f_n = n c_eff / L**. The free spectral range is c_eff / L.
 - **Near a resonance:** the S-matrix poles move with L. The transmission is S₂₁ ≈ κ / (Δω + iγ/2), with κ the coupling and γ the total loss, and the linewidth gives Q = ω/γ.
 - **What sets the design:** circumference fixes the discrete f_n, together with the material (c_eff), the coupling (κ) and the loss (γ) **[truncated, Channing to supply]**.
+
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…alongside material dispersion and wall/coupling losses, which set linewidth and Q (Q ≈ ω/γ)." **Grounded** (ring-resonator theory).
+
 - **Grounded:** ring resonators. W. Bogaerts et al., "Silicon microring resonators," *Laser Photonics Rev.* 6(1), 47–73 (2012), doi 10.1002/lpor.201100017. The same algebra applies to acoustic or fluidic rings, with c_eff the sound or wave speed.

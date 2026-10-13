@@ -46,6 +46,9 @@
 
 **Low-frequency overlap with [truncated, Channing to supply].**
 
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…with brain rhythms (EEG theta 4–8 Hz and alpha 8–12 Hz) and with other ELF biological timescales." The overlap is in **frequency only**. Field-strength coupling is unproven: **Plausible / weak.**
+
+
 ## 2. Green lensing (Speculative)
 - Channing gives two readings: an **optical** one (a green-reflecting or green-transmitting matrix acting as a lens or filter) and an **ecological** one (green cover shaping local field and light environments).
 - The mechanism and the source are **[Channing to supply]**.
@@ -63,6 +66,9 @@ The proposed chain is: Schumann → Becker-type bioelectric fields → Fröhlich
 - **Mitochondrial solitons and the green-matrix lens: Speculative.** There is no source.
 - **Chirp packets** hosted in Fröhlich condensates or Davydov solitons (see `lift_and_equilibrium_systems.md`): **Speculative.**
 - "Myc composites supply the ordered, adaptive **[truncated, Channing to supply]**". See `mycelium_uses.md`.
+
+> **Bridge (Resona reconstruction, 2026-10-12; replace if original found):** "…scaffold": a fibrous, hydrated, piezo-/ion-active matrix that could host and damp coherent vibrational modes, and that remodels under load. Label: scaffold properties **Plausible**; hosting coherent (Fröhlich-type) modes **Speculative**.
+
 
 ## 4. Collagen as a bioelectric material
 
