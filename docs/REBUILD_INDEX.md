@@ -48,7 +48,7 @@
 |---|---|---|
 | [`C1-C12_seed_map.md`](C1-C12_seed_map.md) | Seed questions C1–C12 (C8 = Multi-Egg) | Recovered |
 | [`ANALYSIS_2026-10-12.md`](ANALYSIS_2026-10-12.md) | Cross-thread analysis | Recovered |
-| [`pol_v0_1_zones.md`](pol_v0_1_zones.md) | POL v0.1 zone concept images (1–7), transcribed + checked | Recovered (zone 6 image missing) |
+| [`pol_v0_1_zones.md`](pol_v0_1_zones.md) | POL v0.1 zone concept images (1–7), transcribed + checked; possible material stacks | Recovered (zone 6 image missing); material stacks **Reconstructed** from memory |
 | [`DESIGN_FORCE_FLOW_MAP.md`](DESIGN_FORCE_FLOW_MAP.md) | Design → force → flow map (all subsystems), unmapped parameters, top gaps | New |
 | [`lift_and_equilibrium_systems.md`](lift_and_equilibrium_systems.md) | Buoyancy-first lift, Lorentz, Tesla valves, EZ water, dual-oil, Coulomb eggs, chirp packets, levitation methods, loop mechanisms 1–8, Earth equilibrium | Recovered |
 | [`butterfly_node.md`](butterfly_node.md) | Figure-eight ferrofluid wings, egg, copper half-tubes, cascade, foci filter | Recovered; specifics **Missing** |

@@ -235,6 +235,12 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Amide interface (functionalized BN ↔ chitosan/–NH₂) | Covalent bonding; interface shear strength | Stress (load transfer) | Plausible-untested; 4.8 eV/bond unverified | Lap-shear test | [zone 5](pol_v0_1_zones.md#5-amide-bond-interface) |
 | Coil ω vs conductive plane δ | P/F ≥ ωδ | Charge (eddy) → heat; lift | Grounded (hard constraint) | Al-plate bench (ANALYSIS) | [zone 6](pol_v0_1_zones.md#6-eddy-current-lift-field) |
 | Micro Tesla-valve channels | Diodicity at Re ≳ 200; small at micro/low Re | Fluid | Grounded; Optional; lift claim Speculative | — | [zone 7](pol_v0_1_zones.md#7-micro-tesla-valve--density-accents-optional) |
+| CNT–graphene transition zone (pillar spacing, junction quality) | Fourier conduction in 3D network; limited by interface (Kapitza) resistance | Heat, charge | Grounded (materials); Plausible-untested in POL | — | [stacks](pol_v0_1_zones.md#possible-material-stacks-reconstructed-from-channings-memory-2026-10-12-replace-if-original-found) |
+| He pressure ratio p₂/p₁ (piezo-driven cycle) | Adiabatic T₂/T₁ = (p₂/p₁)^((γ−1)/γ), γ = 5/3; active cycle pumps heat with work input | Heat (pumped), fluid (gas oscillation) | Grounded (Stirling/pulse-tube/thermoacoustic); Plausible-untested in POL | — | [stacks](pol_v0_1_zones.md#possible-material-stacks-reconstructed-from-channings-memory-2026-10-12-replace-if-original-found) |
+| Diamond sheet thickness | q = −k∇T, k ~2000 W/m·K | Heat (spreading) | Grounded | — | same |
+| Diamond/quartz impedance mismatch ("bouncing") | Acoustic reflection at impedance steps | Phonons | Plausible-untested; meaning [Channing to clarify] | — | same |
+| Bi cavity | Diamagnetic F = (χV/μ₀)B∇B; melts ~271 °C | Force, field | Grounded; role unconfirmed | — | same |
+| He containment material | Permeation/leak rate | Fluid (He loss) | Grounded (issue) | Leak-rate test | same |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

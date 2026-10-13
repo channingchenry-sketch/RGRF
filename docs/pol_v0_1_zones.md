@@ -129,9 +129,31 @@ From Channing's paste (summary):
 - R&D on these hybrids is ongoing.
 - Label: **Plausible-untested** for POL or housing.
 
-Channing notes this is **"not the same"** as the previously saved "possible material stacks". The original stacks are **[Channing to supply from Grok]**.
+Channing notes this is **"not the same"** as the previously saved "possible material stacks". The original stacks are reconstructed below from Channing's memory.
+
+## Possible material stacks (reconstructed from Channing's memory, 2026-10-12; replace if original found)
+> "CNT graphene transition zones, perforated ferritic steel sheets, our piezohelium feedback loop that worked with adiabatic pressure for cooling cycle bouncing between diamond sheets and quartz and a bismuth cavity if I remember right"
+
+1. **CNT–graphene transition zones.** **Grounded:** CNT–graphene hybrids, including "pillared graphene" (vertical CNTs grown between graphene sheets), are studied as 3D thermal and electrical paths. They pair in-plane graphene conduction with through-plane CNT conduction. **The limit is interface thermal (Kapitza) resistance** at the CNT–graphene junctions and at contacts to other layers. Use in POL: **Plausible-untested**.
+2. **Perforated ferritic steel sheets: back-iron.** See the perforated-screen note in [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md) and [DESIGN_FORCE_FLOW_MAP.md §4](DESIGN_FORCE_FLOW_MAP.md). The physics is Grounded; use in POL is Plausible-untested.
+3. **Piezo-helium feedback loop with an adiabatic compression/expansion cooling cycle.** **Grounded:**
+   - Helium is the standard working gas for Stirling, pulse-tube and thermoacoustic coolers.
+   - Piezo (and linear) drivers are used to drive thermoacoustic and pulse-tube coolers.
+   - Adiabatic step: **T₂/T₁ = (p₂/p₁)^((γ−1)/γ)**, with γ = 5/3 for He (exponent 0.4).
+   - **This is a real way to make the cooler zones.** It resolves the zone-2 "adiabatic cold zone" flag: an *active* cycle pumps heat and needs work input, so it is not passive cooling.
+   - Use in POL: **Plausible-untested**. Links: [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md) (the helium gas spring, k ≈ γpA²/V).
+4. **"Bouncing between diamond sheets and quartz."**
+   - Diamond is the best bulk heat spreader, k ~2000 W/m·K (**Grounded**).
+   - Quartz serves as the piezo driver (**Grounded**).
+   - Acoustic and thermal reflection between high-impedance layers, so that waves and phonons bounce at impedance mismatches, is **Plausible-untested** as a design element.
+   - What "bouncing" means here (acoustic waves? the gas pressure oscillation? heat?) is **[Channing to clarify]**.
+5. **Bismuth cavity.** Bi is the most diamagnetic elemental solid (Grounded). **Caveat:** it melts at ~271 °C, so it must stay cold-side. Possibly the same as the TBQ core's Bi layer and bottom resonant cavity ([tungsten_bismuth_core.md](tungsten_bismuth_core.md)), unconfirmed.
+
+**Containment:** helium permeates many materials (polymers, glasses, thin films) and leaks through small defects. Containment is a real design issue for both the loop and any buoyancy cell. Mycelium-hemp is porous and is not a helium barrier.
+
+**Unknowns:** He fill and swing pressures (p₁, p₂), drive and acoustic frequencies, diamond/quartz/graphene sheet thicknesses, gas volume, Bi cavity geometry, and the cooling power vs input work.
 
 ## Missing pieces
 - Zone 6 image (only its caption was captured).
 - Confirmed board dimensions (the "270 mm" label).
-- The original "possible material stacks" from Grok.
+- The original "possible material stacks" text from Grok (reconstruction below stands in for it).
