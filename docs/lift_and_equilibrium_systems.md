@@ -179,7 +179,16 @@ Source: S. Earnshaw, "On the nature of the molecular forces which regulate the c
 
 **Related prior art (comparison, not legal advice).** CN121142094A is a diamagnetic-levitation accelerometer with a quasi-zero-stiffness structure: a Bi disc plus pyrolytic graphite levitated over a permanent-magnet array, with field tuning by moving soft iron. Channing says it is closer to the hoverboard (POL) design than to the TBQ core. Takeaway: quasi-zero stiffness means positive and negative stiffness cancel, leaving near-zero restoring stiffness and so high force/displacement sensitivity. That is a possible idea for the POL height-control loop as a sensitive gap/load sensor or a soft stage (**Plausible-untested**). Link: https://patents.google.com/patent/CN121142094A/en
 
-**Recovered detail (Channing, 2026-10-12): "we used ferritic steel as well"** in the early hoverboard design. Ferritic steel is ferromagnetic: it is *attracted* to fields, serves as a flux path or back-iron, and gives EMS-style attraction (unstable without feedback, per Earnshaw). That contrasts with diamagnetic Bi/graphite, which is *repelled* and passively stable. **Grounded** physics. Its role in the original design is unknown **[Channing to supply]**.
+**Recovered detail (Channing, 2026-10-12): "we used ferritic steel as well"** in the early hoverboard design. Ferritic steel is ferromagnetic: it is *attracted* to fields, serves as a flux path or back-iron, and gives EMS-style attraction (unstable without feedback, per Earnshaw). That contrasts with diamagnetic Bi/graphite, which is *repelled* and passively stable. **Grounded** physics. Its role: used as **back-iron in the form of perforated screens** (Channing confirmed, 2026-10-12).
+
+**Perforated ferritic-steel back-iron screens: mapping** (physics **Grounded**; benefit for POL **Plausible-untested**):
+- **Perforation pattern (hole size, pitch, open-area fraction, thickness) → mass.** Mass scales with (1 − open fraction) × thickness, so it is lower than a solid plate.
+- **→ eddy currents.** Holes interrupt the current loops, giving shorter paths and less eddy loss than a solid plate (loss also scales with thickness relative to skin depth).
+- **→ flux guiding.** Guiding is partial. Effective permeability falls with open fraction, so the screen carries less flux than solid back-iron of the same thickness.
+- **→ airflow.** Air passes through the holes, which helps cooling and ties to the ion-wind/air-flow paths (§4 ionic wind).
+- **→ saturation.** Thin webs between holes concentrate flux and can saturate locally, which limits how much flux the screen can carry.
+- **Unknowns:** hole size, pitch, open area %, thickness, steel grade.
+
 
 ## Grounded loop mechanisms (1–8)
 *Channing's recovered text, labeled. Each mechanism is standard physics; the open question is whether they integrate into one loop, and with what energy ledger (see Power ledger summary).*

@@ -144,11 +144,20 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Chirp probe on the drive coil | Resonance shift vs gap (system identification) | Charge, field | Plausible-untested | Bench: series-resonant coil + Al plate, ±0.5 mm prediction | [lift §8](lift_and_equilibrium_systems.md) |
 | Conductive floor conductivity | Needs ~10⁷ S/m for eddy floors | Charge | Speculative for mycelium | — | [mycelium_uses](mycelium_uses.md) |
 | Quasi-zero-stiffness stage (cf. CN121142094A) | Positive + negative stiffness offset → k_net ≈ 0, so displacement per force is large | Force sensing; field (tuned by soft-iron gap) | Plausible-untested for POL | — | prior-art note below |
-| Ferritic steel (early hoverboard) | Ferromagnetic attraction; flux path / back-iron; EMS-style (needs feedback) | Field (flux guided), force (attractive) | Grounded (physics); role unknown [Channing to supply] | — | Channing 2026-10-12 |
+| Ferritic steel (early hoverboard) | Ferromagnetic attraction; flux path / back-iron; EMS-style (needs feedback) | Field (flux guided), force (attractive) | Grounded (physics); role: perforated-screen back-iron (confirmed) | — | Channing 2026-10-12 |
 
 **Related prior art (comparison, not legal advice).** CN121142094A is a diamagnetic-levitation accelerometer with a quasi-zero-stiffness structure: a Bi disc plus pyrolytic graphite levitated over a permanent-magnet array, with field tuning by moving soft iron. Channing says it is closer to the hoverboard (POL) design than to the TBQ core. Takeaway: quasi-zero stiffness means positive and negative stiffness cancel, leaving near-zero restoring stiffness and so high force/displacement sensitivity. That is a possible idea for the POL height-control loop as a sensitive gap/load sensor or a soft stage (**Plausible-untested**). Link: https://patents.google.com/patent/CN121142094A/en
 
-**Recovered detail (Channing, 2026-10-12): "we used ferritic steel as well"** in the early hoverboard design. Ferritic steel is ferromagnetic: it is *attracted* to fields, serves as a flux path or back-iron, and gives EMS-style attraction (unstable without feedback, per Earnshaw). That contrasts with diamagnetic Bi/graphite, which is *repelled* and passively stable. **Grounded** physics. Its role in the original design is unknown **[Channing to supply]**.
+**Recovered detail (Channing, 2026-10-12): "we used ferritic steel as well"** in the early hoverboard design. Ferritic steel is ferromagnetic: it is *attracted* to fields, serves as a flux path or back-iron, and gives EMS-style attraction (unstable without feedback, per Earnshaw). That contrasts with diamagnetic Bi/graphite, which is *repelled* and passively stable. **Grounded** physics. Its role: used as **back-iron in the form of perforated screens** (Channing confirmed, 2026-10-12).
+
+**Perforated ferritic-steel back-iron screens: mapping** (physics **Grounded**; benefit for POL **Plausible-untested**):
+- **Perforation pattern (hole size, pitch, open-area fraction, thickness) → mass.** Mass scales with (1 − open fraction) × thickness, so it is lower than a solid plate.
+- **→ eddy currents.** Holes interrupt the current loops, giving shorter paths and less eddy loss than a solid plate (loss also scales with thickness relative to skin depth).
+- **→ flux guiding.** Guiding is partial. Effective permeability falls with open fraction, so the screen carries less flux than solid back-iron of the same thickness.
+- **→ airflow.** Air passes through the holes, which helps cooling and ties to the ion-wind/air-flow paths (§4 ionic wind).
+- **→ saturation.** Thin webs between holes concentrate flux and can saturate locally, which limits how much flux the screen can carry.
+- **Unknowns:** hole size, pitch, open area %, thickness, steel grade.
+
 
 ## 5. Buoyancy, Lorentz, ionic wind
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
