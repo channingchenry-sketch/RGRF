@@ -529,14 +529,6 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
   - Prediction: depletion where ∇⟨E²⟩ is largest, scaling as 1/ω².
   - Then test whether the shifted layer keeps itself stable after perturbation, i.e. "self-correcting".
 
-**Overall tags:**
-- R2–R5 anchors: **Grounded**.
-- The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.
-- The chain as a whole: an organising narrative, not a mechanism.
-
-## Planetary & stellar reference threads
-These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
-
 ### Elliptical Eye / Multi-Egg core
 *From Channing's recovered text, saved faithfully. Labels added. Truncated text is marked.*
 
@@ -576,6 +568,14 @@ These are Channing's reference sequence, which Channing labels **speculative** a
 1. **Ellipse lens.** Use an LED or laser at focus 1 of a polished 2-D or 3-D ellipse and measure intensity at focus 2 vs off-focus. This is a quick demonstration (Grounded).
 2. **Feedback sign/delay.** Step the RF drive into a cavity plasma, measure the density lag and overshoot, and classify the loop as stable or unstable.
 3. **Silk film.** Measure open-circuit voltage and charge per newton under shear, and check that it is ~1 pC/N. Then check whether that bias changes ion distribution in an adjacent electrolyte. Expected result: negligible.
+
+**Overall tags:**
+- R2–R5 anchors: **Grounded**.
+- The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.
+- The chain as a whole: an organising narrative, not a mechanism.
+
+## Planetary & stellar reference threads
+These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
 
 ### 1. Uranus: field / rotation misalignment as a large-scale reference
 - **Observed (Grounded).**
