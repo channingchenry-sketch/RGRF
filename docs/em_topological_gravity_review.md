@@ -239,6 +239,34 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - Can a 12-around-1 MOP satellite be made and characterized (MALDI-TOF, DLS, SAXS) with the expected 13-cage stoichiometry?
 - Does any collective vibrational or electronic mode appear in the multimer that is absent in single cages (Raman, THz)? If not, "resonance coupling" reduces to ordinary bonding.
 
+### Jitterbug phases → spin and angular momentum
+*Channing's recovered text, saved faithfully. It arrived out of order and is truncated at the end. Link: VE Cage Multimers (above), Multi-Egg / Elliptical Eye.*
+
+**As given:**
+- In the VE, **fully expanded**, the **radial and circumferential edges are equal** ("radially equilateral"), and the net is **zero**.
+- The **square faces fold**, giving a **continuous family** of shapes along one **deformation parameter** (the face-fold angle).
+- Angular momentum **L ≈ Σ r × p** over the vertices as they move.
+- **Left- and right-handed** versions exist. Symmetric pairing gives **net L = 0**; a **chiral bias** gives **finite L**.
+- The **12 vertices map onto the 12 preferred directions** of a **cuboctahedral magnetic cluster**.
+- The jitterbug works as a **collective spin-precession pathway**, redistributing angular momentum while preserving the isotropic- **[truncated, Channing to supply]**.
+
+**Correction note (Grounded):** the standard jitterbug sequence is **VE (cuboctahedron) → icosahedron → octahedron (edges doubled) → tetrahedron (edges quadrupled)**, with left- and right-hand contraction. Source: Fuller, *Synergetics: Explorations in the Geometry of Thinking* (Macmillan, 1975), §460 / Fig. 460.08 (verified via the online edition).
+
+**Labels:**
+- **Geometry: Grounded.** The jitterbug is a one-parameter twisting contraction. The two senses of twist are mirror images, and as rigid-body kinematics, counter-twisting halves carry opposite L.
+- **Magnetic-cluster mapping: Plausible.**
+  - 13-atom transition-metal clusters are modelled as cuboctahedral or icosahedral. Spin-polarized DFT for Fe₁₃, Co₁₃ and Ni₁₃ finds icosahedral structures lower in energy than octahedral/cuboctahedral ones (*Phys. Rev. B* 78:245404, 2008).
+  - For Rh₁₃, the icosahedral ground state has a reduced moment (arXiv cond-mat/9312096).
+  - So a cuboctahedron ↔ icosahedron jitterbug-like distortion is a *real* structural coordinate in such clusters, and it changes their magnetism.
+- **Collective spin-precession pathway: Speculative.**
+  - Geometric distortion can couple to spin through spin–orbit and magnetoelastic effects, but no measurement shows a jitterbug-mode-driven precession.
+  - In a closed system, total L (orbital + spin) is conserved, so "redistributing" means exchange between the lattice/orbital and spin parts, as in the Einstein–de Haas effect. Net L cannot be created.
+
+**Falsifiable question:**
+- In DFT or experiment (Stern–Gerlach on cluster beams, XMCD), does the magnetic moment of a 13-atom cluster change continuously along a cuboctahedron→icosahedron path?
+- Is there an odd-parity (chiral) component that appears only for one twist sense?
+- If no chirality-dependent term appears, the "chiral bias" reading reduces to ordinary geometry.
+
 ### L5. Field lines & longitudinal energy channels (recurring thread)
 - **Observed (Grounded, citations verified).**
   - **Field-aligned (Birkeland) currents** connect the magnetosphere and ionosphere along Earth's magnetic field lines and carry energy into the auroral zones. Satellite magnetometers mapped their large-scale pattern ("region 1/region 2"). Iijima & Potemra, "Field-aligned currents in the dayside cusp observed by Triad", *J. Geophys. Res.* 81(34), 5971–5979 (1976).

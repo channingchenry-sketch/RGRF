@@ -65,6 +65,47 @@
 
 **Power ledger:** input = coil I²R plus viscous dissipation; output = flow work ΔP·Q. Expect efficiency of a few % at small scale.
 
+## 6b. Dual-Oil Module (bench)
+*Channing's recovered text, saved faithfully. It arrived out of order. Sits next to the multi-fluid Tesla-valve loop (§6).*
+
+**Concept (as given).**
+- **Two fluid domains** share a **controllable interface**.
+- **Castor domain:** a high-viscosity dielectric that hosts **electrostatic self-organization**, i.e. ball-bearing or particle **chaining under an applied E-field**.
+- **CBD / mycelium-compatible domain:** lower or tunable viscosity; the **bioactive phase**.
+- **Interface:** tension and viscosity are **modulated by terpenes or spice extracts** (a "soap" analogue).
+- **Electrodes,** or VE-shaped electrodes, go on the castor side. **Living or passive particles** go on the CBD side.
+- **Track:** particle trajectories, interface deformation, and **cross-talk** between chaining and the second fluid.
+
+**Grounded:**
+- **Electrorheological chaining:** Winslow, "Induced fibration of suspensions", *J. Appl. Phys.* 20:1137–1140 (1949), doi 10.1063/1.1698285.
+  - Polarizable particles in an insulating oil form field-aligned chains, raising shear resistance reversibly in milliseconds.
+  - Castor oil is a reasonable host: dielectric constant ~4.8, very viscous.
+- **Electrohydrodynamic interface deformation:**
+  - Taylor, "Studies in electrohydrodynamics I. The circulation produced in a drop by an electric field", *Proc. R. Soc. A* 291:159–166 (1966), doi 10.1098/rspa.1966.0086.
+  - Melcher & Taylor, "Electrohydrodynamics: a review of the role of interfacial shear stresses", *Annu. Rev. Fluid Mech.* 1:111–146 (1969), doi 10.1146/annurev.fl.01.010169.000551.
+  - In this **leaky-dielectric model,** free charge collects at a fluid–fluid interface and drives circulation. Whether a drop goes prolate or oblate is set by the ratios of conductivity, permittivity and viscosity.
+
+**Miscibility check (important):**
+- **Castor oil is miscible with ethanol and with other vegetable oils.** It is reported to blend with MCT, and as a triglyceride it very likely blends with hemp-seed oil too. So **castor + an MCT- or hemp-carried CBD oil probably gives one phase, not an interface.** Test in a vial before building: a cloudy line means two phases, a clear blend means one.
+- **Castor is practically insoluble in mineral oil** (pharmacopoeia data), and the classic Taylor drop experiments use **castor in silicone oil**.
+- **Interface options:**
+  - (a) Castor | **silicone or mineral oil** carrying the bioactive, if it is oil-soluble enough.
+  - (b) Castor | **water or glycerol–water** for a mycelium-compatible aqueous phase, with CBD as an emulsion.
+  - (c) A thin membrane or hydrogel separator.
+- **Labels:** interface physics **Grounded**; the specific castor/CBD pairing **needs a check**; **terpenes as interface modulators are Plausible-untested** (some are surface-active, and the size of the effect is unknown).
+
+**Low-cost test design (~$40–80):**
+- **Cell:** a glass cuvette or petri dish holding castor (bottom) and the second phase (top or side). Use two copper-tape or stainless electrodes on the castor side, with 2–10 mm gap.
+- **Drive:** a 1–5 kV DC or low-frequency AC source, current-limited (e.g. a negative-ion generator module or a small HV module). **HV safety:** enclosure, one hand, bleeder resistor.
+- **Particles:** castor side, 50–200 μm glass beads, cornstarch or TiO₂ to chain. Second phase, passive tracers or, later, mycelium fragments or spores.
+- **Diagnostics:** phone macro video at 60–240 fps. Use free tracking software (Trackpy, or Fiji/TrackMate) to measure chain-formation time, interface deflection vs voltage, and tracer motion in the second phase.
+- **Runs:**
+  1. Chaining alone.
+  2. Interface alone, compared with the Taylor prediction (prolate vs oblate).
+  3. Both together, to look for cross-talk: does chaining change interface flow, or does second-phase motion change chain stability?
+  4. Add 0.1–1 % terpene (e.g. limonene) and re-measure interface deflection and tension (pendant-drop photo).
+- **Falsifiable:** if terpenes don't measurably change the deformation-vs-voltage curve, the "soap" knob is negligible.
+
 ## 7. Coulomb eggs, EM field generation & sympathetic resonance (link **C8** Multi-Egg)
 - **Grounded:**
   - Charged or magnetised rotors ("eggs") generate fields. Spinning charge is a current loop.
