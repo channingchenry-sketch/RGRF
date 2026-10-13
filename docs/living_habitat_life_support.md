@@ -266,6 +266,15 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
              - CBD as a membrane/ion-channel modulator: **Grounded** (biology).
              - CBD oil as a bulk ion conductor: **Speculative / unsupported**.
              - Ion transport via additives, water or interfaces in CBD-oil segments: **Plausible-untested**.
+           - **Next step: receptor sites in a biological context.** Channing (verbatim): "Yeah, we jumped from there to the receptor sites in biological context". What this was for in RGRF: **[Channing to supply]**.
+             - **Grounded targets. These are preclinical, mostly in vitro, and often at µM concentrations.**
+               - **CB1:** a non-competitive **negative allosteric modulator**, with low orthosteric affinity (Ki >4 µM). Laprairie et al., *Br. J. Pharmacol.* 172(20), 4790–4805 (2015), doi:10.1111/bph.13250 ([PMC4621983](https://pmc.ncbi.nlm.nih.gov/articles/PMC4621983/)). The work is from **Dalhousie University, Canada**.
+               - **CB2:** low affinity, and antagonist / inverse-agonist / NAM behaviour has been proposed. This is weaker evidence, taken from the review by Peng et al., *Basic Clin. Pharmacol. Toxicol.* (2022), doi:10.1111/bcpt.13710. **Flag:** not checked against primary papers.
+               - **TRPV1:** a weak full agonist that then desensitizes the channel. Bisogno et al., *Br. J. Pharmacol.* (2001), doi:10.1038/sj.bjp.0704327. TRPV1 is a **cation channel**, which ties back to the ion-transport thread.
+               - **5-HT1A:** a modest-affinity agonist in cloned human receptors. Russo, Burnett, Hall & Parker, *Neurochem. Res.* 30(8), 1037–1043 (2005). Later rat-brainstem work suggests **positive allosteric modulation** instead. Reviewed in [PMC8124847](https://pmc.ncbi.nlm.nih.gov/articles/PMC8124847/).
+               - **GPR55:** an antagonist, IC₅₀ ~445 nM. Cited via the Peng 2022 review and [PMC7652785](https://pmc.ncbi.nlm.nih.gov/articles/PMC7652785/). **Flag:** the primary source (Ryberg et al. 2007) was not opened.
+               - **PPARγ:** an agonist, EC₅₀ ~2 µM. Cited via the Peng 2022 review. **Flag:** primary source not opened.
+             - **Label:** receptor pharmacology is **Grounded** (biology). Any use of it in the craft or habitat is **Speculative** until Channing supplies its role.
        - **Castor oil:** noted for **self-organizing with iron**. **Plausible.** Castor oil has served as a carrier for magnetic and field-responsive suspensions in research (not verified here). It also hosts electrorheological chaining in the Dual-Oil Module. Links: ferrofluid loop ([lift_and_equilibrium_systems.md §6](lift_and_equilibrium_systems.md)) and castor as an oil-based ferrofluid carrier ([helium_water_circulation.md §10d](helium_water_circulation.md)).
      - **Status: noted, never applied.** Still open.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
