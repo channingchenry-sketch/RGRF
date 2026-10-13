@@ -74,6 +74,7 @@ Intro text (as given): "…[imagery] for every major zone we mapped onto the POL
 - **Density ~0.65 g/cm³ is plausible** for a pressed mycelium-hemp composite. Insulation grades are much lighter, ~0.06–0.26 g/cm³ ([mycelium_uses.md](mycelium_uses.md)). It is unmeasured for this board.
 - **Mechanical use:** the literature recommends non- or semi-structural use ([mycelium_uses.md](mycelium_uses.md)), so "structural skin" is **Plausible-untested**.
 - **"Self-heals / regenerative" only applies if the mycelium is living** (moist, fed, not heat-killed). Standard composites are heat-treated and inert. **Plausible-untested** for living skins; conflicts with the >400 K hot zones (zone 2).
+- Scaling to craft habitats and life support: [living_habitat_life_support.md](living_habitat_life_support.md).
 - **Compostable: Grounded.** The "SEM-style" panel is art, not a micrograph.
 
 ## 5. Amide-Bond Interface

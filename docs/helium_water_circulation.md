@@ -311,5 +311,6 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
   - **Hydrogen embrittlement:** H₂ embrittles some steels, including **ferritic** grades. That matters for the **perforated ferritic-steel back-iron** ([lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md)), which should be isolated from H₂ or coated.
   - **Energy cost:** practical electrolysis needs **~50 kWh per kg H₂** (the theoretical minimum is ~39 kWh/kg on the higher-heating-value basis). Producing lift gas this way costs significant power.
 - **Integrated system** (filtering + O₂ + H₂ ascent): **Plausible-untested**.
+- Life support continues in [living_habitat_life_support.md](living_habitat_life_support.md).
 
 **Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
