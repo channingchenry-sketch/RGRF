@@ -187,6 +187,12 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
    - **Incompatible with copper:** copper catalyzes H₂O₂ decomposition (fast, exothermic, gassy) and is corroded by it, so **mind the copper feed lines**. Isolate or bypass them, or use lined copper.
    - **Status:** Plausible-untested as a maintenance protocol.
    > Channing (verbatim): "Yeah, that tracks I think we decided to use copper tubes to make the petrified panels branches then removed before installation then, used a boron nitride coat. Yeah, we kept running into constraints here. We looked at K3 and Beryllium but had issues there as well. Touched on Magnesium and then ended up looking at calcium transport with the potassium again. I don't think we ever settled. That was all before July and something happened on Grok where whatever wasn't in emails or screenshot was lost. I have been rebuilding from memory but haven't recovered everything yet."
+   - **Alternative to MICP petrification (Channing, same message):** "We also thought instead of petrification in might be better to have borax treated panels instead with a BN coating in the branches."
+     - The proposal: **borax-treated mycelium panels** with **BN-coated branch channels**.
+     - **Grounded:** borate treatment is a known fungicide and fire retardant for wood and mycelium/lignocellulosic composites. It links the existing grow-in-place borax curing note in [open_grow_kit.md](open_grow_kit.md#grow-in-place-then-cure-borax--copper-ventilation).
+     - It avoids the scaling and deposit problems of mineralized tubes.
+     - **Caveat:** borax inhibits living mycelium, so **non-living / cured zones only** (consistent with the living vs non-living zoning). Borates can also leach in wet loops, which is part of why the BN coat on the channels matters.
+     - **Status: open.**
 5. **Decided process (recalled): copper tubes as removable molds.**
    - Copper tubes served as **molds / mandrels** to form the petrified branch panels. They were **removed before installation**, and then a **boron nitride coat** was applied.
    - This removes copper from the installed system, which resolves the **copper–mycelium** (fungitoxic ions) and **copper–H₂O₂** (catalytic decomposition, corrosion) conflicts. The logic is Grounded; the process is **Plausible-untested** (mold release from a mineralized wall, BN adhesion on the mineral).
@@ -238,8 +244,10 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
        - **Oil depletion / washout** during flushes (SLIPS lose lubricant under flow).
        - **Microbial degradation**: the mycelium can digest vegetable oils.
        - **Peroxide and permanganate oxidize oils**, so keep oxidant flushes separate from oil-lined runs.
-     - **Which oil:** **[Channing to clarify]**.
-     - **Plausible-untested; still open.**
+     - **Candidates (Channing, verbatim):** "It was castor or CBD. Cbd is interesting because of charge and castor for self organizing with iron and we noted them but never applied any of this."
+       - **CBD oil:** noted for "charge". **Speculative.** CBD is a neutral, lipophilic molecule, so the charge mechanism is **[Channing to clarify]**. Possibly the carrier oil's dielectric/interface charging, as in the leaky-dielectric Dual-Oil Module ([lift_and_equilibrium_systems.md §6b](lift_and_equilibrium_systems.md)).
+       - **Castor oil:** noted for **self-organizing with iron**. **Plausible.** Castor oil has served as a carrier for magnetic and field-responsive suspensions in research (not verified here). It also hosts electrorheological chaining in the Dual-Oil Module. Links: ferrofluid loop ([lift_and_equilibrium_systems.md §6](lift_and_equilibrium_systems.md)) and castor as an oil-based ferrofluid carrier ([helium_water_circulation.md §10d](helium_water_circulation.md)).
+     - **Status: noted, never applied.** Still open.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
      - **Grounded analogs:**
        - **chelation/complexation** that keeps Ca²⁺ in solution (citrate, above);
