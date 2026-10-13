@@ -267,6 +267,44 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - Is there an odd-parity (chiral) component that appears only for one twist sense?
 - If no chirality-dependent term appears, the "chiral bias" reading reduces to ordinary geometry.
 
+### Planetary pulse-confinement cycle
+*Channing's recovered text, saved faithfully. It is out of order and truncated at the end. Links: R6 (controlled leakage), `tesla_and_ancient_alignments.md`, Multi-Egg / Elliptical Eye, Jitterbug (above).*
+
+**As given:**
+- Node architectures share a **triad**:
+  1. a **pulsed electric drive**;
+  2. **magnetic polarity / radial confinement**;
+  3. **stratified multiphase fills** (gas / liquid / ferrofluid layers).
+- **The intent is controlled leakage and rhythmic compression–expansion for dynamic balance,** making energy and material fluxes more usable. It is **not perfect sealing**.
+- **Planetary version:** Earth runs this cycle continuously. Any surface architecture, pyramidal or otherwise, that is **resonantly coupled** to the electric-pulse / magnetic-confinement pair would take part in the same rhythm. It could **damp extremes** when the internal field was weaker or more multipolar.
+- **Next-step options:** map planetary E-field geometry and plasma-layer responses in detail, or move to an engineered pulsed, magnetically confined layered node **[truncated, Channing to supply]**.
+
+**Grounded (verified):**
+- **Pulsed electric drive → global electric circuit.**
+  - Thunderstorms keep the ionosphere at ~+250 kV, with a diurnal "Carnegie curve" rhythm. See R8, and Rycroft et al. (2012) / Markson (1976).
+  - Lightning supplies the pulsed component.
+- **Magnetic confinement with rhythmic compression–expansion → the magnetosphere.**
+  - The dayside magnetopause typically sits at **~8–11 R_E** (~10 R_E average), set by solar-wind dynamic pressure balancing the geomagnetic field.
+  - Storm-time and interplanetary-shock **compressions** push it below 10 R_E, and in strong events **inside geosynchronous orbit (6.6 R_E)**.
+  - Statistical models such as Shue et al. (1998) *overestimate* standoff when the boundary is strongly compressed: Staples et al., *JGR Space Physics* 125 (2020), doi 10.1029/2019JA027289, from a database of ~20,000 crossings.
+  - Leakage across the magnetopause is through reconnection and FTEs (Dungey; R4, C6).
+- **Stratified multiphase layering:** atmosphere, ionosphere, plasmasphere and magnetosphere are layered conducting and neutral media (R8).
+- **Weaker / multipolar field during excursions:**
+  - Laschamp excursion (~41 ka): the axial dipole fell to ~10 % of today's, and the field became strongly **non-dipolar**, with multiple weak poles.
+  - The reconstructed dayside magnetopause shrank to **~2.4 R_E** at peak (vs 8–11 R_E today): "Wandering of the auroral oval 41,000 years ago", *Science Advances* (2025), doi 10.1126/sciadv.adq7275. Authors not confirmed, so it is cited without them.
+  - Global field models show the axial dipole decaying almost to zero without fully reversing (*Frontiers in Earth Science* 2019, "Robust characteristics of the Laschamp and Mono Lake geomagnetic excursions").
+
+**Labels:**
+- The triad as a description of Earth's system: **Grounded** (pulsed circuit + magnetic confinement + layered media; boundary leakage and compression are real).
+- As a design template for engineered nodes: **Plausible-untested**, as in R6.
+- **Surface structures, pyramidal or otherwise, coupling resonantly and damping extremes: Speculative.**
+  - A building-scale structure has a coupling of order its size relative to Earth–ionosphere scales. The Schumann cavity's power is set by global lightning, and its wavelength is ~Earth's circumference.
+  - No mechanism or measurement exists for a surface structure measurably damping magnetospheric or circuit extremes. See `tesla_and_ancient_alignments.md` on Schumann resonance and alignments.
+
+**Falsifiable questions:**
+1. Does any large surface structure show a measurable local effect on the fair-weather potential gradient or Schumann-band fields, after controlling for geometry (field enhancement at a tall conductor is ordinary electrostatics)?
+2. For the engineered node, do pulsed drive + magnetic confinement + layered fill give a smaller amplitude of pressure/temperature extremes than the same fill without the pulse–confinement pair, for equal input power?
+
 ### L5. Field lines & longitudinal energy channels (recurring thread)
 - **Observed (Grounded, citations verified).**
   - **Field-aligned (Birkeland) currents** connect the magnetosphere and ionosphere along Earth's magnetic field lines and carry energy into the auroral zones. Satellite magnetometers mapped their large-scale pattern ("region 1/region 2"). Iijima & Potemra, "Field-aligned currents in the dayside cusp observed by Triad", *J. Geophys. Res.* 81(34), 5971–5979 (1976).
