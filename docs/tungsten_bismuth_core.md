@@ -96,6 +96,22 @@ Recovered text (screenshots 3, 11, 12):
 > "Diamagnetic forces are weak — requires strong magnets or currents for human-scale lift. Energy input still needed; not fully frictionless without cryogenics or high power. Conductive floor remains helpful but diamagnetic stabilization reduces some constraints. Pure diamagnetic levitation (e.g., graphite over strong magnets) is demonstrated at small scales but scales poorly for 85 kg without massive fields."
 - Grounded context: diamagnetic levitation of a living frog needed ~16 T (Nijmegen, 1997); Bi/graphite stacks can *stabilize* an otherwise-supported magnet but cannot lift 85 kg at room temperature with permanent magnets.
 
+## 7d. Quartz partner: phonons + piezoelectric quartz balancing
+Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damaged or missing spots.
+
+> "Phonons + Piezoelectric Quartz Balancing in Tungsten-Bismuth Core: Proven electron-phonon coupling could be tuned via quartz lattice vibrations for resonant plasma cloud stability. Visionary: Phi/fractal-guided geometries to harness coherent phonons for low-loss energy transfer in our engines.
+> • Photoemission Delays in Plasma Cloud / Toroidal Fields: Delays from final-state effects could inform resonant photon chase dynamics. Speculative: Geometric resonance aligning emission timing with toroidal photon modes for efficient propulsion hints.
+> • Quantum Entanglement?: In photoionization, the ion and photoelectron form an entangled bipartite system (total wavefunction not separable). Recent experiments show entanglement develops over finite attosecond timescales (~232 as [in s]ome cases) and trades off with io[n]/[?] coherence. [citation chips: phys +1] Bell tests proposed for [cut off — Channing to supply]"
+
+**Labels and notes:**
+- **Quartz is the real piezo partner — Grounded.** α-quartz (trigonal, point group 32) is non-centrosymmetric and genuinely piezoelectric. This resolves the §0 correction: elemental Bi supplies diamagnetism, quartz (or a Bi compound such as BNT/BiFeO₃) supplies the piezo response.
+- **Electron-phonon coupling — Grounded.** **Coherent phonons** (impulsively excited, phase-locked lattice vibrations seen in pump-probe experiments, including in bismuth) — Grounded phenomenon.
+- **Tuning electron-phonon coupling via quartz vibrations for plasma-cloud stability — Plausible-untested / Speculative.** Acoustic phonons in a solid do not couple directly to a gas-phase plasma; any effect has to pass through the surface (sheath, secondary emission, wall vibration, boundary conditions). Phi/fractal phonon geometries for low-loss transfer: Speculative.
+- **Photoemission delays — Grounded.** Attosecond streaking measured a ~20 as relative delay between Ne 2s and 2p photoemission (Schultze et al., *Science* 328, 1658, 2010); delays are interpreted via Wigner (scattering-phase) delays plus final-state / laser-coupling terms. **Propulsion link — Speculative.**
+- **Ion-photoelectron entanglement — Grounded theory, with experiments.** Control of the degree of ion + photoelectron entanglement in H₂ attosecond pump-probe experiments: *Phys. Rev. Lett.* 126, 113203 (2021, theory) and *Phys. Rev. Lett.* 128, 043201 (2022, experiment). A Bell test for attosecond photoionization has been proposed theoretically: *Phys. Rev. X* 14, 041042 (2024) — likely what the cut-off "Bell tests proposed for…" refers to (unconfirmed).
+- **"~232 as" — unverified.** A quick search did not find a paper reporting a 232 as entanglement timescale; kept only as the screenshot's figure.
+- **No-signalling:** entanglement cannot carry energy, momentum or information on its own, so it gives no propulsion or energy-transfer channel.
+
 ## 8. Phi-optimized standing waves avoiding EM collapse — Speculative
 - Screenshot: in an "informed universe" (Michio Kaku-inspired), aligned EM + geometric resonance might allow phi-optimized standing waves that redistribute pressure densities regeneratively, avoiding destructive inward collapse.
 - Caveats (as given):
@@ -112,6 +128,7 @@ Recovered text (screenshots 3, 11, 12):
 ## 10. Missing pieces
 - Heartbeat frequencies and geometry.
 - The HMHD simulation script (equations, units, parameters) behind §7b.
+- Quartz-partner text: end of the "Bell tests proposed for…" sentence (cut off) and the source for "~232 as".
 - APS paper behind the spin-Hall RF-wave citation chip.
 - Opening of screenshot 1 and the bridging text between screenshots 3→4 and 5→6.
 - End of the POL v0.1 conductive-floor caveat.
