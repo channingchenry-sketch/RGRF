@@ -409,3 +409,28 @@ Channing (verbatim): "Yeah, substrate matters as well. Has there been any develo
 - Substrate effects are **Grounded**: fungal species, particle or fiber size, the fiber:powder ratio and growth time all shift density and strength.
 - As-grown bamboo-mycelium blocks are **~0.05–0.2 MPa**, an order of magnitude below the POL 2.1–2.8 MPa target. Hot-pressing (above) is still the required lever.
 - *Guadua* as a POL substrate, or as a hybrid panel (Guadua culm or laminate skins with a mycelium core), is **Plausible-untested**. It is an open research gap, with a regional opening in Colombia and Ecuador.
+
+### Mechanical pressure during growth (node structuring / bending)
+
+Channing (verbatim): "Have the used in mechanical pressure for node structuring or bending?"
+
+**Distinction:** this is about load applied **during** colonization. It is separate from post-growth hot or cold pressing (the densification lever above). Search done 2026-10-12.
+
+- **Direct hit: compression during growth densifies and branches hyphae. Grounded, single study.**
+  - "Extrusion-based additive manufacturing of complex three-dimensional ultra-lightweight materials using the basidiomycete *Fomes fomentarius*," *Materials Advances* 6(15), 5149 (2025, RSC), [link](https://pubs.rsc.org/ma/article/6/15/5149/896098/). Authors not checked.
+  - Aerial mycelium was **manually compressed during growth** to hold its shape. Growth was not significantly inhibited.
+  - Compressed hyphae were **more twisted and branched**, with higher projected density (~89 % vs ~76 % in SEM). The authors suggest this may be a response to mechanical stress.
+  - Caveat: the compression was manual and qualitative. No controlled load or cyclic regime was used.
+- **Mechanosensing biology: Grounded, but mostly in pathogens and yeast.**
+  - Hyphae show **thigmotropism**: tips reorient at ridges via stretch-activated Ca²⁺ channels (Mid1/Cch1).
+  - Sources:
+    - "Hyphal Orientation of *Candida albicans* Is Regulated by a Calcium-Dependent Mechanism," [PMC1885950](https://pmc.ncbi.nlm.nih.gov/articles/PMC1885950/).
+    - "Contact-induced apical asymmetry drives the thigmotropic responses of *Candida albicans* hyphae," [PMC4371639](https://pmc.ncbi.nlm.nih.gov/articles/PMC4371639/). Tip reorientation needed a tip force of ~8.7 µN (~1.2 MPa).
+    - Review: "Thigmo Responses: The Fungal Sense of Touch," *Microbiology Spectrum*, doi:[10.1128/microbiolspec.funk-0040-2016](https://doi.org/10.1128/microbiolspec.funk-0040-2016).
+  - Transfer to the building-material fungi (*Pleurotus*, *Ganoderma*, *Trametes*) under bulk loading: **Plausible-untested**.
+- **Directional growth without pressure: Grounded.**
+  - "Structural Anisotropy-Induced Tensile Stiffening of Fungal Mycelial Networks," *ACS Applied Polymer Materials* ([link](http://pubs.acs.org/aapmcd/article/8/14/10940/5200469/)). Aligned hyphae (using negative autotropism) gave higher tensile strength and modulus.
+  - Oriented fiber placement in the substrate changes compressive behavior: "Compressive behaviour of anisotropic mycelium-based composites," *Sci. Rep.* (2022), doi:[10.1038/s41598-022-10930-5](https://doi.org/10.1038/s41598-022-10930-5).
+- **Not found:** controlled **cyclic loading during colonization**, or growth under bending to set curvature or node placement. Bending of bamboo culms (heat or steam bending) was not researched in this pass. **Open gap.**
+- **Link to item (g):** Channing's Speculative thought that perturbation zones densify over time. The *Fomes* result is the closest verified support: stress during growth led to a denser, more branched network. That moves the idea from **Speculative toward Plausible-untested** for living zones.
+  - Proposed bench test: colonize coupons under static weights and under low-frequency cyclic load (for example tied to the coil envelope). Compare micro-CT node density and compressive modulus against unloaded controls.
