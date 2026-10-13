@@ -133,6 +133,9 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
 - **Caveats:**
   - **Acetate is a carbon source.** It **feeds microbes**, which could worsen biofouling, or could be used deliberately to feed the mycelium or consortia.
   - **It does not fix PEM fouling.** PEM stacks need deionized water, and **Na⁺ poisons PEM membranes** by exchanging onto the sulfonic sites and lowering conductivity. Sodium acetate is better suited to **alkaline electrolyzers** or the **brine/electrolyte loop** ([helium_water_circulation.md §10](helium_water_circulation.md)).
+- **Confirmed use (Channing, verbatim):** "Yeah we used it as a feed". Sodium acetate was used **deliberately as a carbon feed for the mycelium**.
+  - Many fungi can use acetate as a carbon source (Grounded).
+  - Dosing must be controlled and confined to the mycelium zone so it doesn't feed unwanted bacteria or cause biofouling elsewhere in the loops: **Plausible-untested**.
 - **Status:** Plausible-untested.
 
 ## Cabin vibration for bone density ("cat purr influenced")

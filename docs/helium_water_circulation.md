@@ -208,6 +208,7 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
   - A low-corrosion, biodegradable buffer-electrolyte with no chloride pitting.
   - Its trihydrate is a ~58 °C phase-change store (~250–265 kJ/kg, supercools), a warm-side partner to the §9 ice buffer.
   - It feeds microbes, and Na⁺ poisons PEM membranes, so it suits alkaline electrolyzers or this brine loop.
+  - **Used as a feed (Channing, verbatim):** "Yeah we used it as a feed". It was a deliberate carbon feed for the mycelium (fungi use acetate, Grounded). Controlled dosing is needed to avoid feeding unwanted bacteria or biofouling (Plausible-untested).
   - Full notes: [living_habitat_life_support.md](living_habitat_life_support.md#sodium-acetate-recalled-details-channing-to-supply). **Plausible-untested.**
 
 ### (c) Coatings and liners for salt / electrolyte loops
