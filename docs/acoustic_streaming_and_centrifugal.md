@@ -73,6 +73,31 @@ Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen
 
 **Tesla dialogue lines** in Channing's source: **Entanglements narrative / fiction, not a source.** (The repo mentions "Entanglements" in `em_geometry_map.md` and `C1-C12_seed_map.md`.)
 
+### 3b. Light filtering & blue-light muon "capture" (quantum biology: not settled)
+
+**Grounded: Cherenkov light.**
+- A charged particle moving faster than light does in the medium (β > 1/n) emits Cherenkov radiation.
+- In water, n ≈ 1.33, so the threshold is β > 0.75. For a muon that means a kinetic energy of roughly 160 MeV.
+- The photon yield goes as dN/dλ ∝ 1/λ², so the light is weighted toward the blue and near-UV.
+- **Sources:**
+  - P. A. Cherenkov, "Visible luminescence of pure liquids under the influence of γ-radiation," *Dokl. Akad. Nauk SSSR* 2, 451–457 (1934).
+  - I. M. Frank & I. E. Tamm, "Coherent visible radiation of fast electrons passing through matter," *Dokl. Akad. Nauk SSSR* 14, 107–112 (1937); also in *C. R. Acad. Sci. URSS* 14, 109–114.
+
+**Grounded: detection.** Large water or ice Cherenkov detectors see muons through this light, using blue-sensitive photomultipliers.
+- **Super-Kamiokande:** S. Fukuda et al., "The Super-Kamiokande detector," *Nucl. Instrum. Methods A* 501, 418–462 (2003), doi 10.1016/S0168-9002(03)00425-X. A 50 kt water detector.
+- **IceCube:** M. G. Aartsen et al., "The IceCube Neutrino Observatory: instrumentation and online systems," *JINST* 12, P03012 (2017), doi 10.1088/1748-0221/12/03/P03012. A cubic kilometer of ice.
+- Matching filters and photocathodes to the blue band improves signal-to-noise. Wavelength shifters are also used.
+
+**Not possible: light capturing or slowing muons.**
+- The light is a **product** of the muon's passage. It carries away only a tiny fraction of the muon's energy (roughly keV per cm, against about 2 MeV/cm ionization losses in water).
+- Light does not trap, steer or slow muons. Filtering is **detection only**.
+
+**Speculative: a cryptochrome or quantum-biology link.**
+- Cryptochrome radical-pair magnetoreception is blue-light dependent. It is a serious but **unsettled** hypothesis for birds (see `bioelectric_coupling.md`, radical-pair).
+- Linking it to cosmic-ray muons or to Cherenkov light has **no evidence**. Natural Cherenkov light in tissue from cosmic muons is extremely faint.
+
+**See also:** `muonic_hydrogen.md`.
+
 ## 4. Vortex mode theory
 *OCR-reconstructed where marked. Labels: the mathematics is **Grounded / standard**; the paramagnetic analogy and the device application are **Plausible-untested**.*
 

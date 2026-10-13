@@ -49,3 +49,6 @@
 1. **"Explore Lamb shift proton radius"**: covered above (Grounded).
 2. **"Investigate muon catalyzed fusion cycles"**: covered above (Grounded; no breakeven).
 3. **"Clarify helium two isotope definition"**: **ambiguous.** It could mean He-3 vs He-4 (see `helium_octave_table.md`), or muonic helium (μHe⁺, whose Lamb shift has been measured for the helium nuclear radius). **[Channing to supply which.]**
+
+## See also
+- Cherenkov detection of muons, and why light filtering is for detection only (not capture): `acoustic_streaming_and_centrifugal.md` §3b. The dual-torus and muon-pathway labels are there too.
