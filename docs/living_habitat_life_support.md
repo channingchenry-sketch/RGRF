@@ -274,9 +274,24 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
                - **5-HT1A:** a modest-affinity agonist in cloned human receptors. Russo, Burnett, Hall & Parker, *Neurochem. Res.* 30(8), 1037–1043 (2005). Later rat-brainstem work suggests **positive allosteric modulation** instead. Reviewed in [PMC8124847](https://pmc.ncbi.nlm.nih.gov/articles/PMC8124847/).
                - **GPR55:** an antagonist, IC₅₀ ~445 nM. Cited via the Peng 2022 review and [PMC7652785](https://pmc.ncbi.nlm.nih.gov/articles/PMC7652785/). **Flag:** the primary source (Ryberg et al. 2007) was not opened.
                - **PPARγ:** an agonist, EC₅₀ ~2 µM. Cited via the Peng 2022 review. **Flag:** primary source not opened.
-             - **Label:** receptor pharmacology is **Grounded** (biology). Any use of it in the craft or habitat is **Speculative** until Channing supplies its role.
+             - **Label:** receptor pharmacology is **Grounded** (biology). The role was speculative communication through layers (above). Channing (verbatim): "Yeah, we couldn't find any studies so, we moved on." **No studies were found, so the thread was dropped.**
        - **Castor oil:** noted for **self-organizing with iron**. **Plausible.** Castor oil has served as a carrier for magnetic and field-responsive suspensions in research (not verified here). It also hosts electrorheological chaining in the Dual-Oil Module. Links: ferrofluid loop ([lift_and_equilibrium_systems.md §6](lift_and_equilibrium_systems.md)) and castor as an oil-based ferrofluid carrier ([helium_water_circulation.md §10d](helium_water_circulation.md)).
      - **Status: noted, never applied.** Still open.
+   - **(g) Mycelium electrical spiking for stress-signaling feedback via CNT node electrodes. Status: in use in the design.**
+     - Channing (verbatim): "We do use the electrical spikes for feedback through CNT's a node sites however". Then: "Stress signaling".
+     - **Role:** the mycelium **reports stress through its electrical spikes**. These are read by **carbon-nanotube (CNT) electrodes at node sites** and used as feedback. CNTs are part of the material stack: see the CNT–graphene transition zones in [pol_v0_1_zones.md, Possible material stacks](pol_v0_1_zones.md).
+     - **Grounded: fungi produce spike-like electrical activity.** A. Adamatzky, "Language of fungi derived from their electrical spiking activity," *R. Soc. Open Sci.* 9(4), 211926 (2022), doi:[10.1098/rsos.211926](https://doi.org/10.1098/rsos.211926).
+       - Spikes last 1–21 h, with amplitudes of 0.03–2.1 mV, and are species-specific. They were recorded with differential electrodes in colonized substrate.
+       - The paper's "language" framing is the author's interpretation, not established.
+       - The spikes are **very slow and µV–mV level**, so the readout needs low-noise, low-frequency electronics.
+     - **Grounded: spiking changes with stimuli, which supports reading it as stress signaling.**
+       - The same paper reports that fungi change their spiking pattern under mechanical, chemical and optical stimulation (its refs 19–20, not opened here).
+       - "Sensorimotor control of robots mediated by electrophysiological measurements of fungal mycelia," *Science Robotics* (2024), doi:[10.1126/scirobotics.adk8019](https://www.science.org/doi/10.1126/scirobotics.adk8019). Mycelium spikes drove robot actuators, and UV light stimulation altered the spiking and the gait. Authors not checked here.
+       - Using spikes specifically as a *stress* indicator in a habitat: **Plausible-untested**.
+     - **CNT node readout for feedback: Plausible-untested.** **Flag:** I found **no verified study** of CNT electrodes recording fungal mycelium spikes. The published work uses metal (e.g. needle) differential electrodes. CNT electrodes are established in general bioelectronics, but no specific source is cited here.
+     - **Open points:**
+       - What the feedback controls: **resolved, stress signaling**. Which actuator or loop responds to it is not yet specified.
+       - Node spacing: **[Channing to supply]**.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
      - **Grounded analogs:**
        - **chelation/complexation** that keeps Ca²⁺ in solution (citrate, above);
