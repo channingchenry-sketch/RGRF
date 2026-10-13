@@ -74,6 +74,47 @@ Recovered text (screenshots 3, 11, 12):
 > "Tungsten-Bismuth Plasma Cloud & Piezoelectric Balancing: Proven geomagnetic induction and telluric flows could inspire low-frequency stabilization for our resonant cores. Visionary: Phi/fractal geometries and quartz lattices tuned to geomagnetic harmonics or telluric variations for enhanced coherence, with mycelium composites enabling lightweight, Earth-coupled structures."
 - Geomagnetic induction and telluric currents are Grounded (magnetotellurics). Tuning a core to them is Speculative; they are weak (mV/km fields) and low-frequency.
 
+### 7a-math. Telluric / magnetotelluric math (recovered, OCR-damaged)
+**Channing's pasted text (as received):**
+> Accurate Mathematical/Physics Solutions:  
+> • Induction via Faraday's Law:  
+> дВ  
+> 7×E=--  
+> at Combined with Ohm's  
+> law J = oE and Ampère's law (quasi-static approximation for low frequencies).  
+> 2  
+> • Skin Depth (Penetration): § =  
+> WHo'  
+> where w = 2TJ, A ~ Mo, o is conductivity.  
+> Limits depth of current flow. grokipedia  
+> • Magnetotelluric Relation (Cagniard):  
+> 1  
+> Ex  
+> 2  
+> Apparent resistivity Pa =  
+> (for  
+> wpl  
+> Hyl  
+> orthogonal horizontal components). Phase differences diagnose layered structures.  
+> sites.ualbert...  
+> ) Impact: Currents can reach hund v to thousands of amperes in power grids  
+
+**Corrected forms — Grounded:**
+- Faraday: **∇×E = −∂B/∂t**; Ohm: **J = σE**; quasi-static Ampère (displacement current neglected at low frequency): **∇×B = μ₀J**.
+- Skin depth: **δ = √(2 / (ωμσ))**, ω = 2πf, μ ≈ μ₀ for non-magnetic conductors.
+- Cagniard apparent resistivity: **ρ_a = (1/(ωμ₀)) |E_x / H_y|²**, phase **φ = arg(E_x / H_y)** (orthogonal horizontal components; phase departures from 45° diagnose layering).
+- Geomagnetically induced currents (GIC) in power grids: tens to hundreds of A are typical; higher values are reported in extreme storms. The "thousands" figure is cut off/unverified. The screenshot's citation chips (grokipedia, sites.ualbert…) were not recovered, so none is cited.
+
+**Bench note — calculation (δ = √(ρ / (π f μ₀)), room-temperature resistivities):**
+
+| Material | ρ (Ω·m) | δ at 1 kHz | δ at 1 MHz |
+|---|---|---|---|
+| Tungsten | ~5.6×10⁻⁸ | ~3.8 mm | ~0.12 mm |
+| Bismuth | ~1.3×10⁻⁶ | ~18 mm | ~0.57 mm |
+| α-quartz | insulator (~10¹²+) | no meaningful skin depth (field passes through) | same |
+
+Implication: at MHz heartbeat frequencies, induced currents in a W shell stay within ~0.1 mm of the surface; Bi layers are far more transparent; quartz is not shielded by its own conductivity. Resistivity rises with temperature (δ grows accordingly).
+
 ## 7b-math. Hall-MHD math (recovered, OCR-damaged)
 **Channing's pasted text (as received):**
 > Accurate Mathematical/Physics Solutions:  
