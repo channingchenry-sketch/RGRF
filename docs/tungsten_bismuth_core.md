@@ -194,6 +194,26 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 
 **RGRF tie-in — Plausible-untested:** a controlled-source version is the realistic bench method for the core, because the drive frequency is chosen (e.g. sweep 1 kHz–1 MHz to set δ per §7a-math) rather than waiting for natural telluric signals. At bench scale the measurement is effectively near-field, so invert with a full coil/dipole forward model rather than plane-wave ρ_a.
 
+**Continuation (pasted, as received):**
+> Source Configurations: Grounded dipole (common) or inductive loops; multi-frequency transmission (fundamentals + harmonics) for efficiency.  
+> CSAMT complements natural MT by filling  
+> "dead bands" and providing controlled excitation, with data often inverted via similar regularized techniques as our prior MT discussion.  
+> diasgeo  
+> Theoretical / Visionary Concepts (RGRF  
+> Extensions)  
+> These remain inspirational syntheses, clearly separated as forward-looking hypotheses:  
+> • Tungsten-Bismuth Plasma Cloud & Piezoelectric Balancing: CSAMT's controlled audio-frequency excitation could inspire lab-scale analogs for tuning  
+> • onant plasma clouds or quartz latti  
+> V  
+> •sionary: Phi/fractal-optimized structu.eś  
+> that mimic SAMT churco-recaivar [cut off — Channing to supply]  
+
+**Labels:**
+- Source configurations (grounded dipole or inductive loop; multi-frequency transmission with fundamentals + harmonics) — **Grounded**.
+- MT "dead bands" — **Grounded**: natural-source signal is weak around roughly 0.5–5 Hz (MT dead band) and roughly 1–5 kHz (AMT dead band) (approximate ranges). CSAMT fills the audio-frequency one with its own transmitter.
+- Likely OCR readings: "onant plasma clouds or quartz latti" → "resonant plasma clouds or quartz lattices"; "sionary: Phi/fractal-optimized structu.eś" → "Visionary: Phi/fractal-optimized structures"; "SAMT churco-recaivar" → "CSAMT source-receiver".
+- RGRF extension: lab-scale controlled-frequency analog for tuning the plasma cloud / quartz lattice — **Plausible-untested**; phi/fractal structures mimicking CSAMT source–receiver geometry — **Speculative**.
+
 ## 7b-math. Hall-MHD math (recovered, OCR-damaged)
 **Channing's pasted text (as received):**
 > Accurate Mathematical/Physics Solutions:  
@@ -283,7 +303,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - The HMHD simulation script (equations, units, parameters) behind §7b.
 - Quartz-partner text: end of the "Bell tests proposed for…" sentence (cut off) and the source for "~232 as".
 - Magnetotelluric inversion text: cut off at "Directly ties to telluric currents (GICs) and geomagnetism via…"; the lost Gauss–Newton formula from the screenshot.
-- CSAMT text: cut off at "schemes to solve the nonlinear inverse…".
+- CSAMT text: cut off at "schemes to solve the nonlinear inverse…"; CSAMT RGRF-extension text cut off at "…CSAMT source-receiver".
 - Hall-MHD math: the cut-off helicon text and the arXiv source.
 - APS paper behind the spin-Hall RF-wave citation chip.
 - Opening of screenshot 1 and the bridging text between screenshots 3→4 and 5→6.
