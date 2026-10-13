@@ -433,6 +433,50 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
   - Measure induced current to the probe and the potential across it.
   - Prediction: coupling is strong only when the probe sits in corotating plasma (the Io-like case) and drops to wake-only effects outside (the Moon-like case).
 
+### R9. Last solid ground: pinch, waveguide, twist waves, quadrupole-to-tensor
+*Recovered material pasted by Channing, saved faithfully. Labels and grounding added. Some phrasing may carry OCR artifacts.*
+
+**The points as given (Channing's words, lightly formatted), each tagged:**
+1. **"Isotropic electrostatic Maxwell stress can translate."** An isotropic stress has zero divergence, so it gives no net force by itself. Net force needs a *gradient* (an anisotropic part or a boundary). Grounded with this correction; see L4/R3.
+2. **"Pinch can birth opposite-L tubes."** A z-pinch or flux-rope pinch with kink/m=1 instabilities and reconnection can split into counter-twisted (opposite-helicity) structures, while total helicity is approximately conserved. Plausible-untested as stated; the physics ingredients are Grounded.
+3. **"Vortices can join nested boundaries."** Merging and nesting of vortices and flux tubes is seen in fluids and plasmas, e.g. K-H rolls at the magnetopause (C6) and vortex merger. Grounded as phenomenology.
+4. **"Looking forward from the Sun writes a spinning waveguide along the inertial vector."** The Parker spiral and the rotating heliospheric current sheet are a real spinning, field-aligned structure. Calling it a "waveguide written along the inertial vector" is **Speculative**.
+5. **"Void ticks have a metric but lack a ruler until a rope or gradient stretches distance."** Philosophical framing: in GR the metric defines distance, but measuring it needs physical rods or clocks. **Speculative / interpretive.**
+6. **"Twist-wave (torsional Alfvén) radiation is the picture for the tunnel."** Torsional Alfvén waves are real; they are seen in the solar corona and in Io's Alfvén wings (L2). As the mechanism of a flux-tube "tunnel": Plausible for energy transport along flux ropes.
+7. **"Clouds/galaxies use both waves and collisions."** Grounded. Molecular clouds dissipate turbulence through waves and shocks, and galaxies evolve through density waves and mergers.
+8. **"Heat is beta, the skin is magnetic tension not a liquid."** Grounded. Plasma β = thermal/magnetic pressure. A flux-rope "skin" is held by magnetic tension and pressure balance, not surface tension.
+9. **"Jupiter science-first: Io's Alfvén wing is the honest engine, GRS is the hydrodynamic twin, NO docking language."** Grounded framing, adopted.
+   - Io–Jupiter is an electrodynamic circuit carrying ~MA currents (L2).
+   - The Great Red Spot is an anticyclonic hydrodynamic vortex, not electromagnetic.
+   - The repo will not describe either as "docking" ports.
+10. **"Mitochondria: photoenzyme and membrane, not a flux rope."** The membrane part is Grounded: chemiosmotic proton gradient driving the rotary ATP synthase. "Photoenzyme" refers to cytochrome c oxidase light-absorption claims (photobiomodulation), which are **debated**. Mitochondria are not flux ropes, agreed.
+
+**Final kept channels:**
+- **Quadrupole → gravitational (tensor) radiation.** Grounded: GR radiates at lowest order through the time-varying mass quadrupole, and binary pulsars and LIGO detections confirm it.
+  - The same **m = 2 shape**, used slowly in spiral disks, works as a *near-zone torque*. Bars and trailing spirals carry angular momentum outward through gravitational torques, with exchange at the inner and outer Lindblad resonances and corotation: Lynden-Bell & Kalnajs, "On the generating mechanism of spiral structure", *MNRAS* 157:1 (1972), doi 10.1093/mnras/157.1.1 (verified).
+  - Linking the radiative and near-zone m=2 regimes as one "channel" is Plausible as a framing.
+- **Scalar and axion channels: parked** (not pursued).
+- **Kept set: EM + tensor + sink.**
+
+**Cold rotating electron columns (grounded anchors for spin-driven separation):**
+- **Penning–Malmberg trap + rotating wall:** Huang, Anderegg, Hollmann, Driscoll & O'Neil, *Phys. Rev. Lett.* 78:875 (1997), doi 10.1103/PhysRevLett.78.875.
+  - A rotating m=1/m=2 wall field spins up non-neutral plasma and confined 10⁹ Mg⁺ ions for weeks.
+  - Density follows the drive rotation rate, compressed to ~20 % of the **Brillouin limit** (n_B = B²/8πMc²) with laser cooling.
+  - Electron columns cool by cyclotron radiation in strong B. This is standard, and in that experiment the cooling was laser cooling of the ions.
+  - Density set by rotation is **Grounded**.
+- **Electron vortex / Landau beams:**
+  - Bliokh, Bliokh, Savel'ev & Nori, *Phys. Rev. Lett.* 99:190404 (2007) predicted orbital-angular-momentum electron wave packets.
+  - Schattschneider et al., *Nat. Commun.* 5:4586 (2014), doi 10.1038/ncomms5586, imaged free-electron Landau states rotating at **zero, Larmor, or cyclotron** frequency depending on the sign of m (measured 0.09Ω, 0.95Ω, 2.06Ω).
+  - **Grounded.**
+- **Rotation-induced fields in matter:**
+  - Tolman & Stewart, "The electromotive force produced by the acceleration of metals", *Phys. Rev.* 8:97 (1916): electron inertia gives a current when a spinning coil stops.
+  - Rotating superconductors show the **London moment** B = (2m_e/e)ω. It is tiny (~10⁻¹¹ T per rad/s) but measured, e.g. for Gravity Probe B gyroscope readout.
+  - **Grounded.**
+
+**RGRF use:** these are the honest lab versions of "spin separates charge and sets density". **Grounded at bench scale.** Extrapolating them to pinches, tunnels or cosmic waveguides is **Speculative**.
+
+**Falsifiable question:** in a rotating-wall trap or rotating-field dusty plasma (`dusty_plasma_bench.md`), does a counter-rotating drive produce nested opposite-L layers (point 2) with measurable helicity/vorticity, or just heating?
+
 ### Ponderomotive Thread (Dive A), restored from 28 Jul 2026
 *Restored from Channing's 28 Jul 2026 note. One or two lines of the source were OCR-garbled; those were reconstructed from context and are flagged where uncertain.*
 
