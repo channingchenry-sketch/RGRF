@@ -234,6 +234,7 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
 > Channing (verbatim): "We have a brine to looking for it now. We also entertained castor oil"
 
 - **Brine:** a specific brine recipe exists: **[Channing to supply]**.
+  - Channing (verbatim): "Still looking for the brine but this was part of the transmedium craft". So the brine/electrolyte loops belong to the **transmedium (air/water) craft** design. Related craft docs: [manta_butterfly_craft.md](manta_butterfly_craft.md) and [butterfly_node.md](butterfly_node.md).
 - **Castor oil (Grounded properties):**
   - High viscosity, ~0.6–1 Pa·s at 25 °C, rising steeply when cold.
   - Immiscible with water and brine.
