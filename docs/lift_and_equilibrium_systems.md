@@ -146,7 +146,7 @@
 - **Pass:** faster recovery at the same probe power.
 - **Fail:** no advantage, in which case a conventional PLL is good enough.
 
-## Grounded loop mechanisms (1–7)
+## Grounded loop mechanisms (1–8)
 *Channing's recovered text, labeled. Each mechanism is standard physics; the open question is whether they integrate into one loop, and with what energy ledger (see Power ledger summary).*
 
 1. **Lorentz and magnetic-gradient forces (Grounded).**
@@ -173,6 +173,24 @@
    - **Sensing and actuation:** piezo sensors and actuators, quartz resonators, and helium as a low-damping acoustic medium. Note that helium's high sound speed shifts resonances, and it is hard to contain.
    - **Flow and heat:** Tesla-valve rectification (section above), Al–Cu thermal networks (watch for galvanic corrosion at the junctions), and magnetic centering.
    - Material claims beyond the cited docs: **Plausible**, pending tests.
+
+8. **Fluidic network behaviors (Grounded).**
+   - **Self-generated dynamics:** network geometry plus fluid inertia and compliance can produce spontaneous oscillations, bistability, hysteresis and negative-conductance transitions, with **no external oscillator**.
+     - Mosadegh et al., "Integrated elastomeric components for autonomous regulation of sequential and oscillatory flow switching in microfluidic devices," *Nat. Phys.* 6, 433–437 (2010), doi 10.1038/nphys1637. Elastomeric switch valves self-oscillate under a constant inflow.
+     - The negative-conductance wording is Channing's. I found no single dedicated citation for it; it is a standard nonlinear-circuit concept.
+   - **Resonance:** network resonant frequencies amplify oscillatory flow.
+   - **Rectification:** asymmetric resistors, including Tesla-type valves, turn oscillatory input into net flow.
+     - Q. M. Nguyen, J. Abouezzi & L. Ristroph, "Early turbulence and pulsatile flows enhance diodicity of Tesla's macrofluidic valve," *Nat. Commun.* 12, 2884 (2021), doi 10.1038/s41467-021-23009-y. Diodicity turns on near Re ≈ 200 and is boosted by pulsatile flow; they built an AC-to-DC fluidic rectifier.
+     - Valveless rectification in looped networks: "Flow rectification in loopy network models of bird lungs," *Phys. Rev. Lett.* 126, 114501 (2021).
+   - **Direction switching around resonance (verified):** "Frequency tuning allows flow direction control in microfluidic networks with passive features," *Lab Chip* (2017), doi 10.1039/C7LC00058H.
+     - Forward DC flow occurs at the series resonance; backward flow occurs near a parallel resonance.
+     - Related: Ibanez, Raghunandan & Kelley, *Phys. Rev. Fluids* 8, 113101 (2023), where the direction reverses with forcing frequency and stroke.
+   - **Circuit analogs:** wall or membrane compliance acts as fluidic capacitance, and fluid inertia acts as inductance. Together they allow R–C and R–L–C analogs.
+     - Textbook: H. Bruus, *Theoretical Microfluidics*, Oxford University Press (2008).
+     - Experimental RLC networks: "Flow control using audio tones in resonant microfluidic networks," *Lab Chip* (2016).
+   - **Design implication:** lay out Tesla valves, compliant chambers and narrow/long impedance zones as an explicit RLC network.
+     - Model the network first: compute series and parallel resonances, then place the rectifiers where the AC flow magnitude differs across them.
+     - Choose the drive frequency so that the net-flow direction is selectable.
 
 **Bench test:**
 - Run a sealed ferrofluid or salt-water loop with a permanent-magnet gradient, a resistive heater and a piezo pulse.
