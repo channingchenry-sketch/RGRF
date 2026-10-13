@@ -332,3 +332,46 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
 - Biosafety containment.
 - Closed-loop mass balances (O₂, CO₂, water).
 - Power budget for photosynthetic lighting.
+
+## Genetic, patterning & densification levers for node control
+
+Grok excerpt pasted by Channing on 2026-10-12, archived **verbatim**. Typos are kept as pasted: "leat" is likely "leaf" (the paper's maple-leaf pattern), and "kg/m°" is likely "kg/m³". **Gap:** the text is cut off before "node topology…". The missing lead-in, probably an open-gaps heading such as "no study yet links…", is **[Channing to supply]**.
+
+```
+Genetic & Breeding Approaches
+• McMaster University (2025) — Genetic
+"dial" for mechanical properties
+Using the split-gill fungus Schizophyllum commune (which has thousands of mating types), researchers bred strains whose mycelial films, after crosslinking, span from soft leather-like materials to much stiffer composites. Nuclear-mitochondrial genotype combinations plus choice of crosslinker accounted for most of the variance in strength and elongation. This is a practical path toward "designer mycelium" with tuned properties.
+
+• Living textile node patterning (Cordyceps militaris, Science Advances, 2026)
+Aerial hyphae can be nutrient-induced to grow in deliberate patterns (snowflake, leat, logo, etc.) after the sheet is formed. This is spatial control of new growth nodes post-fabrication — closer to "programmable node placement" than most earlier work.
+• Hot-pressing and densification effects (ongoing literature + our own protocol)
+Moderate hot-pressing after colonization increases compressive and shear stiffness by collapsing some free volume while preserving a fraction of the hyphal network.
+It effectively raises local node density and contact points without requiring a new organism. Still the most practical lever we have for moving from insulation-grade (~250 kg/m3) toward our POL structural range (420-480 kg/m°).
+
+node topology (from CT or micro-CT) directly to damping coefficient and compressive strength under cyclic rider loads. We have the qualitative story; the closed-loop numbers are thin.
+• Scalable methods to place or reinforce specific high-stress nodes (e.g., under foot pads or coil mounts) rather than relying on uniform colonization. From these as well fairly recent
+```
+
+### Checks
+
+1. **McMaster University "genetic dial": verified, Grounded.** The work is Canadian.
+   - V. Whabi & J. Xu, "Splitting the difference: Genetically-tunable mycelial films using natural genetic variations in *Schizophyllum commune*," *Journal of Bioresources and Bioproducts* (2025), doi:[10.1016/j.jobab.2025.05.004](https://doi.org/10.1016/j.jobab.2025.05.004).
+   - Four monokaryons were mated into 12 dikaryons, giving 16 genotypes. Their films were crosslinked with glycerol or PEG-400.
+   - Nuclear–mitochondrial genotype and crosslinker explained most of the variance. PEG gave stiffer but brittle films; glycerol gave ductile films, up to ~98 % elongation according to the press release.
+   - Press release: [EurekAlert](https://www.eurekalert.org/news-releases/1092625). Its headline phrase "steel-hard" is hype; the paper's range is soft-leather to stiffer films.
+   - **The paste says "thousands of mating types"; the paper says more than 23,000.**
+   - These are thin films, not bulk composites. Application to POL panels: **Plausible-untested**.
+2. **Living textile node patterning: verified, Grounded.** The work is from SIAT, Chinese Academy of Sciences.
+   - K. Li, B. An, J. Zhang, D. Xun, X. Yuan, Y. Song, X. Wang & C. Zhong, "A programmable fungal platform for engineered living textiles," *Sci. Adv.* 12, eaed6937 (24 July 2026). Sources: [PubMed 42497282](https://pubmed.ncbi.nlm.nih.gov/42497282/) and the [SIAT release](https://english.siat.ac.cn/news/sr/202607/t20260730_1183451.html).
+   - Aerial hyphae were grown in nutrient patterns after fabrication (snowflake, maple leaf, logo). The material showed surface renewal and repair, and degraded in ~41 days.
+   - Programmable node placement on POL or craft panels: **Plausible-untested**. This links to the acetate self-healing dosing in the perturbation zones (item (g)): nutrient-induced growth is the same lever.
+3. **Hot-pressing and densification: Grounded direction**, as already noted in [mycelium_uses.md](mycelium_uses.md).
+   - The POL target is 420–480 kg/m³ and 2.1–2.8 MPa (up to ~3.6). That is still above the published as-grown range (~0.2–1.1 MPa) and needs coupon tests. **Plausible-untested.**
+4. **Targeted high-stress nodes under foot pads and coil mounts: Plausible-untested.**
+   - This connects to item (g): the perturbation zones, the CNT stress nodes, and Channing's Speculative thought that stressed zones densify over time.
+   - Combining these gives a possible lever set: patterned nutrient dosing plus local pressing at the high-stress nodes.
+5. **Open research need: node topology → damping and compressive strength under cyclic rider loads.**
+   - The paste admits "the closed-loop numbers are thin". No verified study was found here.
+   - Proposed bench test: micro-CT of pressed and unpressed coupons (node density, contact points), then cyclic compression and DMA for the damping coefficient.
+   - Labels: **open gap**.
