@@ -21,6 +21,9 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [franklin_lightning_rod.md](franklin_lightning_rod.md) | Honoring Benjamin Franklin: the grounded lightning rod (1749–50), Philadelphia steeple plan, Marly 1752, kite-account reliability; links to R6–R8. |
 | [dusty_plasma_bench.md](dusty_plasma_bench.md) | Pass-1 dusty plasma bench: plasma crystal, anode bubble (double layer), biased gate, rotation; knobs, diagnostics, safety. |
 | [C1-C12_seed_map.md](C1-C12_seed_map.md) | Recovered C1–C12 seed map (originally Grok chat 68a752c4, Aug 2026), verbatim. |
+| [recent_fluid_dynamics_2024_2026.md](recent_fluid_dynamics_2024_2026.md) | Living survey: hydrodynamics as effective field theory (Quanta 2026; Dubovsky et al. 2012; Crossley–Glorioso–Liu 2017); rest to come. |
+| [bioelectric_coupling.md](bioelectric_coupling.md) | Schumann resonance, green lensing, multi-scale bioelectric chain (Levin, Fröhlich, Davydov), collagen piezoelectricity and biotensegrity, with labels. |
+| [materials_electronics.md](materials_electronics.md) | CNT@BNNT and other nanoscale FET channels, Bi₂O₂Se, bismuthene; boron carbide properties and limits. |
 | [images/RGRF_Regenerative_Periodic_Table_concept.jpg](images/RGRF_Regenerative_Periodic_Table_concept.jpg) | Concept art: regenerative periodic table (scrambled labels, not a data reference) |
 | [images/Color_Coded_EM_Geometry_Map.jpg](images/Color_Coded_EM_Geometry_Map.jpg) | Image: Color-Coded EM & Geometry Map |
 | [images/RGRF_Manta_Butterfly_Craft_Concept.jpg](images/RGRF_Manta_Butterfly_Craft_Concept.jpg) | Concept image: Manta-Butterfly craft |
