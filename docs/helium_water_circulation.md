@@ -182,3 +182,26 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
 
 ¹ *Footnote (demoted reading):* "reconnection" could also suggest magnetic-reconnection-inspired topology (field lines breaking and rejoining; Dungey magnetopause in [em_topological_gravity_review.md](em_topological_gravity_review.md); Hall-MHD resistive term in [tungsten_bismuth_core.md §7b-math](tungsten_bismuth_core.md)). Channing's layout shows the flow meaning; any EM-reconnection-to-flow coupling remains **Speculative** and is not part of the design.
 - **Unknowns:** sink volume and shape, coil–sink distance, coil frequency and modulation envelope, coil power and the resulting heating of the ferrofluid, ferrofluid particle size/relaxation time, and how the phase shifts were set (drive timing, inertance/reservoir, or coil phasing).
+
+## 10. Hub-to-rim topology from the gyroscopic eggs; electrolyte solutions
+> Channing (verbatim): "Right, and we have a radial pathway that leads out to those branches all coming from the gyroscopic eggs which also have temperature dynamics that are similar. We also have been entertaining electrolyte solutions."
+
+### (a) Topology: eggs → radial paths → branch sinks → perimeter helium loop
+- **Layout:** gyroscopic eggs at the **hub** → **radial pathways** → **branch loops** (the coil sinks of §9) → the **outer perimeter helium loop** (protection layer).
+- **Grounded:** rotation drives radial outflow (**centrifugal pumping**; pressure rises outward as dp/dr = ρω²r, as in §2), which gives a natural **hub-to-rim circulation**. Return can come through Tesla-valved branches.
+- **Shared thermal dynamics:** the eggs generate heat from spin and precession (bearing and fluid friction, viscous dissipation in Ekman layers). Like the coil sinks, they reject it outward to the cooler rim. It is the same hub-hot / rim-cold pattern.
+- Egg precession and laminar regime: [DESIGN_FORCE_FLOW_MAP.md §1](DESIGN_FORCE_FLOW_MAP.md#1-laminar-precession-in-the-egg-multi-egg).
+- **Net: Plausible-untested.**
+
+### (b) Electrolyte solutions
+- **Grounded:** an electrolyte conducts, so it feels the **Lorentz force f = J × B**. This is MHD pumping with no moving parts. Example: the superconducting-magnet seawater MHD ship *Yamato-1* (Mitsubishi / Japan Ship & Ocean Foundation), sea-tested in 1992.
+- An electrolyte also carries **induced (eddy) currents** from the Tesla coil's changing field, so it couples to the coil sinks more directly than plain water. This mostly heats it (Joule heating J²/σ) unless a static B is present to turn J into force.
+- **Tradeoffs:**
+  - **Electrolysis / gas evolution** at DC electrodes (H₂ and O₂). Gas bubbles enter the loop (they separate by buoyancy in the sinks), and H₂ is a fire hazard. AC or capacitive electrodes reduce this.
+  - **Corrosion,** especially of the **ferritic steel** back-iron screens and any Al–Cu junctions (galvanic).
+  - **Joule heating** adds to the coil-sink heat load.
+  - **Salts lower the freezing point.** This ties to the §9 phase buffer: it can protect against ice, but it shifts or blurs the 0 °C clamp.
+  - **Salt can destabilize ferrofluid colloids** (it screens electrostatic stabilization). Water-based ferrofluid and brine may not coexist; keep them in separate phases or use oil-based ferrofluid.
+- **Net: Plausible-untested.**
+
+**Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
