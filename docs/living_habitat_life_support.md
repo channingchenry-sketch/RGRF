@@ -392,3 +392,20 @@ Channing (verbatim): "I believe those came from Montana state". The McMaster and
 - **No MSU paper found** on hot-pressing densification or on node topology → damping.
   - The closest verified hot-press source is **not MSU**: W. Sun, M. Tajvidi, C. Howell & C. G. Hunt, "Insight into mycelium-lignocellulosic bio-composites: Essential factors and properties," *Composites Part A* 161, 107125 (2022), doi:[10.1016/j.compositesa.2022.107125](https://doi.org/10.1016/j.compositesa.2022.107125). It is from the University of Maine and the USDA Forest Products Laboratory. In hot-pressed panels, higher mycelial density raised MOR, MOE and internal bond strength.
   - **Strong match** for the hot-pressing item, but a different institution.
+
+### Substrate: Guadua bamboo
+
+Channing (verbatim): "Yeah, substrate matters as well. Has there been any development with Guadupa bamboo and mycelium( probably South American)". "Guadupa" is likely ***Guadua*** (*G. angustifolia*, native to Colombia, Ecuador and Peru).
+
+**Search result (2026-10-12): no verified study of a mycelium composite grown on *Guadua* specifically.** Related verified work:
+- **Guadua fiber composites, without mycelium:** "Revaluation of Guadua Fiber for the Sustainable Production of Recycled Thermoplastic Composites…" (Ecuador, ACS Omega 2025, [PMC11947832](https://pmc.ncbi.nlm.nih.gov/articles/PMC11947832/)). Treated *G. angustifolia* fiber was used in HDPE and recycled HDPE. **Grounded:** Guadua fiber works as a composite reinforcement. Journal and authors were not checked here.
+- **Bamboo substrate with mycelium:**
+  - "Assessing mycelium-based blocks utilizing *Pleurotus ostreatus* versus *Trichoderma virens*… bamboo residues, spent coffee grounds, and rice husks," *Studies in Fungi* (2025), doi:[10.48130/sif-0025-0007](https://doi.org/10.48130/sif-0025-0007). Bamboo residue with *P. ostreatus* gave the **highest compressive strength, 0.190 MPa**. The densest blocks were 379 kg/m³ (a rice husk/coffee mix). Species and substrate both mattered. Authors not checked.
+  - "Temporal characterization of biocycles of mycelium-bound composites made from bamboo and *Pleurotus ostreatus* for indoor usage," *Sci. Rep.* (2022), doi:[10.1038/s41598-022-24070-3](https://doi.org/10.1038/s41598-022-24070-3). Compressive modulus was ~50–250 kPa up to day 14, then fell at 21–28 days; yield was ~60–100 kPa. **Longer growth is not always stiffer.** Authors not checked.
+  - Taiwan *Phyllostachys makinoi* bamboo-fiber/*P. ostreatus* prototypes ([IASS 2024 paper](https://app.iass2024.org/files/IASS_2024_Paper_398.pdf)). The 1:1 fiber:powder mix grew fastest. Mechanical data were still pending.
+- **Colombian mycelium composite, not bamboo:** "Development and Characterization of Mycelium-Based Composite Using Agro-Industrial Waste and *Ganoderma lucidum* as Insulating Material," *J. Fungi* 11(6), 460 (2025), [MDPI](https://www.mdpi.com/2309-608X/11/6/460). It used Arboloco pith and kikuyu grass. This is the closest regional work found. Authors not checked.
+
+**Takeaways:**
+- Substrate effects are **Grounded**: fungal species, particle or fiber size, the fiber:powder ratio and growth time all shift density and strength.
+- As-grown bamboo-mycelium blocks are **~0.05–0.2 MPa**, an order of magnitude below the POL 2.1–2.8 MPa target. Hot-pressing (above) is still the required lever.
+- *Guadua* as a POL substrate, or as a hybrid panel (Guadua culm or laminate skins with a mycelium core), is **Plausible-untested**. It is an open research gap, with a regional opening in Colombia and Ecuador.
