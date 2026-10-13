@@ -98,3 +98,36 @@ for rpm in (60, 300, 1000, 3000):
 - Jupiter fuzzy (dilute) core and metallic hydrogen: [em_topological_gravity_review.md §4](em_topological_gravity_review.md#4-jupiter-fuzzy-dilute-core--metallic-hydrogen).
 
 **Unknowns:** heat source location and power, heating uniformity, rpm, fluid depth and radius, ΔT, the fluid's thermal expansion and diffusivity (α, κ), the resulting Ro/E/Ra, and which banded state places the helium core where it is wanted.
+
+## 8. Pressure valves: flow vs force (unsettled, reopened 2026-10-12)
+> Channing (verbatim): "Yeah, flow vs force we played around with pressure valves but never really settled"
+
+In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring, piezo actuator) into a **flow** outcome (direction, rate, leakage).
+
+| Option | Force: what sets it | Flow: direction / rate / leakage | Status | Source |
+|---|---|---|---|---|
+| (1) Passive spring check / relief valve | Cracking pressure = spring preload ÷ seat area; relief opens at a set Δp | One-way; rate rises above cracking Δp. Small leak at the seat, hysteresis (opens and closes at different Δp), moving parts wear | Grounded (standard hardware) | textbook |
+| (2) Tesla valve / fluidic diode | Geometry only: inertial flow separation, no actuator | Directional *resistance*, not a seal. Diodicity Di ≈ 1 below Re ≈ 100, turns on over Re ≈ 100–300, **Di ≈ 2 for Re ≈ 300–1500** (reported 2–4 for other geometries at Re 10³–10⁶). Boosted by pulsatile flow. Bridge rectifier pump effectiveness E ≈ 0.5. **Rectifies oscillating flow; never holds pressure** | Grounded | Q. M. Nguyen, J. Abouezzi & L. Ristroph, *Nat. Commun.* 12, 2884 (2021), doi:10.1038/s41467-021-23009-y (verified); [POL zone 7](pol_v0_1_zones.md#7-micro-tesla-valve--density-accents-optional) |
+| (3) Piezo-actuated active valve | Piezo force/stroke (D = d·T, S = dᵀE) driven electrically, timed to the drive phase | Opens/closes on command, so it can seal hard. Timing locked to the piezo stroke / heartbeat; needs power and control | Grounded (technology); sync scheme Plausible-untested | [DESIGN_FORCE_FLOW_MAP §2](DESIGN_FORCE_FLOW_MAP.md) (lattice pulse) |
+| (4) Pulse-tube orifice + reservoir / inertance tube | Flow impedance: orifice (resistive), inertance tube (gas inertia, inductive), reservoir (compliance, capacitive) | Sets the **phase between pressure (force) and mass flow**. Inertance can make the flow lag pressure (≈60° target at the warm end) | Grounded (pulse-tube cryocoolers) | R. Radebaugh, "A review of pulse tube refrigeration," *Adv. Cryog. Eng.* 35, 1191–1205 (1990) (verified via NASA NTRS); R. Radebaugh et al., "Inertance tube optimization for pulse tube refrigerators," *AIP Conf. Proc.* 823, 59–67 (2006) (verified) |
+
+**Why (4) is "flow vs force" exactly:** in an oscillating gas, pressure is the force and mass flow is the flow. The orifice/inertance/reservoir network is an R–L–C circuit (as in the fluidic RLC section of [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md)) that chooses their phase relation. That phase decides whether the cycle pumps heat.
+
+**Recommendation (Plausible-untested):**
+- **Tesla diodes** for the *steady water circulation direction*: no moving parts, well suited to pulsatile drive. Keep Re in the hundreds or above; at low Re they barely work.
+- **Orifice/inertance + reservoir** for *helium phase control* in the piezo-helium loop.
+- **Active piezo valve** only where a **hard seal** is needed, e.g. isolating helium for storage or containment.
+
+**Unknowns:**
+- Water channel size and flow speed (and so Re)
+- Drive frequency and stroke
+- Helium mean pressure and pressure ratio
+- Reservoir volume and inertance tube length/diameter
+- Allowed leak rate
+- Valve power budget
+
+**Bench test (~$30–60):** measure diodicity.
+- Use a 3D-printed Tesla valve in a water line with a pump, a flow meter (or a timed beaker) and two pressure taps (or water columns).
+- At a **fixed flow rate**, measure Δp forward and Δp reverse: Di = Δp_rev/Δp_fwd. Repeat across flow rates to find the turn-on Re.
+- Then drive it with an oscillating syringe or speaker and measure the net flow.
+- **Compare with Nguyen et al.:** Di ≈ 1 below Re ≈ 100, ≈ 2 above ≈ 300.

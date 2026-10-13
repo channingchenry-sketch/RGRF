@@ -243,6 +243,10 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | He containment material | Permeation/leak rate | Fluid (He loss) | Grounded (issue) | Leak-rate test | same |
 | Water circulation rpm, radius (He–water loop) | Centrifugal buoyancy; Δp(wall−axis) = ½ρω²r² (axis lowest) | Fluid (He to core, water outward); He expands at core, not compresses | Grounded (physics); Plausible-untested in POL; "compress to center" contradicted | Spinning-cylinder bench, axis vs wall taps | [helium_water_circulation](helium_water_circulation.md) |
 | External heating of rotating He–water loop (power, location, rpm) | Rotating convection; Taylor–Proudman; Ro = U/ΩL, E = ν/ΩL², Ra = gαΔTL³/νκ | Fluid (convection vs vortex; bands/jets if locked), heat | Grounded (physics); band-locking Plausible-untested | Rotating tank + heating ring, map (Ro, Ra) | [helium_water_circulation §7](helium_water_circulation.md) |
+| Spring check/relief valve (preload, seat area) | Cracking Δp = preload/area | Fluid (one-way above threshold; seat leak, hysteresis) | Grounded | — | [He–water §8](helium_water_circulation.md) |
+| Tesla diode in water loop (geometry, Re) | Inertial separation; Di ≈ 2 at Re 300–1500 (Nguyen 2021) | Fluid (rectified oscillating flow; no seal) | Grounded | Diodicity bench: Δp fwd vs rev at fixed Q | [He–water §8](helium_water_circulation.md) |
+| Piezo active valve (stroke, timing vs drive phase) | Piezo force/stroke; phase-locked actuation | Fluid (hard seal on command) | Grounded tech; sync Plausible-untested | — | [He–water §8](helium_water_circulation.md) |
+| Orifice + inertance tube + reservoir (He loop) | Fluidic R–L–C; phase between pressure and mass flow (~60° lag target) | Fluid (He oscillation), heat (pumped) | Grounded (pulse tubes); Plausible-untested in POL | — | [He–water §8](helium_water_circulation.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.
