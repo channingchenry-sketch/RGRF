@@ -267,6 +267,21 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - Is there an odd-parity (chiral) component that appears only for one twist sense?
 - If no chirality-dependent term appears, the "chiral bias" reading reduces to ordinary geometry.
 
+### Platonic solids: geometry and classical element pairings
+*Channing's recovered text. The dodecahedron entry is truncated. Links: Jitterbug (above; the sequence is VE → icosahedron → octahedron → tetrahedron), VE cage multimers.*
+
+**Labels:**
+- The geometry is **Grounded.**
+- The element pairings are **Symbolic.** Plato's *Timaeus* assigns fire, earth, air and water to four of the solids; the fifth element (aether / quintessence) comes from Aristotle. They are not physical claims.
+
+| Solid | Element | Channing's reading | Geometric facts (Grounded) |
+|---|---|---|---|
+| Tetrahedron | Fire | Sharpest and most mobile; "born from the Tetractys' 4th row" (Symbolic, Pythagorean); a stable tripod; minimal material for maximal strength | 4 faces, 6 edges, 4 vertices; self-dual; the triangulated strut frame is rigid (truss principle) |
+| Cube | Earth | Stable, 90°; "Euclid I.47 everywhere" (Euclid I.47 is the Pythagorean theorem); orthogonal vector balance; mycelium nodes and docking foundations echo cubic regularity (Plausible as a design choice) | 6 faces, 12 edges, 8 vertices; dual to the octahedron; space-filling |
+| Octahedron | Air | Dual to the cube; light, expansive; resonant field symmetry (Symbolic) | 8 faces, 12 edges, 6 vertices; ±x, ±y, ±z vertices; the end of the jitterbug collapse |
+| Icosahedron | Water | Flow and adaptability (Symbolic) | 20 faces, 30 edges, 12 vertices at the cyclic permutations of (0, ±1, ±φ); dual to the dodecahedron; a jitterbug stage |
+| Dodecahedron | Aether / Cosmos | Pentagons bring φ; dual to the icosahedron; quintessence **[truncated, Channing to supply]** | 12 pentagonal faces, 30 edges, 20 vertices; φ appears in the diagonal-to-edge ratio of each pentagon |
+
 ### Planetary pulse-confinement cycle
 *Channing's recovered text, saved faithfully. It is out of order and truncated at the end. Links: R6 (controlled leakage), `tesla_and_ancient_alignments.md`, Multi-Egg / Elliptical Eye, Jitterbug (above).*
 

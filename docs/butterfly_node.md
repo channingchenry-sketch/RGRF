@@ -111,3 +111,5 @@ Each element is mapped to existing POL / RGRF subsystems in the table at the end
 - The filter band.
 - The intended function of the node: lift, stabilization, sensing or energy routing.
 - How the node mounts on the Manta-Butterfly craft.
+
+See also: [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md) (streaming, centrifugal buoyancy, dual torus).
