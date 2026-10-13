@@ -203,6 +203,18 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
    - **Beryllium:** ruled out for toxicity (chronic beryllium disease), as with BeO in [helium_water_circulation.md §10c](helium_water_circulation.md).
    - **Magnesium (Mg²⁺):** also takes part in biomineralization (Mg-calcite, dolomite, struvite MgNH₄PO₄·6H₂O). **Risk:** with MICP ammonium and any phosphate, **struvite scaling** forms readily and clogs lines.
    - **Calcium transport with potassium:** Ca²⁺ is the MICP mineral ion (CaCO₃). K⁺ is a benign charge carrier and a fungal nutrient, so it is useful as the electrolyte background cation.
+   > Channing (verbatim): "Yeah we were trying to use them intelligently. We also looked at Manganese and zinc compound. The idea for the potassium was to transport the calcite out and then repel it in a sense but again flushing would be needed. We never closed this."
+   - **(c) Manganese and a zinc compound** (specific compounds **[Channing to supply]**):
+     - **Mn (Grounded):** a fungal enzyme cofactor. **Manganese peroxidase** is a key lignin-degrading enzyme of white-rot fungi such as Trametes. Microbes also biomineralize MnO₂ deposits, which is a scaling risk. Ties to the Co–MnO mycelium-carbon catalyst (see the Electrolysis section above).
+     - **Zn (Grounded):** zinc ions and ZnO are antimicrobial and fungitoxic at higher levels (keep to non-living zones). Zinc salts and zinc phosphonates are classic **scale and corrosion inhibitors** in cooling-water treatment.
+   - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
+     - **Grounded analogs:**
+       - **chelation/complexation** that keeps Ca²⁺ in solution (citrate, above);
+       - **ion exchange**, swapping K⁺ for Ca²⁺ as in water softening;
+       - **electrostatic / charged-surface anti-scaling** (like-charged or low-energy surfaces that reduce nucleation and adhesion).
+     - The **"repel" mechanism** as designed: **Plausible-untested**.
+     - **Periodic flushing is still needed.**
+   - **Status: Open, never closed.**
    - **Status: Open, never settled.** No final ion set was chosen (pre-July sessions; see the note on lost Grok content in [REBUILD_INDEX.md](REBUILD_INDEX.md)).
 
 ## Cabin vibration for bone density ("cat purr influenced")

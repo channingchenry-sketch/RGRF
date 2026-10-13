@@ -281,6 +281,8 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Ion set for mineral transport (Ca²⁺ + K⁺; Mg²⁺; K citrate; K phosphate; Be ruled out) | Ion transport and precipitation (CaCO₃; Ca-phosphate and struvite with Mg/NH₄/PO₄) | Charge, fluid (mineral deposition) | Open, never settled | — | [living_habitat §zones](living_habitat_life_support.md) |
 | Potassium citrate (post-formation flush) | Chelation of Ca²⁺/Mg²⁺: scale inhibition; also inhibits calcite (conflicts with MICP) | Chemistry; fluid (bore kept clear) | Grounded; flush use Plausible-untested | — | [living_habitat §zones](living_habitat_life_support.md) |
 | Potassium phosphate (buffer, P+K nutrient) | pH buffering; precipitation as Ca-phosphate / struvite (with NH₄⁺) | Biological (nutrient); fluid (scaling risk) | Grounded; scaling risk | — | [living_habitat §zones](living_habitat_life_support.md) |
+| Manganese / zinc compounds (specifics [Channing to supply]) | Mn: peroxidase cofactor, MnO₂ biomineral deposits; Zn: antimicrobial, scale/corrosion inhibition | Biological, chemistry, fluid (deposits vs inhibition) | Grounded properties; roles Open | — | [living_habitat §zones](living_habitat_life_support.md) |
+| Potassium "carry out and repel" calcium strategy | Chelation, K⁺/Ca²⁺ ion exchange, charged-surface anti-scaling | Charge, fluid (Ca kept in solution / removed) | Grounded analogs; "repel" Plausible-untested; flushing still needed; Open, never closed | — | [living_habitat §zones](living_habitat_life_support.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.
