@@ -146,6 +146,39 @@
 - **Pass:** faster recovery at the same probe power.
 - **Fail:** no advantage, in which case a conventional PLL is good enough.
 
+## Grounded loop mechanisms (1–7)
+*Channing's recovered text, labeled. Each mechanism is standard physics; the open question is whether they integrate into one loop, and with what energy ledger (see Power ledger summary).*
+
+1. **Lorentz and magnetic-gradient forces (Grounded).**
+   - Conductive fluids feel the J×B force. Ferrofluids feel the Kelvin force (μ₀M·∇H).
+   - Together these can position fluid, shift density, impose shear and drive directed circulation. MHD pumps and ferrofluid seals are existing devices.
+2. **Joule heating with a steerable hot zone (Grounded).**
+   - Heating goes as I²R (or J²/σ).
+   - Shaping the magnetic field (current paths, eddy and induction zones) places and moves the hot zone, as in induction heating.
+3. **Adiabatic compression and expansion (Grounded).**
+   - Expansion cools the gas, and vapor condensing there gives a controllable cold zone. This is the same principle as refrigeration cycles and cloud chambers.
+4. **Closed multiphase circulation (integration Plausible-untested).**
+   - Magnetic body force, localized heating, and expansion/compression pulses together give directed flows. Mass is recovered by condensation.
+   - **No new physics.** The analogs are heat pipes, loop thermosyphons and MHD / ferrofluid pumps.
+   - **In microgravity** the EM and thermal terms persist and buoyancy becomes secondary. That makes this the cleanest continuity from ground to space; ferrofluid and heat-pipe flight heritage exists generically.
+   - **Needed:** a full energy ledger (electrical in → heat + work + losses). No net-energy claims.
+5. **Larmor precession timing (Grounded in principle).**
+   - Magnetized elements precess at ω = γB. Timing the precession can modulate when force density or pressure peaks.
+   - **The coupling efficiency is a design parameter,** not yet measured. For ferrofluid nanoparticles, Néel/Brownian relaxation usually dominates.
+6. **Vortex organization (Grounded).**
+   - Counter-rotating vortex pairs and shear interfaces (Kelvin–Helmholtz) are standard flow structures.
+   - So are 180°-phase-offset "bridges," in the sense of coupled oscillators locked in antiphase.
+7. **Carried-forward materials and hardware (standard engineering).**
+   - **Structure:** mycelium–hemp composites (Trametes and hybrids; see `mycelium_uses.md`), bamboo hierarchical framing, and chitosan / borax binders or crosslinkers.
+   - **Sensing and actuation:** piezo sensors and actuators, quartz resonators, and helium as a low-damping acoustic medium. Note that helium's high sound speed shifts resonances, and it is hard to contain.
+   - **Flow and heat:** Tesla-valve rectification (section above), Al–Cu thermal networks (watch for galvanic corrosion at the junctions), and magnetic centering.
+   - Material claims beyond the cited docs: **Plausible**, pending tests.
+
+**Bench test:**
+- Run a sealed ferrofluid or salt-water loop with a permanent-magnet gradient, a resistive heater and a piezo pulse.
+- Measure flow rate and ΔT against input watts.
+- Repeat with the magnet removed, and with the system inverted (a gravity-independence check).
+
 ## Power ledger summary
 | Mechanism | Force per power | Role | Tag |
 |---|---|---|---|
