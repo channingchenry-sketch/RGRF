@@ -158,6 +158,15 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
     - The envelope could be **synced to the lattice heartbeat** ([DESIGN_FORCE_FLOW_MAP §2](DESIGN_FORCE_FLOW_MAP.md)) and to the Tesla-valve phase shifts: **Plausible-untested**.
   - **Air:** bubbles separate by **buoyancy** in the sink and rise out of the liquid (Grounded). Combined with the valves, this gives the "steady separation" back to the pathway.
   - **Water / CBD oil:** immiscible, so they layer by density in a quiet sink (Grounded). Neither responds directly to the coil unless charged or heated.
+  - **Return toward the outer helium loop (Channing, verbatim):** "Yes and we had it going towards the outer helium loop for faster resettling playing on the temperature changes".
+    - The separated return flow from the coil sinks was routed toward the **outer perimeter helium loop**, the "multipurpose and a protection layer" ([pol_v0_1_zones.md, material stacks layer 4](pol_v0_1_zones.md#possible-material-stacks-reconstructed-from-channings-memory-2026-10-12-replace-if-original-found)). There it dumps coil heat and uses the temperature difference to speed resettling and separation.
+    - **Grounded physics:**
+      - Cooler liquid is denser, which aids density layering.
+      - Cooler liquid is also more viscous, which slows mixing and damps sloshing but also slows settling. The net effect on resettling time depends on the geometry.
+      - Ferrofluid magnetization rises as temperature falls (Curie-like behaviour), so the cooled ferrofluid responds more strongly to the next pulse.
+    - **It closes a thermal loop:** the coil heats the sink (HF loss), the return carries that heat outward, and the cooler perimeter helium loop absorbs it (and, if the piezo-helium cycle is active, pumps it away).
+    - **Net design: Plausible-untested.**
+    - **Unknowns:** heat load per pulse/burst, the temperature drop needed for useful resettling, resettling time vs flow rate, perimeter loop cooling capacity.
 
 ¹ *Footnote (demoted reading):* "reconnection" could also suggest magnetic-reconnection-inspired topology (field lines breaking and rejoining; Dungey magnetopause in [em_topological_gravity_review.md](em_topological_gravity_review.md); Hall-MHD resistive term in [tungsten_bismuth_core.md §7b-math](tungsten_bismuth_core.md)). Channing's layout shows the flow meaning; any EM-reconnection-to-flow coupling remains **Speculative** and is not part of the design.
 - **Unknowns:** sink volume and shape, coil–sink distance, coil frequency and modulation envelope, coil power and the resulting heating of the ferrofluid, ferrofluid particle size/relaxation time, and how the phase shifts were set (drive timing, inertance/reservoir, or coil phasing).
