@@ -191,7 +191,15 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
    - Copper tubes served as **molds / mandrels** to form the petrified branch panels. They were **removed before installation**, and then a **boron nitride coat** was applied.
    - This removes copper from the installed system, which resolves the **copper–mycelium** (fungitoxic ions) and **copper–H₂O₂** (catalytic decomposition, corrosion) conflicts. The logic is Grounded; the process is **Plausible-untested** (mold release from a mineralized wall, BN adhesion on the mineral).
 6. **Ion / transport choices: Open, never settled.**
-   - **"K3":** meaning **[Channing to clarify]**. Guesses only: K₃PO₄ (tripotassium phosphate), tripotassium citrate, or potassium ferricyanide K₃[Fe(CN)₆].
+   - **"K3" clarified (Channing, verbatim):** "Potassium citrate" and "But we also looked at potassium phosphate".
+     - **(a) Potassium citrate (K₃C₆H₅O₇):**
+       - **Grounded:** it chelates Ca²⁺ and Mg²⁺ and is a known **scale inhibitor**, which addresses the build-up issue. It is also a benign K⁺ source, biodegradable, and a microbial carbon source.
+       - **Conflict:** it also **inhibits calcite precipitation**, so it works *against* MICP petrification.
+       - **Best use:** *after* formation, as an anti-scale or flush step (Plausible-untested).
+     - **(b) Potassium phosphate (K₃PO₄ / K₂HPO₄ / KH₂PO₄):**
+       - **Grounded:** a pH buffer and a P + K nutrient for fungi and photosynthetic partners.
+       - **Scaling risk (Grounded):** phosphate precipitates with Ca/Mg as calcium phosphate and, with NH₄⁺ (the MICP ammonium), as **struvite**.
+     - **They pull in opposite directions:** citrate prevents scale; phosphate feeds it.
    - **Beryllium:** ruled out for toxicity (chronic beryllium disease), as with BeO in [helium_water_circulation.md §10c](helium_water_circulation.md).
    - **Magnesium (Mg²⁺):** also takes part in biomineralization (Mg-calcite, dolomite, struvite MgNH₄PO₄·6H₂O). **Risk:** with MICP ammonium and any phosphate, **struvite scaling** forms readily and clogs lines.
    - **Calcium transport with potassium:** Ca²⁺ is the MICP mineral ion (CaCO₃). K⁺ is a benign charge carrier and a fungal nutrient, so it is useful as the electrolyte background cation.
