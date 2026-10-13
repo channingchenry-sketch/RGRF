@@ -76,7 +76,24 @@ Recovered text (screenshots 3, 11, 12):
 
 ## 7b-math. Hall-MHD math (recovered, OCR-damaged)
 **Channing's pasted text (as received):**
-> [Pasted OCR text not included in this rebuild request — Channing to supply the raw paste so it can be quoted verbatim. Known garbled fragment: "w ac k?" (meaning ω ∝ k²).]
+> Accurate Mathematical/Physics Solutions:  
+> • Hall MHD Induction Equation (key extension):  
+> дВ  
+> = 7x (v×B)  
+> 7 X (J×B)+...  
+> Nel  
+> (Hall term highlighted).  
+> • Linearized Wave Branches (from dispersion relations in HMHD):  
+> The spectrum consists of:  
+> • Slow magnetosonic-Hall waves  
+> • Shear Alfvén-Hall waves (often whistler-like at small scales)  
+> • Fast magnetosonic-Hall waves  
+> Dispersion relations show phase speeds modified by the Hall parameter €н = di/I (where L is characteristic length). For parallel propagation, Alfvén waves split into dispersive whistler modes with w ac k?  
+> at high k.  
+> arxiv  
+> ® istler / Helicon Connection: Hall v include helicon modes (corkscrew-shaped  
+>
+> *(paste ends here — cut off)*
 
 **Corrected standard form — Grounded.** Hall-MHD induction equation:
 
@@ -145,7 +162,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - Heartbeat frequencies and geometry.
 - The HMHD simulation script (equations, units, parameters) behind §7b.
 - Quartz-partner text: end of the "Bell tests proposed for…" sentence (cut off) and the source for "~232 as".
-- Hall-MHD math: Channing's raw pasted text, the cut-off helicon text, and the arXiv source.
+- Hall-MHD math: the cut-off helicon text and the arXiv source.
 - APS paper behind the spin-Hall RF-wave citation chip.
 - Opening of screenshot 1 and the bridging text between screenshots 3→4 and 5→6.
 - End of the POL v0.1 conductive-floor caveat.
