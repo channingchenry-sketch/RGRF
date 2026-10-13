@@ -317,6 +317,35 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 1. Does any large surface structure show a measurable local effect on the fair-weather potential gradient or Schumann-band fields, after controlling for geometry (field enhancement at a tall conductor is ordinary electrostatics)?
 2. For the engineered node, do pulsed drive + magnetic confinement + layered fill give a smaller amplitude of pressure/temperature extremes than the same fill without the pulse–confinement pair, for equal input power?
 
+### Emergent / entropic gravity
+*Channing's recovered text. Links: R9 (sink / tensor channels, which stay as they are), Planetary pulse-confinement cycle.*
+
+**As given:**
+- Gravity behaves like gas pressure. It is an emergent statistical tendency arising from information spreading out.
+- Mass is locally concentrated quantum information, and systems reorganize toward configurations with more microstates.
+- A gradient across the observable universe explains gravity's ~10^40 weakness relative to electromagnetism.
+
+**Grounding (verified):**
+- **Black-hole entropy:**
+  - Bekenstein, "Black holes and entropy," *Phys. Rev. D* 7, 2333 (1973).
+  - Hawking, "Particle creation by black holes," *Commun. Math. Phys.* 43, 199–220 (1975), doi 10.1007/BF02345020.
+  - Together they show horizon area acts as entropy and horizons radiate thermally.
+- **Einstein's equations from thermodynamics:** Jacobson, "Thermodynamics of spacetime: the Einstein equation of state," *Phys. Rev. Lett.* 75, 1260 (1995). He derives the field equations from δQ = T dS on local Rindler horizons.
+- **Gravity as an entropic force:** Verlinde, "On the origin of gravity and the laws of Newton," *JHEP* 2011(04), 029, doi 10.1007/JHEP04(2011)029. Newton's law arises from information changes on holographic screens.
+- **Emergent gravity and dark matter:** Verlinde, "Emergent gravity and the dark universe," *SciPost Phys.* 2, 016 (2017), doi 10.21468/SciPostPhys.2.3.016. An entropy displacement by matter produces an apparent dark-matter force at the scale a₀ = cH₀.
+- **First observational test:** Brouwer et al., *MNRAS* 466(3), 2547–2559 (2017), doi 10.1093/mnras/stw3192. Weak lensing of 33,613 isolated galaxies (KiDS + GAMA) agreed with the parameter-free prediction. The authors call it a first step only.
+- **Open objections:** the derivations are not unique (e.g. arXiv:1201.2475), and later tests are mixed.
+
+**Labels:**
+- Entropic / emergent framework: **Plausible-untested**. It is a serious research program but not established, and Verlinde 2011 is explicitly a heuristic argument.
+- "Gravity like gas pressure": a fair analogy for an entropic force. Note that Jacobson's horizon thermodynamics is **not** the same claim as Verlinde's entropic force.
+- **Mass as locally concentrated quantum information: Speculative.**
+- **The gradient across the observable universe explaining the 10^40 weakness: Speculative. There is no derivation.** One number-check: the ratio of the Hubble radius to the classical electron radius is ~10^40 (Dirac's large-number coincidence). Any claim needs to produce G/(e²/4πε₀m²) from first principles, not just match the order of magnitude.
+
+**Falsifiable hooks:**
+- The lensing and rotation-curve predictions at a₀ = cH₀ (Brouwer et al. and successors).
+- Any "information-gradient" version must predict a measurable departure from these, or from GR, somewhere.
+
 ### L5. Field lines & longitudinal energy channels (recurring thread)
 - **Observed (Grounded, citations verified).**
   - **Field-aligned (Birkeland) currents** connect the magnetosphere and ionosphere along Earth's magnetic field lines and carry energy into the auroral zones. Satellite magnetometers mapped their large-scale pattern ("region 1/region 2"). Iijima & Potemra, "Field-aligned currents in the dayside cusp observed by Triad", *J. Geophys. Res.* 81(34), 5971–5979 (1976).
@@ -683,6 +712,13 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
 - R2–R5 anchors: **Grounded**.
 - The "etched long-wavelength path from an early black hole as informing path" (R1): **Speculative**.
 - The chain as a whole: an organising narrative, not a mechanism.
+
+**Luneburg lens: a gradient-index analog (Grounded).**
+- The index varies smoothly with radius: n(r) = √(2 − (r/R)²), falling from √2 at the center to 1 at the surface. Because it matches the surrounding medium there, there is no curved refracting boundary and no surface reflection.
+- Focusing comes from different parts of the wavefront travelling at different speeds. Every surface point is the focus for a parallel beam arriving from the opposite side, and the internal ray paths are arcs of ellipses.
+- **Uses:** microwave and radar antennas, and radar reflectors (a Luneburg sphere with a reflective cap).
+- **Source:** R. K. Luneburg, *Mathematical Theory of Optics*, Brown University mimeographed lecture notes (1944), §29.
+- **Analog (Plausible-untested):** a smooth density gradient in a fluid or plasma, rather than a hard wall, acts as a "boundaryless" lens for waves and field lines. This is the soft-boundary counterpart of the double-ellipse reflector.
 
 ## Planetary & stellar reference threads
 These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
