@@ -127,7 +127,23 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 > is Solutions:  
 > V  
 > • Occam's Inversion (smoothness-  
-> [cut off — Channing to supply]  
+> *(continues — Paste A)*  
+>
+> Key Techniques and Accurate Mathematical/ Physics Solutions:  
+> • Occam's Inversion (smoothness-constrained, widely used for 1D/2D/3D):  
+> Seeks the "smoothest" model that fits data within a misfit tolerance. Objective function minimization:  
+> 二亞a+ 入車m, Where ④d is data misfit  
+> (e.g., x'), $m is model roughness (e.g., second derivative or Laplacian for smoothness), and X is the Lagrange multiplier (trade-off parameter).  
+> physics.sc.ma...  
+>
+> *(Paste B)*  
+> Gauss-Newton (GN) and Variants (GN-CG, etc.): Iterative linearization of the nonlinear forward problem. Update rule involves Jacobian (sensitivity matrix) J:  
+> , where r is residual vector and C' is model covariance. Non-linear conjugate gradient (NLCG) and quasi-Newton (QN) reduce computational cost for large 3D problems.  
+> minet  
+> • Regularized Conjugate Gradient (RRCG) and others: Balance data fit with regularization to handle noise and non-uniqueness.  
+> These are experimentally validated through field surveys (geothermal, mineral, hydrocarbon exploration) and synthetic benchmarks. Forward modeling often uses finite-difference or integral equation methods to compute predicted responses.  
+> quantecgeo  
+> ince to Prior Work: Directly ties to V telluric currents (GICs) and geomagnetism via [cut off — Channing to supply]  
 
 **Grounded notes:**
 - **Impedance tensor:** horizontal fields are related by **E = Z H** (2×2 complex tensor per frequency); ρ_a and phase (§7a-math) come from its components.
@@ -136,6 +152,15 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
   where m = model (log-resistivity per layer), ∂ = roughening (first/second-difference) operator, d = data, F = forward model, W = data weighting (inverse errors), χ*² = target misfit.
   Source (verified): S. C. Constable, R. L. Parker, C. G. Constable, "Occam's inversion: A practical algorithm for generating smooth models from electromagnetic sounding data," *Geophysics* 52(3), 289–300 (1987), doi:10.1190/1.1442303.
 - Other common approaches (general mention only): nonlinear conjugate gradients (NLCG) and Gauss–Newton-type regularized inversions, typically for 2D/3D models; sharp-boundary/layered inversions where few discrete layers are expected.
+
+**Continuation — corrected forms (Grounded):**
+- Occam / regularized objective: **Φ = Φ_d + λ Φ_m**, with Φ_d = data misfit (χ²), Φ_m = model roughness (e.g. ‖∂m‖², first/second difference or Laplacian), λ = trade-off (Lagrange) parameter. Equivalent to the μ⁻¹ form above with λ = μ.
+- Gauss–Newton regularized update (the screenshot formula was lost; standard form):
+  **Δm = (Jᵀ C_d⁻¹ J + λ C_m⁻¹)⁻¹ [Jᵀ C_d⁻¹ r − λ C_m⁻¹ (m − m₀)]**,
+  J = Jacobian (sensitivity) matrix, r = d − F[m] residual, C_d = data covariance, C_m = model covariance, m₀ = reference model.
+- NLCG and quasi-Newton methods avoid forming the full Jacobian and solving JᵀJ-type systems each iteration, which makes large 2D/3D problems cheaper. Source (verified): W. Rodi & R. L. Mackie, "Nonlinear conjugate gradients algorithm for 2-D magnetotelluric inversion," *Geophysics* 66(1), 174–187 (2001), doi:10.1190/1.1444893.
+- "RRCG" is kept as given; the abbreviation is unverified.
+- Forward modelling by finite-difference or integral-equation methods: Grounded.
 
 **RGRF tie-in — Plausible-untested:** the same inversion math could characterize the core's layered W / Bi / quartz conductivity from surface E/H measurements at several frequencies (skin depths in §7a-math set the probing depth). A real, buildable bench diagnostic: sweep frequency with a small coil, measure surface E/H (or coil impedance), invert for a layered conductivity profile.
 
@@ -227,7 +252,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - Heartbeat frequencies and geometry.
 - The HMHD simulation script (equations, units, parameters) behind §7b.
 - Quartz-partner text: end of the "Bell tests proposed for…" sentence (cut off) and the source for "~232 as".
-- Magnetotelluric inversion text: cut off at "Occam's Inversion (smoothness-".
+- Magnetotelluric inversion text: cut off at "Directly ties to telluric currents (GICs) and geomagnetism via…"; the lost Gauss–Newton formula from the screenshot.
 - Hall-MHD math: the cut-off helicon text and the arXiv source.
 - APS paper behind the spin-Hall RF-wave citation chip.
 - Opening of screenshot 1 and the bridging text between screenshots 3→4 and 5→6.
