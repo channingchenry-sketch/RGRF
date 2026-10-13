@@ -8,10 +8,51 @@ What that means for this table: every design choice (a material, a size, a frequ
 
 Columns: **Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source**
 
-## 1. Tungsten–Bismuth core (heartbeat)
+## 1. Laminar precession in the egg (Multi-Egg)
+Sources: [shifting_phase_order_review.md §A3, §B3](shifting_phase_order_review.md), [lift §7](lift_and_equilibrium_systems.md), [C1-C12 C8](C1-C12_seed_map.md), [butterfly_node](butterfly_node.md). Dimensionless groups are standard textbook definitions.
+
+**Key point:** precession is a torque response. Inside a closed egg it **redistributes angular momentum and flow; it gives no net lift** (momentum conservation, §A3). The honest null test is to put the cell on a scale.
+
+| Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
+|---|---|---|---|---|---|
+| Rotor moment of inertia I, spin ω, applied torque τ | Precession rate Ω_p = τ/(Iω) | Angular momentum (axis cones) | Grounded | Not measured. Spinning rotor + known τ, time Ω_p | [§A3](shifting_phase_order_review.md) |
+| Spin angular momentum L = Iω | Gyroscopic torque τ = Ω_p × L; resists the rate of tilt but has no restoring stiffness on its own | Torque (attitude), not force | Grounded (control-moment gyros) | — | [§A3](shifting_phase_order_review.md), [lift §7](lift_and_equilibrium_systems.md) |
+| Egg size L, internal flow speed U, fluid ρ, μ | Reynolds Re = ρUL/μ (laminar vs turbulent) | Fluid | Grounded | — | textbook; [§A3](shifting_phase_order_review.md) |
+| Spin Ω, kinematic viscosity ν = μ/ρ, size L | Ekman E = ν/(ΩL²) (boundary-layer thickness ~ E^½ L); Taylor Ta = 4Ω²L⁴/ν² (= E⁻²) | Fluid (Ekman layers, spin-up) | Grounded | — | textbook |
+| Precession/spin ratio | Poincaré Po = Ω_p/Ω; a laminar spin-over mode holds below a threshold | Fluid (precession-driven flow in a spheroid) | Grounded (Kerswell; Lagrange, Meunier et al.; geodynamo experiments) | Bench 3: ferrofluid egg on a turntable, find the Po threshold | [§A3, §B3, bench 3](shifting_phase_order_review.md) |
+| Egg ellipticity / aspect ratio | Sets the container's pressure torque on the fluid (sphere: viscous coupling only); shifts mode frequencies and triadic resonances | Fluid (spin-over mode amplitude, instability) | Grounded (fluids); optimum unknown | — | [§A3 item 4, §B3](shifting_phase_order_review.md) |
+| Drive frequency ratio | Triadic resonance instability; detune to stay laminar | Fluid (secondary modes) | Grounded (precessing cylinders) | — | [§A3 item 4](shifting_phase_order_review.md) |
+| Ferrofluid field (0–50 mT) | Magnetoviscous effect may shift the transition | Fluid, magnetization | Plausible-untested | Bench 3 | [bench 3](shifting_phase_order_review.md) |
+| Egg spin near copper (eddy springs, C8) | Lenz damping ∝ velocity | Charge → heat | Grounded; which dominates (gyro or eddy) is open | — | [butterfly_node](butterfly_node.md) |
+| Larmor vs flow precession | ω_L = γB; ω_c = qB/m (microscopic, not flow) | Spin/charge gyration | Grounded; equating them is a category slip | — | [§B3](shifting_phase_order_review.md) |
+| "3-6-9" / φ phasing of rotors | No force law | — | Symbolic | — | [§A3](shifting_phase_order_review.md) |
+| Precession for "lift assist" | None (closed system) | — | Speculative | Load-cell null test (bench 3) | [§A3](shifting_phase_order_review.md) |
+
+**Unknown parameters (egg):** egg dimensions (L, aspect ratio), spin rate Ω and precession rate Ω_p, fluid (ρ, μ or ν), applied torque τ and rotor I. Without these, Re, E, Ta and Po cannot be computed, so the laminar regime is undetermined.
+
+## 2. Pulse / heartbeat in the W–Bi–quartz lattice
+Source: [tungsten_bismuth_core.md §0, §4, §7a-math, §7d, §9](tungsten_bismuth_core.md). Piezo constitutive and thickness-mode formulas are standard textbook ones.
+
+Chain: **drive amplitude → stress (quartz) → charge → current in the shunt / W shell → field confined to the skin depth δ.**
+
+| Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
+|---|---|---|---|---|---|
+| Quartz plate thickness t, stiffness c, density ρ | Thickness-mode resonance f = (1/2t)√(c/ρ) | Phonons (standing acoustic wave) | Grounded (law); values — | Not measured. Impedance sweep of a plate | textbook; [§7d](tungsten_bismuth_core.md) |
+| Mechanical/electrical losses | Q = f₀/Δf; ring-down time ~ Q/(πf₀) | Phonon energy → heat | Grounded | Bench 1: Q / ring-down with vs without the shunt | [§9](tungsten_bismuth_core.md) |
+| Shunt L, C (electrical analog) | f = 1/(2π√(LC)); piezo shunt damping | Charge (through the shunt) → heat | Grounded (structures); Plausible-untested for a core | Bench 1 | [§4](tungsten_bismuth_core.md) |
+| Drive amplitude (voltage V or stress T) | Converse S = s^E·T + dᵀE gives strain; direct D = d·T + ε^T E gives charge Q = d·F (along the axis) | Phonons ↔ charge | Grounded | — | textbook; [§7d](tungsten_bismuth_core.md) |
+| Pulse rate (charge per cycle × f) | Current I = dQ/dt ≈ 2πf·Q_amp | Charge (current flow) | Grounded | — | textbook |
+| Pulse frequency vs W/Bi resistivity | Skin depth δ = √(ρ/(πfμ₀)): W 3.8 mm→0.12 mm, Bi 18 mm→0.57 mm (1 kHz→1 MHz) | Charge/field confined near the surface (W shields; Bi transparent; quartz unshielded) | Grounded (calculated) | Coil-impedance sweep + inversion (§7a-inv) | [§7a-math](tungsten_bismuth_core.md) |
+| Piezo phase (quartz/BNT/BiFeO₃, not elemental Bi) | Only non-centrosymmetric crystals have d ≠ 0 | Charge ↔ strain | Grounded | — | [§0, §7d](tungsten_bismuth_core.md) |
+| Lattice → plasma coupling path | Only via surface, sheath, wall or boundary conditions | Phonons → plasma (unknown) | Plausible-untested / Speculative | — | [§7d](tungsten_bismuth_core.md) |
+| "Synchronizes the entire system" | No drive law or geometry | — | Speculative | — | [§0](tungsten_bismuth_core.md) |
+
+**Unknown parameters (lattice):** quartz/lattice thickness t (and cut), heartbeat frequency f, drive amplitude (V or stress), Q of the mounted lattice, shunt L/C values, and the W/Bi layer thicknesses relative to δ at f.
+
+## 3. Tungsten–Bismuth core: materials, plasma, diagnostics
 Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (§) refer to that file.
 
-### 1a. Tungsten shell: heat and induced current
+### 3a. Tungsten shell: heat and induced current
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | W thermal conductivity k(T) (~174 W/m·K at room temperature, falling to ~100–120 W/m·K near 1000 °C) | Fourier: q = −k∇T | Heat (conduction through the shell) | Grounded | Not measured here. Bench 3: heat a W rod, log T, fit k(T) | §1, §9 |
@@ -20,7 +61,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | W resistivity ρ ≈ 5.6×10⁻⁸ Ω·m × drive frequency f | Skin depth δ = √(ρ/(πfμ₀)) = √(2/(ωμσ)): ~3.8 mm at 1 kHz, ~0.12 mm at 1 MHz | Charge (induced eddy current confined to depth δ), field | Grounded (calculated) | Calculated only. Coil-impedance sweep (§7a-inv) | §7a-math |
 | He/neutron exposure of the plasma-facing surface | Materials damage (fuzz, embrittlement, transmutation): no single force law | Material degradation | Grounded (phenomenon) | — | §1 |
 
-### 1b. Bismuth layer: diamagnetism and carriers
+### 3b. Bismuth layer: diamagnetism and carriers
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Bi volume susceptibility χ ≈ −1.6×10⁻⁴, volume V | Diamagnetic force F = (χV/μ₀) B ∇B (textbook; equivalent to −∇(−χVB²/2μ₀)) | Force on the Bi piece (repulsion from high field); magnetization | Grounded | Bench 2: levitate Bi over NdFeB, measure gap vs field | §2, §9 |
@@ -31,7 +72,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Bi nanoparticle size | LSPR resonance condition | Field (optical absorption) | Grounded | Bench 4 (optional): absorption vs size | §2, §9 |
 | W–Bi composite fill fraction / layering | Effective-medium mixing for k and permittivity | Heat, field | Plausible-untested | — | §6 |
 
-### 1c. Quartz / piezo partner
+### 3c. Quartz / piezo partner
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Piezo phase choice (α-quartz, BNT, BiFeO₃; *not* elemental Bi) | Symmetry rule: a centrosymmetric crystal has d = 0. Quartz is point group 32, so d ≠ 0 | Charge ↔ strain | Grounded | — | §0, §7d |
@@ -40,7 +81,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Heartbeat frequency and geometry | Mode frequencies of the lattice: no drive law given | Phonons | Speculative (missing) | — | §0, §10 |
 | Coherent-phonon excitation | Electron–phonon coupling (pump–probe) | Phonons ↔ charge | Grounded (phenomenon); plasma coupling Plausible-untested / Speculative (only through surface, sheath, wall) | — | §7d |
 
-### 1d. Z-pinch / plasma
+### 3d. Z-pinch / plasma
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Axial current I_z | J×B pinch; radial balance dp/dr = −(B_θ/μ₀r)·d(rB_θ)/dr | Charge (axial), plasma inward (compression) | Grounded | — | §3 |
@@ -53,7 +94,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Wireless (CNT-sensor) feedback latency | Loop delay limits bandwidth (ms radio latency) | Information/charge | Plausible-untested | — | §7b, §7c |
 | Attosecond pulses | HHG cutoff E = I_p + 3.17U_p | Charge (photoelectrons), field | Grounded as a diagnostic; Speculative as control (timescale mismatch) | — | §5 |
 
-### 1e. Diagnostics: MT / CSAMT on the core
+### 3e. Diagnostics: MT / CSAMT on the core
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Probe frequency sweep (e.g. 1 kHz–1 MHz) | Faraday ∇×E = −∂B/∂t, J = σE, ∇×B = μ₀J; δ sets the probing depth | Charge (induced currents), field | Grounded | — | §7a-math, §7a-csamt |
@@ -63,7 +104,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Telluric / geomagnetic tuning | mV/km natural fields | Charge | Speculative (for tuning) | — | §7a |
 | Toroidal "photon chase", phi standing waves | No force law given | — | Speculative / Symbolic | — | §7, §8 |
 
-## 2. POL lift: eddy currents, EDS, Halbach
+## 4. POL lift: eddy currents, EDS, Halbach
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Coil frequency ω, plate skin depth δ | Plate loss P/F ≥ ωδ (Dodd & Deeds eddy model) | Charge (eddy current) → heat | Grounded | Sim: 10–17 kW for 88 kg (~52 N/kW). Bench: Al plate, N per W vs f | [ANALYSIS](ANALYSIS_2026-10-12.md), [lift §9](lift_and_equilibrium_systems.md) |
@@ -76,7 +117,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Chirp probe on the drive coil | Resonance shift vs gap (system identification) | Charge, field | Plausible-untested | Bench: series-resonant coil + Al plate, ±0.5 mm prediction | [lift §8](lift_and_equilibrium_systems.md) |
 | Conductive floor conductivity | Needs ~10⁷ S/m for eddy floors | Charge | Speculative for mycelium | — | [mycelium_uses](mycelium_uses.md) |
 
-## 3. Buoyancy, Lorentz, ionic wind
+## 5. Buoyancy, Lorentz, ionic wind
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Envelope gas volume V, gas density | Archimedes F = (ρ_air − ρ_gas)gV (≈10.4 N/m³ for He) | Fluid (displaced air) | Grounded | Bench 1 (balloon trim) | [lift §1](lift_and_equilibrium_systems.md) |
@@ -84,7 +125,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Corona voltage / electrode geometry | Electroaerodynamic thrust: 6.25 N/kW (aircraft) to ~50 N/kW (lab) | Charge (ions) → fluid (air) | Grounded; integration Plausible-untested | Bench 1: trim N vs W | [lift §4](lift_and_equilibrium_systems.md) |
 | Coulomb egg charge (5 cm, 10 kV → ~5.6×10⁻⁸ C) | Coulomb; gyroscopic torque | Charge; torque, not lift | Grounded / Speculative for lift | Bench 5 (resonance transfer) | [lift §7](lift_and_equilibrium_systems.md) |
 
-## 4. Multi-Egg / Elliptical Eye, ponderomotive, Maxwell stress
+## 6. Multi-Egg / Elliptical Eye, ponderomotive, Maxwell stress
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Field gradient ∇⟨E²⟩, frequency ω | Ponderomotive F_p = −(e²/4mω²)∇⟨E²⟩ | Charge (electrons expelled from strong-field regions) | Grounded; free-air Newton lift Speculative | Prediction: depletion ∝ 1/ω² | [em_topo Dive A](em_topological_gravity_review.md) |
@@ -94,7 +135,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Magnet/ferrofluid near copper (Butterfly-Node) | Lenz: velocity-proportional damping | Charge → heat | Grounded | Planned: copper control "to measure" | [butterfly_node](butterfly_node.md) |
 | Multi-Egg rotors as gravity source | None ("gyro = torque not F_z") | — | Speculative | — | [em_topo](em_topological_gravity_review.md) |
 
-## 5. Acoustic streaming and centrifugal buoyancy
+## 7. Acoustic streaming and centrifugal buoyancy
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Drive ω, fluid viscosity ν | Boundary layer δ = √(2ν/ω) | Fluid (boundary-layer oscillation) | Grounded | — | [acoustic §1](acoustic_streaming_and_centrifugal.md) |
@@ -106,7 +147,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Radial E in magnetized plasma | E×B drift; polarization drift | Charge (cross-B transport) | Grounded | — | [acoustic §3](acoustic_streaming_and_centrifugal.md) |
 | Muon "buoyant lanes", spin-sum | None (GeV muons ignore buoyancy) | — | Speculative | — | [acoustic §3](acoustic_streaming_and_centrifugal.md) |
 
-## 6. Fluid loops: Tesla valves, fluidic RLC, ferrofluid, dual-oil
+## 8. Fluid loops: Tesla valves, fluidic RLC, ferrofluid, dual-oil
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Tesla-valve geometry, Reynolds number, pulsation | Diodicity (reverse/forward ΔP), onset near Re ≈ 200 | Fluid (rectified net flow) | Grounded | Bench 2: net flow vs f | [lift §3, §8](lift_and_equilibrium_systems.md) |
@@ -119,7 +160,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Castor E-field, particle polarizability | Electrorheological chaining (Winslow) | Particles; fluid stress | Grounded | Dual-oil runs 1–4 | [lift §6b](lift_and_equilibrium_systems.md) |
 | Conductivity/permittivity/viscosity ratios at the interface | Taylor–Melcher leaky dielectric | Fluid (interface circulation) | Grounded; terpene knob Plausible-untested | Run 2 vs Taylor prediction | [lift §6b](lift_and_equilibrium_systems.md) |
 
-## 7. Mycelium skins and materials
+## 9. Mycelium skins and materials
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Mycelium composite k (0.04–0.08 W/m·K; Bath 0.0415) | Fourier q = −k∇T | Heat | Grounded (measured in literature) | Literature values | [mycelium_uses](mycelium_uses.md) |
@@ -128,7 +169,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Ultrasound alignment during growth | Claimed to raise the chitin/cellulose d-coefficient | Phonons → charge | Plausible-untested | — | [core §7c](tungsten_bismuth_core.md) |
 | Coil-former dielectric loss at 13.56 MHz / kHz | Dielectric heating | Heat | Plausible-untested | Check loss and moisture | [mycelium_uses](mycelium_uses.md) |
 
-## 8. Wireless power, Casimir, plasma bench, reefs, Schumann
+## 10. Wireless power, Casimir, plasma bench, reefs, Schumann
 | Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
 |---|---|---|---|---|---|
 | Coil Q, coupling, alignment | Coupled-mode resonant transfer (up to ~98.5 % at 11–20 kW) | Charge/field (near field) | Grounded | Bench: two-coil efficiency vs distance | [em_topo L6](em_topological_gravity_review.md), [ANALYSIS](ANALYSIS_2026-10-12.md) |
@@ -154,6 +195,7 @@ These are design parameters that have no force mapping yet.
 - Casimir 9×7 matrix (Missing).
 
 ## Top gaps
+0. **Egg precession and lattice pulse (Channing's priority).** Egg: L, aspect ratio, Ω, ν. Lattice: t, f, drive amplitude. These set Re/E/Po and f/Q/δ.
 These are the parameters that change the force most, but whose values are unknown.
 1. **Heartbeat drive frequency f.** It sets δ (∝ f^-½), the piezo shunt tuning and the eddy loss P/F ≥ ωδ. Every core force depends on it, and no value exists.
 2. **Core geometry (W, Bi and quartz thicknesses, radius).** These set ∇T and so q, the B∇B the Bi sees, and the layering seen by inversion.
