@@ -150,6 +150,27 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
   - **Mitigation:** lined or BN/PP-coated copper (see [helium_water_circulation.md §10c](helium_water_circulation.md)), or a polymer feed line with copper used only externally as the heat path or conductor.
   - **Plausible-untested.**
 
+## Living vs non-living zones; petrified tubes as designed branches
+> Channing (verbatim): "We zoned living vs non living zones, looked into petrification for tubes as well like a designed branch but again build up and deposits could become an issue"
+
+1. **Living vs non-living zoning (recalled design fact).**
+   - Keeping **fungitoxic or biocidal materials** (copper, silver dosing, terpenes, B₄C/BN-treated hot sinks) in **non-living zones** and the fed mycelium in **living zones** resolves the earlier conflicts (copper ions, terpenes and biocides vs living mycelium).
+   - It matches the selective approach elsewhere: cured, inert composite where structure or heat matters, living layers only where repair or bioremediation is wanted. See the [mycelium envelope zone](pol_v0_1_zones.md#4-mycelium-hemp-structural-envelope) and the baked-shell + living-layer logic of NASA mycotecture (above), plus [mycelium_uses.md](mycelium_uses.md).
+   - Zone interfaces need barriers (liners, check valves, a separate return). **Plausible-untested.**
+2. **Petrified / mineralized tubes as designed branches.**
+   - **Grounded analogs:**
+     - **Microbially induced calcite precipitation (MICP)**, e.g. *Sporosarcina pasteurii* urease, which precipitates CaCO₃. See the MICP thread in [coral_wave_barriers.md](coral_wave_barriers.md) and [open_grow_kit.md](open_grow_kit.md).
+     - **Fungal biomineralization** (fungi precipitate calcium carbonates and oxalates).
+     - **Silica petrification** (mineral replacement of organic structure).
+     - Grown channel networks (mycelium or scaffold templates mineralized into tubes).
+   - **Caveat (Channing's):** continued **scaling and deposits narrow the bore** over time, as in pipe scaling and calcified catheters.
+   - **Mitigation ideas (Plausible-untested):**
+     - **stop mineralization once formed** (a cure/kill step, or remove the feed for the mineralizing organism);
+     - a **periodic mild-acid / acetate flush** (acetic acid and acidic acetate solutions weakly dissolve calcite; ties to the acetate feed);
+     - a **smooth or hydrophobic inner liner** (BN/PP, §10c of [helium_water_circulation.md](helium_water_circulation.md));
+     - keep the **flow velocity above the scaling/settling threshold**, so wall shear limits deposit growth.
+   - Also note MICP releases **ammonium** by-product, which needs managing in a closed loop.
+
 ## Cabin vibration for bone density ("cat purr influenced")
 > Channing (verbatim): "It's missing some detail. We also use frequency(cat purr influenced) for bone density in cabin." **[Channing to supply missing details]**
 - **Cat purr frequencies:** domestic cat purrs fall roughly in the ~25–150 Hz range.

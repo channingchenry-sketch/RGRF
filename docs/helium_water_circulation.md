@@ -210,6 +210,7 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
   - It feeds microbes, and Na⁺ poisons PEM membranes, so it suits alkaline electrolyzers or this brine loop.
   - **Used as a feed (Channing, verbatim):** "Yeah we used it as a feed". It was a deliberate carbon feed for the mycelium (fungi use acetate, Grounded). Controlled dosing is needed to avoid feeding unwanted bacteria or biofouling (Plausible-untested).
   - **Copper delivery (Channing, verbatim):** "Yeah we used copper as a delivery method I think it also served multipurpose". Copper tubing carried the feed; other roles **[Channing to supply]**. Caveats: Cu ions are fungitoxic, acetate corrodes copper, galvanic couples with steel/Al. Lined or BN/PP-coated copper (§10c). Plausible-untested.
+  - Copper stays in **non-living zones** (living vs non-living zoning), and petrified tubes are considered as designed branches: [living_habitat_life_support.md](living_habitat_life_support.md#living-vs-non-living-zones-petrified-tubes-as-designed-branches).
   - Full notes: [living_habitat_life_support.md](living_habitat_life_support.md#sodium-acetate-recalled-details-channing-to-supply). **Plausible-untested.**
 
 ### (c) Coatings and liners for salt / electrolyte loops
