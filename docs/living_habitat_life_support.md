@@ -292,6 +292,12 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
      - **Open points:**
        - What the feedback controls: **resolved, stress signaling**. Which actuator or loop responds to it is not yet specified.
        - Node spacing: **[Channing to supply]**.
+     - **Placement on the craft (Channing, verbatim):** "On the craft the signal are typically thought to be in perturbation zones since that is the area's we are stressing and Na acetate is dosed in those zones for self healing, also, as a thought those areas become more dense over time and less likely to damage but that is just a thought".
+       - Stress signals are expected mainly in the **Tesla-coil perturbation zones**, which are the stressed areas ([helium_water_circulation.md §9](helium_water_circulation.md)). **CNT nodes are concentrated there.**
+       - **Sodium acetate is dosed in those zones for self-healing.** See the sodium acetate carbon-feed note in the electrolysis section above. Healing relies on living mycelium, so these must be living zones.
+       - **Closed loop: Plausible-untested.** A spike signals stress, which triggers local acetate dosing, which drives regrowth. Dosing must stay controlled so it doesn't feed unwanted bacteria.
+       - **Channing's thought: Speculative.** The zones may **densify over time** and become less prone to damage, similar to stress-induced adaptive growth. No source verified here.
+       - **Tension to check:** the coil's heating and fields act on a living zone, so the conditions must stay within what the mycelium tolerates.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
      - **Grounded analogs:**
        - **chelation/complexation** that keeps Ca²⁺ in solution (citrate, above);
