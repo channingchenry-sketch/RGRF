@@ -298,6 +298,10 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
        - **Closed loop: Plausible-untested.** A spike signals stress, which triggers local acetate dosing, which drives regrowth. Dosing must stay controlled so it doesn't feed unwanted bacteria.
        - **Channing's thought: Speculative.** The zones may **densify over time** and become less prone to damage, similar to stress-induced adaptive growth. No source verified here.
        - **Tension to check:** the coil's heating and fields act on a living zone, so the conditions must stay within what the mycelium tolerates.
+       - **Design intent (Channing, verbatim):** "Yeah exactly, we want to try and keep it living but there's certain zones where it may not be feasible."
+         - Keep the perturbation zones **living where possible**.
+         - Where coil heat or fields make that infeasible, **fall back to cured, non-living zones** (borax-treated, BN-coated; see the zoning and borax-panel notes above). Those zones get **no self-healing**: they rely on **flushes and replacement** instead, and acetate dosing doesn't apply there.
+         - Which zones are infeasible: **[Channing to supply]**.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
      - **Grounded analogs:**
        - **chelation/complexation** that keeps Ca²⁺ in solution (citrate, above);
