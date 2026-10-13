@@ -267,6 +267,10 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Living mycelium skin vs cured (melanized strain?) | Growth/repair (living only); radiation attenuation ~2 % per ~1.7 mm C. sphaerospermum (Averesch 2022) | Biological; radiation (particles) | Grounded (small effect); shielding claims overstated; self-repair Plausible-untested | ISS data (literature) | [living_habitat](living_habitat_life_support.md) |
 | Ice / cyanobacteria / mycelium layered shell (NASA mycotecture) | Photosynthesis O₂/CO₂ exchange; water shielding | Gas (O₂, CO₂), water, radiation | Grounded concept (NASA); craft closed loop Plausible-untested | — | [living_habitat](living_habitat_life_support.md) |
 | Cabin vibration platform (f ~20–90 Hz, ~0.3 g; purr-inspired 25–150 Hz) | Mechanical loading → bone anabolic signal (Rubin 2001); avoid 4–8 Hz whole-body resonance (ISO 2631) | Phonons/mechanical vibration into the body | LMHF Grounded research (mixed in humans); purr-healing Plausible-untested | — | [living_habitat](living_habitat_life_support.md) |
+| Electrolyzer stack (PEM/alkaline, partial load) fed from mycelium loop | Faraday electrolysis; DI bed before stack; rotary H₂/water separation (ISS OGA) | Charge → O₂, H₂; fluid (water) | Grounded (ISS OGA); bio-fed feedwater Plausible-untested | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
+| Co–MnO on carbonized mycelium catalyst | HER/OER overpotentials (105 mV @10, 250 mV @50 mA/cm², 1.61 V cell; Li et al. 2026) | Charge → gas | Grounded (lab, alkaline); craft use Plausible-untested; space durability Speculative | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
+| Silver-ion biocide dosing (~200–400 ppb) | Electrolytic Ag⁺ release | Chemistry (microbial control) | Grounded (Russian segment; NASA development) | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
+| Sabatier (H₂ + CO₂) | CO₂ + 4H₂ → CH₄ + 2H₂O | Gas → water recovery | Grounded (ISS since 2010) | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

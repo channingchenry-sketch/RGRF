@@ -66,6 +66,60 @@ Context: this follows the electrolysis filtering, O₂ life support and H₂ asc
 ### 5. Proven vs visionary
 - The paste's own separation is sound. Two items listed as "Grounded" need corrections: self-healing (living only) and the ISS biology claim. The "Filament Rider" and "Pyramid Node Craft" scaling ideas are **Speculative**.
 
+## Electrolysis as complementary node (recovered paste)
+*This is the missing detail for the electrolysis link ([helium_water_circulation.md §10f](helium_water_circulation.md)). Archived verbatim; LaTeX fragments such as `\mathrm{CO_2}` kept as pasted.*
+
+```
+We treat electrolysis as a complementary, high-reliability node rather than the sole life-support engine. The preferred long-term path remains biological (mycelium consortia + photosynthetic partners for gas exchange and waste processing), with electrolysis providing:
+•  Peak oxygen demand coverage
+•  Backup / contingency oxygen
+•  Hydrogen feedstock when a Sabatier or advanced \mathrm{CO_2} reduction step is used
+•  Localized water purification or disinfection
+Proposed component set (aligned with phi, mycelium, and closed-loop principles):
+1.  Water Feed & Conditioning Module
+	•  Receives water from the mycelium bioremediation / humidity-condensate loop (not from a pure physico-chemical processor).
+	•  Simple deionization or ion-exchange stage to protect the cell stack.
+	•  Optional silver-electrolysis or low-level biocidal dosing (already studied for spacecraft potable water) if residual microbial load from the living system needs final control.
+2.  Electrolyzer Cell Stack
+	•  PEM or alkaline stack sized for partial rather than full metabolic load (so the biological loop carries the baseline).
+	•  Power supplied by the same Tesla-resonant / ambient-scavenging network used for the rest of the craft — no dedicated high-voltage bus if it can be avoided.
+	•  Emerging materials note: recent work shows Co–MnO nanocubes supported on mycelium-derived carbon can act as bifunctional water-splitting catalysts. This is a direct materials bridge we can explore (lab-scale only until validated).
+	•  Proven: PEM/alkaline electrolysis efficiency and reliability data.
+	•  Speculative / labeled: mycelium-carbon catalyst performance under radiation, long-duration, and variable-gravity conditions.
+3.  Gas Separation & Management
+	•  Rotary or membrane separator for \mathrm{O_2}/\mathrm{H_2O} and \mathrm{H_2}/\mathrm{H_2O}.
+	•  Hydrogen can be routed to a compact Sabatier (or next-generation microfluidic \mathrm{CO_2} electrolyzer) or stored for later use / vented.
+	•  Oxygen delivery into the cabin via the same phi-spiral channel network used for mycelium airflow, minimizing extra ducting.
+4.  Integration & Control Layer
+	•  Sensors shared with the biological loop (dissolved oxygen, \mathrm{CO_2}, humidity, conductivity).
+	•  Control logic prefers the mycelium/photosynthetic side when conditions allow and brings the electrolyzer online for peaks or contingencies.
+	•  All hardware remains modular and open-source (CC0) so individual builders can test cell-stack coupons or catalyst variants at lab scale.
+```
+
+### Checks
+- **Co–MnO nanocubes on mycelium-derived carbon: found and verified.**
+  - Source: X. Li, Z. Yang, S. Li, M. Gao & Y. Liu, "Interfacial engineering of Co–MnO nanocubes on mycelium carbon enabling synergistic bifunctional water splitting," *Int. J. Hydrogen Energy* (2026), doi:10.1016/j.ijhydene.2026.153716.
+  - The carbon is **carbonized *Ganoderma lucidum* (reishi) mycelium**, N-doped, made by pyrolysis. It is **not living mycelium** and not Trametes.
+  - Reported in **alkaline** electrolyte: HER overpotential 105 mV at 10 mA/cm², OER 250 mV at 50 mA/cm², and a full cell at 1.61 V at 50 mA/cm², with good durability.
+  - Lab-scale only: **Grounded** as a published lab result; craft use **Plausible-untested**; radiation, long-duration and variable-gravity performance **Speculative** (as the paste says).
+- **ISS Oxygen Generation Assembly: Grounded** (verified, NASA ICES papers on NTRS).
+  - It uses a **PEM-type, cathode-feed electrolysis cell stack**.
+  - Feedwater first passes an **Inlet Deionizing Bed**, which removes iodine and coalesces gas bubbles. This is **deionization before the stack**: Grounded.
+  - A **Rotary Separator Accumulator (RSA)** separates product H₂ from the recirculating water: **rotary separation: Grounded**.
+  - H₂ goes to the Sabatier or is vented.
+  - Sources:
+    - "International Space Station United States Orbital Segment Oxygen Generation System On-orbit Operational Experience" (NTRS 20080036243).
+    - ICES-2023-311 (NTRS 20230008013).
+- **Silver ion biocide: Grounded.**
+  - The **Russian segment** (and Mir before it) uses **silver** as the potable-water biocide, while the **US segment uses iodine**.
+  - NASA is developing **silver electrolysis** to replace iodine dosing in future spacecraft potable water, targeting ~200–400 ppb Ag.
+  - Sources: "Preliminary Testing of Electrolytic Silver Ion Generation…" ICES-2020 (NTRS 20205003735); "Spacecraft Potable Water: 2024 Update," ICES-2024-045 (NTRS 20240004872).
+- **Sabatier: Grounded.** CO₂ + 4H₂ → CH₄ + 2H₂O. The ISS Sabatier CO₂ Reduction Assembly was installed in 2010; it recovers water from OGA hydrogen and cabin CO₂. Microfluidic CO₂ electrolyzers are a research area: **Plausible-untested**.
+- **Feed from the mycelium loop:** the inlet water quality from a living bioremediation loop is unknown. Organics and microbes foul PEM membranes, so conditioning (DI bed + biocide) is essential: **Plausible-untested** as specified.
+- **Tesla-resonant power for the stack: Plausible-untested.** Near-field only (coil-scale distances), and electrolyzers need low-voltage, high-current DC, so a rectifier/converter is required regardless.
+- **Phi-spiral O₂ ducting: Speculative** (no φ-specific benefit shown).
+- **Hazard ties (§10f):** H₂ flammability (~4–75 % in air), H₂ + O₂ separation, H₂ permeation, and **embrittlement of ferritic steel** back-iron. See [helium_water_circulation.md §10f](helium_water_circulation.md).
+
 ## Cabin vibration for bone density ("cat purr influenced")
 > Channing (verbatim): "It's missing some detail. We also use frequency(cat purr influenced) for bone density in cabin." **[Channing to supply missing details]**
 - **Cat purr frequencies:** domestic cat purrs fall roughly in the ~25–150 Hz range.
@@ -79,7 +133,7 @@ Context: this follows the electrolysis filtering, O₂ life support and H₂ asc
 - **Unknowns:** frequency and amplitude chosen, daily dose, platform design, and crew-health monitoring.
 
 ## Unknowns (whole doc)
-- The missing paste details.
+- Remaining missing paste details (the electrolysis section is now recovered).
 - The H₂O₂ notes.
 - Strain choice (melanized or not).
 - Living vs cured skins.
