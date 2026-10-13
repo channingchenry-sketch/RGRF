@@ -346,6 +346,39 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - The lensing and rotation-curve predictions at a₀ = cH₀ (Brouwer et al. and successors).
 - Any "information-gradient" version must predict a measurable departure from these, or from GR, somewhere.
 
+### Casimir checkpoint (current point)
+*Channing's recovered notes. They are OCR-damaged: exponents and prefactors below were **reconstructed** and checked against the original papers. Links: Emergent / entropic gravity, R9.*
+
+**1. Casimir plates (Grounded).**
+- **Setup:** two parallel perfect conductors a distance d apart allow only the cavity modes k_z = nπ/d between them, while the modes outside remain continuous.
+- **Result:** the difference in zero-point energy gives an attractive pressure **P = −π²ħc / (240 d⁴)**, and the energy per area is E/A = −π²ħc/(720 d³).
+- **Source:** H. B. G. Casimir, "On the attraction between two perfectly conducting plates," *Proc. Kon. Ned. Akad. Wetensch.* 51, 793–795 (1948).
+
+**2. Casimir–Polder forces (Grounded).**
+- These are **potentials** (energies), not forces. For a force, add one power of distance: F = −dU/dr.
+- **Atom–wall** (distance z from a perfect conductor):
+  - Short range (non-retarded): U ∝ −1/z³ (Lennard-Jones type).
+  - Long range (retarded): U = −3ħcα / (8π z⁴).
+- **Atom–atom** (separation r):
+  - Short range: the London–van der Waals interaction, U ∝ −1/r⁶.
+  - Long range (retarded): U = −23ħc α₁α₂ / (4π r⁷).
+- The crossover happens at distances around the atomic transition wavelengths.
+- **Source:** H. B. G. Casimir & D. Polder, "The influence of retardation on the London–van der Waals forces," *Phys. Rev.* 73, 360–372 (1948), doi 10.1103/PhysRev.73.360.
+- Channing's note gave "1/r⁶ → 1/r⁷" for atom–surface. Those are actually the atom–atom forms; the atom–wall forms are 1/z³ → 1/z⁴.
+
+**3. Zeta regularization (Grounded as a technique).**
+- ζ(−1) = −1/12 gives a finite value to the divergent sum Σn. In the 1-D (scalar-string) Casimir toy model, it yields E = −πħc/(24 d).
+- For the 3-D plates, the relevant value is ζ(−3) = 1/120, which produces the 240 in the pressure formula.
+- This is a regularization (equivalent to physical cutoff plus subtraction), **not** a claim that 1 + 2 + 3 + … equals −1/12 in the ordinary sense.
+
+**4. Open note: a 9×7 matrix. [Contents unknown, Channing to supply.]** Its rows, columns and entries are not recoverable.
+
+**5. Dependencies (lost threads).**
+- This checkpoint rests on three threads: a **color-function map**, a **phononic lattice**, and **regenerative encoding**.
+- None of them is in the repo. (`regenerative_housing.md` is unrelated.) They are recorded here as **lost threads, Channing to supply**.
+
+**Return-later note:** multiple shifting matrices and **breathing geometry** (compare Jitterbug and the Planetary pulse-confinement cycle). **Speculative** until the matrix and the lost threads are recovered.
+
 ### L5. Field lines & longitudinal energy channels (recurring thread)
 - **Observed (Grounded, citations verified).**
   - **Field-aligned (Birkeland) currents** connect the magnetosphere and ionosphere along Earth's magnetic field lines and carry energy into the auroral zones. Satellite magnetometers mapped their large-scale pattern ("region 1/region 2"). Iijima & Potemra, "Field-aligned currents in the dayside cusp observed by Triad", *J. Geophys. Res.* 81(34), 5971–5979 (1976).
