@@ -30,6 +30,19 @@ Sources: [shifting_phase_order_review.md §A3, §B3](shifting_phase_order_review
 
 **Unknown parameters (egg):** egg dimensions (L, aspect ratio), spin rate Ω and precession rate Ω_p, fluid (ρ, μ or ν), applied torque τ and rotor I. Without these, Re, E, Ta and Po cannot be computed, so the laminar regime is undetermined.
 
+### 1b. Recovered egg design details (Channing, 2026-10-12)
+> "We used a combination of fluids... the ferrofluid, cbd, water, and air was our more regenerative 1/3 fluid to air ratio, also, utilized phase shifts in the eggs design. The design parameters were built off of what it would take to be buoyant and gaps that allowed sympathetic responses."
+
+| Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
+|---|---|---|---|---|---|
+| 1/3 fluid : 2/3 air fill (by volume, as stated) | Buoyancy F_b = ρ_fluid V_disp g on the egg in its surrounding medium; effective egg density ρ_eff = (m_shell + ⅓V ρ_liquid + ⅔V ρ_air)/V (textbook). The egg floats if ρ_eff < ρ_surrounding | Fluid (displaced medium); liquid slosh/settling inside | Grounded (law); fill-ratio choice Plausible-untested | Not measured. Weigh the egg and its displaced volume, compute ρ_eff | Channing 2026-10-12; [lift §1](lift_and_equilibrium_systems.md) |
+| Fluid mix: ferrofluid + CBD oil + water + air | Immiscibility: water and oils separate into layers (interfacial tension). Ferrofluid is either water- or oil-based, and its carrier must match the phase it is meant to join. Kelvin force μ₀M·∇H acts only on the ferrofluid phase | Fluid (stratified layers; ferrofluid steered by field) | Grounded (immiscibility); CBD has no EM role ([lift §6](lift_and_equilibrium_systems.md)) | Vial test: count phases, check that ferrofluid follows its carrier | [lift §6, §6b](lift_and_equilibrium_systems.md) |
+| Liquid-layer distribution under spin | dp/dr = ρω²r (dense phase goes outward; air goes inward) | Fluid | Grounded | — | [acoustic §2](acoustic_streaming_and_centrifugal.md) |
+| Phase shift Δφ between eggs | Coupled oscillators: x₁, x₂ with coupling κ give normal modes split by ~κ. Energy exchange and interference depend on Δφ (in phase adds, antiphase cancels) | Field/mechanical energy exchanged between eggs (not created) | Grounded (law); egg implementation Plausible-untested | Bench 5 (two tuned rotors/coils, transfer vs detuning and Δφ) | [lift §7, bench 5](lift_and_equilibrium_systems.md) |
+| Gap between eggs (for "sympathetic responses") | Coupling coefficient falls with gap. For magnetic/inductive coupling k = M/√(L₁L₂); the transfer rate scales with k, and critical coupling needs k·Q ≳ 1 (textbook coupled-mode) | Field (near-field coupling), energy | Grounded (law); k(gap) for eggs unknown | Measure k vs gap (two coils/eggs, splitting of resonance) | [em_topo L6](em_topological_gravity_review.md), [lift §7](lift_and_equilibrium_systems.md) |
+
+**Unknowns (recovered egg):** egg volume and shell mass; the volume fractions of ferrofluid, CBD oil and water within the 1/3; the ferrofluid carrier (water or oil); the medium the egg floats in; the Δφ values used; egg resonant frequency and Q; gap distances and the resulting k.
+
 ## 2. Pulse / heartbeat in the W–Bi–quartz lattice
 Source: [tungsten_bismuth_core.md §0, §4, §7a-math, §7d, §9](tungsten_bismuth_core.md). Piezo constitutive and thickness-mode formulas are standard textbook ones.
 
@@ -48,6 +61,20 @@ Chain: **drive amplitude → stress (quartz) → charge → current in the shunt
 | "Synchronizes the entire system" | No drive law or geometry | — | Speculative | — | [§0](tungsten_bismuth_core.md) |
 
 **Unknown parameters (lattice):** quartz/lattice thickness t (and cut), heartbeat frequency f, drive amplitude (V or stress), Q of the mounted lattice, shunt L/C values, and the W/Bi layer thicknesses relative to δ at f.
+
+### 2b. Recovered TBQ layout (Channing, 2026-10-12)
+> "The TBQ core was partially embedded in a resonant cavity (bottom) and an ionized wind cavity top."
+
+| Design parameter | Governing force / equation | Resulting flow | Status | Measured? / bench test | Source |
+|---|---|---|---|---|---|
+| Bottom resonant cavity: neck area A, volume V, effective neck length L_eff | Helmholtz f = (c/2π)√(A/(V L_eff)) | Fluid (air/gas oscillating in the neck), phonons into the core | Grounded (law); cavity–core coupling Plausible-untested | Not measured. Sweep a speaker, find the cavity peak | textbook; [core §7c (Helmholtz)](tungsten_bismuth_core.md) |
+| Embedding depth of the core in the cavity | Sets the overlap of the cavity's pressure field with the piezo (pressure → stress → charge, via D = d·T) | Phonons → charge | Plausible-untested | Measure the piezo voltage vs cavity drive | [core §4, §7d](tungsten_bismuth_core.md) |
+| Matching cavity f to the lattice thickness-mode f | Resonance matching: f_Helmholtz ≈ (1/2t)√(c/ρ) | Phonons | Plausible-untested (typically very different frequency ranges, kHz vs MHz; values unknown) | — | §2 table above |
+| Top ionic-wind cavity: corona current I, gap d, ion mobility μ_ion | EHD thrust F ≈ I·d/μ_ion (1-D textbook estimate) | Charge (ions) → fluid (air) | Grounded (law); 6.25–50 N/kW observed elsewhere | Bench 1 (lift doc): thrust vs W | [lift §4](lift_and_equilibrium_systems.md) |
+| Top-cavity voltage | Corona onset; HV safety | Charge | Grounded | — | [lift §4, bench 1](lift_and_equilibrium_systems.md) |
+| Ion wind near the W/Bi/quartz surface | Surface charging, ozone; heat removal by forced convection | Charge, heat, fluid | Plausible-untested | — | — |
+
+**Unknowns (recovered TBQ layout):** cavity A, V and L_eff; embedding depth; corona voltage, current and gap; electrode geometry; whether the cavity drives the lattice or the lattice drives the cavity.
 
 ## 3. Tungsten–Bismuth core: materials, plasma, diagnostics
 Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (§) refer to that file.

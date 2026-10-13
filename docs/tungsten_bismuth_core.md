@@ -292,6 +292,13 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
   - Engineering such fields at scale needs immense energy and meets quantum limits (e.g. the Schwinger limit, ~1.3×10¹⁸ V/m, for pair production).
   - For the craft: conductive floors in POL v0.1 already hint at eddy-current interactions; pressure effects could be simulated there (rest of text cut off).
 
+## Recovered layout (Channing, 2026-10-12)
+> "The TBQ core was partially embedded in a resonant cavity (bottom) and an ionized wind cavity top."
+
+- **Bottom resonant cavity:** Helmholtz f = (c/2π)√(A/(V L_eff)). The physics is Grounded; coupling to the quartz lattice is Plausible-untested.
+- **Top ionized-wind cavity:** EHD thrust F ≈ I·d/μ_ion (corona current I, gap d, ion mobility μ_ion). The physics is Grounded; the integration is Plausible-untested.
+- **Unknown:** cavity dimensions, embedding depth, corona voltage/current/gap. Mapped in [DESIGN_FORCE_FLOW_MAP.md §2b](DESIGN_FORCE_FLOW_MAP.md).
+
 ## 9. Bench tests (small, falsifiable)
 1. **Piezo shunt damping:** attach a piezo patch with a tuned LC shunt to a cantilever; measure Q / ring-down with and without the shunt. Falsified if no damping change at the tuned f = 1/(2π√LC).
 2. **Bi diamagnetic levitation:** levitate a thin Bi piece (or pyrolytic graphite control) over an NdFeB array; measure gap vs. field. Confirms diamagnetism scale only.
