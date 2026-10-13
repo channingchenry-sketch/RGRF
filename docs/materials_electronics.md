@@ -24,7 +24,7 @@
 - It is a dual-gate Bi(111) ribbon with h-BN dielectric. No experimental device is cited.
 
 **Bi₂O₂Se (Grounded):**
-- J. Wu et al., "High electron mobility and quantum oscillations in non-encapsulated ultrathin semiconducting Bi₂O₂Se," *Nat. Nanotechnol.* 12, 530 (2017), doi 10.1038/nnano.2017.43.
+- J. Wu et al., "High electron mobility and quantum oscillations in non-encapsulated ultrathin semiconducting Bi₂O₂Se," *Nat. Nanotechnol.* (2017), doi 10.1038/nnano.2017.43.
 - Air-stable, with a bandgap of about 0.8 eV.
 - Hall mobility above 20,000 cm²/V·s at 1.9 K.
 - Room-temperature FETs reach up to 450 cm²/V·s with an on/off ratio above 10⁶.
