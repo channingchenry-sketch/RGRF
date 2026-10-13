@@ -140,8 +140,20 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
 - **Tesla coil:** a resonant air-core transformer (a separate Tesla invention from the valvular conduit, US 1,329,559). It produces high-voltage, high-frequency fields.
   - Using it to perturb the loops (EM or plasma perturbation of the fluid, e.g. corona or ionic wind near the gas phase, or induction in conductive or ferrofluid segments) is **Plausible-untested**.
   - Water and helium are not moved directly by its field unless charged, ionized or magnetic. The ferrofluid segment and ionized gas are the plausible coupling paths.
-- **"Reconnection":** it may mean (a) a **magnetic-reconnection-inspired topology** (field lines breaking and rejoining, as at the magnetopause), or (b) simply **rejoining flow paths** (branches that split and merge, dual-purpose). **[Channing to clarify]**.
-  - Meaning (b) is ordinary fluidic network design (Grounded; see the fluidic RLC/rectification section of [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md)).
-  - Any coupling of **EM reconnection to fluid flow** in the loops is **Speculative**.
-  - Related sections: Hall-MHD induction (field advection, Hall and resistive terms; resistivity is what allows field-line reconnection in MHD) in [tungsten_bismuth_core.md §7b-math](tungsten_bismuth_core.md); Dungey magnetopause reconnection in [em_topological_gravity_review.md](em_topological_gravity_review.md). The core doc has no dedicated reconnection section.
-- **Unknowns:** coil frequency, location relative to the loops, power, which fluid segment it acts on, and how the phase shifts were set (drive timing, inertance/reservoir, or coil phasing).
+- **Layout (Channing, verbatim):** "So we made sinks in the ferrofluid, water, cbd, air loops , across from that a Tesla coil. The valves control flow both into the zone and steady separation back to the flow pathway."
+  - **Sinks** are pockets/basins built into the ferrofluid / water / CBD / air loops.
+  - A **Tesla coil** sits **opposite each sink**.
+  - **Tesla valves** gate the **inflow** into the sink and a **steady, separated return** to the main loop.
+- **"Reconnection" resolved:** it means **flow rejoining the main pathway** after the sink. That is a split-and-merge fluidic network, **Grounded** (see the fluidic RLC / rectification section of [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md)).¹
+- **Physics of the sink zone:**
+  - **Ferrofluid:** the coil's magnetic field exerts the Kelvin body force **f = μ₀(M·∇)H**, so the sink acts as a **magnetic perturbation / separation zone** for the ferrofluid phase. Grounded in principle.
+  - **Frequency mismatch (flag):** ferrofluid magnetization follows a field only up to its relaxation rate (Brownian and Néel). Full response is typically in the kHz range or below, depending on particle size and carrier viscosity. Tesla coils run ~50 kHz–MHz.
+    - At those frequencies the magnetization lags. The main effect is **heating** (the same loss mechanism used in magnetic-nanoparticle hyperthermia at ~100 kHz–1 MHz) rather than a strong net force.
+    - Getting usable force likely needs a **low-frequency envelope/modulation** (pulsing the coil at Hz–kHz) or a separate DC/low-frequency magnet.
+    - Also, much of a Tesla coil's near field is **electric** (high voltage), with a weak magnetic field at a distance.
+    - **Plausible-untested.**
+  - **Air:** bubbles separate by **buoyancy** in the sink and rise out of the liquid (Grounded). Combined with the valves, this gives the "steady separation" back to the pathway.
+  - **Water / CBD oil:** immiscible, so they layer by density in a quiet sink (Grounded). Neither responds directly to the coil unless charged or heated.
+
+¹ *Footnote (demoted reading):* "reconnection" could also suggest magnetic-reconnection-inspired topology (field lines breaking and rejoining; Dungey magnetopause in [em_topological_gravity_review.md](em_topological_gravity_review.md); Hall-MHD resistive term in [tungsten_bismuth_core.md §7b-math](tungsten_bismuth_core.md)). Channing's layout shows the flow meaning; any EM-reconnection-to-flow coupling remains **Speculative** and is not part of the design.
+- **Unknowns:** sink volume and shape, coil–sink distance, coil frequency and modulation envelope, coil power and the resulting heating of the ferrofluid, ferrofluid particle size/relaxation time, and how the phase shifts were set (drive timing, inertance/reservoir, or coil phasing).
