@@ -247,6 +247,7 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Tesla diode in water loop (geometry, Re) | Inertial separation; Di ≈ 2 at Re 300–1500 (Nguyen 2021) | Fluid (rectified oscillating flow; no seal) | Grounded | Diodicity bench: Δp fwd vs rev at fixed Q | [He–water §8](helium_water_circulation.md) |
 | Piezo active valve (stroke, timing vs drive phase) | Piezo force/stroke; phase-locked actuation | Fluid (hard seal on command) | Grounded tech; sync Plausible-untested | — | [He–water §8](helium_water_circulation.md) |
 | Orifice + inertance tube + reservoir (He loop) | Fluidic R–L–C; phase between pressure and mass flow (~60° lag target) | Fluid (He oscillation), heat (pumped) | Grounded (pulse tubes); Plausible-untested in POL | — | [He–water §8](helium_water_circulation.md) |
+| Tesla valves in all loops + Tesla-coil perturbation zones (coil f, power, phase shifts) | Diodicity enhanced by pulsatile flow (Nguyen 2021); coil HF field acts on charged/ionized/ferrofluid segments only | Fluid (rectified circulation), charge/field (perturbation) | Valves: recalled fact, Grounded regime; coil perturbation Plausible-untested; EM-reconnection↔flow Speculative; "reconnection" [Channing to clarify] | — | [He–water §9](helium_water_circulation.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

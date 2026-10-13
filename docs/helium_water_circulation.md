@@ -131,3 +131,17 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
 - At a **fixed flow rate**, measure Δp forward and Δp reverse: Di = Δp_rev/Δp_fwd. Repeat across flow rates to find the turn-on Re.
 - Then drive it with an oscillating syringe or speaker and measure the net flow.
 - **Compare with Nguyen et al.:** Di ≈ 1 below Re ≈ 100, ≈ 2 above ≈ 300.
+
+## 9. Tesla valves in all loops and the Tesla-coil perturbation zones
+> Channing (verbatim): "Yes we definitely used Tesla valves in all our loops and into our Tesla coil perturbation zones where we utilized phase shifts and dual purpose reconnection to flow pathways"
+
+- **Tesla valves in every loop:** a **recalled design fact** (Channing, 2026-10-12). The loops fed into "Tesla coil perturbation zones" that used phase shifts and dual-purpose "reconnection to flow pathways".
+- **Consistent with §8 (Grounded):** Tesla valves rectify best under pulsatile, oscillating flow. Nguyen et al. (2021) found that pulsatile forcing boosts pumping well beyond the steady-flow prediction. Pairing the valves with a **phase-shifted, oscillating drive** is therefore the right regime. They do not seal, so they set direction, not pressure.
+- **Tesla coil:** a resonant air-core transformer (a separate Tesla invention from the valvular conduit, US 1,329,559). It produces high-voltage, high-frequency fields.
+  - Using it to perturb the loops (EM or plasma perturbation of the fluid, e.g. corona or ionic wind near the gas phase, or induction in conductive or ferrofluid segments) is **Plausible-untested**.
+  - Water and helium are not moved directly by its field unless charged, ionized or magnetic. The ferrofluid segment and ionized gas are the plausible coupling paths.
+- **"Reconnection":** it may mean (a) a **magnetic-reconnection-inspired topology** (field lines breaking and rejoining, as at the magnetopause), or (b) simply **rejoining flow paths** (branches that split and merge, dual-purpose). **[Channing to clarify]**.
+  - Meaning (b) is ordinary fluidic network design (Grounded; see the fluidic RLC/rectification section of [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md)).
+  - Any coupling of **EM reconnection to fluid flow** in the loops is **Speculative**.
+  - Related sections: Hall-MHD induction (field advection, Hall and resistive terms; resistivity is what allows field-line reconnection in MHD) in [tungsten_bismuth_core.md §7b-math](tungsten_bismuth_core.md); Dungey magnetopause reconnection in [em_topological_gravity_review.md](em_topological_gravity_review.md). The core doc has no dedicated reconnection section.
+- **Unknowns:** coil frequency, location relative to the loops, power, which fluid segment it acts on, and how the phase shifts were set (drive timing, inertance/reservoir, or coil phasing).
