@@ -74,6 +74,22 @@ Recovered text (screenshots 3, 11, 12):
 > "Tungsten-Bismuth Plasma Cloud & Piezoelectric Balancing: Proven geomagnetic induction and telluric flows could inspire low-frequency stabilization for our resonant cores. Visionary: Phi/fractal geometries and quartz lattices tuned to geomagnetic harmonics or telluric variations for enhanced coherence, with mycelium composites enabling lightweight, Earth-coupled structures."
 - Geomagnetic induction and telluric currents are Grounded (magnetotellurics). Tuning a core to them is Speculative; they are weak (mV/km fields) and low-frequency.
 
+## 7b-math. Hall-MHD math (recovered, OCR-damaged)
+**Channing's pasted text (as received):**
+> [Pasted OCR text not included in this rebuild request — Channing to supply the raw paste so it can be quoted verbatim. Known garbled fragment: "w ac k?" (meaning ω ∝ k²).]
+
+**Corrected standard form — Grounded.** Hall-MHD induction equation:
+
+**∂B/∂t = ∇×(v×B) − ∇×[(J×B)/(n e)] + η∇²B**, with **J = ∇×B / μ₀**
+
+- Term 1: ideal-MHD advection of the field; **term 2: the Hall term** (ions and electrons decouple below the ion inertial scale); term 3: resistive diffusion (η = magnetic diffusivity).
+- **Hall parameter:** ε_H = d_i / L, with ion inertial length **d_i = c / ω_pi** (ω_pi = ion plasma frequency). Hall effects matter when ε_H is not small (L ≲ d_i).
+- **Wave branches:** slow magnetosonic-Hall, **shear Alfvén-Hall** (whistler-like at small scales), fast magnetosonic-Hall.
+- **Parallel propagation:** the Alfvén wave splits into the right-hand **whistler** branch and the left-hand **ion-cyclotron** branch (which resonates at Ω_i). At high k the whistler obeys **ω ≈ k² v_A d_i ∝ k²** (corrects the garbled "w ac k?").
+- **Helicon modes — Grounded:** bounded whistler waves in a cylinder; the basis of helicon plasma sources. The source text breaks off here: **[Channing to supply]**.
+- The screenshot cited an arXiv source; the specific paper was not recovered, so none is cited here.
+- Links: shear Alfvén-Hall waves in the Z-pinch / cyclotron-magnetron text → [§7](#7-toroidal-photon-dynamics--photon-chase-through-toroidal-field-recovered--speculative); toy HMHD results → §7b below; Z-pinch equilibrium → [§3](#3-z-pinch-with-sheared-flow-stabilization--grounded).
+
 ## 7b. Hall-MHD simulation results — unrecovered toy normalized model
 **Status: results of an unrecovered toy model in normalized units. The script is missing. This is not a physical validation.**
 > Proven foundations (as stated): Hall wave dispersion from earlier HMHD equations; piezoelectric + toroidal confinement terms (MHD equilibrium approximations); CNT-enhanced neural feedback + wireless control.
@@ -129,6 +145,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - Heartbeat frequencies and geometry.
 - The HMHD simulation script (equations, units, parameters) behind §7b.
 - Quartz-partner text: end of the "Bell tests proposed for…" sentence (cut off) and the source for "~232 as".
+- Hall-MHD math: Channing's raw pasted text, the cut-off helicon text, and the arXiv source.
 - APS paper behind the spin-Hall RF-wave citation chip.
 - Opening of screenshot 1 and the bridging text between screenshots 3→4 and 5→6.
 - End of the POL v0.1 conductive-floor caveat.
