@@ -146,7 +146,9 @@ Channing notes this is **"not the same"** as the previously saved "possible mate
    - Diamond is the best bulk heat spreader, k ~2000 W/m·K (**Grounded**).
    - Quartz serves as the piezo driver (**Grounded**).
    - Acoustic and thermal reflection between high-impedance layers, so that waves and phonons bounce at impedance mismatches, is **Plausible-untested** as a design element.
-   - What "bouncing" means here (acoustic waves? the gas pressure oscillation? heat?) is **[Channing to clarify]**.
+   - **Clarified (Channing, 2026-10-12, verbatim):** "Material choice the loops typically going around the outside much like on our craft creating a sort of control for the leaky boundary".
+   - Reading: the piezo-helium loop runs **around the outer perimeter** (as on the craft) and alternates between diamond and quartz sections by material choice. It acts as a **controlled leaky boundary**: heat and acoustic energy are passed or reflected at the edge rather than sealed in. Link: leaky boundaries and controlled leakage (R6) in [em_topological_gravity_review.md](em_topological_gravity_review.md#re-walk-angular-momentum--isotropic-tensor--leaky-boundaries).
+   - Labels: a **perimeter thermal/acoustic guard loop** is **Plausible-untested**; "leaky boundary control" as a *field* analogy is **Speculative**.
 5. **Bismuth cavity.** Bi is the most diamagnetic elemental solid (Grounded). **Caveat:** it melts at ~271 °C, so it must stay cold-side. Possibly the same as the TBQ core's Bi layer and bottom resonant cavity ([tungsten_bismuth_core.md](tungsten_bismuth_core.md)), unconfirmed.
 
 **Containment:** helium permeates many materials (polymers, glasses, thin films) and leaks through small defects. Containment is a real design issue for both the loop and any buoyancy cell. Mycelium-hemp is porous and is not a helium barrier.

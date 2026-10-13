@@ -238,7 +238,7 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | CNT–graphene transition zone (pillar spacing, junction quality) | Fourier conduction in 3D network; limited by interface (Kapitza) resistance | Heat, charge | Grounded (materials); Plausible-untested in POL | — | [stacks](pol_v0_1_zones.md#possible-material-stacks-reconstructed-from-channings-memory-2026-10-12-replace-if-original-found) |
 | He pressure ratio p₂/p₁ (piezo-driven cycle) | Adiabatic T₂/T₁ = (p₂/p₁)^((γ−1)/γ), γ = 5/3; active cycle pumps heat with work input | Heat (pumped), fluid (gas oscillation) | Grounded (Stirling/pulse-tube/thermoacoustic); Plausible-untested in POL | — | [stacks](pol_v0_1_zones.md#possible-material-stacks-reconstructed-from-channings-memory-2026-10-12-replace-if-original-found) |
 | Diamond sheet thickness | q = −k∇T, k ~2000 W/m·K | Heat (spreading) | Grounded | — | same |
-| Diamond/quartz impedance mismatch ("bouncing") | Acoustic reflection at impedance steps | Phonons | Plausible-untested; meaning [Channing to clarify] | — | same |
+| Perimeter piezo-He loop alternating diamond/quartz sections ("bouncing") | Acoustic/thermal reflection and transmission at impedance steps; diamond spreads heat, quartz drives | Heat, phonons, fluid (He) around the outer edge: controlled leaky boundary | Guard loop Plausible-untested; field "leaky boundary" analogy Speculative | — | same; [R6](em_topological_gravity_review.md) |
 | Bi cavity | Diamagnetic F = (χV/μ₀)B∇B; melts ~271 °C | Force, field | Grounded; role unconfirmed | — | same |
 | He containment material | Permeation/leak rate | Fluid (He loss) | Grounded (issue) | Leak-rate test | same |
 
