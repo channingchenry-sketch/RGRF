@@ -256,6 +256,10 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Microbubble / air-layer injection (gas flux, bubble size) | Turbulent boundary-layer modification; air-layer lubrication (Ceccio 2010) | Fluid (skin-friction drag ↓; up to ~80 % lab, much less at scale) | Grounded (lab); Plausible-untested on craft | — | [bubbles_arcs_frc](bubbles_arcs_frc.md) |
 | Magnetic arcs / mirrors near bubbles | Mirror force on charged particles only; bubbles steerable only via ferrofluid (magnetic hole) or MHD J×B in electrolyte | Charge (ions); fluid indirectly | Correction; Plausible-untested | — | [bubbles_arcs_frc](bubbles_arcs_frc.md) |
 | FRC plasmoid (s-parameter, shaping, end bias, NBI) | Kinetic stabilization at low s; tilt n=1 / rotational n=2 control (Steinhauer 2011; Binderbauer 2015) | Charge/plasma, field (closed poloidal flux) | Grounded (physics); craft use Plausible-untested (needs vacuum) | — | [bubbles_arcs_frc](bubbles_arcs_frc.md) |
+| B₄C surface treatment (valve seats, sink inlets) | Hardness/wear and cavitation-erosion resistance | Fluid (brine erosion resisted) | Grounded properties; role Plausible-untested | — | [He–water §10e](helium_water_circulation.md) |
+| Carboxyl (–COOH) binding chemistry | Covalent/coordination anchoring (amide/ester to chitosan; carboxylate to Fe-oxide; GO edges) | Stress (interface load transfer) | Grounded chemistry; role Plausible-untested | — | [He–water §10e](helium_water_circulation.md) |
+| Terpenes (sealant/solvent/antimicrobial) | Hydrophobicity, interfacial tension | Fluid (interface), biological | Grounded properties; role Plausible-untested; next step [Channing to supply] | — | [He–water §10e](helium_water_circulation.md) |
+| Mycelium condensation pore leak + frequency (pore r, f) | Capillary condensation (Kelvin equation); acoustic droplet coalescence | Fluid (water vapor → liquid entry) | Grounded analogs; frequency role Plausible-untested; values [Channing to supply] | — | [He–water §10e](helium_water_circulation.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

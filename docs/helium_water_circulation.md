@@ -244,4 +244,32 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
 - **Role (Plausible-untested):** castor oil as the **carrier for an oil-based ferrofluid**, kept as a separate phase from the brine. This resolves the §10(b) issue of salt destabilizing (clumping) a water-based ferrofluid. Castor is also miscible with other vegetable oils (see §6b), so keep CBD/MCT oils away from it if a clean interface is wanted.
 - **Caveat, viscosity vs Tesla valves:** high viscosity, worse near the cold helium loop, slows flow and lowers Re. Example: castor (μ ≈ 0.7 Pa·s, ρ ≈ 960 kg/m³) in a 5 mm channel at 0.1 m/s gives **Re = ρUD/μ ≈ 0.7**, far below the Re ≈ 100–300 where Tesla-valve diodicity turns on (§8). Castor segments would need Tesla-free gating (active piezo valves, §8 option 3) or warm, fast, wide runs.
 
+### (e) Boron carbide, carboxyl binding, terpenes, mycelium condensation pores (recalled from memory; originals missing)
+> Channing (verbatim, two messages):
+> "Still sifting through, we talked about boron carbide and carboxyl groups it has to be somewhere near this."
+> "Hmm, couldn't find it. But yes Carboxyl binding and Boron Carbide surface treatment. We then go into Terpene's but I don't see where we go from there. We did have a condensation sort of pore leak in the mycelium for water entry and a frequency. Looking for the details."
+
+1. **Boron carbide (B₄C) surface treatment.**
+   - **Grounded properties:** among the hardest known materials, low density (~2.5 g/cm³), wear and chemical resistant, and a strong neutron absorber (¹⁰B). See the boron carbide notes in [materials_electronics.md](materials_electronics.md).
+   - **Role (Plausible-untested):** wear liner or **valve seat** where brine flows fast or cavitation erodes, e.g. Tesla-valve throats and coil-sink inlets. B₄C coatings are brittle, so check adhesion and thermal-shock cracking.
+2. **Carboxyl (–COOH) binding.**
+   - **Grounded chemistry:**
+     - Carboxyl groups anchor coatings to oxide and metal surfaces.
+     - They functionalize graphene and CNTs (graphene oxide carries –COOH at its edges), which ties to the CNT–graphene layer in the [material stacks](pol_v0_1_zones.md#possible-material-stacks-reconstructed-from-channings-memory-2026-10-12-replace-if-original-found).
+     - They bind iron-oxide ferrofluid particles: oleic acid, the usual surfactant, is a carboxylic acid.
+     - They link to chitin/chitosan (–NH₂, –OH) in mycelium through **amide or ester** bonds. See the POL [amide-bond interface zone](pol_v0_1_zones.md#5-amide-bond-interface).
+   - **Role (Plausible-untested):** a common "glue chemistry" joining B₄C or BN coatings, carbon layers, ferrofluid and mycelium.
+3. **Terpenes.**
+   - **Grounded properties:** hydrophobic, volatile plant compounds (limonene, pinene and others), natural companions of CBD oil. Some are good solvents. Several are antimicrobial or antifungal, which matters for living mycelium (they could inhibit it).
+   - **Role (Plausible-untested):** hydrophobic sealant or solvent, interface-tension modifier (as in the Dual-Oil Module, [lift §6b](lift_and_equilibrium_systems.md)), or microbial control.
+   - Where the thread went next: **[Channing to supply]**.
+4. **Condensation pore leak in the mycelium for water entry, plus a frequency.**
+   - **Grounded analogs:**
+     - **Fog harvesting** and hygroscopic surfaces (water collected from humid air on fibers or meshes).
+     - **Capillary condensation** in pores. The Kelvin equation, ln(p/p_sat) = −2γV_m cos θ / (r R T), says vapor condenses in small hydrophilic pores below saturation pressure.
+   - A porous mycelium skin could act as a controlled "leaky" water-entry boundary (ties to the R6 controlled-leakage idea).
+   - **Frequency:** an acoustic or vibrational drive could help droplets coalesce or move through pores. This is **Plausible-untested**.
+   - **Frequency value, pore size and placement: [Channing to supply].**
+   - Link: [mycelium envelope zone](pol_v0_1_zones.md#4-mycelium-hemp-structural-envelope).
+
 **Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
