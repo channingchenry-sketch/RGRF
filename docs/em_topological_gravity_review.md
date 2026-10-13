@@ -279,6 +279,18 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - **Planetary version:** Earth runs this cycle continuously. Any surface architecture, pyramidal or otherwise, that is **resonantly coupled** to the electric-pulse / magnetic-confinement pair would take part in the same rhythm. It could **damp extremes** when the internal field was weaker or more multipolar.
 - **Next-step options:** map planetary E-field geometry and plasma-layer responses in detail, or move to an engineered pulsed, magnetically confined layered node **[truncated, Channing to supply]**.
 
+**Grounded core (Channing's recovered text; the planetary exemplar of R6 controlled leakage). Label: Grounded.**
+- **Confinement:** the Chapman–Ferraro current at the magnetopause confines the geomagnetic field. The solar wind supplies continuous dynamic pressure.
+- **Loading:** a southward IMF drives reconnection, which opens field lines and imposes an electric field across the polar caps. Energy is stored in the magnetotail; this is the compressive phase.
+- **Unloading:** at a critical point the energy is released in a substorm. That brings rapid reconfiguration, earthward plasma flows, intensified field-aligned currents, and a transient electric pulse coupling into the ionosphere.
+- **Breathing:** the magnetosphere expands and contracts. The plasma layers (plasma sheet, boundary layers, ionospheric strata) are compressed, rarefied and redistributed. Then the cycle resets.
+- **Leaky throughout:** the field stays leaky the whole time. The electric pulse does not seal the system; it modulates the leakage rate and redistributes **[truncated, Channing to supply]**.
+- **Sources:**
+  - Chapman & Ferraro, *Terr. Magn. Atmos. Electr.* 36, 77 (1931).
+  - Dungey, *Phys. Rev. Lett.* 6, 47 (1961) (cited above).
+  - Akasofu, "The development of the auroral substorm," *Planet. Space Sci.* 12, 273 (1964).
+  - McPherron, "Magnetospheric substorms," *Rev. Geophys.* 17, 657 (1979), the loading–unloading picture.
+
 **Grounded (verified):**
 - **Pulsed electric drive → global electric circuit.**
   - Thunderstorms keep the ionosphere at ~+250 kV, with a diurnal "Carnegie curve" rhythm. See R8, and Rycroft et al. (2012) / Markson (1976).
