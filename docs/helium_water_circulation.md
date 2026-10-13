@@ -204,6 +204,12 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
   - **Salt can destabilize ferrofluid colloids** (it screens electrostatic stabilization). Water-based ferrofluid and brine may not coexist; keep them in separate phases or use oil-based ferrofluid.
 - **Net: Plausible-untested.**
 
+- **Sodium acetate (Channing, verbatim):** "Right, we ran into that before and started looking into ionic bonding I believe Na acetate". Details: **[Channing to supply]**; "ionic bonding" role: **[Channing to clarify]**.
+  - A low-corrosion, biodegradable buffer-electrolyte with no chloride pitting.
+  - Its trihydrate is a ~58 °C phase-change store (~250–265 kJ/kg, supercools), a warm-side partner to the §9 ice buffer.
+  - It feeds microbes, and Na⁺ poisons PEM membranes, so it suits alkaline electrolyzers or this brine loop.
+  - Full notes: [living_habitat_life_support.md](living_habitat_life_support.md#sodium-acetate-recalled-details-channing-to-supply). **Plausible-untested.**
+
 ### (c) Coatings and liners for salt / electrolyte loops
 > Channing (verbatim, three messages):
 > "Yeah, we entertained salts as well but build up and corrosion were possibly issues. We were looking and beryl coatings I think let me see if I have any of that saved"

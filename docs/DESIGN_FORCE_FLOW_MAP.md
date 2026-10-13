@@ -271,6 +271,7 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Co–MnO on carbonized mycelium catalyst | HER/OER overpotentials (105 mV @10, 250 mV @50 mA/cm², 1.61 V cell; Li et al. 2026) | Charge → gas | Grounded (lab, alkaline); craft use Plausible-untested; space durability Speculative | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
 | Silver-ion biocide dosing (~200–400 ppb) | Electrolytic Ag⁺ release | Chemistry (microbial control) | Grounded (Russian segment; NASA development) | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
 | Sabatier (H₂ + CO₂) | CO₂ + 4H₂ → CH₄ + 2H₂O | Gas → water recovery | Grounded (ISS since 2010) | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
+| Sodium acetate (electrolyte / buffer / trihydrate PCM) | Buffer pKa 4.76; PCM melt ~58 °C, ~250–265 kJ/kg, supercooling; Na⁺ exchange poisons PEM | Heat (warm-side store), charge (ionic conduction), biological (carbon source) | Grounded properties; role Plausible-untested; "ionic bonding" [Channing to clarify] | — | [living_habitat §Na acetate](living_habitat_life_support.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

@@ -120,6 +120,21 @@ Proposed component set (aligned with phi, mycelium, and closed-loop principles):
 - **Phi-spiral O₂ ducting: Speculative** (no φ-specific benefit shown).
 - **Hazard ties (§10f):** H₂ flammability (~4–75 % in air), H₂ + O₂ separation, H₂ permeation, and **embrittlement of ferritic steel** back-iron. See [helium_water_circulation.md §10f](helium_water_circulation.md).
 
+### Sodium acetate (recalled; details [Channing to supply])
+> Channing (verbatim): "Right, we ran into that before and started looking into ionic bonding I believe Na acetate"
+
+Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" role is [Channing to clarify]**.
+- **Grounded properties:**
+  - **Buffer:** acetate/acetic acid is a buffer pair (pKa ≈ 4.76).
+  - **Less corrosive than chloride brines:** no chloride pitting of steels.
+  - **Biodegradable.**
+  - **Deicer:** sodium and potassium acetate are used as low-corrosion deicers, e.g. on airport runways. Widely documented, but not separately verified here.
+  - **Phase-change heat storage:** sodium acetate **trihydrate** melts at ~58 °C with latent heat ~250–265 kJ/kg, and it **supercools** (the click-to-start hand warmer). That makes it a candidate **warm-side** thermal store, complementing the ~0 °C water/ice buffer of [helium_water_circulation.md §9](helium_water_circulation.md).
+- **Caveats:**
+  - **Acetate is a carbon source.** It **feeds microbes**, which could worsen biofouling, or could be used deliberately to feed the mycelium or consortia.
+  - **It does not fix PEM fouling.** PEM stacks need deionized water, and **Na⁺ poisons PEM membranes** by exchanging onto the sulfonic sites and lowering conductivity. Sodium acetate is better suited to **alkaline electrolyzers** or the **brine/electrolyte loop** ([helium_water_circulation.md §10](helium_water_circulation.md)).
+- **Status:** Plausible-untested.
+
 ## Cabin vibration for bone density ("cat purr influenced")
 > Channing (verbatim): "It's missing some detail. We also use frequency(cat purr influenced) for bone density in cabin." **[Channing to supply missing details]**
 - **Cat purr frequencies:** domestic cat purrs fall roughly in the ~25–150 Hz range.
