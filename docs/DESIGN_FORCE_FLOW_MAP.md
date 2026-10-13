@@ -275,6 +275,8 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Copper feed tubing for acetate (multipurpose) | k ≈ 400 W/m·K heat path; oligodynamic antimicrobial; conductor; Cu²⁺ leaching (fungitoxic), acetate corrosion, galvanic couples | Fluid (feed), heat, charge | Grounded properties; use recalled; roles [Channing to supply]; Plausible-untested | — | [living_habitat §Na acetate](living_habitat_life_support.md) |
 | Living vs non-living zoning (barriers, return paths) | Separation of fungitoxic/biocidal materials from fed mycelium | Biological, fluid (separated returns) | Recalled design fact; Plausible-untested | — | [living_habitat §zones](living_habitat_life_support.md) |
 | Petrified / mineralized tubes (MICP, fungal or silica mineralization) | Biomineral precipitation (CaCO₃); scaling vs wall shear; acid/acetate dissolution | Fluid (channel flow; bore narrows with deposits) | Grounded analogs; designed branches Plausible-untested | — | [living_habitat §zones](living_habitat_life_support.md) |
+| MICP ammonium (NH₄⁺) used for work | Ionic conduction (J×B, conductivity); N nutrient; NH₃ fuel/H₂ carrier; NH₄⁺/NH₃ pKa 9.25 | Charge, biological (nutrient), chemistry | Grounded pieces; new open thread; charge-separation use Speculative | — | [living_habitat §zones](living_habitat_life_support.md) |
+| Periodic H₂O₂ flush (non-living zones) | Oxidation (biocide, descaling); 2H₂O₂ → 2H₂O + O₂ (Cu-catalyzed) | Chemistry; gas (O₂ bubbles) | Grounded; protocol Plausible-untested; avoid living zones and copper | — | [living_habitat §zones](living_habitat_life_support.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

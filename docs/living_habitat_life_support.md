@@ -6,7 +6,7 @@ Context: this follows the electrolysis filtering, O₂ life support and H₂ asc
 > Channing (verbatim): "It's missing some detail. We also use frequency(cat purr influenced) for bone density in cabin."
 > The paste below is **incomplete: [Channing to supply missing details]**.
 
-**Hydrogen peroxide notes: [Channing to supply].** Grounded one-liner: H₂O₂ decomposes catalytically (e.g. over silver or permanganate) into steam + O₂. It has been used in torpedoes and rocket belts. Concentrated H₂O₂ is corrosive and becomes unstable when contaminated.
+**Hydrogen peroxide:** used for **periodic H₂O₂ flushes** (Channing, recalled). See [Living vs non-living zones → H₂O₂ flushes](#living-vs-non-living-zones-petrified-tubes-as-designed-branches). Concentrations, schedule and any propulsion or other uses: **[Channing to supply]**. Grounded background: H₂O₂ decomposes catalytically (e.g. over silver or permanganate) into steam + O₂. It has been used in torpedoes and rocket belts. Concentrated H₂O₂ is corrosive and becomes unstable when contaminated.
 
 ## Archived Grok paste (verbatim)
 ```
@@ -170,6 +170,22 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
      - a **smooth or hydrophobic inner liner** (BN/PP, §10c of [helium_water_circulation.md](helium_water_circulation.md));
      - keep the **flow velocity above the scaling/settling threshold**, so wall shear limits deposit growth.
    - Also note MICP releases **ammonium** by-product, which needs managing in a closed loop.
+   > Channing (verbatim): "Yes, when we went done that same path what I didn't do was use that cation for work but have been meaning to. We also, talked about periodic hydrogen peroxide flushes as well."
+3. **Using the MICP ammonium cation (NH₄⁺) for work: new open thread.**
+   - **Grounded:**
+     - NH₄⁺ is a **charge carrier** in the electrolyte, so it contributes to conductivity and J×B pumping (see [helium_water_circulation.md §10b](helium_water_circulation.md)).
+     - It is a **nitrogen source** for cyanobacteria, algae and plants, closing a nutrient loop with the photosynthetic layer.
+     - **Ammonia as fuel or H₂ carrier:** direct-ammonia and cracked-ammonia fuel cells and NH₃ hydrogen storage are established technologies.
+   - **Speculative:** using NH₄⁺ for **charge separation** in the cation/charge-separation threads (R7 charge separation, [REBUILD_INDEX.md](REBUILD_INDEX.md); vanadium charge-separation note in [helium_octave_table.md](helium_octave_table.md#vanadium-oxidation-states--charge-separation)).
+   - **Caveats:**
+     - **Free ammonia (NH₃) is toxic,** especially at high pH where NH₄⁺ ⇌ NH₃ shifts toward NH₃ (pKa ≈ 9.25), to fungi, aquatic life and crew.
+     - **Nitrifying bacteria** convert it (NH₄⁺ → NO₂⁻ → NO₃⁻) and consume O₂.
+4. **Periodic hydrogen peroxide (H₂O₂) flushes.**
+   - **Grounded:** an **oxidizing biocide** and **descaling / cleaning aid** that breaks down into **water and O₂** (no persistent residue).
+   - **Non-living zones only:** it damages living mycelium, so flush only behind the living/non-living barriers.
+   - **Residual O₂ bubbles** must be vented or separated (the sinks' buoyancy separation, §9 of [helium_water_circulation.md](helium_water_circulation.md)).
+   - **Incompatible with copper:** copper catalyzes H₂O₂ decomposition (fast, exothermic, gassy) and is corroded by it, so **mind the copper feed lines**. Isolate or bypass them, or use lined copper.
+   - **Status:** Plausible-untested as a maintenance protocol.
 
 ## Cabin vibration for bone density ("cat purr influenced")
 > Channing (verbatim): "It's missing some detail. We also use frequency(cat purr influenced) for bone density in cabin." **[Channing to supply missing details]**
