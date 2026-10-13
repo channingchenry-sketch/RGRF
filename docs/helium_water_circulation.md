@@ -296,4 +296,20 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
        - Microbubble and air-layer drag reduction ([bubbles_arcs_frc.md](bubbles_arcs_frc.md), Ceccio 2010).
        - The coatings: **carboxyl groups are hydrophilic** (shedding zones), **terpenes are hydrophobic** (tracks). Durability of superhydrophobic coatings at sea (abrasion, fouling, plastron loss at depth and pressure) is the known weak point.
 
+### (f) Electrolysis filtering, life-support O₂, and H₂ for ascent (recalled from memory; original details [Channing to supply from Grok])
+> Channing (verbatim, two messages):
+> "Yeah we had some electrolysis filtering which also lended to life support I didn't see it in my screenshots so I'll ask Grok."
+> "Yeah, I believe we used the hydrogen for ascending."
+
+- **Electrolysis filtering: Grounded.** Electrocoagulation and electrochemical water treatment use electrode reactions to coagulate, float or oxidize contaminants. It ties to the electrolyte loops in (b).
+- **O₂ for life support: Grounded.** Water electrolysis supplies breathing oxygen on the ISS (the Oxygen Generation Assembly) and on nuclear submarines.
+- **H₂ for ascent: Grounded** as a lifting gas. At sea level H₂ lifts ≈1.14 kg/m³ against ≈1.06 kg/m³ for He ([lift_and_equilibrium_systems.md §1](lift_and_equilibrium_systems.md)), about **8 % more** (rounded figures of ~1.2 vs ~1.1 are also quoted).
+- **Transmedium use:** H₂ (or O₂) from electrolysis could also fill **buoyancy cells underwater**. The gas **compresses with depth** (Boyle), so lift falls as the craft dives ([bubbles_arcs_frc.md](bubbles_arcs_frc.md)). Related craft docs: [manta_butterfly_craft.md](manta_butterfly_craft.md), [butterfly_node.md](butterfly_node.md).
+- **Caveats:**
+  - **Flammability:** H₂ is flammable in air from ~4 % to ~75 % by volume. An H₂ + O₂ mixture is explosive. Keep the streams **separate** (membrane or divided cell), vent safely, and use **flame arrestors**. No ignition sources near the Tesla coil sinks (§9)!
+  - **Permeation:** H₂ permeates materials even faster than He, so containment is harder (see the He permeation note in [pol_v0_1_zones.md](pol_v0_1_zones.md)).
+  - **Hydrogen embrittlement:** H₂ embrittles some steels, including **ferritic** grades. That matters for the **perforated ferritic-steel back-iron** ([lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md)), which should be isolated from H₂ or coated.
+  - **Energy cost:** practical electrolysis needs **~50 kWh per kg H₂** (the theoretical minimum is ~39 kWh/kg on the higher-heating-value basis). Producing lift gas this way costs significant power.
+- **Integrated system** (filtering + O₂ + H₂ ascent): **Plausible-untested**.
+
 **Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
