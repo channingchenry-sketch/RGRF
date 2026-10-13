@@ -204,4 +204,30 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
   - **Salt can destabilize ferrofluid colloids** (it screens electrostatic stabilization). Water-based ferrofluid and brine may not coexist; keep them in separate phases or use oil-based ferrofluid.
 - **Net: Plausible-untested.**
 
+### (c) Coatings and liners for salt / electrolyte loops
+> Channing (verbatim, three messages):
+> "Yeah, we entertained salts as well but build up and corrosion were possibly issues. We were looking and beryl coatings I think let me see if I have any of that saved"
+> "It could of been Boronic as well I'm checking with Grok it should be on our BOM"
+> "Yeah so we looked at 2 things Borin Nitride and polypropylene films"
+
+- **Salts were considered.** **Scale buildup and corrosion** were flagged as issues (Grounded concerns, see (b)).
+- **Candidate 1, boron nitride (hBN) liners and coatings (Grounded properties):**
+  - chemically inert;
+  - electrically insulating, so it adds no eddy or galvanic paths;
+  - a good in-plane thermal conductor;
+  - stable at high temperature.
+  - Links to the POL hBN heat-spreader zone ([pol_v0_1_zones.md zone 3](pol_v0_1_zones.md#3-bn-heat-spreading-layers)).
+  - **Caveat:** thin sprayed or particulate BN coatings can be porous, so check that they seal against brine.
+- **Candidate 2, polypropylene (PP) films (Grounded properties):**
+  - cheap;
+  - resistant to brine and many chemicals.
+  - **Limits:**
+    - softens around ~130–160 °C;
+    - low thermal conductivity (~0.1–0.2 W/m·K), so it insulates rather than spreads heat;
+    - **permeable to helium over time**, so it is not a helium barrier.
+- **Placement suggestion (Plausible-untested):** BN for the **hot coil sinks and heat paths**, PP for the **cool runs** (radial returns, perimeter feed lines carrying water or brine, not helium).
+- **"Beryl" recall:** likely beryllia (BeO), an excellent thermally conductive insulator. It is **unconfirmed and effectively ruled out** in favour of BN.
+  - **Toxicity caveat:** beryllium oxide dust or fumes cause chronic beryllium disease. Machining or abrading BeO is hazardous, so it is not suitable for DIY builds.
+- **BOM confirmation:** **[Channing to supply from Grok BOM]**.
+
 **Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
