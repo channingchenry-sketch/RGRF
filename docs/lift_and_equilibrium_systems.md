@@ -146,6 +146,37 @@
 - **Pass:** faster recovery at the same probe power.
 - **Fail:** no advantage, in which case a conventional PLL is good enough.
 
+## 9. Levitation methods (Grounded)
+
+**Why every method needs a trick (Earnshaw's theorem).** No static arrangement of charges or permanent magnets can hold a body in stable equilibrium. Every working levitation method escapes the theorem in one of four ways:
+- **motion:** induced currents (EDS);
+- **active feedback:** EMS;
+- **diamagnetism:** induced magnetization, which the theorem does not cover;
+- **superconductivity.**
+
+Source: S. Earnshaw, "On the nature of the molecular forces which regulate the constitution of the luminiferous ether," *Trans. Camb. Phil. Soc.* 7, 97–112 (1842), read 1839.
+
+| Method | Principle | Stability | Examples | Cost / limits |
+|---|---|---|---|---|
+| **EDS (electrodynamic suspension)** | A moving magnet induces eddy currents in a conductor; by Lenz's law they repel it | Inherently stable above a speed or frequency threshold; needs wheels at low speed | SCMaglev (Japan, superconducting magnets) | Eddy drag and Joule heating. This is the origin of the **POL sim's 10–17 kW for 88 kg** (~52 N/kW) hover cost |
+| **EMS (electromagnetic suspension)** | Electromagnets attract up toward a steel rail | Unstable on its own; needs fast active feedback on the gap (~10 mm) | Transrapid; Shanghai maglev | Continuous control power; fails unsafe without its controller |
+| **Halbach arrays** | A magnet orientation sequence concentrates the field on one side and nearly cancels it on the other | Used with EDS (passive above the transition speed) | Inductrack | Needs motion; strong NdFeB magnets |
+| **Diamagnetic** | Repelled by the field; the energy minimum is allowed for induced magnetism | Passively stable | Pyrolytic graphite over NdFeB (mm gaps); the living frog at ~16 T | Tiny forces unless fields are very strong |
+| **Superconducting** | The Meissner effect expels the field; flux pinning (type II) locks position | Passively stable, including hanging and suspended configurations | HTS pucks over magnet tracks; SCMaglev magnets | Cryogenics |
+
+**Sources:**
+- **Halbach arrays:** K. Halbach, "Design of permanent multipole magnets with oriented rare earth cobalt material," *Nucl. Instrum. Methods* 169, 1–10 (1980), doi 10.1016/0029-554X(80)90094-4.
+- **Inductrack:** R. F. Post & D. D. Ryutov, "The Inductrack: a simpler approach to magnetic levitation," *IEEE Trans. Appl. Supercond.* 10(1), 901–904 (2000), doi 10.1109/77.828377.
+  - The transition speed is a few km/h.
+  - The lift-to-drag ratio reaches 200:1 or more at operating speed, because drag falls roughly as 1/v.
+  - Levitation pressure approaches 40 t/m².
+- **Diamagnetic levitation:** M. V. Berry & A. K. Geim, "Of flying frogs and levitrons," *Eur. J. Phys.* 18, 307–313 (1997), doi 10.1088/0143-0807/18/4/012. The frog was levitated at ~16 T; stable levitation of paramagnets is impossible.
+
+**Recommendation for the next POL sim upgrade: Halbach + EDS (Inductrack-style).**
+- Replace the plain magnet/conductor model with a Halbach array over a close-packed shorted-circuit (litz) track.
+- Re-run the force-per-watt calculation against speed and frequency. The aim is to see how far above the current ~52 N/kW the drag-per-lift falls.
+- **Caveat:** the high lift-to-drag ratio needs relative motion (a rotating track or a moving vehicle). A free-hovering craft still pays for the drive power. Report it honestly in the power ledger.
+
 ## Grounded loop mechanisms (1–8)
 *Channing's recovered text, labeled. Each mechanism is standard physics; the open question is whether they integrate into one loop, and with what energy ledger (see Power ledger summary).*
 

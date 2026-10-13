@@ -20,6 +20,32 @@
   - The frequency overlap alone is not evidence of coupling.
 - **Wever bunker studies:** in human isolation units, shielding from natural fields reportedly lengthened free-running circadian periods, and adding a 10 Hz field shortened them again. That is one reading of "absence as a mild stressor." I located this only through the PubMed record "The effects of electric fields on circadian rhythmicity in men" (PMID 11826883). **Full citation details are unverified, Channing to supply**, and there has been no independent modern replication.
 
+### 1b. Schumann and telluric detail (Channing's recovered text)
+
+**The ELF cavity (Grounded).**
+- Fields are pT-level ELF, confined in the Earth–ionosphere cavity.
+- They are modeled with spherical harmonics (Legendre polynomials in latitude).
+
+**The ideal-cavity formula (Grounded).**
+- For a lossless thin shell, f_n = (c / 2πR)·√(n(n+1)).
+- With R = 6371 km, c/(2πR) ≈ 7.49 Hz. That gives f₁ ≈ 10.6 Hz, f₂ ≈ 18.4 Hz, f₃ ≈ 25.9 Hz.
+- The observed values are ~7.83, 14.3 and 20.8 Hz. They are lower because the ionosphere is a lossy, finite-conductivity, height-varying boundary.
+
+**Telluric currents (Grounded).**
+- Natural currents flow in the crust and upper mantle, induced mainly by geomagnetic variations (magnetospheric and ionospheric current systems), with contributions from lightning and other sources.
+- **Magnetotellurics** inverts the surface E/B ratio for subsurface conductivity:
+  - L. Cagniard, "Basic theory of the magneto-telluric method of geophysical prospecting," *Geophysics* 18(3), 605–635 (1953), doi 10.1190/1.1437915.
+  - A. N. Tikhonov (1950) developed the method independently. **Citation details unverified.**
+- **Geomagnetically induced currents (GIC):** the Hydro-Québec blackout of 13 March 1989.
+  - L. Bolduc, "GIC observations and studies in the Hydro-Québec power system," *J. Atmos. Sol.-Terr. Phys.* 64(16), 1793–1802 (2002), doi 10.1016/S1364-6826(02)00128-1.
+  - Ground voltages up to ~1.7 V/km were measured there in 1992–94.
+
+**Flagged:** "~32 identified mechanisms" (presumably sources or mechanisms of telluric currents) is **unverified**. I found no source; [Channing to supply].
+
+**Diurnal patterns (Grounded):** Schumann amplitudes and frequencies follow the daily cycle of global thunderstorm centres (Asia, Africa, the Americas), and telluric fields follow the daily geomagnetic variation.
+
+**Low-frequency overlap with [truncated, Channing to supply].**
+
 ## 2. Green lensing (Speculative)
 - Channing gives two readings: an **optical** one (a green-reflecting or green-transmitting matrix acting as a lens or filter) and an **ecological** one (green cover shaping local field and light environments).
 - The mechanism and the source are **[Channing to supply]**.
