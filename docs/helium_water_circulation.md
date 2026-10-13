@@ -230,4 +230,17 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
   - **Toxicity caveat:** beryllium oxide dust or fumes cause chronic beryllium disease. Machining or abrading BeO is hazardous, so it is not suitable for DIY builds.
 - **BOM confirmation:** **[Channing to supply from Grok BOM]**.
 
+### (d) Brine recipe and castor oil
+> Channing (verbatim): "We have a brine to looking for it now. We also entertained castor oil"
+
+- **Brine:** a specific brine recipe exists: **[Channing to supply]**.
+- **Castor oil (Grounded properties):**
+  - High viscosity, ~0.6–1 Pa·s at 25 °C, rising steeply when cold.
+  - Immiscible with water and brine.
+  - Electrically insulating (a dielectric, ε ≈ 4.8; see the Dual-Oil Module in [lift_and_equilibrium_systems.md §6b](lift_and_equilibrium_systems.md)).
+  - Non-corrosive and biodegradable.
+  - Used as a lubricant and dielectric carrier. Castor-based magnetic fluids appear in the research literature (not verified here).
+- **Role (Plausible-untested):** castor oil as the **carrier for an oil-based ferrofluid**, kept as a separate phase from the brine. This resolves the §10(b) issue of salt destabilizing (clumping) a water-based ferrofluid. Castor is also miscible with other vegetable oils (see §6b), so keep CBD/MCT oils away from it if a clean interface is wanted.
+- **Caveat, viscosity vs Tesla valves:** high viscosity, worse near the cold helium loop, slows flow and lowers Re. Example: castor (μ ≈ 0.7 Pa·s, ρ ≈ 960 kg/m³) in a 5 mm channel at 0.1 m/s gives **Re = ρUD/μ ≈ 0.7**, far below the Re ≈ 100–300 where Tesla-valve diodicity turns on (§8). Castor segments would need Tesla-free gating (active piezo valves, §8 option 3) or warm, fast, wide runs.
+
 **Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
