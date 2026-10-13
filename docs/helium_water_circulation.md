@@ -271,5 +271,18 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
    - **Frequency:** an acoustic or vibrational drive could help droplets coalesce or move through pores. This is **Plausible-untested**.
    - **Frequency value, pore size and placement: [Channing to supply].**
    - Link: [mycelium envelope zone](pol_v0_1_zones.md#4-mycelium-hemp-structural-envelope).
+5. **Water cavitation transition: "riding the well."**
+   > Channing (verbatim): "Yeah we touched on both and water cavitation transition sort of ride the well and use same dovetail concept in a different way"
+   - "Both" means the earlier sessions discussed both caveats above: **terpenes harming mycelium** and **B₄C brittleness**.
+   - **Concept:** operate near the **cavitation threshold** as a controllable transition. This is "riding" the edge of a potential well rather than falling in or staying far away.
+   - **Grounded metric:** the cavitation number **σ = (p − p_v)/(½ρv²)**, where p is local pressure, p_v the vapor pressure, and ρ, v the liquid density and speed. Cavitation starts as σ drops below an inception value set by geometry. Raising v or lowering p (e.g. in a vortex core, §2) pushes the flow toward it.
+   - **"Dovetail" concept:** meaning **[Channing to clarify]**. Prior repo usage:
+     - **C7** "Rocket swirl injectors & plume dovetailing" ([C1-C12_seed_map.md](C1-C12_seed_map.md)).
+     - **R6** "Controlled leakage, sheath dynamics & dovetailing by design", where dovetailing means interlocking counter-flows through shear layers, as in swirl/coaxial injectors ([em_topological_gravity_review.md](em_topological_gravity_review.md#r6-controlled-leakage-sheath-dynamics--dovetailing-by-design)).
+     - Here it may mean interlocking liquid and vapor phases at the cavitation boundary.
+   - **Caveats and links:**
+     - Cavitation **erodes surfaces** (bubble collapse makes micro-jets and shock waves), which is why the B₄C liner (item 1) matters.
+     - **Supercavitation** (a vapor cavity enveloping a body) cuts skin-friction drag dramatically. This is Grounded, e.g. supercavitating torpedoes such as the Russian VA-111 Shkval, and relevant to the transmedium craft ([bubbles_arcs_frc.md](bubbles_arcs_frc.md); bubble drag reduction, Ceccio 2010).
+   - **Label: Plausible-untested.**
 
 **Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
