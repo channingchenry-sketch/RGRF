@@ -186,6 +186,16 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
    - **Residual O₂ bubbles** must be vented or separated (the sinks' buoyancy separation, §9 of [helium_water_circulation.md](helium_water_circulation.md)).
    - **Incompatible with copper:** copper catalyzes H₂O₂ decomposition (fast, exothermic, gassy) and is corroded by it, so **mind the copper feed lines**. Isolate or bypass them, or use lined copper.
    - **Status:** Plausible-untested as a maintenance protocol.
+   > Channing (verbatim): "Yeah, that tracks I think we decided to use copper tubes to make the petrified panels branches then removed before installation then, used a boron nitride coat. Yeah, we kept running into constraints here. We looked at K3 and Beryllium but had issues there as well. Touched on Magnesium and then ended up looking at calcium transport with the potassium again. I don't think we ever settled. That was all before July and something happened on Grok where whatever wasn't in emails or screenshot was lost. I have been rebuilding from memory but haven't recovered everything yet."
+5. **Decided process (recalled): copper tubes as removable molds.**
+   - Copper tubes served as **molds / mandrels** to form the petrified branch panels. They were **removed before installation**, and then a **boron nitride coat** was applied.
+   - This removes copper from the installed system, which resolves the **copper–mycelium** (fungitoxic ions) and **copper–H₂O₂** (catalytic decomposition, corrosion) conflicts. The logic is Grounded; the process is **Plausible-untested** (mold release from a mineralized wall, BN adhesion on the mineral).
+6. **Ion / transport choices: Open, never settled.**
+   - **"K3":** meaning **[Channing to clarify]**. Guesses only: K₃PO₄ (tripotassium phosphate), tripotassium citrate, or potassium ferricyanide K₃[Fe(CN)₆].
+   - **Beryllium:** ruled out for toxicity (chronic beryllium disease), as with BeO in [helium_water_circulation.md §10c](helium_water_circulation.md).
+   - **Magnesium (Mg²⁺):** also takes part in biomineralization (Mg-calcite, dolomite, struvite MgNH₄PO₄·6H₂O). **Risk:** with MICP ammonium and any phosphate, **struvite scaling** forms readily and clogs lines.
+   - **Calcium transport with potassium:** Ca²⁺ is the MICP mineral ion (CaCO₃). K⁺ is a benign charge carrier and a fungal nutrient, so it is useful as the electrolyte background cation.
+   - **Status: Open, never settled.** No final ion set was chosen (pre-July sessions; see the note on lost Grok content in [REBUILD_INDEX.md](REBUILD_INDEX.md)).
 
 ## Cabin vibration for bone density ("cat purr influenced")
 > Channing (verbatim): "It's missing some detail. We also use frequency(cat purr influenced) for bone density in cabin." **[Channing to supply missing details]**

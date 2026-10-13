@@ -1,5 +1,7 @@
 # REBUILD INDEX: canonical map of the RGRF / POL work (living)
 *License CC0. This maps the March–July 2026 threads, plus the October 2026 recoveries, in thread order.*
+> **Lost-content note (Channing, 2026-10-12):** pre-July 2026 Grok session content that was not saved in emails or screenshots was lost in a Grok-side incident. It is being rebuilt from memory, and not everything has been recovered. Items reconstructed this way are marked *recalled from memory* in the docs.
+
 
 **Status key:**
 - **Recovered:** Channing's text was saved.

@@ -277,6 +277,8 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Petrified / mineralized tubes (MICP, fungal or silica mineralization) | Biomineral precipitation (CaCO₃); scaling vs wall shear; acid/acetate dissolution | Fluid (channel flow; bore narrows with deposits) | Grounded analogs; designed branches Plausible-untested | — | [living_habitat §zones](living_habitat_life_support.md) |
 | MICP ammonium (NH₄⁺) used for work | Ionic conduction (J×B, conductivity); N nutrient; NH₃ fuel/H₂ carrier; NH₄⁺/NH₃ pKa 9.25 | Charge, biological (nutrient), chemistry | Grounded pieces; new open thread; charge-separation use Speculative | — | [living_habitat §zones](living_habitat_life_support.md) |
 | Periodic H₂O₂ flush (non-living zones) | Oxidation (biocide, descaling); 2H₂O₂ → 2H₂O + O₂ (Cu-catalyzed) | Chemistry; gas (O₂ bubbles) | Grounded; protocol Plausible-untested; avoid living zones and copper | — | [living_habitat §zones](living_habitat_life_support.md) |
+| Copper mandrels for petrified branch panels, removed before install, then BN coat | Template mineralization; mold release; coating adhesion | Fluid (final channel geometry), structure | Recalled decision; resolves Cu conflicts; process Plausible-untested | — | [living_habitat §zones](living_habitat_life_support.md) |
+| Ion set for mineral transport (Ca²⁺ + K⁺; Mg²⁺; "K3"?; Be ruled out) | Ion transport and precipitation (CaCO₃, struvite risk with Mg/NH₄/PO₄) | Charge, fluid (mineral deposition) | Open, never settled; "K3" [Channing to clarify] | — | [living_habitat §zones](living_habitat_life_support.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.
