@@ -248,6 +248,24 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
        - **CBD oil:** clarified (Channing, verbatim): "CBD conductivity, limited research on this and ion transport". CBD was of interest for **conductivity and ion transport**; research on this is limited. **Speculative.**
          - **Honest note:** oils, CBD oil included, are generally **electrical insulators**. Any ion transport would likely come from **additives** (dissolved salts or surfactants), **water content** (emulsified or absorbed water), or **interfaces** (charge at oil–water boundaries, as in the leaky-dielectric Dual-Oil Module, [lift_and_equilibrium_systems.md §6b](lift_and_equilibrium_systems.md)). That route is **Plausible-untested**.
          - No supporting literature is cited here.
+         - **CBD research check (web, 2026-10-12).** Channing: "Let's investigate CBD, Canada had the best research I think".
+           - **(i) Biological ion-channel and membrane effects: well studied, and Canada (Simon Fraser University) does lead here. Grounded.**
+             - M.-R. Ghovanloo & P. C. Ruben (SFU, Burnaby BC), "Cannabidiol and Sodium Channel Pharmacology: General Overview, Mechanism, and Clinical Implications," *The Neuroscientist* (2022), doi:10.1177/10738584211017009 (PMC9344566). CBD non-selectively inhibits voltage-gated Na⁺ channels (hNav1.1–1.7) from the inactivated state, IC₅₀ ~1.9–3.8 µM.
+             - M.-R. Ghovanloo et al. (SFU-led), "Cannabidiol inhibits the skeletal muscle Nav1.4 by blocking its pore and by altering membrane elasticity," *J. Gen. Physiol.* 153(5), e202012701 (2021), doi:10.1085/jgp.202012701. CBD sits **below the phospholipid headgroups** and decreases bilayer elasticity (MD, NMR, gramicidin assay).
+             - M.-R. Ghovanloo, S. J. Goodchild & P. C. Ruben (SFU / Xenon Pharmaceuticals, Canada), "Cannabidiol increases gramicidin current in human embryonic kidney cells: An observational study," *PLOS ONE* (2022), doi:10.1371/journal.pone.0271801. A CBD effect on a cation-conducting pore, opposite in sign to the fluorescence assay.
+             - "Cannabidiol inhibits Nav channels through two distinct binding sites," *Nat. Commun.* (2023), doi:10.1038/s41467-023-39307-6 (PMC10276812). Nav1.7 inactivated-state K_d ~50 nM and cryo-EM binding sites. Not Canadian-led; author list not checked here.
+             - **Meaning for RGRF:** CBD modulates **ion transport through biological channels and membranes**. It is not itself an ion conductor. This links to the phospholipid item (e): CBD partitions into lipid bilayers.
+           - **(ii) Electrochemistry: CBD is redox-active, so it is detectable and oxidizable, not conductive. Grounded.** Its phenolic –OH groups oxidize irreversibly at a carbon electrode (~0.4–0.7 V in reported sensors).
+             - M. Cirrincione et al., "Development of an electrochemical sensor based on carbon black for the detection of cannabidiol in vegetable extracts," *Analyst* 146, 612–619 (2021), doi:10.1039/d0an01932a (Italy; includes a commercial Cannabis seed oil).
+             - Oxidation degrades CBD, so it does not support CBD as a stable ion-transport medium.
+           - **(iii) Bulk oil conductivity / dielectric: sparse.** I found **no** study of bulk electrical conductivity or ion transport in CBD or hemp-seed oil.
+             - General vegetable-oil dielectric work (natural esters as transformer fluids) shows these oils are **insulators**, with relative permittivity a little above mineral oil and conductivity governed by moisture and impurities. E.g. "Dielectric Properties of Vegetable Oils," *J. Sci. Res.* 3(3), 481–492 (2011) (corn and cottonseed oil).
+             - So hemp/CBD oil is expected to behave similarly. **Plausible**, but unmeasured.
+           - **Did Canada lead?** Yes for **CBD–ion-channel/membrane biophysics** (the SFU Ruben lab). No Canadian, or any, research was found on **bulk CBD-oil conductivity**.
+           - **Labels:**
+             - CBD as a membrane/ion-channel modulator: **Grounded** (biology).
+             - CBD oil as a bulk ion conductor: **Speculative / unsupported**.
+             - Ion transport via additives, water or interfaces in CBD-oil segments: **Plausible-untested**.
        - **Castor oil:** noted for **self-organizing with iron**. **Plausible.** Castor oil has served as a carrier for magnetic and field-responsive suspensions in research (not verified here). It also hosts electrorheological chaining in the Dual-Oil Module. Links: ferrofluid loop ([lift_and_equilibrium_systems.md §6](lift_and_equilibrium_systems.md)) and castor as an oil-based ferrofluid carrier ([helium_water_circulation.md §10d](helium_water_circulation.md)).
      - **Status: noted, never applied.** Still open.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
