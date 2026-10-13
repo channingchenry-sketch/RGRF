@@ -152,6 +152,10 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
     - Getting usable force likely needs a **low-frequency envelope/modulation** (pulsing the coil at Hz–kHz) or a separate DC/low-frequency magnet.
     - Also, much of a Tesla coil's near field is **electric** (high voltage), with a weak magnetic field at a distance.
     - **Plausible-untested.**
+  - **"So, transistors?" (Channing).** Yes: a **solid-state Tesla coil** (SSTC/DRSSTC) drives the primary with transistors (a MOSFET or IGBT half- or full-bridge). That is Grounded, standard hobby and industrial practice.
+    - An **interrupter** switches the drive on and off at a low rate, giving a low-frequency **envelope** (Hz to ~1 kHz) that can be matched to the ferrofluid's response. The ferrofluid then feels a **pulsed force** in the sink at the envelope rate.
+    - The HF carrier inside each burst still causes **some heating**. The duty cycle trades force against heat.
+    - The envelope could be **synced to the lattice heartbeat** ([DESIGN_FORCE_FLOW_MAP §2](DESIGN_FORCE_FLOW_MAP.md)) and to the Tesla-valve phase shifts: **Plausible-untested**.
   - **Air:** bubbles separate by **buoyancy** in the sink and rise out of the liquid (Grounded). Combined with the valves, this gives the "steady separation" back to the pathway.
   - **Water / CBD oil:** immiscible, so they layer by density in a quiet sink (Grounded). Neither responds directly to the coil unless charged or heated.
 
