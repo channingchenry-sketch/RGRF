@@ -242,6 +242,7 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Bi cavity | Diamagnetic F = (χV/μ₀)B∇B; melts ~271 °C | Force, field | Grounded; role unconfirmed | — | same |
 | He containment material | Permeation/leak rate | Fluid (He loss) | Grounded (issue) | Leak-rate test | same |
 | Water circulation rpm, radius (He–water loop) | Centrifugal buoyancy; Δp(wall−axis) = ½ρω²r² (axis lowest) | Fluid (He to core, water outward); He expands at core, not compresses | Grounded (physics); Plausible-untested in POL; "compress to center" contradicted | Spinning-cylinder bench, axis vs wall taps | [helium_water_circulation](helium_water_circulation.md) |
+| External heating of rotating He–water loop (power, location, rpm) | Rotating convection; Taylor–Proudman; Ro = U/ΩL, E = ν/ΩL², Ra = gαΔTL³/νκ | Fluid (convection vs vortex; bands/jets if locked), heat | Grounded (physics); band-locking Plausible-untested | Rotating tank + heating ring, map (Ro, Ra) | [helium_water_circulation §7](helium_water_circulation.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

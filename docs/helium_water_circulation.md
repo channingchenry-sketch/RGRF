@@ -66,3 +66,35 @@ for rpm in (60, 300, 1000, 3000):
 - **Measure:** a pressure tap at the axis vs at the wall (two thin tubes to a differential manometer or a cheap pressure sensor). Compare with Δp = ½ρω²r². **Prediction:** the axis reads *lower*, by the amount in the table.
 - **Optional:** gently drive a water column (syringe as a liquid piston) and log the gas-pocket pressure and temperature (thermocouple) to see a near-isothermal vs adiabatic swing.
 - **Falsified if:** gas does not migrate to the axis, or the axis pressure is not lower than the wall pressure.
+
+## 7. External heating and the jump to gas-giant dynamics
+> Channing (verbatim): "Right, then we factored in the external heating but we had no way of controlling consistency. We ended up jumping to Saturns and Jupiters dynamics."
+
+### (a) The problem: heating competes with the vortex (Grounded)
+- Non-uniform external heating of a rotating fluid sets up buoyancy-driven **convection** (warm fluid rises, cool fluid sinks). That flow competes with the imposed vortex, so the gas core's **position and pressure wander**. This is the "no way of controlling consistency" problem.
+- **Taylor–Proudman:** in rapidly rotating, slow, inviscid flow, velocity does not vary along the rotation axis (∂**v**/∂z ≈ 0). Convection is organized into columns aligned with the axis instead of overturning freely.
+- **Rossby number** Ro = U/(ΩL) measures inertia against rotation. Small Ro means rotation dominates, giving geostrophic, column-like flow. Ro ~ 1 or larger means heating and inertia can break the pattern up.
+
+### (b) Why Saturn and Jupiter (Grounded)
+- They are rapidly rotating fluid shells, heated from inside (residual internal heat) and from outside (sunlight). Instead of chaotic overturning, they **self-organize** into stable zonal jets and bands, long-lived vortices and polar vortex clusters.
+- **Saturn's north polar hexagon** is a stable jet-stream wave pattern, observed since the 1980s. It has been reproduced in rotating-tank experiments: A. C. Barbosa Aguiar, P. L. Read, R. D. Wordsworth, T. Salter & Y. H. Yamazaki, "A laboratory model of Saturn's North Polar Hexagon," *Icarus* 206(2), 755–763 (2010), doi:10.1016/j.icarus.2009.10.022 (verified). In the tank, barotropically unstable jets equilibrate into stable polygons, including hexagons. The wavenumber is set by jet width, shear and Rossby number.
+- So the jump made sense: gas giants are natural examples of **heated, rotating fluid that stays organized.**
+
+### (c) Design takeaway (Plausible-untested)
+- **Don't fight convection; lock it.** Choose the rotation rate and heating geometry so that the heated flow organizes into stable bands or jets, and place the helium core where that pattern puts it.
+- **Dimensionless knobs (standard):**
+  - **Rossby** Ro = U/(ΩL): rotation dominance.
+  - **Ekman** E = ν/(ΩL²): viscous vs rotational.
+  - **Rayleigh** Ra = gαΔT L³/(νκ), or its rotating-frame form with g → ω²r: heating strength vs dissipation.
+  - Stable banding needs small Ro and E with Ra above onset but not so large that flow becomes turbulent. Thresholds for the POL geometry are **unknown**.
+- **Bench test:**
+  - a rotating tank (turntable plus clear cylinder) with **a controlled heating ring** (resistive strip at the wall, or a heated bottom annulus) and/or **differential rotation** (a lid or inner disc spun at a different rate, as in the hexagon experiments);
+  - dye or tracers to view jets and polygons;
+  - a pressure tap at the axis to check whether the core pressure steadies once bands lock in;
+  - sweep rpm and heater power, and map stable vs wandering regimes in (Ro, Ra).
+
+### (d) Links
+- Saturn hexagon and resonant-bottom tank: [em_topological_gravity_review.md §3](em_topological_gravity_review.md#3-saturns-north-polar-hexagon), in "Planetary & stellar reference threads".
+- Jupiter fuzzy (dilute) core and metallic hydrogen: [em_topological_gravity_review.md §4](em_topological_gravity_review.md#4-jupiter-fuzzy-dilute-core--metallic-hydrogen).
+
+**Unknowns:** heat source location and power, heating uniformity, rpm, fluid depth and radius, ΔT, the fluid's thermal expansion and diffusivity (α, κ), the resulting Ro/E/Ra, and which banded state places the helium core where it is wanted.
