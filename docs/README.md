@@ -25,6 +25,7 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [recent_fluid_dynamics_2024_2026.md](recent_fluid_dynamics_2024_2026.md) | Living survey: hydrodynamics as effective field theory (Quanta 2026; Dubovsky et al. 2012; Crossley–Glorioso–Liu 2017); rest to come. |
 | [bioelectric_coupling.md](bioelectric_coupling.md) | Schumann resonance, green lensing, multi-scale bioelectric chain (Levin, Fröhlich, Davydov), collagen piezoelectricity and biotensegrity, with labels. |
 | [materials_electronics.md](materials_electronics.md) | CNT@BNNT and other nanoscale FET channels, Bi₂O₂Se, bismuthene; boron carbide properties and limits. |
+| [muonic_hydrogen.md](muonic_hydrogen.md) | Muonic hydrogen and the proton radius puzzle (Pohl 2010, Antognini 2013, Bezginov 2019), muon-catalyzed fusion limits, and a reality check on the SuperGrok concept art. |
 | [images/RGRF_Regenerative_Periodic_Table_concept.jpg](images/RGRF_Regenerative_Periodic_Table_concept.jpg) | Concept art: regenerative periodic table (scrambled labels, not a data reference) |
 | [images/Color_Coded_EM_Geometry_Map.jpg](images/Color_Coded_EM_Geometry_Map.jpg) | Image: Color-Coded EM & Geometry Map |
 | [images/RGRF_Manta_Butterfly_Craft_Concept.jpg](images/RGRF_Manta_Butterfly_Craft_Concept.jpg) | Concept image: Manta-Butterfly craft |
@@ -35,5 +36,6 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [images/Regenerative_Housing_Community_Plan.jpg](images/Regenerative_Housing_Community_Plan.jpg) | Concept image: housing community plan |
 | [images/Mycobam_Interlocking_Bio_Composite_Blocks.jpg](images/Mycobam_Interlocking_Bio_Composite_Blocks.jpg) | Concept image: Mycobam interlocking blocks |
 | [images/Temporary_Transit_Mycelium_Bubble_Homes.jpg](images/Temporary_Transit_Mycelium_Bubble_Homes.jpg) | Concept image: temporary mycelium bubble homes |
+| [images/muonic_hydrogen_concept.png](images/muonic_hydrogen_concept.png) | Concept art: muonic hydrogen spectroscopy and resonant cavity (garbled labels; Speculative) |
 
 The diagrams are conceptual illustrations, not engineering drawings. For simulation code and the hover-power analysis, see [Resona-POL-Modular-Core](https://github.com/channingchenry-sketch/Resona-POL-Modular-Core).
