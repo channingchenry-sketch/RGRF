@@ -141,6 +141,7 @@ Channing notes this is **"not the same"** as the previously saved "possible mate
    - Piezo (and linear) drivers are used to drive thermoacoustic and pulse-tube coolers.
    - Adiabatic step: **T₂/T₁ = (p₂/p₁)^((γ−1)/γ)**, with γ = 5/3 for He (exponent 0.4).
    - **This is a real way to make the cooler zones.** It resolves the zone-2 "adiabatic cold zone" flag: an *active* cycle pumps heat and needs work input, so it is not passive cooling.
+   - Water circulation for helium control ("helium would compress to the center"): investigated in [helium_water_circulation.md](helium_water_circulation.md). Helium collects at the core, but the core is the *lowest* pressure point.
    - Use in POL: **Plausible-untested**. Links: [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md) (the helium gas spring, k ≈ γpA²/V).
 4. **"Bouncing between diamond sheets and quartz."**
    - Diamond is the best bulk heat spreader, k ~2000 W/m·K (**Grounded**).

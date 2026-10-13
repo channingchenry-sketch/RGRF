@@ -241,6 +241,7 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Perimeter piezo-He loop alternating diamond/quartz sections ("bouncing") | Acoustic/thermal reflection and transmission at impedance steps; diamond spreads heat, quartz drives | Heat, phonons, fluid (He) around the outer edge: controlled leaky boundary. Originally labeled "multipurpose and a protection layer" (cooling, guard, leaky-boundary control) | Guard loop Plausible-untested; field "leaky boundary" analogy Speculative | — | same; [R6](em_topological_gravity_review.md) |
 | Bi cavity | Diamagnetic F = (χV/μ₀)B∇B; melts ~271 °C | Force, field | Grounded; role unconfirmed | — | same |
 | He containment material | Permeation/leak rate | Fluid (He loss) | Grounded (issue) | Leak-rate test | same |
+| Water circulation rpm, radius (He–water loop) | Centrifugal buoyancy; Δp(wall−axis) = ½ρω²r² (axis lowest) | Fluid (He to core, water outward); He expands at core, not compresses | Grounded (physics); Plausible-untested in POL; "compress to center" contradicted | Spinning-cylinder bench, axis vs wall taps | [helium_water_circulation](helium_water_circulation.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.
