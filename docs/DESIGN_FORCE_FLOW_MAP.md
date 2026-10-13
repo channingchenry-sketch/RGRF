@@ -272,6 +272,7 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Silver-ion biocide dosing (~200–400 ppb) | Electrolytic Ag⁺ release | Chemistry (microbial control) | Grounded (Russian segment; NASA development) | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
 | Sabatier (H₂ + CO₂) | CO₂ + 4H₂ → CH₄ + 2H₂O | Gas → water recovery | Grounded (ISS since 2010) | — | [living_habitat §Electrolysis](living_habitat_life_support.md) |
 | Sodium acetate (electrolyte / buffer / trihydrate PCM) | Buffer pKa 4.76; PCM melt ~58 °C, ~250–265 kJ/kg, supercooling; Na⁺ exchange poisons PEM | Heat (warm-side store), charge (ionic conduction), biological (deliberate mycelium carbon feed, confirmed) | Grounded properties; feed use confirmed; dosing control Plausible-untested; "ionic bonding" [Channing to clarify] | — | [living_habitat §Na acetate](living_habitat_life_support.md) |
+| Copper feed tubing for acetate (multipurpose) | k ≈ 400 W/m·K heat path; oligodynamic antimicrobial; conductor; Cu²⁺ leaching (fungitoxic), acetate corrosion, galvanic couples | Fluid (feed), heat, charge | Grounded properties; use recalled; roles [Channing to supply]; Plausible-untested | — | [living_habitat §Na acetate](living_habitat_life_support.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

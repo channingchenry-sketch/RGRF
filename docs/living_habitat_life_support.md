@@ -137,6 +137,18 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
   - Many fungi can use acetate as a carbon source (Grounded).
   - Dosing must be controlled and confined to the mycelium zone so it doesn't feed unwanted bacteria or cause biofouling elsewhere in the loops: **Plausible-untested**.
 - **Status:** Plausible-untested.
+- **Delivery by copper (Channing, verbatim):** "Yeah we used copper as a delivery method I think it also served multipurpose". Copper tubing delivered the acetate feed. Its other roles were multipurpose (recalled): **[Channing to supply]**.
+  - **Grounded:**
+    - High thermal conductivity, ~400 W/m·K, so the feed line doubles as a heat path.
+    - An antimicrobial contact surface (the oligodynamic effect).
+    - Could double as a coil or conductor.
+    - Related prior use: copper tubes run through the shell for airflow and mould deterrence in the borax-cure notes ([open_grow_kit.md](open_grow_kit.md#grow-in-place-then-cure-borax--copper-ventilation)). Also the copper half-tube control in [butterfly_node.md](butterfly_node.md).
+  - **Caveats:**
+    - **Copper ions are fungitoxic.** Copper is a classic fungicide, so copper leaching into the feed could harm the mycelium it is feeding.
+    - **Acetate solutions slowly corrode copper,** forming copper acetate, which raises dissolved Cu.
+    - **Galvanic corrosion** with steel (ferritic back-iron) or aluminium in an electrolyte.
+  - **Mitigation:** lined or BN/PP-coated copper (see [helium_water_circulation.md §10c](helium_water_circulation.md)), or a polymer feed line with copper used only externally as the heat path or conductor.
+  - **Plausible-untested.**
 
 ## Cabin vibration for bone density ("cat purr influenced")
 > Channing (verbatim): "It's missing some detail. We also use frequency(cat purr influenced) for bone density in cabin." **[Channing to supply missing details]**
