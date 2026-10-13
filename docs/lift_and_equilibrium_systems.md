@@ -186,7 +186,7 @@
      - Forward DC flow occurs at the series resonance; backward flow occurs near a parallel resonance.
      - Related: Ibanez, Raghunandan & Kelley, *Phys. Rev. Fluids* 8, 113101 (2023), where the direction reverses with forcing frequency and stroke.
    - **Circuit analogs:** wall or membrane compliance acts as fluidic capacitance, and fluid inertia acts as inductance. Together they allow R–C and R–L–C analogs.
-     - Textbook: H. Bruus, *Theoretical Microfluidics*, Oxford University Press (2008).
+     - Textbook: H. Bruus, *Theoretical Microfluidics*, Oxford Master Series in Physics 18, Oxford University Press (2008; first released Nov 2007), ISBN 978-0-19-923509-4 (pbk).
      - Experimental RLC networks: "Flow control using audio tones in resonant microfluidic networks," *Lab Chip* (2016).
    - **Design implication:** lay out Tesla valves, compliant chambers and narrow/long impedance zones as an explicit RLC network.
      - Model the network first: compute series and parallel resonances, then place the rectifiers where the AC flow magnitude differs across them.
@@ -196,6 +196,28 @@
 - Run a sealed ferrofluid or salt-water loop with a permanent-magnet gradient, a resistive heater and a piezo pulse.
 - Measure flow rate and ΔT against input watts.
 - Repeat with the magnet removed, and with the system inverted (a gravity-independence check).
+
+**Closing principle: Earth as equilibrium exemplar.**
+
+*Channing's text:* Earth prefers equilibrium. Its carbon and water cycles, nutrient flows through mycelium and soil, atmospheric chemistry, and magnetic and electric fields tend toward dynamic stability when they are left intact.
+
+**Grounded:**
+- **Silicate-weathering thermostat.** Weathering speeds up as the planet warms and draws down CO₂, a negative feedback acting over about 10⁵–10⁶ years. The authors note its quantitative details are speculative.
+  - J. C. G. Walker, P. B. Hays & J. F. Kasting, "A negative feedback mechanism for the long-term stabilization of Earth's surface temperature," *J. Geophys. Res.* 86(C10), 9776–9782 (1981), doi 10.1029/JC086iC10p09776.
+- **Mycorrhizal carbon transfer.** A field study found two-way carbon transfer between birch and Douglas fir, with a net gain of about 6% for the fir, governed by source–sink relations.
+  - S. W. Simard et al., "Net transfer of carbon between ectomycorrhizal tree species in the field," *Nature* 388, 579–582 (1997), doi 10.1038/41557.
+  - **Caveat:** broader "wood-wide web" claims are **debated**. Karst et al. find that the claims that networks are widespread, and that transfers boost seedling performance, are insufficiently supported in field studies. The claim that mother trees preferentially feed their offspring has no peer-reviewed evidence. Soil pathways are an alternative explanation for some transfers.
+  - J. Karst et al., "Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests," *Nat. Ecol. Evol.* 7, 501–511 (2023), doi 10.1038/s41559-023-01986-1.
+
+**Nuance: the stability is dynamic and not guaranteed.**
+- Earth-system components have tipping points: T. M. Lenton et al., "Tipping elements in the Earth's climate system," *PNAS* 105(6), 1786–1793 (2008), doi 10.1073/pnas.0705414105.
+- The record also includes ice ages, geomagnetic excursions and reversals (Laschamp; see `em_topological_gravity_review.md`), and mass extinctions.
+- The feedbacks are real, but they act slowly and can be overwhelmed.
+
+**Design principle (Plausible, by analogy):** aim for stability through **regulated exchange and controlled leakage** (R6 in `em_topological_gravity_review.md`; the planetary pulse-confinement cycle), not through sealing.
+- Build in negative feedbacks.
+- Know where the thresholds are.
+- Monitor for early-warning signals (rising variance, slowing recovery).
 
 ## Power ledger summary
 | Mechanism | Force per power | Role | Tag |
