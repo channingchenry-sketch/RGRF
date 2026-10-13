@@ -375,3 +375,20 @@ node topology (from CT or micro-CT) directly to damping coefficient and compress
    - The paste admits "the closed-loop numbers are thin". No verified study was found here.
    - Proposed bench test: micro-CT of pressed and unpressed coupons (node density, contact points), then cyclic compression and DMA for the damping coefficient.
    - Labels: **open gap**.
+
+### Attribution: Montana State University? [Channing to clarify which items]
+
+Channing (verbatim): "I believe those came from Montana state". The McMaster and SIAT items are verified as other institutions, so this probably refers to the remaining items: hot-pressing, node topology → damping, and targeted high-stress nodes. **Which items it covers is [Channing to clarify which items].**
+
+**Verified MSU work found (search 2026-10-12):**
+- E. Viles, E. Heyneman, S. Lin, V. Montague, A. Darabi, L. M. Cox, A. Phillips, R. Gerlach, E. Espinosa-Ortiz & C. Heveran, "Mycelium as a scaffold for biomineralized engineered living materials," *Cell Reports Physical Science* (April 2025).
+  - [Journal page](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(25)00116-X). The journal DOI was not read here; the preprint is doi:[10.1101/2024.05.03.592484](https://doi.org/10.1101/2024.05.03.592484).
+  - Authors are from Montana State University (Bozeman).
+  - *Neurospora crassa* mycelium scaffolds were mineralized by the fungus itself or by *Sporosarcina pasteurii* (MICP). Viability held for ≥4 weeks. Bacterial mineralization gave the stiffest CaCO₃. The team shaped **bone-osteon-mimetic internal architectures**.
+  - **Match strength:**
+    - **Moderate** for "place or reinforce specific high-stress nodes": it shows designed internal architecture and local reinforcement by mineral.
+    - **Moderate-strong** for the petrified/MICP branch thread above.
+    - **Weak / none** for hot-pressing and for micro-CT topology → damping.
+- **No MSU paper found** on hot-pressing densification or on node topology → damping.
+  - The closest verified hot-press source is **not MSU**: W. Sun, M. Tajvidi, C. Howell & C. G. Hunt, "Insight into mycelium-lignocellulosic bio-composites: Essential factors and properties," *Composites Part A* 161, 107125 (2022), doi:[10.1016/j.compositesa.2022.107125](https://doi.org/10.1016/j.compositesa.2022.107125). It is from the University of Maine and the USDA Forest Products Laboratory. In hot-pressed panels, higher mycelial density raised MOR, MOE and internal bond strength.
+  - **Strong match** for the hot-pressing item, but a different institution.
