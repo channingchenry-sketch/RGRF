@@ -167,6 +167,18 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
     - **It closes a thermal loop:** the coil heats the sink (HF loss), the return carries that heat outward, and the cooler perimeter helium loop absorbs it (and, if the piezo-helium cycle is active, pumps it away).
     - **Net design: Plausible-untested.**
     - **Unknowns:** heat load per pulse/burst, the temperature drop needed for useful resettling, resettling time vs flow rate, perimeter loop cooling capacity.
+  - **Water phase change as a thermal buffer (Channing, verbatim):** "Yeah, that's where the shift in waters phase comes into the fold."
+    - **Which phase shift** (freeze/melt, boil/condense, or something else) is **[Channing to clarify]**.
+    - **Grounded:** the latent heat of fusion of water is ~334 kJ/kg, against a sensible heat of ~4.18 kJ/kg·K. Melting 1 kg of ice absorbs as much heat as warming 1 kg of water by ~80 K.
+      - Partial freezing and melting near the cold perimeter helium loop therefore **clamps the temperature near 0 °C**. This is phase-change thermal storage, as in ice-storage cooling.
+      - Alternative: evaporation/condensation, ~2260 kJ/kg (latent heat of vaporization near 100 °C at 1 atm). Water vapor would then mix into the helium (see §4).
+    - **Caveats:**
+      - Ice expands ~9 % on freezing. It can **crack channels and jam Tesla valves**.
+      - **Freezing-point depression:** dissolved additives (glycol, salts) lower it. CBD oil is immiscible with water and has little effect on it.
+      - **Ferrofluid colloids can destabilize** (aggregate) on freezing, especially water-based ferrofluids.
+      - **Ice-slurry (slush) flow** is a known engineering option for pumpable phase-change coolant. It keeps the crystals small so channels don't block.
+    - **Net: Plausible-untested.**
+    - **Unknowns:** which phase change, the target buffer temperature, the mass of water that changes phase per cycle, and the freeze-protection strategy.
 
 ¹ *Footnote (demoted reading):* "reconnection" could also suggest magnetic-reconnection-inspired topology (field lines breaking and rejoining; Dungey magnetopause in [em_topological_gravity_review.md](em_topological_gravity_review.md); Hall-MHD resistive term in [tungsten_bismuth_core.md §7b-math](tungsten_bismuth_core.md)). Channing's layout shows the flow meaning; any EM-reconnection-to-flow coupling remains **Speculative** and is not part of the design.
 - **Unknowns:** sink volume and shape, coil–sink distance, coil frequency and modulation envelope, coil power and the resulting heating of the ferrofluid, ferrofluid particle size/relaxation time, and how the phase shifts were set (drive timing, inertance/reservoir, or coil phasing).
