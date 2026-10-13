@@ -30,6 +30,7 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [materials_electronics.md](materials_electronics.md) | CNT@BNNT and other nanoscale FET channels, Bi₂O₂Se, bismuthene; boron carbide properties and limits. |
 | [muonic_hydrogen.md](muonic_hydrogen.md) | Muonic hydrogen and the proton radius puzzle (Pohl 2010, Antognini 2013, Bezginov 2019), muon-catalyzed fusion limits, and a reality check on the SuperGrok concept art. |
 | [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md) | Living doc: Rayleigh/Eckart acoustic streaming, centrifugal buoyancy, dual torus & muon pathways (muography Grounded; spin-sum Speculative), Cherenkov blue-light detection (capture not possible), vortex mode theory (cylindrical modes, tadpole, susceptibility, circumference knob). |
+| [tungsten_bismuth_core.md](tungsten_bismuth_core.md) | Tungsten-Bismuth Core (heartbeat): W plasma-facing, Bi plasmonics/diamagnetism (271 °C limit), sheared-flow Z-pinch (corrected Bennett), piezo heartbeat, Krausz attosecond (diagnostics only), labelled Grounded/Plausible/Speculative. |
 | [images/RGRF_Regenerative_Periodic_Table_concept.jpg](images/RGRF_Regenerative_Periodic_Table_concept.jpg) | Concept art: regenerative periodic table (scrambled labels, not a data reference) |
 | [images/Color_Coded_EM_Geometry_Map.jpg](images/Color_Coded_EM_Geometry_Map.jpg) | Image: Color-Coded EM & Geometry Map |
 | [images/RGRF_Manta_Butterfly_Craft_Concept.jpg](images/RGRF_Manta_Butterfly_Craft_Concept.jpg) | Concept image: Manta-Butterfly craft |
