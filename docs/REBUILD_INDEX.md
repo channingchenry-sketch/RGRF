@@ -83,4 +83,4 @@
    - the source for "~32 identified mechanisms";
    - green-lensing mechanism and source.
 6. **Materials:** a specific graphene/h-BN/TMD MISFET paper.
-7. **Tungsten-Bismuth Core:** heartbeat frequencies and geometry; the Hall-MHD simulation script and helicon text; end of the quartz-partner "Bell tests" text and the ~232 as source (toroidal photon text now recovered).
+7. **Tungsten-Bismuth Core:** heartbeat frequencies and geometry; the Hall-MHD simulation script and helicon text; the cut-off MT-inversion text; end of the quartz-partner "Bell tests" text and the ~232 as source (toroidal photon text now recovered).

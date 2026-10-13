@@ -115,6 +115,30 @@ Recovered text (screenshots 3, 11, 12):
 
 Implication: at MHz heartbeat frequencies, induced currents in a W shell stay within ~0.1 mm of the surface; Bi layers are far more transparent; quartz is not shielded by its own conductivity. Resistivity rises with temperature (δ grows accordingly).
 
+### 7a-inv. Magnetotelluric inversion (recovered, cut off)
+**Channing's pasted text (as received):**
+> Magnetotelluric Inversion Techniques  
+> MT inversion is a mature geophysical method that infers subsurface electrical resistivity/  
+> conductivity structures from measured natural electromagnetic field variations (telluric currents and geomagnetic fields). It solves the inverse problem: converting observed impedance data into spatial resistivity models. en.wikipedia  
+> Core Process:  
+> • Data (impedance tensor components) at multiple frequencies are inverted to produce 1D, 2D, or 3D resistivity models.  
+> • Common approaches progress from smooth to sharp-boundary models, with increasing dimensionality for accuracy in complex geology.  
+> Key Techniques and Accurate Mathematical/ PI  
+> is Solutions:  
+> V  
+> • Occam's Inversion (smoothness-  
+> [cut off — Channing to supply]  
+
+**Grounded notes:**
+- **Impedance tensor:** horizontal fields are related by **E = Z H** (2×2 complex tensor per frequency); ρ_a and phase (§7a-math) come from its components.
+- **Occam's inversion:** seeks the *smoothest* model that fits the data to a target misfit, rather than the best-fitting (roughest) model. Standard form (Lagrange multiplier μ):
+  **min U = ‖∂m‖² + μ⁻¹ (‖Wd − WF[m]‖² − χ*²)**,
+  where m = model (log-resistivity per layer), ∂ = roughening (first/second-difference) operator, d = data, F = forward model, W = data weighting (inverse errors), χ*² = target misfit.
+  Source (verified): S. C. Constable, R. L. Parker, C. G. Constable, "Occam's inversion: A practical algorithm for generating smooth models from electromagnetic sounding data," *Geophysics* 52(3), 289–300 (1987), doi:10.1190/1.1442303.
+- Other common approaches (general mention only): nonlinear conjugate gradients (NLCG) and Gauss–Newton-type regularized inversions, typically for 2D/3D models; sharp-boundary/layered inversions where few discrete layers are expected.
+
+**RGRF tie-in — Plausible-untested:** the same inversion math could characterize the core's layered W / Bi / quartz conductivity from surface E/H measurements at several frequencies (skin depths in §7a-math set the probing depth). A real, buildable bench diagnostic: sweep frequency with a small coil, measure surface E/H (or coil impedance), invert for a layered conductivity profile.
+
 ## 7b-math. Hall-MHD math (recovered, OCR-damaged)
 **Channing's pasted text (as received):**
 > Accurate Mathematical/Physics Solutions:  
@@ -203,6 +227,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - Heartbeat frequencies and geometry.
 - The HMHD simulation script (equations, units, parameters) behind §7b.
 - Quartz-partner text: end of the "Bell tests proposed for…" sentence (cut off) and the source for "~232 as".
+- Magnetotelluric inversion text: cut off at "Occam's Inversion (smoothness-".
 - Hall-MHD math: the cut-off helicon text and the arXiv source.
 - APS paper behind the spin-Hall RF-wave citation chip.
 - Opening of screenshot 1 and the bridging text between screenshots 3→4 and 5→6.
