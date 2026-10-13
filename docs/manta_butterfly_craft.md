@@ -46,6 +46,8 @@ Assumptions: ~10 m craft, ~10 t, entry at ~7.5 km/s.
 
 Practical pairing: supercapacitors buffer the MW-scale MHD pulses, and batteries absorb the steady TEG trickle.
 
+See also **[Butterfly-Node](butterfly_node.md)**, the node-scale subsystem concept (living doc).
+
 ## Falsifiable questions
 - In an arc-jet or plasma-wind-tunnel test with a magnet and segmented electrodes, does the measured MHD power density scale as σu²B² with the Hall-parameter correction?
 - Does a TEG layer under an ablative or ceramic TPS coupon produce the predicted ~5–10 % of transmitted heat without raising the backface temperature beyond limits?

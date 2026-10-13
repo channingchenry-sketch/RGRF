@@ -11,6 +11,7 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md) | Piezo sensing/actuation plus helium gas-spring damping in the POL height loop: block diagram, realistic numbers, bench test. |
 | [mycelium_uses.md](mycelium_uses.md) | Every mycelium use found in the archive, with source references, honest labels and verified material data (Jones et al. 2020). |
 | [manta_butterfly_craft.md](manta_butterfly_craft.md) | Manta-Butterfly concept plus re-entry energy harvesting (TEG, MHD, sheath) and storage mass estimates. |
+| [butterfly_node.md](butterfly_node.md) | Living doc: Butterfly-Node concept (figure-eight ferrofluid wings, free egg cavity, copper half-tube control, impedance cascade, opposite-foci acoustic filter); mapping, power-ledger placeholder, bench tests. |
 | [open_grow_kit.md](open_grow_kit.md) | Draft open grow kit: protocol-to-bubble-home gaps, starter panel spec and quantities, measurement log, safety, housing-first placeholder. |
 | [grow_log_template.csv](grow_log_template.csv) | Blank citizen-science grow log (CSV). |
 | [coral_wave_barriers.md](coral_wave_barriers.md) | Coral reefs as grown wave barriers (Ferrario 2014, USGS 2019), verified Hawaiʻi restoration projects, Biorock/oyster/3D-printed reefs, link to MICP thread. |
