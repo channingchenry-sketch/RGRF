@@ -26,7 +26,6 @@ All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausi
 | [bioelectric_coupling.md](bioelectric_coupling.md) | Schumann resonance, green lensing, multi-scale bioelectric chain (Levin, Fröhlich, Davydov), collagen piezoelectricity and biotensegrity, with labels. |
 | [materials_electronics.md](materials_electronics.md) | CNT@BNNT and other nanoscale FET channels, Bi₂O₂Se, bismuthene; boron carbide properties and limits. |
 | [muonic_hydrogen.md](muonic_hydrogen.md) | Muonic hydrogen and the proton radius puzzle (Pohl 2010, Antognini 2013, Bezginov 2019), muon-catalyzed fusion limits, and a reality check on the SuperGrok concept art. |
-| [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md) | Rayleigh/Schlichting and Eckart acoustic streaming, centrifugal buoyancy, the twisted torus, and dual-torus / muon pathways (muography Grounded; spin-sum and buoyant lanes Speculative). |
 | [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md) | Living doc: Rayleigh/Eckart acoustic streaming, centrifugal buoyancy, dual torus & muon pathways (muography Grounded; spin-sum Speculative), vortex mode theory (cylindrical modes, tadpole, susceptibility, circumference knob). |
 | [images/RGRF_Regenerative_Periodic_Table_concept.jpg](images/RGRF_Regenerative_Periodic_Table_concept.jpg) | Concept art: regenerative periodic table (scrambled labels, not a data reference) |
 | [images/Color_Coded_EM_Geometry_Map.jpg](images/Color_Coded_EM_Geometry_Map.jpg) | Image: Color-Coded EM & Geometry Map |
