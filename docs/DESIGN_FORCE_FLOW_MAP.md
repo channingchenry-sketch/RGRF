@@ -261,6 +261,7 @@ Source: [pol_v0_1_zones.md](pol_v0_1_zones.md). The labels in these images are A
 | Terpenes (sealant/solvent/antimicrobial) | Hydrophobicity, interfacial tension | Fluid (interface), biological | Grounded properties; role Plausible-untested; next step [Channing to supply] | — | [He–water §10e](helium_water_circulation.md) |
 | Mycelium condensation pore leak + frequency (pore r, f) | Capillary condensation (Kelvin equation); acoustic droplet coalescence | Fluid (water vapor → liquid entry) | Grounded analogs; frequency role Plausible-untested; values [Channing to supply] | — | [He–water §10e](helium_water_circulation.md) |
 | Water cavitation transition, "riding the well" (p, v, geometry) | Cavitation number σ = (p − p_v)/(½ρv²) near inception; supercavitation drag reduction; collapse erosion | Fluid (liquid ↔ vapor), phonons (collapse shocks) | Grounded metric; operating at threshold Plausible-untested; "dovetail" [Channing to clarify] (cf. C7, R6) | — | [He–water §10e](helium_water_circulation.md) |
+| Patterned hull wettability (hydrophobic tracks, hydrophilic trailing edge) | Surface-energy / Laplace-pressure gradients; plastron air layers (Song 2019; Zhu 2020) | Fluid (gas bubbles guided along hull and shed) | Grounded (lab); craft use Plausible-untested; corrects "hydrophilic carries bubbles" | — | [He–water §10e](helium_water_circulation.md) |
 
 ## Unmapped parameters
 These are design parameters that have no force mapping yet.

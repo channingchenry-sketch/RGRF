@@ -284,5 +284,16 @@ In flow-vs-force terms, a valve converts a **force** (pressure threshold, spring
      - Cavitation **erodes surfaces** (bubble collapse makes micro-jets and shock waves), which is why the B₄C liner (item 1) matters.
      - **Supercavitation** (a vapor cavity enveloping a body) cuts skin-friction drag dramatically. This is Grounded, e.g. supercavitating torpedoes such as the Russian VA-111 Shkval, and relevant to the transmedium craft ([bubbles_arcs_frc.md](bubbles_arcs_frc.md); bubble drag reduction, Ceccio 2010).
    - **Label: Plausible-untested.**
+   - **Wettability guiding bubbles along the hull:**
+     > Channing (verbatim): "Yeah the hydrophilic properties allowing the bubbles to ride down the craft and of the backside"
+     - **Idea:** surface wettability guides bubbles along the hull and off the trailing edge ("off the backside").
+     - **Correction (Grounded):** it is **hydrophobic / superhydrophobic** (aerophilic) surfaces that attract and hold gas. Bubbles spread into **plastron / air layers** and slide along them. **Hydrophilic** (aerophobic) surfaces repel and release bubbles.
+     - **Suggestion (Plausible-untested):** **patterned wettability**: hydrophobic tracks to carry bubbles down the hull, and hydrophilic zones at the trailing edge to shed them.
+     - Bubble transport on patterned wettability is **Grounded** in lab work: superaerophilic tracks on a superaerophobic background move bubbles by surface-tension / Laplace-pressure gradients, even against buoyancy.
+       - J. Song et al., "High-efficiency bubble transportation in an aqueous environment on a serial wedge-shaped wettability pattern," *J. Mater. Chem. A* 7, 13567 (2019), doi:10.1039/C9TA02095K (verified).
+       - S. Zhu et al., "Spontaneous and unidirectional transportation of underwater bubbles on superhydrophobic dual rails," *Appl. Phys. Lett.* 116, 093706 (2020) (verified).
+     - **Ties:**
+       - Microbubble and air-layer drag reduction ([bubbles_arcs_frc.md](bubbles_arcs_frc.md), Ceccio 2010).
+       - The coatings: **carboxyl groups are hydrophilic** (shedding zones), **terpenes are hydrophobic** (tracks). Durability of superhydrophobic coatings at sea (abrasion, fouling, plastron loss at depth and pressure) is the known weak point.
 
 **Unknowns:** electrolyte choice and concentration, conductivity σ, static and coil field strength B, electrode type (DC/AC), egg spin rate and radius (radial pressure/flow), radial path dimensions, and egg heat generation.
