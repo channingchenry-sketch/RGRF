@@ -286,10 +286,10 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - **Breathing:** the magnetosphere expands and contracts. The plasma layers (plasma sheet, boundary layers, ionospheric strata) are compressed, rarefied and redistributed. Then the cycle resets.
 - **Leaky throughout:** the field stays leaky the whole time. The electric pulse does not seal the system; it modulates the leakage rate and redistributes **[truncated, Channing to supply]**.
 - **Sources:**
-  - Chapman & Ferraro, *Terr. Magn. Atmos. Electr.* 36, 77 (1931).
+  - Chapman & Ferraro, "A new theory of magnetic storms," *Terr. Magn. Atmos. Electr.* 36, 77–97 (1931), doi 10.1029/TE036i002p00077.
   - Dungey, *Phys. Rev. Lett.* 6, 47 (1961) (cited above).
-  - Akasofu, "The development of the auroral substorm," *Planet. Space Sci.* 12, 273 (1964).
-  - McPherron, "Magnetospheric substorms," *Rev. Geophys.* 17, 657 (1979), the loading–unloading picture.
+  - Akasofu, "The development of the auroral substorm," *Planet. Space Sci.* 12, 273–282 (1964), doi 10.1016/0032-0633(64)90151-5.
+  - McPherron, "Magnetospheric substorms," *Rev. Geophys.* 17(4), 657–681 (1979), doi 10.1029/RG017i004p00657, the loading–unloading picture.
 
 **Grounded (verified):**
 - **Pulsed electric drive → global electric circuit.**
