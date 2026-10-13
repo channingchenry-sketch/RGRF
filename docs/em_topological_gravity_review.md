@@ -537,6 +537,46 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
 ## Planetary & stellar reference threads
 These are Channing's reference sequence, which Channing labels **speculative** as an RGRF extension. Each entry gives what is observed, what RGRF extrapolates, an evidence label, and one falsifiable question.
 
+### Elliptical Eye / Multi-Egg core
+*From Channing's recovered text, saved faithfully. Labels added. Truncated text is marked.*
+
+**1) Living core loop (as given)**
+- Coil/cavity **foci** → high **E²** or **B²** → the field acts as **pressure** (magnetic pressure B²/2μ₀; ponderomotive ∝ −∇⟨E²⟩, see Dive A).
+- The fluid or plasma answers with a **density gradient**, which feeds **polarization and Lorentz forces** and so gives an **updated field**.
+- Compact form: field gradient → pressure gradient → density gradient → updated field.
+- **Grounded** as a coupled-feedback description: it is how self-consistent plasma–field equilibria such as ponderomotive self-focusing work.
+- **Note:** stability depends on the **sign and delay of the feedback**. Negative feedback with short delay settles; positive feedback or long delay gives oscillation or runaway (filamentation). Both are **measurable**: step the drive and record the density response and lag (Langmuir probe or interferometry; `dusty_plasma_bench.md`).
+
+**2) Multi-Egg reading (as given)**
+- Each egg is an **elliptical cavity with conjugate foci**.
+- The foci carry current or E-field, giving local **magnetic and ponderomotive pressure**.
+- **Radial channels** carry **centrifugal + Bernoulli pressure drop** (rotating flow: p falls toward the axis in vortex cores; faster flow means lower static pressure).
+- "Lorentz pads at spaced stations add a…" **[missing, Channing to supply]**. The source text is truncated here.
+- **Labels:** individual pressures **Grounded**; the combined Multi-Egg force budget **Plausible-untested** (C8: gyro eggs vs eddy springs); any net lift **Speculative** (an internal-force caveat, see A3).
+
+**3) Double-ellipse as a geometric lens**
+- **Grounded:**
+  - Any ray from one focus of an ellipse reflects off the wall to the other focus, which follows from the equal-angle property.
+  - Extracorporeal shock-wave lithotripsy uses exactly this. The first-generation Dornier HM-3 used a truncated ellipsoidal reflector with the spark gap at one focus and the kidney stone at the other.
+  - Whispering-gallery modes, waves hugging a curved wall, are a related, standard wall-guided effect in acoustics and optical microresonators. No single citation was verified, so none is given.
+  - For E-field lines, conducting elliptical boundaries shape fields as ellipsoidal-coordinate solutions. That is Grounded electrostatics, though field lines do not "reflect" like rays.
+- **Selective red (optional blue) illumination focused to one focus or the central cavity, for patterned photobiomodulation (PBM): Plausible-untested; PBM evidence is mixed.**
+  - Hamblin, "Mechanisms and applications of the anti-inflammatory effects of photobiomodulation", *AIMS Biophysics* 4:337 (2017), doi 10.3934/biophy.2017.3.337, proposes cytochrome c oxidase as the main chromophore, with a biphasic dose response.
+  - Later isolated-enzyme assays found **no** significant 670/830 nm effect on CCO oxygen consumption and no relief of NO inhibition (*Photobiomodulation, Photomedicine, and Laser Surgery*, 2021, PubMed 34115530). A 2020 review there likewise found no reliable demonstration of a CCO mechanism.
+  - Treat any PBM effect as a hypothesis to test with controls.
+- **Quartz nodes at the foci or along the major axis, to lock phase and hand chirality between lobes.**
+  - **Grounded:** quartz is piezoelectric (the basis of frequency standards and phase locking). It is also **enantiomorphic**, crystallising as left- or right-handed forms.
+  - **Speculative:** "chirality handoff" between lobes has no known mechanism. A crystal's handedness does not transfer to a fluid or field flow.
+- **Silk-fibroin or mycelium–silk hybrid skins with distributed piezoelectric response, so deformation generates voltage that reinforces internal ion gradients.**
+  - **Grounded:** silk is shear-piezoelectric. Fukada, "On the piezoelectric effect of silk fibers", *J. Phys. Soc. Jpn.* 11:1301A (1956) measured ~1 pC/N, compared with ~2 pC/N for quartz. The structural origin is oriented β-sheet crystals (PMC3546528).
+  - **Small:** the charge is ~1 pC per newton, so skin flexing gives mV–V on high-impedance loads with negligible power.
+  - **Labels:** "reinforcing internal ion gradients" is **Plausible-untested**, possible only as a sensing or bias signal. The mycelium–silk hybrid is **Speculative** (no data).
+
+**Falsifiable bench steps:**
+1. **Ellipse lens.** Use an LED or laser at focus 1 of a polished 2-D or 3-D ellipse and measure intensity at focus 2 vs off-focus. This is a quick demonstration (Grounded).
+2. **Feedback sign/delay.** Step the RF drive into a cavity plasma, measure the density lag and overshoot, and classify the loop as stable or unstable.
+3. **Silk film.** Measure open-circuit voltage and charge per newton under shear, and check that it is ~1 pC/N. Then check whether that bias changes ion distribution in an adjacent electrolyte. Expected result: negligible.
+
 ### 1. Uranus: field / rotation misalignment as a large-scale reference
 - **Observed (Grounded).**
   - The spin axis is tilted ~98° (obliquity ≈ 97.8°).
