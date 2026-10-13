@@ -204,8 +204,13 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
    - **Magnesium (Mg²⁺):** also takes part in biomineralization (Mg-calcite, dolomite, struvite MgNH₄PO₄·6H₂O). **Risk:** with MICP ammonium and any phosphate, **struvite scaling** forms readily and clogs lines.
    - **Calcium transport with potassium:** Ca²⁺ is the MICP mineral ion (CaCO₃). K⁺ is a benign charge carrier and a fungal nutrient, so it is useful as the electrolyte background cation.
    > Channing (verbatim): "Yeah we were trying to use them intelligently. We also looked at Manganese and zinc compound. The idea for the potassium was to transport the calcite out and then repel it in a sense but again flushing would be needed. We never closed this."
-   - **(c) Manganese and a zinc compound** (specific compounds **[Channing to supply]**):
+   - **(c) Manganese and a zinc compound.** Manganese form clarified (Channing, verbatim): "Permanganate ion". Zinc compound: **[Channing to supply]**.
      - **Mn (Grounded):** a fungal enzyme cofactor. **Manganese peroxidase** is a key lignin-degrading enzyme of white-rot fungi such as Trametes. Microbes also biomineralize MnO₂ deposits, which is a scaling risk. Ties to the Co–MnO mycelium-carbon catalyst (see the Electrolysis section above).
+     - **Permanganate (MnO₄⁻, e.g. KMnO₄, which also ties to the potassium thread), Grounded:** a strong oxidizer and disinfectant, used in water treatment for organics and for iron/manganese removal.
+       - **Caveats:**
+         - It is reduced to **MnO₂ brown deposits**, which cause scaling and staining (ironically a build-up source).
+         - **Toxic to living mycelium:** non-living zones and flushes only.
+         - It **reacts violently with concentrated H₂O₂ and organics.** Never mix it with the peroxide flush or with the acetate/citrate feeds in concentrated form.
      - **Zn (Grounded):** zinc ions and ZnO are antimicrobial and fungitoxic at higher levels (keep to non-living zones). Zinc salts and zinc phosphonates are classic **scale and corrosion inhibitors** in cooling-water treatment.
    - **(d) Potassium strategy: carry calcium/calcite out, then "repel" it.**
      - **Grounded analogs:**
