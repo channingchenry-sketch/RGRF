@@ -266,7 +266,7 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
              - CBD as a membrane/ion-channel modulator: **Grounded** (biology).
              - CBD oil as a bulk ion conductor: **Speculative / unsupported**.
              - Ion transport via additives, water or interfaces in CBD-oil segments: **Plausible-untested**.
-           - **Next step: receptor sites in a biological context.** Channing (verbatim): "Yeah, we jumped from there to the receptor sites in biological context". What this was for in RGRF: **[Channing to supply]**.
+           - **Next step: receptor sites in a biological context.** Channing (verbatim): "Yeah, we jumped from there to the receptor sites in biological context". What this was for in RGRF (Channing, verbatim): "It became speculative at that point as communication potential through layers. Didn't pursue too much." The role was a **possible way to communicate through the habitat layers** (living and non-living), and it was not pursued far. **Speculative. Status: dormant / open.**
              - **Grounded targets. These are preclinical, mostly in vitro, and often at µM concentrations.**
                - **CB1:** a non-competitive **negative allosteric modulator**, with low orthosteric affinity (Ki >4 µM). Laprairie et al., *Br. J. Pharmacol.* 172(20), 4790–4805 (2015), doi:10.1111/bph.13250 ([PMC4621983](https://pmc.ncbi.nlm.nih.gov/articles/PMC4621983/)). The work is from **Dalhousie University, Canada**.
                - **CB2:** low affinity, and antagonist / inverse-agonist / NAM behaviour has been proposed. This is weaker evidence, taken from the review by Peng et al., *Basic Clin. Pharmacol. Toxicol.* (2022), doi:10.1111/bcpt.13710. **Flag:** not checked against primary papers.
