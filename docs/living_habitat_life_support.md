@@ -361,10 +361,13 @@ node topology (from CT or micro-CT) directly to damping coefficient and compress
    - Nuclear–mitochondrial genotype and crosslinker explained most of the variance. PEG gave stiffer but brittle films; glycerol gave ductile films, up to ~98 % elongation according to the press release.
    - Press release: [EurekAlert](https://www.eurekalert.org/news-releases/1092625). Its headline phrase "steel-hard" is hype; the paper's range is soft-leather to stiffer films.
    - **The paste says "thousands of mating types"; the paper says more than 23,000.**
+   - **Detail (verified):** the films are **rubbery with glycerol** (up to ~98 % elongation) and **stiff and brittle with PEG-400**. The **genotype × crosslinker interaction** (nuclear–mitochondrial) drove most of the variance.
+   - **Caveat:** strength is reported as **specific strength** (strength per density, e.g. up to ~3 MPa·m³/kg in the press release). It is **not directly comparable** to the POL target of 2.1–2.8 MPa compressive strength.
    - These are thin films, not bulk composites. Application to POL panels: **Plausible-untested**.
 2. **Living textile node patterning: verified, Grounded.** The work is from SIAT, Chinese Academy of Sciences.
    - K. Li, B. An, J. Zhang, D. Xun, X. Yuan, Y. Song, X. Wang & C. Zhong, "A programmable fungal platform for engineered living textiles," *Sci. Adv.* 12, eaed6937 (24 July 2026). Sources: [PubMed 42497282](https://pubmed.ncbi.nlm.nih.gov/42497282/) and the [SIAT release](https://english.siat.ac.cn/news/sr/202607/t20260730_1183451.html).
    - Aerial hyphae were grown in nutrient patterns after fabrication (snowflake, maple leaf, logo). The material showed surface renewal and repair, and degraded in ~41 days.
+   - **Living-repair detail (verified):** the sheets retain living cells, and with humidity and nutrients they regrow. Damage is repaired by applying fresh pellets that grow over the breach. This supports the item (g) intent to **keep perturbation zones living** where feasible, so that local repair (acetate dosing, fresh inoculum) stays possible.
    - Programmable node placement on POL or craft panels: **Plausible-untested**. This links to the acetate self-healing dosing in the perturbation zones (item (g)): nutrient-induced growth is the same lever.
 3. **Hot-pressing and densification: Grounded direction**, as already noted in [mycelium_uses.md](mycelium_uses.md).
    - The POL target is 420–480 kg/m³ and 2.1–2.8 MPa (up to ~3.6). That is still above the published as-grown range (~0.2–1.1 MPa) and needs coupon tests. **Plausible-untested.**
