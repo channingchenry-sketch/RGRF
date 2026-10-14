@@ -186,7 +186,23 @@ We can go further in any direction
   - Crew-stress sensing by VOC: an electronic nose or GC-IMS in the cabin. **Plausible-untested.**
   - Mycelium stress signaling ([living_habitat_life_support.md item (g)](living_habitat_life_support.md)) is electrical. Fungi also emit VOCs, many of them terpenes or aromatics (not verified here). A combined electrical + VOC stress readout is **Speculative**.
   - The terpene coating thread ([helium_water_circulation.md §10e](helium_water_circulation.md)).
-- **What the benzene-ring / aromatic-hydrocarbon angle was for:** **[Channing to supply]**.
+- **What the benzene-ring / aromatic-hydrocarbon angle was for:** Channing (verbatim): "Yeah, all of the above. Changing into electrical signals."
+  - It covered **both** the molecules dogs detect **and** aromatic π-electron and light interactions.
+  - The unifying idea is **transduction: chemical (or optical) signals converted into electrical signals.**
+  - **Olfactory transduction: Grounded.** An odorant binds a G-protein-coupled olfactory receptor, which activates G_olf. That raises cAMP, which opens a cyclic-nucleotide-gated cation channel. The receptor potential then triggers action potentials.
+    - Receptor family discovery: L. Buck & R. Axel, "A novel multigene family may encode odorant receptors: a molecular basis for odor recognition," *Cell* 65(1), 175–187 (1991), doi:[10.1016/0092-8674(91)90418-X](https://doi.org/10.1016/0092-8674(91)90418-X).
+    - The G_olf → cAMP → CNG steps are textbook; no primary source is cited here.
+  - **Aromatic rings and light: Grounded.** Delocalized π electrons give benzene-ring compounds strong UV absorption. Tryptophan's indole ring is the example in §1: Babcock et al. 2024 showed UV superradiance from tryptophan networks in microtubules. That is another light-to-electronic-excitation route.
+  - **Vibrational theory of olfaction: Speculative / contested.**
+    - L. Turin, "A Spectroscopic Mechanism for Primary Olfactory Reception," *Chem. Senses* 21(6), 773–791 (1996), doi:[10.1093/chemse/21.6.773](https://doi.org/10.1093/chemse/21.6.773). It proposes that receptors read molecular **vibrations** via inelastic electron tunnelling.
+    - Critique: A. Keller & L. B. Vosshall, "A psychophysical test of the vibration theory of olfaction," *Nat. Neurosci.* 7, 337–338 (2004), doi:[10.1038/nn1215](https://doi.org/10.1038/nn1215). Double-blind human tests found **no support**:
+      - a benzaldehyde + guaiacol mixture did not smell more of vanilla;
+      - acetophenone and acetophenone-d8 were not discriminated.
+    - Some later work in other species is debated; it was not verified here.
+  - **RGRF links:**
+    - The same chemical-to-electrical pattern is the basis of the **mycelium electrical stress spikes read by CNT node electrodes** ([living_habitat_life_support.md item (g)](living_habitat_life_support.md)): a chemical or mechanical stress becomes a membrane-potential spike, which an electrode reads.
+    - A cabin VOC e-nose would do the same in hardware: odorant → sensor conductance change.
+    - Labels: **Plausible-untested** as a unified sensing design; **Symbolic** as a "fields" unifier.
 
 ## 4. Open items
 
@@ -195,5 +211,5 @@ We can go further in any direction
 - Which leaf mechanism and trigger response was discussed: flytrap, *Mimosa*, or wound signalling. **[Channing to supply]**
 - Any original Grok text on the informed universe and neutrinos. **[Channing to supply]**
 - Polyvagal theory's role in RGRF (§3b): resolved as an empath's perspective.
-- What the benzene-ring / aromatic angle was for (§3e). **[Channing to supply]**
+- What the benzene-ring / aromatic angle was for (§3e): resolved as both detection and π-electron/light, unified by chemical→electrical transduction.
 - The stray "V" line in the §3d paste. **[Channing to clarify]**
