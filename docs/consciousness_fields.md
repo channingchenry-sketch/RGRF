@@ -104,7 +104,7 @@ Related threads: [em_geometry_map.md](em_geometry_map.md) (cryptochrome / quantu
   - Fascia and emotion (§3 table) and §3c below: interoception is the grounded bridge.
   - Mycelium stress signaling ([living_habitat_life_support.md item (g)](living_habitat_life_support.md)): **Symbolic** analogy only.
   - The cabin-vibration item could add HRV monitoring for crew. **Plausible-untested.**
-- **What it meant in the RGRF framework:** **[Channing to supply]**. Screenshots are being checked.
+- **What it meant in the RGRF framework:** Channing (verbatim): "Yes, I was coming at it from a point of an empath." The thread was approached from an **empath's perspective**. That is a **personal, lived framing** that guided the questions; it is a perspective, not evidence. It also applies to §3d.
 
 ## 3c. Stagnant negative emotion, allostatic load & inflammation
 
@@ -158,11 +158,42 @@ We can go further in any direction
   - "Field" here is a metaphor unless a physical field and a coupling are specified.
 - **Links:** §3b polyvagal (HRV), §3c allostatic load, and the fascia row in §3.
 
+## 3e. Dog olfaction, stress chemosignals & aromatic compounds
+
+> Channing (verbatim): "Yes, I was coming at it from a point of an empath. Also, we looked at dogs and there ability to sense through smell we touched on benzene rings and aromatic hydrocarbons."
+
+- **Dogs smell human stress: Grounded (single study).**
+  - C. Wilson, K. Campbell, Z. Petzel & C. Reeve, "Dogs can discriminate between human baseline and psychological stress condition odours," *PLOS ONE* 17(9), e0274143 (2022), doi:[10.1371/journal.pone.0274143](https://doi.org/10.1371/journal.pone.0274143). The work is from Queen's University Belfast; the authors are from the [QUB release](https://www.qub.ac.uk/News/Allnews/2022/Stress-has-an-odour-and-dogs-can-smell-it.html).
+  - Four trained dogs picked each person's post-stress breath and sweat sample over that person's baseline sample (taken 4 minutes earlier), with **93.75 % accuracy** over 720 trials (chance = 33 %).
+  - This means acute stress changes breath and sweat volatile organic compounds (VOCs). The specific compounds were not identified.
+- **Dogs detect disease VOCs: Grounded, but methods vary.**
+  - Systematic reviews:
+    - Bauër et al., "Remote Medical Scent Detection of Cancer and Infectious Diseases With Dogs and Rats: A Systematic Review," *Integr. Cancer Ther.* (2022), doi:[10.1177/15347354221140516](https://doi.org/10.1177/15347354221140516). The journal was read from the URL prefix.
+    - "Canine olfactory detection of SARS-CoV-2-infected humans—a systematic review," [PMC10195768](https://pmc.ncbi.nlm.nih.gov/articles/PMC10195768/). Higher-quality studies show high sensitivity and specificity, but many studies carry a risk of bias. It also gives the basics: canine olfaction is estimated at **10,000–100,000×** human sensitivity, with detection limits around **parts per trillion**. These are estimates quoted in the review.
+  - "Canine olfactory detection and its relevance to medical detection," *BMC Infect. Dis.* (2021), doi:[10.1186/s12879-021-06523-8](https://doi.org/10.1186/s12879-021-06523-8). For many diseases, the exact molecules dogs respond to are **unknown**.
+- **Aromatic (benzene-ring) compounds in stress and disease VOCs: Grounded (specific studies).**
+  - **Psychological stress, breath:** "The effect of a paced auditory serial addition test (PASAT) intervention on the profile of volatile organic compounds in human breath: a pilot study," *J. Breath Res.* 7(1), 017102 (2013), doi:[10.1088/1752-7155/7/1/017102](https://doi.org/10.1088/1752-7155/7/1/017102).
+    - Six stress-sensitive compounds were found. Three of the confirmed ones are **aromatic**: **indole** (an aromatic heterocycle), **2-hydroxy-1-phenylethanone**, and **benzaldehyde**.
+    - Per the abstract, indole *increased* after stress while benzaldehyde and the others *decreased*, possibly from faster breathing. A trade-press summary says the reverse; the abstract is used here.
+  - **Lung cancer, breath:** "Target Analysis of Volatile Organic Compounds in Exhaled Breath for Lung Cancer Discrimination…" ([PMC7464039](https://pmc.ncbi.nlm.nih.gov/articles/PMC7464039/)). Strong associations were found for **toluene, ethylbenzene and styrene**, which are monoaromatic hydrocarbons. The authors call them largely **exogenous** (ambient air, smoking), which is an important confound.
+  - **COVID-19:** a canine–GC-MS comparison (*ERJ Open Res.* 10(3), 00007-2024, [link](https://publications.ersnet.org/content/erjor/10/3/00007-2024)) reported candidate COVID VOCs. Benzaldehyde was listed in a search summary, but that was **not confirmed from the paper text**.
+  - **Net:** benzene-ring compounds do appear in stress and disease breath profiles. They are a **subset**; aldehydes, alcohols and alkanes matter too. Several are environmental contaminants rather than body-made.
+- **Human fear chemosignals: Grounded.**
+  - J. H. B. de Groot, M. A. M. Smeets, A. Kaldewaij, M. J. A. Duijndam & G. R. Semin, "Chemosignals Communicate Human Emotions," *Psychol. Sci.* 23(11), 1417–1424 (2012), doi:[10.1177/0956797612445317](https://doi.org/10.1177/0956797612445317).
+  - Fear sweat made receivers show a fearful expression and sniff more; disgust sweat produced disgust and sensory rejection. Receivers were not consciously aware of this.
+  - **This is a real, chemical (not field) route for "emotions transferring between people."** It is the grounded counterpart of the §3d field claims.
+- **RGRF links:**
+  - Crew-stress sensing by VOC: an electronic nose or GC-IMS in the cabin. **Plausible-untested.**
+  - Mycelium stress signaling ([living_habitat_life_support.md item (g)](living_habitat_life_support.md)) is electrical. Fungi also emit VOCs, many of them terpenes or aromatics (not verified here). A combined electrical + VOC stress readout is **Speculative**.
+  - The terpene coating thread ([helium_water_circulation.md §10e](helium_water_circulation.md)).
+- **What the benzene-ring / aromatic-hydrocarbon angle was for:** **[Channing to supply]**.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
 - The specific mitochondria-light proposal: wavelength, target, and whether it was meant for crew, mycelium or both. **[Channing to supply]**
 - Which leaf mechanism and trigger response was discussed: flytrap, *Mimosa*, or wound signalling. **[Channing to supply]**
 - Any original Grok text on the informed universe and neutrinos. **[Channing to supply]**
-- Polyvagal theory's role in RGRF (§3b). **[Channing to supply]**
+- Polyvagal theory's role in RGRF (§3b): resolved as an empath's perspective.
+- What the benzene-ring / aromatic angle was for (§3e). **[Channing to supply]**
 - The stray "V" line in the §3d paste. **[Channing to clarify]**
