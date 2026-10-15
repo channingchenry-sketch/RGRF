@@ -919,6 +919,7 @@ Each step below has a grounded anchor, the RGRF extension, a tag and a falsifiab
   - The real test is what fraction is recoverable through the gated leak at different gate timings.
 
 ### R8. Atmosphere layers & Earth–Moon vortex (spin + plasma flow)
+*See also:* [tesla_davinci_threads.md §3e](tesla_davinci_threads.md#3e-toroidal-flows-and-vortices) (Helmholtz theorems, vortex rings, Taylor relaxation, helicity).
 - **Grounded:**
   - **Lunar atmospheric tide:** the Moon raises a small semidiurnal pressure tide L₂(p), with a 12.42 h period. It was first determined by Lefroy (1842) from St Helena data and was later systematised by Chapman. At Copenhagen it is ~10 μb, compared with ~225 μb for the solar S₂: Chapman, *QJRMS* 95:381 (1969). The review is Chapman & Lindzen, *Atmospheric Tides: Thermal and Gravitational* (Reidel, 1970), doi 10.1007/978-94-010-3399-2. Tides propagate upward through the layered atmosphere and grow in amplitude with height.
   - **Plasmasphere corotation:** cold ionospheric plasma inside the plasmapause corotates with Earth, driven by the corotation E-field (v×B of the rotating dipole). The plasmapause sits roughly where corotation balances the dawn–dusk convection field. It was discovered by whistlers in Carpenter, *JGR* 68:1675 (1963), and independently by Gringauz (1963). This is the closest real thing to a "spin-driven plasma vortex" around Earth, and it extends only ~4–6 R_E, far inside lunar orbit (~60 R_E).

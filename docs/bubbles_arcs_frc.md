@@ -70,6 +70,8 @@ V
 - **"Excel in our RMF thruster concepts":** RMF-driven FRC thrusters are studied for space propulsion (Grounded research area). Use on the craft is **Plausible-untested**. An FRC needs vacuum or very low pressure, so it does not work in air or water directly.
 - Links: Z-pinch (radial balance, Bennett, sheared flow) in [tungsten_bismuth_core.md §3](tungsten_bismuth_core.md); Hall-MHD in [tungsten_bismuth_core.md §7b-math](tungsten_bismuth_core.md).
 
+*See also:* spheromaks, Taylor relaxation and toroidal flows in [tesla_davinci_threads.md §3e](tesla_davinci_threads.md#3e-toroidal-flows-and-vortices).
+
 ## Unknowns
 - Bubble size and gas flux.
 - Operating depth range.
