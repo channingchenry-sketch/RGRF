@@ -246,7 +246,63 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 - **Parallel propagation:** the Alfvén wave splits into the right-hand **whistler** branch and the left-hand **ion-cyclotron** branch (which resonates at Ω_i). At high k the whistler obeys **ω ≈ k² v_A d_i ∝ k²** (corrects the garbled "w ac k?").
 - **Helicon modes — Grounded:** bounded whistler waves in a cylinder; the basis of helicon plasma sources. The source text breaks off here: **[Channing to supply]**.
 - The screenshot cited an arXiv source; the specific paper was not recovered, so none is cited here.
-- Links: shear Alfvén-Hall waves in the Z-pinch / cyclotron-magnetron text → [§7](#7-toroidal-photon-dynamics--photon-chase-through-toroidal-field-recovered--speculative); toy HMHD results → §7b below; Z-pinch equilibrium → [§3](#3-z-pinch-with-sheared-flow-stabilization--grounded).
+- Links: shear Alfvén-Hall waves in the Z-pinch / cyclotron-magnetron text → [§7](#7-toroidal-photon-dynamics--photon-chase-through-toroidal-field-recovered--speculative); resistive / dynamo form and the toroidal-field paste → [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15); toy HMHD results → §7b below; Z-pinch equilibrium → [§3](#3-z-pinch-with-sheared-flow-stabilization--grounded).
+
+## 7b-dyn. Toroidal dynamo / induction equation: MHD in space (recovered, OCR-damaged, 2026-10-15)
+**Context:** Channing says the original Grok thread was mainly about **MHD in space**: space plasmas such as the solar wind and magnetospheres, and the dynamo context. Most of that thread was not saved. **[Channing to supply]** the rest as he recalls it. The "dynamo equation we explored earlier" is most likely the induction equation in [§7b-math](#7b-math-hall-mhd-math-recovered-ocr-damaged) above (Hall-MHD form). The earlier dynamo derivation itself is not in the repo. **[Channing to supply]**
+
+**Channing's pasted text (as received, OCR garbling kept):**
+> Equations for insight: The magnetic induction in a toroidal setup follows the dynamo equation we explored earlier, with added toroidal symmetry:  
+> дВ  
+> =nT'B+Tx(uXB)  
+> In closed-loop operation, boundary conditions favor sustained toroidal Bo fields. Stability often requires balancing against kink or tearing modes (MHD instabilities).
+
+**Reconstruction (an interpretation of the OCR, not a recovered original):** the MHD induction equation
+
+**∂B/∂t = η∇²B + ∇×(u×B)**
+
+- "дВ" → ∂B/∂t (the fraction bar and "∂t" were lost); "nT'B" → η∇²B (η read as n, ∇² as T'); "Tx(uXB)" → ∇×(u×B) (∇ read as T). The same OCR pattern appears in §7b-math ("7x" for ∇×).
+- "Bo" → most likely **B_φ** (or B_θ): the **toroidal** component. Naming depends on geometry. In a torus or star the toroidal field is B_φ and the poloidal field B_θ/B_r; in a straight Z-pinch the azimuthal field is called B_θ ([§3](#3-z-pinch-with-sheared-flow-stabilization--grounded)).
+- This is the resistive-MHD limit of the §7b-math equation (no Hall term). The two match when L ≫ d_i, which holds at most space scales.
+
+**Grounded context: MHD in space**
+- **Two terms, one ratio.** ∇×(u×B) advects and stretches the field; η∇²B diffuses it (η = 1/(μ₀σ), the magnetic diffusivity). Their ratio is the **magnetic Reynolds number Rm = uL/η**.
+  - **Space plasmas:** Rm is enormous (solar wind, magnetospheres), so the field is "frozen in" to the flow (Alfvén's frozen-flux picture; H. Alfvén, *Nature* 150, 405 (1942), on MHD waves).
+  - **Earth's outer core:** Rm ~ 10³ (order-of-magnitude estimate), well above the dynamo onset.
+  - **Lab liquid sodium:** Rm ~ 10–50 needs metre-scale vessels and m/s flows. VKS reached its threshold near Rm ≈ 30.
+- **Solar wind and Parker spiral.** Frozen-in field drawn out by the outflowing corona: E. N. Parker, "Dynamics of the interplanetary gas and magnetic fields," *ApJ* 128, 664 (1958), doi:10.1086/146579.
+- **Magnetospheres.** Where frozen-in breaks down locally, reconnection couples the solar wind to the magnetosphere: J. W. Dungey, "Interplanetary magnetic field and the auroral zones," *PRL* 6, 47 (1961), doi:10.1103/PhysRevLett.6.47. See [em_topo L4d (Planetary pulse-confinement cycle)](em_topological_gravity_review.md#planetary-pulse-confinement-cycle) and [L5c (aligning in the magnetosphere)](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere).
+- **Cowling's anti-dynamo theorem.** An axisymmetric magnetic field cannot be sustained by dynamo action: T. G. Cowling, "The magnetic field of sunspots," *MNRAS* 94, 39–48 (1933), doi:10.1093/mnras/94.1.39.
+  - **So "added toroidal symmetry" needs care.** Symmetry can simplify the *equations*, but a purely axisymmetric (toroidally symmetric) field cannot *self-sustain*; it decays on the resistive time ~L²/η. Real dynamos need non-axisymmetric motion (e.g. cyclonic/helical turbulence).
+- **α–Ω dynamo (stars, planets).** The **Ω effect** (differential rotation) shears poloidal field into toroidal field. The **α effect** (helical/cyclonic motion) twists toroidal field back into poloidal loops, closing the cycle: E. N. Parker, "Hydromagnetic dynamo models," *ApJ* 122, 293 (1955), doi:10.1086/146087. Strong toroidal fields in the Sun are thought to sit near the tachocline. See [em_topo: Jupiter's dynamo](em_topological_gravity_review.md#4-jupiter-fuzzy-dilute-core--metallic-hydrogen).
+- **Lab dynamos (self-excitation demonstrated):**
+  - Riga: A. Gailitis et al., *PRL* 84, 4365 (2000), doi:10.1103/PhysRevLett.84.4365 (helical sodium flow, growing eigenmode).
+  - Karlsruhe: R. Stieglitz & U. Müller, *Phys. Fluids* 13, 561 (2001) (two-scale homogeneous dynamo).
+  - VKS: R. Monchaux et al., *PRL* 98, 044502 (2007), doi:10.1103/PhysRevLett.98.044502 (turbulent von Kármán sodium flow).
+
+**Grounded analogs: stability (lab, tokamak / pinch)**
+- **Kink modes.** A current-carrying plasma column is unstable to lateral (m = 1) kinking: M. Kruskal & M. Schwarzschild, *Proc. R. Soc. A* 223, 348 (1954), doi:10.1098/rspa.1954.0120. The **Kruskal–Shafranov limit** requires the edge safety factor **q = r B_φ/(R B_θ) > 1** in a torus. In space, kinking flux ropes are a candidate trigger for solar eruptions.
+- **Tearing modes.** Resistive breakup of a current sheet into magnetic islands, with growth rate ∝ τ_R^(−3/5) τ_H^(−2/5): H. P. Furth, J. Killeen & M. N. Rosenbluth, *Phys. Fluids* 6, 459 (1963), doi:10.1063/1.1706761. In space, tearing in the magnetotail current sheet is linked to reconnection onset.
+- **Externally driven ≠ dynamo.** A tokamak's toroidal field comes from external coils, and its plasma current is driven by a transformer. That is a **driven** closed loop, not a self-sustained dynamo. "Sustained toroidal fields in closed-loop operation" is true for driven devices, not for self-excitation.
+- **Nearest lab case of self-organization:** reversed-field pinches relax to a minimum-energy state with reversed toroidal field ("RFP dynamo"): J. B. Taylor, *PRL* 33, 1139 (1974), doi:10.1103/PhysRevLett.33.1139. This is still powered by external current drive.
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Induction equation ∂B/∂t = η∇²B + ∇×(u×B); Rm; frozen-in flux | Grounded |
+| Reconstruction of the OCR ("дВ", "nT'B", "Tx(uXB)", "Bo") | Interpretation (high confidence for the equation; "Bo" = toroidal component is likely, not certain) |
+| "Added toroidal symmetry" sustaining a field by dynamo | Contradicted by Cowling's theorem if taken literally (pure axisymmetry); fine as a modelling simplification |
+| Toroidal field from differential rotation (Ω effect) in stars / planets | Grounded |
+| Kink and tearing as the stability limits; q > 1 | Grounded (analogs from lab/tokamak; both also seen in space plasmas) |
+| Sustained toroidal B in a closed loop **driven by external coils** | Grounded (tokamak), but not a dynamo |
+| RGRF use: a self-sustaining toroidal field in a craft or core loop | **Speculative**: needs Rm ≳ 10–100 in a conducting fluid or plasma plus non-axisymmetric (helical) flow; no design given |
+| RGRF use: a **driven** toroidal field with kink/tearing margins (q > 1) | **Plausible-untested**: standard engineering, but no RGRF geometry, currents or η yet |
+
+**Open items**
+- The rest of the MHD-in-space thread, including the "earlier" dynamo derivation: **[Channing to supply]**.
+- Is the RGRF loop meant to be **self-sustained** (dynamo) or **driven** (coils)? **[Channing to clarify]**
+- Working fluid or plasma, size L, flow speed u and conductivity σ, to estimate Rm. **[Channing to supply]**
+- Bench idea: compute Rm for any proposed liquid-metal or plasma loop before building. If Rm ≪ 10, no dynamo is possible and the field is purely driven.
 
 ## 7b. Hall-MHD simulation results — unrecovered toy normalized model
 **Status: results of an unrecovered toy model in normalized units. The script is missing. This is not a physical validation.**

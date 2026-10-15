@@ -68,7 +68,7 @@
 | [`bioelectric_coupling.md`](bioelectric_coupling.md) | Schumann/telluric, green lensing, bioelectric chain, collagen | Recovered + **Bridged** (×2) |
 | [`materials_electronics.md`](materials_electronics.md) | CNT@BNNT, Bi₂O₂Se, B₄C | Recovered |
 | [`recent_fluid_dynamics_2024_2026.md`](recent_fluid_dynamics_2024_2026.md) | Hydrodynamics as EFT | Item 1 only; rest **Missing** |
-| [`tungsten_bismuth_core.md`](tungsten_bismuth_core.md) | W-Bi core heartbeat, Z-pinch, Krausz attosecond (from 6 screenshots) | Recovered (toroidal text recovered); heartbeat freqs/geometry, HMHD script **Missing** |
+| [`tungsten_bismuth_core.md`](tungsten_bismuth_core.md) | W-Bi core heartbeat, Z-pinch, Krausz attosecond (from 6 screenshots) | Recovered (toroidal text recovered; §7b-dyn toroidal dynamo / MHD-in-space paste recovered 2026-10-15, rest of that thread **Missing**); heartbeat freqs/geometry, HMHD script **Missing** |
 | [`em_geometry_map.md`](em_geometry_map.md) · [`shifting_phase_order_review.md`](shifting_phase_order_review.md) | Geometry / phase-order maps | Recovered |
 | [`tesla_and_ancient_alignments.md`](tesla_and_ancient_alignments.md) · [`franklin_lightning_rod.md`](franklin_lightning_rod.md) | Historical / alignment threads | Recovered |
 | [`mycelium_uses.md`](mycelium_uses.md) · [`regenerative_housing.md`](regenerative_housing.md) · [`open_grow_kit.md`](open_grow_kit.md) · [`coral_wave_barriers.md`](coral_wave_barriers.md) | Materials, housing, grow kit, coastal | Recovered |
@@ -93,4 +93,4 @@
    - the source for "~32 identified mechanisms";
    - green-lensing mechanism and source.
 6. **Materials:** a specific graphene/h-BN/TMD MISFET paper.
-7. **Tungsten-Bismuth Core:** heartbeat frequencies and geometry; the Hall-MHD simulation script and helicon text; the end of the CSAMT text and its RGRF-extension continuation; the end of the MT-inversion text (cut off at "…geomagnetism via"); end of the quartz-partner "Bell tests" text and the ~232 as source (toroidal photon text now recovered).
+7. **Tungsten-Bismuth Core:** heartbeat frequencies and geometry; the Hall-MHD simulation script and helicon text; the rest of the MHD-in-space / dynamo thread (§7b-dyn); the end of the CSAMT text and its RGRF-extension continuation; the end of the MT-inversion text (cut off at "…geomagnetism via"); end of the quartz-partner "Bell tests" text and the ~232 as source (toroidal photon text now recovered).

@@ -117,6 +117,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 | Length scale L vs ion inertial length d_i = c/ω_pi | Hall-MHD ∂B/∂t = ∇×(v×B) − ∇×[(J×B)/(ne)] + η∇²B; ε_H = d_i/L | Field (advection, Hall decoupling, diffusion) | Grounded | — | §7b-math |
 | Wavenumber k (small scales) | Whistler ω ≈ k² v_A d_i; ion-cyclotron branch at Ω_i | Field (dispersive waves) | Grounded | — | §7b-math |
 | Resistivity η | η∇²B term | Field diffusion, heat | Grounded | — | §7b-math |
+| Loop size L, flow u, diffusivity η (toroidal field) | Induction ∂B/∂t = η∇²B + ∇×(u×B); Rm = uL/η; Cowling (no axisymmetric dynamo); kink limit q > 1; tearing (Furth–Killeen–Rosenbluth 1963) | Field (advection/stretching vs diffusion); plasma (instability) | Grounded (law, space MHD); driven toroidal loop Plausible-untested; self-sustained RGRF dynamo Speculative | Compute Rm first (Rm ≪ 10 → no dynamo) | §7b-dyn |
 | "Optimal drive ~0.65", vortex 0.388, ion density 0.844 | Unrecovered toy model, normalized units | — | Speculative (no script) | Not physical | §7b |
 | Wireless (CNT-sensor) feedback latency | Loop delay limits bandwidth (ms radio latency) | Information/charge | Plausible-untested | — | §7b, §7c |
 | Attosecond pulses | HHG cutoff E = I_p + 3.17U_p | Charge (photoelectrons), field | Grounded as a diagnostic; Speculative as control (timescale mismatch) | — | §5 |
