@@ -690,6 +690,123 @@ Channing says this theme was also woven into his *Entanglements* work, in an alt
 - Calming a reactive person by explaining the mechanism in the moment: **Plausible-untested**.
 - *Entanglements* teaching scenario: **Symbolic**, **[Channing to supply]**.
 
+## 3n. Dean Radin & the Institute of Noetic Sciences (IONS)
+
+**Context:** Channing says he looked into Radin and IONS on this same path (consciousness, intent, morphic resonance). Which Radin experiments or ideas he focused on originally: **[Channing to clarify]**.
+
+Links:
+- §3g (intent as alignment);
+- §3l (McDougall rats and morphic resonance: another claim of mind or learning acting beyond known channels);
+- the §3 table rows on the Global Consciousness Project and "informed" neutrinos that entangle;
+- [em_topological_gravity_review.md §L9](em_topological_gravity_review.md) and [em_geometry_map.md](em_geometry_map.md) (entanglement and no-signalling);
+- §3m (illusory truth, motivated reasoning: the same tools apply when judging this literature).
+
+**How to read the labels here:** that a meta-analysis or paper **exists and reports X** is **Grounded**. That the **effect is real** (psi, retrocausation, mind affecting a photon) is a separate claim, labelled on its own.
+
+### Who and what
+
+1. **IONS: Grounded.** The Institute of Noetic Sciences, Petaluma, California, was founded in **1973 by Apollo 14 astronaut Edgar Mitchell**, after the sense of connectedness he described on the return from the Moon ([noetic.org/about/origins](https://noetic.org/about/origins/)). Its stated mission is to "reveal the interconnected nature of reality through scientific exploration and personal discovery." It is a private nonprofit, not a university.
+2. **Dean Radin: Grounded (per IONS profile).** [IONS profile](https://noetic.org/profile/dean-radin/):
+   - Chief Scientist at IONS (joined 2001).
+   - BSEE (UMass Amherst); MS in electrical engineering and PhD in psychology (University of Illinois).
+   - Earlier R&D at AT&T Bell Labs and GTE.
+   - Earlier appointments at Princeton, SRI International and elsewhere.
+3. **Books: Grounded** ([deanradin.com/books](https://www.deanradin.com/books)):
+   - *The Conscious Universe* (HarperCollins/HarperEdge, 1997);
+   - *Entangled Minds* (2006);
+   - *Supernormal* (2013);
+   - *Real Magic* (2018);
+   - *Science of Magic* (recent).
+   - *Entangled Minds* argues that quantum entanglement offers a model for psi. That link is **Speculative**: see "Physics" below.
+
+### Key experiments and the critique side
+
+4. **Presentiment / predictive anticipatory activity (PAA).**
+   - J. Mossbridge, P. Tressoldi & J. Utts, "Predictive physiological anticipation preceding seemingly unpredictable stimuli: a meta-analysis," *Front. Psychol.* 3, 390 (2012), doi:[10.3389/fpsyg.2012.00390](https://doi.org/10.3389/fpsyg.2012.00390).
+     - Pooled 26 reports (1978–2010) of physiological signals (skin conductance, heart rate, pupil, EEG, BOLD) **before** randomly ordered arousing vs neutral stimuli.
+     - Random-effects ES = **0.21** (95% CI 0.13–0.29). Fail-safe N was 87 reports.
+     - The authors themselves call for multi-lab replications with the same methods.
+     - Radin authored several of the pooled studies (from memory; not checked study by study).
+   - **Critique:** D. S. Schwarzkopf, "We should have seen this coming," *Front. Hum. Neurosci.* 8, 332 (2014), doi:[10.3389/fnhum.2014.00332](https://doi.org/10.3389/fnhum.2014.00332).
+     - Questionable primary studies; inadequate quality and publication-bias checks.
+     - Ordinary **expectation / trial-order effects** were not ruled out: after several calm trials, people's arousal drifts up in anticipation of an arousing one (gambler's-fallacy-like). Baseline-correction artefacts are another worry.
+     - Mossbridge et al. replied that results survive excluding the criticized studies ([reply PDF](https://noetic.org/wp-content/uploads/2021/11/We-Did-See-This-Coming_Radin.pdf)).
+   - **Labels:**
+     - Meta-analysis exists and reports a small effect: **Grounded**.
+     - True precognitive physiology: **Speculative / contested**.
+     - Expectation artefacts: a **Plausible** ordinary explanation not fully excluded.
+5. **Double-slit "observer" experiments.**
+   - D. Radin, L. Michel, K. Galdamez, P. Wendland, R. Rickenbach & A. Delorme, "Consciousness and the double-slit interference pattern: Six experiments," *Phys. Essays* 25(2), 157–171 (2012), doi:[10.4006/0836-1398-25.2.157](https://doi.org/10.4006/0836-1398-25.2.157).
+     - Participants alternated attention toward and away from a double-slit setup.
+     - The double-slit / single-slit spectral-power ratio fell as predicted (z = −4.36) over 250 sessions; 250 sessions with no observer were null.
+   - D. Radin, L. Michel & A. Delorme, "Psychophysical modulation of fringe visibility in a distant double-slit optical system," *Phys. Essays* 29(1), 14–22 (2016), doi:[10.4006/0836-1398-29.1.014](https://doi.org/10.4006/0836-1398-29.1.014).
+     - An **online** version: 1,479 people in 77 countries, 2,985 sessions (2013–2014), with 5,738 computer-simulated controls.
+     - Reported a 5.72σ deviation. Note: the abstract says the sign of the 2014 data was **reversed** for reasons argued in the paper, a flexible-analysis red flag.
+     - This is a follow-up by the **same lab**, not an independent replication.
+   - **Critiques:**
+     - M. Sassoli de Bianchi, "Quantum measurements are physical processes. Comment on…," *Phys. Essays* 26(1), 15 (2013), doi:[10.4006/0836-1398-26.1.15](https://doi.org/10.4006/0836-1398-26.1.15). Measurement is a physical interaction, so attention without physical coupling should not count as "observation."
+     - N. Tremblay, "Independent re-analysis of alleged mind-matter interaction in double-slit experimental data," *PLoS ONE* 14(2), e0211511 (2019), doi:[10.1371/journal.pone.0211511](https://doi.org/10.1371/journal.pone.0211511), with a 2021 correction (doi:[10.1371/journal.pone.0253686](https://doi.org/10.1371/journal.pone.0253686)).
+       - Using IONS' openly shared data, shifts were in the predicted direction but **not significant after correcting for multiple testing**.
+       - The correction found a trimming step gave uncontrolled false positives. The conclusion stood.
+       - Volume/issue written from memory; the DOIs and findings were verified.
+     - No independent physics-lab replication was found.
+   - **Labels:**
+     - The papers exist: **Grounded**.
+     - Attention altering an interference pattern: **Speculative / not supported** by the independent reanalysis.
+6. **Ganzfeld (telepathy-style free-response) meta-analyses.**
+   - L. Storm, P. E. Tressoldi & L. Di Risio, "Meta-analysis of free-response studies, 1992–2008: Assessing the noise reduction model in parapsychology," *Psychol. Bull.* 136(4), 471–485 (2010), doi:[10.1037/a0019457](https://doi.org/10.1037/a0019457).
+     - 29 ganzfeld studies (1997–2008) gave mean ES 0.142 (Stouffer Z = 5.48).
+     - Standard free-response studies were slightly **negative**.
+   - **Critique:** R. Hyman, "Meta-analysis that conceals more than it reveals: Comment on Storm et al. (2010)," *Psychol. Bull.* 136(4), 486–490 (2010), doi:[10.1037/a0019676](https://doi.org/10.1037/a0019676).
+     - Apparent homogeneity was manufactured by dropping outliers and pooling heterogeneous sets.
+     - A well-powered study following the "recipe" had already failed.
+     - Parapsychology still lacks a positive theory and independently replicable evidence.
+     - Storm et al. replied ("A meta-analysis with nothing to hide").
+   - **Labels:**
+     - Meta-analysis exists: **Grounded**.
+     - Telepathy: **Speculative / contested**.
+     - Psychological Bulletin publishing it shows it passed review, not that the effect is accepted.
+7. **Bem 2011 "Feeling the Future" and the replication crisis.**
+   - D. J. Bem, "Feeling the future: Experimental evidence for anomalous retroactive influences on cognition and affect," *J. Pers. Soc. Psychol.* 100(3), 407–425 (2011), doi:[10.1037/a0021524](https://doi.org/10.1037/a0021524). Nine experiments "time-reversed" standard effects; eight were significant.
+   - E.-J. Wagenmakers, R. Wetzels, D. Borsboom & H. L. J. van der Maas, "Why psychologists must change the way they analyze their data: The case of psi," *JPSP* 100(3), 426–432 (2011), doi:[10.1037/a0022790](https://doi.org/10.1037/a0022790).
+     - The analysis was partly **exploratory**, and one-sided p-values overstated the evidence.
+     - A default Bayesian t-test found the evidence "weak to nonexistent."
+   - S. J. Ritchie, R. Wiseman & C. C. French, "Failing the Future: Three unsuccessful attempts to replicate Bem's 'retroactive facilitation of recall' effect," *PLoS ONE* 7(3), e33423 (2012), doi:[10.1371/journal.pone.0033423](https://doi.org/10.1371/journal.pone.0033423).
+     - Three **preregistered**, near-exact replications (combined n = 150, p = .83) were null.
+     - The paper also notes effect size fell as sample size grew in Bem's studies (consistent with optional stopping) and that unblinded word coding was used.
+   - J. Galak, R. A. LeBoeuf, L. D. Nelson & J. P. Simmons, "Correcting the past: Failures to replicate psi," *JPSP* 103(6), 933–948 (2012), doi:[10.1037/a0029709](https://doi.org/10.1037/a0029709); volume and pages from memory.
+     - Seven experiments, N = 3,289.
+     - Meta-analytic d = 0.04, indistinguishable from zero.
+   - **Proponent side:** D. Bem, P. Tressoldi, T. Rabeyron & M. Duggan, "Feeling the future: A meta-analysis of 90 experiments…," *F1000Research* 4, 1188 (2015), [PMC4706048](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4706048/). Overall g ≈ 0.09. Critics question its mix of pre-2011 studies and non-preregistered work.
+   - **Context: Grounded.** The Bem episode became a textbook case in psychology's **replication crisis**. It pushed preregistration, stricter thresholds and Bayesian checks. If standard methods could "prove" precognition, the methods were too loose.
+   - **Labels:**
+     - Precognition: **Speculative**; preregistered replications failed.
+     - The methodological lessons: **Grounded**.
+
+### Cross-cutting critiques
+
+8. **Publication bias and the file drawer.** Small effects (ES about 0.1–0.2) are exactly what selective reporting and analytic flexibility can produce. Fail-safe N calculations are a weak defence, because they assume the missing studies average zero. **Grounded** as a general concern.
+9. **Flexible analysis.** Optional stopping, one-tailed tests, outcome selection and post-hoc sign reversals (above) inflate false positives. **Grounded** as a general concern.
+10. **Experimenter effects and independence.** Proponent labs tend to find effects and sceptic labs tend not to. That may itself be an artefact signal; proponents call it an experimenter-psi effect. One sceptic–proponent collaboration explored this: M. Schlitz, R. Wiseman, C. Watt & D. Radin, "Of two minds: Sceptic-proponent collaboration within parapsychology," *Br. J. Psychol.* 97, 313–322 (2006). This was cited in Ritchie et al. 2012; it was not opened here.
+11. **No mechanism.** No known physical carrier explains information arriving before its cause, or attention moving photons at a distance.
+    - Entanglement obeys the **no-signalling theorem**: it cannot carry a message on its own (see [em_geometry_map.md](em_geometry_map.md)).
+    - So "entangled minds" is a metaphor unless a mechanism is shown. **Speculative / Symbolic.**
+12. **Physics: consciousness-caused collapse is not mainstream. Grounded.**
+    - The von Neumann–Wigner idea that consciousness collapses the wavefunction is a historical minority view.
+    - Decoherence explains why measurements look classical without needing a mind.
+    - M. Schlosshauer, J. Kofler & A. Zeilinger, "A snapshot of foundational attitudes toward quantum mechanics" (2013), [arXiv:1301.1069](https://arxiv.org/abs/1301.1069): among 33 quantum-foundations conference attendees, only **6%** gave the observer a distinguished physical role such as consciousness-induced collapse. It is a small, informal poll, but telling given the audience. Journal citation (*Stud. Hist. Phil. Mod. Phys.* 44, 222) is from memory.
+
+### Labels (summary)
+
+- IONS (1973, Edgar Mitchell), Radin's role and books, and the existence of the cited papers and meta-analyses: **Grounded**.
+- Presentiment, ganzfeld telepathy, precognition (Bem), and attention affecting double-slit patterns as **real effects**: **Speculative / contested**.
+  - Preregistered or independent replications so far are null (Bem) or non-significant (double-slit reanalysis).
+  - Meta-analytic positives remain open to bias explanations.
+- Entanglement or quantum measurement as the mechanism: **Speculative / Symbolic**. It conflicts with no-signalling, and consciousness-caused collapse is a minority view.
+- Methodological lessons (preregistration, Bayesian checks, publication bias): **Grounded**.
+- Fit with RGRF: like morphic resonance (§3l) and the Global Consciousness Project (§3 table), this is a **Speculative** strand. What would move it is **preregistered, multi-lab, adversarial-collaboration replication**: one design run by proponent and sceptic labs together.
+- Which Radin experiments or ideas Channing originally focused on, and why: **[Channing to clarify]**.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
@@ -703,3 +820,4 @@ Channing says this theme was also woven into his *Entanglements* work, in an alt
 - The garbled tail of the §3g "Intent as alignment" paste. **[Channing to supply]**
 - §3m: Channing's verbatim wording of the evolutionary-mismatch / reactive-states idea, if wanted. **[Channing to supply]**
 - §3m: the lost *Entanglements* alternate-timeline teaching scenario, to rebuild from memory. **[Channing to supply]**
+- §3n: which Dean Radin / IONS experiments or ideas were the original focus (presentiment, double-slit, ganzfeld, *Entangled Minds*, other). **[Channing to clarify]**
