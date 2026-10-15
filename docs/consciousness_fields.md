@@ -293,6 +293,48 @@ Another piece
    - Antlers also show **fast growth kept in check** by tumour-suppressor selection. Unchecked growth in living zones (biofouling) is the matching design risk.
 6. **What specifically was proposed:** **[Channing to supply]**.
 
+## 3i. Frisson: aesthetic chills, goosebumps & being moved (general research)
+
+This section is general research only. Frisson means the chills, goosebumps or piloerection people feel at intense, "resonant" moments.
+
+1. **Reward circuitry: Grounded.**
+   - A. J. Blood & R. J. Zatorre, "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion," *PNAS* 98(20), 11818–11823 (2001), [PMID 11573015](https://pubmed.ncbi.nlm.nih.gov/11573015/).
+     - PET imaging: as chill intensity rose, blood flow changed in the ventral striatum, midbrain, amygdala, orbitofrontal cortex and ventromedial prefrontal cortex.
+     - Heart rate, muscle activity (EMG) and respiration changed alongside.
+   - V. N. Salimpoor, M. Benovoy, K. Larcher, A. Dagher & R. J. Zatorre, "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music," *Nat. Neurosci.* 14, 257–262 (2011), doi:[10.1038/nn.2726](https://doi.org/10.1038/nn.2726).
+     - [¹¹C]raclopride PET showed **dopamine release in the striatum** at peak emotion.
+     - The **caudate** was more involved during **anticipation**, the **nucleus accumbens** during the **peak** itself.
+2. **Individual differences: Grounded.**
+   - M. E. Sachs, R. J. Ellis, G. Schlaug & P. Loui, "Brain connectivity reflects human aesthetic responses to music," *Soc. Cogn. Affect. Neurosci.* 11(6), 884–891 (2016), [PMID 26966157](https://pubmed.ncbi.nlm.nih.gov/26966157/). People who get chills had greater white-matter volume (DTI tracts) linking the auditory pSTG to the anterior insula and mPFC, which handle emotional and social processing. The sample was small.
+   - R. R. McCrae, "Aesthetic Chills as a Universal Marker of Openness to Experience," *Motiv. Emot.* 31, 5–11 (2007), doi:[10.1007/s11031-007-9053-1](https://doi.org/10.1007/s11031-007-9053-1). The NEO-PI-R chills item (item 188) is one of the best markers of Openness in most of the **51 cultures** examined.
+   - M. C. Colver & A. El-Alayli, "Getting aesthetic chills from music: The connection between openness to experience and frisson," *Psychol. Music* 44(3), 413–427 (2016), doi:[10.1177/0305735615572358](https://doi.org/10.1177/0305735615572358).
+     - In 100 students, frisson frequency (self-report plus skin conductance) correlated with Openness and with 5 of its 6 facets.
+     - The **cognitive** facets (attentive, predictive listening) mattered more than had been assumed.
+3. **Being moved / kama muta: Grounded.** J. H. Zickfeld et al., "Kama muta: Conceptualizing and measuring the experience often labelled being moved across 19 nations and 15 languages," *Emotion* 19(3), 402–424 (2019), doi:[10.1037/emo0000450](https://doi.org/10.1037/emo0000450).
+   - Study size: 3,542 participants.
+   - Trigger: a **sudden intensification of communal sharing**.
+   - Typical signs: warmth in the chest, tears, **chills or piloerection**, a lump in the throat, buoyancy.
+4. **Social and intellectual chills: Grounded, with an early evidence base.**
+   - S. Bannister, "Distinct varieties of aesthetic chills in response to multimedia," *PLoS ONE* 14(11), e0224974 (2019), doi:[10.1371/journal.pone.0224974](https://doi.org/10.1371/journal.pone.0224974).
+     - It found three kinds of chills: **warm** (communion, such as group singing or scientists celebrating), **cold** (distress and support) and **moving**. Only moving chills were predicted by **trait empathy**.
+     - It reviews chills from film, spoken poetry, speeches and religious settings.
+   - Chills during insight and understanding: F. Schoeller & L. Perlovsky, "Aesthetic Chills: Knowledge-Acquisition, Meaning-Making, and Aesthetic Emotions," *Front. Psychol.* 7, 1093 (2016), PMID 27540366. This is a **theory paper**, cited in Bannister 2019 but not read in full here, so treat it as **Plausible**.
+5. **Goosebumps physiology, which ties to §3h hair regeneration: Grounded.**
+   - Sympathetic nerves contract the arrector pili muscle (APM), which raises the hair.
+   - Y. Shwartz et al. (Y.-C. Hsu lab, Harvard), "Cell Types Promoting Goosebumps Form a Niche to Regulate Hair Follicle Stem Cells," *Cell* 182(3), 578–593 (2020), [PMC7540726](https://pmc.ncbi.nlm.nih.gov/articles/PMC7540726/).
+     - The **APM and sympathetic nerve form a niche** for hair-follicle stem cells. The nerve makes synapse-like contacts and releases norepinephrine.
+     - Cold raises sympathetic tone, which causes goosebumps **and speeds stem-cell activation and new hair growth**.
+     - So the "goosebump circuit" is also a regeneration circuit.
+     - This was shown in mice for cold, not for emotional chills.
+6. **Links:**
+   - §3d coherence: chills track peak engagement and empathy, and are measurable with skin conductance and HRV.
+   - §3h hair-cycle regeneration: the shared sympathetic-APM-stem-cell niche above.
+7. **Labels:**
+   - Physiology, reward and individual differences: **Grounded**.
+   - Chills as a marker of "resonant" moments of insight: **Plausible**.
+   - **"Resonance between minds causes chills": Speculative.** Shared experience and empathy predict chills (Bannister 2019; Zickfeld 2019), but that is psychological coupling, not a demonstrated field effect.
+   - Emotional chills driving hair or stem-cell activity: **Speculative**, not tested.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
