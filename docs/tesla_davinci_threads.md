@@ -54,7 +54,19 @@ The **male/female framing stays Symbolic**. The physics it points to is real.
   - anode double layers on the bench: [dusty_plasma_bench.md](dusty_plasma_bench.md).
 - **RGRF use (Plausible-untested):** design for quasi-neutral, ambipolar expansion, for example a sheath or plume that is seeded, then allowed to expand with a controlled double layer. The [dusty plasma bench](dusty_plasma_bench.md) anode double layer is the testbed.
 
+**Role mapping.** Asked whether male/female mapped to charges or species, Channing replied (verbatim, 2026-10-15): "Yes we also compared it to electromagnetism". The "Yes" confirms a charge mapping. Which charge or species maps to which role is still **[Channing to clarify]**. The electromagnetism comparison is in §3b.
+
 **Speculative, separate from the physics above.** Ambipolar expansion, where opposite charges move outward together and stay balanced, can be read as a *metaphor* for "expanded consciousness" arising from balanced complementary energies. Nothing in plasma physics supports a physical link between the two.
+
+### 3b. Electric/magnetic as a complementary pair
+> Channing (verbatim, 2026-10-15): "Yes we also compared it to electromagnetism"
+
+Reading E and B as a male/female pair is **Symbolic**. The physics of E and B as two aspects of one thing is **Grounded** (standard electrodynamics, e.g. J. D. Jackson, *Classical Electrodynamics*, 3rd ed., chs. 6, 7, 11):
+- **One field, two faces.** E and B are the components of a single antisymmetric field tensor F_μν (E_i = F_{i0} in one common convention, B_i from the space–space components). Under a Lorentz boost they **mix**: a pure electric field in one frame has a magnetic part in another (E′_∥ = E_∥, E′_⊥ = γ(E + v×B)_⊥, B′_⊥ = γ(B − v×E/c²)_⊥). Neither is fundamental on its own.
+- **Each regenerates the other.** Faraday's law, ∇×E = −∂B/∂t, and the Ampère–Maxwell law, ∇×B = μ₀J + μ₀ε₀∂E/∂t, mean that a changing B makes E and a changing E makes B. In a vacuum, this mutual regeneration *is* the electromagnetic wave. In a vacuum plane wave E and B are **in phase**, perpendicular to each other and to the propagation direction, with |E| = c|B|.
+- **Equal shares of energy.** The energy density u = ½(ε₀E² + B²/μ₀). In a vacuum wave the electric and magnetic halves are equal: ε₀E²/2 = B²/(2μ₀). Neither partner carries more.
+- **Duality symmetry.** Source-free Maxwell equations are unchanged under E → cB, cB → −E, and more generally under continuous rotations between E and cB. With sources the symmetry is broken, because there are electric charges but no magnetic ones. Restoring it exactly would need **magnetic monopoles**. P. A. M. Dirac, "Quantised singularities in the electromagnetic field," *Proc. R. Soc. Lond. A* 133, 60–72 (1931), doi:10.1098/rspa.1931.0130, showed that one monopole anywhere would explain why electric charge is quantised. No monopole has been observed, so exact E–B duality in nature is **Speculative**. (Emergent "monopole" quasiparticles in spin ice are a condensed-matter analog, not free monopoles; not cited here.)
+- **RGRF links.** The colour-coded EM and geometry map ([em_geometry_map.md](em_geometry_map.md)) uses E/B-style pairings symbolically. The Electric Universe and EM-topological gravity review ([em_topological_gravity_review.md](em_topological_gravity_review.md)) covers where EM physics is real and where claims overreach. Charge balance and expansion (§3a) is the electric side. Fields, Alfvén waves and induction ([tungsten_bismuth_core §7b-alfven](tungsten_bismuth_core.md)) are the magnetic and coupled side.
 
 ## Labels
 | Claim | Label |
@@ -69,7 +81,10 @@ The **male/female framing stays Symbolic**. The physics it points to is real.
 | Quasi-neutrality, ambipolar expansion, double layers | Grounded |
 | Designing RGRF sheaths and plumes around charge balance and expansion | Plausible-untested |
 | Expansion ↔ "expanded consciousness" | Speculative (metaphor only) |
+| E and B as one tensor; mutual regeneration; equal energy in a vacuum wave; source-free duality | Grounded |
+| Exact E–B duality with sources (magnetic monopoles) | Speculative (unobserved) |
+| E/B as male/female | Symbolic |
 
 ## Open items
 - The specific Tesla and Da Vinci threads explored, and any Grok text. **[Channing to supply]**
-- Which "male" and "female" roles mapped to which charge or species (e.g. electrons vs ions, or source vs expansion), if any. **[Channing to supply]**
+- Charge mapping confirmed ("Yes we also compared it to electromagnetism"). Which charge or species, and E or B, maps to which role is still **[Channing to clarify]**.
