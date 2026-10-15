@@ -187,7 +187,58 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
   - **Magnetic mirrors:** the magnetic moment μ = mv⊥²/2B is an adiabatic invariant, so particles reflect where B rises, if their pitch angle is outside the loss cone. Examples: Van Allen belts, mirror machines.
 - **The Boris pusher.** This is the standard numerical integrator: half electric kick, exact-norm magnetic rotation, half kick. It conserves energy in a pure magnetic field and has excellent long-term phase-space behaviour. J. P. Boris, "Relativistic plasma simulation—optimization of a hybrid code," *Proc. 4th Conf. Numerical Simulation of Plasmas*, NRL, Washington DC, pp. 3–67 (1970).
 - **Particle-in-cell (PIC).** Many such particles are pushed through fields solved on a grid from their own charges and currents. This is the self-consistent kinetic method behind sheath, double-layer and thruster simulations (textbook: C. K. Birdsall & A. B. Langdon, *Plasma Physics via Computer Simulation*, 1985).
-- **Role as reference:** any RGRF claim about sheaths, charge separation (§3a), drifts or mirrors should agree with what a Boris/PIC trace shows. **Candidate sim (not yet in `sims/`):** a Boris-pusher tracer showing gyration, E×B and grad-B drift, and mirror reflection in a dipole or magnetic-bottle field, with energy-conservation checks.
+- **Role as reference:** any RGRF claim about sheaths, charge separation (§3a), drifts or mirrors should agree with what a Boris/PIC trace shows. See the archived Grok code and the Boris companion sim below.
+
+**Archived Grok code: "Suite element 3" (toroidal φ-winding + particle trace + Bluetooth under EMI).**
+- **Code:** saved verbatim as [`sims/legacy_grok/suite_element3_toroidal_phi_trace_bt.py`](../sims/legacy_grok/suite_element3_toroidal_phi_trace_bt.py). It was pasted 2026-10-15 and is **truncated** at `# --- Bluetooth packet transmission under EMI ---` / `# Model`. The Bluetooth part is **[Channing to supply code]**.
+- **Grok's saved output:** [`sims/legacy_grok/suite_element3_results.npz`](../sims/legacy_grok/suite_element3_results.npz). It contains phi = 1.6180339887, confinement_frac = 1.0, success_rate = 0.965, avg_latency_ms = 1.28, emi_level = 0.1013, and R_p, Z_p and confined (40 particles, all True).
+- **Rerun (2026-10-15):** the code prints `confinement fraction after 300 steps: 1.00` and `Mean max minor radius of confined particles: 0.197`. Its final R_p and Z_p **match the .npz exactly** (max difference 0.0, seed 7), and `confined` matches. The archived code is therefore the code that produced the saved particle results.
+- **Bluetooth metrics (success_rate 0.965, latency 1.28 ms, EMI level 0.101) are Grok-reported and unverifiable.** They come from the missing Bluetooth code **[Channing to supply code]**.
+
+**Code review (each point checked by running it):**
+1. **B_pol is computed but never used.** `toroidal_B` returns it, but the update only uses `B_tor` (through `omega = 0.3 B_tor`). The "φ-modulated poloidal winding" has no effect on any orbit.
+2. **`winding_phase` and `n_toroidal` are never used.**
+3. **The radial step is negligible by construction.** Per step, dr = v_perp · 0.01 · dt · sin(φt), so the total excursion is v_perp · 0.01 · ∫sin(φt)dt. Over t ≤ 3, ∫sin(φt)dt ≤ 2/φ ≈ 1.24, so the excursion is ≤ ~0.003. Measured: max |Δr| = 0.0015. The particles start at r ≤ 0.276, and loss needs r > 1.1a = 0.385, so **confinement = 1.0 is guaranteed**. Correction to the pre-run estimate: the excursion is ~10⁻³, not "well under 0.001", but the conclusion is the same. The Grok-reported confinement_frac = 1.0 **matches this by-construction analysis**.
+4. **No Lorentz force and no real drifts.** Positions just rotate in θ at a rate set by B_tor. There is no v × B, no gyration, and no grad-B or curvature drift (the vertical drift that rotational transform must cancel). It is not a particle trace in the physics sense.
+5. **φ enters only as a frequency scale** in sin(φt), sin(8φθ) (unused) and sin(2πt/φ) (unused).
+
+**Ablation (φ replaced, same code, seed 7).** Confined fraction and mean max r:
+- φ: 1.00, 0.197 (max |Δr| 0.0015)
+- 1.5: 1.00, 0.197 (0.0023)
+- 2.0: 1.00, 0.196 (0.00006)
+- √2: 1.00, 0.197 (0.0029)
+
+**No difference: φ does nothing in this code.**
+
+**Honest companion sim: [`sims/toroidal_particle_trace_boris.py`](../sims/toroidal_particle_trace_boris.py).** Dimensionless units (R0 = 1, B0 = 5, q/m = 1, minor radius a = 0.35).
+- **A. Boris pusher.** 400 particles at v = 0.1 (gyroradius ~0.02), started at r = 0.05–0.2, isotropic pitch, T = 300, lost if r > a. The field is B_tor = B0R0/R plus a poloidal field from constant q. Energy is conserved to ~2×10⁻¹⁴.
+
+  | Case | Confined at T = 300 |
+  |---|---|
+  | Pure toroidal (no B_pol) | **0.263**: vertical grad-B + curvature drift, median loss t ≈ 198 |
+  | q = 3 | 0.860 (larger drift-orbit width ∝ q) |
+  | q = 2 | 0.955 |
+  | q = 1.5 | 0.985 |
+  | q = √2 | 0.993 |
+  | q = φ | 0.985 |
+
+  **Rotational transform confines (Grounded):** 26 % confined without a poloidal field vs 86–99 % with one. Smaller q (more transform) means narrower drift orbits. **q = φ is not special.** It sits within counting noise (±~0.6 % for N = 400) of q = 1.5 and √2. With no perturbation, rational and irrational q behave alike.
+- **B. Field-line Poincaré map with a resonant perturbation.** q(r) = 1.2 + 1.5(r/a)², with perturbation δb_r = ε sin(3θ − 2ζ), resonant at q = 3/2. The radial spread of the field lines (max over launch angles, in units of a):
+
+  | ε | q = 1.5 (resonant) | q = √2 | q = φ |
+  |---|---|---|---|
+  | 0 | 0 | 0 | 0 |
+  | 2×10⁻⁴ | **0.039** (island) | 0.0034 | 0.0028 |
+  | 10⁻³ | **0.094** (island, ∝ √ε) | 0.019 | 0.015 |
+
+  A 3-island chain forms **only at the rational surface q = m/n that matches the perturbation**. Its width grows ~√ε, as island theory predicts. The irrational surfaces (√2, φ) stay intact as KAM-like tori and only ripple, roughly linearly in ε. φ ripples slightly less than √2 here, mostly because it sits farther from the resonant q = 1.5 surface. This is consistent with KAM / Greene 1979 (golden tori are the most robust; see [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md)). But it **only matters relative to the perturbations present**: with ε = 0, every surface is intact.
+- **Plot:** [`docs/images/toroidal_particle_trace_boris.png`](images/toroidal_particle_trace_boris.png). It shows confinement vs time, confinement at T = 300, and the Poincaré section with the m = 3 islands at r/a ≈ 0.45.
+- **Labels:**
+  - Confinement via rotational transform: **Grounded** (reproduced).
+  - Islands at rational q under resonant perturbation: **Grounded** (reproduced).
+  - "φ-optimized windings improve confinement": **not supported** by the archived code (φ has no effect) or by the Boris run (no advantage without perturbation).
+  - Robustness of irrational / golden-ratio q against a given resonant perturbation: **Grounded in principle (KAM)**. As an RGRF design rule ("avoid low-order rational q where perturbations exist") it is Plausible-untested.
+- **Next steps:** add the actual RGRF coil perturbation spectrum (n_toroidal = 16 windings → n = 16 ripple) and test which q surfaces it breaks; and add E-fields (E×B) and collisions.
 
 **Bluetooth packet transmission (Grounded; Bluetooth Core Specification / bluetooth.com).**
 - **Band:** 2.4 GHz ISM (2.402–2.480 GHz).
@@ -232,8 +283,12 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | Boris pusher, guiding-centre drifts, mirrors, PIC; Bluetooth FHSS/GFSK packets, used as reference dynamics | Grounded |
 | Packets ↔ particle bunches | Symbolic / analogy |
 | Frequency-hopping modulation of the craft's field (our extrapolation) | Plausible-untested |
+| Confinement via rotational transform (Boris sim: 26 % pure toroidal vs 86–99 % with q) | Grounded |
+| Islands only at rational q matching a perturbation; irrational (√2, φ) surfaces survive | Grounded (KAM) |
+| "φ-optimized windings" in Suite element 3 | Not supported (φ has no effect; confinement 1.0 by construction) |
+| Suite element 3 Bluetooth metrics (0.965 success, 1.28 ms) | Grok-reported; unverifiable (code missing) |
 
 ## Open items
 - The specific Tesla and Da Vinci threads explored, and any Grok text. **[Channing to supply]**
 - Role mapping answered (§3a: wavelength interactions → ± charge → lensing → Faraday). Any Grok text from the lensing, Faraday, toroidal-flow and particle-tracing threads. **[Channing to supply]**
-- Candidate sim: Boris-pusher particle tracer (gyration, E×B / grad-B drift, mirror), §3e.1.
+- Suite element 3 Bluetooth code (truncated) and the source of its reported BT metrics. **[Channing to supply code]**
