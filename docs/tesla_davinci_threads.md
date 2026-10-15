@@ -219,6 +219,26 @@ Channing's notes on the macroscopic birefringence idea: **[Channing to supply]**
 
 **Damping link.** A sinusoidal torque drive on a suspended plate is a driven torsional oscillator. Its response near resonance is set by Q, so the **R-damp** rule in §1a applies: add damping, or drive off-resonance.
 
+> Channing (verbatim, 2026-10-15): "Yeah, we came to the same conclusion and looked for a larger scale analogy trying to reconstruct now with grok and see what we landed on if anything."
+
+The larger-scale analogy: **[Channing to supply, Grok reconstruction pending]**.
+
+**Casimir torque: the vacuum-fluctuation version of sinusoidal torque (Grounded, measured).**
+- **Theory.**
+  - Yu. S. Barash, "Moment of van der Waals forces between anisotropic bodies," *Radiophys. Quantum Electron.* 21, 1138–1143 (1978), doi:10.1007/BF02121382. Two birefringent bodies separated by a gap feel a torque toward alignment of their optic axes, τ ∝ sin 2θ.
+  - J. N. Munday, D. Iannuzzi, Yu. S. Barash & F. Capasso, "Torque on birefringent plates induced by quantum fluctuations," *Phys. Rev. A* 71, 042102 (2005), doi:10.1103/PhysRevA.71.042102. This was the experimental proposal (birefringent plates, liquid-crystal geometry).
+- **Measurement.** D. A. T. Somers, J. L. Garrett, K. J. Palm & J. N. Munday, "Measurement of the Casimir torque," *Nature* 564, 386–389 (2018), doi:10.1038/s41586-018-0777-8.
+  - **Setup:** 5CB liquid crystal (t ≈ 50 µm, held by rubbed PVA on the top glass), separated from a birefringent substrate (calcite, LiNbO₃, TiO₂ or YVO₄) by an Al₂O₃ spacer plus FC-4430 surfactant layers (~12 nm each), with d ≈ 20 nm.
+  - **How it was measured:** the Casimir torque twists the liquid crystal against its elastic twist torque. The twist angle is read optically with a polariser/analyser and a spectrometer.
+  - **Result:** a **sin 2θ** angular dependence, with sign and strength set by the substrate. The measured values agree with Lifshitz-type theory.
+  - **Figure:** Channing's attachment matches the paper's Fig. 1 (schematic, optical setup, conoscopic image and spacer-thickness map). It is **not committed** here, because Nature figures are publisher-copyrighted and this repo is CC0. See the figure at the DOI link above.
+- **Scale.** The torque per area falls steeply with gap d: roughly as a power law in d, steeper once retardation sets in (Munday et al. 2005; the exact exponents depend on regime and materials and were not re-derived here). It is measurable only at d ~ 10–100 nm, so it is **nanoscale only**, the same conclusion Channing reached for the optical torque.
+
+**Ties.**
+- This is the same angular structure as the optical (Beth) torque and the static dielectric torque above: **sin 2θ, set by anisotropy**.
+- It is a Casimir effect whose sign and size are set by material anisotropy and boundary conditions. That parallels the Boyer π-phase sign flip in [shifting_phase_order_review.md §E](shifting_phase_order_review.md#e-boyer-repulsive-casimir-as-a-parallel-to-shifting-phase-order-2026-10-15) and the Casimir checks in [em_topological_gravity_review.md L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15).
+- Label for the parallel: **Symbolic / structural**. The torque itself is Grounded.
+
 
 **Grounded context**
 - **Calcite / Iceland spar double refraction.** E. Bartholin, *Experimenta crystalli Islandici disdiaclastici quibus mira & insolita refractio detegitur* (Copenhagen, 1669). A strongly birefringent uniaxial crystal (n_o ≈ 1.658, n_e ≈ 1.486, Δn ≈ 0.17; standard handbook values) gives two visibly separated images. Later work: Huygens (1678/1690), Malus (1808–1810, polarisation by reflection) and the Nicol prism (1828).
@@ -397,6 +417,9 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | Static anisotropic-dielectric torque ∝ sin 2θ (liquid crystals) | Grounded |
 | Macroscopic birefringent torque as an RGRF actuator (≈3.4×10⁻¹⁶ N·m per W optical) | Plausible-untested; tiny |
 | Sinusoidal torque drive on a suspended element | Needs damping (R-damp) |
+| Casimir torque between birefringent bodies, ∝ sin 2θ (Barash 1978; measured Somers et al. 2018) | Grounded (measured, nanoscale) |
+| Casimir torque ↔ Boyer sign flip (§E) | Symbolic / structural parallel |
+| Larger-scale analogy for sinusoidal / birefringent torque | Pending [Channing to supply, Grok reconstruction pending] |
 
 ## Open items
 - The specific Tesla and Da Vinci threads explored, and any Grok text. **[Channing to supply]**
@@ -404,3 +427,4 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 - Suite element 3 Bluetooth code (truncated) and the source of its reported BT metrics. **[Channing to supply code]**
 - Channing's notes on the macroscopic birefringence idea (§3d.1a). **[Channing to supply]**
 - Any earlier Grok text on ulexite and Faraday (§3d.1). **[Channing to supply]**
+- The larger-scale analogy for sinusoidal torque (§3d.1a); Grok reconstruction pending. **[Channing to supply]**

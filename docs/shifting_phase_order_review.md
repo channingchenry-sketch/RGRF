@@ -258,6 +258,8 @@ We are marking this as a parallel to our shifting phase order language.
 | Parallel to RGRF "shifting phase order" | **Symbolic / structural parallel**, as Channing states |
 | Practical vacuum-repulsion engine or lift | Not supported |
 
+**Related, measured:** the Casimir **torque** between birefringent bodies (∝ sin 2θ; Somers et al. 2018, *Nature* 564, 386) is in [tesla_davinci_threads.md §3d.1a](tesla_davinci_threads.md#3d1a-macroscopic-birefringence).
+
 **Cross-links:** the Casimir and DCE checks in [em_topo L5b §3](em_topological_gravity_review.md#3-a-resonance-chamber-tuned-to-the-casimir-plates-frequency); E↔B duality in [tesla_davinci_threads.md §3b](tesla_davinci_threads.md#3b-electricmagnetic-as-a-complementary-pair); analogies as structural references in [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md#analogies-and-natural-reference-mechanisms).
 
 ## F. Floquet (periodically driven) topological phases (2026-10-15)
