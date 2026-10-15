@@ -490,6 +490,12 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 
 This follows the [§7b-reentry](#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15) refinement: the sheath is seeded on board, then held by "sustained coupling … external interaction based on ion flow". That coupling thread was about **Alfvén waves**. Which aspect of Alfvén waves was used (wings/drag, wave heating, wave-driven acceleration, guiding along field lines): **[Channing to supply]**.
 
+> Channing (verbatim, sharing this Grok-generated image, 2026-10-15): "Yeah, exactly"
+
+![Io's Alfvén wings linking Io to its auroral footprints on Jupiter (illustrative Grok-generated image)](images/io_alfven_wings_grok.jpg)
+
+*Illustrative image generated with Grok, shared by Channing; CC0. **Symbolic / illustrative, not to scale and not a scientific diagram.** The grounded features it depicts: Io moving through Jupiter's magnetized plasma launches Alfvén wings along field lines, which close current into Jupiter's ionosphere and produce Io's auroral footprints (Neubauer 1980; see [em_topo L2](em_topological_gravity_review.md#l2-vortex-fields-between-planets-and-moons)). In reality the footprint sits near Jupiter's auroral oval at high latitude, and the wings bend back at an angle set by the flow-to-Alfvén speed ratio.*
+
 Existing Alfvén material is linked, not repeated:
 - Io–Jupiter Alfvén-wing current system (~3 MA): [em_topo L2](em_topological_gravity_review.md#l2-vortex-fields-between-planets-and-moons).
 - Alfvén-wave Poynting flux powering the aurora (Keiling et al. 2003): [em_topo L5](em_topological_gravity_review.md#l5-field-lines--longitudinal-energy-channels-recurring-thread).
