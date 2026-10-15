@@ -335,6 +335,70 @@ This section is general research only. Frisson means the chills, goosebumps or p
    - **"Resonance between minds causes chills": Speculative.** Shared experience and empathy predict chills (Bannister 2019; Zickfeld 2019), but that is psychological coupling, not a demonstrated field effect.
    - Emotional chills driving hair or stem-cell activity: **Speculative**, not tested.
 
+## 3j. Empathy, sympathetic reactivity & mirror neurons (general research)
+
+> Channing (verbatim): "Yeah, we took a dive into the sympathetic nerve responses, I believe in empathic people it was much higher. We also went into mirror neurons can we re-walk that path it has been awhile?"
+
+### Empathy and autonomic / sympathetic reactivity
+
+1. **Physiological linkage: Grounded, small n.** R. W. Levenson & A. M. Ruef, "Empathy: a physiological substrate," *J. Pers. Soc. Psychol.* 63(2), 234–246 (1992), doi:[10.1037/0022-3514.63.2.234](https://doi.org/10.1037/0022-3514.63.2.234).
+   - Design: 31 observers continuously rated how a spouse in a recorded marital interaction was feeling.
+   - **Negative-emotion accuracy was highest when the observer's autonomic signals tracked the target's over time.**
+   - Positive-emotion accuracy instead went with **low** cardiovascular arousal in the observer, not with linkage.
+   - So accuracy tracked synchrony, not simply more arousal.
+2. **Interpersonal autonomic physiology: Grounded, with a fragmented literature.** R. V. Palumbo et al., "Interpersonal Autonomic Physiology: A Systematic Review of the Literature," *Pers. Soc. Psychol. Rev.* 21(2), 99–141 (2017), doi:[10.1177/1088868316628405](https://doi.org/10.1177/1088868316628405).
+   - Physiological synchrony appears across many relationship types and correlates with psychosocial constructs.
+   - It flags inconsistent terms, measures and statistics, which makes results hard to compare.
+3. **Vicarious skin conductance to others' pain: Grounded.** G. Hein, C. Lamm, C. Brodbeck & T. Singer, "Skin conductance response to the pain of others predicts later costly helping," *PLoS ONE* 6(8), e22759 (2011), doi:[10.1371/journal.pone.0022759](https://doi.org/10.1371/journal.pone.0022759).
+   - Stronger vicarious skin-conductance responses predicted **costly helping** later.
+   - So did a closer match between the response to others' pain and to one's own pain.
+4. **Shared neural representation of pain: Grounded.**
+   - T. Singer et al., "Empathy for pain involves the affective but not sensory components of pain," *Science* 303, 1157–1161 (2004), doi:[10.1126/science.1093535](https://doi.org/10.1126/science.1093535).
+     - Watching a partner in pain activated the anterior insula and ACC (the affective part of pain), not the sensory pain areas.
+     - The activation **scaled with questionnaire empathy scores**.
+   - C. Lamm, J. Decety & T. Singer, "Meta-analytic evidence for common and distinct neural networks associated with directly experienced pain and empathy for pain," *NeuroImage* 54(3), 2492–2502 (2011), doi:[10.1016/j.neuroimage.2010.10.014](https://doi.org/10.1016/j.neuroimage.2010.10.014). It confirms an anterior insula and ACC overlap between felt pain and empathy for pain.
+5. **Highly sensitive persons (sensory-processing sensitivity, SPS): Grounded as a trait measure, small imaging n.**
+   - E. N. Aron & A. Aron, "Sensory-processing sensitivity and its relation to introversion and emotionality," *J. Pers. Soc. Psychol.* 73, 345–368 (1997). It introduced the HSP scale, which correlates with emotionality (r ≈ .46–.58) but is not identical to it.
+   - B. P. Acevedo et al., "The highly sensitive brain: an fMRI study of sensory processing sensitivity and response to others' emotions," *Brain Behav.* 4, 580–594 (2014), doi:[10.1002/brb3.242](https://doi.org/10.1002/brb3.242).
+     - Sample: **18 participants**.
+     - Higher HSP scores went with more activation in insula, IFG, cingulate and premotor areas when viewing emotional faces, especially partners and happy faces.
+     - That is brain activation, **not a sympathetic-nerve measure**.
+6. **Chills link:** in Bannister 2019 (§3i), trait empathy predicted **moving chills** specifically, not warm or cold chills. Chills are a sympathetic (piloerection) marker.
+7. **Does "much higher in empathic people" hold? Partly, and not as "much higher."**
+   - What holds:
+     - Empathy-related autonomic and neural responses to others' pain and emotion are real and measurable.
+     - They scale with empathy scores in some studies (Singer 2004 insula and ACC).
+     - They predict empathic accuracy (Levenson & Ruef, via **synchrony**) and helping (Hein 2011).
+   - What does not:
+     - These studies did not show that empathic people have broadly or dramatically higher **sympathetic arousal**.
+     - Levenson & Ruef tied positive-emotion accuracy to *lower* arousal.
+     - The literature is small-sample and methodologically fragmented (Palumbo 2017).
+     - No meta-analytic effect size linking trait empathy to sympathetic reactivity was found or verified here.
+   - **Label:** "stronger / more synchronized vicarious responses in empathic people" is **Plausible-supported**; "much higher sympathetic activity" is **not supported as stated**.
+
+### Mirror neurons
+
+1. **Discovery: Grounded.** G. di Pellegrino, L. Fadiga, L. Fogassi, V. Gallese & G. Rizzolatti, "Understanding motor events: a neurophysiological study," *Exp. Brain Res.* 91, 176–180 (1992), doi:[10.1007/BF00230027](https://doi.org/10.1007/BF00230027). Neurons in macaque premotor area F5 fired both when the monkey performed an action and when it watched one.
+2. **Human single neurons: Grounded.** R. Mukamel, A. D. Ekstrom, J. Kaplan, M. Iacoboni & I. Fried, "Single-neuron responses in humans during execution and observation of actions," *Curr. Biol.* 20, 750–756 (2010), [PMID 20381353](https://pubmed.ncbi.nlm.nih.gov/20381353).
+   - Recordings: 1,177 cells in 21 epilepsy patients.
+   - Mirror-like cells were found in the SMA and the hippocampus and surrounding areas.
+   - Some were "anti-mirror": excited when acting, inhibited when watching. That may help tell self from other.
+3. **Broad claims (empathy, language, autism; e.g., Iacoboni): Speculative / contested.**
+   - G. Hickok, "Eight problems for the mirror neuron theory of action understanding in monkeys and humans," *J. Cogn. Neurosci.* 21(7), 1229–1243 (2009), [PMC2773693](https://pmc.ncbi.nlm.nih.gov/articles/PMC2773693/).
+     - No monkey data directly test the action-understanding claim.
+     - Human dissociations count against it.
+   - Hickok expanded this in *The Myth of Mirror Neurons* (Norton, 2014): mirror responses may be learned sensorimotor associations.
+   - **"Broken mirror" theory of autism: weak evidence.** A. F. de C. Hamilton, "Reflecting on the mirror neuron system in autism: a systematic review of current theories," *Dev. Cogn. Neurosci.* (2013), [PMC6987721](https://pmc.ncbi.nlm.nih.gov/articles/PMC6987721/). It found little evidence of a global mirror-system deficit and argued the theory should be abandoned.
+4. **Current view:**
+   - Mirror and shared-representation systems exist: **Grounded**.
+   - They contribute partly to action perception and imitation: **Plausible-supported**.
+   - Their role in empathy is **modest and indirect**. Shared-affect networks such as the anterior insula and ACC carry more of the empathy evidence than motor mirror cells: **Plausible**.
+
+### Links and labels
+
+- Links: §3d (interoception and empathy), §3b (polyvagal and vagal tone), §3i (moving chills and empathy), and the mycelium stress-signal analogy in [living_habitat_life_support.md item (g)](living_habitat_life_support.md).
+- **Mirroring as a "field" connecting minds: Speculative / Symbolic.** All the mechanisms above run through the senses (vision, hearing) and neurons. None needs or shows a field link between people.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
