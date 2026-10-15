@@ -251,6 +251,48 @@ Another piece
 - **Embodied anchors (breath, posture, voice) work better than purely mental effort: Plausible.** This is consistent with the breathing and HRV evidence. No head-to-head study is cited here.
 - **"Unnecessary writing" into the field and "clean exchange": Symbolic.** The grounded reading is lower allostatic load (§3c) and regulated autonomic state (§3b).
 
+## 3h. Regeneration: deer antlers & hair cycling
+
+> Channing (verbatim): "We went into hair growth and deer antler regeneration as a sort of mechanism that may utilize this concept"
+
+"This concept" refers to the information / coherent-field / bioelectric-patterning thread of this doc: information organizing matter.
+
+1. **Deer antler regeneration: Grounded.**
+   - Antlers are the only mammalian organ that fully regenerates every year. They grow up to **~2.75 cm/day** and reach ~15 kg and 120 cm in about 3 months. Source: D. Wang & T. Landete-Castillejos, "Stem cells drive antler regeneration," *Science* 379, 757–758 (2023), doi:[10.1126/science.adg9968](https://doi.org/10.1126/science.adg9968). Red deer grow about 1.7 cm/day (reviewed in [PMC6822923](https://pmc.ncbi.nlm.nih.gov/articles/PMC6822923/)).
+   - Wang Y. et al., "Genetic basis of ruminant headgear and rapid antler regeneration," *Science* 364, eaav6335 (2019), doi:[10.1126/science.aav6335](https://doi.org/10.1126/science.aav6335).
+     - Antler gene expression resembles **osteosarcoma** more than normal bone.
+     - Proto-oncogenes (FOS, REL, FAM83A) and **p53-pathway tumour-suppressor genes** show positive selection in deer. This fits fast growth with low cancer incidence.
+     - Many antler-expressed genes are neural (axon guidance), and the headgear appears to have a neural-crest origin.
+     - Volume and first name are from secondary sources.
+   - T. Qin et al., "A population of stem cells with strong regenerative potential discovered in deer antlers," *Science* 379, 840–847 (2023), doi:[10.1126/science.add0488](https://doi.org/10.1126/science.add0488).
+     - Single-cell atlas: PRRX1⁺ mesenchymal cells give rise to **antler blastema progenitor cells (ABPCs)**.
+     - Similar cells exist in the regenerating mouse digit tip.
+     - Transplanted ABPCs formed antler-like bone and cartilage on mouse heads.
+   - **Pedicle periosteum** as the antler stem-cell source, and the rapid growth of nerves in the velvet: reviewed in "Deer antlers: the fastest growing tissue with least cancer occurrence," [PMC10733395](https://pmc.ncbi.nlm.nih.gov/articles/PMC10733395/). Authors not checked; a specific nerve-growth rate was **not verified** here.
+2. **Hair-follicle cycling: Grounded, and a real field-like coordinated pattern.**
+   - Follicles cycle through anagen (growth), catagen (regression) and telogen (rest). Bulge stem cells reactivate each cycle (textbook).
+   - M. V. Plikus, J. A. Mayer, D. de la Cruz, R. E. Baker, P. K. Maini, R. Maxson & C.-M. Chuong, "Cyclic dermal BMP signalling regulates stem cell activation during hair regeneration," *Nature* 451, 340–344 (2008), doi:[10.1038/nature06457](https://doi.org/10.1038/nature06457).
+     - Hair regeneration spreads in **waves across the skin**. A dermal BMP rhythm runs out of phase with WNT, which splits telogen into refractory and competent phases.
+     - Grafted skin and host skin influence each other's cycling.
+     - It is a coordinated, spatially propagating pattern, but its medium is **chemical signalling (BMP/WNT), not an EM field**.
+3. **Bioelectric patterning of regeneration: Plausible, supported in model organisms.** This is the grounded bridge to "fields as information."
+   - Review: "Bioelectric signaling in regeneration: Mechanisms of ionic controls of growth and form," [PubMed 29291972](https://pubmed.ncbi.nlm.nih.gov/29291972/) (Levin lab; authors not checked).
+     - A 24-hour ionophore cocktail triggered **hindlimb regrowth in non-regenerating *Xenopus* froglets**.
+     - A 1-hour sodium-influx treatment restored tail regeneration.
+   - Planaria:
+     - "Bioelectric signaling regulates head and organ size during planarian regeneration," *Development* 140(2), 313 (2013), [link](https://journals.biologists.com/dev/article/140/2/313/76645/). H,K-ATPase-dependent voltage sets head and organ scale.
+     - Brief depolarization in the first 3 h yields **two-headed** worms ([PMC6401388](https://pmc.ncbi.nlm.nih.gov/articles/PMC6401388/)). Altered bioelectric states can persist across re-cutting (the "pattern memory" reported in the review).
+   - These are **membrane-voltage patterns across tissues**, acting through ion channels and gap junctions. They are not long-range radiated fields.
+4. **Labels:**
+   - Antler and hair biology: **Grounded**.
+   - Bioelectric control of regeneration: **Plausible** (supported in frogs and planaria, not yet in mammalian appendages).
+   - Linking regeneration to entropic gravity, information fields or coherent emotional fields: **Speculative / Symbolic**.
+5. **RGRF design analogy: Plausible-untested.**
+   - **Regenerative zones** in the habitat: the mycelium perturbation zones with acetate-dosed self-healing and CNT spike readout ([living_habitat_life_support.md item (g)](living_habitat_life_support.md)).
+   - The analogues are: stem-cell niches ↔ living zones kept alive; growth waves ↔ nutrient-patterned regrowth (Li et al. 2026 living textile, node-control section); bioelectric state ↔ the electrical spike readout.
+   - Antlers also show **fast growth kept in check** by tumour-suppressor selection. Unchecked growth in living zones (biofouling) is the matching design risk.
+6. **What specifically was proposed:** **[Channing to supply]**.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
@@ -260,4 +302,5 @@ Another piece
 - Polyvagal theory's role in RGRF (§3b): resolved as an empath's perspective.
 - What the benzene-ring / aromatic angle was for (§3e): resolved as both detection and π-electron/light, unified by chemical→electrical transduction.
 - The stray "V" line in the §3d paste. **[Channing to clarify]** It is likely a pasted UI artifact (§3g).
+- What was specifically proposed for hair and antler regeneration (§3h). **[Channing to supply]**
 - The garbled tail of the §3g "Intent as alignment" paste. **[Channing to supply]**
