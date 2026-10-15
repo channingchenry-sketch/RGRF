@@ -429,6 +429,14 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 
 **Interpretation (confirmed).** Channing (verbatim): "Yes, exactly create our own sheath we can manipulate." Instead of only surviving the re-entry plasma, the craft *creates* and uses a re-entry-like plasma layer on demand (an artificial or switchable ionised sheath plus applied B) as a control surface for **steering, braking and the planet↔space transition**. This would sit alongside the trim-coil mode switch in [em_topo L5c](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere). The physics is the same induction / Lorentz physics as [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15), at low magnetic Reynolds number. The energy side (harvesting and storing re-entry charge) is in [Manta-Butterfly: re-entry energy harvesting and charge storage](manta_butterfly_craft.md#re-entry-energy-harvesting-and-charge-storage-overall-plausible-untested). The plasma scales and the Hall / energy caveats are worked out in [shifting_phase_order_review.md §B1](shifting_phase_order_review.md#b1-re-entry-plasma-sheath-as-a-guide-basic-plasma-scales) and [§B2](shifting_phase_order_review.md#b2-magnetic-manipulation-of-the-shock-layer-flow-mhd-flow-control--magnetic-window); they are not repeated here.
 
+**Refinement (2026-10-15).** Channing (verbatim): "Yeah, not so much a continuous creation but a sustained coupling then, external interaction based on ion flow let me see what I have"
+- So the sheath is **seeded or initiated** on board, then **sustained by coupling to an external ion flow**: atmospheric ram plasma during entry, the solar wind, or magnetospheric flows. It is not continuously generated on board.
+- The craft supplies the seed plasma and the shaping field (B, and possibly electrodes). The external flow supplies most of the ions and the momentum and energy.
+- **Closest published analogs:**
+  - **Magnetoshell aerocapture** (below). A small injected plasma, held by a dipole field, captures ambient atmospheric particles by charge exchange.
+  - **Magsails.** A superconducting loop's field deflects the solar-wind plasma, about 0.01 m/s² at 1 AU, with lift-to-drag around 0.3: R. M. Zubrin & D. G. Andrews, *J. Spacecr. Rockets* 28(2), 197 (1991), doi:10.2514/3.26230. Also see [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15).
+- Which ion-flow sources and coupling mechanism were used: **[Channing to supply]**.
+
 **Grounded context (sources checked 2026-10-15)**
 - **Re-entry plasma sheath and blackout: Grounded, flight-measured.**
   - NASA's RAM-C flights (~7.6 km/s) measured flow-field electron densities of ~10⁸–10¹² cm⁻³ (aft probes) between 85 and 53 km. RAM-C I tested water injection to relieve radio blackout, and the report found it effective: W. L. Jones Jr. & A. E. Cross, NASA TN D-6617 (1972), [NTRS 19720011555](https://ntrs.nasa.gov/citations/19720011555).
@@ -457,6 +465,7 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
   - W_i is the energy per ion pair in air: ~34 eV.
 - **P/V ≈ 5 kW/m³ at n_e = 10¹⁷ m⁻³ and ≈ 0.5 MW/m³ at 10¹⁸ m⁻³**, before ionisation inefficiency.
 - Add the magnets: resistive magnets need 0.1–1 MW, and superconducting magnets add cryogenic mass (§B2).
+- **With sustained coupling (the refinement above), most of this ionisation cost goes away.** The external flow supplies the ions; on board, only the seed plasma and the field (or magnet) power remain. So the β n_e² W_i figures are an *upper bound* for the fully self-generated case.
 - During real re-entry the flow supplies the ionisation for free. Away from re-entry (low speed, or vacuum), the craft pays for it, and in vacuum there is no gas to push on (except in magnetoshell-style schemes, which need some atmosphere).
 
 **Labels**
@@ -465,13 +474,14 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 | Re-entry sheath, blackout, n_e scales (RAM-C) | Grounded |
 | MHD drag / heat-flux control during re-entry (magnetic heat shield, MHD aerobraking) | Grounded (studied, lab-tested, simulated) to Plausible-untested (not flown) |
 | Magnetoshell: on-demand, throttleable plasma drag for aerocapture | Plausible-untested (subscale lab) |
+| Seeded sheath sustained by coupling to an external ion flow (ram plasma / solar wind / magnetosphere), magnetoshell- and magsail-like | **Plausible-untested** (physics of each analog Grounded; RGRF version untested; source details [Channing to supply]) |
 | E×B / magnetic telemetry window | Grounded in principle; Plausible-untested in flight |
 | DBD actuators for boundary-layer control | Grounded (subsonic); weak at hypersonic speeds |
-| Creating a plasma sheath on demand as a **general** steering / braking / transition control for an RGRF craft | **Plausible-untested** (braking / drag modulation in an atmosphere) to **Speculative** (steering in vacuum, or "free" control); kW–MW power cost |
+| Creating a plasma sheath on demand as a **general** steering / braking / transition control for an RGRF craft | **Plausible-untested** (braking / drag modulation in an atmosphere) to **Speculative** (steering in vacuum, or "free" control); kW–MW power cost | Revised: with external-flow coupling, the on-board power drops to seed plus field (still Plausible-untested).
 
 **Open items**
 - Confirmed aim: create our own sheath we can manipulate. Still open: which uses it served (drag modulation, heat-shield field, a guide sheath, the mode switch): **[Channing to supply]**.
-- Whether the plasma is self-generated (by the flow) or created on board (discharge, e-beam, RF), and at what altitude and speed: **[Channing to supply]**.
+- Answered in part: seeded on board, then sustained by an external ion flow. Still open: which flows, the seeding method (discharge, e-beam, RF), and the altitude and speed range: **[Channing to supply]**.
 - Field geometry, insulating vs conducting wall, and power and mass budgets.
 - Bench: magnet inside a blunt model in an arc-jet or a plasma-wind tunnel (Kranc-style), measuring drag and standoff vs B. At small scale: a DBD actuator on a plate in a fan tunnel.
 
