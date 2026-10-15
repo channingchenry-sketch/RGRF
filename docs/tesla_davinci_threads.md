@@ -36,6 +36,11 @@ The detailed history and claims table are in [tesla_and_ancient_alignments.md](t
 - **Millennium Bridge, London (June 2000).** Lateral sway came from **synchronous lateral excitation**: walkers fell into step with the sway, which fed it (a feedback loop, not a fixed external tone). It was fixed with viscous dampers and tuned mass dampers. P. Dallard et al., "The London Millennium Footbridge," *The Structural Engineer* 79(22), 17–33 (2001).
 - **Tacoma Narrows (1940).** The collapse was **not** simple forced resonance or vortex-shedding resonance. It was aeroelastic **flutter**: torsional self-excitation ("negative damping") in which wind forces were coupled to the deck's own motion. K. Y. R. Billah & R. H. Scanlan, "Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks," *Am. J. Phys.* 59(2), 118–124 (1991), doi:10.1119/1.16590.
 
+**Stated design lesson.**
+> Channing (verbatim, 2026-10-15): "Yes, and the lesson was to ensure dampening in our craft design."
+
+**Design rule (R-damp): damping is required, in both the craft structure and the field drive.** Every structural mode and every driven field or plasma loop must have an identified damping path. It can be passive (viscous, tuned-mass, piezo shunt, helium gas spring) or active (feedback). Its damping ratio must be stated in the design ledger. No drive frequency may sit on an undamped mode. The damping hardware and loop are in [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md). The rule is Grounded engineering practice; how well it works for RGRF's field and sheath loops is Plausible-untested.
+
 **RGRF tie: Plausible-untested.** The design lesson is **resonance avoidance and damping**, in the craft's structure and in its field drive:
 - keep the drive frequencies away from structural modes;
 - add damping (viscous, tuned-mass, piezo shunt; cf. [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md));
@@ -203,6 +208,7 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | Resonant near-field wireless power (Kurs 2007, WiTricity) | Grounded |
 | Tesla mechanical oscillator patent (US 514,169, 1894); driven-oscillator / Q / damping physics; Millennium Bridge synchronous lateral excitation; Tacoma Narrows flutter | Grounded |
 | Houston Street building-shaking story | Unverified anecdote / Speculative (MythBusters 2006: not reproduced) |
+| Design rule R-damp: damping required in structure and field drive (Channing's stated lesson) | Rule = Grounded practice; RGRF field/sheath effectiveness Plausible-untested |
 | Resonance avoidance, damping and drive-spectrum spreading in craft structure and field drive | Plausible-untested |
 | Leonardo's water/vortex studies, bird-flight codex, Pacioli polyhedra | Grounded |
 | Vitruvian Man illustrates Vitruvius Book III (circle and square) | Grounded |

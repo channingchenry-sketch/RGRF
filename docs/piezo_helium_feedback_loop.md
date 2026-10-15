@@ -2,6 +2,8 @@
 
 License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Speculative**.
 
+*Design rule:* damping is required in the craft structure and field drive (R-damp, from the resonance lesson in [tesla_davinci_threads.md §1a](tesla_davinci_threads.md#1a-mechanical-oscillator-earthquake-machine)). This loop is one of its damping paths.
+
 ## Concept (confirmed by Channing)
 - Piezo elements sense vibration and load, and also act as micro-actuators.
 - Helium cells give a small lift plus pneumatic damping.
