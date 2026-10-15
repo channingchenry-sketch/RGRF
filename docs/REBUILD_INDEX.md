@@ -33,6 +33,7 @@
 | L5 | Field lines & longitudinal channels | Recurring thread | Recovered |
 | L5b | Filament riding, Casimir "resonance chamber", quartz tuning (Grok excerpt, 2026-10-15) | Verbatim archive + labels: filaments/Casimir/quartz Grounded; cyclotron/magnetron riding, vacuum recycling, warp bubble Speculative; ley lines Symbolic | Recovered (rest of conversation, EU write-up **Missing**) |
 | L5c | Planet-to-space trim-coil mode switch; aligning in the magnetosphere | Grounded context (shim coils, magnetorquers, magnetopause, Van Allen); switch Plausible-untested; magnetospheric propulsion Speculative | **To recreate** (design **Missing**) |
+| L5d | Cosmic ley lines as fractals; cosmic web vs neural networks; informed universe and entangled neutrinos | Fractal-like only up to ~100 Mpc; Vazza & Feletti comparison (no mechanism); CνB Grounded; information-carrying neutrinos Speculative; informed universe Symbolic | Recovered (Channing quote); original Grok text **Missing** |
 | L6 | Wireless energy transfer | Coupled-mode limits; φ coil worse in the POL sim | Recovered |
 | L7 | Magnetic waveguides & bypasses | — | Recovered |
 | L8 | Microtubules; acoustic sand structuring | — | Recovered |

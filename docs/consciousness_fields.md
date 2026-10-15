@@ -77,7 +77,7 @@ Related threads: [em_geometry_map.md](em_geometry_map.md) (cryptochrome / quantu
 | **Plant trigger responses ("leaf mechanisms")** | Toyota M. et al., "Glutamate triggers long-distance, calcium-based plant defense signaling," *Science* 361, 1112 (2018), doi:[10.1126/science.aat7744](https://doi.org/10.1126/science.aat7744). Wounding releases glutamate, GLR channels respond, and a Ca²⁺ wave reaches distant leaves within minutes. Venus flytrap and *Mimosa* use electrical action potentials (textbook; no primary citation here). | **Grounded** |
 | **Magnetic / electrical signalling in quantum biology** | Gegear et al., "Cryptochrome mediates light-dependent magnetosensitivity in *Drosophila*," *Nature* (2008), [nature07183](https://www.nature.com/articles/nature07183). Xu et al., "Magnetic sensitivity of cryptochrome 4 from a migratory songbird," *Nature* 594, 535 (2021), [link](https://www.nature.com/articles/s41586-021-03618-9). Radical-pair chemistry under blue light; see [em_geometry_map.md](em_geometry_map.md). | **Grounded (in vitro)**, Plausible in vivo |
 | **"Informed" neutrinos that entangle** | Neutrino oscillation is a quantum-coherence phenomenon. Formaggio et al., "Violation of the Leggett-Garg Inequality in Neutrino Oscillations," *Phys. Rev. Lett.* 117, 050402 (2016), doi:[10.1103/PhysRevLett.117.050402](https://doi.org/10.1103/PhysRevLett.117.050402). MINOS data violated the classical bound at 6.2σ over 735 km. **But:** neutrinos barely interact with matter (trillions pass through a body each second essentially untouched), so there is **no evidence and no known mechanism** by which they carry information to, or entangle with, biology. Entanglement also cannot transmit signals (no-signalling theorem). | Neutrino quantum coherence: **Grounded**. Biological or "informed" neutrinos: **Speculative / unsupported** |
-| **"Informed universe"** | Framing concept tying the threads together. | **Symbolic** |
+| **"Informed universe"** | Framing concept tying the threads together. See [em_topo L5d](em_topological_gravity_review.md#l5d-cosmic-ley-lines-as-fractals-cosmic-web-vs-neural-networks-informed-universe-and-entangled-neutrinos) (Wheeler "it from bit", Laszlo; CνB; cosmic web vs neural networks). | **Symbolic** |
 
 ## 3b. Polyvagal theory (brief)
 
@@ -812,7 +812,7 @@ Links:
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
 - The specific mitochondria-light proposal: wavelength, target, and whether it was meant for crew, mycelium or both. **[Channing to supply]**
 - Which leaf mechanism and trigger response was discussed: flytrap, *Mimosa*, or wound signalling. **[Channing to supply]**
-- Any original Grok text on the informed universe and neutrinos. **[Channing to supply]**
+- Informed universe, entangled neutrinos and the cosmic-web / neural-network comparison are now reviewed in [em_topological_gravity_review.md L5d](em_topological_gravity_review.md#l5d-cosmic-ley-lines-as-fractals-cosmic-web-vs-neural-networks-informed-universe-and-entangled-neutrinos). The original Grok text on the informed universe and neutrinos is still **[Channing to supply]**.
 - Polyvagal theory's role in RGRF (§3b): resolved as an empath's perspective.
 - What the benzene-ring / aromatic angle was for (§3e): resolved as both detection and π-electron/light, unified by chemical→electrical transduction.
 - The stray "V" line in the §3d paste. **[Channing to clarify]** It is likely a pasted UI artifact (§3g).

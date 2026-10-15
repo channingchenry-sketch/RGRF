@@ -44,6 +44,7 @@ The original labels are kept. Channing is reviewing the original reasoning and m
 - **"Subtle medium / information field":** **Speculative.** No luminiferous ether exists (Michelson–Morley, special relativity).
 
 ## Informed universe threads
+*Sources and labels for fractals, the cosmic web vs neural networks, the CνB and neutrino entanglement: [em_topo L5d](em_topological_gravity_review.md#l5d-cosmic-ley-lines-as-fractals-cosmic-web-vs-neural-networks-informed-universe-and-entangled-neutrinos).*
 | Thread | What is established | RGRF reading | Label |
 |---|---|---|---|
 | **Sun's angular momentum along its galactic path** | The Solar System orbits the galactic centre in ~230 Myr at ~829,000 km/h (NASA Science, "Solar System Facts"). The **solar angular momentum problem**: the Sun holds >99.8 % of the system's mass but <1 % of its angular momentum. It is resolved by angular-momentum transport in the protoplanetary disk (magnetised turbulence and disk winds) and magnetic braking of the young Sun (e.g. "Angular Momentum Transport in Protoplanetary Disks", arXiv 2606.17150; Weiss, Bai & Fu, "History of the Solar Nebula from Meteorite Paleomagnetism", *Science Advances* 7(1): eaba5967 (2021), arXiv 2103.02011; verified). | The Sun's spin and path as an "informing" rhythm | Physics Grounded; "informing" Speculative |

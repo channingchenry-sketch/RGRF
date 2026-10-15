@@ -672,6 +672,66 @@ Nearest existing material:
 - What "aligning in the magnetosphere" was for: attitude, navigation, energy, or propulsion. **[Channing to clarify]**
 - Whether this was meant for Earth only or for other planets' magnetospheres (Jupiter's is much stronger and larger; Mars has no global field). **[Channing to clarify]**
 
+### L5d. Cosmic ley lines as fractals; cosmic web vs neural networks; informed universe and entangled neutrinos
+> Channing (verbatim, 2026-10-15): "We also have cosmic ley lines as fractals.. I believe the newer cosmic web photographs sort of hint at this. Then, we compared to neural networks as just a curiosity that aligns with an informed universe and also entangled neutrinos."
+
+Builds on [L5b](#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15), where cosmic filaments are called "vast ley lines" and ley lines are Symbolic. Related rows already exist in [em_geometry_map.md](em_geometry_map.md#informed-universe-threads) (informed universe, neutrinos, neural networks, fractals) and [consciousness_fields.md §3](consciousness_fields.md#3-remaining-topics-brief). This subsection collects them and adds sources (checked 2026-10-15).
+
+**1. Cosmic web imaging: Grounded.**
+- Gas filaments **seen directly in emission** (Lyman-α):
+  - >1 Mpc filaments in the SSA22 protocluster at z = 3.1: H. Umehata et al., *Science* 366, 97–100 (2019), doi:10.1126/science.aaw5949.
+  - The MUSE Extremely Deep Field: R. Bacon et al., *A&A* 647, A107 (2021), doi:10.1051/0004-6361/202039887.
+  - A "high-definition" ~700 kpc filament joining two quasar hosts at z ≈ 3.22: D. Tornotti et al., *Nature Astronomy* (2025), doi:10.1038/s41550-024-02463-w.
+- Large-scale maps from galaxy surveys (SDSS and others) and ESA's **Euclid** Quick Data Release Q1 (19 March 2025; ~26 million galaxies over 63 deg², including a cosmic-web / filament-alignment study). These are the "newer cosmic web photographs".
+- Magnetised intercluster filaments are covered in L5b.
+
+**2. "Fractal" cosmic web: Grounded within a range, not at all scales.**
+- On small and intermediate scales the galaxy distribution is fractal-like, with correlation dimension **D ≈ 2**.
+- It becomes **homogeneous (D → 3) above ~70–100 h⁻¹ Mpc**:
+  - SDSS luminous red galaxies: D. W. Hogg et al., *ApJ* 624, 54–58 (2005), doi:10.1086/429084;
+  - WiggleZ, D₂ within 1 % of 3 at large radii: M. I. Scrimgeour et al., *MNRAS* 425, 116–134 (2012), doi:10.1111/j.1365-2966.2012.21402.x.
+- A universe that is fractal at **all** scales (L. Pietronero, *Physica A* 144, 257–284 (1987), doi:10.1016/0378-4371(87)90191-9) is a minority view that these surveys disfavour.
+- So the photographs **do** show a web with self-similar statistics over a limited range. "Cosmic ley lines as fractals" is a fair *image*, but as ley lines it is **Symbolic**.
+
+**3. Cosmic web vs neural networks: Grounded as a statistical comparison, with no implied mechanism.**
+- F. Vazza & A. Feletti, "The quantitative comparison between the neuronal network and the cosmic web," *Front. Phys.* 8, 525731 (2020), doi:10.3389/fphy.2020.525731.
+- They found similar power spectra and graph metrics between brain tissue slices and simulated cosmic-web slices.
+- **Limits they state:** connectivity was approximated by **proximity** (not true neural wiring), and the scales and physical processes are radically different.
+- Similar statistics show that both are self-organised networks. They do **not** show a shared cause, communication, or cognition. Channing frames this as "just a curiosity", which matches.
+
+**4. Neutrinos.**
+- **The cosmic neutrino background (CνB) is Grounded, indirectly:**
+  - Planck finds N_eff = 2.99 ± 0.17 (Planck 2018 VI, *A&A* 641, A6 (2020)), consistent with the three known species.
+  - The neutrino-induced phase shift of the CMB acoustic peaks has been detected: B. Follin, L. Knox, M. Millea & Z. Pan, *PRL* 115, 091301 (2015), doi:10.1103/PhysRevLett.115.091301.
+  - The CνB has not been detected directly.
+- **Coherence and entanglement in oscillations: Grounded.**
+  - Flavour oscillation is quantum coherence.
+  - It can be described as single-particle mode entanglement: M. Blasone, F. Dell'Anno, S. De Siena & F. Illuminati, *EPL* 85, 50002 (2009), doi:10.1209/0295-5075/85/50002.
+  - MINOS data violate the Leggett–Garg inequality (Formaggio et al., *PRL* 117, 050402 (2016), already in the consciousness doc).
+- **"Entangled cosmic neutrinos carrying information": Speculative.** Neutrinos barely interact. Relic neutrinos have lost flavour coherence over cosmic distances (they propagate as mass states), and entanglement cannot signal (no-signalling).
+
+**5. "Informed universe": Symbolic / Speculative (stated respectfully).**
+- The phrase covers several serious ideas:
+  - J. A. Wheeler's "**it from bit**": information as fundamental ("Information, physics, quantum: the search for links," in W. H. Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, 1990);
+  - E. Laszlo's **informed universe / Akashic field**: *Science and the Akashic Field* (2004);
+  - the Kaku-inspired framing already in em_geometry_map.
+- Information-theoretic physics is an active research area. A universal information field that links minds, neutrinos and the cosmic web has no test or mechanism yet.
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Cosmic web filaments imaged (Lyα emission, MUSE; Euclid maps) | Grounded |
+| Galaxy distribution fractal-like (D ≈ 2) up to ~10–100 Mpc, homogeneous beyond ~70–100 h⁻¹ Mpc | Grounded |
+| Fractal at all scales | Minority view; disfavoured by data |
+| "Cosmic ley lines as fractals" | Symbolic |
+| Neural network ↔ cosmic web statistical similarity (Vazza & Feletti 2020) | Grounded as a comparison; no mechanism (Speculative if read causally) |
+| CνB exists (N_eff; phase shift) | Grounded (indirect) |
+| Neutrino oscillation coherence / entanglement / Leggett–Garg violation | Grounded |
+| Entangled cosmic neutrinos carrying information | Speculative |
+| "Informed universe" as a framing | Symbolic / Speculative |
+
+**Open items:** the original Grok text on the informed universe and neutrinos **[Channing to supply]**; which cosmic-web images were meant **[Channing to clarify]**.
+
 ### L6. Wireless energy transfer (Northern Europe focus noted)
 - **Observed (Grounded, verified).**
   - **20 kW-class inductive EV charger at 98.51 % AC-to-AC efficiency**, using stress-annealed Fe-based nanocrystalline cores (effective permeability 2330; core loss 135 kW/m³ at 85 kHz, 0.2 T; 9.55 kW/L). Wang et al., "Inductive charging systems empowered by stress-annealed nanocrystalline alloys with high induced magnetic anisotropy", *Nature Communications* (2026), doi:10.1038/s41467-026-78003-z. The team was from the CAS Dongguan Institute of Materials Science and Technology, City University of Hong Kong, the University of Cambridge and the CAS Institute of Physics. **The screenshot claim is confirmed.**
