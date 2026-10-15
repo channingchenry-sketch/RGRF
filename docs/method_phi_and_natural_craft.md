@@ -27,7 +27,7 @@
 **Open question:** does **nonlinear flow physics** (real u×B stretching, KAM-like resonance overlap in field-line or particle dynamics) give φ a role the linear toys cannot show? Until a test says yes, φ performance claims stay **Speculative**, and φ as inspiration stays **Symbolic**.
 
 ## Analogies and natural reference mechanisms
-> Channing (verbatim, 2026-10-15): "I use analogies quite a bit and like to reference nature such as the peacock mantis shrimps punch and a Tesla actuator"
+> Channing (verbatim, 2026-10-15): "I use analogies quite a bit and like to reference nature such as the peacock mantis shrimps punch…" [trimmed at Channing's request]
 
 **Method.** Analogies are used as **reference dynamics**: real, measured mechanisms that show how a kind of motion or energy flow actually behaves. They are not claims that the craft works the same way. This is the same "real dynamics as reference" stance as the particle-tracing and Bluetooth benchmarks in [tesla_davinci_threads.md §3e.1](tesla_davinci_threads.md#3e1-plasma-particle-tracing-and-bluetooth-packet-transmission-reference-dynamics). A borrowed mechanism moves up from analogy only when a bench test or sim shows it carries over.
 
@@ -41,7 +41,7 @@
 - **The club as a damage-tolerant material.** J. C. Weaver et al., "The stomatopod dactyl club: a formidable damage-tolerant biological hammer," *Science* 336, 1275–1280 (2012), doi:10.1126/science.1218764. The club is a hydroxyapatite and amorphous mineral composite with a **helicoidal (Bouligand) chitin** architecture that deflects cracks over thousands of strikes.
 - **RGRF analogy (Plausible-untested):** latch-and-release energy storage for a **pulsed field or sheath discharge**. Charge capacitors slowly (spring), hold them with a switch (latch: spark gap, thyristor or IGBT), then discharge fast into a coil or sheath. This is standard pulsed power: a capacitor bank or a **Marx generator**, which charges capacitors in parallel and discharges them in series. It connects to the pulsed-source sims ([tungsten_bismuth_core §3a](tungsten_bismuth_core.md#3a-sonic-pinching-grok-excerpt--lost-sim-description-2026-10-15)) and to the Tesla coil's spark-gap primary ([tesla_davinci_threads.md §1](tesla_davinci_threads.md#1-nikola-tesla)). A Bouligand-style layup is a separate, Grounded materials idea for impact-loaded parts.
 
-**"Tesla actuator": [Channing to clarify]. Two likely meanings, both Grounded:**
+**Engineering reference mechanisms (Grounded):**
 - **Tesla valve:** "valvular conduit," US 1,329,559 (granted 3 Feb 1920). A fixed channel geometry with looped side lanes gives **direction-dependent resistance with no moving parts** (diodicity). Q. M. Nguyen, J. Abouezzi & L. Ristroph, "Early turbulence and pulsatile flows enhance diodicity of Tesla's macrofluidic valve," *Nat. Commun.* 12, 2884 (2021), doi:10.1038/s41467-021-23009-y. Diodicity switches on near Re ≈ 200, and pulsatile (oscillating) flow boosts rectification and pumping, confirming Tesla's conjecture. Already used in RGRF loops: [helium_water_circulation.md §9](helium_water_circulation.md), [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md).
 - **Tesla turbine:** "Turbine," US 1,061,206 (granted 6 May 1913). Bladeless: closely spaced smooth discs are dragged round by viscous boundary-layer friction as fluid spirals inward. Running it in reverse gives the companion pump ("Fluid Propulsion," US 1,061,142).
-- (Note: Channing's quote is about the actuator, not the separate Tesla coil.)
+A related actuator design thread was not pursued and is intentionally not documented here.
