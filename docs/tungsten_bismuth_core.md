@@ -387,7 +387,7 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 
 **Grounded context: MHD in space**
 - **Two terms, one ratio.** ∇×(u×B) advects and stretches the field; η∇²B diffuses it (η = 1/(μ₀σ), the magnetic diffusivity). Their ratio is the **magnetic Reynolds number Rm = uL/η**.
-  - **Space plasmas:** Rm is enormous (solar wind, magnetospheres), so the field is "frozen in" to the flow (Alfvén's frozen-flux picture; H. Alfvén, *Nature* 150, 405 (1942), on MHD waves).
+  - **Space plasmas:** Rm is enormous (solar wind, magnetospheres), so the field is "frozen in" to the flow (Alfvén's frozen-flux picture; H. Alfvén, *Nature* 150, 405–406 (1942), doi:10.1038/150405d0, verified in [§7b-alfven](#7b-alfven-alfvén-waves-the-external-ion-flow-coupling-2026-10-15)).
   - **Earth's outer core:** Rm ~ 10³ (order-of-magnitude estimate), well above the dynamo onset.
   - **Lab liquid sodium:** Rm ~ 10–50 needs metre-scale vessels and m/s flows. VKS reached its threshold near Rm ≈ 30.
 - **Solar wind and Parker spiral.** Frozen-in field drawn out by the outflowing corona: E. N. Parker, "Dynamics of the interplanetary gas and magnetic fields," *ApJ* 128, 664 (1958), doi:10.1086/146579.
@@ -435,7 +435,7 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 - **Closest published analogs:**
   - **Magnetoshell aerocapture** (below). A small injected plasma, held by a dipole field, captures ambient atmospheric particles by charge exchange.
   - **Magsails.** A superconducting loop's field deflects the solar-wind plasma, about 0.01 m/s² at 1 AU, with lift-to-drag around 0.3: R. M. Zubrin & D. G. Andrews, *J. Spacecr. Rockets* 28(2), 197 (1991), doi:10.2514/3.26230. Also see [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15).
-- Which ion-flow sources and coupling mechanism were used: **[Channing to supply]**.
+- The coupling thread was about **Alfvén waves**; see [§7b-alfven](#7b-alfven-alfvén-waves-the-external-ion-flow-coupling-2026-10-15). Which ion-flow sources were used: **[Channing to supply]**.
 
 **Grounded context (sources checked 2026-10-15)**
 - **Re-entry plasma sheath and blackout: Grounded, flight-measured.**
@@ -484,6 +484,75 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 - Answered in part: seeded on board, then sustained by an external ion flow. Still open: which flows, the seeding method (discharge, e-beam, RF), and the altitude and speed range: **[Channing to supply]**.
 - Field geometry, insulating vs conducting wall, and power and mass budgets.
 - Bench: magnet inside a blunt model in an arc-jet or a plasma-wind tunnel (Kranc-style), measuring drag and standoff vs B. At small scale: a DBD actuator on a plate in a fan tunnel.
+
+## 7b-alfven. Alfvén waves: the external ion-flow coupling (2026-10-15)
+> Channing (verbatim): "Alfvén waves were the topic."
+
+This follows the [§7b-reentry](#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15) refinement: the sheath is seeded on board, then held by "sustained coupling … external interaction based on ion flow". That coupling thread was about **Alfvén waves**. Which aspect of Alfvén waves was used (wings/drag, wave heating, wave-driven acceleration, guiding along field lines): **[Channing to supply]**.
+
+Existing Alfvén material is linked, not repeated:
+- Io–Jupiter Alfvén-wing current system (~3 MA): [em_topo L2](em_topological_gravity_review.md#l2-vortex-fields-between-planets-and-moons).
+- Alfvén-wave Poynting flux powering the aurora (Keiling et al. 2003): [em_topo L5](em_topological_gravity_review.md#l5-field-lines--longitudinal-energy-channels-recurring-thread).
+- Torsional Alfvén waves and the flux-tube "tunnel": [em_topo R9](em_topological_gravity_review.md#r9-last-solid-ground-pinch-waveguide-twist-waves-quadrupole-to-tensor).
+- Shear Alfvén-Hall / whistler branches: [§7b-math](#7b-math-hall-mhd-math-recovered-ocr-damaged).
+
+**Grounded basics (sources checked 2026-10-15)**
+- **Discovery:** H. Alfvén, "Existence of electromagnetic-hydrodynamic waves," *Nature* 150, 405–406 (1942), doi:10.1038/150405d0. This was flagged as from memory in §7b-dyn; it is now verified.
+- **Speed:** **v_A = B/√(μ₀ρ)**, with ρ = Σ n_i m_i.
+- **Modes:**
+  - The **shear (transverse) Alfvén wave** bends field lines. It is carried by magnetic tension, propagates along B and is incompressible.
+  - The **compressional (fast magnetosonic) wave**, v_f = √(v_A² + c_s²) across B, compresses both the field and the plasma.
+  - At small scales the shear wave becomes **inertial Alfvén** (β < m_e/m_i, scale ~ electron skin depth c/ω_pe) or **kinetic Alfvén** (β > m_e/m_i, scale ~ ion-sound gyroradius). This is where it carries a parallel electric field and accelerates electrons. These are the small-scale/Hall branches of §7b-math.
+- **Solar atmosphere and solar wind:**
+  - Hinode saw chromospheric Alfvénic waves with 10–25 km/s amplitudes and 100–500 s periods, energetic enough to help power the solar wind: B. De Pontieu et al., *Science* 318, 1574–1577 (2007), doi:10.1126/science.1151747.
+  - Coronal and transition-region Alfvénic motions of ~20 km/s are enough for the fast wind and quiet-corona heating: S. W. McIntosh et al., *Nature* 475, 477–480 (2011), doi:10.1038/nature10235.
+  - **Parker Solar Probe** found Alfvénic "switchbacks" (field reversals with plasma jets) and slow Alfvénic wind from a small equatorial coronal hole: S. D. Bale et al., *Nature* 576, 237–242 (2019), doi:10.1038/s41586-019-1818-7.
+  - It also found Alfvén waves organised into velocity spikes, plus unexpectedly large rotational flows (35–50 km/s): J. C. Kasper et al., *Nature* 576, 228–231 (2019), doi:10.1038/s41586-019-1813-z.
+- **Magnetosphere–ionosphere coupling and aurora:**
+  - Alfvén waves carry Poynting flux down field lines (L5).
+  - **Lab confirmation:** inertial Alfvén waves launched in UCLA's LAPD resonantly accelerated electrons (Landau resonance) at a rate consistent with auroral-zone estimates: J. W. R. Schroeder et al., *Nat. Commun.* 12, 3103 (2021), doi:10.1038/s41467-021-23377-5.
+- **Lab Alfvén waves:** the Large Plasma Device at UCLA is a ~20 m magnetised plasma column built for Alfvén-wave studies: W. Gekelman et al., *Rev. Sci. Instrum.* 62, 2875–2883 (1991), doi:10.1063/1.1142175. The column length is from general knowledge.
+- **Io's Alfvén wings:** Io's motion through Jupiter's plasma drives a standing Alfvén-wave current system: F. M. Neubauer, "Nonlinear standing Alfvén wave current system at Io: Theory," *JGR* 85(A3), 1171–1178 (1980), doi:10.1029/JA085iA03p01171. Measured currents are in L2.
+
+**Tie-in (a): the "sustained coupling" sheath. Alfvén wings are the Grounded basis.**
+- A conductor moving across B in a plasma has a motional EMF (v×B)·L. If it can exchange charge with the plasma, current flows and closes through **Alfvén waves ("wings")** radiated along the field lines.
+- This takes momentum from the body: it is **drag**. With on-board power the current can be reversed for **propulsion**; Drell, Foley and Ruderman found up to ~50 % of the expended power could push the vehicle across B: S. D. Drell, H. M. Foley & M. A. Ruderman, "Drag and propulsion of large satellites in the ionosphere: An Alfvén propulsion engine in space," *JGR* 70(13), 3131–3145 (1965), doi:10.1029/JZ070i013p03131.
+- The same physics works for Io (natural) and for **electrodynamic tethers**. Tether flights such as NASA's PMG (1993) and TSS-1R (1996) measured motional EMF and current; their specific results are **not re-verified here**.
+- The wing's load is set by the **Alfvén conductance Σ_A ≈ 1/(μ₀ v_A)** (order-of-magnitude form; it neglects the ionospheric closure details): ~5 S in LEO and ~4 S in the Io torus (from the v_A values below).
+- This is exactly "external interaction based on ion flow". The ambient plasma flowing past the craft supplies the ions and momentum; the craft supplies the conductor/sheath and the current path.
+
+**Alfvén speed, worked examples (computed here; inputs are assumed typical values):**
+| Plasma | B | n (ion), mass | v_A |
+|---|---|---|---|
+| Solar wind at 1 AU | 5 nT | 5 cm⁻³ protons | **≈ 49 km/s** (wind 300–800 km/s → super-Alfvénic) |
+| LEO F-region (~400 km) | ~30 µT | 10⁶ cm⁻³ O⁺ (dayside peak) to 10⁵ cm⁻³ | **≈ 160–520 km/s** (orbit 7.7 km/s → strongly sub-Alfvénic, so a conductor radiates wings) |
+| Io plasma torus | ~1.9 µT | ~2000 cm⁻³, mean ion mass ~20 u | **≈ 210 km/s** (corotation flow past Io ~57 km/s → sub-Alfvénic, as expected) |
+| Intercluster filament (L5b) | 30–50 nG | ~10⁻⁴–3×10⁻⁴ cm⁻³ protons | **≈ 6 km/s** |
+| LAPD-like lab plasma (illustrative) | 0.1 T | 10¹² cm⁻³ He⁺ | **≈ 1,100 km/s** |
+
+- In the intercluster filaments, v_A ≈ 6 km/s, yet the coupling is weak: B is only ~5×10⁻¹² T, so the motional EMF per km at 1,000 km/s is only ~5 mV, and Σ_A is large while the forces are tiny. That reinforces the L5b conclusion that filament "riding" by EM coupling is negligible.
+
+**Tie-in (b): the Z-pinch shear threshold.** The sheared-flow stabilisation criterion in [§3](#3-z-pinch-with-sheared-flow-stabilization--grounded) is set in units of v_A: v_z′ ≳ 0.1 k v_A (Shumlak & Hartman 1995). Sheared flow works because it detunes and phase-mixes the Alfvénic kink perturbation. See also [§3a](#3a-sonic-pinching-grok-excerpt--lost-sim-description-2026-10-15).
+
+**Tie-in (c): filaments.** In [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15), Alfvén waves are the natural carriers along magnetised filaments, but the energy flux available to a craft is minute (table above).
+
+**Tie-in (d): Hall-MHD.** At k d_i ≳ 1 the shear Alfvén wave turns into the whistler / ion-cyclotron branches of [§7b-math](#7b-math-hall-mhd-math-recovered-ocr-damaged). The kinetic or inertial Alfvén wave (k⊥ ρ_s or k⊥ d_e ~ 1) carries the parallel E that accelerates auroral electrons.
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Alfvén waves (shear, compressional), v_A = B/√(μ₀ρ), inertial/kinetic branches | Grounded |
+| Alfvén waves carry energy into the corona / solar wind; switchbacks | Grounded (observed; the share of total heating is still debated) |
+| Alfvén waves accelerate auroral electrons | Grounded (spacecraft + LAPD lab confirmation) |
+| A conductor in a magnetised plasma radiates Alfvén wings (Io; Drell et al.; tethers) | Grounded |
+| Using Alfvén-wing coupling of an RGRF sheath for **drag or thrust** | **Plausible-untested** (tethers show the drag and power; RGRF geometry and currents unspecified) |
+| Using it for **steering** (directional control, especially beyond LEO) | **Speculative** |
+| Coupling to intercluster filaments for propulsion | Speculative (forces negligible at nG fields) |
+
+**Open items**
+- Which aspect of Alfvén waves the original thread used: **[Channing to supply]**.
+- Conductor/sheath size, current path (electron emitter? sheath contact?) and power, to estimate the drag or thrust with the Drell et al. model.
+- Bench analog: an LAPD-type user experiment, or a small magnetised plasma column with an Alfvén-wave antenna.
 
 ## 7b. Hall-MHD simulation results — unrecovered toy normalized model
 **Status: results of an unrecovered toy model in normalized units. The script is missing. This is not a physical validation.**
