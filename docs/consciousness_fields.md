@@ -525,7 +525,9 @@ Links: §3k (epigenetics); the collective-consciousness and Global Consciousness
 
 ### The "maze across distance" study: most likely the McDougall rat experiments
 
-**[Channing to confirm]** whether this is the study.
+**Confirmed by Channing (verbatim):** "Yes, that was it morphic resonance and then, a hint on adaptive nature being passed down through generations. I noticed the same thing in humans. Where children who were born into a new technological age picked up on it faster, speculative that newer generations are preconditioned for the future. Just an idea"
+
+So this is the McDougall / Crew / Agar series, as read by Sheldrake.
 
 The animals were **rats, not mice**. The "distance" element is Sheldrake's later reinterpretation, not the original design.
 
@@ -553,6 +555,32 @@ The animals were **rats, not mice**. The "distance" element is Sheldrake's later
    - Morphic resonance: **Speculative**.
    - Any link to collective consciousness: **Speculative / Symbolic**.
 
+### Generational "preconditioning" for new technology (Channing's idea)
+
+**Speculative.** Channing's idea is that children born into a new technological age pick it up faster because newer generations are preconditioned for the future. He offered it as "just an idea." Grounded context and counterpoints:
+
+1. **Sensitive periods and developmental plasticity: Grounded.** E. I. Knudsen, "Sensitive periods in the development of the brain and behavior," *J. Cogn. Neurosci.* 16(8), 1412–1425 (2004), doi:[10.1162/0898929042304796](https://doi.org/10.1162/0898929042304796).
+   - Early experience shapes neural circuits unusually strongly, and the patterns it sets become stable.
+   - Children immersed in a technology from birth get that exposure during sensitive periods. That explains faster uptake through **experience**, with no inherited preconditioning needed.
+2. **The Flynn effect: Grounded, and largely environmental.**
+   - J. R. Flynn, "Massive IQ gains in 14 nations: What IQ tests really measure," *Psychol. Bull.* 101, 171–191 (1987), doi:[10.1037/0033-2909.101.2.171](https://doi.org/10.1037/0033-2909.101.2.171); DOI written from memory, title and pages verified.
+     - IQ gains of **5–25 points in one generation**, largest on fluid and culture-reduced tests.
+     - The Dutch data imply potent environmental factors.
+   - J. Pietschnig & M. Voracek, "One Century of Global IQ Gains: A Formal Meta-Analysis of the Flynn Effect (1909–2013)," *Perspect. Psychol. Sci.* 10(3), 282–306 (2015), doi:[10.1177/1745691615577701](https://doi.org/10.1177/1745691615577701); volume and pages written from memory.
+     - About **2.8 IQ points per decade** across 271 samples, close to 4 million people in 31 countries.
+     - Gains are fastest for fluid IQ and **have slowed in recent decades**.
+     - The proposed causes are environmental and life-history factors: nutrition, health, education and prosperity.
+   - Generations do change fast, but through the environment, not inherited preconditioning.
+3. **The "digital native" claim, critiqued: Grounded critique.** P. A. Kirschner & P. De Bruyckere, "The myths of the digital native and the multitasker," *Teach. Teach. Educ.* 67, 135–142 (2017), doi:[10.1016/j.tate.2017.06.001](https://doi.org/10.1016/j.tate.2017.06.001).
+   - Studies in several countries find **no credible evidence** that people born into digital media are information-skilled just from growing up with it.
+   - "Multitasking" is really task-switching, and it hurts learning.
+   - Familiarity is not the same as skill.
+4. **Genetics is too slow.** Allele frequencies cannot shift meaningfully in 1–2 generations without very strong selection, so genetic change cannot explain generational tech fluency. This is standard population genetics (no specific citation).
+5. **Epigenetic contribution: untested.** §3k shows parents' experience can mark offspring in some animal models. No study links parental technology exposure to offspring epigenetic marks or faster tech learning. **Speculative / untested.**
+6. **Label:**
+   - Faster tech uptake by children: **Grounded**, but explained by sensitive periods, immersion and environment.
+   - "Newer generations are preconditioned for the future" through inheritance or morphic resonance: **Speculative**.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
@@ -563,5 +591,4 @@ The animals were **rats, not mice**. The "distance" element is Sheldrake's later
 - What the benzene-ring / aromatic angle was for (§3e): resolved as both detection and π-electron/light, unified by chemical→electrical transduction.
 - The stray "V" line in the §3d paste. **[Channing to clarify]** It is likely a pasted UI artifact (§3g).
 - What was specifically proposed for hair and antler regeneration (§3h). **[Channing to supply]**
-- Whether the "maze across distance" study is McDougall/Agar (§3l). **[Channing to confirm]**
 - The garbled tail of the §3g "Intent as alignment" paste. **[Channing to supply]**
