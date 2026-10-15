@@ -35,6 +35,77 @@
 - **Bennett relation (corrected):** **I² = (8π/μ₀) N k_B (T_e + T_i)**, with N the line density (particles per unit length).
   *Screenshot form "I² = 4π²a²(p + B_z²/2μ₀)" is garbled/simplified; it is not the Bennett relation.*
 - Stability criterion (rough): shear dv_z/dr ≳ 0.1 k V_A (V_A = Alfvén speed, k = mode wavenumber) per sheared-flow theory (Shumlak & Hartman 1995).
+- Acoustic / magnetosonic "sonic pinching" of this shear layer: see [§3a](#3a-sonic-pinching-grok-excerpt--lost-sim-description-2026-10-15).
+
+## 3a. Sonic pinching (Grok excerpt + lost sim description, 2026-10-15)
+The "shear layer" in the paste is the **sheared axial flow** of the Z-pinch in [§3](#3-z-pinch-with-sheared-flow-stabilization--grounded). There was no earlier "sonic pinch" section in the repo. Related threads to rebuild (Hall effect, ionic thrusters, acoustic levitation):
+- Hall-MHD: [§7b-math](#7b-math-hall-mhd-math-recovered-ocr-damaged).
+- Ionic wind / thrusters: [lift §4](lift_and_equilibrium_systems.md#4-ionic-wind--electroaerodynamics-grounded).
+- Levitation methods: [lift §9](lift_and_equilibrium_systems.md#9-levitation-methods-grounded).
+- Acoustic streaming: [acoustic_streaming_and_centrifugal.md §1](acoustic_streaming_and_centrifugal.md#1-acoustic-streaming-grounded).
+- Acoustic levitation (Marzo et al.): [em_topo L8](em_topological_gravity_review.md#l8-biology-microtubules-acoustic-sand-structuring).
+- The toroidal / MHD-in-space material is in [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15).
+
+**Grok excerpt (verbatim):**
+> • Acoustic waves and magnetoacoustic (magnetosonic) modes can transport energy, damp instabilities, or even contribute to dynamic "pinching" via compression/rarefaction.  
+> • In our context, we can envision sonic pinching as using acoustic or resonant wave drivers to modulate or reinforce the shear layer — creating standing waves, phi-spiral interference patterns, or resonant nodes that help sustain the pinch more gently and regeneratively.
+
+**Sim description (verbatim; describes a simplified sim script that is now lost):**
+> Based on the acoustic wave equation coupled to background flow.  
+> Real experiments use gas injection and electrode modulation; this captures the essence without full MHD complexity (which we'd add later via more advanced libs if needed). Shear helps damp instabilities, while acoustic waves can actively "pinch" or sustain via compression.
+
+- **The script: [Channing to supply]**. It is lost and can be rebuilt; it is not written here.
+- From the description, it solved an **acoustic wave equation with a background (sheared) flow**: a convected wave equation, (∂_t + U·∇)²p′ − c²∇²p′ = 0 for uniform U, or the linearized Euler equations for a sheared U(r). That stands in for MHD.
+
+**Grounded context (sources checked 2026-10-15)**
+- **Magnetosonic (magnetoacoustic) waves compress plasma: Grounded.**
+  - The fast mode propagates across B at v_f = √(v_A² + c_s²) and compresses both the plasma and the field. The slow mode is mostly along B.
+  - These are the "fast/slow magnetosonic-Hall" branches already in §7b-math. Textbook: T. H. Stix, *Waves in Plasmas* (AIP, 1992).
+- **Sheared-flow stabilization of Z-pinches: Grounded.**
+  - Theory: U. Shumlak & C. W. Hartman, "Sheared flow stabilization of the m = 1 kink mode in Z pinches," *PRL* 75, 3285 (1995), doi:10.1103/PhysRevLett.75.3285. The kink is stabilized when v_z′/(kV_A) exceeds a wall-dependent threshold, at most about **0.1** in their equilibria. (Arber & Howell published a comment, *PRL* 76, 2198 (1996), and the authors replied.)
+  - ZaP: U. Shumlak et al., "Evidence of stabilization in the Z-pinch," *PRL* 87, 205005 (2001), doi:10.1103/PhysRevLett.87.205005. The pinch stayed quiescent for >700 kink growth times while shear exceeded the threshold.
+  - FuZE / Zap Energy: Y. Zhang et al., "Sustained neutron production from a sheared-flow stabilized Z pinch," *PRL* 122, 135001 (2019), doi:10.1103/PhysRevLett.122.135001.
+- **Wave drive in real pinches = gas injection + electrode modulation: Grounded.**
+  - ZaP injects neutral gas through **gas-puff valves**. A **capacitor bank** across the inner and outer electrodes breaks it down, and J×B accelerates it (ZaP quasi-steady operation, doi:10.1063/1.4904784).
+  - FuZE tailors current and gas with **independently switched capacitor modules**. Continuous injection in a "deflagration" mode is required to sustain the pinch (*Phys. Plasmas* 27, 112503 (2020)).
+  - So the sim description's "real experiments" sentence is accurate.
+- **RF / wave heating and current drive: Grounded.** Waves launched by antennas heat plasma and drive current in tokamaks (currents up to ~0.5 MA by 1987): N. J. Fisch, "Theory of current drive in plasmas," *Rev. Mod. Phys.* 59, 175 (1987), doi:10.1103/RevModPhys.59.175.
+- **Oscillation damping instabilities: partly Grounded (cite carefully).**
+  - "Dynamic stabilization" is real: vertically oscillating a liquid held a Rayleigh–Taylor-unstable liquid–air interface in place (Kapitza-pendulum physics): G. H. Wolf, *PRL* 24, 444 (1970), doi:10.1103/PhysRevLett.24.444.
+  - Applying this to pinches with high-frequency fields was also studied historically (specific plasma citations **not verified here**).
+  - Ion-acoustic waves are themselves strongly Landau-damped unless T_e ≫ T_i.
+  - Acoustic damping of the **kink** specifically is **not** established.
+- **Neutral-gas acoustics barely couple into a hot, highly ionized pinch: Grounded.**
+  - A fully ionized column has no neutral gas to carry ordinary sound. Neutral sound (~10³ m/s) is mismatched with ion-acoustic and Alfvén speeds (~10⁵ m/s at keV temperatures), and ordinary acoustic drives are slow compared with µs pinch times.
+  - The relevant modes are **ion-acoustic** (c_s ≈ √(k_B T_e/m_i)) and **magnetosonic**. In practice they are driven electrically (current modulation, antennas), not with loudspeakers or transducers.
+
+**What the simplified sim can and cannot show**
+- The convected wave equation / linearized Euler is **Grounded as acoustics**: flow-acoustics in ducts, and shear-layer refraction.
+- As an **MHD proxy it is a simplification**. It has no j×B force (no pinch at all), no magnetic pressure B²/2μ₀ or tension (B·∇)B/μ₀, no induction equation and no Alfvén waves. The kink is a current/magnetic-tension instability, so it **cannot appear** in a purely acoustic model.
+- Shear in a pure fluid can also **drive** Kelvin–Helmholtz instability, not only damp it.
+- "Acoustic waves can actively pinch" holds in the acoustic sense (compression and rarefaction, radiation pressure). It isn't a magnetic pinch.
+- "More advanced libs" that exist and solve MHD (checked):
+  - [Dedalus](https://dedalus-project.org/): spectral, Python; good for linear stability/eigenvalue problems, not shocks.
+  - [PLUTO](https://plutocode.ph.unito.it/): Godunov HD/MHD; Mignone et al., *ApJS* 170, 228 (2007).
+  - [Athena++](https://doi.org/10.3847/1538-4365/ab929b): AMR MHD; Stone et al., *ApJS* (2020).
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Magnetosonic waves transport energy and compress plasma | Grounded |
+| Sheared flow (≳ 0.1 kV_A) stabilizes m = 1 kink (and m = 0) in Z-pinches | Grounded (theory + ZaP/FuZE) |
+| RF/wave heating and current drive | Grounded |
+| Oscillation / "dynamic stabilization" of instabilities | Grounded in fluids (Wolf 1970); for pinch kinks Plausible-untested |
+| Real devices use gas injection + electrode (capacitor-bank) modulation | Grounded |
+| Convected wave equation / linearized Euler as acoustics | Grounded; **as an MHD proxy, a simplification** (no j×B, tension, induction) |
+| Ordinary (neutral-gas) acoustic drivers coupling into a hot pinch | Not supported (negligible coupling) |
+| Wave drivers "sustaining the pinch more gently and regeneratively" | **Speculative** (no energy budget; "regenerative" undefined) |
+| Phi-spiral interference patterns / resonant nodes in the shear layer | **Speculative / Symbolic** |
+
+**Open items**
+- The lost sim script (equations, grid, boundary conditions, parameters): **[Channing to supply]**. A rebuild would start as linearized Euler with sheared U(r), then move to linear MHD (e.g. a Dedalus eigenvalue problem for kink growth vs shear).
+- What "regenerative" means (energy recovery? self-sustaining?): **[Channing to clarify]**.
+- Driver type and frequency relative to ion-acoustic and Alfvén frequencies: **[Channing to supply]**.
 
 ## 4. Resonant piezo / quartz feedback = the "heartbeat" — Plausible-untested
 - Screenshot: "Piezo feedback loops can damp modes via real-time frequency matching (f = 1/(2π√LC) analogs in mechanical/EM domains)."
@@ -307,7 +378,7 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 ## 7b-reentry. Re-entry as a control method "that we create" (2026-10-15)
 > Channing (verbatim): "We used the concepts of re-entry as a control method that we create."
 
-**Interpretation, [Channing to clarify]:** instead of only surviving the re-entry plasma, the craft *creates* and uses a re-entry-like plasma layer on demand (an artificial or switchable ionised sheath plus applied B) as a control surface for **steering, braking and the planet↔space transition**. This would sit alongside the trim-coil mode switch in [em_topo L5c](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere). The physics is the same induction / Lorentz physics as [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15), at low magnetic Reynolds number. The energy side (harvesting and storing re-entry charge) is in [Manta-Butterfly: re-entry energy harvesting and charge storage](manta_butterfly_craft.md#re-entry-energy-harvesting-and-charge-storage-overall-plausible-untested). The plasma scales and the Hall / energy caveats are worked out in [shifting_phase_order_review.md §B1](shifting_phase_order_review.md#b1-re-entry-plasma-sheath-as-a-guide-basic-plasma-scales) and [§B2](shifting_phase_order_review.md#b2-magnetic-manipulation-of-the-shock-layer-flow-mhd-flow-control--magnetic-window); they are not repeated here.
+**Interpretation (confirmed).** Channing (verbatim): "Yes, exactly create our own sheath we can manipulate." Instead of only surviving the re-entry plasma, the craft *creates* and uses a re-entry-like plasma layer on demand (an artificial or switchable ionised sheath plus applied B) as a control surface for **steering, braking and the planet↔space transition**. This would sit alongside the trim-coil mode switch in [em_topo L5c](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere). The physics is the same induction / Lorentz physics as [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15), at low magnetic Reynolds number. The energy side (harvesting and storing re-entry charge) is in [Manta-Butterfly: re-entry energy harvesting and charge storage](manta_butterfly_craft.md#re-entry-energy-harvesting-and-charge-storage-overall-plausible-untested). The plasma scales and the Hall / energy caveats are worked out in [shifting_phase_order_review.md §B1](shifting_phase_order_review.md#b1-re-entry-plasma-sheath-as-a-guide-basic-plasma-scales) and [§B2](shifting_phase_order_review.md#b2-magnetic-manipulation-of-the-shock-layer-flow-mhd-flow-control--magnetic-window); they are not repeated here.
 
 **Grounded context (sources checked 2026-10-15)**
 - **Re-entry plasma sheath and blackout: Grounded, flight-measured.**
@@ -350,7 +421,7 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 | Creating a plasma sheath on demand as a **general** steering / braking / transition control for an RGRF craft | **Plausible-untested** (braking / drag modulation in an atmosphere) to **Speculative** (steering in vacuum, or "free" control); kW–MW power cost |
 
 **Open items**
-- What "the concepts of re-entry" covered (drag modulation? heat-shield field? a guide sheath? a mode switch?): **[Channing to clarify]**.
+- Confirmed aim: create our own sheath we can manipulate. Still open: which uses it served (drag modulation, heat-shield field, a guide sheath, the mode switch): **[Channing to supply]**.
 - Whether the plasma is self-generated (by the flow) or created on board (discharge, e-beam, RF), and at what altitude and speed: **[Channing to supply]**.
 - Field geometry, insulating vs conducting wall, and power and mass budgets.
 - Bench: magnet inside a blunt model in an arc-jet or a plasma-wind tunnel (Kranc-style), measuring drag and standoff vs B. At small scale: a DBD actuator on a plate in a fan tunnel.

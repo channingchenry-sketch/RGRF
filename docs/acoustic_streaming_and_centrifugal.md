@@ -28,6 +28,8 @@ Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen
   - gentle propulsion or attitude assist.
 - **Caveat:** streaming speeds are mm/s to m/s. That is significant for films and boundary layers at low speed, and negligible against free-stream flow at flight speed.
 
+*See also:* "sonic pinching" (acoustic / magnetosonic drivers on a sheared-flow Z-pinch) in [tungsten_bismuth_core.md §3a](tungsten_bismuth_core.md#3a-sonic-pinching-grok-excerpt--lost-sim-description-2026-10-15).
+
 ## 2. Centrifugal buoyancy (Grounded)
 
 **The physics.**
