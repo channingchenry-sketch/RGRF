@@ -200,6 +200,26 @@ The design goal was stability on a buoyant body, not levitation. See [lift_and_e
 
 Channing's notes on the macroscopic birefringence idea: **[Channing to supply]**.
 
+> Channing (verbatim, 2026-10-15), clarifying: "It was on sinusoidal torque"
+
+**Sinusoidal torque on a birefringent body (Grounded).**
+- **Optical torque on a waveplate.** Light changes polarisation in a birefringent plate, so it gives up spin angular momentum (ħ per photon per unit change of circular content). For linearly polarised light at angle θ to the fast axis, through a plate of retardance Δ:
+  **τ = (P/ω)·sin Δ·sin 2θ.**
+  - The torque is **sinusoidal in 2θ**. It pulls the plate axis toward the polarisation (alignment, with angular stiffness), and it spins the plate if the polarisation is rotated continuously.
+  - Measured first by R. A. Beth, "Mechanical detection and measurement of the angular momentum of light," *Phys. Rev.* 50, 115–125 (1936), doi:10.1103/PhysRev.50.115. He used a quartz waveplate on a torsion pendulum. With circular input through a half-wave plate the spin reverses, so τ = 2P/ω.
+- **Microscale.** M. E. J. Friese, T. A. Nieminen, N. R. Heckenberg & H. Rubinsztein-Dunlop, "Optical alignment and spinning of laser-trapped microscopic particles," *Nature* 394, 348–350 (1998), doi:10.1038/28566 (erratum *Nature* 395, 621). Calcite microparticles in optical tweezers either align with the polarisation or spin at >350 Hz.
+- **Optical torque wrench.** A. La Porta & M. D. Wang, "Optical torque wrench: angular trapping, rotation, and torque detection of quartz microparticles," *Phys. Rev. Lett.* 92, 190801 (2004), doi:10.1103/PhysRevLett.92.190801. ~10 mW gives several hundred pN·nm (~10⁻¹⁹ N·m) on micron quartz particles, with feedback control.
+- **Static-field analog.** An anisotropic dielectric in a DC field E feels a torque per volume τ/V = ½ ε₀ Δε E² sin 2θ, which is also sinusoidal in 2θ. This is the torque that reorients liquid crystals: the Fréedericksz transition and every LCD pixel. Standard liquid-crystal physics (e.g. de Gennes & Prost, *The Physics of Liquid Crystals*). The textbook was not re-checked here.
+
+**Macroscopic scale (computed).**
+- At 633 nm, ω = 2πc/λ = 2.98×10¹⁵ rad/s.
+- **1 W on a quarter-wave plate, θ = 45°:** τ_max = P/ω ≈ **3.4×10⁻¹⁶ N·m**. A half-wave plate with circular input doubles it to 6.7×10⁻¹⁶ N·m. Torque scales linearly with power, so even 1 kW gives only ~3×10⁻¹³ N·m.
+- **DC dielectric version (illustrative, Δε = 1, E = 1 MV/m, 1 cm³):** τ ≈ 4.4×10⁻⁶ N·m. That is ~10¹⁰ times the optical value, but still micro-newton-metres, and the field is near air breakdown (~3 MV/m).
+- **Conclusion:** "sinusoidal torque" from birefringence is real and well measured. At macroscopic scale it is tiny: a useful **alignment, actuation or sensing** effect (torsion balances, optical wrenches, LC cells), not a drive torque for a craft.
+
+**Damping link.** A sinusoidal torque drive on a suspended plate is a driven torsional oscillator. Its response near resonance is set by Q, so the **R-damp** rule in §1a applies: add damping, or drive off-resonance.
+
+
 **Grounded context**
 - **Calcite / Iceland spar double refraction.** E. Bartholin, *Experimenta crystalli Islandici disdiaclastici quibus mira & insolita refractio detegitur* (Copenhagen, 1669). A strongly birefringent uniaxial crystal (n_o ≈ 1.658, n_e ≈ 1.486, Δn ≈ 0.17; standard handbook values) gives two visibly separated images. Later work: Huygens (1678/1690), Malus (1808–1810, polarisation by reflection) and the Nicol prism (1828).
 - **Viking sunstone (hypothesis).** G. Ropars, G. Gorre, A. Le Floch, J. Enoch & V. Lakshminarayanan, "A depolarizer as a possible precise sunstone for Viking navigation by polarized skylight," *Proc. R. Soc. A* 468, 671–684 (2012; published online 2 Nov 2011), doi:10.1098/rspa.2011.0369. Rotating Iceland spar to its isotropy point equalises the two beams and locates a hidden Sun to within a few degrees, even at twilight. The physics is Grounded (demonstrated). That Vikings actually used it is a **hypothesis**, supported by medieval texts and a calcite found on the 1592 Alderney wreck (Le Floch et al., *Proc. R. Soc. A* 469, 2013).
@@ -373,6 +393,10 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | Tb/Dy solution impregnation of natural ulexite | Speculative |
 | Calcite double refraction; waveplate + Faraday isolators | Grounded |
 | Viking calcite sunstone | Physics Grounded (demonstrated); historical use a hypothesis |
+| Birefringence → sinusoidal torque τ = (P/ω) sin Δ sin 2θ (Beth 1936; Friese 1998; La Porta & Wang 2004) | Grounded |
+| Static anisotropic-dielectric torque ∝ sin 2θ (liquid crystals) | Grounded |
+| Macroscopic birefringent torque as an RGRF actuator (≈3.4×10⁻¹⁶ N·m per W optical) | Plausible-untested; tiny |
+| Sinusoidal torque drive on a suspended element | Needs damping (R-damp) |
 
 ## Open items
 - The specific Tesla and Da Vinci threads explored, and any Grok text. **[Channing to supply]**
