@@ -224,7 +224,7 @@ For the personal-scale POL, the strongest grounded extension is perturbation sec
 Cheaper option for A4.3: two phase-shifted coils over an Al plate, with a load cell measuring lateral force versus phase. This is a 1-day LIM-style test.
 
 ## E. Boyer repulsive Casimir as a parallel to shifting phase order (2026-10-15)
-**Archived paste (verbatim, LaTeX as written).** Pasted by Channing 2026-10-15. It is likely Grok-generated or his own notes **[Channing to clarify source]**.
+**Archived paste (verbatim, LaTeX as written).** Pasted by Channing 2026-10-15. Source: Grok (per Channing, 2026-10-15).
 
 ```text
 Yes — that particular detail in the Boyer configuration sits close to the kind of language we have been using.
@@ -259,3 +259,165 @@ We are marking this as a parallel to our shifting phase order language.
 | Practical vacuum-repulsion engine or lift | Not supported |
 
 **Cross-links:** the Casimir and DCE checks in [em_topo L5b §3](em_topological_gravity_review.md#3-a-resonance-chamber-tuned-to-the-casimir-plates-frequency); E↔B duality in [tesla_davinci_threads.md §3b](tesla_davinci_threads.md#3b-electricmagnetic-as-a-complementary-pair); analogies as structural references in [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md#analogies-and-natural-reference-mechanisms).
+
+## F. Floquet (periodically driven) topological phases (2026-10-15)
+Channing asked (verbatim): "can we explore floquet periodically driven topological phases?"
+
+**What it is (Grounded).**
+- **Floquet theorem.** For a Hamiltonian periodic in time, H(t + T) = H(t), the one-period evolution operator U(T) (the Floquet operator) has eigenvalues e^{−iεT}. The quasienergy ε is defined only modulo 2π/T, so it lives in a **quasienergy Brillouin zone**, just as crystal momentum does in space. That periodicity is what allows a gap at ε = π/T as well as at ε = 0. (Standard textbook result; G. Floquet 1883 for periodic ODEs; Shirley 1965 and Sambe 1973 for quantum systems. These classic references were not re-checked here.)
+- **Theory milestones.**
+  - T. Oka & H. Aoki, "Photovoltaic Hall effect in graphene," *Phys. Rev. B* 79, 081406(R) (2009), doi:10.1103/PhysRevB.79.081406. Circularly polarized light opens a gap in graphene and gives a Hall response without a magnetic field.
+  - T. Kitagawa, E. Berg, M. Rudner & E. Demler, "Topological characterization of periodically driven quantum systems," *Phys. Rev. B* 82, 235114 (2010), doi:10.1103/PhysRevB.82.235114. Floquet operators fall into homotopy classes, and one phase has chiral edge modes with a trivial bulk.
+  - N. H. Lindner, G. Refael & V. Galitski, "Floquet topological insulator in semiconductor quantum wells," *Nat. Phys.* 7, 490–495 (2011), doi:10.1038/nphys1926. Microwave driving turns a trivial quantum well topological.
+  - M. S. Rudner, N. H. Lindner, E. Berg & M. Levin, "Anomalous edge states and the bulk-edge correspondence for periodically driven two-dimensional systems," *Phys. Rev. X* 3, 031005 (2013), doi:10.1103/PhysRevX.3.031005. Chiral edge states can exist when **every bulk Chern number is zero**, and a new winding-number invariant is needed.
+- **Experiments.**
+  - M. C. Rechtsman et al., "Photonic Floquet topological insulators," *Nature* 496, 196–200 (2013), doi:10.1038/nature12066. Helical waveguides, where the propagation direction plays the role of time.
+  - Y. H. Wang, H. Steinberg, P. Jarillo-Herrero & N. Gedik, "Observation of Floquet-Bloch states on the surface of a topological insulator," *Science* 342, 453–457 (2013), doi:10.1126/science.1239834. Time-resolved ARPES on Bi₂Se₃.
+  - G. Jotzu et al., "Experimental realization of the topological Haldane model with ultracold fermions," *Nature* 515, 237–240 (2014), doi:10.1038/nature13915. A circularly shaken honeycomb optical lattice.
+  - J. W. McIver et al., "Light-induced anomalous Hall effect in graphene," *Nat. Phys.* 16, 38–41 (2020), doi:10.1038/s41567-019-0698-y. A plateau of ~1.8 ± 0.4 e²/h under femtosecond circularly polarized pulses. The effect is transient.
+- **π-modes and time crystals.**
+  - V. Khemani, A. Lazarides, R. Moessner & S. L. Sondhi, "Phase structure of driven quantum systems," *Phys. Rev. Lett.* 116, 250401 (2016), doi:10.1103/PhysRevLett.116.250401.
+  - D. V. Else, B. Bauer & C. Nayak, "Floquet time crystals," *Phys. Rev. Lett.* 117, 090402 (2016), doi:10.1103/PhysRevLett.117.090402.
+  - J. Zhang et al., "Observation of a discrete time crystal," *Nature* 543, 217–220 (2017), doi:10.1038/nature21413 (trapped ions).
+  - S. Choi et al., "Observation of discrete time-crystalline order in a disordered dipolar many-body system," *Nature* 543, 221–225 (2017), doi:10.1038/nature21426 (NV centres).
+  - A π-quasienergy gap or π-pair lets a system respond at **twice the drive period** (a subharmonic). In the interacting, localized case this becomes a discrete time crystal.
+- **Caveat: heating and prethermalization (Grounded).** A generic interacting system driven periodically absorbs energy and heats toward an infinite-temperature state (L. D'Alessio & M. Rigol, *Phys. Rev. X* 4, 041048 (2014), doi:10.1103/PhysRevX.4.041048). At high drive frequency the heating is exponentially slow, giving a long **prethermal** window where Floquet phases are usable (D. A. Abanin, W. De Roeck & F. Huveneers, "Exponentially slow heating in periodically driven many-body systems," *Phys. Rev. Lett.* 115, 256803 (2015), doi:10.1103/PhysRevLett.115.256803). Many-body localization or dissipation is otherwise needed. Every real Floquet phase is therefore a timing-and-loss engineering problem, not a free lunch.
+
+**Link to §E (Symbolic / structural parallel).** In §E the Boyer cavity returns a wave with a π phase after one round trip, which shifts the mode ladder by half a spacing and flips the force sign. In a Floquet system the π quasienergy gap means a mode picks up a phase of π per drive period, so it returns to itself only after two periods. Both are "a discrete π phase per loop reorders the modes". The physics is different: one is a static boundary condition in macroscopic QED, the other is time-periodic driving of a lattice. Label: **Symbolic / structural parallel.**
+
+**Classical and plasma Floquet / topological waves.**
+- **Classical Floquet TIs (Grounded).** Photonic (Rechtsman 2013 above) and acoustic: R. Fleury, A. B. Khanikaev & A. Alù, "Floquet topological insulators for sound," *Nat. Commun.* 7, 11744 (2016), doi:10.1038/ncomms11744. Time-modulated acoustic resonators give one-way, topologically protected edge transport. Mechanical topological metamaterials are reviewed in e.g. *Nat. Rev. Phys.* "Topological phases in acoustic and mechanical systems" (2019) [authors to verify]. Topology is a **wave** property, so it carries over to classical oscillators.
+- **Topological plasma waves (Grounded, static, not Floquet).** J. B. Parker, J. B. Marston, S. M. Tobias & Z. Zhu, "Topological gaseous plasmon polariton in realistic plasma," *Phys. Rev. Lett.* 124, 195001 (2020), doi:10.1103/PhysRevLett.124.195001. A magnetized plasma–vacuum interface carries a topologically protected edge wave. The magnetic field breaks time reversal, not a drive.
+- **Driven (Floquet) plasma topology.** I did not find an established experimental literature on it. Treat it as **Speculative** (an open research direction).
+
+**RGRF ties (Plausible-untested).**
+- A periodically driven field or plasma drive could open or select **edge/boundary modes** of the craft sheath: a drive-tuned 0/π gap that confines wave energy to the sheath boundary. It links to the sheath in [§7b-reentry](tungsten_bismuth_core.md#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15), Alfvén timing in [§7b-alfven](tungsten_bismuth_core.md#7b-alfven-alfvén-waves-the-external-ion-flow-coupling-2026-10-15) / [§7b-alfven.1](tungsten_bismuth_core.md#7b-alfven1-schumann-resonance-as-a-coupling-guide), and frequency hopping in [tesla_davinci_threads.md §3e.1](tesla_davinci_threads.md#3e1-plasma-particle-tracing-and-bluetooth-packet-transmission-reference-dynamics). The magnetized-plasma edge wave of Parker et al. 2020 is the grounded starting point. A *driven* version is untested.
+- The heating caveat applies directly: a driven sheath absorbs drive power. This sits with the damping rule R-damp in [tesla_davinci_threads.md §1a](tesla_davinci_threads.md#1a-mechanical-oscillator-earthquake-machine).
+
+**Sim: `sims/floquet_ssh_pi_modes.py` (Reconstructed, textbook model).** The model is a two-step driven SSH chain, U = e^{−iθ₂H_w} e^{−iθ₁H_v} with θ₁ = vT₁ and θ₂ = wT₂. It uses an open chain of 40 cells and the bulk invariants W₀ and W_π from the two chiral-symmetric time frames (J. K. Asbóth, B. Tarasinski & P. Delplace, "Chiral symmetry and bulk-boundary correspondence in periodically driven one-dimensional systems," *Phys. Rev. B* 90, 125143 (2014), doi:10.1103/PhysRevB.90.125143). numpy/matplotlib, ~20 s. Plot: [`docs/images/floquet_ssh_pi_modes.png`](images/floquet_ssh_pi_modes.png).
+
+![Floquet SSH 0/π modes and φ ablation](images/floquet_ssh_pi_modes.png)
+
+Results:
+- **Bulk-boundary correspondence reproduced.** |W₀| and |W_π| equal the number of 0- and π-edge modes per edge at **100%** of 41×41 grid points away from the gap-closing lines.
+- **The four phases appear** in panel A:
+  - θ₁ = 0.5, θ₂ = 1.0: one 0-mode (static-SSH-like);
+  - θ₁ = 1.0, θ₂ = 0.5: none;
+  - θ₁ = 2.6, θ₂ = 1.0: **one π-mode only**, an intrinsically driven phase with no static analog;
+  - θ₁ = 2.0, θ₂ = 2.6: both 0- and π-modes.
+  Gaps close only on θ₁ ± θ₂ = mπ, matching the analytic cos ε = cos θ₁ cos θ₂ − sin θ₁ sin θ₂ cos k.
+- **φ ablation (equal hoppings, total period T split T₁/T₂ = r, scan JT ∈ (0, 4π)):**
+
+| r | frac W₀≠0 | frac W_π≠0 | frac both | mean gap at 0 | mean gap at π | transitions (JT/π) |
+|---|---|---|---|---|---|---|
+| φ | 0.500 | 0.500 | 0.250 | 1.015 | 1.102 | 1, 2, 3 |
+| 8/5 | 0.500 | 0.500 | 0.250 | 1.002 | 1.122 | 1, 2, 3 |
+| 5/3 | 0.500 | 0.500 | 0.250 | 1.048 | 1.047 | 1, 2, 3 |
+| 3/2 | 0.500 | 0.500 | 0.250 | 0.917 | 1.230 | 1, 2, 3 |
+| √2 | 0.500 | 0.500 | 0.250 | 0.825 | 1.317 | 1, 2, 3 |
+| 2 | 0.500 | 0.750 | 0.500 | 1.179 | 0.915 | 1, 2 |
+
+  (r = 1 sits exactly on the θ₁ = θ₂ gap-closing line, which is critical, so it is excluded.)
+- **Honest verdict: φ does not matter.** The phase sequence for r = φ is identical to that for 8/5, 5/3, 3/2 and √2. The gap sizes vary smoothly with r, and φ falls between its Fibonacci neighbours 8/5 and 5/3, as any interpolation would. Only r = 2 differs, because its path reaches the θ₁ − θ₂ = π line inside the scan. Topology is set by which gap-closing lines are crossed, not by the arithmetic nature of r. This matches the earlier toys (see [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md)).
+
+**Labels (§F)**
+| Claim | Label |
+|---|---|
+| Floquet theorem, quasienergy zone, 0/π gaps | Grounded |
+| Floquet TIs, anomalous Floquet edge states (theory) | Grounded |
+| Photonic / Floquet-Bloch / cold-atom / graphene experiments | Grounded (measured; graphene effect transient) |
+| Discrete time crystals (π-pairing, subharmonic response) | Grounded (measured 2017) |
+| Heating; prethermal window at high frequency | Grounded |
+| Acoustic Floquet TI (Fleury et al. 2016) | Grounded |
+| Topological edge wave in magnetized plasma (Parker et al. 2020) | Grounded (theory, static) |
+| Floquet-driven plasma topology | Speculative |
+| Floquet π gap ↔ Boyer π round-trip phase (§E) | Symbolic / structural parallel |
+| Driven sheath selecting edge/boundary modes for an RGRF craft | Plausible-untested |
+| φ step-split giving a topological advantage | Not supported (sim: no effect beyond smooth r-dependence) |
+| Driven SSH sim reproduces W₀/W_π ↔ edge modes | Grounded (reproduced textbook result) |
+
+## G. Rotating electron systems and rotation-induced fields (reference) (2026-10-15)
+**Archived paste (verbatim, line breaks and formatting as written).** Channing describes it as "from our prior notes and complements this exploration as a reference".
+
+```text
+1. Rotating ultracold / cold electron
+columns
+Penning-Malmberg + rotating wall. You set density by setting rotation rate (up toward the Brillouin limit). Cyclotron cooling fights the heating from the drive and residual gas. This is the closest thing to
+"supercooled free electrons, spinning as a rigid body."
+2. Landau / vortex free-electron beams
+Relativistic electrons with definite orbital angular momentum, imaged rotating at Larmor vs cyclotron vs zero depending on
+m. Supercooling is not the point here; coherence and mode purity are.
+3. Rotation-induced fields
+In a normal metal:
+E~-K(M/e)wr
+(lattice ions matter; K depends on elastic constants).
+In a superconductor: the field tracks Cooper-pair mass, plus the London
+• magnetic moment
+This is from our prior notes and complements this exploration as a reference
+```
+
+**Second paste (London moment, verbatim LaTeX):**
+```text
+\mathbf{B} \approx -\frac{2m^{*}}{e^{*}}\boldsymbol{\omega}
+```
+
+**Checks (all Grounded unless marked)**
+1. **Rotating-wall electron/ion columns.**
+   - X.-P. Huang, F. Anderegg, E. M. Hollmann, C. F. Driscoll & T. M. O'Neil, "Steady-state confinement of non-neutral plasmas by rotating electric fields," *Phys. Rev. Lett.* 78, 875–878 (1997), doi:10.1103/PhysRevLett.78.875. Mg⁺ columns confined for weeks, with density raised by increasing the drive frequency, up to ~20% of the Brillouin limit with laser cooling.
+   - F. Anderegg, E. M. Hollmann & C. F. Driscoll, "Rotating field confinement of pure electron plasmas using Trivelpiece-Gould modes," *Phys. Rev. Lett.* 81, 4875–4878 (1998), doi:10.1103/PhysRevLett.81.4875. 3×10⁹ electrons at 4 T, ×20 central compression. "Cyclotron radiation cooling keeps the temperature low", which is exactly the note's "cyclotron cooling fights the heating".
+   - J. R. Danielson & C. M. Surko, *Phys. Rev. Lett.* 94, 035001 (2005), doi:10.1103/PhysRevLett.94.035001, and *Phys. Plasmas* 13, 055706 (2006), doi:10.1063/1.2179410 (the page number of the 2006 paper was not re-checked). This is the strong-drive regime: density rises until the E×B rotation frequency matches the drive, n > 10¹⁰ cm⁻³ at ~0.1 eV.
+   - The **Brillouin limit** is n_B = ε₀B²/(2m_e), i.e. **4.86×10¹⁸ m⁻³ at 1 T** (computed). It is the Gaussian B²/(8πmc²) quoted by Huang et al.
+   - **Cyclotron cooling:** T. M. O'Neil, "Cooling of a pure electron plasma by cyclotron radiation," *Phys. Fluids* 23, 725–731 (1980), doi:10.1063/1.863044.
+   - **Rigid-rotor thermal equilibrium:** D. H. E. Dubin & T. M. O'Neil, "Trapped nonneutral plasmas, liquids, and crystals (the thermal equilibrium states)," *Rev. Mod. Phys.* 71, 87–172 (1999), doi:10.1103/RevModPhys.71.87.
+   - The note's "spinning as a rigid body" is accurate.
+2. **Landau / vortex electron beams.**
+   - First vortex beams: M. Uchida & A. Tonomura, *Nature* 464, 737–739 (2010), doi:10.1038/nature08904, and J. Verbeeck, H. Tian & P. Schattschneider, *Nature* 467, 301–304 (2010), doi:10.1038/nature09366.
+   - Theory in a magnetic field: K. Y. Bliokh, P. Schattschneider, J. Verbeeck & F. Nori, "Electron vortex beams in a magnetic field: a new twist on Landau levels and Aharonov-Bohm states," *Phys. Rev. X* 2, 041011 (2012), doi:10.1103/PhysRevX.2.041011.
+   - Imaging: P. Schattschneider et al., "Imaging the dynamics of free-electron Landau states," *Nat. Commun.* 5, 4586 (2014), doi:10.1038/ncomms5586. Landau modes with different azimuthal number m rotate at **zero, Larmor or cyclotron** frequency (~100 GHz in a TEM), unlike the uniform classical cyclotron rotation.
+   - The note matches. Small precision: these are TEM beams (~200 keV), which are mildly relativistic.
+3. **Rotation-induced fields in metals.**
+   - **Transient (Stewart–Tolman).** R. C. Tolman & T. D. Stewart, "The electromotive force produced by the acceleration of metals," *Phys. Rev.* 8, 97–116 (1916), doi:10.1103/PhysRev.8.97. An EMF appears when a spinning coil is braked, from carrier inertia, with a measured carrier e/m close to the electron's.
+   - **Steady field in an accelerated metal.** Electron inertia alone gives E ≈ m_e a/e (L. I. Schiff & M. V. Barnhill, "Gravitation-induced electric field near a metal," *Phys. Rev.* 151, 1067–1071 (1966), doi:10.1103/PhysRev.151.1067). Including lattice compression gives a field of order **M a/e**, with a coefficient set by the elastic constants (A. J. Dessler, F. C. Michel, H. E. Rorschach & G. T. Trammell, "Gravitationally induced electric fields in conductors," *Phys. Rev.* 168, 737 (1968), doi:10.1103/PhysRev.168.737).
+   - The note's form, E ≈ −K(M/e)·(…)·r with M the ion mass, "lattice ions matter" and "K depends on elastic constants", matches the DMRT lattice picture, with the acceleration taken as centripetal.
+   - **Two flags:**
+     - Dimensionally, the centripetal acceleration is ω²r, so "wr" is most likely ω²r **[Channing to clarify]**.
+     - The DMRT papers treat gravity. Applying them to rotation by substituting a = ω²r is the standard equivalence, but I did not find a paper stating exactly this rotating form **[source to verify]**.
+4. **London moment (superconductor).**
+   - A rotating superconductor generates a uniform interior field **B = −(2m*/e*) ω**, Channing's pasted form. In SI with Cooper pairs (m* = 2m_e, e* = −2e) this gives |B| = 2m_e ω/e = **1.137×10⁻¹¹ T per rad/s** (computed), parallel to ω. (The minus sign in the paste goes with a signed carrier charge e* = −2e.)
+   - **Anomaly:** J. Tate, B. Cabrera, S. B. Felch & J. T. Anderson, "Precise determination of the Cooper-pair mass," *Phys. Rev. Lett.* 62, 845 (1989), doi:10.1103/PhysRevLett.62.845. Measured on rotating niobium: m*/2m_e = 1.000084(21), against a theoretical expectation of 0.999992. That is a small, still-discussed excess, so the measured m* differs slightly from 2m_e.
+   - **Gravity Probe B** read out its niobium-coated quartz gyroscope spins through the London moment with SQUIDs (GP-B mission documentation: "London Moment Readout of the Gyroscope", Stanford GP-B papers site).
+   - The note's "field tracks Cooper-pair mass, plus the London magnetic moment" is correct.
+
+**Synthesis (Grok, per Channing; verbatim, LaTeX as written)**
+```text
+All three examples are controlled, laboratory-scale realizations of charged systems whose rotation produces a discrete, mode-dependent phase structure: a single rigid-body frequency in the Penning plasma, three distinct rotational frequencies (0, \Omega, 2\Omega) in the Landau/vortex beams, and a boundary-condition-determined field response in the metal/superconductor cases. The ordering is set by angular momentum, magnetic field, and boundary conditions—the same ingredients that appear in the Boyer cavity (where a \pi phase shift after one loop flips the force sign) and in the topological cases (where a change in Chern number can reverse a Casimir force).
+They remain conceptual parallels. The forces and fields are real and calculable, yet they stay confined to high magnetic fields, vacuum or low-pressure environments, and microscopic-to-millimeter scales. Nothing in the present data indicates a pathway to macroscopic vacuum lift or regenerative infrastructure. They do, however, supply additional clean illustrations of how a discrete phase or mode ordering, once imposed, can organize the response of a charged fluid or beam.
+```
+
+**Checks on the synthesis**
+- **"(0, Ω, 2Ω)" is consistent** with Bliokh et al. 2012 and Schattschneider et al. 2014 if Ω is read as the **Larmor** frequency, since the cyclotron frequency is 2× Larmor (ω_c = eB/m, ω_L = eB/2m). The paper's three classes are 0, ω_L and ω_c = 2ω_L.
+- **Chern-number Casimir reversal: verified as theory.**
+  - P. Rodriguez-Lopez & A. G. Grushin, "Repulsive Casimir effect with Chern insulators," *Phys. Rev. Lett.* 112, 056804 (2014), doi:10.1103/PhysRevLett.112.056804. In vacuum, the long-distance force between two Chern-insulator plates is repulsive when their Chern numbers have opposite signs and attractive when equal. Flipping one plate reverses it.
+  - Earlier: A. G. Grushin & A. Cortijo, "Tunable Casimir repulsion with three-dimensional topological insulators," *Phys. Rev. Lett.* 106, 020403 (2011), doi:10.1103/PhysRevLett.106.020403.
+  - Caveat: later work, "The quest for Casimir repulsion between Chern-Simons surfaces," *Phys. Rev. B* 97, 165432 (2018), doi:10.1103/PhysRevB.97.165432 **[authors to verify]**, finds that repulsion needs conditions that simple models do not meet.
+  - Not measured to date as far as I found.
+- The synthesis's own caveats (high fields, vacuum, micro-to-mm scales, no macroscopic lift) are correct and agree with §E and §F.
+
+**RGRF ties (Plausible-untested)**
+- **Rotating sheath / plasma columns.** Rotating-wall drive sets density by rotation rate, a grounded, lab-proven knob. A rotating-field drive on the craft sheath as a density/shape control is Plausible-untested. Note the regime: a single-species plasma, high B, ultra-high vacuum. A quasi-neutral sheath in air is a different system (see [§7b-reentry](tungsten_bismuth_core.md#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15)).
+- **OAM modes as mode-purity references.** Landau/vortex states are a clean benchmark for "rotation sets discrete mode frequencies". They are reference dynamics in the sense of [tesla_davinci_threads.md §3e.1](tesla_davinci_threads.md#3e1-plasma-particle-tracing-and-bluetooth-packet-transmission-reference-dynamics), alongside the toroidal flows of [§3e](tesla_davinci_threads.md#3e-toroidal-flows-and-vortices).
+- **Rotation-induced fields** are tiny (London: ~10⁻⁹ T at 100 rad/s). They are useful as diagnostics or readouts (GP-B), not as force sources.
+
+**Labels (§G)**
+| Claim | Label |
+|---|---|
+| Rotating-wall density control up to a fraction of the Brillouin limit; cyclotron cooling | Grounded |
+| Landau/vortex beams rotating at 0, Larmor, cyclotron vs m | Grounded (imaged 2014) |
+| Stewart–Tolman transient EMF; steady field ~ M a/e with elastic-constant coefficient | Grounded (gravity form); rotating form **[source to verify]**; "wr" → ω²r **[Channing to clarify]** |
+| London moment B = 2m_eω/e ≈ 1.14×10⁻¹¹ T/(rad/s); Tate 1989 m* excess | Grounded |
+| Chern-number Casimir reversal | Grounded as theory; unmeasured |
+| Parallels between rotation-ordered modes, Boyer π phase (§E) and Floquet π gap (§F) | **Symbolic / structural parallel** |
+| Macroscopic lift from any of these | Not supported (agrees with Grok's own caveat) |
+| Rotating-field sheath density control; OAM modes as mode-purity references | Plausible-untested |
+
+**Cross-links:** §E (Boyer π phase), §F (Floquet π gap); [tesla_davinci_threads.md §3e](tesla_davinci_threads.md#3e-toroidal-flows-and-vortices) and [§3e.1](tesla_davinci_threads.md#3e1-plasma-particle-tracing-and-bluetooth-packet-transmission-reference-dynamics) (toroidal flows, particle tracing / Boris sim).

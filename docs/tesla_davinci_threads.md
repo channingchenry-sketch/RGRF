@@ -251,6 +251,8 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 - Packets ↔ particle bunches, read as one "pulsed" dynamics: **Symbolic / analogy only.**
 - **Our extrapolation, optional (Plausible-untested):** frequency-hopping-like modulation of the craft's own field to tune coupling or avoid resonances, i.e. hopping the drive among frequencies so that no single structural or plasma resonance is pumped. This connects to the timing ideas in [tungsten_bismuth_core.md §7b-alfven.1](tungsten_bismuth_core.md#7b-alfven1-schumann-resonance-as-a-coupling-guide) (Schumann / IAR timing). It is not something Channing stated as a design component.
 
+**See also:** rotating electron columns, Landau/vortex beams and rotation-induced fields as reference dynamics in [shifting_phase_order_review.md §G](shifting_phase_order_review.md#g-rotating-electron-systems-and-rotation-induced-fields-reference-2026-10-15); driven (Floquet) edge modes in [§F](shifting_phase_order_review.md#f-floquet-periodically-driven-topological-phases-2026-10-15).
+
 ## Labels
 | Claim | Label |
 |---|---|
