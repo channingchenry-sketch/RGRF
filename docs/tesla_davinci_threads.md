@@ -23,6 +23,26 @@ The detailed history and claims table are in [tesla_and_ancient_alignments.md](t
 2. **The Schumann cavity is low-Q.** The fundamental (~7.8 Hz) has Q ≈ 4–5. The Earth–ionosphere cavity is strongly damped, cannot store or bank much energy, and a ~38,000–40,000 km wavelength needs planetary-scale antennas. See [tungsten_bismuth_core §7b-alfven.1](tungsten_bismuth_core.md#7b-alfven1-schumann-resonance-as-a-coupling-guide).
 - **The grounded descendant** is resonant inductive coupling: Kurs et al., "Wireless Power Transfer via Strongly Coupled Magnetic Resonances," *Science* 317, 83–86 (2007). That MIT work (60 W at ~40 % over ~2 m) led to WiTricity. It is near-field only: a few coil diameters, not global. See the Nordic and metasurface WPT material in [em_topo L6](em_topological_gravity_review.md#l6-wireless-energy-transfer-northern-europe-focus-noted).
 
+### 1a. Mechanical oscillator ("earthquake machine")
+> Channing (verbatim, 2026-10-15): "We can reference something that was noted which is a resonant device that made a building shake…" [trimmed]
+
+- **The patent: Grounded.** N. Tesla, "Reciprocating Engine," US 514,169 (filed 19 Aug 1893, granted 6 Feb 1894). A steam- or gas-driven piston coupled to an air spring, arranged so that the restoring force is proportional to displacement, giving an **isochronous oscillation** whose period is set by the spring stiffness and moving mass. It was intended as a constant-frequency driver for generators.
+- **The Houston Street building-shaking story: Unverified anecdote / Speculative.** The main source is Tesla's own account at his July 1935 birthday press interview (e.g. *New York World-Telegram*, 11 July 1935, reporter Earl Sparling), decades after the event. There he dates it to 1887 or 1888. Later retellings give 1896 or ~1898, and an earlier magazine retelling (~1912) is also cited. No contemporary police or press record has been identified. The dates and details vary between versions.
+- **MythBusters, Episode 60 "Earthquake Machine" (aired 30 Aug 2006).** Tuned oscillators on metal bars and on a truss bridge produced **vibrations felt ~100 ft away, but nothing like an earthquake**. The myth was rated "busted". Small drivers can excite a structure's mode, but damping caps the amplitude well short of the dramatic version.
+
+**Grounded resonance physics**
+- **Driven damped oscillator:** m ẍ + c ẋ + k x = F₀ cos ωt. Steady amplitude X = (F₀/k) / √[(1 − r²)² + (2ζr)²], with r = ω/ω₀, ω₀ = √(k/m) and damping ratio ζ = c / (2√(km)).
+- **Q factor:** Q ≈ 1/(2ζ). At resonance the amplitude is ~Q × the static deflection, and the build-up takes ~Q cycles. Real buildings have ζ of a few percent (Q ~ 10–50), so a small driver produces small motions. Energy input per cycle must exceed damping losses, and a tiny oscillator's power is far below what a large structure dissipates.
+- **Millennium Bridge, London (June 2000).** Lateral sway came from **synchronous lateral excitation**: walkers fell into step with the sway, which fed it (a feedback loop, not a fixed external tone). It was fixed with viscous dampers and tuned mass dampers. P. Dallard et al., "The London Millennium Footbridge," *The Structural Engineer* 79(22), 17–33 (2001).
+- **Tacoma Narrows (1940).** The collapse was **not** simple forced resonance or vortex-shedding resonance. It was aeroelastic **flutter**: torsional self-excitation ("negative damping") in which wind forces were coupled to the deck's own motion. K. Y. R. Billah & R. H. Scanlan, "Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks," *Am. J. Phys.* 59(2), 118–124 (1991), doi:10.1119/1.16590.
+
+**RGRF tie: Plausible-untested.** The design lesson is **resonance avoidance and damping**, in the craft's structure and in its field drive:
+- keep the drive frequencies away from structural modes;
+- add damping (viscous, tuned-mass, piezo shunt; cf. [piezo_helium_feedback_loop.md](piezo_helium_feedback_loop.md));
+- watch for **self-excitation**, where a flow or plasma couples to the structure's own motion (the Tacoma lesson);
+- spread or hop the drive spectrum so that no single mode is pumped ([§3e.1](#3e1-plasma-particle-tracing-and-bluetooth-packet-transmission-reference-dynamics), our extrapolation);
+- if a low-frequency timing reference such as Schumann/IAR is used ([tungsten_bismuth_core §7b-alfven.1](tungsten_bismuth_core.md#7b-alfven1-schumann-resonance-as-a-coupling-guide)), check it against the structure's modal table.
+
 ## 2. Leonardo da Vinci
 **Grounded**
 - **Water, vortices and "turbulence."**
@@ -181,6 +201,9 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | Rotating-field induction motor (1888); Tesla coil (1891); Colorado Springs (1899); Wardenclyffe (abandoned, demolished 1917) | Grounded |
 | Tesla global wireless power via the Earth / Schumann cavity | Speculative / unproven (losses, Q ≈ 4–5) |
 | Resonant near-field wireless power (Kurs 2007, WiTricity) | Grounded |
+| Tesla mechanical oscillator patent (US 514,169, 1894); driven-oscillator / Q / damping physics; Millennium Bridge synchronous lateral excitation; Tacoma Narrows flutter | Grounded |
+| Houston Street building-shaking story | Unverified anecdote / Speculative (MythBusters 2006: not reproduced) |
+| Resonance avoidance, damping and drive-spectrum spreading in craft structure and field drive | Plausible-untested |
 | Leonardo's water/vortex studies, bird-flight codex, Pacioli polyhedra | Grounded |
 | Vitruvian Man illustrates Vitruvius Book III (circle and square) | Grounded |
 | Vitruvian Man constructed on φ | Not supported (Markowsky 1992) |
