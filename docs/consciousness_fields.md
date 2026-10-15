@@ -444,6 +444,60 @@ This section is general research only. Frisson means the chills, goosebumps or p
 - Links: §3d (interoception and empathy), §3b (polyvagal and vagal tone), §3i (moving chills and empathy), and the mycelium stress-signal analogy in [living_habitat_life_support.md item (g)](living_habitat_life_support.md).
 - **Mirroring as a "field" connecting minds: Speculative / Symbolic.** All the mechanisms above run through the senses (vision, hearing) and neurons. None needs or shows a field link between people.
 
+## 3k. Epigenetics (general research)
+
+> Channing (verbatim): "The next path we walked down was on epigenetic"
+
+**Focus of the original discussion:** **[Channing to supply]**.
+
+Links: §3c (stress / allostatic load, GR resistance), §3j (fascia and sympathetic responses), §3g (intent and meditation).
+
+1. **Early care and stress marks on the glucocorticoid receptor (GR): Grounded.**
+   - I. C. G. Weaver et al. (Meaney and Szyf labs), "Epigenetic programming by maternal behavior," *Nat. Neurosci.* 7, 847–854 (2004), doi:[10.1038/nn1276](https://doi.org/10.1038/nn1276).
+     - In rats, high maternal licking and grooming lowered methylation at the hippocampal GR exon 1₇ promoter, raised GR expression and dampened HPA stress responses.
+     - Cross-fostering **reversed** the difference, and an HDAC inhibitor erased it in adults. The marks are potentially reversible.
+   - P. O. McGowan et al., "Epigenetic regulation of the glucocorticoid receptor in human brain associates with childhood abuse," *Nat. Neurosci.* 12, 342–348 (2009), doi:[10.1038/nn.2270](https://doi.org/10.1038/nn.2270).
+     - Post-mortem hippocampus from suicide victims with childhood abuse showed **more NR3C1 promoter methylation and less GR mRNA** than suicide victims without abuse or controls.
+     - This is a small, correlational, post-mortem study.
+   - T. Klengel et al., "Allele-specific FKBP5 DNA demethylation mediates gene–childhood trauma interactions," *Nat. Neurosci.* 16, 33–41 (2013), doi:[10.1038/nn.3275](https://doi.org/10.1038/nn.3275).
+     - Childhood trauma caused **demethylation at FKBP5 intron-7 glucocorticoid response elements**, but only in carriers of the rs1360780 risk allele.
+     - That raised stress-dependent FKBP5 expression and dysregulated the stress-hormone system: a gene × environment mechanism.
+     - FKBP5 dampens GR signalling, so this ties directly to the GR-resistance thread in §3c.
+2. **Intergenerational and transgenerational effects: Plausible-contested in humans.**
+   - B. G. Dias & K. J. Ressler, "Parental olfactory experience influences behavior and neural structure in subsequent generations," *Nat. Neurosci.* 17, 89–96 (2014), doi:[10.1038/nn.3594](https://doi.org/10.1038/nn.3594).
+     - Male mice fear-conditioned to acetophenone had F1 and F2 offspring more sensitive to that odour, with larger Olfr151 glomeruli and sperm Olfr151 hypomethylation.
+     - IVF and cross-fostering argued for transmission through the gametes.
+     - **Critique:** G. Francis, "Too Much Success for Recent Groundbreaking Epigenetic Experiments," *Genetics* 198(2), 449 (2014), [link](https://academic.oup.com/genetics/article/198/2/449/5935942). Given the sample sizes, the uniform success was statistically improbable. Dias & Ressler replied that they had replicated it in their own lab ([PMC4196603](https://pmc.ncbi.nlm.nih.gov/articles/PMC4196603/)). Independent replication was not verified here.
+     - The acetophenone link: this is the odorant from the vibrational-olfaction critique in §3e.
+   - Dutch Hunger Winter: B. T. Heijmans et al., "Persistent epigenetic differences associated with prenatal exposure to famine in humans," *PNAS* 105(44), 17046–17049 (2008), doi:[10.1073/pnas.0806560105](https://doi.org/10.1073/pnas.0806560105).
+     - People exposed to famine around conception had about **5.2% lower IGF2 methylation** roughly 60 years later. Late-gestation exposure had no effect.
+     - This is **in-utero** exposure, so intergenerational, not transgenerational. Volume, pages and DOI were written from memory; the key result was confirmed in a search summary.
+   - R. Yehuda et al., "Holocaust Exposure Induced Intergenerational Effects on FKBP5 Methylation," *Biol. Psychiatry* 80(5), 372–380 (2016), doi:[10.1016/j.biopsych.2015.08.005](https://doi.org/10.1016/j.biopsych.2015.08.005).
+     - Sample: 32 survivors, 22 offspring, 8 parent and 9 offspring controls.
+     - Survivors had higher, and offspring lower, methylation at FKBP5 intron 7 bin 3/site 6.
+     - **Critiques:** a tiny sample, limited controls, and no way to separate germline transmission from in-utero, parenting or shared-environment effects. See "Transgenerational epigenetic inheritance: a critical perspective," *Front. Epigenet. Epigenom.* (2024), doi:[10.3389/freae.2024.1434253](https://doi.org/10.3389/freae.2024.1434253).
+   - **Label:** inheritance through the germline is shown in some animal models but contested. In humans, **transgenerational** inheritance (beyond direct in-utero exposure) is **not established**.
+3. **Meditation and epigenetics: Plausible, small studies.**
+   - P. Kaliman et al., "Rapid changes in histone deacetylases and inflammatory gene expression in expert meditators," *Psychoneuroendocrinology* 40, 96–107 (2014), [PMC4039194](https://pmc.ncbi.nlm.nih.gov/articles/PMC4039194/).
+     - Design: 19 experienced meditators against 21 leisure controls, over one 8-hour day.
+     - Meditators showed lower **HDAC2/3/9** expression, histone-mark changes, and lower **RIPK2 and COX2** (pro-inflammatory genes).
+     - Lower HDAC2 and RIPK2 went with faster cortisol recovery after the Trier Social Stress Test.
+     - It was not randomized, and controls had no meditation experience.
+   - R. Chaix et al., "Differential DNA methylation in experienced meditators after an intensive day of mindfulness-based practice," *Brain Behav. Immun.* 84, 36–44 (2020), doi:[10.1016/j.bbi.2019.11.003](https://doi.org/10.1016/j.bbi.2019.11.003). It found 61 differentially methylated sites, enriched in immune and inflammation pathways.
+   - The **epigenetic clock** study is Chaix et al., *Psychoneuroendocrinology* 85, 210–214 (**2017**), doi:[10.1016/j.psyneuen.2017.08.016](https://doi.org/10.1016/j.psyneuen.2017.08.016). The 2020 paper is the methylation-day study above.
+     - Average epigenetic age acceleration was **similar** in meditators and controls.
+     - Older controls showed acceleration that older meditators did not.
+     - Acceleration fell with years of practice.
+     - Cross-sectional; the authors call for RCTs.
+4. **Epigenetic clocks: Grounded as a biomarker.** S. Horvath, "DNA methylation age of human tissues and cell types," *Genome Biol.* 14, R115 (2013), doi:[10.1186/gb-2013-14-10-r115](https://doi.org/10.1186/gb-2013-14-10-r115). It uses methylation at 353 CpG sites to estimate age across tissues. Citation details were written from memory and are well known; the Chaix 2017 abstract confirms the method.
+5. **Labels:**
+   - Mechanisms (DNA methylation, histone modification, GR/FKBP5 stress programming): **Grounded**.
+   - Reversibility in adulthood: **Grounded in rats**, Plausible in humans.
+   - Human transgenerational inheritance: **Plausible-contested**.
+   - Meditation shifting epigenetic marks: **Plausible**, small, mostly non-randomized studies.
+   - "Intent rewriting the map" (§3g) through epigenetics: **Speculative**. The meditation data are a suggestive hook, not proof.
+   - Epigenetic marks stored in **fascia** (§3j): **Speculative**, no study found. Fascial fibroblasts have epigenomes like any cell, but no study links them to emotion.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
@@ -454,4 +508,5 @@ This section is general research only. Frisson means the chills, goosebumps or p
 - What the benzene-ring / aromatic angle was for (§3e): resolved as both detection and π-electron/light, unified by chemical→electrical transduction.
 - The stray "V" line in the §3d paste. **[Channing to clarify]** It is likely a pasted UI artifact (§3g).
 - What was specifically proposed for hair and antler regeneration (§3h). **[Channing to supply]**
+- Focus of the original epigenetics discussion (§3k). **[Channing to supply]**
 - The garbled tail of the §3g "Intent as alignment" paste. **[Channing to supply]**
