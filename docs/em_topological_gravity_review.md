@@ -528,6 +528,7 @@ The Electric Universe concept write-up itself: **[Channing to supply]**. The Con
   - The vacuum is the ground state, so no cycle can extract net work from it.
   - Casimir attraction can do work only once, as the plates come together; pulling them apart costs it back.
   - "Amplifying a whisper into a roar": **Symbolic**.
+- **Sign reversal by boundary conditions: see [shifting_phase_order_review.md §E](shifting_phase_order_review.md#e-boyer-repulsive-casimir-as-a-parallel-to-shifting-phase-order-2026-10-15).** This covers Boyer's repulsive conductor/permeable Casimir case (7/8, ideal limit), the π-phase / Fermi–Bose spectral picture, real-material obstacles and the fluid-mediated repulsion of Munday et al. 2009. It is a structural parallel to "shifting phase order", not an engine.
 
 #### 4. "A stable, self-reinforcing bubble of warped space…"
 

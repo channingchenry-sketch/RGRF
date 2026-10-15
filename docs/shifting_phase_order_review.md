@@ -222,3 +222,40 @@ For the personal-scale POL, the strongest grounded extension is perturbation sec
    - Also put the whole cell on a scale or load cell to confirm zero net vertical force from internal precession. That is a good, honest null test of the "lift assist" claim.
 
 Cheaper option for A4.3: two phase-shifted coils over an Al plate, with a load cell measuring lateral force versus phase. This is a 1-day LIM-style test.
+
+## E. Boyer repulsive Casimir as a parallel to shifting phase order (2026-10-15)
+**Archived paste (verbatim, LaTeX as written).** Pasted by Channing 2026-10-15. It is likely Grok-generated or his own notes **[Channing to clarify source]**.
+
+```text
+Yes — that particular detail in the Boyer configuration sits close to the kind of language we have been using.
+In the ideal Boyer case (perfect conductor facing perfect magnetic conductor across vacuum), a monochromatic wave that completes one round trip acquires a \pi phase shift (r_\varepsilon \bar{r}_\mu = -1). It only returns to its original state after a second loop. The ordinary Casimir cavity (two perfect conductors) returns the wave with the same phase after one loop. Later analyses note that this difference in the scattering statistics is what flips the sign of the force: the Boyer cavity behaves Fermi–Dirac-like in its spectral distribution of scattering, while the Casimir cavity behaves Bose–Einstein-like.
+That is a clean, calculable instance of a boundary-condition-induced phase shift that reorders the allowed modes and reverses the force. It is not a free parameter we can dial at will, and it remains confined to the ideal or near-ideal magnetodielectric limit, but the mechanism itself — a discrete phase shift that changes the ordering of the modes — is precisely the sort of structure that has appeared in our resonance and phase-order discussions.
+The match is structural rather than operational. It does not hand us a practical vacuum-repulsion engine, nor does it scale the force beyond the nanoscale. What it does is show that a \pi-shift boundary condition is already sufficient, inside established macroscopic quantum electrodynamics, to reverse a Casimir force. That keeps the language of shifting phase order grounded in something that has been calculated and is still being refined for real materials.
+We are marking this as a parallel to our shifting phase order language.
+```
+
+**Checks (2026-10-15)**
+- **Boyer's result: Grounded (calculated, ideal limit).** T. H. Boyer, "Van der Waals forces and zero-point energy for dielectric and permeable materials," *Phys. Rev. A* 9, 2078–2084 (1974), doi:10.1103/PhysRevA.9.2078. Findings:
+  - two perfectly conducting plates attract (Casimir), and so do two infinitely permeable plates, with the same force;
+  - one perfect conductor facing one infinitely permeable plate **repels** with F = (7/8) π²ħcA / (240 d⁴), **7/8 of the Casimir magnitude**;
+  - the derivation uses E↔B duality, linking to [tesla_davinci_threads.md §3b](tesla_davinci_threads.md#3b-electricmagnetic-as-a-complementary-pair).
+- **The π-phase picture: Grounded, standard reading.** The round-trip factor is r₁r₂e^{2ikd}. A perfect electric conductor (r = −1 for the tangential E field) facing a perfect magnetic conductor (r = +1) gives r₁r₂ = −1, a π shift per round trip. The cavity modes are then shifted by half a mode spacing relative to the conductor–conductor cavity: (n + ½)π/d instead of nπ/d. The 1D string analog (alike vs unlike Dirichlet/Neumann ends: attraction vs repulsion) is worked out in T. H. Boyer, "Casimir forces and boundary conditions in one dimension: attraction, repulsion, Planck spectrum, and entropy," *Am. J. Phys.* 71, 990–998 (2003). The page range is **[source to verify]**; the paper itself was found.
+- **The Fermi–Dirac vs Bose–Einstein interpretation ("later analyses"): verified.** I. Brevik, P. Parashar & K. V. Shajesh, "Casimir force for magnetodielectric media," *Phys. Rev. A* 98, 032509 (2018), doi:10.1103/PhysRevA.98.032509. They observe that "the spectral distribution of scattering in a Boyer cavity is that of Fermi-Dirac type, while … in a Casimir cavity is that of Bose-Einstein type", and conclude that this statistics difference governs the sign. See also J. S. Høye & I. Brevik, "Repulsive Casimir force," *Phys. Rev. A* 98, 022503 (2018). This is a **spectral analogy**: photons stay bosons.
+- **Real materials: the obstacles.**
+  - O. Kenneth, I. Klich, A. Mann & M. Revzen, "Repulsive Casimir forces," *Phys. Rev. Lett.* 89, 033001 (2002), doi:10.1103/PhysRevLett.89.033001, proposed repulsion with strongly magnetic materials.
+  - D. Iannuzzi & F. Capasso, "Comment on 'Repulsive Casimir Forces'," *Phys. Rev. Lett.* 91, 029101 (2003), doi:10.1103/PhysRevLett.91.029101, showed that for real materials between parallel plates in vacuum at micron and submicron separations the force stays **attractive**, because natural magnetic response dies out at the relevant (optical/IR) frequencies. Kenneth et al. replied in *PRL* 91, 029102 (2003).
+  - F. S. S. Rosa, D. A. R. Dalvit & P. W. Milonni, "Casimir-Lifshitz theory and metamaterials," *Phys. Rev. Lett.* 100, 183602 (2008), doi:10.1103/PhysRevLett.100.183602: in metamaterials, repulsion is fragile. Magnetic dissipation and even a small Drude (metallic) background restore attraction.
+- **The experimentally demonstrated repulsion is different.** J. N. Munday, F. Capasso & V. A. Parsegian, "Measured long-range repulsive Casimir–Lifshitz forces," *Nature* 457, 170–173 (2009), doi:10.1038/nature07610. A gold sphere and a silica plate **immersed in a fluid** (bromobenzene) repel, because ε_gold > ε_fluid > ε_silica across the relevant frequencies. That is dielectric ordering through a medium, not the vacuum Boyer conductor/permeable case.
+- The paste's own caveats are correct: not a free parameter, confined to the ideal magnetodielectric limit, no engine, nanoscale only.
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Boyer repulsion, 7/8 of Casimir (perfect conductor vs perfect permeable plate) | Grounded (calculated, ideal limit) |
+| Boundary-condition π phase shift reorders the modes and reverses the force; Fermi/Bose-like spectral statistics | Grounded within macroscopic QED (Brevik–Parashar–Shajesh 2018) |
+| Repulsion with real magnetic materials in vacuum | Not achieved; disputed (Iannuzzi–Capasso 2003; Rosa–Dalvit–Milonni 2008) |
+| Fluid-mediated Casimir–Lifshitz repulsion | Grounded (measured, Munday et al. 2009) |
+| Parallel to RGRF "shifting phase order" | **Symbolic / structural parallel**, as Channing states |
+| Practical vacuum-repulsion engine or lift | Not supported |
+
+**Cross-links:** the Casimir and DCE checks in [em_topo L5b §3](em_topological_gravity_review.md#3-a-resonance-chamber-tuned-to-the-casimir-plates-frequency); E↔B duality in [tesla_davinci_threads.md §3b](tesla_davinci_threads.md#3b-electricmagnetic-as-a-complementary-pair); analogies as structural references in [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md#analogies-and-natural-reference-mechanisms).
