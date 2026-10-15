@@ -40,6 +40,7 @@ The original labels are kept. Channing is reviewing the original reasoning and m
   - Light as a propagating EM oscillation: **Grounded**.
   - "Sound" in the same row as light: an **analogy** only. Sound is a mechanical pressure wave; light needs no medium.
 - **Platonic solids / golden geometry:** these appear in crystals, quasicrystals and phyllotaxis. As causes of EM behaviour they are **Speculative** (see README: the phi spiral tested worse in the POL sim).
+  - *Why φ appears here, and how it is tested: [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md).*
 - **"Subtle medium / information field":** **Speculative.** No luminiferous ether exists (Michelson–Morley, special relativity).
 
 ## Informed universe threads

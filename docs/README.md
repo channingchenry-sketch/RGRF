@@ -3,7 +3,7 @@
 **Start here:** [REBUILD_INDEX.md](REBUILD_INDEX.md) is the canonical living map of all threads (status: Recovered / Reconstructed / Bridged / Missing).
 
 
-All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausible-untested** / **Speculative** (see the main README).
+All content is CC0 1.0 (public domain). Evidence labels: **Grounded** / **Plausible-untested** / **Speculative** / **Symbolic** (see the main README). **Method:** [why φ and sacred geometry appear, and how they are tested](method_phi_and_natural_craft.md).
 
 | File | What it is |
 |---|---|

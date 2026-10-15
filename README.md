@@ -12,6 +12,9 @@ Claims in this repo are tagged so readers can tell what is established from what
 - **Grounded**: a known, measured phenomenon with governing equations (e.g. eddy-current lift over a conductive floor).
 - **Plausible-untested**: physics allows it, but it has not been demonstrated in this form.
 - **Speculative**: no known mechanism yet; a design study or vision (e.g. phi scaling, filament riding).
+- **Symbolic**: inspiration or metaphor (sacred geometry, ley lines). It explains where an idea came from; it is not evidence.
+
+Why φ and sacred geometry appear at all, and how they are tested: [docs/method_phi_and_natural_craft.md](docs/method_phi_and_natural_craft.md).
 
 ## Core Principles
 - Biology first: Living triad (mycelium + bacteria + algae) grown before resonant layers.

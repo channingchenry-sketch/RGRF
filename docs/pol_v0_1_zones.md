@@ -20,7 +20,7 @@ Intro text (as given): "…[imagery] for every major zone we mapped onto the POL
 **Checks:**
 - **Larmor precession is real (Grounded):** f = γB/2π for spins, and the cyclotron frequency ω_c = qB/m for charges.
 - **A readable clock needs a spin ensemble:** a polarized sample plus pickup coil, NMR/magnetometer-style. A field region alone is not a clock. The "clock/phase anchor" role is **Plausible-untested**. Note that f depends on B, so the clock is only as stable as B.
-- **"φ-stable":** **Speculative / Symbolic**. No mechanism links φ to frequency stability.
+- **"φ-stable":** **Speculative / Symbolic**. No mechanism links φ to frequency stability. *Why φ appears here, and how it is tested: [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md).*
 
 ## 2. Thermal Polarity Zones
 ![Thermal polarity zones](images/2026-10-12_pol_zones_2.png)

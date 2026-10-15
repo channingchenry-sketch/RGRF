@@ -50,6 +50,7 @@
 
 | Doc | One line | Status |
 |---|---|---|
+| [`method_phi_and_natural_craft.md`](method_phi_and_natural_craft.md) | Method: why φ / sacred geometry appear (Earth and Sun as natural craft; inspiration = Symbolic; claims tested; φ null results so far) | New (2026-10-15) |
 | [`C1-C12_seed_map.md`](C1-C12_seed_map.md) | Seed questions C1–C12 (C8 = Multi-Egg) | Recovered |
 | [`ANALYSIS_2026-10-12.md`](ANALYSIS_2026-10-12.md) | Cross-thread analysis | Recovered |
 | [`living_habitat_life_support.md`](living_habitat_life_support.md) | Living habitat & life support; cabin vibration for bone density | Recovered (electrolysis section recovered; H₂O₂ notes **Missing**) |

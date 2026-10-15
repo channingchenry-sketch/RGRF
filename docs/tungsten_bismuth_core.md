@@ -38,6 +38,7 @@
 - Acoustic / magnetosonic "sonic pinching" of this shear layer: see [§3a](#3a-sonic-pinching-grok-excerpt--lost-sim-description-2026-10-15).
 
 ## 3a. Sonic pinching (Grok excerpt + lost sim description, 2026-10-15)
+*Why φ appears here, and how it is tested: [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md).*
 The "shear layer" in the paste is the **sheared axial flow** of the Z-pinch in [§3](#3-z-pinch-with-sheared-flow-stabilization--grounded). There was no earlier "sonic pinch" section in the repo. Related threads to rebuild (Hall effect, ionic thrusters, acoustic levitation):
 - Hall-MHD: [§7b-math](#7b-math-hall-mhd-math-recovered-ocr-damaged).
 - Ionic wind / thrusters: [lift §4](lift_and_equilibrium_systems.md#4-ionic-wind--electroaerodynamics-grounded).
@@ -470,6 +471,7 @@ B_N = 3-5 typically).
 None of these is specified yet: **[Channing to supply]** the geometry (R, a, κ), the coil current and B_T.
 
 ### 7b-dyn.2 1D periodic toroidal induction model with Schumann/phi drive (Grok excerpt)
+*Why φ appears here, and how it is tested: [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md).*
 **Grok excerpt (verbatim, OCR-damaged, pasted 2026-10-15), describing a lost sim:**
 ```text
 We created a 1D periodic model
@@ -807,6 +809,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - **No-signalling:** entanglement cannot carry energy, momentum or information on its own, so it gives no propulsion or energy-transfer channel.
 
 ## 8. Phi-optimized standing waves avoiding EM collapse — Speculative
+*Why φ appears here, and how it is tested: [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md).*
 - Screenshot: in an "informed universe" (Michio Kaku-inspired), aligned EM + geometric resonance might allow phi-optimized standing waves that redistribute pressure densities regeneratively, avoiding destructive inward collapse.
 - Caveats (as given):
   - Current physics shows no evidence of stable "EM-only collapse" without gravity dominating.
