@@ -14,6 +14,29 @@
 - **Scale:** 100 kg payload plus structure needs ~100–150 m³ of helium, e.g. a ~6–7 m diameter sphere.
 - **Contrast:** eddy-current hover costs ~10–17 kW for 88 kg (Resona-POL-Modular-Core sim). Buoyancy is the only mechanism here that pays the weight bill for free.
 
+## 1a. Design intent: Buoyant stability, not levitation
+> Channing (verbatim, 2026-10-15): "Both our craft design relies on it own EM field creation which is why the buoyant stability was what we were trying to achieve versus actual levitation"
+
+**Intent.** The craft's own EM field (sheath, coils, charge balance) was meant to provide **stability**, not to replace weight support. Buoyancy carries the load. The field trims, damps and steers. This matches the architecture at the top of this doc and the lensing thread in [tesla_davinci_threads.md §3c](tesla_davinci_threads.md#3c-wavelength-interactions-and-lensing).
+
+**Why this is the physically sensible choice (Grounded)**
+- **Earnshaw's theorem (1842).** Static charges or permanent magnets alone cannot hold a body in stable equilibrium (§9). Any "pure EM levitation" needs a trick.
+- **The known escapes all have costs:**
+  - **diamagnetic levitation:** the frog at ~16 T. M. V. Berry & A. K. Geim, "Of flying frogs and levitrons," *Eur. J. Phys.* 18, 307–313 (1997), doi:10.1088/0143-0807/18/4/012. Passively stable, but tiny forces except in huge fields.
+  - **active feedback:** EMS maglev (Transrapid, Shanghai), which needs continuous control power.
+  - **spin stabilization:** the Levitron. M. V. Berry, "The Levitron: an adiabatic trap for spins," *Proc. R. Soc. Lond. A* 452, 1207–1220 (1996), doi:10.1098/rspa.1996.0062. The stable height window is very narrow.
+- **Buoyancy is a passive stability baseline.** Archimedes' lift, (ρ_air − ρ_gas) g V, costs ~0 W to hold. A centre of buoyancy above the centre of mass gives a passive righting moment, so pitch and roll are self-correcting, like a hot-air balloon or a ship.
+- **EM can trim effective weight and stability without supplying full lift.** Small vertical forces (Lorentz, ionic wind, eddy repulsion near a surface) and small torques (magnetorquer-style coils, [em_topo L5c](em_topological_gravity_review.md)) can shift the equilibrium and damp oscillations. Only the residual ± a few percent of weight, plus disturbances, is paid in watts.
+- **Why it matters here.** The claimed **~520 W** hover versus the **~10–17 kW** physics estimate for 88 kg of full eddy-current lift ([ANALYSIS_2026-10-12.md](ANALYSIS_2026-10-12.md), [pol_v0_1_zones.md](pol_v0_1_zones.md)) is a discrepancy for *full levitation*. A few hundred watts is plausible for **trim and stability on a buoyant body**, but not for carrying the whole weight. So "buoyant stability" is consistent with the power ledger, and "actual levitation" at 520 W is not.
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Earnshaw limit; diamagnetic, feedback and spin-stabilized exceptions; buoyancy as passive baseline | Grounded |
+| Craft's own EM field (sheath, coils) providing stability trim on a buoyant body | Plausible-untested |
+| ~520 W adequate for trim/stability (not full lift) | Plausible-untested (needs a ledger per mechanism) |
+| Any EM "buoyancy" that reduces gravitational weight itself | Speculative |
+
 ## 2. Lorentz force (Grounded)
 - **F = q(E + v×B)**; on a conductor, **F = I L × B**.
 - **Power ledger:**

@@ -88,6 +88,12 @@ Reading E and B as a male/female pair is **Symbolic**. The physics of E and B as
 - **Gravitational lensing (a different mechanism).** Mass curves spacetime and bends all wavelengths equally (achromatic). Dyson, Eddington & Davidson, *Phil. Trans. R. Soc. A* 220, 291–333 (1920), doi:10.1098/rsta.1920.0009, measured the 1919 eclipse deflection consistent with GR's 1.75″ at the solar limb, against 0.87″ for the "Newtonian" value. Einstein rings and arcs are now routine in HST and JWST imaging, and weak lensing maps dark matter (see em_topo).
 - **Engineered EM lensing (analogs).** Gradient-index (GRIN) lenses and Luneburg lenses bend waves with a graded refractive index. Metamaterials go further, to artificial magnetism and negative index: D. R. Smith, J. B. Pendry & M. C. K. Wiltshire, "Metamaterials and negative refractive index," *Science* 305, 788–792 (2004), doi:10.1126/science.1096796. A plasma with a shaped n_e profile is a tunable GRIN medium.
 
+**Sheath or gravitational lensing?** Channing (verbatim, 2026-10-15): "Both our craft design relies on it own EM field creation which is why the buoyant stability was what we were trying to achieve versus actual levitation". So "lensing" covers **both**:
+- the self-generated EM sheath, which is plasma lensing (Grounded physics; craft use Plausible-untested);
+- the gravity-side lensing comparison (Grounded as gravitational lensing; any EM version Speculative, see below).
+
+The design goal was stability on a buoyant body, not levitation. See [lift_and_equilibrium_systems.md §1a](lift_and_equilibrium_systems.md#1a-design-intent-buoyant-stability-not-levitation).
+
 **RGRF use: Plausible-untested.** Treat the on-demand sheath as a **tunable plasma lens or window**. Shaping n_e (via the magnetic field, seeding and ambipolar expansion, §3a) would steer, focus or open radio links, i.e. blackout control. This is consistent with the magnetic-window studies cited in §7b-reentry. Power and shaping precision are unknown.
 
 **Speculative.** "Gravity-like" lensing from EM fields. Plasma lensing is chromatic (∝ λ²) and needs free electrons. Gravitational lensing is achromatic and needs mass-energy. The electromagnetic field's own energy does gravitate, but by an immeasurably small amount at lab scales. EM cannot mimic gravitational lensing (see the em_topo "tiny gravity" review).
