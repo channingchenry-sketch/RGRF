@@ -356,6 +356,8 @@ In a superconductor: the field tracks Cooper-pair mass, plus the London
 This is from our prior notes and complements this exploration as a reference
 ```
 
+**Correction note (2026-10-15).** The "wr" in the paste above is a copy error. Channing, verbatim: "Just a copy error it is w^2r". The corrected form is **E ≈ −K(M/e)ω²r**. The paste is left unchanged as archived.
+
 **Second paste (London moment, verbatim LaTeX):**
 ```text
 \mathbf{B} \approx -\frac{2m^{*}}{e^{*}}\boldsymbol{\omega}
@@ -378,9 +380,9 @@ This is from our prior notes and complements this exploration as a reference
 3. **Rotation-induced fields in metals.**
    - **Transient (Stewart–Tolman).** R. C. Tolman & T. D. Stewart, "The electromotive force produced by the acceleration of metals," *Phys. Rev.* 8, 97–116 (1916), doi:10.1103/PhysRev.8.97. An EMF appears when a spinning coil is braked, from carrier inertia, with a measured carrier e/m close to the electron's.
    - **Steady field in an accelerated metal.** Electron inertia alone gives E ≈ m_e a/e (L. I. Schiff & M. V. Barnhill, "Gravitation-induced electric field near a metal," *Phys. Rev.* 151, 1067–1071 (1966), doi:10.1103/PhysRev.151.1067). Including lattice compression gives a field of order **M a/e**, with a coefficient set by the elastic constants (A. J. Dessler, F. C. Michel, H. E. Rorschach & G. T. Trammell, "Gravitationally induced electric fields in conductors," *Phys. Rev.* 168, 737 (1968), doi:10.1103/PhysRev.168.737).
-   - The note's form, E ≈ −K(M/e)·(…)·r with M the ion mass, "lattice ions matter" and "K depends on elastic constants", matches the DMRT lattice picture, with the acceleration taken as centripetal.
-   - **Two flags:**
-     - Dimensionally, the centripetal acceleration is ω²r, so "wr" is most likely ω²r **[Channing to clarify]**.
+   - The note's corrected form, E ≈ −K(M/e)ω²r with M the ion mass, "lattice ions matter" and "K depends on elastic constants", matches the DMRT lattice picture, with the acceleration taken as centripetal.
+   - **Flags:**
+     - **Resolved:** "wr" was a copy error for ω²r (Channing, see the correction note). Dimensional check: (M/e)ω²r has units kg·C⁻¹·m·s⁻² = N/C = V/m, an electric field, as required. For scale (computed, copper, ω = 1000 rad/s, r = 0.1 m, so a = 10⁵ m/s²), M a/e ≈ 6.6×10⁻² V/m × K, against the electron-only (Schiff–Barnhill) m_e a/e ≈ 5.7×10⁻⁷ V/m.
      - The DMRT papers treat gravity. Applying them to rotation by substituting a = ω²r is the standard equivalence, but I did not find a paper stating exactly this rotating form **[source to verify]**.
 4. **London moment (superconductor).**
    - A rotating superconductor generates a uniform interior field **B = −(2m*/e*) ω**, Channing's pasted form. In SI with Cooper pairs (m* = 2m_e, e* = −2e) this gives |B| = 2m_e ω/e = **1.137×10⁻¹¹ T per rad/s** (computed), parallel to ω. (The minus sign in the paste goes with a signed carrier charge e* = −2e.)
@@ -413,7 +415,7 @@ They remain conceptual parallels. The forces and fields are real and calculable,
 |---|---|
 | Rotating-wall density control up to a fraction of the Brillouin limit; cyclotron cooling | Grounded |
 | Landau/vortex beams rotating at 0, Larmor, cyclotron vs m | Grounded (imaged 2014) |
-| Stewart–Tolman transient EMF; steady field ~ M a/e with elastic-constant coefficient | Grounded (gravity form); rotating form **[source to verify]**; "wr" → ω²r **[Channing to clarify]** |
+| Stewart–Tolman transient EMF; steady field ~ M a/e with elastic-constant coefficient | Grounded (gravity form); rotating form **[source to verify]**; corrected form E ≈ −K(M/e)ω²r (copy error "wr" fixed per Channing) |
 | London moment B = 2m_eω/e ≈ 1.14×10⁻¹¹ T/(rad/s); Tate 1989 m* excess | Grounded |
 | Chern-number Casimir reversal | Grounded as theory; unmeasured |
 | Parallels between rotation-ordered modes, Boyer π phase (§E) and Floquet π gap (§F) | **Symbolic / structural parallel** |
