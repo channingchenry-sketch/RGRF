@@ -663,6 +663,8 @@ Nearest existing material:
     - The gradient force on a dipole, F = ∇(m·B), is tiny at these field strengths.
     - Electrodynamic tethers (current × B) are the nearest Grounded exception. They are mainly a de-orbit/drag technology, and the tether physics is not reviewed here.
 
+*See also:* re-entry as a control method (on-demand plasma sheath for the transition): [tungsten_bismuth_core.md §7b-reentry](tungsten_bismuth_core.md#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15).
+
 #### Open items (L5c)
 
 - Original trim-coil design: number, geometry, currents, and what they trimmed. **[Channing to supply]**

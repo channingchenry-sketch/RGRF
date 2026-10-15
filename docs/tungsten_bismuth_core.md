@@ -304,6 +304,57 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 - Working fluid or plasma, size L, flow speed u and conductivity σ, to estimate Rm. **[Channing to supply]**
 - Bench idea: compute Rm for any proposed liquid-metal or plasma loop before building. If Rm ≪ 10, no dynamo is possible and the field is purely driven.
 
+## 7b-reentry. Re-entry as a control method "that we create" (2026-10-15)
+> Channing (verbatim): "We used the concepts of re-entry as a control method that we create."
+
+**Interpretation, [Channing to clarify]:** instead of only surviving the re-entry plasma, the craft *creates* and uses a re-entry-like plasma layer on demand (an artificial or switchable ionised sheath plus applied B) as a control surface for **steering, braking and the planet↔space transition**. This would sit alongside the trim-coil mode switch in [em_topo L5c](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere). The physics is the same induction / Lorentz physics as [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15), at low magnetic Reynolds number. The energy side (harvesting and storing re-entry charge) is in [Manta-Butterfly: re-entry energy harvesting and charge storage](manta_butterfly_craft.md#re-entry-energy-harvesting-and-charge-storage-overall-plausible-untested). The plasma scales and the Hall / energy caveats are worked out in [shifting_phase_order_review.md §B1](shifting_phase_order_review.md#b1-re-entry-plasma-sheath-as-a-guide-basic-plasma-scales) and [§B2](shifting_phase_order_review.md#b2-magnetic-manipulation-of-the-shock-layer-flow-mhd-flow-control--magnetic-window); they are not repeated here.
+
+**Grounded context (sources checked 2026-10-15)**
+- **Re-entry plasma sheath and blackout: Grounded, flight-measured.**
+  - NASA's RAM-C flights (~7.6 km/s) measured flow-field electron densities of ~10⁸–10¹² cm⁻³ (aft probes) between 85 and 53 km. RAM-C I tested water injection to relieve radio blackout, and the report found it effective: W. L. Jones Jr. & A. E. Cross, NASA TN D-6617 (1972), [NTRS 19720011555](https://ntrs.nasa.gov/citations/19720011555).
+  - Blackout occurs when the plasma frequency exceeds the link frequency (numbers in §B1).
+- **Early MHD flow control: Grounded (theory and lab).**
+  - E. L. Resler Jr. & W. R. Sears, "The prospects for magneto-aerodynamics," *J. Aeronaut. Sci.* 25(4), 235–245 (1958), doi:10.2514/8.7604. Bush (1958) treated MHD hypersonic flow past a blunt body.
+  - Arc-heated argon tests with a magnet inside a blunt body measured **more drag and a larger shock standoff** as B rose: S. Kranc, M. C. Yuen & A. B. Cambel, NASA CR-1393 (1969), [NTRS 19690025519](https://ntrs.nasa.gov/citations/19690025519).
+- **Magnetic heat shield / MHD aerobraking: Grounded (simulation + lab), not flown.**
+  - T. Fujino, M. Ishikawa et al. (Univ. Tsukuba / JAXA), using the OREX re-entry trajectory: ~0.5 T cut the stagnation heat flux to ~85 % and the total heating to ~67 % near 60 km, *IEEE Trans. Plasma Sci.* (2006), doi:10.1109/TPS.2006.872458.
+  - The wall must not short the Hall field: an insulating wall works, a conducting wall defeats it. Fujino et al., *J. Spacecr. Rockets* 43(1), 63–70 (2006), doi:10.2514/1.13770; and 44(3), 625–632 (2007), doi:10.2514/1.25824.
+  - Trajectory-coupled runs: peak heating fell to ~73 %, mostly through **extra drag slowing the craft** (Yoshino, Fujino & Ishikawa, AIAA 2007-4249). So **braking control is the main lever.**
+  - V. A. Bityurin & A. N. Bocharov, "Effects of MHD interaction in re-entry flight," AIAA 2006-3235.
+- **MHD/EHD control in weakly ionised flow: Grounded (theory), with limits.** S. O. Macheret, M. N. Shneider & R. B. Miles, *AIAA J.* 42(7), 1378–1387 (2004), doi:10.2514/1.3971.
+  - With ionisation fractions of 10⁻⁸–10⁻⁵, momentum transfer to the neutral gas is inefficient.
+  - Electron-beam ionisation can make MHD turning and compression work, but the effect is "relatively modest", and arcing and Joule heating limit it.
+- **Magnetoshell aerocapture: Plausible-untested (NIAC concept + subscale lab).**
+  - A dipole field filled with magnetised plasma acts as a large, **adjustable** "plasma parachute". Atmospheric neutrals charge-exchange with the plasma, and the bent field lines carry their momentum to the craft.
+  - Phase I studied Mars and Neptune capture and reported a ~1000× drag increase in a subscale argon test (D. Kirtley et al., NASA NIAC Phase I; AIAA 2014-1230, doi:10.2514/6.2014-1230; [NASA NIAC page](https://www.nasa.gov/general/magnetoshell-aerocapture-for-manned-missions-and-planetary-deep-space-orbiters/)).
+  - This is the closest published match to "re-entry as a control method that we create": **drag that is switched and throttled by the plasma and field**.
+- **Plasma actuators (DBD): Grounded (subsonic lab/wind tunnel).** Surface discharges add body force near the wall and control separation and transition: T. C. Corke, C. L. Enloe & S. P. Wilkinson, *Annu. Rev. Fluid Mech.* 42, 505–529 (2010), doi:10.1146/annurev-fluid-121108-145550. They are weak (boundary-layer authority), so they are not a hypersonic main control.
+- **Blackout-mitigation magnetic window: Grounded in principle (analysis); lab or flight tests not verified here.** An E×B layer near the antenna lowers the local electron density and opens a telemetry window: M. Kim, M. Keidar & I. D. Boyd, *J. Spacecr. Rockets* 45(6), 1223–1229 (2008), doi:10.2514/1.37395. The whistler-mode magnetic-window numbers are in §B2.
+
+**Power cost of creating the plasma (order-of-magnitude, Plausible-untested):**
+- Keeping a plasma ionised against recombination costs about P/V ≈ β n_e² W_i.
+  - β is the recombination coefficient: dissociative recombination is ~10⁻¹³ m³/s.
+  - W_i is the energy per ion pair in air: ~34 eV.
+- **P/V ≈ 5 kW/m³ at n_e = 10¹⁷ m⁻³ and ≈ 0.5 MW/m³ at 10¹⁸ m⁻³**, before ionisation inefficiency.
+- Add the magnets: resistive magnets need 0.1–1 MW, and superconducting magnets add cryogenic mass (§B2).
+- During real re-entry the flow supplies the ionisation for free. Away from re-entry (low speed, or vacuum), the craft pays for it, and in vacuum there is no gas to push on (except in magnetoshell-style schemes, which need some atmosphere).
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Re-entry sheath, blackout, n_e scales (RAM-C) | Grounded |
+| MHD drag / heat-flux control during re-entry (magnetic heat shield, MHD aerobraking) | Grounded (studied, lab-tested, simulated) to Plausible-untested (not flown) |
+| Magnetoshell: on-demand, throttleable plasma drag for aerocapture | Plausible-untested (subscale lab) |
+| E×B / magnetic telemetry window | Grounded in principle; Plausible-untested in flight |
+| DBD actuators for boundary-layer control | Grounded (subsonic); weak at hypersonic speeds |
+| Creating a plasma sheath on demand as a **general** steering / braking / transition control for an RGRF craft | **Plausible-untested** (braking / drag modulation in an atmosphere) to **Speculative** (steering in vacuum, or "free" control); kW–MW power cost |
+
+**Open items**
+- What "the concepts of re-entry" covered (drag modulation? heat-shield field? a guide sheath? a mode switch?): **[Channing to clarify]**.
+- Whether the plasma is self-generated (by the flow) or created on board (discharge, e-beam, RF), and at what altitude and speed: **[Channing to supply]**.
+- Field geometry, insulating vs conducting wall, and power and mass budgets.
+- Bench: magnet inside a blunt model in an arc-jet or a plasma-wind tunnel (Kranc-style), measuring drag and standoff vs B. At small scale: a DBD actuator on a plate in a fan tunnel.
+
 ## 7b. Hall-MHD simulation results — unrecovered toy normalized model
 **Status: results of an unrecovered toy model in normalized units. The script is missing. This is not a physical validation.**
 > Proven foundations (as stated): Hall wave dispersion from earlier HMHD equations; piezoelectric + toroidal confinement terms (MHD equilibrium approximations); CNT-enhanced neural feedback + wireless control.

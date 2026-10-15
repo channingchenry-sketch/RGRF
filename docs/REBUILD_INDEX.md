@@ -60,7 +60,7 @@
 | [`DESIGN_FORCE_FLOW_MAP.md`](DESIGN_FORCE_FLOW_MAP.md) | Design → force → flow map (all subsystems), unmapped parameters, top gaps | New |
 | [`lift_and_equilibrium_systems.md`](lift_and_equilibrium_systems.md) | Buoyancy-first lift, Lorentz, Tesla valves, EZ water, dual-oil, Coulomb eggs, chirp packets, levitation methods, loop mechanisms 1–8, Earth equilibrium | Recovered |
 | [`butterfly_node.md`](butterfly_node.md) | Figure-eight ferrofluid wings, egg, copper half-tubes, cascade, foci filter | Recovered; specifics **Missing** |
-| [`manta_butterfly_craft.md`](manta_butterfly_craft.md) | Craft concept; re-entry harvesting | Recovered |
+| [`manta_butterfly_craft.md`](manta_butterfly_craft.md) | Craft concept; re-entry harvesting (re-entry as control → core §7b-reentry) | Recovered |
 | [`piezo_helium_feedback_loop.md`](piezo_helium_feedback_loop.md) · [`helium_octave_table.md`](helium_octave_table.md) | Acoustic / helium loop | Recovered |
 | [`dusty_plasma_bench.md`](dusty_plasma_bench.md) | Plasma crystal bench | Recovered |
 | [`acoustic_streaming_and_centrifugal.md`](acoustic_streaming_and_centrifugal.md) | Streaming, centrifugal buoyancy, dual torus/muons, Cherenkov, vortex mode theory | Reconstructed + **Bridged** (×4) |
@@ -68,7 +68,7 @@
 | [`bioelectric_coupling.md`](bioelectric_coupling.md) | Schumann/telluric, green lensing, bioelectric chain, collagen | Recovered + **Bridged** (×2) |
 | [`materials_electronics.md`](materials_electronics.md) | CNT@BNNT, Bi₂O₂Se, B₄C | Recovered |
 | [`recent_fluid_dynamics_2024_2026.md`](recent_fluid_dynamics_2024_2026.md) | Hydrodynamics as EFT | Item 1 only; rest **Missing** |
-| [`tungsten_bismuth_core.md`](tungsten_bismuth_core.md) | W-Bi core heartbeat, Z-pinch, Krausz attosecond (from 6 screenshots) | Recovered (toroidal text recovered; §7b-dyn toroidal dynamo / MHD-in-space paste recovered 2026-10-15, rest of that thread **Missing**); heartbeat freqs/geometry, HMHD script **Missing** |
+| [`tungsten_bismuth_core.md`](tungsten_bismuth_core.md) | W-Bi core heartbeat, Z-pinch, Krausz attosecond (from 6 screenshots) | Recovered (toroidal text recovered; §7b-dyn toroidal dynamo / MHD-in-space paste recovered 2026-10-15, rest of that thread **Missing**; §7b-reentry "re-entry as a control method that we create" (interpretation **[Channing to clarify]**)); heartbeat freqs/geometry, HMHD script **Missing** |
 | [`em_geometry_map.md`](em_geometry_map.md) · [`shifting_phase_order_review.md`](shifting_phase_order_review.md) | Geometry / phase-order maps | Recovered |
 | [`tesla_and_ancient_alignments.md`](tesla_and_ancient_alignments.md) · [`franklin_lightning_rod.md`](franklin_lightning_rod.md) | Historical / alignment threads | Recovered |
 | [`mycelium_uses.md`](mycelium_uses.md) · [`regenerative_housing.md`](regenerative_housing.md) · [`open_grow_kit.md`](open_grow_kit.md) · [`coral_wave_barriers.md`](coral_wave_barriers.md) | Materials, housing, grow kit, coastal | Recovered |

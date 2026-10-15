@@ -162,7 +162,7 @@ Q ≳ 1 means the field significantly reshapes the flow.
 - 1.5 GHz (GPS) needs B ≳ 0.06 T at the antenna.
 - To bring 1e19 m⁻³ plasma fully below cutoff you need B ≳ 1 T near the antenna.
 - Collisions (ν ~ 10⁸–10⁹ s⁻¹ ≪ 2πf) are acceptable.
-- Static-field and E×B-layer blackout-mitigation schemes have been analysed in the literature. I believe this includes Michigan work (Kim, Keidar, Boyd), but please verify the exact citation.
+- Static-field and E×B-layer blackout-mitigation schemes have been analysed in the literature. **Verified 2026-10-15:** M. Kim, M. Keidar & I. D. Boyd, "Analysis of an electromagnetic mitigation scheme for reentry telemetry through plasma," *J. Spacecr. Rockets* 45(6), 1223–1229 (2008), doi:10.2514/1.37395. Verified MHD flow-control sources (Resler & Sears 1958; Kranc et al. 1969; Fujino et al.; Macheret et al. 2004; magnetoshell) are in [tungsten_bismuth_core.md §7b-reentry](tungsten_bismuth_core.md#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15).
 
 **E×B / Hall drift: GROUNDED.**
 - v_E = E/B. Crossed electrodes plus a magnet near the antenna can push electrons out and locally deplete n_e (the E×B blackout-mitigation concept).
