@@ -134,6 +134,81 @@ The design goal was stability on a buoyant body, not levitation. See [lift_and_e
 - **The Faraday cage (1836).** A closed conductor screens its interior from external static fields, because charges rearrange on the surface. It screens time-varying fields when the openings are much smaller than the wavelength and the skin depth is small. This is the grounded basis of shielding and of the "leaky boundary" ideas (cf. the [Franklin lightning rod](franklin_lightning_rod.md)).
 - **The homopolar (Faraday) disk (1831).** A conducting disk spinning in an axial field gives a steady DC EMF, ℰ = ½ B ω R², between axis and rim: the first electric generator. The same motional-EMF physics (v × B) drives Alfvén-wing and electrodynamic-tether coupling (§7b-alfven) and the Tesla-patent-era motors (§1).
 
+#### 3d.1 Ulexite and the Faraday effect (2026-10-15)
+> Channing (verbatim, 2026-10-15): "On another note something we started looking into was ulexite and faraday can we explore"
+>
+> Channing (verbatim): "Yeah exactly the idea, full rotation? Or unstudied?"
+
+**The idea.** Faraday (magneto-optical) rotation of polarised light travelling along ulexite's natural optical fibres ("TV rock"), with the magnetic field along the fibres.
+
+**Is there a measurement? Not that I found.**
+- I found no published Verdet constant or magneto-optical measurement for ulexite, and none for other hydrated borate minerals.
+- Measurements do exist for borate **glasses**:
+  - "Faraday rotation in glasses," *J. Chem. Phys.* 41, 3289 (1964) (author believed to be N. F. Borrelli, **[to verify]**). It measured optical, diamagnetic and rare-earth glasses; Pr³⁺/Dy³⁺ silicate and borate glasses had the largest V.
+  - Tb³⁺-rich borate glasses: F. Suzuki, F. Sato, H. Oshita, S. Yao, Y. Nakatsuka & K. Tanaka, "Large Faraday effect of borate glasses with high Tb³⁺ content prepared by containerless processing," *Opt. Mater.* 76, 174–177 (2018), doi:10.1016/j.optmat.2017.12.031. **V = 172–234 rad/(T·m) at 633 nm** for 45–60 mol% Tb₂O₃, against 134 rad/(T·m) for the TGG crystal.
+  - A follow-up in *J. Am. Ceram. Soc.* (doi:10.1111/jace.20065; authors **[to verify]**) reports **−229 rad/(T·m)** for 58Tb₂O₃–42B₂O₃.
+- **Answer to "full rotation? Or unstudied?":** the Faraday effect in ulexite appears **unstudied**. Full rotation is **not expected** at practical lab fields (see the estimate).
+- Historical note: Faraday's own 1845 discovery used his heavy **lead borate** glass (see §3d), so borates and the Faraday effect share an origin story.
+
+**Ulexite facts (Grounded).**
+- **Composition and optics:** NaCaB₅O₆(OH)₆·5H₂O. Triclinic, biaxial (+), with n_α ≈ 1.491–1.496, n_β ≈ 1.504–1.506, n_γ ≈ 1.519–1.520 and birefringence ≈ 0.028–0.030 (Mindat).
+- **Fibre optics:**
+  - G. S. Baur, W. N. Larsen & L. B. Sand, "Image projection by fibrous minerals," *Am. Mineral.* 42, 697 (1957). They found that transverse sections project an image from face to face by reflections along twinned fibre interfaces. Fibre cross-sections are 0.06–0.75 mm², and twin widths 5–60 µm.
+  - E. J. Weichel-Moore & R. J. Potter, "Fibre optical properties of ulexite," *Nature* 200, 1163–1165 (1963), doi:10.1038/2001163b0, explained it as core and cladding. The core is crystals aligned along c (n_γ ≈ 1.529 per Ghose et al.). The cladding comes from crystals randomly oriented about the fibre axis, giving an index difference of 0 to 0.038.
+  - S. Ghose et al., "Ulexite, NaCaB₅O₆(OH)₆·5H₂O: structure refinement, polyanion configuration, hydrogen bonding, and fiber optics," *Am. Mineral.* 63, 160–171 (1978). SEM and X-ray work confirms the random orientation about the fibre axis and ~0.5 µm gaps between crystals.
+  - **Correction:** the "Weichman et al. 1999 *Am J Phys*" reference was **not found**. The paper that matches the description is Weichel-Moore & Potter 1963 (*Nature*). There is also a teaching note: V. E. Henrich, "Fiber optic imaging: Nature beat us to it," *Phys. Teach.* 56, 128 (2018).
+
+**Estimate: θ = V·B·L (computed).**
+- **Diamagnetic V.** The proposed 0.01–0.02 min/(G·cm) converts to **2.9–5.8 rad/(T·m)**, since 1 min/(G·cm) = 290.9 rad/(T·m). That matches common diamagnetic glasses (fused silica ≈ 3.7 rad/(T·m) at 633 nm). Ulexite (n ≈ 1.5, hydrated borate) is plausibly in this range. That is an **analogy, not a measurement**.
+
+| V (rad/T·m) | L | B = 0.5 T | B = 1 T |
+|---|---|---|---|
+| 2.9 | 2 cm | 1.7° | 3.3° |
+| 2.9 | 5 cm | 4.2° | 8.3° |
+| 3.7 | 2 cm | 2.1° | 4.2° |
+| 3.7 | 5 cm | 5.3° | 10.6° |
+| 5.8 | 2 cm | 3.3° | 6.6° |
+| 5.8 | 5 cm | 8.3° | 16.6° |
+| 234 (Tb-borate glass) | 2 cm | 134° | 268° |
+
+- **Field needed (V = 3.7 rad/(T·m)):**
+  - 45° (isolator): **10.6 T** at 2 cm, **4.2 T** at 5 cm.
+  - Full 360°: **85 T** at 2 cm, **34 T** at 5 cm.
+  - Full rotation in diamagnetic ulexite would therefore need pulsed-magnet or very long-path conditions.
+- **Tb-borate glass (V = 234 rad/(T·m)):** 45° takes 0.17 T at 2 cm, and 360° takes **1.34 T** at 2 cm or 0.54 T at 5 cm. Full rotation is practical only with a rare-earth material.
+
+**Key obstacle: polarisation scrambling (Grounded optics).**
+- **Linear birefringence quenches Faraday rotation.** Along the fibre, each crystal has an in-plane birefringence of order Δn ~ 0.01–0.03. Over 2 cm at 633 nm that is a retardance of δ = 2πΔnL/λ ≈ **2,000–5,600 rad**, against a Faraday ρ ≈ 0.07 rad at 1 T. When δ ≫ ρ, the Faraday effect only slightly ellipticises the linear eigenmodes. The net azimuth rotation is of order ρ/δ (~10⁻⁵ rad) rather than ρ. This is the same problem that limits fibre-optic current sensors.
+- **Random fibre orientation and many total-internal-reflection bounces** (the cladding *is* randomly oriented crystal) depolarise the output of a bundle. In the textbook sense, the "TV rock" image arrives largely depolarised. A bundle measurement may show no clean rotation at all.
+- **Ulexite is soft and hydrated:** it dehydrates on heating and is water-soluble, so polishing and thermal control matter.
+
+**Possible tests (Plausible-untested).**
+1. **Polarimeter in a magnet.**
+   - Setup: a 633 nm laser → polariser → ulexite slab (2–5 cm) inside a solenoid or between pole pieces → analyser (or a balanced polarimeter with a Wollaston prism) → photodiodes. Use an AC field (10–50 mT, ~100 Hz–1 kHz) and lock-in detection. Published lock-in Faraday setups resolve ~µrad.
+   - Measure **along the fibres vs across the fibres**, and first measure the degree of polarisation transmitted with B = 0.
+   - References: fused silica or BK7 and a water cell, for a known V.
+   - Prediction: bundle measurements are quenched or depolarised, giving rotation ≪ VBL. A clear single crystal cut and aligned so that one of its two optic axes lies along the beam (biaxial) should give V of ~3–5 rad/(T·m). That would be a genuinely new (if modest) data point.
+2. **Tb or rare-earth hybrid.**
+   - Natural ulexite cannot simply be doped.
+   - Option (a): a **synthetic fibre plate of Tb-borate glass** (V ~ 200 rad/(T·m)), drawn in the ulexite geometry. That gives full rotation at ~1 T over 2–3 cm. The fibres must be low-birefringence (glass, not crystal) to avoid quenching.
+   - Option (b): impregnating ulexite's ~0.5 µm inter-crystal gaps with a paramagnetic (e.g. Tb³⁺ or Dy³⁺) solution. This is **Speculative**: water attacks ulexite, and the birefringent crystals would still quench the rotation.
+
+**Links:** the Faraday effect in §3d; birefringence in macroscopic optics below; the borate cure for mycelium panels (borax-treated, BN-coated) in [living_habitat_life_support.md](living_habitat_life_support.md#living-vs-non-living-zones-petrified-tubes-as-designed-branches) and [open_grow_kit.md](open_grow_kit.md). The chemistry is related (borates), but the function is different (fungicide/fire retardant vs optics).
+
+##### 3d.1a Macroscopic birefringence
+> Channing (verbatim, 2026-10-15): "Yes we got into Birefrigent in a macroscopic idea as well let me see if I can track it down"
+
+Channing's notes on the macroscopic birefringence idea: **[Channing to supply]**.
+
+**Grounded context**
+- **Calcite / Iceland spar double refraction.** E. Bartholin, *Experimenta crystalli Islandici disdiaclastici quibus mira & insolita refractio detegitur* (Copenhagen, 1669). A strongly birefringent uniaxial crystal (n_o ≈ 1.658, n_e ≈ 1.486, Δn ≈ 0.17; standard handbook values) gives two visibly separated images. Later work: Huygens (1678/1690), Malus (1808–1810, polarisation by reflection) and the Nicol prism (1828).
+- **Viking sunstone (hypothesis).** G. Ropars, G. Gorre, A. Le Floch, J. Enoch & V. Lakshminarayanan, "A depolarizer as a possible precise sunstone for Viking navigation by polarized skylight," *Proc. R. Soc. A* 468, 671–684 (2012; published online 2 Nov 2011), doi:10.1098/rspa.2011.0369. Rotating Iceland spar to its isotropy point equalises the two beams and locates a hidden Sun to within a few degrees, even at twilight. The physics is Grounded (demonstrated). That Vikings actually used it is a **hypothesis**, supported by medieval texts and a calcite found on the 1592 Alderney wreck (Le Floch et al., *Proc. R. Soc. A* 469, 2013).
+- **Waveplates plus Faraday rotation = optical isolators (Grounded engineering).**
+  - A waveplate (a birefringent retarder) is **reciprocal**, while Faraday rotation is **non-reciprocal**: the rotation sense is fixed by B, not by the propagation direction.
+  - A 45° Faraday rotator between polarisers passes light forward and blocks it backward.
+  - Polarisation-independent fibre isolators combine birefringent walk-off crystals or wedges, a 45° Faraday rotator and a half-wave plate. Birefringence splits and recombines the polarisations, and the Faraday element makes the path one-way.
+  - That is the grounded "birefringence + Faraday" pairing. The ulexite estimate above shows why the active element must be a high-V, low-birefringence material (Tb glass, TGG), with natural birefringent crystals only for the passive split/recombine role.
+
 ### 3e. Toroidal flows and vortices
 > Channing (verbatim, 2026-10-15): "From there we got into toroidal flows and vortexes"
 
@@ -290,7 +365,18 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | "φ-optimized windings" in Suite element 3 | Not supported (φ has no effect; confinement 1.0 by construction) |
 | Suite element 3 Bluetooth metrics (0.965 success, 1.28 ms) | Grok-reported; unverifiable (code missing) |
 
+| Ulexite fibre optics (core/cladding from crystal orientation) | Grounded |
+| Faraday effect in ulexite | Likely unstudied; Plausible-untested (expected V ~3–5 rad/(T·m) by analogy) |
+| Full 360° rotation in ulexite at practical lab fields (≤1–2 T, cm lengths) | Not expected (needs ~34–85 T); birefringence quenches it further |
+| Tb-borate glass Faraday rotation (V ≈ 172–234 rad/(T·m)) | Grounded (measured) |
+| Tb-borate glass fibre plate in the ulexite geometry | Plausible-untested |
+| Tb/Dy solution impregnation of natural ulexite | Speculative |
+| Calcite double refraction; waveplate + Faraday isolators | Grounded |
+| Viking calcite sunstone | Physics Grounded (demonstrated); historical use a hypothesis |
+
 ## Open items
 - The specific Tesla and Da Vinci threads explored, and any Grok text. **[Channing to supply]**
 - Role mapping answered (§3a: wavelength interactions → ± charge → lensing → Faraday). Any Grok text from the lensing, Faraday, toroidal-flow and particle-tracing threads. **[Channing to supply]**
 - Suite element 3 Bluetooth code (truncated) and the source of its reported BT metrics. **[Channing to supply code]**
+- Channing's notes on the macroscopic birefringence idea (§3d.1a). **[Channing to supply]**
+- Any earlier Grok text on ulexite and Faraday (§3d.1). **[Channing to supply]**
