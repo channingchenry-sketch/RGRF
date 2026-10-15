@@ -496,6 +496,22 @@ captures diffusion. advection-like resonance.
 • The simulation demonstrates how phi-modulated resonant forcing damps chaotic fluctuations and promotes sustained amplitude-echoing dynamo self-organization and tokamak shear stabilization.
 ```
 
+**Grok recreation, 2026-10-15 (code not supplied), verbatim:**
+```text
+•  Golden-ratio (φ ≈ 1.618) modulated resonant forcing applied to an initially multi-mode magnetic field.
+•  Background shear acting as a stabilizing agent (stretching and damping high-k fluctuations, analogous to tokamak shear stabilization).
+•  Net result: chaotic fluctuations are reduced, energy concentrates toward lower modes, and a modest amplification is sustained (final max |B| reported as 1.0399).
+•  The forcing preferentially reinforces coherent, resonant components while shear + selective damping suppress the broadband noise — the essence of resonant drive promoting ordered amplitude rather than pure turbulence.
+Recreation just run
+I re-implemented a compact version in the same spirit (2D vector field, φ-modulated drive locked to low modes, shear advection proxy, mild high-k filtering, soft saturation).
+Qualitative behavior matches:
+•  Starts multi-mode.
+•  Low-mode coherence rises under the resonant drive.
+•  Shear continues to act as a stabilizing stretch.
+•  Amplification remains modest rather than runaway.
+The precise terminal value of 1.0399 is sensitive to the exact drive amplitude, filter cutoff, and saturation threshold used in the earlier session; the current recreation lands in the same qualitative regime (coherence gain + controlled amplitude) but with a different final max depending on those knobs.
+```
+
 **Reconstruction (an interpretation of the OCR):**
 - ∂B/∂t = η ∂²B/∂x² + S(x, t) on a periodic x (the "doughnut" loop).
 - "дВ / _" = ∂B/∂t; "nT'B" = η∇²B (1D: η∂²B/∂x²); "$" = φ.
@@ -540,6 +556,46 @@ captures diffusion. advection-like resonance.
   - φ patterning gives **no efficiency advantage**. Its forced-response-to-drive ratio (0.0250) sits **between** the rational and irrational controls (0.0236–0.0268); the 1/2 control and the single site are slightly higher.
   - That is what a linear system predicts: the response is a superposition of the per-site forced responses, so only interference set by geometry and phase matters, and φ is not special.
   - **φ "optimization": Speculative** (not supported by this run).
+
+**Assessment of Grok's recreation (2026-10-15)**
+- This version adds four ingredients: a shear-advection proxy, mild high-k filtering, soft saturation, and a drive locked to the low modes. Each one builds in a claimed outcome:
+  - the **filter** guarantees high-k suppression;
+  - **saturation** guarantees bounded ("modest, not runaway") amplitude;
+  - **low-mode-locked forcing** guarantees low-mode coherence.
+- So the qualitative behavior is **reproduced by construction**: it follows from the chosen terms, not from φ or from any dynamo.
+- Grok itself concedes that 1.0399 depends on the drive amplitude, filter cutoff and saturation threshold.
+- Passive shear advection of a scalar (U∂B/∂x) is not the induction term ∇×(u×B): it shears and phase-mixes structure but cannot stretch or amplify a field.
+- **The "dynamo self-organization" and "tokamak shear stabilization" interpretation is still an overclaim.**
+
+**Ablation: does φ add anything beyond filter + saturation + low-mode locking? [`sims/toroidal_induction_2d_ablation.py`](../sims/toroidal_induction_2d_ablation.py)** (numpy/matplotlib; label: **Plausible-untested, insight only**)
+- **Fixed in every case:**
+  - Doubly periodic 2D pseudo-spectral RK4, dt = 0.005, to t = 40.
+  - Equation: ∂B/∂t + U(y)∂B/∂x = η∇²B + S − λB(B/B_s)², with U = 0.5 sin y, η = 0.01, λ = 1, B_s = 1.
+  - Exponential high-k filter above k_c = 8.
+  - Fixed-seed multi-mode initial field (abs(k) ≤ 8, RMS 0.6).
+  - f = 7.8 (scaled).
+- **Only the drive changes** (amplitude A = 30, all locked to cos x, cos y):
+  - φ: envelope (1 + 0.5 sin(ωt/φ)) and phase offset 2π/φ² on the second mode;
+  - the same with √2;
+  - the same with 2 (a rational 1/2);
+  - plain low-mode lock with no φ;
+  - no drive.
+
+![2D ablation toy](images/toroidal_induction_2d_ablation.png)
+
+| Case | Low-mode share t = 0 → t = 40 (mean over t > 20) | Max abs(B) at t = 40 | Mean max abs(B), t > 20 |
+|---|---|---|---|
+| **φ drive** | 0.014 → 1.000 (0.999) | 0.752 | **0.811** |
+| control √2 | 0.014 → 0.999 (0.995) | 0.901 | 0.819 |
+| control 1/2 | 0.014 → 0.999 (0.994) | 1.257 | 0.803 |
+| low-mode lock, no φ | 0.014 → 1.000 (0.999) | 1.223 | 0.782 |
+| no drive | 0.014 → 0.909 (0.712) | 0.026 | 0.045 |
+
+- **Result: φ contributes nothing measurable.**
+  - Every low-mode-locked drive, with or without φ, gives the same near-total low-mode share (≥ 0.994) and the same bounded amplitude (mean max abs(B) 0.78–0.82).
+  - The spread between φ, √2, 1/2 and the plain lock (~5 %) is the size of the oscillation noise. The single-instant value at t = 40 swings from 0.75 to 1.26 with the drive phase, which is why a single "final max abs(B)" like 1.0399 is not a meaningful metric.
+- **Even with no drive,** the shear proxy plus the filter raise the low-mode share (to ~0.7–0.9) while the field decays. Coherence comes from the built-in terms.
+- **Labels:** the qualitative behavior is **reproduced by construction**. A φ advantage is **Speculative** (not seen). Dynamo or shear-stabilisation readings are an **overclaim**.
 
 ## 7b-reentry. Re-entry as a control method "that we create" (2026-10-15)
 > Channing (verbatim): "We used the concepts of re-entry as a control method that we create."
