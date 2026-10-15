@@ -67,6 +67,7 @@ Recovered text (screenshots 3, 11, 12):
 >
 > "Honest Limitations: Hall waves introduce dispersion and potential instabilities at small scales; practical control in human-powered or portable systems remains challenging due to required magnetic fields and densities." (partly cut off)
 
+- **See also:** the "cyclotron-magnetron" wording reappears in a recovered filament-riding excerpt. A magnetron is a microwave source, not a steering device; see [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15).
 - **Grounded (phenomenon):** the spin Hall effect of light (polarization-dependent transverse beam shift) is established, and the analogous spin Hall effect of RF/EM wave beams in inhomogeneous magnetized plasmas is studied theoretically (screenshot cites an APS source; specific paper not recovered). Hall-MHD / kinetic-Alfvén ("shear Alfvén-Hall") waves are Grounded. ATAS (attosecond transient absorption spectroscopy) is a Grounded technique.
 - **Speculative:** "photon chase" in a toroidal field, coupling to telluric/geomagnetic modes for energy transfer or propulsion, golden-spiral resonance, and attosecond control of pinch waves (diagnostics only, see §5).
 
@@ -262,7 +263,7 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 
 - Grounded: hemp/mycelium composites (Trametes versicolor is a common species for them); chitin/cellulose have weak piezoelectric response; Helmholtz resonators for acoustic harvesting; piezoceramic inclusions in composites.
 - Plausible-untested: ultrasound alignment during growth improving piezo coefficients; "phase-change" behaviour; self-healing living skins on docks.
-- Speculative: diamagnetic elements stabilizing "cosmic filament riders".
+- Speculative: diamagnetic elements stabilizing "cosmic filament riders". See [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15) for the recovered Grok "filament riding" excerpt (cyclotron/magnetron, Casimir chamber, quartz) and its labels.
 - CNTs: as sensors/conductive filler (Grounded); "Bluetooth-enabled" (see correction in §7b).
 
 **Honest limitations (original):**

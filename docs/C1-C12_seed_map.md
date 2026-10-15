@@ -14,3 +14,5 @@
 | C10 | Helium opacity / buoyancy / atmospheric resonance | Jul–Aug | closed-as-lift | Already shown negligible at POL mass. Opacity as cosmic transport? | Drop for hardware; optional Entanglements atmosphere |
 | C11 | One fungus vs small guild (Trametes primary vs P. pulmonarius textile/agro reuse, living textiles, VTT sheets) | 26 Aug | open | Keep one structural contract and a small guild for waste streams — can Ch 2 say that without becoming a manifesto? | Highest-leverage book path |
 | C12 | Hu et al. 2026 transient coherent perfect absorption | 26–27 Aug | closed-as-lift | Matching window for WPT — yes. Levitation — no. | WPT / Ch 3 only |
+
+*Cross-link (2026-10-15):* C6 (magnetopause) context for "aligning in the magnetosphere" is in [em_topo L5c](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere).

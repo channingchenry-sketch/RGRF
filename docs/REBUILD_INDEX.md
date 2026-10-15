@@ -31,6 +31,8 @@
 | L4e | Emergent / entropic gravity | Jacobson, Verlinde; 10^40 claim Speculative | Recovered |
 | L4f | Casimir checkpoint | Plates, Casimir–Polder, zeta; 9×7 matrix | Reconstructed; matrix **Missing** |
 | L5 | Field lines & longitudinal channels | Recurring thread | Recovered |
+| L5b | Filament riding, Casimir "resonance chamber", quartz tuning (Grok excerpt, 2026-10-15) | Verbatim archive + labels: filaments/Casimir/quartz Grounded; cyclotron/magnetron riding, vacuum recycling, warp bubble Speculative; ley lines Symbolic | Recovered (rest of conversation, EU write-up **Missing**) |
+| L5c | Planet-to-space trim-coil mode switch; aligning in the magnetosphere | Grounded context (shim coils, magnetorquers, magnetopause, Van Allen); switch Plausible-untested; magnetospheric propulsion Speculative | **To recreate** (design **Missing**) |
 | L6 | Wireless energy transfer | Coupled-mode limits; φ coil worse in the POL sim | Recovered |
 | L7 | Magnetic waveguides & bypasses | — | Recovered |
 | L8 | Microtubules; acoustic sand structuring | — | Recovered |

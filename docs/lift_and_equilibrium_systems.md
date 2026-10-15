@@ -287,4 +287,5 @@ Source: S. Earnshaw, "On the nature of the molecular forces which regulate the c
 - A quantity for "impedance zone" and "equilibrium". What is measured, in what units?
 - How sheath or envelope EM manipulation reacts against the *external* air or field. Without this there is no net force.
 - Weight of HV supplies and batteries for ionic trim.
+- Planet-to-space mode switch with trimming coils (ionic trim and buoyancy do not work in vacuum), **to recreate**: [em_topo L5c](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere). **[Channing to supply]**
 - Any primary source for EZ-water energy or force claims.

@@ -320,6 +320,7 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
 - **Low-magnitude, high-frequency (LMHF) vibration: Grounded research.** ~0.3 g at ~20–90 Hz has been studied for bone.
   - C. Rubin et al., "Low mechanical signals strengthen long bones," *Nature* 412, 603–604 (2001), doi:10.1038/35088122 (sheep, 30 Hz, 0.3 g).
   - **Human trials show mixed results.** It has been proposed as a **microgravity countermeasure** for spaceflight bone loss.
+- **See also:** "You'd feel the vibration in your bones" in the recovered filament excerpt, [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15) (Symbolic / experiential).
 - **Delivery:** floor or seat vibration platforms in the cabin (whole-body vibration through the feet or seat).
 - **Safety:** avoid the **~4–8 Hz whole-body resonance** band (vertical), where vibration discomfort and health risk peak (ISO 2631-1, whole-body vibration evaluation). Keep amplitudes low.
 - **Unknowns:** frequency and amplitude chosen, daily dose, platform design, and crew-health monitoring.

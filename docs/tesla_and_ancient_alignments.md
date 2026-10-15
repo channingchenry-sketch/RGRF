@@ -27,6 +27,8 @@ License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Spe
 - These show deliberate solar observation and calendar-keeping, which is well established.
 
 ### Ley lines
+*See also:* Channing's "cosmic filaments (vast ley lines)" note in [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15) (ley lines there: Symbolic).
+
 | Claim | Label | Notes |
 |---|---|---|
 | Watkins' leys as ancient straight trackways / sightlines | Plausible-untested (historical hypothesis) | Alfred Watkins presented the idea to the Woolhope Club in Sept 1921 and published *Early British Trackways* (1922) and *The Old Straight Track* (1925). He proposed sighting lines between mounds, stones, churches, etc., for travel. He did **not** propose energy lines. |
