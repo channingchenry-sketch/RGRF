@@ -3,6 +3,7 @@
 License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Speculative** (see the main README). All citations below were checked by web search on 2026-10-11; unverified items were left out.
 
 ## A. Tesla
+*See also:* [tesla_davinci_threads.md](tesla_davinci_threads.md) (Tesla and Da Vinci threads, the Vitruvian Man, charge balance and expansion).
 
 ### Documented history (Grounded)
 - **Colorado Springs, 1899.** Tesla built a high-voltage, high-frequency laboratory and ran large resonant-transformer ("magnifying transmitter") experiments, producing very long artificial sparks. The lab was later razed (1904) to settle debts.
