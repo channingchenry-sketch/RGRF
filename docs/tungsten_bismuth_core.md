@@ -54,7 +54,56 @@ The "shear layer" in the paste is the **sheared axial flow** of the Z-pinch in [
 > Based on the acoustic wave equation coupled to background flow.  
 > Real experiments use gas injection and electrode modulation; this captures the essence without full MHD complexity (which we'd add later via more advanced libs if needed). Shear helps damp instabilities, while acoustic waves can actively "pinch" or sustain via compression.
 
-- **The script: [Channing to supply]**. It is lost and can be rebuilt; it is not written here.
+- **The original script is lost.** Channing (verbatim): "No we will have to rebuild. And yes we ran into ZaP on a few occasions." ZaP (the University of Washington sheared-flow Z-pinch, see the sources below) came up several times in the original threads.
+
+**Grok recreation description, 2026-10-15 (Grok's run; its code was not supplied), verbatim:**
+```text
+We treated the linearized acoustic equations coupled to a background shear flow (convected wave + shear terms). The goals were:
+•  Shear (background U_x(y)) advects and stretches structures, providing a natural damping/stabilizing effect on certain instabilities.
+•  Acoustic waves (or intermittent source terms standing in for electrode modulation / localized gas injection) actively compress and can “pinch” or sustain density peaks against that shear.
+•  Keep the model light so we could iterate quickly; full MHD (ambipolar diffusion, magnetic tension, etc.) was noted as a later addition.
+Real experiments in the literature (partially ionized plasmas, dusty plasmas, shear-flow wave coupling papers) do use gas injection and modulated electrodes; our version isolated the acoustic–flow interplay.
+Fresh recreation (just ran)
+I re-implemented a compact 2D finite-difference version in the same spirit:
+•  Background shear flow U_x(y) (zero divergence).
+•  Linearized continuity + momentum with advection and the shear term (v\cdot\nabla)U.
+•  Acoustic relation p = c^2\rho (c=1).
+•  Intermittent central source term (mimicking pulsed electrode/gas injection).
+•  Reflective-ish boundaries, CFL-limited timestep.
+Key observed behavior from the run:
+•  Initial Gaussian pulse spreads and is sheared.
+•  Peak |\rho| drops quickly under shear, then the intermittent acoustic source rebuilds central compression.
+•  By t\approx1, a sustained (though fluctuating) density peak remains near the injection zone while the shear continues to stretch the outer structure.
+```
+
+**Rebuilt toy sim: [`sims/sonic_pinch_shear.py`](../sims/sonic_pinch_shear.py)** (numpy/matplotlib; an independent re-implementation of the description above, not Grok's code). Label: **Plausible-untested, as an analog only.**
+- **Model:** 2D finite difference on [−1, 1]², c = 1, RK4 with a CFL-limited dt, reflective walls (normal velocity 0), small numerical diffusion ν = 10⁻³.
+  - Shear flow U_x(y) = 0.5 tanh(y/0.2), which is divergence-free.
+  - ∂ρ/∂t + U∂ρ/∂x + ∇·v = S and ∂v/∂t + U∂v/∂x + (v·∇)U = −c²∇ρ.
+  - Initial Gaussian pulse (σ = 0.1) at the centre.
+  - S is a pulsed central Gaussian (σ = 0.05): on for 25 % of each 0.2 period.
+  - Four runs: shear and no shear, each with and without the source.
+- **Toy proxy, not MHD:** no j×B, no magnetic tension or pressure, no ambipolar diffusion, no kink physics, so it cannot show pinch stabilization. A pulsed central source adds density at the centre by construction, so a "sustained central peak" is a **forced balance, not self-organization**.
+
+![Sonic pinching toy acoustic proxy](images/sonic_pinch_shear.png)
+
+**Result (run 2026-10-15) and whether Grok's reported behavior reproduces:**
+| Case | Peak abs(ρ): t = 0 → minimum for t ≤ 1 | Mean ρ in central disc r < 0.1, t > 1 (range) |
+|---|---|---|
+| shear + source | 1.00 → 0.24 (t ≈ 0.9) | 0.22 (−0.07 … 0.67) |
+| shear, no source | 1.00 → 0.16 | 0.06 (−0.06 … 0.16) |
+| no shear + source | 1.00 → 0.16 | 0.07 (−0.25 … 0.47) |
+| no shear, no source | 1.00 → 0.11 | 0.03 (−0.12 … 0.22) |
+
+- **Qualitatively reproduced:**
+  - The pulse spreads, and with shear the rings are tilted and stretched.
+  - The peak drops quickly.
+  - The pulsed source then rebuilds a **fluctuating** central peak that persists from t ≈ 1 on, while the outer structure keeps being sheared.
+- **Not supported:**
+  - **The drop is not caused by shear.** It is 2D acoustic spreading: the peak falls *further* without shear (to 0.11) than with it (to 0.16).
+  - **Shear is not needed for a sustained central peak.** The source keeps one with or without shear. In this run the time-averaged central density was somewhat higher with shear (0.22 vs 0.07), but that is a property of this toy's parameters and has not been tested for robustness.
+  - Nothing here bears on kink or sausage stabilization.
+
 - From the description, it solved an **acoustic wave equation with a background (sheared) flow**: a convected wave equation, (∂_t + U·∇)²p′ − c²∇²p′ = 0 for uniform U, or the linearized Euler equations for a sheared U(r). That stands in for MHD.
 
 **Grounded context (sources checked 2026-10-15)**
@@ -103,7 +152,7 @@ The "shear layer" in the paste is the **sheared axial flow** of the Z-pinch in [
 | Phi-spiral interference patterns / resonant nodes in the shear layer | **Speculative / Symbolic** |
 
 **Open items**
-- The lost sim script (equations, grid, boundary conditions, parameters): **[Channing to supply]**. A rebuild would start as linearized Euler with sheared U(r), then move to linear MHD (e.g. a Dedalus eigenvalue problem for kink growth vs shear).
+- The original sim is lost; a toy rebuild is in `sims/sonic_pinch_shear.py` (above). Next step would be linear MHD (e.g. a Dedalus eigenvalue problem for kink growth vs shear). Original parameters, if recalled: **[Channing to supply]**.
 - What "regenerative" means (energy recovery? self-sustaining?): **[Channing to clarify]**.
 - Driver type and frequency relative to ion-acoustic and Alfvén frequencies: **[Channing to supply]**.
 
