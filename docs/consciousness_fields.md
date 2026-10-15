@@ -581,6 +581,115 @@ The animals were **rats, not mice**. The "distance" element is Sheldrake's later
    - Faster tech uptake by children: **Grounded**, but explained by sensitive periods, immersion and environment.
    - "Newer generations are preconditioned for the future" through inheritance or morphic resonance: **Speculative**.
 
+## 3m. Evolutionary mismatch, reactive states, and how environment shapes belief
+
+**Channing's idea (paraphrased; Speculative as a synthesis, built on Grounded parts):** this follows from §3k–§3l. Evolution shaped our traits for past environments (§3k epigenetics, §3l predator–prey). In a reactive state, old survival wiring narrows attention and crowds out careful thinking. Channing thinks this is worth explaining to people when they are reactive, and that it should be taught in high school. His second point: people living inside an environment that spreads propaganda or indoctrination tend not to *see* it at all, rather than seeing it and questioning it. Verbatim wording: **[Channing to supply]** if wanted.
+
+Links: §3c (stress, allostatic load), §3d (coherent vs reactive states), §3k (stress programming), §3l (predator–prey; generational tech uptake and sensitive periods).
+
+### Evolutionary mismatch
+
+1. **Mismatch hypothesis: Grounded as a framework.** N. P. Li, M. van Vugt & S. M. Colarelli, "The Evolutionary Mismatch Hypothesis: Implications for Psychological Science," *Curr. Dir. Psychol. Sci.* 27(1), 38–44 (2018), doi:[10.1177/0963721417731378](https://doi.org/10.1177/0963721417731378).
+   - Evolved mechanisms turn environmental inputs into behaviour that, on average, helped survival and reproduction. Modern inputs differ in kind, quantity and intensity, so the same mechanisms can produce maladaptive output.
+   - They separate **"forced"** mismatch (a new environment is imposed) from **"hijacked"** mismatch (novel stimuli exploit a mechanism, the way junk food exploits a sugar preference).
+   - It is a review and framework. Individual mismatch claims vary in how well they are tested.
+2. **Mismatch in the body: Grounded (popular synthesis).** D. E. Lieberman, *The Story of the Human Body: Evolution, Health, and Disease* (2013; publisher details from memory, content confirmed in Harvard Gazette and NPR coverage). Lieberman calls chronic conditions such as type 2 diabetes and myopia "mismatch diseases." His term **"dysevolution"** names the loop where we treat the symptoms and keep the cause.
+3. **Applying mismatch to belief and propaganda: Plausible-untested.** Ancestral cues for "trust this" (repetition, consensus around you, a familiar in-group voice) now come at scale from broadcast and algorithmic media. That fits the "hijacked" category, but it is an inference. No study tested it directly as mismatch.
+
+### Reactive states narrow attention and weaken prefrontal control
+
+4. **Stress impairs the prefrontal cortex: Grounded.** A. F. T. Arnsten, "Stress signalling pathways that impair prefrontal cortex structure and function," *Nat. Rev. Neurosci.* 10(6), 410–422 (2009), doi:[10.1038/nrn2648](https://doi.org/10.1038/nrn2648), [PMC2907136](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907136/).
+   - Even mild **uncontrollable** stress rapidly impairs prefrontal working memory in animals and humans. High catecholamine levels weaken PFC network connections (cAMP–HCN and PKC signalling).
+   - Chronic stress retracts PFC dendrites while amygdala dendrites expand.
+   - Arnsten notes this "might have survival value when we are in danger but be maladaptive when the situation requires higher order or complex responses." That is the mismatch point in Channing's idea, stated by the review itself.
+5. **Human meta-analysis: Grounded, with nuance.** G. S. Shields, M. A. Sazma & A. P. Yonelinas, "The effects of acute stress on core executive functions: A meta-analysis and comparison with cortisol," *Neurosci. Biobehav. Rev.* 68, 651–668 (2016), [PMC5003767](https://pmc.ncbi.nlm.nih.gov/articles/PMC5003767/); volume and pages written from memory.
+   - Across 51 studies, acute stress impaired working memory and cognitive flexibility.
+   - It **enhanced** one kind of inhibition (response inhibition), so the picture is not uniform "stress makes you dumber."
+6. **Arousal narrows attention: Grounded, classic.** J. A. Easterbrook, "The effect of emotion on cue utilization and the organization of behavior," *Psychol. Rev.* 66(3), 183–201 (1959), doi:[10.1037/h0047707](https://doi.org/10.1037/h0047707). Emotional arousal reduces the range of cues a person uses: central cues are kept and peripheral ones dropped.
+7. **Label:** reactive states narrowing attention and weakening reflective control: **Grounded**. That this is why people resist new information in an argument: **Plausible**. It is consistent with the data, but motivated reasoning (below) also operates in calm conditions.
+
+### Why people inside an information environment don't see it
+
+8. **Repetition breeds belief (illusory truth effect): Grounded.**
+   - L. Hasher, D. Goldstein & T. Toppino, "Frequency and the conference of referential validity," *J. Verbal Learn. Verbal Behav.* 16(1), 107–112 (1977), doi:[10.1016/S0022-5371(77)80012-1](https://doi.org/10.1016/S0022-5371(77)80012-1). Repeated plausible statements, true **or false**, were rated more valid across sessions two weeks apart.
+   - L. K. Fazio, N. M. Brashier, B. K. Payne & E. J. Marsh, "Knowledge does not protect against illusory truth," *J. Exp. Psychol. Gen.* 144(5), 993–1002 (2015), doi:[10.1037/xge0000098](https://doi.org/10.1037/xge0000098). Repetition raised belief **even when participants knew the correct answer** ("knowledge neglect"). The abstract names "political propaganda" as a real-world case.
+9. **Conformity: Grounded.**
+   - S. E. Asch, "Studies of independence and conformity: I. A minority of one against a unanimous majority," *Psychol. Monogr.* 70(9), 1–70 (1956), doi:[10.1037/h0093718](https://doi.org/10.1037/h0093718); page range written from memory.
+     - On an unambiguous line-length task, about 75% of participants conformed at least once.
+     - A single dissenting ally sharply reduced conformity.
+   - R. Bond & P. B. Smith, "Culture and conformity: A meta-analysis of studies using Asch's (1952b, 1956) line judgment task," *Psychol. Bull.* 119(1), 111–137 (1996); journal details from memory, title and findings confirmed. Across 133 studies in 17 countries, conformity was higher in collectivist cultures and declined over time in US samples, so it **depends on the environment**.
+10. **Identity-protective cognition: Grounded but contested in one key detail.**
+    - D. M. Kahan, "Ideology, motivated reasoning, and cognitive reflection," *Judgm. Decis. Mak.* 8(4), 407–424 (2013), [full text](https://www.sas.upenn.edu/~baron/journal/13/13313/jdm13313.html); pages from memory.
+      - People judged evidence by whether it suited their group's position. The effect was **symmetric** across left and right.
+      - Higher cognitive-reflection scores went with **more** motivated reasoning in one condition: being smart did not protect.
+    - **Counterpoint:** B. M. Tappin, G. Pennycook & D. G. Rand, "Rethinking the link between cognitive sophistication and politically motivated reasoning," *J. Exp. Psychol. Gen.* 150(6), 1095–1114 (2021), doi:[10.1037/xge0000974](https://doi.org/10.1037/xge0000974).
+      - Once prior factual beliefs were controlled, they found group identity did affect reasoning.
+      - They found no evidence that sophistication magnified it.
+    - So "smarter people are more biased" is **contested**. "Group identity shapes what evidence people accept" is **Grounded**.
+11. **Naïve realism: Grounded as a well-cited theory chapter.** L. Ross & A. Ward, "Naive realism in everyday life: Implications for social conflict and misunderstanding," in *Values and Knowledge* (1996), pp. 103–135. People assume they see the world as it objectively is, so those who disagree must be uninformed or biased. This is the closest established idea to "not seeing the water you swim in."
+12. **Label:** Channing's point that people embedded in a propagating environment tend not to see it: **Plausible**, strongly supported by its parts (repetition, conformity, identity, naïve realism). No single study tests "indoctrination blindness" as one construct. "Propaganda" and "indoctrination" are also not operationalized the same way across studies.
+
+### Can it be taught? Inoculation and media literacy
+
+13. **Prebunking / inoculation: Grounded, effects small at scale.** J. Roozenbeek, S. van der Linden, B. Goldberg, S. Rathje & S. Lewandowsky, "Psychological inoculation improves resilience against misinformation on social media," *Sci. Adv.* 8(34), eabo6254 (2022), doi:[10.1126/sciadv.abo6254](https://doi.org/10.1126/sciadv.abo6254).
+    - Five short videos taught manipulation techniques: emotional language, incoherence, false dichotomies, scapegoating and ad hominem.
+    - Six preregistered RCTs (n = 6,464) improved technique recognition, discernment and sharing quality, across the political spectrum.
+    - In the **YouTube field study** (n = 22,632), recognition rose about **5%** (Cohen's h ≈ 0.09, just under the preregistered 0.10 threshold), at about $0.05 per view.
+    - **Critique:** A. Modirrousta-Galian & P. A. Higham, "Gamified inoculation interventions do not improve discrimination between true and fake news," *J. Exp. Psychol. Gen.* (2023), [PubMed 36996156](https://pubmed.ncbi.nlm.nih.gov/36996156/). Reanalysing the *Bad News* / *Go Viral!* game studies, they found the games mostly made people more sceptical of **all** news rather than better at telling true from false. This critique is about the games, not directly the 2022 videos, but it shows response bias must be checked.
+14. **Lateral reading in high school: Grounded (one district-wide field study).** S. Wineburg, J. Breakstone, S. McGrew, M. D. Smith & T. Ortega, "Lateral reading on the open Internet: A district-wide field study in high school government classes," *J. Educ. Psychol.* 114(5), 893–909 (2022), doi:[10.1037/edu0000740](https://doi.org/10.1037/edu0000740).
+    - 499 students; the treatment group (n = 271) had six 50-minute lessons on leaving a site to check who is behind it.
+    - They improved significantly against matched controls.
+    - The Stanford History Education Group, which made the Civic Online Reasoning curriculum, became the independent nonprofit **Digital Inquiry Group** in 2024 ([inquirygroup.org/history](https://www.inquirygroup.org/history)). The lessons are free.
+    - This is the most direct evidence for Channing's "teach it in high school." It is quasi-experimental (matched, not randomized).
+15. **Media-literacy interventions overall: Grounded, moderate.** S.-H. Jeong, H. Cho & Y. Hwang, "Media literacy interventions: A meta-analytic review," *J. Commun.* 62(3), 454–472 (2012), [PMC3377317](https://pmc.ncbi.nlm.nih.gov/articles/PMC3377317/); volume and pages from memory.
+    - Across 51 interventions, d = 0.37 overall: largest for media knowledge (d = 1.12), smallest for behaviour (d = 0.23).
+    - More sessions helped.
+16. **Finland's curriculum: Grounded that it exists; outcome evidence limited.**
+    - The Finnish National Agency for Education embeds media literacy in the transversal competences "Multiliteracy" and "ICT competence" across all subjects (core curriculum since 2016), [oph.fi](https://www.oph.fi/en/education-and-qualifications/multiliteracy-and-media-literacy).
+    - Finland often tops European media-literacy rankings. That claim is widely reported but not verified here, and no causal study links it to the curriculum.
+    - A national media-education policy assessment reportedly found no systematic national data on implementation. That came from a search summary of a [2025 policy PDF](https://medialukutaitosuomessa.fi/wp-content/uploads/Media-Literacy-Education-Policy-in-Finland.pdf) not opened here, so it is **unverified**.
+17. **Explaining the stress mechanism to someone who is reactive: Plausible-untested.** No study was found testing whether explaining "your threat system is narrowing your attention" *during* a reactive moment helps. Related techniques, such as affect labelling and reappraisal, have their own literature, which was not reviewed here. Teaching it **ahead of time** fits the inoculation logic above: prepare before exposure.
+
+### Chase Hughes: a popular educator in this space
+
+Channing mentioned Chase Hughes as someone from the psychological-operations / behaviour field trying to get this information to the public.
+
+- **Per his own bio** ([nci.university/chase-hughes](https://nci.university/chase-hughes/)), he:
+  - served over 20 years in the US Navy, retiring as a Chief;
+  - founded Applied Behavior Research and NCI University (behaviour profiling, influence, persuasion training);
+  - is a member of the YouTube show *The Behavior Panel*.
+- **Per a 2021 alumni profile at his old school** ([Missouri Military Academy](https://www.missourimilitaryacademy.org/news-details/~board/news/post/chase-hughes-99), which relays his own account), he spent 20 years in the Navy, most recently as "lead curriculum developer for tactical operations." It lists certificates (hypnotherapy, Harvard executive education, DoD courses).
+- **Books (verified as published):**
+  - *The Ellipsis Manual: Analysis and Engineering of Human Behavior* (Evergreen Press, 2017; ISBN 9780692819906).
+  - *Six-Minute X-Ray: Rapid Behavior Profiling* (Evergreen Press, 2020; ISBN 9781735141602).
+  - Evergreen Press appears to be his own imprint (inferred, not confirmed), so the books are effectively **self-published**.
+  - He also sells *The Behavior Ops Manual* and courses.
+- **Evidence status: not peer-reviewed.** His systems are practitioner-built and proprietary (the "Behavioral Table of Elements," 6MX profiling). No peer-reviewed validation of them was found.
+- **Relevant base rate: Grounded.** C. F. Bond & B. M. DePaulo, "Accuracy of deception judgments," *Pers. Soc. Psychol. Rev.* 10(3), 214–234 (2006), doi:[10.1207/s15327957pspr1003_2](https://doi.org/10.1207/s15327957pspr1003_2). Across 206 documents and 24,483 judges, people detect lies at about **54%**, barely above chance. Any claim of rapid, reliable behaviour reading needs independent testing.
+- **Background disputed by a critic.** Z. Elwood (*People Who Read People* podcast, 2024, [behavior-podcast.com](https://behavior-podcast.com/who-is-chase-hughes-lies-of-fake-expert-in-behavior-influence/)) argues:
+  - his Navy rating was Quartermaster (ship navigation and operations), not intelligence or interrogation;
+  - several marketing claims and awards were overstated or pay-to-feature.
+  - This is one critic's investigation and was **not independently verified here**. Treat both the bio and the critique as claims.
+- **Label:**
+  - Hughes as a popular public educator on influence and reading people: **Grounded** (large audience, published books).
+  - His specific methods' effectiveness: **Plausible-untested / unvalidated**.
+  - His military-intelligence background: **per his own bio, disputed, not independently verified**.
+- For the teaching goal in this section, the peer-reviewed tools above (prebunking, lateral reading) are the stronger evidence base.
+
+### Entanglements link
+
+Channing says this theme was also woven into his *Entanglements* work, in an alternate-timeline teaching scenario. That material was lost. **[Channing to supply]**: rebuild from memory (the scenario, what was taught, and how). Treat it as **Symbolic / narrative**, not a source (as with other *Entanglements* material; see [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md)).
+
+### Labels (summary)
+
+- Evolutionary mismatch as a framework; stress impairing PFC and narrowing attention; illusory truth; conformity; identity-shaped evidence evaluation: **Grounded**.
+- "Smarter people are more biased": **contested**.
+- Mismatch as the explanation for propaganda susceptibility; "people inside it don't see it" as one effect: **Plausible**.
+- Prebunking and lateral-reading instruction: **Grounded**, small to moderate effects. Field effects are smaller than lab effects, and response bias must be ruled out.
+- Teaching this in high school helps people resist indoctrination long-term: **Plausible-untested**. No long-term outcome studies were found.
+- Calming a reactive person by explaining the mechanism in the moment: **Plausible-untested**.
+- *Entanglements* teaching scenario: **Symbolic**, **[Channing to supply]**.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
@@ -592,3 +701,5 @@ The animals were **rats, not mice**. The "distance" element is Sheldrake's later
 - The stray "V" line in the §3d paste. **[Channing to clarify]** It is likely a pasted UI artifact (§3g).
 - What was specifically proposed for hair and antler regeneration (§3h). **[Channing to supply]**
 - The garbled tail of the §3g "Intent as alignment" paste. **[Channing to supply]**
+- §3m: Channing's verbatim wording of the evolutionary-mismatch / reactive-states idea, if wanted. **[Channing to supply]**
+- §3m: the lost *Entanglements* alternate-timeline teaching scenario, to rebuild from memory. **[Channing to supply]**
