@@ -48,6 +48,91 @@ The detailed history and claims table are in [tesla_and_ancient_alignments.md](t
 - spread or hop the drive spectrum so that no single mode is pumped ([§3e.1](#3e1-plasma-particle-tracing-and-bluetooth-packet-transmission-reference-dynamics), our extrapolation);
 - if a low-frequency timing reference such as Schumann/IAR is used ([tungsten_bismuth_core §7b-alfven.1](tungsten_bismuth_core.md#7b-alfven1-schumann-resonance-as-a-coupling-guide)), check it against the structure's modal table.
 
+### 1b. Declassified and official records (2026-10-15)
+*Scope: technical and historical content on wireless power, Wardenclyffe, Colorado Springs, earth resonance, Tesla coils and oscillators. Everything here is a **public release**: CIA CREST/FOIA documents (mirrored on archive.org in the "CIA Reading Room" collection), the FBI Vault file, and US patents and court records. "Declassified" means the files were released to the public. It does **not** mean they hold hidden physics. Government documents are **linked, not committed**. Quoted text comes from the OCR (`_djvu.txt`) plus a visual check where the OCR was unclear. Background: [§1](#1-nikola-tesla) (Wardenclyffe, Colorado Springs, why global power fails) and the modern near-field descendant, Kurs et al. 2007, in [tesla_and_ancient_alignments.md](tesla_and_ancient_alignments.md#claims-vs-evidence) and [em_topo L6](em_topological_gravity_review.md#l6-wireless-energy-transfer-northern-europe-focus-noted).*
+
+**How the search was run.** archive.org advancedsearch `collection:ciareadingroom AND tesla` returns 244 items. Most are about the Czechoslovak state electronics firm **TESLA** (Prague, Rožnov, Pardubice…) or about Yugoslav bodies named after Nikola Tesla (the "Nikola Tesla" Institute in Belgrade, radio factories, a power plant). None of those concern his work. `"nikola tesla"` returns 25 items, `"wireless power"` 5 and `"tesla coil"` 4. `wardenclyffe`, `telegeodynamics` and `"magnifying transmitter"` return 0. The cia.gov search for "Nikola Tesla" gives the same picture. Only the items below have content relevant to the tower.
+
+**The four archive.org IDs from the Grok thread. None of them is Tesla-related.**
+| archive.org item | What it actually is | Tesla content |
+|---|---|---|
+| [cia-rdp70-00211r000500130016-4](https://archive.org/details/cia-readingroom-document-cia-rdp70-00211r000500130016-4) | 5 Jun 1962 memo from the CIA Records Administration Office, "Procurement of Form 207a": a request for 12,000 sets of 3″×5″ forms | None |
+| [cia-rdp80m01048a001100120098-2](https://archive.org/details/cia-readingroom-document-cia-rdp80m01048a001100120098-2) | 8 Jan 1970 letter from DCI Richard Helms to Lt Gen A. P. Clark (Air University), proposing his deputy as speaker for the Air War College forum | None |
+| [cia-rdp91-00929r000100470080-2](https://archive.org/details/cia-readingroom-document-cia-rdp91-00929r000100470080-2) | Library index cards of translated foreign articles, authors "Gonskaya" to "Goraj" (e.g. ore dewatering, thin ferromagnetic films) | None |
+| [cia-rdp91-00929r000200710048-0](https://archive.org/details/cia-readingroom-document-cia-rdp91-00929r000200710048-0) | Library index cards, authors "von Zeerleder" to "Vorob'yev" (e.g. forging of light metals, 1937) | None |
+
+These look like neighbouring search hits that were mistaken for Tesla material. **Label: Grounded** (each was read from its OCR).
+
+**Relevant documents**
+
+1. **John G. Trump (MIT / NDRC Division 14), abstracts of Tesla's papers for the Alien Property Custodian, 30 Jan 1943.** Released inside a 1992 cover file: CIA-RDP96-00789R002900420001-4 ([cia.gov](https://www.cia.gov/readingroom/document/cia-rdp96-00789r002900420001-4) · [archive.org](https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002900420001-4); 16 pp.). What it says:
+   - The papers were examined on 26–27 Jan 1943 at the Manhattan Warehouse in New York. Present were the Office of Alien Property, ONI and Trump. The papers covered roughly 1925–1942 and were abstracted as exhibits. **Grounded** (record).
+   - Trump's conclusion: the papers held no unrevealed methods or apparatus of significant value. Tesla's later work was "primarily of a speculative, philosophical, and somewhat promotional character — often concerned with the production and wireless transmission of power — but did not include new, sound, workable principles or methods for realizing such results." (The wording is from the retyped text quoted in the FBI file, item 2; the CIA OCR carries the exhibit abstracts.) **Grounded** (as a record of his assessment).
+   - *Electrostatic generators* (c. 1934): Van de Graaff-type belt generators as a source of high-voltage DC. Trump judged the principles correct but the device unsuitable for commercial high power. The same memo states that the **Wardenclyffe tower (1902) was charged to 30 million volts**. That figure is Tesla's own, and no measurement backs it. **Speculative.**
+   - *"Art of Telegeodynamics"* (letter to Westinghouse, 12 Jun 1940): transmitting large amounts of power over vast distances through **mechanical vibration of the Earth's crust**, using a mechanical or electromechanical oscillator bolted to rock and driven at a crustal resonance frequency. Trump called it "completely visionary and unworkable", and Westinghouse politely declined. A 27 Dec 1941 letter to prospective licensees claims more than $500,000 was spent on the development. The scheme is **Speculative**. The underlying idea, a resonant mechanical driver, links to the oscillator patent in [§1a](#1a-mechanical-oscillator-earthquake-machine) (US 514,169). Seismic vibrator sources really are used for exploration, but at signal levels, not for power. That last point is **Grounded**.
+   - *"The Power of the Future"* (memo): reviews energy sources and ends with the claim that his wireless system could transmit energy 12,000 miles "with a loss not exceeding 5 per cent". **Speculative**: no demonstration exists, and see the loss and Q arguments in §1.
+   - *Electrical World*, 5 Mar 1904 ("The Transmission of Electrical Energy Without Wires") and *Telegraph and Telephone Age*, 16 Oct 1927 ("World System of Wireless Transmission of Energy"). Trump: "No workable disclosure… is included." The articles exist (**Grounded**). The world system is **Speculative**.
+   - A *Popular Science* interview memo (OCR date "May 2?, 1922"; the year is unclear) covers wireless power and a world broadcast plan. **[to verify date]**
+   - *"New System of Fluid Propulsion"* (c. 1925): the bladeless **disk turbine**. Trump judged it "practical", and noted that it had been disclosed and received favourable comment. **Grounded** (this is the Tesla disk turbine and pump: US 1,061,142 "Fluid Propulsion" and US 1,061,206 "Turbine", both granted 6 May 1913). It relates to the Tesla-valve and flow threads in [helium_water_circulation.md §9](helium_water_circulation.md).
+   - A 25 Nov 1947 Air Materiel Command letter in the same file says the **photostats** of the estate papers were with its Electronic Subdivision (Wright Field) for evaluation, due by 1 Jan 1948. **Grounded** (record). The outcome is **[to verify]**.
+   - Note: the 1992 cover letter (Pentagon, sanitized) asserts that the exhibits may have "significant commercial… value". It gives no technical support for that, and the abstracts themselves say the opposite. **Symbolic / no evidential weight.**
+
+2. **FBI Vault, "Nikola Tesla", Parts 01–03 (~354 pp.).** [vault.fbi.gov/nikola-tesla](https://vault.fbi.gov/nikola-tesla). The FBI's PDFs are image-only. The OCR used here is the archive.org mirror [NikolaTeslaFBIfile](https://archive.org/details/NikolaTeslaFBIfile). What it says:
+   - The Jan 1943 New York teletypes record that Tesla's room safe was opened after his death on 7 Jan 1943. They also report a friend's statement that Tesla had said "his experiments in connection with the wireless transmission of electrical power had been completed". The statement was recorded (**Grounded**). The claim itself is **Speculative**: nothing in the papers supported it (Trump, item 1).
+   - The FBI deferred to the **Office of Alien Property**, which took custody. From the 1950s to the 1980s the Bureau answered public letters with the same line: the papers were taken "by the Office of Alien Property… and not by this Bureau". The papers were then released to the estate administrator (Sava Kosanović) and later went to Belgrade (Nikola Tesla Museum). **Grounded** (record). The exact dates of the transfer to Belgrade are **[to verify]**.
+   - The file also holds 1950s–80s letters from the public and engineers asking for the wireless-power papers, plus photocopied pages from published books (O'Neill 1944; Cheney, *Tesla: Man Out of Time*, 1981). Those pages are copyrighted and are not reproduced here. One excerpt credits **R. M. Dickinson** (JPL) and **W. C. Brown** (Raytheon) with taking inspiration from Tesla. That points to item 6.
+   - The book excerpt quotes P. L. Kapitza on microwave power transmission ("a highly directional beam must be used, which… only at short wavelengths will diverge little… firstly thought by N. Tesla"). The original Kapitza source is **[to verify]**. It is *not* his 1978 Nobel lecture, which is on plasma and fusion.
+
+3. **G. I. Babat, "High-Frequency Auto Transportation"**, *Radio* (Moscow) No. 2, Feb 1949. CIA foreign-documents summary CIA-RDP80-00809A000600231035-7, "Scientific – Wireless power transmission", disseminated 1 Jul 1949 ([cia.gov](https://www.cia.gov/readingroom/document/cia-rdp80-00809a000600231035-7) · [archive.org](https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000600231035-7)). What it says:
+   - Of three ways to deliver power to vehicles without contact (electromagnetic radiation, electric induction, magnetic induction), **magnetic induction** was chosen as the only practical one.
+   - The coupling coefficient must be large and **above the critical value**.
+   - At **20–50 kHz**, efficiencies **up to 90 %** are possible if the pickup coil is within **2–3 m** of the roadway conductors. The "2 – 3" was confirmed on the page image.
+   - Energy use is ~100 Wh per ton-km, comparable to trolleybuses. A battery or flywheel is carried for off-track driving. Track sections switch off automatically when no vehicle is over them.
+   - Construction of experimental units began in Moscow in 1943. A model and a full-size "HF-mobile" were built.
+   
+   Labels: the record and the existence of the vehicle are **Grounded**. The 90 % at 2–3 m is the author's calculation and is **Plausible-untested** here. It is in the same regime as modern inductive EV charging (SAE J2954, stationary pads, 79–90 kHz band, nominal 85 kHz; [SAE](https://doi.org/10.4271/j2954_202208)). This is the closest declassified document to the resonant near-field line (Kurs 2007), and it is a direct technical precedent for **RGRF's two-coil bench test**.
+
+4. **"Curious tale is left with us as farewell"**, T. Diaz, *Washington Times*, 4 Apr 1985. An open-source clipping, CIA-RDP90-00965R000201560047-0 ([cia.gov](https://www.cia.gov/readingroom/document/cia-rdp90-00965r000201560047-0) · [archive.org](https://archive.org/details/cia-readingroom-document-cia-rdp90-00965r000201560047-0); a duplicate is filed as CIA-RDP90-00552R000606540011-0). This is a newspaper column, not an agency analysis. What it says:
+   - Marconi's patent was struck down by the Supreme Court in 1943 partly on Tesla's priority. **Grounded with nuance**: *Marconi Wireless Tel. Co. v. United States*, 320 U.S. 1 (decided 21 Jun 1943), held Marconi's four-circuit tuning patent anticipated. Tesla's US 645,576 (1897) was one prior-art reference, together with Lodge and Stone.
+   - Colorado Springs coils reached "up to 12 million volts" and threw artificial lightning "hundreds of feet". This is popular retelling, and the voltage figure is **Speculative** (no instrumented measurement).
+   - The pocket-vibrator "split the earth" claim is an **unverified anecdote** (see §1a).
+
+5. **"Light from the edge of science: the strange world of Kirlian photography"**, *Science News* vol. 104, 29 Sep 1973. An open-source clipping, CIA-RDP79-00999A000200010086-1 ([cia.gov](https://www.cia.gov/readingroom/document/cia-rdp79-00999a000200010086-1); the magazine text is copyrighted, so it is linked only). It notes that Kirlian rigs often use a **Tesla coil** to raise voltage and frequency, and that Tesla made corona photographs with his coil. W. A. Tiller is quoted explaining the images as **corona streamer discharge**: electron avalanche, then N₂ emission in the blue and UV.
+   - Corona physics: **Grounded**.
+   - The claim that high frequency is "safer because it travels over the surface": **Plausible-untested / oversimplified**. Perception thresholds do rise with frequency, but RF burns remain a hazard.
+   - Aura and "bioplasma" readings: **Speculative**.
+   
+   **Peripheral mentions (one line each):** a 1952 report on Soviet cloud-physics work describes a "powerful Tesla coil to create ions" for fog and cloud studies (CIA-RDP80-00809A000700050054-5, [archive.org](https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000700050054-5)). A 1954 lamp-research progress report starts a xenon arc with an r.f. (Tesla) coil (CIA-RDP78-03300A001600020099-3). Both are **Grounded**: these are routine uses of a Tesla coil as an ionizer or igniter.
+
+6. **Official engineering records that bear directly on the tower** (not FOIA, but public government records):
+   - **US 787,412**, "Art of Transmitting Electrical Energy Through the Natural Mediums" (filed 16 May 1900, granted 18 Apr 1905; [Google Patents](https://patents.google.com/patent/US787412A/en)). This is the Colorado Springs result in Tesla's own words:
+     - Lightning-induced earth waves with nodes **25–70 km** apart.
+     - Primary of a few turns, loosely coupled to a spiral secondary. Secondary grounded at one end, elevated terminal at the other, conductor length **λ/4** (or an odd multiple).
+     - Frequency below **~20 kHz** to limit radiation, with a lowest frequency of **~6 Hz**.
+     - Wave trains lasting at least **~0.08484 s**.
+     - An implied surface speed of 471,240 km/s.
+     
+     The patent and the design rules are **Grounded** as a record. Low-loss "stationary waves in the earth" as a power method is **Speculative**: there is no reproduction, and §1 explains the losses and the low Q. The super-luminal speed is **not supported**. It can be read as a phase velocity, not energy transport (**Speculative** reading). Tesla's ~6 Hz lower limit sitting near the Schumann fundamental (~7.8 Hz) is **Symbolic / coincidence**. He did not describe the ionosphere cavity.
+   - **US 1,119,732**, "Apparatus for Transmitting Electrical Energy" (filed 18 Jan 1902, renewed 4 May 1907, granted 1 Dec 1914; [Google Patents](https://patents.google.com/patent/US1119732A/en)). This is the Wardenclyffe-era transmitter patent:
+     - **Elevated terminal with a large radius of curvature**, or close-set elements forming a smooth envelope, so that high charge can be held at low surface density without leakage.
+     - Insulating supports entering the terminal's interior at points of **low field density**.
+     - Feed connection at the terminal centre.
+     - Closely wound coil behaves as a conductor of large radius.
+     - Primary driven at the **resonant condition**.
+     - A safety rule (paraphrased): if the impressed oscillations are suddenly faster than the circuit's free oscillation, or the point of maximum voltage shifts below the terminal, the stored energy can discharge violently. So **start with weak, slower drive and raise it gradually** until the system is under control.
+     
+     Labels: corona control by curvature and low-field supports is **Grounded** and still standard HV practice (toroidal top loads). The power figures he quotes are **Speculative**.
+   - **R. M. Dickinson, JPL, 1975** (NASA CR-145625 / JPL TM 33-741, [NTRS 19760004119](https://ntrs.nasa.gov/citations/19760004119)). At Goldstone: 2.388 GHz over **1.54 km** to a 24 m² rectenna, up to **30.4 kW DC**, collection-conversion efficiency **>80 %**. Dickinson later cited ~34 kW and 82.5 % (R. M. Dickinson, "Power in the sky", *IEEE Microwave Magazine* 14(2), 2013, [doi:10.1109/MMM.2012.2234632](https://doi.org/10.1109/mmm.2012.2234632)). **Grounded.** This is the far-field, directed-beam route, the opposite design choice to Tesla's earth-resonance approach.
+
+**What this means for the tower rebuild**
+- The official record contains **no hidden working design**. The 1943 technical examiner judged the later wireless-power papers speculative. That fits §1: global earth-resonance power is unproven.
+- The useful, Grounded engineering in the record is:
+  - (a) **US 1,119,732's terminal geometry and supports**: large-radius, smooth top load, supports at low-field points, centre feed. Adopt this for any RGRF Tesla coil or terminal.
+  - (b) **Loose coupling, λ/4 secondary and resonance tuning** (US 787,412). These are the standard Tesla-coil rules.
+  - (c) **The ramp-up rule**: never let the drive run faster than the free oscillation, and raise the drive gradually. This is the electrical twin of the [R-damp rule](#1a-mechanical-oscillator-earthquake-machine). Add it to the R-damp ledger as **R-damp.e (Grounded practice)**: the HV resonator drive must soft-start, sit at or below the free resonance, and include a spark-gap or voltage-limiting element.
+  - (d) **Babat's 1949 road-inductive numbers** (20–50 kHz, coupling above critical, ~90 % at ≤2–3 m). They give a near-field target for the two-coil bench test, alongside Kurs 2007.
+- **Bench test (Plausible-untested):** a two-coil resonant link at 20–100 kHz. Sweep the gap from 0.1 to 3 m, and record k, Q and efficiency against distance. Compare the results with Babat's ~90 % claim and with Kurs-style strongly coupled resonance.
+
 ## 2. Leonardo da Vinci
 **Grounded**
 - **Water, vortices and "turbulence."**
@@ -374,6 +459,12 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | Rotating-field induction motor (1888); Tesla coil (1891); Colorado Springs (1899); Wardenclyffe (abandoned, demolished 1917) | Grounded |
 | Tesla global wireless power via the Earth / Schumann cavity | Speculative / unproven (losses, Q ≈ 4–5) |
 | Resonant near-field wireless power (Kurs 2007, WiTricity) | Grounded |
+| §1b: the four archive.org IDs (forms memo 1962, Helms letter 1970, two library index-card sets) | Not Tesla-related (Grounded) |
+| §1b: Trump 1943 examination and abstracts; FBI file custody record (Office of Alien Property); Babat 1949 HF-vehicle record; Marconi v. US (1943); US 787,412 and US 1,119,732 design rules; Goldstone 1975 (30.4 kW, 1.54 km, >80 %) | Grounded |
+| §1b: Babat ~90 % at 2–3 m, 20–50 kHz; road-WPT bench comparison | Plausible-untested |
+| §1b: Wardenclyffe "30 MV"; Colorado Springs "12 MV"; telegeodynamics (crustal-resonance power); "12,000 miles at <5 % loss"; stationary-wave earth power | Speculative |
+| §1b: Tesla's ~6 Hz lower limit vs Schumann ~7.8 Hz | Symbolic / coincidence |
+| §1b: R-damp.e: soft-start, drive at or below free resonance, voltage limiting on HV resonators | Grounded practice |
 | Tesla mechanical oscillator patent (US 514,169, 1894); driven-oscillator / Q / damping physics; Millennium Bridge synchronous lateral excitation; Tacoma Narrows flutter | Grounded |
 | Houston Street building-shaking story | Unverified anecdote / Speculative (MythBusters 2006: not reproduced) |
 | Design rule R-damp: damping required in structure and field drive (Channing's stated lesson) | Rule = Grounded practice; RGRF field/sheath effectiveness Plausible-untested |
@@ -422,6 +513,7 @@ Both are used here as **grounded real-world reference dynamics**: benchmarks for
 | Larger-scale analogy for sinusoidal / birefringent torque | Pending [Channing to supply, Grok reconstruction pending] |
 
 ## Open items
+- §1b [to verify]: date of the *Popular Science* interview memo (Trump exhibit); the outcome of the 1947–48 Air Materiel Command evaluation of the photostats; the dates of the papers' transfer to Belgrade; the original Kapitza source quoted via Cheney.
 - The specific Tesla and Da Vinci threads explored, and any Grok text. **[Channing to supply]**
 - Role mapping answered (§3a: wavelength interactions → ± charge → lensing → Faraday). Any Grok text from the lensing, Faraday, toroidal-flow and particle-tracing threads. **[Channing to supply]**
 - Suite element 3 Bluetooth code (truncated) and the source of its reported BT metrics. **[Channing to supply code]**
