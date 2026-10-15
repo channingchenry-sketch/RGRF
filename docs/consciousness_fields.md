@@ -448,7 +448,7 @@ This section is general research only. Frisson means the chills, goosebumps or p
 
 > Channing (verbatim): "The next path we walked down was on epigenetic"
 
-**Focus of the original discussion:** **[Channing to supply]**.
+**Focus of the original discussion:** Channing: "we turned to nature". The thread moved to epigenetics in nature: predator–prey effects across generations, then a maze-learning study (§3l).
 
 Links: §3c (stress / allostatic load, GR resistance), §3j (fascia and sympathetic responses), §3g (intent and meditation).
 
@@ -498,6 +498,61 @@ Links: §3c (stress / allostatic load, GR resistance), §3j (fascia and sympathe
    - "Intent rewriting the map" (§3g) through epigenetics: **Speculative**. The meditation data are a suggestive hook, not proof.
    - Epigenetic marks stored in **fascia** (§3j): **Speculative**, no study found. Fascial fibroblasts have epigenomes like any cell, but no study links them to emotion.
 
+## 3l. Nature: predator–prey effects across generations & the "maze across distance" study
+
+> Channing (verbatim): "Yeah, we turned to nature. Prey, predator relationships then, we moved onto another study of mice learning across distances. I believe they were trained in a maze and then, across distance the mice figured it out much quicker with less errors. Sorry, I can't recall the study."
+
+Links: §3k (epigenetics); the collective-consciousness and Global Consciousness Project row in the §3 table.
+
+### Predator–prey: fear carried into the next generation
+
+1. **Daphnia inducible defences across generations: Grounded.** A. A. Agrawal, C. Laforsch & R. Tollrian, "Transgenerational induction of defences in animals and plants," *Nature* 401, 60–63 (1999), doi:[10.1038/43425](https://doi.org/10.1038/43425).
+   - Water fleas (*Daphnia cucullata*) exposed to *Chaoborus* predator **kairomones** grew larger helmets.
+   - Their offspring had larger helmets **even without exposure**, and the effect reached the grandchildren.
+   - Wild radish showed the same pattern for herbivore damage.
+   - This is a chemical cue acting through the mother: a maternally induced defence.
+2. **Snowshoe hare, predator stress → offspring: Grounded.**
+   - M. J. Sheriff, C. J. Krebs & R. Boonstra, "The sensitive hare: sublethal effects of predator stress on reproduction in snowshoe hares," *J. Anim. Ecol.* 78, 1249–1258 (2009), doi:[10.1111/j.1365-2656.2009.01552.x](https://doi.org/10.1111/j.1365-2656.2009.01552.x). Pregnant hares exposed to a dog had offspring **37% lighter and 16% smaller**, and maternal cortisol metabolites predicted the decline.
+   - Sheriff, Krebs & Boonstra, "The ghosts of predators past: population cycles and the role of maternal programming under fluctuating predation risk," *Ecology* 91, 2983–2994 (2010), doi:[10.1890/09-1108.1](https://doi.org/10.1890/09-1108.1); volume and pages written from memory.
+     - Maternal stress hormones tracked predator density and were echoed in the offspring, whose HPA axes were more responsive.
+     - This is offered as a reason hare populations stay low after predators decline.
+     - Mechanism: stress hormones passed from mother to young (maternal programming), the same GR pathway as §3k.
+3. **Landscape of fear: Grounded.** L. Y. Zanette, A. F. White, M. C. Allen & M. Clinchy, "Perceived Predation Risk Reduces the Number of Offspring Songbirds Produce per Year," *Science* 334, 1398–1401 (2011), doi:[10.1126/science.1210908](https://doi.org/10.1126/science.1210908).
+   - Design: real predation was blocked with electric fencing and nets, and predator calls were played back to song sparrows.
+   - **Perceived risk alone cut offspring by 40%**: fewer eggs, lower hatching and more nestling deaths.
+4. **Predator-odour stress across generations in rodents:** this was not separately verified here. The verified rodent cross-generation odour result is Dias & Ressler 2014 (§3k), which used a conditioned odour, not a predator odour. It remains contested.
+5. **Label:** predator-induced **intergenerational** effects through maternal hormones or cues are **Grounded** in Daphnia, hares and birds.
+
+### The "maze across distance" study: most likely the McDougall rat experiments
+
+**[Channing to confirm]** whether this is the study.
+
+The animals were **rats, not mice**. The "distance" element is Sheldrake's later reinterpretation, not the original design.
+
+1. **William McDougall (Harvard, from 1920), Lamarckian test: Grounded as historical data.**
+   - W. McDougall, "An experiment for the testing of the hypothesis of Lamarck," *Br. J. Psychol.* 17, 267 (1927), followed by later reports (1930, 1933 with J. B. Rhine, 1938).
+   - Rats learned to escape a water tank by choosing the dim exit and avoiding a lit, shocked gangway.
+   - Over **32+ generations**, trained lines made progressively **fewer errors**.
+   - McDougall had **no properly run control line**, as noted by Agar et al.
+2. **F. A. E. Crew (Edinburgh), replication: Grounded.** "A repetition of McDougall's Lamarckian experiment," *J. Genet.* 33, 61 (1936), doi:[10.1007/BF03027604](https://doi.org/10.1007/BF03027604).
+   - It ran 18 generations, with more rats per generation and trained plus control lines.
+   - It found **no progressive improvement in either line**.
+   - Crew argued that generation averages depend on the mix of fast and slow rats, which breeding choices can shift.
+3. **W. E. Agar, F. H. Drummond, O. W. Tiegs & M. M. Gunson (Melbourne), 20-year replication: Grounded.** "Fourth (Final) Report on a Test of McDougall's Lamarckian Experiment on the Training of Rats," *J. Exp. Biol.* 31(3), 307–321 (1954), doi:[10.1242/jeb.31.3.307](https://doi.org/10.1242/jeb.31.3.307).
+   - Interim reports appeared in 1935, 1942 and 1948.
+   - They **confirmed long-run improvement trends**, but the effect was **not sustained**.
+   - It was **shown equally by control rats of untrained ancestry**, which "forbids a Lamarckian interpretation."
+   - Their analysis tied the trends to the rats' **condition and the colony's health**, which went through periods of decline and recovery.
+4. **Sheldrake's reading: Speculative.** R. Sheldrake, *A New Science of Life* (1981; details from memory) cited the improvement **in the untrained control lines** as possible **morphic resonance**: learning spreading to unrelated rats, even in a different country.
+   - That is the "learning across distance" Channing recalls.
+   - It is **Speculative**. There is no controlled, independent, pre-registered confirmation, and the original authors explained the trends with colony health and selection.
+   - Crew's null result is hard to square with a field effect.
+5. **Labels:**
+   - The McDougall, Crew and Agar observations: **Grounded** historical data.
+   - The Lamarckian interpretation: **refuted** by the controls.
+   - Morphic resonance: **Speculative**.
+   - Any link to collective consciousness: **Speculative / Symbolic**.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
@@ -508,5 +563,5 @@ Links: §3c (stress / allostatic load, GR resistance), §3j (fascia and sympathe
 - What the benzene-ring / aromatic angle was for (§3e): resolved as both detection and π-electron/light, unified by chemical→electrical transduction.
 - The stray "V" line in the §3d paste. **[Channing to clarify]** It is likely a pasted UI artifact (§3g).
 - What was specifically proposed for hair and antler regeneration (§3h). **[Channing to supply]**
-- Focus of the original epigenetics discussion (§3k). **[Channing to supply]**
+- Whether the "maze across distance" study is McDougall/Agar (§3l). **[Channing to confirm]**
 - The garbled tail of the §3g "Intent as alignment" paste. **[Channing to supply]**
