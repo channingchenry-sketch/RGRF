@@ -374,6 +374,13 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - "Gravity like gas pressure": a fair analogy for an entropic force. Note that Jacobson's horizon thermodynamics is **not** the same claim as Verlinde's entropic force.
 - **Mass as locally concentrated quantum information: Speculative.**
 - **The gradient across the observable universe explaining the 10^40 weakness: Speculative. There is no derivation.** One number-check: the ratio of the Hubble radius to the classical electron radius is ~10^40 (Dirac's large-number coincidence). Any claim needs to produce G/(e²/4πε₀m²) from first principles, not just match the order of magnitude.
+- **Which ratio?** The electric-to-gravitational force ratio depends on the particles compared:
+  - proton–proton: e²/(4πε₀Gm_p²) ≈ 1.2 × 10^36;
+  - electron–proton: ≈ 2.3 × 10^39;
+  - electron–electron: ≈ 4.2 × 10^42.
+  - "10^40" is a mid-range figure. Any claimed explanation must say which ratio it reproduces.
+- **Contested status: critique.** A. Kobakhidze, "Gravity is not an entropic force," *Phys. Rev. D* 83, 021502(R) (2011), doi [10.1103/PhysRevD.83.021502](https://doi.org/10.1103/PhysRevD.83.021502). He argues that ultracold-neutron experiments in Earth's field (gravitational bound states, neutron interference) are inconsistent with Verlinde-type entropic gravity. His follow-up, "Once more: gravity is not an entropic force," [arXiv:1108.4161](https://arxiv.org/abs/1108.4161), answers a rebuttal. The objection is itself debated, so the entropic-force picture stays **Plausible-contested**.
+- **Back-link:** the speculative "gravity as a field / waveguide for consciousness" thread is in [consciousness_fields.md §3f](consciousness_fields.md).
 
 **Falsifiable hooks:**
 - The lensing and rotation-curve predictions at a₀ = cH₀ (Brouwer et al. and successors).
