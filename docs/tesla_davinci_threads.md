@@ -54,7 +54,14 @@ The **male/female framing stays Symbolic**. The physics it points to is real.
   - anode double layers on the bench: [dusty_plasma_bench.md](dusty_plasma_bench.md).
 - **RGRF use (Plausible-untested):** design for quasi-neutral, ambipolar expansion, for example a sheath or plume that is seeded, then allowed to expand with a controlled double layer. The [dusty plasma bench](dusty_plasma_bench.md) anode double layer is the testbed.
 
-**Role mapping.** Asked whether male/female mapped to charges or species, Channing replied (verbatim, 2026-10-15): "Yes we also compared it to electromagnetism". The "Yes" confirms a charge mapping. Which charge or species maps to which role is still **[Channing to clarify]**. The electromagnetism comparison is in §3b.
+**Role mapping.** Asked whether male/female mapped to charges or species, Channing replied (verbatim, 2026-10-15): "Yes we also compared it to electromagnetism". The "Yes" confirms a charge mapping. Asked which role went to which, Channing replied (verbatim, 2026-10-15): "Yeah, it was about wavelength interactions. Then in plasma dynamics positive and negative charge. Then we got into lensing" and "And faradays work".
+So the male/female pair mapped, in order, to:
+1. **wavelength interactions**: E and B in waves (§3b, §3c);
+2. **positive and negative charge** in plasma dynamics (this section);
+3. **lensing** (§3c);
+4. **Faraday's work** (§3d).
+
+The mapping stays **Symbolic**. The physics each step points to is labeled in its own subsection.
 
 **Speculative, separate from the physics above.** Ambipolar expansion, where opposite charges move outward together and stay balanced, can be read as a *metaphor* for "expanded consciousness" arising from balanced complementary energies. Nothing in plasma physics supports a physical link between the two.
 
@@ -67,6 +74,34 @@ Reading E and B as a male/female pair is **Symbolic**. The physics of E and B as
 - **Equal shares of energy.** The energy density u = ½(ε₀E² + B²/μ₀). In a vacuum wave the electric and magnetic halves are equal: ε₀E²/2 = B²/(2μ₀). Neither partner carries more.
 - **Duality symmetry.** Source-free Maxwell equations are unchanged under E → cB, cB → −E, and more generally under continuous rotations between E and cB. With sources the symmetry is broken, because there are electric charges but no magnetic ones. Restoring it exactly would need **magnetic monopoles**. P. A. M. Dirac, "Quantised singularities in the electromagnetic field," *Proc. R. Soc. Lond. A* 133, 60–72 (1931), doi:10.1098/rspa.1931.0130, showed that one monopole anywhere would explain why electric charge is quantised. No monopole has been observed, so exact E–B duality in nature is **Speculative**. (Emergent "monopole" quasiparticles in spin ice are a condensed-matter analog, not free monopoles; not cited here.)
 - **RGRF links.** The colour-coded EM and geometry map ([em_geometry_map.md](em_geometry_map.md)) uses E/B-style pairings symbolically. The Electric Universe and EM-topological gravity review ([em_topological_gravity_review.md](em_topological_gravity_review.md)) covers where EM physics is real and where claims overreach. Charge balance and expansion (§3a) is the electric side. Fields, Alfvén waves and induction ([tungsten_bismuth_core §7b-alfven](tungsten_bismuth_core.md)) are the magnetic and coupled side.
+
+### 3c. Wavelength interactions and lensing
+> Channing (verbatim, 2026-10-15): "Yeah, it was about wavelength interactions. Then in plasma dynamics positive and negative charge. Then we got into lensing"
+
+**Grounded**
+- **Superposition and interference.** Maxwell's equations are linear in vacuum, so waves add. Equal-frequency waves interfere: constructively where in phase, destructively where in antiphase. This gives standing waves, beats and diffraction. The same rule underlies the drive superposition in the §7b-dyn.2 toy sims.
+- **Plasma frequency and cutoff.** An unmagnetised plasma has refractive index n = √(1 − ω_p²/ω²), with ω_p = √(n_e e²/ε₀ m_e), or f_pe ≈ 8.98 √(n_e [m⁻³]) Hz. Waves **below ω_p are reflected** (evanescent). Waves above it pass, with phase speed > c and group speed < c. This is why the ionosphere reflects shortwave radio, and why re-entry blackout happens when the sheath's f_pe exceeds the link frequency ([tungsten_bismuth_core §7b-reentry](tungsten_bismuth_core.md#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15); numbers in [shifting_phase_order_review.md](shifting_phase_order_review.md)).
+- **Plasma lensing.** Because n < 1 and depends on n_e, a plasma cloud refracts radio waves. An over-dense blob acts as a **diverging** lens, and the bending scales as λ².
+  - A. W. Clegg, A. L. Fey & T. J. W. Lazio, "The Gaussian plasma lens in astrophysics: refraction," *ApJ* 496, 253–266 (1998), doi:10.1086/305344. They model interstellar "extreme scattering events": caustics, multiple images and position wander.
+  - FRB lensing: J. M. Cordes et al., "Lensing of fast radio bursts by plasma structures in host galaxies," *ApJ* 842, 35 (2017), doi:10.3847/1538-4357/aa74da. Caustics can magnify bursts up to ~10² with narrow spectral peaks.
+  - Pulsar scintillation and scattering are the same physics on smaller scales.
+- **Gravitational lensing (a different mechanism).** Mass curves spacetime and bends all wavelengths equally (achromatic). Dyson, Eddington & Davidson, *Phil. Trans. R. Soc. A* 220, 291–333 (1920), doi:10.1098/rsta.1920.0009, measured the 1919 eclipse deflection consistent with GR's 1.75″ at the solar limb, against 0.87″ for the "Newtonian" value. Einstein rings and arcs are now routine in HST and JWST imaging, and weak lensing maps dark matter (see em_topo).
+- **Engineered EM lensing (analogs).** Gradient-index (GRIN) lenses and Luneburg lenses bend waves with a graded refractive index. Metamaterials go further, to artificial magnetism and negative index: D. R. Smith, J. B. Pendry & M. C. K. Wiltshire, "Metamaterials and negative refractive index," *Science* 305, 788–792 (2004), doi:10.1126/science.1096796. A plasma with a shaped n_e profile is a tunable GRIN medium.
+
+**RGRF use: Plausible-untested.** Treat the on-demand sheath as a **tunable plasma lens or window**. Shaping n_e (via the magnetic field, seeding and ambipolar expansion, §3a) would steer, focus or open radio links, i.e. blackout control. This is consistent with the magnetic-window studies cited in §7b-reentry. Power and shaping precision are unknown.
+
+**Speculative.** "Gravity-like" lensing from EM fields. Plasma lensing is chromatic (∝ λ²) and needs free electrons. Gravitational lensing is achromatic and needs mass-energy. The electromagnetic field's own energy does gravitate, but by an immeasurably small amount at lab scales. EM cannot mimic gravitational lensing (see the em_topo "tiny gravity" review).
+
+### 3d. Faraday's work
+> Channing (verbatim, 2026-10-15): "And faradays work"
+
+**Grounded**
+- **Electromagnetic induction (1831).** A changing magnetic flux induces an EMF, ℰ = −dΦ_B/dt. M. Faraday, "Experimental researches in electricity" (First Series), *Phil. Trans. R. Soc.* 122, 125–162 (1832), doi:10.1098/rstl.1832.0006. This is the basis of every generator, transformer and induction coil in RGRF (Tesla coil §1, the induction equation in §7b-dyn).
+- **The Faraday effect (1845).** A magnetic field along the beam rotates the plane of polarised light in a medium (Faraday used heavy lead-borate glass), by β = V B d, where V is the Verdet constant. This was the **first demonstrated link between light and magnetism**. M. Faraday, "Experimental researches in electricity, Nineteenth Series: On the magnetization of light and the illumination of magnetic lines of force," *Phil. Trans. R. Soc.* 136, 1–20 (1846), doi:10.1098/rstl.1846.0001. Faraday wrote that it established "a true, direct relation and dependence between light and the magnetic and electric forces".
+- **Faraday rotation maps cosmic magnetic fields.** In a magnetised plasma the polarisation angle rotates by Δχ = RM λ², with RM ≈ 0.812 ∫ n_e B_∥ dl rad m⁻² (n_e in cm⁻³, B in μG, l in pc). Radio surveys use RMs to measure galactic, cluster and filament fields. For cosmic-web filaments, E. Carretti et al., "Magnetic field strength in cosmic web filaments," *MNRAS* 512, 945–959 (2022), doi:10.1093/mnras/stac384, used LOFAR RMs to infer B ≈ 32 ± 3 nG per filament. This agrees with the synchrotron-stacking result of Vernstrom et al. (2021) already cited in [em_topo L5b](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15). (Vernstrom 2021 itself uses synchrotron and X-ray stacking, not Faraday rotation.)
+- **Field lines.** Faraday's "lines of force" picture, which Maxwell later made mathematical, is the field-line language used throughout RGRF (magnetic arcs, flux ropes, Alfvén waves travelling along field lines in §7b-alfven).
+- **The Faraday cage (1836).** A closed conductor screens its interior from external static fields, because charges rearrange on the surface. It screens time-varying fields when the openings are much smaller than the wavelength and the skin depth is small. This is the grounded basis of shielding and of the "leaky boundary" ideas (cf. the [Franklin lightning rod](franklin_lightning_rod.md)).
+- **The homopolar (Faraday) disk (1831).** A conducting disk spinning in an axial field gives a steady DC EMF, ℰ = ½ B ω R², between axis and rim: the first electric generator. The same motional-EMF physics (v × B) drives Alfvén-wing and electrodynamic-tether coupling (§7b-alfven) and the Tesla-patent-era motors (§1).
 
 ## Labels
 | Claim | Label |
@@ -84,7 +119,12 @@ Reading E and B as a male/female pair is **Symbolic**. The physics of E and B as
 | E and B as one tensor; mutual regeneration; equal energy in a vacuum wave; source-free duality | Grounded |
 | Exact E–B duality with sources (magnetic monopoles) | Speculative (unobserved) |
 | E/B as male/female | Symbolic |
+| Male/female mapped to wavelength interactions → ± charge → lensing → Faraday | Symbolic (mapping); each physics step labeled below |
+| Superposition/interference; plasma cutoff below ω_p; plasma lensing (Clegg 1998, Cordes 2017); gravitational lensing (1919); GRIN/metamaterial lensing | Grounded |
+| Sheath as a tunable plasma lens / blackout control | Plausible-untested |
+| Gravity-like lensing from EM | Speculative |
+| Faraday: induction (1831), Faraday effect (1845), Faraday rotation of cosmic fields (Carretti 2022), field lines, Faraday cage, homopolar disk | Grounded |
 
 ## Open items
 - The specific Tesla and Da Vinci threads explored, and any Grok text. **[Channing to supply]**
-- Charge mapping confirmed ("Yes we also compared it to electromagnetism"). Which charge or species, and E or B, maps to which role is still **[Channing to clarify]**.
+- Role mapping answered (§3a: wavelength interactions → ± charge → lensing → Faraday). Any Grok text from the lensing and Faraday threads. **[Channing to supply]**
