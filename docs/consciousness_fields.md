@@ -72,7 +72,7 @@ Related threads: [em_geometry_map.md](em_geometry_map.md) (cryptochrome / quantu
 |---|---|---|
 | **EM-field theories of consciousness** | McFadden, "Integrating information in the brain's EM field: the cemi field theory of consciousness," *Neurosci. Conscious.* 2020(1), niaa016 ([OUP](https://academic.oup.com/nc/article/2020/1/niaa016/5909853)). It proposes that consciousness is information integrated in the brain's endogenous EM field. | Brain fields exist and are measured by EEG/MEG: **Grounded**. The theory itself: **Speculative (testable)** |
 | **Heart/body fields** | The heart's magnetic field is measurable by magnetocardiography (picotesla scale, close to the body). Claims that it carries emotion to other people at a distance are not supported. | Field exists: **Grounded**. Emotional transfer between people via fields: **Speculative / unsupported** |
-| **Fascia and emotion** | Fascia is richly innervated, mostly by free nerve endings that contribute to proprioception, nociception and interoception. "Fascial Innervation: A Systematic Review of the Literature," [PMC9143136](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143136/) (authors not checked). Interoceptive signals feed body-state and emotional awareness. | Innervation and interoception: **Grounded**. "Negative emotions *stored* in fascia": **unsupported / Speculative**. Stress-related muscle tension and pain sensitization are a plausible ordinary explanation |
+| **Fascia and emotion** | Fascia is richly innervated, mostly by free nerve endings that contribute to proprioception, nociception and interoception. "Fascial Innervation: A Systematic Review of the Literature," [PMC9143136](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143136/) (authors not checked). Interoceptive signals feed body-state and emotional awareness. | Innervation and interoception: **Grounded**. "Negative emotions *stored* in fascia": **unsupported / Speculative**. Stress-related muscle tension and pain sensitization are a plausible ordinary explanation. Sympathetic innervation (Tesarz 2011) and myofibroblast contractility (Schleip 2019) are Grounded; for the empathy and sympathetic links see §3j |
 | **Earth / collective consciousness** | Global Consciousness Project: about 500 events, cumulative ~7σ. Bancel, "Searching for Global Consciousness: A 17-Year Exploration," *Explore* 13(2), 94–101 (2017), doi:[10.1016/j.explore.2016.12.003](https://doi.org/10.1016/j.explore.2016.12.003). Bancel, a long-time GCP analyst, concludes the data **do not support global consciousness** and fit an experimenter / goal-oriented **selection** effect. Reply: Nelson, *Explore* 13(2), 102–105 (2017), [PubMed 28108111](https://pubmed.ncbi.nlm.nih.gov/28108111/). | **Speculative / not supported**. Event-window selection is a known statistical hazard |
 | **Plant trigger responses ("leaf mechanisms")** | Toyota M. et al., "Glutamate triggers long-distance, calcium-based plant defense signaling," *Science* 361, 1112 (2018), doi:[10.1126/science.aat7744](https://doi.org/10.1126/science.aat7744). Wounding releases glutamate, GLR channels respond, and a Ca²⁺ wave reaches distant leaves within minutes. Venus flytrap and *Mimosa* use electrical action potentials (textbook; no primary citation here). | **Grounded** |
 | **Magnetic / electrical signalling in quantum biology** | Gegear et al., "Cryptochrome mediates light-dependent magnetosensitivity in *Drosophila*," *Nature* (2008), [nature07183](https://www.nature.com/articles/nature07183). Xu et al., "Magnetic sensitivity of cryptochrome 4 from a migratory songbird," *Nature* 594, 535 (2021), [link](https://www.nature.com/articles/s41586-021-03618-9). Radical-pair chemistry under blue light; see [em_geometry_map.md](em_geometry_map.md). | **Grounded (in vitro)**, Plausible in vivo |
@@ -393,6 +393,51 @@ This section is general research only. Frisson means the chills, goosebumps or p
    - Mirror and shared-representation systems exist: **Grounded**.
    - They contribute partly to action perception and imitation: **Plausible-supported**.
    - Their role in empathy is **modest and indirect**. Shared-affect networks such as the anterior insula and ACC carry more of the empathy evidence than motor mirror cells: **Plausible**.
+
+### Fascia links to empathy and sympathetic responses
+
+> Channing (verbatim): "Any links to facia" (*fascia*)
+
+1. **Fascia is densely innervated, including sympathetic fibres: Grounded.** J. Tesarz, U. Hoheisel, B. Wiedenhöfer & S. Mense, "Sensory innervation of the thoracolumbar fascia in rats and humans," *Neuroscience* 194, 302–308 (2011), doi:[10.1016/j.neuroscience.2011.07.066](https://doi.org/10.1016/j.neuroscience.2011.07.066).
+   - The outer layer and the tissue just under the skin carry dense sensory innervation, including presumably nociceptive substance-P endings.
+   - Tyrosine-hydroxylase staining shows **rich sympathetic innervation** in both rat and human fascia.
+   - Page numbers are from memory and unchecked; the DOI is verified.
+   - See also the systematic review in the §3 table ([PMC9143136](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143136/)).
+2. **Fascia can actively contract: Grounded in vitro, slow.**
+   - R. Schleip, W. Klingler & F. Lehmann-Horn, "Active fascial contractility…," *Med. Hypotheses* 65, 273–277 (2005), doi:[10.1016/j.mehy.2005.03.005](https://doi.org/10.1016/j.mehy.2005.03.005). This was a hypothesis paper.
+   - R. Schleip et al., "Fascia Is Able to Actively Contract and May Thereby Influence Musculoskeletal Dynamics," *Front. Physiol.* 10, 336 (2019), doi:[10.3389/fphys.2019.00336](https://doi.org/10.3389/fphys.2019.00336).
+     - Isolated rat fascia contracted with TGF-β1, U46619 and mepyramine.
+     - Contraction scaled with myofibroblast density (r_s = 0.83).
+     - Forces build over **minutes to hours**, too weak for joint stability but possibly enough to affect motor coordination. Over days to months they can drive contractures (Schleip et al., *Clin. Anat.* 32, 891–895, 2019).
+   - The authors note the **sympathetic system can raise TGF-β1 expression**. That makes a sympathetic → TGF-β1 → myofibroblast-tone pathway **Plausible-untested** in living people.
+3. **Fascia as an interoceptive organ: Plausible, a review- and book-level claim.**
+   - R. Schleip & H. Jäger, "Interoception: a new correlate for intricate connections between fascial receptors, emotion, and self recognition," in *Fascia: The Tensional Network of the Human Body* (Churchill Livingstone, 2012), ch. 2.3.
+     - Fascial free nerve endings project to the **insula**, the same hub as the empathy-for-pain network (Singer 2004).
+     - A claim that fascia has ~7× more interoceptive than proprioceptive endings is quoted second-hand. It is **unverified**.
+   - B. Bordoni & F. Marelli, "Emotions in Motion: Myofascial Interoception," *Complement. Med. Res.* 24, 110–113 (2017). Not read; it is cited in secondary sources.
+4. **Interoception and empathy: Plausible, mixed results.**
+   - Positive findings:
+     - L. Grynberg & O. Pollatos, "Perceiving one's body shapes empathy," *Physiol. Behav.* (2015), [PMID 25497886](https://pubmed.ncbi.nlm.nih.gov/25497886/). With n = 93, better heartbeat perception went with higher pain estimates, compassion and arousal when viewing others in pain.
+     - H. Fukushima, Y. Terasawa & S. Umeda, *Int. J. Psychophysiol.* 79, 259–265 (2011), doi:[10.1016/j.ijpsycho.2010.10.015](https://doi.org/10.1016/j.ijpsycho.2010.10.015). With n = 21, heartbeat-evoked brain potentials rose during empathy judgments and correlated with empathic concern.
+   - Null finding: "Heartfelt empathy? No association between interoceptive awareness, questionnaire measures of empathy, reading the mind in the eyes task or the director task," *Front. Psychol.* (2015), [PMC4416382](https://pmc.ncbi.nlm.nih.gov/articles/PMC4416382/). Authors not checked.
+   - These studies measure **cardiac** interoception, not fascial.
+5. **Myofascial work and HRV / vagal tone: Plausible, low-quality evidence.**
+   - M. Arroyo-Morales et al., "Effects of myofascial release after high-intensity exercise: a randomized clinical trial," *J. Manipulative Physiol. Ther.* 31(3), 217–223 (2008), doi:[10.1016/j.jmpt.2008.02.009](https://doi.org/10.1016/j.jmpt.2008.02.009). In n = 62, 40 minutes of myofascial release brought HRV (including HF power) and diastolic blood pressure back to baseline better than a sham.
+   - Systematic review, "Effects of spinal manipulation and myofascial techniques on heart rate variability" (2018), [PMID 29332747](https://pubmed.ncbi.nlm.nih.gov/29332747/).
+     - 10 studies, 5 of them RCTs.
+     - Cervical and lumbar work leaned **parasympathetic**; thoracic manipulation leaned sympathetic.
+     - It calls for better methods.
+   - A single session of full-body foam rolling did **not** raise HRV ([PMC9683995](https://pmc.ncbi.nlm.nih.gov/articles/PMC9683995/)).
+   - Touch and pressure receptors and expectation could explain the effects without any fascia-specific mechanism.
+6. **Chronic sympathetic tone → fascial stiffness: Plausible-untested.** The mechanism is items 1 and 2. No in-vivo human study linking stress to measured fascial stiffness was verified here.
+7. **"Emotional release" during bodywork: anecdotal.** It is widely reported by practitioners. No controlled evidence was verified, and touch, safety and attention cues are an ordinary explanation.
+
+**Answer: is there evidence linking fascia to empathy or sympathetic responses?**
+- **Sympathetic: yes, partly.**
+  - Fascia carries sympathetic fibres: Grounded.
+  - Its contractile cells respond to signalling molecules that sympathetic activity can modulate: Grounded in vitro, Plausible in vivo.
+  - Myofascial work shows small, low-quality HRV effects.
+- **Empathy: no direct evidence.** The only bridge is indirect: fascial afferents feed the insula, the interoception hub that is part of the empathy-for-pain network, and interoception-empathy correlations are themselves mixed. **Fascia → empathy: Speculative.**
 
 ### Links and labels
 
