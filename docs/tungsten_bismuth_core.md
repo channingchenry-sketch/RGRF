@@ -55,7 +55,8 @@ The "shear layer" in the paste is the **sheared axial flow** of the Z-pinch in [
 > Based on the acoustic wave equation coupled to background flow.  
 > Real experiments use gas injection and electrode modulation; this captures the essence without full MHD complexity (which we'd add later via more advanced libs if needed). Shear helps damp instabilities, while acoustic waves can actively "pinch" or sustain via compression.
 
-- **The original script is lost.** Channing (verbatim): "No we will have to rebuild. And yes we ran into ZaP on a few occasions." ZaP (the University of Washington sheared-flow Z-pinch, see the sources below) came up several times in the original threads.
+- **The original script is lost.** Channing (verbatim): "No we will have to rebuild. And yes we ran into ZaP on a few occasions."
+- **Update 2026-10-17: source found.** The excerpt and sim description above come from messages 4 and 6 of the Grok share "Tungsten Nodes for Z-Pinch Plasma Filaments" ([archive](grok_archive/2026-10-17_tungsten_nodes_z_pinch_plasma_filaments.md)). That share shows the original script, with clipped lines. It is a 1D wave equation with end sources, not the 2D model in the recreation below. Its run covers only 2.5 % of its plotted time axis, and its source term is negligible. Review: [zpinch_tungsten_nodes_review.md §1, §3](zpinch_tungsten_nodes_review.md#3-the-three-wave-injection-codes-messages-6-8-10-grok-reported-checked). ZaP (the University of Washington sheared-flow Z-pinch, see the sources below) came up several times in the original threads.
 
 **Grok recreation description, 2026-10-15 (Grok's run; its code was not supplied), verbatim:**
 ```text
