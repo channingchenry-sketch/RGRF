@@ -8,7 +8,7 @@ Share #66 picks up where #65 stops: its first prompt asks for the force balance,
 - **Labels:** **Grounded** · **Plausible-untested** · **Speculative** · **Symbolic** (as in [REBUILD_INDEX.md](REBUILD_INDEX.md)). φ is Symbolic unless tested.
 - **Sims:** no code shown in either share. Grok's offered force-balance ODE sweep was never run. The tension and pressure magnitudes were checked in [`sims/grok_claim_checks_shares_60_69.py`](../sims/grok_claim_checks_shares_60_69.py).
 - **Lock pins:** none in these shares.
-- **Found sources for the exploratory index.** Share #66 is a found source for the [shifting_phase_order_review.md §H9](shifting_phase_order_review.md#h9-exploratory-topic-index-channing-probably-just-exploratory) rows **Poynting flux**, **Multi-field equilibrium** and **Uranates**, and a candidate for **Lorentz force in reverse equilibrium**. The phrase "reverse equilibrium" does not occur in either share. The nearest passage is the radial balance in which J×B (magnetic pressure and tension) holds a rotating core against centrifugal force; this matches candidate (a) in §H9.
+- **Found sources for the exploratory index.** Share #66 is a found source for the [shifting_phase_order_review.md §H9](shifting_phase_order_review.md#h9-exploratory-topic-index-channing-probably-just-exploratory) rows **Poynting flux**, **Multi-field equilibrium** and **Uranates**, and was a candidate for **Lorentz force in reverse equilibrium** (its radial J×B balance matches §H9 candidate (a)). That row has since been resolved by a different share, `6547c372` (see the §H9 row): a sign reversal of the same law, closest to candidate (c). The phrase "reverse equilibrium" does not occur in shares #65 or #66.
 - **Already covered elsewhere (cross-links, not repeated):**
   - Early solar-system plasma spin and EU context: [em_topological_gravity_review.md L1](em_topological_gravity_review.md#l1-early-solar-system-plasma-spin-dynamics-mass-on-a-sink--gravity-well) and [L4](em_topological_gravity_review.md#l4-plasma-dynamics-around-an-em-field-the-isotropic-electrostatic-tensor-in-the-interstellar-medium).
   - Laplace resonances and solar-system chains: [three_body_living_universe_review.md §3](three_body_living_universe_review.md#3-celestial-mechanics-messages-212).
@@ -95,5 +95,4 @@ Share #66 picks up where #65 stops: its first prompt asks for the force balance,
 ## C. Open items
 
 - The rest of message 19 in share #65 ("Along with the EM field our…"): [Channing to supply].
-- What "Lorentz force in reverse equilibrium" meant (§H9 candidates a–c): [Channing to clarify].
 - The Grok investigations file named in share #65 message 22: [Channing to supply] if it should be archived.
