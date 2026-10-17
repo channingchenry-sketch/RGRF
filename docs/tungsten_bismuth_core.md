@@ -613,7 +613,7 @@ So the "MHD in space" thread that §7b-dyn says was mostly unsaved is largely th
 
 Related captures:
 - Share `ac90931e` (magnetic pressure and the Maxwell stress tensor): [lift §9b](lift_and_equilibrium_systems.md#9b-maxwell-stress-magnetic-pressure-and-pol-lift-2026-10-17).
-- Share `e0291c5e` (tungsten toroid pressure integration): not yet archived.
+- Share `e0291c5e` (tungsten toroid pressure integration): archived 2026-10-17, reviewed in [tungsten_toroid_review.md](tungsten_toroid_review.md) (W is paramagnetic, so not a field shaper; equal counter-rotating helices cancel the twist).
 
 **Channing's prompts (verbatim):**
 1. "What is the approximate pressure density of Earth’s EM field?"
