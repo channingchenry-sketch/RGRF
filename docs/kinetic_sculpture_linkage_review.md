@@ -16,7 +16,7 @@
 
 1. "Can we explore kinetic artist work? Reuben Margolin)?"
 2. "Explore the Margolin wave as the skin over the Jansen linkage kinematics. Can you simulate separately then, together?"
-3. "That was cool, can you explore a phi-scaled Tesla coil system into a capacitor and through a Crystal lattice into a resonant tube. One, with our peacock shrimp like punch(DC)(and one with AC(heartbeat like))." (message 11, after a clipped earlier send and the UI notice "Request was interrupted by the user.")
+3. "That was cool, can you explore a phi-scaled Tesla coil system into a capacitor and through a Crystal lattice into a resonant tube. One, with our peacock shrimp like punch(DC)(and one with AC(heartbeat like))." (message 11, the second send after an interrupted first send and the UI notice "Request was interrupted by the user.")
 4. "Can we run a python/mathematica sim with wave plots and frequencies? As always give credit where it is due(so many beautiful brilliant artistic and creative souls in this world)."
 5. "Review archive and let’s continue exploring water and a piezoelectric system on the ocean with electric hum for pressure reduction,right? Can we also explore Dirac equations, Buoyancy and displacement(bubbles)?"
 6. "I meant make sure we are not harming ocean life. Since we are talking about ocean life though can we explore the Nautilus, and investigate biomimetic shark skin drag?"

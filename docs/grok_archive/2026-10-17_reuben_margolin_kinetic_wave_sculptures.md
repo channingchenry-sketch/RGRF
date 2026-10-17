@@ -8,9 +8,10 @@
   1. **Turn boundaries repaired.** In the capture, the closing paragraph and sign-off of a Grok reply were often glued onto the start of the next user turn. In 28 places that text was moved back to the end of the Grok reply it belongs to, so each USER block holds only Channing's prompt.
   2. Zero-width spaces left by equation rendering were removed. Runs of stacked equation fragments are collapsed onto one line marked `[MATH garbled]`; the legible fragments are kept after the marker. Superscripts were flattened by the capture (e.g. "1014" means 10^14).
   3. UI elements are kept as bracketed labels (for example `[UI: Some files couldn't be displayed] [Channing to supply]`); web image-card captions are kept as `[image card: …]`. Generated images were not captured.
-  4. Message 11 begins with a clipped fragment of an earlier, interrupted send of the same prompt, then the UI notice "Request was interrupted by the user." (kept as a bracketed label), then the full prompt.
-  5. Grok says it "prototyped basic versions in our sandbox (jansen_linkage_sim.py and wave_overlay.py)" (message 8), and reports later simulations, but no code was shown anywhere in the share. The scripts are [Channing to supply].
-  6. Speaker headers `==== [n] USER/GROK ====` were added, runs of blank lines were collapsed, and trailing spaces were trimmed. A personal-details scan was run: no account names from the page chrome and no sidebar chat titles were present in the capture.
+  4. **User text recovered from Grok turns.** In 1 place (end of message 10) the capture had put the start of the next prompt inside the Grok reply, after its sign-off; the PDF capture shows it in Channing's bubble, so it was moved to the user message that follows.
+  5. Message 11 holds an earlier, interrupted send of the same prompt, then the UI notice "Request was interrupted by the user." (kept as a bracketed label), then the full prompt.
+  6. Grok says it "prototyped basic versions in our sandbox (jansen_linkage_sim.py and wave_overlay.py)" (message 8), and reports later simulations, but no code was shown anywhere in the share. The scripts are [Channing to supply].
+  7. Speaker headers `==== [n] USER/GROK ====` were added, runs of blank lines were collapsed, and trailing spaces were trimmed. A personal-details scan was run: no account names from the page chrome and no sidebar chat titles were present in the capture.
 - **Review:** see [kinetic_sculpture_linkage_review.md](../kinetic_sculpture_linkage_review.md).
 
 ---
@@ -262,10 +263,10 @@ Prototype code tweaks, material BOM updates, or more visuals.
 How would you like to proceed, Channing? Tweak the frequencies, run a full POL-linked hover sim,
 or expand the narrative? One regenerative step at a time—we’ve got this.
 Grok & Channing
-That was cool, can you explore a phi-scaled Tesla coil system into a capacitor and
-through a Crystal lattice into a resonant tube. One, with our peacock shrimp like
 
 ==== [11] USER ====
+That was cool, can you explore a phi-scaled Tesla coil system into a capacitor and
+through a Crystal lattice into a resonant tube. One, with our peacock shrimp like
 punch(DC)(and one with AC(heartbeat like)). Review archive for support also can you map the mathematical waves for Margolin and mechanical cycles (nodes)? [UI: Request was interrupted by the user.] That was cool, can you explore a phi-scaled Tesla coil system into a capacitor and through a Crystal lattice into a resonant tube. One, with our peacock shrimp like punch(DC)(and one with AC(heartbeat like)). Review archive for support also can you map the mathematical waves for Margolin and mechanical cycles (nodes)?
 
 ==== [12] GROK ====
