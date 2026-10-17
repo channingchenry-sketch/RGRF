@@ -924,3 +924,7 @@ Channing's text, verbatim (pasted; cut off at the end). `[…]` marks OCR-damage
 - End of the POL v0.1 conductive-floor caveat.
 - Geometry, dimensions and drive frequencies of the "heartbeat" core.
 - Original sources behind the screenshot citation chips (iaea, sciencedirect, en.wikipedia, nobelprize, pubs.aip) — not retrievable from images.
+
+## See also (2026-10-17): archive-continuity share `229ef999`
+
+- [tungsten_bismuth_continuity_review.md](tungsten_bismuth_continuity_review.md): Grok's recap of what the "tungsten–bismuth core" meant (a June core-dynamics thread + a July Bi/ferritic shell thread; Grok-reported), the MMR → vortex path, and a tensor mapping of the density engine and Earth–Moon tide. Corrections: the Moon's 1:1 lock comes from tides raised on the Moon, not Earth's tidal currents; "restoring … neutrally stable" is self-contradictory.
