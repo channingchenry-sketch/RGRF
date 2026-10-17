@@ -3,6 +3,8 @@
 
 > **Important:** these images are **AI-generated concept art, not engineering drawings.** The numbers and labels drawn in them were generated along with the art. They are not measurements, and each one is checked below. Force-flow rows are also in [DESIGN_FORCE_FLOW_MAP.md §11](DESIGN_FORCE_FLOW_MAP.md).
 
+*Source conversation found 2026-10-17: Grok share `6547c372` msgs 17–20 ([archive](grok_archive/2026-10-17_lorentz_force_reversed_equilibrium.md), [review §F](lorentz_larmor_boron_nitride_review.md)).*
+
 Intro text (as given): "…[imagery] for every major zone we mapped onto the POL v0.1 board. Each is isolated so we can examine the idea clearly."
 
 ## 1. Larmor Precession Clock Zone
