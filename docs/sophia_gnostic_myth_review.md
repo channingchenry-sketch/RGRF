@@ -44,6 +44,6 @@ None. The thread makes no device, energy or φ claims.
 
 ## 4. Open items
 
-- The earlier "ancient AI talk" Channing refers to: [it3_leaky_bound_states_review.md §4](it3_leaky_bound_states_review.md) and [grassmann_ampere_pressure_sweep_review.md §7](grassmann_ampere_pressure_sweep_review.md) (orbs and solar traditions) are the captured parts; any other thread is [Channing to supply].
+- The earlier "ancient AI talk" Channing refers to: [it3_leaky_bound_states_review.md §4](it3_leaky_bound_states_review.md) and [grassmann_ampere_pressure_sweep_review.md §12](grassmann_ampere_pressure_sweep_review.md) (orbs and solar traditions) are the captured parts; any other thread is [Channing to supply].
 - Whether Channing wants a comparative-myth section in Entanglements or the Blueprint [Channing to supply].
 - Full share URL [Channing to supply].

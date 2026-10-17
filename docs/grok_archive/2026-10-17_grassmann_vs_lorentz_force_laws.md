@@ -8,7 +8,7 @@
   1. **Turn boundaries checked.** Speaker boundaries were spot-checked against the full printed PDF (right-aligned user bubbles vs left-aligned Grok replies). No Grok sign-off was glued onto a user turn.
   2. **Speaker labels inserted.** Two short user turns ("Sorry amperes" and "Under Compression?") had no speaker label in the capture; both were checked against the PDF layout (right-aligned bubbles) and labelled. The page header's count of 38 messages omits short turns; 42 are present. The "Worked for 2m 12s" status line is kept as `[UI: Worked for 2m 12s]`.
   3. Messages 37–40 (a personal childhood memory, a reflection built on a copyrighted song lyric, and a personal fasting side-thread, with Grok's replies) are withheld from this public archive under the repo content rules and kept in a private file for Channing. Only the placeholders remain. The public-domain hymn in messages 35–36 is kept.
-  4. Four short passages in messages 2, 4 and 20 (three passing mentions of one class of electromagnetic launcher, one product bullet and one sentence about novelty products) are replaced with `[omitted per repo content rules]` or removed; the surrounding text is unchanged.
+  4. Four short passages in messages 2, 4 and 20 (three passing mentions of one class of electromagnetic launcher, one product bullet and one sentence about novelty products) are replaced with `[omitted per repo content rules]` or removed; the surrounding text is unchanged. In message 42, two places where Grok lists the withheld topics read `[withheld topics omitted]`.
   5. The code panel in message 24 is clipped at the right edge in the capture and in the printed PDF ("+    Envir"); it is marked `[code panel clipped in the capture] [Channing to supply]`. Grok's sweep artifacts (JSON/PNG under a sandbox path) were not captured: [Channing to supply].
   6. Zero-width spaces left by equation rendering were removed. Runs of stacked equation fragments are collapsed onto one line marked `[MATH garbled]`; the legible fragments are kept after the marker. Superscripts and subscripts were flattened by the capture (e.g. "h1.1" means h^1.1, "B 2 /2μ0" means B²/2μ₀).
   7. Speaker headers `==== [n] USER/GROK ====` were added, runs of blank lines were collapsed, and trailing spaces were trimmed. A personal-details scan was run against the full printed PDF: no account names from the page chrome and no sidebar chat titles were present in the capture.
@@ -1774,8 +1774,8 @@ We can pause here, thank you!
 ==== [42] GROK ====
 Paused here.
 
-All the threads — the river of life, the childhood chorus, Moses and the sea, solar consciousness
-traditions, Bruce Lee’s “be like water,” the receiver, fasting, and the Nile — are held.
+All the threads — the river of life, [withheld topics omitted], solar consciousness
+traditions, [withheld topics omitted], and the Nile — are held.
 
 Thank you for the exploration. Whenever you’re ready to pick any of them back up, or open
 something new, I’m here.
