@@ -1,0 +1,30 @@
+== #61 hemp oil: dielectric charge-relaxation time tau = eps/sigma ==
+  eps_r=3, sigma=  0.1 pS/m -> tau =    265.6 s
+  eps_r=3, sigma=  1.0 pS/m -> tau =     26.6 s
+  eps_r=3, sigma= 10.0 pS/m -> tau =      2.7 s
+
+== #62 aluminium skin depth delta = sqrt(rho/(pi f mu0)) ==
+  f =         60 Hz -> delta =   10577.12 um
+  f =      1e+03 Hz -> delta =    2590.85 um
+  f =      1e+05 Hz -> delta =     259.09 um
+  f =      1e+06 Hz -> delta =      81.93 um
+  f =   2.45e+09 Hz -> delta =       1.66 um
+  2.45 GHz free-space wavelength = 12.24 cm; lambda/10 = 12.2 mm, lambda/20 = 6.1 mm
+
+== #66 magnetic tension B^2/(mu0 Rc) vs magnetic pressure B^2/(2 mu0) ==
+  B=0.1 T, Rc=0.05 m -> tension 1.59e+05 N/m^3, pressure 3.98e+03 Pa
+  B=1.0 T, Rc=0.5 m -> tension 1.59e+06 N/m^3, pressure 3.98e+05 Pa
+
+== #68 Meyer-cell numbers ==
+  600 m/s / 1.587 mm = 378 kHz  (the 600 m/s velocity is an assumption, not a measured property)
+  f =    40 kHz: EM wavelength in vacuum =   7.50 km; acoustic wavelength in water (1480 m/s) =  37.00 mm
+  f =   145 kHz: EM wavelength in vacuum =   2.07 km; acoustic wavelength in water (1480 m/s) =  10.21 mm
+  f =   378 kHz: EM wavelength in vacuum =   0.79 km; acoustic wavelength in water (1480 m/s) =   3.92 mm
+  f =   400 kHz: EM wavelength in vacuum =   0.75 km; acoustic wavelength in water (1480 m/s) =   3.70 mm
+  -> EM wavelength at 40-400 kHz is 0.75-7.5 km, not 'tens of km'.
+  Gibbs minimum to split water: 237.1 kJ/mol -> reversible cell voltage 1.229 V
+
+== #69 helium diamagnetic force vs its own weight and buoyancy ==
+  B=1 T, dB/dz=10 T/m -> |f_mag| = 0.00851 N/m^3 vs He weight 1.75 N/m^3 and air-He buoyancy 10.3 N/m^3
+  B=10 T, dB/dz=100 T/m -> |f_mag| = 0.851 N/m^3 vs He weight 1.75 N/m^3 and air-He buoyancy 10.3 N/m^3
+  -> diamagnetic 'repulsion' of helium is negligible at lab fields.
