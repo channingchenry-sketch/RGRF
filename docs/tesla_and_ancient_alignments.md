@@ -19,6 +19,13 @@ License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Spe
 
 **Falsifiable test for "Tesla-style" global power claims.** Build a transmitter of stated power and frequency and place a calibrated receiver at distance d. Compare the measured received power with the standard near-field, ground-wave and radiative models. Any repeatable excess with the transmitter switched on (blind, with switching controls) would be significant.
 
+### A.1 Tower, atmosphere and ground: share #86 (2026-10-17)
+Short summary of Grok "Tesla Tower Waveguide Atmospheric Charge"; full checks in [tesla_tower_atmosphere_rossby_review.md](tesla_tower_atmosphere_rossby_review.md).
+- **Grounded:** the fair-weather field falls from ~150 V/m at the ground to ~4–5 V/m at 10 km while conductivity rises ~10³× by 30 km; Tesla's ground connections are documented (*Colorado Springs Notes*, 16–17 June 1899: 2,960 Ω dry, 14 Ω with water flowing; Wardenclyffe 120 ft shaft and about sixteen iron pipes pushed 300 ft, 1923 testimony); an aquifer lowers electrode resistance by ~50–100× and sits inside the ~0.8 km ELF skin depth.
+- **Grounded (arithmetic):** the ion-pair energy floor for a 1000× conductivity boost in a 2 km corridor is only ~0.14 kW, but aerosol attachment and wind flushing make the practical sustain power far higher. Static corona arrays clean and charge air over tens of metres; they do not make a waveguide.
+- **Speculative:** a stable, power-carrying corridor between towers, or any tower shifting the Schumann frequencies. The Schumann cavity has Q ≈ 4–6 and stores only hundreds of joules.
+- Channing paused this tower/waveguide line in the same conversation; it is recorded, not rebuilt.
+
 ## B. Ancient civilisations and stone alignments
 
 ### Archaeoastronomy (Grounded)

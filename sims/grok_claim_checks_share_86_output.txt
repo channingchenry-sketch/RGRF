@@ -1,0 +1,61 @@
+== msg 2: fair-weather field fit E(z) = 93.8 e^-4.527z + 44.4 e^-0.375z + 11.8 e^-0.121z (V/m, z km) ==
+  z =   0 km -> |E| =  150.000 V/m
+  z =   1 km -> |E| =   41.985 V/m
+  z =   2 km -> |E| =   30.248 V/m
+  z =  10 km -> |E| =    4.563 V/m
+  z =  30 km -> |E| =    0.313 V/m
+  potential 0->10 km =  204.8 kV
+  potential 0->15 km =  220.3 kV
+  potential 0->60 km =  236.6 kV
+  fraction of the 0-60 km drop below 15 km = 0.93
+  -> E(10 km) ~4.6 V/m and E(30 km) ~0.3 V/m (matches Grok's '~4-5' and 'a few tenths'). The fit
+     integrates to ~237 kV, the right order for the 250-300 kV ionospheric potential; ~93 % of it is below 15 km.
+
+== msg 4: ion-pair floor power, q = alpha n^2, P = q * 34 eV ==
+  steady n0 = sqrt(q/alpha) = 2500 cm^-3
+  F=   10: n=2.50e+04 cm^-3, q=1.00e+03 cm^-3 s^-1, lifetime= 25.00 s, P=5.45e-09 W/m^3, corridor (2 km x r 20 m) = 0.0137 W
+  F=  100: n=2.50e+05 cm^-3, q=1.00e+05 cm^-3 s^-1, lifetime=  2.50 s, P=5.45e-07 W/m^3, corridor (2 km x r 20 m) = 1.37 W
+  F= 1000: n=2.50e+06 cm^-3, q=1.00e+07 cm^-3 s^-1, lifetime=  0.25 s, P=5.45e-05 W/m^3, corridor (2 km x r 20 m) = 137 W
+  -> Grok's floor numbers (5 nW, 0.5 uW, 55 uW per m^3; ~0.14 kW corridor) reproduce.
+
+== msg 4: ELF skin depth delta = sqrt(2/(omega mu0 sigma)) at 7.83 Hz ==
+  crust 0.001 S/m    ->   5.69 km
+  wet soil 0.01      ->   1.80 km
+  aquifer 0.05       ->   0.80 km
+  seawater 4         ->   0.09 km
+
+== msg 4: rod-electrode resistance R = rho/(2 pi L) [ln(4L/a) - 1], L = 100 m, a = 5 cm ==
+  rho =     20 ohm m -> R =    0.25 ohm
+  rho =   1000 ohm m -> R =   12.71 ohm
+  rho =  10000 ohm m -> R =  127.12 ohm
+  -> 20 ohm m gives ~0.25 ohm (Grok 'order 0.3 ohm'). Dry sand at 1e3-1e4 ohm m gives ~13-130 ohm.
+
+== msg 4: ideal Schumann f_n = c/(2 pi R) sqrt(n(n+1)) ==
+  n=1: 10.59 Hz
+  n=2: 18.35 Hz
+  n=3: 25.94 Hz
+
+== msg 6: aerosol attachment with beta*Z values implied by Grok's table ==
+  Z=   200, beta*Z=4.0e-04 s^-1 -> n =   2378 cm^-3 (implied beta = 2.0e-06 cm^3/s)
+  Z=  1000, beta*Z=2.0e-03 s^-1 -> n =   1952 cm^-3 (implied beta = 2.0e-06 cm^3/s)
+  Z=  3000, beta*Z=7.5e-03 s^-1 -> n =   1083 cm^-3 (implied beta = 2.5e-06 cm^3/s)
+  Z=  6000, beta*Z=1.8e-02 s^-1 -> n =    531 cm^-3 (implied beta = 3.0e-06 cm^3/s)
+  Z= 12000, beta*Z=3.6e-02 s^-1 -> n =    274 cm^-3 (implied beta = 3.0e-06 cm^3/s)
+  flush time 20 m / 3 m/s = 6.7 s
+
+== msg 24: Saturn north-polar jet as a Gaussian ==
+  sigma from FWHM = 966 km; sigma from b = sqrt(U0/b) = 1140 km
+  planetary beta = 1.38e-12 m^-1 s^-1; f = 3.18e-04 s^-1; Ro = U0/(f sigma_b) = 0.29
+  crest beta_e = 8.14e-11; lambda_s = 2 pi sqrt(U0/beta_e) = 7.10 Mm
+  latitude circle C = 2 pi R cos(lat) = 8.97 x 10^7 m; n = C/lambda_s = 12.6
+  lambda_6 = 1.50 x 10^7 m; beta_e needed = 4 pi^2 U0 / lambda_6^2 = 1.84e-11
+  sigma_eff = sqrt(U0/beta_e_needed) = 2379 km
+  -> Grok's n ~ 13, beta_e(n=6) ~ 1.7e-11 and sigma_eff ~ 2500 km reproduce to ~10 % (Grok's C = 9.4e7 m
+     implies the equatorial radius; the mean radius gives 9.0e7 m). Crest curvature b is ~58x planetary beta.
+
+== msg 4: stored Schumann-band energy at 1 mV/m (electric + equal magnetic share) ==
+  cavity volume ~ 3.06e+19 m^3; electric energy ~ 135 J; x2 for magnetic ~ 271 J
+  -> 'only hundreds of joules' is the right order.
+
+== msg 20: hexagon drift 0.036 m/s (Sanchez-Lavega 2014) in deg/day at 75.8 N ==
+  0.0125 deg/day  (Grok quoted '~0.06 deg/day' as the observed drift)
