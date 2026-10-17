@@ -59,7 +59,7 @@ The proposed chain is: Schumann → Becker-type bioelectric fields → Fröhlich
 
 **The links, one by one:**
 - **Bioelectric patterning (Grounded):** M. Levin, "Molecular bioelectricity: how endogenous voltage potentials control cell behavior and instruct pattern regulation in vivo," *Mol. Biol. Cell* (2014), PMID 25425556.
-  - Becker's injury currents are the historical precursor. **No specific Becker citation was supplied: [Channing to supply].**
+  - Becker's injury currents are the historical precursor. Historical pointer recovered in Grok share #88 (`81b30d3e`): Robert O. Becker's 1950s–60s bone semiconductor / piezoelectric / current-of-injury work, popularized in *The Body Electric* (1985). See [jack_kruse_light_magnetism_review.md](jack_kruse_light_magnetism_review.md). A single primary-paper citation is still open: **[to verify / Channing to supply].**
 - **Fröhlich condensation (Plausible, with one contested experiment):** I. Lundholm et al., "Terahertz radiation induces non-thermal structural changes associated with Fröhlich condensation in a protein crystal," *Struct. Dyn.* 2, 054702 (2015), doi 10.1063/1.4931825.
   - The result is from a crystal, at 0.4 THz. It has not been shown in living cells.
 - **Davydov solitons (Speculative in vivo):** A. S. Davydov, *J. Theor. Biol.* (1973). This is the energy-transfer model for α-helices. Volume and pages are unverified, and the model's thermal stability at 300 K is disputed.
