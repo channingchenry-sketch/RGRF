@@ -1,0 +1,22 @@
+=== 1. skinwalker_phi_harmonics_rf.py (Grok share 16, msg 10) ===
+as captured: IndentationError line 21: unexpected indent
+with one leading space removed, it prints: Amplitude at golden-ratio point: 1.3475
+samples: 10000 (window 0.9999 us); fs = 10 GHz, Nyquist = 5 GHz
+square_mod unique values: [0. 1.]  (1 kHz square over 1 us never changes sign; t=0 gives 0)
+  overlay n=1: f =   1.600 GHz -> appears at  1.600 GHz 
+  overlay n=2: f =   5.178 GHz -> appears at  4.822 GHz (aliased)
+  overlay n=3: f =  12.567 GHz -> appears at  2.567 GHz (aliased)
+  overlay n=4: f =  27.111 GHz -> appears at  2.889 GHz (aliased)
+  overlay n=5: f =  54.833 GHz -> appears at  4.833 GHz (aliased)
+  strongest spectral bins (GHz): 1.60, 1.60, 1.60, 2.57, 2.57, 2.89, 2.89, 4.82, 4.82, 4.82, 4.83, 4.83
+  'golden-ratio point' = sample 6180 of 10000; value is one sample, |c| = 1.3475; same metric at 50% mark = 0.0491, at 60% = 0.2005
+
+=== 2. heartbeat_pulse_efficiency.py (Grok share 17, msg 16) ===
+as captured: NameError: name 'omega_resonant' is not defined
+with omega_resonant = 2*pi*1.0 Hz supplied: heartbeat_pulse_efficiency(1.0) = 5591.9 '%'
+with omega_resonant = 2*pi*1.2 Hz supplied: heartbeat_pulse_efficiency(1.0) = 334.9 '%'
+  phi_ratio % 1 = 0.6180000000000001 (a constant factor; changing phi_ratio to 2.618 gives the same value)
+  at resonance the value is Q * exp(-0.1) * 0.618 * 100 = 5592 '%': the 'efficiency' is not bounded by 100 %.
+
+=== 3. algae_time_crystal_sim.py (Grok share 21, msg 10; partial) ===
+not present yet

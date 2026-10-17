@@ -72,6 +72,8 @@
 
 **Candidate source (2026-10-17, Channing to confirm):** the locking passages (phase-locking, hexagonal "pinning", infrasound + EM locking) quoted in [pyramidion_node_review.md §7](pyramidion_node_review.md#7-locking--lock-pin-passages-candidate-source-for-the-missing-electrostatic-locking-linch-pins) may relate to pins 2 and 4 and to the missing "electrostatic locking linch pins" section. That conversation contains no explicit "lock pin" wording.
 
+**Skinwalker share passages (2026-10-17):** the Grok share "Skinwalker Ranch: Anomalies & Regenerative Insights" has three explicit lock-pin passages, quoted verbatim in [skinwalker_rf_music_vortex_review.md §9](skinwalker_rf_music_vortex_review.md#9-lock-pin-passages-verbatim-linked-to-the-6-lock-pins--spin). Message 34 says "Key “lock pins” we identified earlier include spin as the seventh dynamic principle", which confirms the 6 + Spin numbering and so the double count with pin 4. None defines a pin or mentions electrostatic linch pins.
+
 **Provenance gap.** Grok says this list is "refined from our May sessions" but also invites iteration. The **original May 2026 wording is [Channing to supply]**. The list above is Grok's version, not a confirmed original. Grok's claim that the pins "create standing-wave 'nodes' that lock energy into stable, self-reinforcing patterns" (msg 4) is **Symbolic**: no physical model was given.
 
 ## 6. "The 11th Dimension as a Collective Electromagnetic Plenum" (book speculation)

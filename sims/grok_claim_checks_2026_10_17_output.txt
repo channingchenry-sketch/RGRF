@@ -1,0 +1,47 @@
+== Share 17: Geodesic Organic Design ==
+resonance_calc claim 636 uH at 13.56 MHz needs C = 0.217 pF (coil self-capacitance is typically pF to tens of pF, so the coil self-resonates below 13.56 MHz)
+   self-resonance with 2 pF parasitic: 4.46 MHz
+   self-resonance with 10 pF parasitic: 2.00 MHz
+rgrf_scaler radius 26.18 m = 10*phi^2 = 26.18 m (phi put in by construction)
+Al skin depth at 1 Hz (heartbeat): 8.2 cm; at 1 kHz: 2.59 mm
+
+== Share 18: Tungsten Toroid ==
+OD 45 cm, tube 8 cm: R/r = 4.62; solid W torus 112 kg; shell for 5-8 kg = 0.89-1.42 mm
+OD 45 cm, tube 12 cm: R/r = 2.75; solid W torus 226 kg; shell for 5-8 kg = 0.66-1.06 mm
+OD 60 cm, tube 8 cm: R/r = 6.50; solid W torus 158 kg; shell for 5-8 kg = 0.63-1.01 mm
+OD 60 cm, tube 12 cm: R/r = 4.00; solid W torus 328 kg; shell for 5-8 kg = 0.46-0.73 mm
+phi would need OD/d = 2.618
+equal counter-rotating fields: sum By = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] -> the sum is a linear field 2B cos(wt) along x
+Magnetic pressure B^2/(2 mu0) at 1 T = 398 kPa
+
+== Share 19: Floquet Engineering ==
+1 T + 5% at 196 Hz over 0.1 s (19.6 cycles): mean = 1.00073 T (analytic offset 7.34e-04); over 0.1020408 s (20 cycles): 1.00000 T
+1 T + 6% at 196 Hz over 0.1 s (19.6 cycles): mean = 1.00088 T (analytic offset 8.81e-04); over 0.1020408 s (20 cycles): 1.00000 T
+  +/-0.5 K on a permanent magnet (NdFeB, -0.120 %/K): +/-0.60 mT per tesla
+  +/-0.5 K on a permanent magnet (ferrite, -0.200 %/K): +/-1.00 mT per tesla
+  +/-0.5 K on a permanent magnet (SmCo, -0.035 %/K): +/-0.17 mT per tesla
+Al skin depth: 196 Hz 5.85 mm; 13.56 MHz 22.2 um
+wavelength at 196 Hz: 1530 km (a 'cavity' at this frequency is a lumped LC, not a resonant cavity)
+induced E ~ w B r/2 with B = 1.12 T, r = 0.1 m: 69 V/m; r needed for 1.24e5 V/m: 180 m
+hbar*Omega at 196 Hz = 8.1e-13 eV (far below any electronic band scale)
+1 T in 1 L stores 398 J; at Q = 450 the drive must supply w W / Q = 1089 W
+100 Pa acoustic radiation pressure needs p_rms ~ 3757 Pa = 165 dB SPL
+diamagnetic levitation of bismuth: B dB/dz >= 726 T^2/m
+diamagnetic levitation of pyrolytic graphite: B dB/dz >= 60 T^2/m
+
+== Share 20: E8 Gradients ==
+E8 roots counted: 240; dim E8 = roots + rank = 248
+sum_k phi^-k (k = 0..inf) = 2.6180 = phi^2 = 2.6180
+4 + phi^3 with phi = 1/1.618: 4.236; with phi = 1.618: 8.236
+ideal Schumann f1 = c/(2 pi a) sqrt(2) = 10.6 Hz (observed ~7.8 Hz, lossy cavity)
+
+== Share 21: Uniphysics ==
+Snell n1 = phi, 45 deg -> air: sin(theta2) = 1.144 -> total internal reflection
+Snell n1 = phi, 45 deg -> glass: sin(theta2) = 0.763 -> 49.71 deg
+Snell n1 = phi, 45 deg -> n=1.33: sin(theta2) = 0.860 -> 59.34 deg
+critical angle phi -> air: 38.17 deg
+dovetail dims for 300 mm: 300/phi = 185.4, 300/phi^2 = 114.6, 300/phi^2.5 = 90.1 mm
+flank angle implied by base 185.4, top 114.6, height 114.6: 17.2 deg (Grok said ~14 deg); a tab whose tip is narrower than its root does not lock
+binaural: 639 Hz and 639 - 7.83 = 631.17 Hz give a 7.83 Hz beat; 631 Hz is a carrier, not the beat
+pion production threshold, proton on proton at rest: T ~ 290 MeV (a 'few MeV' cyclotron cannot make muons)
+natural D/H ~ 1.56e-04 (VSMOW): about 28670 kg of water per kg of deuterium, plus isotope enrichment
