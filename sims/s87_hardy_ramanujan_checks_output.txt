@@ -1,0 +1,91 @@
+
+========================================================================
+1. p(n) by Euler's pentagonal recurrence (msg 4)
+========================================================================
+generalised pentagonals: [1, 2, 5, 7, 12, 15, 22, 26]
+p(4), p(3), p(0) = 5 3 1 -> p(5) = 7
+Note: the recurrence uses BOTH k(3k-1)/2 and k(3k+1)/2 (generalised pentagonals),
+so p(5) = p(4) + p(3) - p(0) = 5 + 3 - 1 = 7 is right (terms for 1, 2, 5).
+  p(5) = 7
+  p(10) = 42
+  p(15) = 176
+  p(20) = 627
+  p(50) = 204,226
+  p(100) = 190,569,292
+  p(200) = 3,972,999,029,388
+p(200) = 3,972,999,029,388 (MacMahon's value): True
+brute-force partition count agrees for n <= 24
+
+========================================================================
+2. Hardy-Ramanujan leading term exp(pi sqrt(2n/3)) / (4 n sqrt3) (msgs 2, 4)
+========================================================================
+ n   exact     HR leading   Grok-reported   ratio
+  5               7              8.94      8.94  1.2774
+ 10              42             48.10      48.1  1.1453
+ 15             176            198.53    198.53  1.1280
+ 20             627            692.38    692.38  1.1043
+ 50         204,226        217,590.50            1.0654
+100     190,569,292    199,280,893.35            1.0457
+200  3,972,999,029,388  4,100,251,432,187.85            1.0320
+
+========================================================================
+3. Rademacher exact series, term by term (msg 4: 'k = 2 is tens of units')
+========================================================================
+n=  5 exact 7
+   k=1..4 terms: 7.262, -0.234, -0.074, 0.018
+   A_2(n) = -1;  sum k<=8 = 6.9980  -> round = 7  ok=True
+n= 10 exact 42
+   k=1..4 terms: 41.628, 0.442, -0.054, -0.054
+   A_2(n) = +1;  sum k<=8 = 42.0038  -> round = 42  ok=True
+n= 20 exact 627
+   k=1..4 terms: 625.758, 1.300, -0.181, 0.077
+   A_2(n) = +1;  sum k<=8 = 626.9964  -> round = 627  ok=True
+n=100 exact 190,569,292
+   k=1..4 terms: 190,568,944.783, 348.872, -2.598, 0.685
+   A_2(n) = +1;  sum k<=8 = 190,569,291.9938  -> round = 190,569,292  ok=True
+n=200 exact 3,972,999,029,388
+   k=1..4 terms: 3,972,998,993,185.902, 36,282.978, -87.584, 5.147
+   A_2(n) = +1;  sum k<=8 = 3,972,999,029,387.9824  -> round = 3,972,999,029,388  ok=True
+A_2(n) = (-1)^n here, so Grok's 'phase that flips with n' is right.
+Reading for n = 20: the HR leading formula gives 692.38 (gap +65), but the EXACT
+Rademacher k = 1 term already gives ~625.8; the k = 2 term is only ~+1.3.
+So the 65-count gap is mostly the crude asymptotic (dropping sinh->exp/2 and the
+1/24 shift, and the 1/sqrt(n) correction), NOT the k = 2 arc. Grok's 'p2 is tens
+of units' is too large for n = 20.
+
+========================================================================
+4. Ramanujan congruences (msg 2)
+========================================================================
+p(5n+4) = 0 mod 5 for all 5n+4 <= 200: True
+p(7n+5) = 0 mod 7 for all 7n+5 <= 200: True
+p(11n+6) = 0 mod 11 for all 11n+6 <= 200: True
+
+========================================================================
+5. 1729 and taxicab (msg 2)
+========================================================================
+smallest sum of two positive cubes in 2 ways: 1729 [(1, 12), (9, 10)]
+
+========================================================================
+6. Ramanujan tau, Delta = q prod (1-q^n)^24 (msg 2)
+========================================================================
+tau(1..10): [1, -24, 252, -1472, 4830, -6048, -16744, 84480, -113643, -115920]
+tau(n) = sigma_11(n) mod 691 for n <= 30: True
+tau(n) != 0 for n <= 30 (Lehmer's conjecture is open in general): True
+
+========================================================================
+7. Third-order mock theta f(q) = sum q^{n^2} / (-q;q)_n^2 (msgs 2, 4)
+========================================================================
+f(q) coefficients a(0..20): [1, 1, -2, 3, -3, 3, -5, 7, -6, 6, -10, 12, -11, 13, -17, 20, -21, 21, -27, 34, -33]
+Known (OEIS A000025): 1, 1, -2, 3, -3, 3, -5, 7, -6, 6, -10, 12, -11, 13, -17, 20, -21, 21, -27, 34, -33
+These equal (number of partitions of n with even rank) - (odd rank), as Andrews-
+Dragonette / Bringmann-Ono use.
+
+========================================================================
+8. Vesica and Hawkins' Theorem I (msgs 4, 6)
+========================================================================
+vesica: intersection points (0.5, +/-0.866025); chord = 1.732051 = sqrt3 (1.732051)
+sqrt3 comes straight from the vesica; sqrt2 and sqrt5 need extra construction lines
+(e.g. a square on the radius, or the 1x2 rectangle diagonal).
+Theorem I: circumcircle diameter / corner-circle diameter = 1.333333 (4/3 = 1.333333)
+Configuration: three EQUAL, SEPARATE circles touched by three common tangent lines,
+not 'three mutually tangent circles' as Grok paraphrased.

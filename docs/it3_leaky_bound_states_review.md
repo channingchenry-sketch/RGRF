@@ -7,6 +7,8 @@
 - **Archive:** [grok_archive/2026-10-17_it3_framework_investigation.md](grok_archive/2026-10-17_it3_framework_investigation.md) (20 messages, all public).
 - **Related docs (not repeated here):** [heliosphere_fibonacci_review.md](heliosphere_fibonacci_review.md) (heliosphere structure, VLISM, Parker spiral), [cavendish_breathing_solids_review.md §9](cavendish_breathing_solids_review.md) (lunar dynamo dates), [tesla_and_ancient_alignments.md](tesla_and_ancient_alignments.md), [sphinx_giza_harbor_review.md](sphinx_giza_harbor_review.md) and [pyramidion_node_review.md](pyramidion_node_review.md) (pyramid and alignment claims).
 
+- **Follow-up (share #87, `4eaafec3`):** "IT3 framework is built on that topology, right?" — vesica/hex/torus topology vs IT³'s flat torus, see [ramanujan_hardy_crop_geometry_it3_review.md §E](ramanujan_hardy_crop_geometry_it3_review.md#e-it3-framework-is-built-on-that-topology-right-msg-6).
+
 ## 0. Summary
 
 | Topic (msgs) | Verdict | Label |
