@@ -23,6 +23,8 @@ The detailed history and claims table are in [tesla_and_ancient_alignments.md](t
 2. **The Schumann cavity is low-Q.** The fundamental (~7.8 Hz) has Q ≈ 4–5. The Earth–ionosphere cavity is strongly damped, cannot store or bank much energy, and a ~38,000–40,000 km wavelength needs planetary-scale antennas. See [tungsten_bismuth_core §7b-alfven.1](tungsten_bismuth_core.md#7b-alfven1-schumann-resonance-as-a-coupling-guide).
 - **The grounded descendant** is resonant inductive coupling: Kurs et al., "Wireless Power Transfer via Strongly Coupled Magnetic Resonances," *Science* 317, 83–86 (2007). That MIT work (60 W at ~40 % over ~2 m) led to WiTricity. It is near-field only: a few coil diameters, not global. See the Nordic and metasurface WPT material in [em_topo L6](em_topological_gravity_review.md#l6-wireless-energy-transfer-northern-europe-focus-noted).
 
+*Cross-link (2026-10-17):* Tesla-coil physics checks (L1C1 = L2C2, loose coupling, quarter-wave secondary, DRSSTC) and the closed toroidal resonator with φ winding and mycelium insulation are reviewed in [geometric_unity_review.md §3–§4](geometric_unity_review.md#3-tesla-coil-physics-msg-6-checks-and-corrections).
+
 ### 1a. Mechanical oscillator ("earthquake machine")
 > Channing (verbatim, 2026-10-15): "We can reference something that was noted which is a resonant device that made a building shake…" [trimmed]
 

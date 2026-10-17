@@ -5,6 +5,7 @@
 - **Source conversation:** Grok, "Adding Transistors to POL v0.1", shared by Channing. The verbatim archive is [grok_archive/2026-10-15_adding_transistors_pol_v0_1.md](grok_archive/2026-10-15_adding_transistors_pol_v0_1.md) (8 messages, no code).
 - **Sim:** [`sims/resonant_drive_phi_test.py`](../sims/resonant_drive_phi_test.py), plot [`images/resonant_drive_phi_test.png`](images/resonant_drive_phi_test.png).
 - **Related:** craft intent (buoyant stability, not full levitation; 520 W vs ~10–17 kW) in [lift_and_equilibrium_systems.md §1a](lift_and_equilibrium_systems.md#1a-design-intent-buoyant-stability-not-levitation). The R-damp rule is in [tesla_davinci_threads.md](tesla_davinci_threads.md). The height-control loop sim is `sim/height_control.py` in the sister repo Resona-POL-Modular-Core.
+- **Cross-link (2026-10-17):** DRSSTC vs SSTC, Tesla-coil tuning checks and the closed toroidal resonator are in [geometric_unity_review.md §3–§4](geometric_unity_review.md#3-tesla-coil-physics-msg-6-checks-and-corrections).
 
 ## 0. Channing's paste (verbatim)
 
