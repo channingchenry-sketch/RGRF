@@ -256,6 +256,8 @@ Source: S. Earnshaw, "On the nature of the molecular forces which regulate the c
 | Embedded strain gauges / fibre sensors to "feel" eddy-lift pressure | Grounded method; a good POL bench test (compare the measured floor pressure map with ∫B_t²/2μ₀) |
 | "Field sails" for Waverider / Filament Rider | Speculative ([book_blueprint_structure.md §4](book_blueprint_structure.md#4-plasma-filament-propulsion-review-of-groks-message-8)) |
 
+**Related EM-pressure docs (2026-10-17):** EM pressure in gravitational collapse (EM stress-energy gravitates; magnetic pressure resists compression across field lines): [em_pressure_gravitational_collapse_review.md](em_pressure_gravitational_collapse_review.md). Earth-field magnetic pressure: [tungsten_bismuth_core.md §7b-dyn.3](tungsten_bismuth_core.md#7b-dyn3-source-conversation-found-earths-em-field-magnetic-pressure-2026-10-17). Tungsten toroid: [tungsten_toroid_review.md](tungsten_toroid_review.md).
+
 ## Grounded loop mechanisms (1–8)
 *Channing's recovered text, labeled. Each mechanism is standard physics; the open question is whether they integrate into one loop, and with what energy ledger (see Power ledger summary).*
 
