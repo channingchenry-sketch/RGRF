@@ -1,0 +1,28 @@
+== Electrostatic pressure P = eps0*eps_r*E^2/2 ==
+Air, cm-scale gap, ~3 MV/m breakdown                    E=3.000e+06 V/m  P=      39.84 Pa  (macro gap in air)
+Air micro-gap ~7.5 um at Paschen minimum (~327 V)       E=4.360e+07 V/m  P=       8416 Pa  (best case for air gaps)
+Polyimide film, 100 MV/m (ideal, no air gap)            E=1.000e+08 V/m  P=  1.505e+05 Pa  (upper bound, not reached in practice)
+h-BN, 1.2 GV/m = 12 MV/cm (nm films, ideal)             E=1.200e+09 V/m  P=  2.231e+07 Pa  (Hattori 2015 breakdown; nm-thin only)
+
+== Measured electroadhesion (for scale) ==
+Diller, Majidi & Collins, ICRA 2016: one electrode pair bears up to 100 N,
+engages/releases in <30 ms, leakage ~310 nA, ~0.6 mW while walking.
+
+== One mechanical pin in single shear ==
+Steel pin d=3 mm, tau_allow=200 MPa                  F =    1413.7 N
+Aluminium pin d=3 mm, tau_allow=100 MPa              F =     706.9 N
+Glass-fibre/epoxy pin d=5 mm, tau_allow=50 MPa       F =     981.7 N
+Mycelium composite peg d=10 mm, tau_allow=0.3 MPa    F =      23.6 N
+
+== Clamp area needed to match one 3 mm steel pin (1414 N) by friction, mu=0.5 ==
+Air, cm-scale gap, ~3 MV/m breakdown                    A =      70.96 m^2
+Air micro-gap ~7.5 um at Paschen minimum (~327 V)       A =      0.336 m^2
+Polyimide film, 100 MV/m (ideal, no air gap)            A =    0.01878 m^2
+h-BN, 1.2 GV/m = 12 MV/cm (nm films, ideal)             A =  0.0001267 m^2
+Practical electroadhesion    1 kPa normal                         A =      2.827 m^2
+Practical electroadhesion   10 kPa normal                         A =     0.2827 m^2
+
+== Holding cost ==
+V=1000 V, leakage 1 uA -> 1.0 mW per lock while held
+V=1000 V, leakage 10 uA -> 10.0 mW per lock while held
+A mechanical pin holds with 0 W.

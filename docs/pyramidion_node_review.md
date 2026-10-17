@@ -136,6 +136,8 @@ Grok's formula (msg 16, plain-text reading): V = g × t × σ, σ = Y × ε, ε 
 
 ## 7. Locking / lock-pin passages (candidate source for the missing "electrostatic locking linch pins")
 
+> **Update (2026-10-17): found.** The "electrostatic locking linch pins" section is in a different conversation (Grok share `9a31b5c7`, "BNNano: Boron Nitride Nanotubes for Composites"). It is rebuilt with an engineering review in [electrostatic_locking_pins.md](electrostatic_locking_pins.md). The passages below remain related (phase/injection locking), but they are not the source.
+
 Channing says a section on **"electrostatic locking linch pins"** is missing. This conversation has **no passage** using "linchpin", "lock pin" or "electrostatic locking". The closest passages are below, verbatim. They are a **candidate source only, Channing to confirm**. Compare them with the "6 lock pins + Spin" in [rgrf_foundations_review.md §5](rgrf_foundations_review.md#5-the-6-lock-pins--spin-verbatim-with-labels): pin 2 "resonant frequency locking" and pin 4 "spin-induced coherence".
 
 1. Msg 14: "Magnetic orientation: Schumann modulates the ionosphere, helping craft “lock on” to cosmic plasma filaments once above the atmosphere."
