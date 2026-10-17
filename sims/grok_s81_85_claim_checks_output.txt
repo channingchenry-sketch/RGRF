@@ -1,0 +1,59 @@
+grok_s81_85_claim_checks.py -- order-of-magnitude checks for Grok shares #81-#85
+
+A. Electrohydraulic bubble: Rayleigh period 2 x 0.915 R sqrt(rho/dp)
+  R_max =  8.0 mm -> T = 1.45 ms (Grok: ~1.7 ms)
+  R_max = 13.5 mm -> T = 2.45 ms (Grok: ~3.0 ms)
+
+B. Cu/Fe cell in vinegar and plating rate
+  ideal Cu2+/Cu vs Fe2+/Fe: 0.78 V (open circuit; replicas report ~0.5-0.9 V because the copper side runs on dissolved O2 / H+, not Cu2+)
+  1 um of Au on 10 cm^2 = 19.3 mg; at 1.0 mA (100% efficiency) -> 2.6 h
+  1 um of Au on 10 cm^2 = 19.3 mg; at 0.1 mA (100% efficiency) -> 26.3 h
+
+C. K-40 specific activity of natural potassium
+  31.7 Bq per g K (Grok: ~31)
+
+D. Magnetic pressure B^2/(2 mu0)
+  B = 0.01 T ->  0.040 kPa
+  B = 0.05 T ->  0.995 kPa
+  B = 0.08 T ->  2.546 kPa
+  B = 0.10 T ->  3.979 kPa
+  B = 0.15 T ->  8.952 kPa
+  B = 0.20 T -> 15.915 kPa
+  800 N over 0.4 m^2 -> 2.00 kPa -> B = 0.071 T
+  1100 N over 0.25 m^2 -> 4.40 kPa -> B = 0.105 T
+
+E. Rerun of the legacy Grok v0.1 lift model (the 'pol-simulation-engine')
+   h (m)    eta   F (N)  P (kPa) B_eq (T)
+    0.05  0.919    1450     4.83    0.110
+    0.08  0.918    1450     4.83    0.110
+    0.10  0.918    1435     4.78    0.110
+    0.12  0.917    1173     3.91    0.099
+    0.15  0.915     916     3.05    0.088
+    0.18  0.149     122     0.41    0.032
+  weight 1030 N; at 300 W F(0.10) = 828 N; at 800 W = 1450 N
+  frequency x2 (27.12 MHz): F(0.10) = 718 N  (model lift falls as 1/f)
+  at 1 kHz the same formula gives F(0.10) = 1450 N (clipped; f is floored at 1 MHz)
+  work 0.05->0.10 m:   72.5 J   (PE change  51.5 J)
+  work 0.10->0.15 m:   57.0 J   (PE change  51.5 J)
+  work 0.05->0.15 m:  129.5 J   (PE change 103.0 J)
+  Grok msg 18 gave 67 / 52 / 124 J; msg 24 gave 70.4 / 51.0 / ~121 J for the same baseline.
+  Multi-Egg (alpha/beta only) h=0.10:   1435 N   (Grok: 1620 N at 0.10, 863 N at 0.15)
+  Multi-Egg (alpha/beta only) h=0.15:   1053 N   (Grok: 1620 N at 0.10, 863 N at 0.15)
+  -> with alpha+beta = 1 the factor is exactly 1.00 at h = 0.10 m and RAISES force at 0.15 m;
+     Grok's 1.12 boost at 0.10 m and lower force at 0.15 m need an unstated extra term,
+     i.e. the 'Multi-Egg factor' is a chosen multiplier, not a geometry result.
+
+F. Physical floor-loss bound for 1030 N (thick Al plate, P/F >= omega*delta)
+  f =   13560000 Hz: delta =     22.2 um, P_floor >=    1945.8 kW  (coil copper loss comes on top)
+  f =       1000 Hz: delta =   2581.8 um, P_floor >=      16.7 kW  (coil copper loss comes on top)
+  Sister repo (sim/README.md): ~16.7 kW at the default design, ~10 kW best design; not 520 W.
+
+G. POL coil as a magnetic sail at 1 AU
+  solar-wind dynamic pressure 1.34 nPa -> balancing field 58 nT
+  POL coil, 8 turns x 100 A x 0.28 m^2: standoff ~9.18 m, thrust ~1.8e-07 N (Cd = 1, MHD picture)
+  100 km-class loop (Zubrin-Andrews scale), m = 1e13 A m^2: standoff ~3.26e+04 m, thrust ~2.2 N (Cd = 1, MHD picture)
+  (below the ~100 km ion gyroradius the MHD picture over-predicts; real thrust is lower.)
+
+H. Energy available to piezo 'drops' from the solar wind
+  kinetic energy flux 0.5 rho v^3 = 0.27 mW per m^2 (all of it, before any conversion loss)
+  raindrop piezo harvesters: ~uJ to tens of uJ per drop (Guigon et al. 2008) [to verify the exact range]
