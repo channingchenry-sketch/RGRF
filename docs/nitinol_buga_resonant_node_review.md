@@ -62,7 +62,7 @@
 - **Electrohydraulic (Yutkin) effect.** **Grounded.** A spark discharge in water forms a plasma channel, then a shock wave, then bubble collapse. It is used for rock fracturing, lithotripsy and forming.
 - **Correction (energy).** Grok says "energy release can be orders of magnitude higher than the input in focused scenarios." The *power* and *pressure* are concentrated in time and space; the *energy* released is always less than the electrical energy stored in the capacitor bank. Grok's later "No free energy" line is correct, and it contradicts the earlier sentence.
 - **Channing's premise in [15].** Force amplifiers and converters do not create energy. A small trigger can release a large *stored* energy (a capacitor, compressed gas, a spring), but the store must be charged first. **Grounded** correction.
-- **EM pulses and water.** Water's ε_r ≈ 80 and conductivity mean strong reflection and attenuation, which is **Grounded**. Two weapons-related passages were omitted from the archive per repo rules.
+- **EM pulses and water.** Water's ε_r ≈ 80 and conductivity mean strong reflection and attenuation, which is **Grounded**. Two passages in msg 16 were omitted from the archive per repo content rules.
 - **Safety.** Electrohydraulic discharges use kV–tens-of-kV capacitor banks and produce shock waves. This is not a casual bench build: it needs enclosure, interlocks and a qualified supervisor.
 
 ## 7. Saved prototype [18]
