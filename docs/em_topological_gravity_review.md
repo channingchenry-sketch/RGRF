@@ -784,7 +784,7 @@ Builds on [L5b](#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-gr
 ### L9. Quantum biology; entanglement communications; multiverse escape
 - **Quantum biology** (Flavin organizer map, ~Sept 2026; kept separate from POL hardware):
   - Radical-pair spin chemistry and flavin photochemistry are **Grounded** chemistry. Cryptochrome flavoproteins form light-induced radical pairs whose spin dynamics are magnetic-field sensitive.
-  - **Cryptochrome-based magnetoreception** in migratory birds is a leading hypothesis with substantial experimental support. Labelled Plausible (well supported, not fully settled). I did not verify a specific review citation, so none is given.
+  - **Cryptochrome-based magnetoreception** in migratory birds is a leading hypothesis with substantial experimental support. Labelled Plausible (well supported, not fully settled). I did not verify a specific review citation, so none is given. **Update 2026-10-17:** a verified primary source is J. Xu et al., *Nature* 594, 535 (2021), doi:10.1038/s41586-021-03618-9 (robin CRY4 magnetically sensitive in vitro); see [quantum_biology_regenerative_farm_review.md §1](quantum_biology_regenerative_farm_review.md#1-quantum-biology-messages-214).
 - **Entanglement for communications.**
   - Grounded: entanglement-based quantum key distribution.
   - By the **no-signalling theorem**, entanglement alone cannot transmit information faster than light or without a classical channel. "Entanglement communications" beyond QKD/teleportation (which still need a classical channel) is Speculative or forbidden.

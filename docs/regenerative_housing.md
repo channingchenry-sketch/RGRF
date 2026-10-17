@@ -7,6 +7,7 @@ License: CC0 1.0. Evidence labels: **Grounded** / **Plausible-untested** / **Spe
 - An updated housing/dome spec (hempcrete, bamboo, airform domes, Mycobam, bubble homes) was mentioned as differing from earlier versions. **It was not found in the drafts or email archive as of 11 Oct 2026, 22:25 PT.**
 - The newest drafts (22:18 PT) contain POL/RGRF specs and an Electric-Universe compilation, with no housing content.
 - So this page summarises the earlier concept note and adds well-established building facts. Once the new spec appears, this page should be updated and the differences listed.
+- **Candidate found 2026-10-17:** messages 38–40 of the Grok share "Quantum Biology: Nature's Coherent Secrets" cover Guadua framing, hempcrete infill, mycelium composites, Airform-inspired bubble homes and living bio-walls (Mycobam is not mentioned). See [quantum_biology_regenerative_farm_review.md §6](quantum_biology_regenerative_farm_review.md#6-housing-moss-and-algae-messages-3942). Channing to confirm whether this is the updated spec.
 
 ## Concepts as described (earlier note)
 
