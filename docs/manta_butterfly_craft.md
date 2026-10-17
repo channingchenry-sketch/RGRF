@@ -56,3 +56,7 @@ See also **[Butterfly-Node](butterfly_node.md)**, the node-scale subsystem conce
 
 ## Missing pieces
 Mass, size and shape; entry trajectory; TPS design; magnet type and mass; electrical architecture; what the stored energy is for.
+
+## See also (2026-10-17)
+
+- [chern_simons_manta_butterfly_review.md](chern_simons_manta_butterfly_review.md): review of Grok share `6b85d507`, covering the Chern–Simons layer, the manta vs Butterfly comparison, the spin-lock → ion-drag → Tesla-valve chain, φ-vase stations (Symbolic) and Gaia mechanisms. None of it changes the power ledger above.

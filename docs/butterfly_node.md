@@ -113,3 +113,7 @@ Each element is mapped to existing POL / RGRF subsystems in the table at the end
 - How the node mounts on the Manta-Butterfly craft.
 
 See also: [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md) (streaming, centrifugal buoyancy, dual torus).
+
+## See also (2026-10-17)
+
+- [chern_simons_manta_butterfly_review.md](chern_simons_manta_butterfly_review.md): Grok share `6b85d507` proposes treating the figure-eight ferrofluid streams as a Chern–Simons fluid (Speculative: viscous helicity decay is expected) and adding a manta-style outer planform (hydrodynamics Grounded). Helicity-decay bench test suggested.

@@ -1,0 +1,106 @@
+
+========================================================================
+1. Rubik's Cube order in Archimedes' orders of myriads (share 6bded219, msgs 8, 10)
+========================================================================
+|G| = 8! 3^8 12! 2^12 / 12 = 43,252,003,274,489,856,000
+matches 43,252,003,274,489,856,000: True
+units of the third order  (10^16): 4,325  remainder 2,003,274,489,856,000
+units of the second order (10^8) : 432,520,032,744
+Grok said '432 units of the third order' (msg 8), 'more than 43,000 units of the
+third order' (msg 10) and '43,252,003,274 units of the second order' (msg 8).
+Correct: 4,325 units of the third order; 432,520,032,744 units of the second order.
+2x2x2: 7! 3^6 = 3,674,160 (Grok: 3,674,160)
+4x4x4 (standard formula, fixed centres convention): 7.401e+45 (Grok: ~7.4e45)
+Archimedes: 3 10/71 = 3.14085 < pi = 3.14159 < 3 1/7 = 3.14286
+Sand Reckoner's largest number: (10^8)^(10^8 * 10^8) = 10^(8e16) -> 8e16 zeros (Grok: OK)
+
+========================================================================
+2. '40 octaves' from sound to light (share 9917ff9b, msg 8)
+========================================================================
+  192 Hz x 2^40 =  211.1 THz ->   1420 nm
+  192 Hz x 2^41 =  422.2 THz ->    710 nm
+  196 Hz x 2^40 =  215.5 THz ->   1391 nm
+  196 Hz x 2^41 =  431.0 THz ->    696 nm
+Visible ~400-790 THz (380-750 nm). 2^40 lands in the near-infrared (~1400 nm);
+it takes 41 doublings to reach deep red. Ratio 790/400 = 1.975 (< one octave: OK)
+precession 25920 yr / 360 = 72.00 yr per degree
+precession 25772 yr / 360 = 71.59 yr per degree
+
+========================================================================
+3. Sheath surface Maxwell stress and its eigenvalues (share f9e0da6d, msgs 8-10)
+========================================================================
+En=5.167e+05 V/m Bn=0.095 T Bt=0.014 T | exact +3.678e+03 -3.678e+03 | Grok +3.892e+03 -3.807e+02
+En=9.492e+05 V/m Bn=0.031 T Bt=0.042 T | exact +1.099e+03 -1.099e+03 | Grok +1.021e+03 -1.347e+03
+En=8.294e+05 V/m Bn=0.041 T Bt=0.055 T | exact +1.867e+03 -1.867e+03 | Grok +1.750e+03 -2.285e+03
+En=3.728e+04 V/m Bn=0.075 T Bt=0.054 T | exact +3.411e+03 -3.411e+03 | Grok +4.203e+03 -3.096e+03
+En=3.364e+05 V/m Bn=0.079 T Bt=0.030 T | exact +2.839e+03 -2.839e+03 | Grok +3.427e+03 -1.319e+03
+Exact in-plane block is traceless (Tnn + Ttt = 0 with no z components), so the
+eigenvalues are +/- r with r = sqrt((eps0 En^2/2 + (Bn^2-Bt^2)/2mu0)^2 + (Bn Bt/mu0)^2).
+Grok's entries (as extracted) carry a nonzero mean (Bn^2-Bt^2)/4mu0, so its lambda+/- are shifted.
+Degenerate case Bn=0, Bt=0.01 T, En=c*Bt=2.998e+06 V/m -> eigenvalues -7.11e-15, +7.11e-15 (equal)
+Purely normal B=0.05 T, En=0 -> eigenvalues -994.7, +994.7 (distinct)
+So 'distinct wherever En != 0 or Bn Bt != 0' is not right: En != 0 with Bn = 0 and En = c Bt
+is degenerate, and a purely normal B with En = 0 is distinct.
+Te= 3 eV n=1e+16 m^-3: lambda_D=  128.8 um, E~1.40e+04 V/m, eps0E^2/2=8.65e-04 Pa, n kTe=4.81e-03 Pa
+Te= 3 eV n=1e+18 m^-3: lambda_D=   12.9 um, E~1.40e+05 V/m, eps0E^2/2=8.65e-02 Pa, n kTe=4.81e-01 Pa
+Te=10 eV n=1e+19 m^-3: lambda_D=    7.4 um, E~8.07e+05 V/m, eps0E^2/2=2.88e+00 Pa, n kTe=1.60e+01 Pa
+For scale: 88 kg on 1 m^2 needs 863 Pa. Lab glow/RF sheaths give mPa-Pa: the sheath term is 2-6 orders too small.
+Magnetic pressure B^2/2mu0 at 0.1 T = 3979 Pa, but it acts on the wall only through a jump (surface current).
+
+========================================================================
+4. 'Larmor precession as master clock' (shares fe4cc5d7 msgs 18-40, 6547c372 msgs 2-6)
+========================================================================
+B=0.01 T: electron f_L=  0.28 GHz, proton f_L=  0.43 MHz
+B= 0.1 T: electron f_L=  2.80 GHz, proton f_L=  4.26 MHz
+B= 0.5 T: electron f_L= 14.01 GHz, proton f_L= 21.29 MHz
+non-spinning magnet m=0.1 A m^2, I=1e-07 kg m^2 in 0.001 T: torsional oscillation 5.0 Hz (sqrt(mB/I), not gamma*B)
+non-spinning magnet m=0.1 A m^2, I=1e-07 kg m^2 in 0.01 T: torsional oscillation 15.9 Hz (sqrt(mB/I), not gamma*B)
+Ferrofluid particles relax by Neel/Brownian processes (~1e-9-1e-4 s); there is no
+coherent macroscopic Larmor precession of a ferrofluid ribbon at Hz-kHz.
+
+========================================================================
+5. Hot/cold zones: adiabatic compression then expansion (share fe4cc5d7, msgs 14-16)
+========================================================================
+p ratio 1.5: compress ->   56.0 C; expand back without heat rejection ->  20.0 C; with heat rejected at high p ->  -12.1 C
+p ratio 2.0: compress ->   84.2 C; expand back without heat rejection ->  20.0 C; with heat rejected at high p ->  -32.7 C
+p ratio 3.0: compress ->  128.1 C; expand back without heat rejection ->  20.0 C; with heat rejected at high p ->  -59.0 C
+A cold zone needs the compression heat removed first (a refrigeration cycle: work in, heat out).
+Liquids barely compress (water: dT/dp ~0.02 K/MPa at 20 C), so the gas fraction must do it.
+
+========================================================================
+6. Faraday cage 'tunnelling' slots for Tesla-coil pulses (share fe4cc5d7, msg 32)
+========================================================================
+Tesla coil     50 kHz: wavelength     5996 m
+Tesla coil    200 kHz: wavelength     1499 m
+Tesla coil   1000 kHz: wavelength      300 m
+slot width    1 cm: TE10-like cutoff  14.99 GHz
+slot width   10 cm: TE10-like cutoff   1.50 GHz
+slot width   30 cm: TE10-like cutoff   0.50 GHz
+Every practical slot is far below cutoff at coil frequencies; the pulse must enter through a
+wired feed-through or capacitive/inductive port, not a 'resonant aperture'.
+
+========================================================================
+7. Earth-Moon tidal tensor scale (share 229ef999, msg 8)
+========================================================================
+GM_moon/R^3 = 8.63e-14 s^-2 (tidal strain-rate scale); Earth Omega^2 = 5.32e-09 s^-2
+tidal acceleration at Earth's surface ~ 2 GM r/R^3 = 1.10e-06 m/s^2
+Sign: tidal tensor -d_i d_j Phi = +GM/R^3 (3 R_i R_j - delta_ij); Grok wrote Phi,ij with a minus sign
+(that is the Hessian of the potential, the opposite sign convention: consistent if read that way).
+
+========================================================================
+8. Minnaert bubble resonance for the 'bubble -> well' concept (share 604dca24, msg 10)
+========================================================================
+air bubble R= 0.010 mm in water: f_M =   328.65 kHz
+air bubble R= 0.100 mm in water: f_M =    32.87 kHz
+air bubble R= 1.000 mm in water: f_M =     3.29 kHz
+air bubble R= 3.000 mm in water: f_M =     1.10 kHz
+f_M * R ~ 3.3 m/s: a 20-40 kHz ultrasonic field addresses ~0.1 mm bubbles.
+
+========================================================================
+9. Mercury vapour hazard (share 604dca24, msg 2)
+========================================================================
+T=  20 C: p_sat~0.17 Pa -> saturated air ~ 14.0 mg/m^3
+T=  25 C: p_sat~0.261 Pa -> saturated air ~ 21.1 mg/m^3
+T=  40 C: p_sat~0.8 Pa -> saturated air ~ 61.6 mg/m^3
+Occupational limits are ~0.025-0.05 mg/m^3 (8 h TWA; ACGIH TLV / NIOSH REL), so
+saturated air over open mercury is ~300-500x over the limit at room temperature.
