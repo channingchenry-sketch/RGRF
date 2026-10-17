@@ -11,6 +11,8 @@ Jones, Mautner, Bismarck & John, "Engineered mycelium composite construction mat
 
 **Discrepancy to flag (updated):** the archive's POL frame spec (420–480 kg/m³, 2.1–2.8 MPa, "up to ~3.6 MPa optimized") is at or above the top of this range. That may be possible with heat-pressing or densification, but it needs a source or coupon tests.
 
+**Note (2026-10-17):** a Grok figure of "up to ~1–2.9 MPa (Ganoderma lucidum strongest)" traces to two different results. *G. lucidum* reaches up to ~1.91 MPa; 2.9 MPa is fibre-reinforced *Pleurotus ostreatus* (Lewandowska, Sydor & Bonenberg, *Sustainability* 17(24), 11350 (2025)). Neither is *Trametes* on hemp, so the POL target is still unsourced. See [regenerative_materials_review.md §1.1](regenerative_materials_review.md#11-mycelium-based-composites-mbcs).
+
 ## Uses found in the archive
 | Use | Source (archive file) | Label |
 |---|---|---|

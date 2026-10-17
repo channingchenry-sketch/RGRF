@@ -665,6 +665,8 @@ The precise terminal value of 1.0399 is sensitive to the exact drive amplitude, 
 
 This follows the [§7b-reentry](#7b-reentry-re-entry-as-a-control-method-that-we-create-2026-10-15) refinement: the sheath is seeded on board, then held by "sustained coupling … external interaction based on ion flow". That coupling thread was about **Alfvén waves**. Which aspect of Alfvén waves was used (wings/drag, wave heating, wave-driven acceleration, guiding along field lines): **[Channing to supply]**.
 
+*Candidate source: [grok_archive/2026-10-17_regenerative_materials_for_infrastructure.md](grok_archive/2026-10-17_regenerative_materials_for_infrastructure.md) (message 8, "Explore Alfvén wave propagation physics"), Channing to confirm. It stresses guiding (energy and momentum transport along field lines), wave heating and tuning to geomagnetic Alfvén frequencies; it does **not** mention wings/drag or ion-flow coupling of a sheath, and its date relative to 2026-10-15 is unknown. Review: [regenerative_materials_review.md §4.3](regenerative_materials_review.md#43-the-open-alfvén-aspect-gap-in-the-repo).*
+
 > Channing (verbatim, sharing this Grok-generated image, 2026-10-15): "Yeah, exactly"
 
 ![Io's Alfvén wings linking Io to its auroral footprints on Jupiter (illustrative Grok-generated image)](images/io_alfven_wings_grok.jpg)
@@ -766,7 +768,7 @@ Existing material, linked rather than repeated:
 | Schumann as an **energy source** or a **coupling mechanism** for a craft | **Speculative** (pT fields, ~10⁻¹⁹ J/m³, wavelength ~Earth-sized) |
 
 **Open items**
-- Which aspect of Alfvén waves the original thread used: **[Channing to supply]**.
+- Which aspect of Alfvén waves the original thread used: **[Channing to supply]**. Candidate source: [grok_archive/2026-10-17_regenerative_materials_for_infrastructure.md](grok_archive/2026-10-17_regenerative_materials_for_infrastructure.md) (message 8), Channing to confirm (partial match: guiding and heating, no wings/drag).
 - Conductor/sheath size, current path (electron emitter? sheath contact?) and power, to estimate the drag or thrust with the Drell et al. model.
 - Bench analog: an LAPD-type user experiment, or a small magnetised plasma column with an Alfvén-wave antenna.
 
