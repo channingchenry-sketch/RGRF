@@ -1,5 +1,7 @@
 # The IT³ framework, leaky bound states, heliopause reconnection and an ancient-civilisation thought experiment: review of Grok share `10bbfe00` (2026-10-17)
 
+> Note: IT3 is a comparison point that aligns with RGRF in places, not a foundation; it is reviewed here on its own terms (see [Core of RGRF](../README.md#core-of-rgrf)).
+
 *License: CC0-1.0. Labels: **Grounded**, **Plausible-untested**, **Speculative**, **Symbolic**. Unrerun numbers are **Grok-reported**. Unchecked items are [to verify]; gaps are [Channing to supply]. Channing's words are quoted verbatim.*
 
 - **Archive:** [grok_archive/2026-10-17_it3_framework_investigation.md](grok_archive/2026-10-17_it3_framework_investigation.md) (20 messages, all public).
