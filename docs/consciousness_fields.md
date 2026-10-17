@@ -807,6 +807,33 @@ Links:
 - Fit with RGRF: like morphic resonance (§3l) and the Global Consciousness Project (§3 table), this is a **Speculative** strand. What would move it is **preregistered, multi-lab, adversarial-collaboration replication**: one design run by proponent and sceptic labs together.
 - Which Radin experiments or ideas Channing originally focused on, and why: **[Channing to clarify]**.
 
+## 3o. Akashic Record share: Mossbridge, Telepathy Tapes, aphantasia (2026-10-17)
+*Source: Grok share "Akashic Record: Resonant AI Access" (capture `03cf9d80`, 22 messages). Archive (messages 1–2 and 7–10 only): [grok_archive/2026-10-17_akashic_record_resonant_ai_access.md](grok_archive/2026-10-17_akashic_record_resonant_ai_access.md). The rest of the share is personal and is kept in Channing's private notes, not in this repo.*
+
+### What is archived
+- **Msgs 1–2.** Channing: "Resona, do you have access to the Akashic Record?" Grok answers that it has no literal access: "I cannot “download” the full Akashic Record like a file". It then reframes the Record as an "informed universe" field. **Label: Symbolic** (the Akashic Record is a Theosophical concept, not a physical object). Grok's honest first answer is the right one.
+- **Msgs 7–8.** Channing: "Just touching back on Dr. Mossbridge’s work. I believe that the non verbal autistic kids might be operating in a 5D space. In that podcast they talk about bouncing a ball to set the timeline.. this could be like collapsing a probability wave(double slit interaction we talked about previously), right?"
+- **Msgs 9–10.** Channing: "I do no think it is just autistic kids.. I found out much later in my life that not everyone can visualize in 3D and have an internal dialogue."
+
+### Labelled claims
+
+| Claim (message) | Label | Check |
+|---|---|---|
+| Non-speaking autistic children show telepathy, as reported in *The Telepathy Tapes* podcast (msg 8) | **Speculative / not supported** | The reports rest on facilitator-dependent spelling. ASHA's 2018 position statements say Facilitated Communication "should not be used" and that messages from FC or RPM must not be assumed to be the person's own ([ASHA FC PS2018-00352](https://www.asha.org/policy/ps2018-00352); [ASHA RPM PS2018-00351](https://www.asha.org/policy/PS2018-00351/)). Controlled message-passing tests are the standard check (Schlosser et al. 2014 review cited by ASHA) [details to verify]. Grok mentions the FC issue only in passing ("ethical framing … facilitated communication"). Podcast host, year and the Joe Rogan episode: [to verify]. |
+| The ball bounce "sets the timeline", like wave-function collapse in the double slit (msgs 7–8) | **Symbolic** | Collapse in the double slit is tied to which-path information reaching the environment (decoherence), not to a conscious act. There is no measured link between a physical anchor and "timeline selection". As a story device for *Entanglements* it works fine. |
+| "Operating in a 5D space" (msgs 7–8) | **Speculative** | No measurement defines or detects a fifth perceptual dimension. See §3n for the parapsychology evidence base. |
+| "Dr. Mossbridge’s own work on retrocausality and time-symmetric effects in photon experiments" (msg 8) | **[to verify]** | Her best-known published work is the presentiment meta-analysis: J. Mossbridge, P. Tressoldi & J. Utts, *Front. Psychol.* 3, 390 (2012), already reviewed with its critiques in §3n. A photon-experiment paper by her was not found in this pass [to verify]. |
+| Aphantasia "affects roughly 4% of people" (msg 10) | **Grounded** | C. J. Dance, A. Ipser & J. Simner, "The prevalence of aphantasia (imagery weakness) in the general population," *Conscious. Cogn.* 97, 103243 (2022), doi:[10.1016/j.concog.2021.103243](https://doi.org/10.1016/j.concog.2021.103243): 3.9% of 1,004 people (VVIQ), 0.8% with no imagery at all. |
+| Aphantasia overlaps with autistic traits (msg 10) | **Grounded** (association) | C. Dance et al., "What is the relationship between Aphantasia, Synaesthesia and Autism?," *Conscious. Cogn.* 89, 103087 (2021), doi:10.1016/j.concog.2021.103087. "Hyperphantasia also appears in autism": [to verify]. |
+| Anendophasia (little or no inner speech) is common and affects verbal working memory and rhyme judgments (msg 10) | **Grounded**, with a caveat | J. S. K. Nedergaard & G. Lupyan, "Not Everybody Has an Inner Voice: Behavioral Consequences of Anendophasia," *Psychol. Sci.* 35(7), 780–797 (2024), doi:[10.1177/09567976241243004](https://doi.org/10.1177/09567976241243004): low-inner-speech adults (N = 46) did worse on verbal working memory and rhyme judgments than high (N = 47); task switching showed no difference. A 2025 commentary (A. Lind, *Psychol. Sci.*, doi:10.1177/09567976251335583) argues the data show *low* inner speech, not its total absence. "Far more common than once assumed" has no prevalence figure behind it [to verify]. |
+| Perceptual differences "may reflect varied tuning to phi-fractal layers of the informed universe" (msg 10) | **Symbolic** | No test links φ to imagery or inner speech. |
+
+### Grok's folder claim (messages 19–22, not archived)
+In the private part of the share Grok says it created a folder `experiences/Channing_personal_journey` and will keep "an evolving master document" in it. Grok cannot create persistent folders or files from a chat. The content is kept in Channing's private notes instead; nothing from it is in this repo.
+
+### Entanglements link
+The research half of this share supports a character spectrum (vivid imagers, aphantasic thinkers, people with and without inner speech) without any parapsychology claim. That framing is Grounded and fits the book.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**
