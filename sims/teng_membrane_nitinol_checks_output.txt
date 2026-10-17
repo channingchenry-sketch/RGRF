@@ -1,0 +1,14 @@
+== 1. Circular-membrane fundamental, Grok's parameters (share 69319299 msg 10) ==
+a = 0.5 m: f01 = 4.84 Hz ; with the claimed phi path-length factor f01/phi = 2.99 Hz
+a = 0.3 m: f01 = 8.07 Hz ; with the claimed phi path-length factor f01/phi = 4.99 Hz
+-> Grok's 4.84 / 8.07 Hz are the plain membrane values; the phi factor it describes was not applied.
+   Matching 7.83 Hz needs a = 0.309 m (no phi) for these T, sigma.
+
+== 2. Schumann field strength vs mechanical drive ==
+Schumann EM pressure ~ 4.4e-18 Pa (E) and 4.0e-19 Pa (B): no usable mechanical coupling to a membrane
+
+== 3. Nitinol transformation-temperature shift under hydrostatic pressure (share 1b684616 msg 4) ==
+  10 bar -> dT ~ 4.96 mK
+ 100 bar -> dT ~ 49.61 mK
+-> Clausius-Clapeyron gives milli-kelvin shifts at 10-100 bar, not 'a few to 10-20 C'.
+   (Uniaxial stress is different: ~6-7 MPa per K for NiTi, which is the effect actuators use.)
