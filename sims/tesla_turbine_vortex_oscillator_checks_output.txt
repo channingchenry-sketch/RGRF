@@ -1,0 +1,39 @@
+== 1. EHD thrust example (msg 10) ==
+Grok: F ~ I*V/v_ion = 0.50 N at P = I*V = 50 W  (-> 10 N/kW)
+Standard 1D model F = I*d/mu, gap d = 2 cm: 0.10 N  (2.0 N/kW)
+Standard 1D model F = I*d/mu, gap d = 5 cm: 0.25 N  (5.0 N/kW)
+-> Same order (0.1-0.5 N for 50 W). The repo ledger gives 6-50 N/kW (lift_and_equilibrium_systems.md);
+   lifting an ASSUMED 50 kg by ion wind alone at 10 N/kW would need ~9.8*50/10 = ~49 kW.
+
+== 2. Induced EMF example (msg 10) ==
+N=1, A=0.01 m^2, dB/dt=1000 T/s: EMF = 10 V (Grok: ~10 V; correct)
+
+== 3. Single-mass frequency and the coupled pair (msgs 10, 12) ==
+f = sqrt(k/m1)/2pi = 7.12 Hz (Grok 7.1 Hz; correct for one mass)
+Linear normal modes with k_ground = k_coupling = 1000 N/m: 5.19, 12.60 Hz
+-> A 7.1 Hz drive sits between the two normal modes (5.2 and 12.6 Hz), not on a resonance of the coupled pair.
+F_amp 10.0 N at  7.1 Hz: peak-to-peak x1 1.29 cm, x2 2.79 cm, mean x1 -0.028 mm, drive power 1.18 W
+F_amp 10.0 N at  5.2 Hz: peak-to-peak x1 3.98 cm, x2 5.68 cm, mean x1 +0.043 mm, drive power 3.23 W
+F_amp 10.0 N at 12.6 Hz: peak-to-peak x1 2.35 cm, x2 2.48 cm, mean x1 -0.061 mm, drive power 4.58 W
+F_amp 0.5 N (EHD scale) at 7.1 Hz: peak-to-peak x1 0.64 mm, x2 1.39 mm, mean x1 -0.0014 mm
+-> Amplitudes are mm-to-cm and set by drive and damping; the mean offset is ~0 (the force law is odd in x).
+   Grok's 'final positions stabilize near ~0.01 m offset due to drive' does not follow from its own model.
+   All the motion is paid for by the drive: the average drive power equals the damping loss.
+
+== 4. 'Hyperbolic' vortex (msg 20) ==
+theta   0.0 rad: r = 2.0000 ; r*theta = 0.000
+theta   5.0 rad: r = 1.2131 ; r*theta = 6.065
+theta  10.0 rad: r = 0.7358 ; r*theta = 7.358
+theta  20.0 rad: r = 0.2707 ; r*theta = 5.413
+-> A free vortex plus a 1/r sink gives a LOGARITHMIC spiral, r = r0*exp(-c*theta/k), at a constant angle;
+   r*theta is not constant, so the paths are not hyperbolic spirals. (A log spiral is golden only for one
+   specific c/k; nothing in the model selects it.)
+
+== 5. Digital roots of atomic numbers (msgs 28, 30) ==
+alkali (Li..Fr)          roots [3, 2, 1, 1, 1, 6]  share of 3/6/9 = 33%
+halogens (F..At)         roots [9, 8, 8, 8, 4]  share of 3/6/9 = 20%
+noble gases (He..Rn)     roots [2, 1, 9, 9, 9, 5]  share of 3/6/9 = 50%
+3d transition (Sc..Zn)   roots [3, 4, 5, 6, 7, 8, 9, 1, 2, 3]  share of 3/6/9 = 40%
+all elements 1-118: share of 3/6/9 = 33% (one third by construction)
+-> Ar, Kr, Xe = 18, 36, 54 land on 9 because the periods have 8 and 18 elements; Rn (86) -> 5, Og (118) -> 1.
+   Halogen F = 9 and alkali Li = 3 are 3/6/9 too; no reactive/inert split exists in the roots.
