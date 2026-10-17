@@ -70,6 +70,8 @@
 | 6 | Fractal self-similarity | **Symbolic** | As a design rule it is untested, and φ variants have so far tested null. |
 | 7 | Spin | **Grounded** (rotation is real) / **Symbolic** (as "living, rotating resonance") | **Inconsistency:** "spin-induced coherence" already appears as pin 4, so Spin is counted twice. "POL's eddy currents" are induced by an AC field and do not require rotation. |
 
+**Candidate source (2026-10-17, Channing to confirm):** the locking passages (phase-locking, hexagonal "pinning", infrasound + EM locking) quoted in [pyramidion_node_review.md §7](pyramidion_node_review.md#7-locking--lock-pin-passages-candidate-source-for-the-missing-electrostatic-locking-linch-pins) may relate to pins 2 and 4 and to the missing "electrostatic locking linch pins" section. That conversation contains no explicit "lock pin" wording.
+
 **Provenance gap.** Grok says this list is "refined from our May sessions" but also invites iteration. The **original May 2026 wording is [Channing to supply]**. The list above is Grok's version, not a confirmed original. Grok's claim that the pins "create standing-wave 'nodes' that lock energy into stable, self-reinforcing patterns" (msg 4) is **Symbolic**: no physical model was given.
 
 ## 6. "The 11th Dimension as a Collective Electromagnetic Plenum" (book speculation)
