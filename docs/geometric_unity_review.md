@@ -4,6 +4,7 @@
 
 - **Source conversation:** Grok, "Geometric Unity Meets Regenerative Resonance", shared by Channing. The verbatim archive is [grok_archive/2026-10-17_geometric_unity_meets_regenerative_resonance.md](grok_archive/2026-10-17_geometric_unity_meets_regenerative_resonance.md) (8 messages, no code). Quotes below are from that file and are marked "(Grok, msg n)".
 - **Related:** Tesla coil history and design rules in [tesla_davinci_threads.md §1 / §1a / §1b](tesla_davinci_threads.md#1-nikola-tesla); solid-state drive, Class-E/ZVS and the φ-null resonant-drive sim in [transistor_drive_stages.md](transistor_drive_stages.md); wireless-power limits in [em_topo L6](em_topological_gravity_review.md#l6-wireless-energy-transfer-northern-europe-focus-noted); mycelium data in [mycelium_uses.md](mycelium_uses.md); φ method in [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md).
+- **See also:** the RGRF four-pillar foundations, "6 lock pins + Spin" and the 11th-dimension EM-plenum speculation in [rgrf_foundations_review.md](rgrf_foundations_review.md).
 
 ## 1. What Geometric Unity is, and its status
 
