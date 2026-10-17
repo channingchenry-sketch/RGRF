@@ -14,6 +14,27 @@ Each element is mapped to existing POL / RGRF subsystems in the table at the end
 - The integrated node: **Plausible-untested.**
 - Any lift or net-energy claim: **Speculative** (see the Power ledger section).
 
+## 0. Source conversation found (2026-10-17)
+The concept comes from Grok share #68, "Stanley Meyer Resonance: Useful Circuits and Stochastic Geometry", messages 17–29 ([archive](grok_archive/2026-10-17_stanley_meyer_resonance_stochastic_geometry.md); review [meyer_butterfly_ultrasonic_review.md §A5](meyer_butterfly_ultrasonic_review.md#a-share-68-56979586-stanley-meyer-resonance-useful-circuits-and-stochastic-geometry)). Share #69 ([archive](grok_archive/2026-10-17_ultrasonic_waves_water_harmonics_negentropy.md), [§B](meyer_butterfly_ultrasonic_review.md#b-share-69-dcf6e870-ultrasonic-waves-water-harmonics-and-negentropy)) extends it to radial and double-ellipse ("eye") layouts.
+
+Channing (verbatim, share #68):
+- "Let’s do a thought experiment Let’s say we have a spiral funnel against the funnel is a stainless tube with water and a ferrofluid wrapping downward(vortex our style)inside that is an egg shaped cavity with copper tubes at our focal points)( helium quartz damping system and pressure exchange with water/hemp oil vortex coiled system. Funneled through a magnetic toroidal.. what would this look like"
+- "Let’s evolve the thought experiment and have our lines of ferrofluid lines forming a figure eight if we strategically place copper half tubes can we strategically control by manipulating centrifugal force.." (interrupted)
+- "Let’s evolve the thought experiment and look at the systems we already have for possible function.. I’m trying to visualize it.. very similar to a butterfly"
+- "Works by impedance..?"
+- "If the egg were free to move?.. and look at how a change in one impedance path propagates throughout the whole.. also, can we explore impedance matching in acoustic filters.. what happens if you have two point of impedance opposite each other.."
+
+Channing (verbatim, share #69): "Actual if it were a double ellipsis almost eye like we would have marked spots for valve placement"
+
+**What the source adds:** a spiral funnel; a stainless water tube with a downward-wrapping ferrofluid vortex; copper tubes at the cavity foci; a helium-quartz damping stage; a water/hemp-oil pressure-exchange coil; and a magnetic toroid at the exit.
+
+**Corrections from the review (they apply to §2, §4 and §5 below):**
+- An egg (ovoid) has no exact conjugate foci; an ellipse or ellipsoid does. The double-ellipse layout restores exact foci.
+- "Minimum impedance at resonance, so high voltage at low current" mixes series and parallel resonance.
+- Two opposite impedances in a passive, linear cavity do not make an acoustic diode. Reciprocity holds unless there is flow, nonlinearity or time modulation.
+
+**Still missing:** the source gives no dimensions, frequencies, impedances or drive powers. Every **[Channing to supply]** below still stands. Grok's butterfly illustration was not captured.
+
 ## 1. Figure-eight ferrofluid wings
 - **Description:** ferrofluid held in a figure-eight (two-lobed) "wing" path. Geometry, volume, fluid type, field source and drive are **[Channing to supply]**.
 - **Grounded basis:**

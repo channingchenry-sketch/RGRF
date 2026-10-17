@@ -805,6 +805,7 @@ Builds on [L5b](#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-gr
 - **RGRF extension.** Black holes as an organising "womb" or an information-preserving pause (ellipsis). Speculative. Parked as a narrative and theme for the *Entanglements* novel, not RGRF engineering.
 - **Falsifiable question.** Does the scenario predict a gravitational-wave echo, a remnant signature, or a deviation in black-hole ringdown that LIGO-Virgo-KAGRA or the Event Horizon Telescope could detect?
 - **Missing.** A specific model and observable.
+- **Found source (2026-10-17).** Grok share #67, "Hopf Flow Topology in Vortex Systems" ([archive](grok_archive/2026-10-17_hopf_flow_topology_vortex_systems.md), [review](hopf_ccc_black_hole_womb_review.md)): the womb → ellipsis → quasar-birth sequence, with the LQG black-to-white-hole bounce (Haggard & Rovelli 2015) as the candidate "ellipsis". Still no model or observable; the falsifiable question above stands.
 
 ### L12. Data-centre waste-heat reuse (Grounded, verified)
 - **Stockholm, Sweden.** Stockholm Exergi's *Open District Heating* (since ~2013/2014) and Stockholm Data Parks recover data-centre heat into the city network: >100 GWh in 2022 from ~20 suppliers, heat pumps in Hjorthagen (24 MW). Sources: EU Covenant of Mayors case study (2023); Stockholm Exergi references.

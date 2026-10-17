@@ -327,7 +327,7 @@ Context: membrane fouling from mycelium-loop feedwater. The **"ionic bonding" ro
 
 ## Unknowns (whole doc)
 - Remaining missing paste details (the electrolysis section is now recovered).
-- The H₂O₂ notes.
+- The H₂O₂ notes. *Partly found (2026-10-17):* Grok share #61 covers on-board generation by the carbon 2e⁻ oxygen reduction and its H₂O + O₂ by-products ([hemp_oil_peroxide_economy_review.md](hemp_oil_peroxide_economy_review.md) §3). Concentrations and flush schedule are still missing.
 - Strain choice (melanized or not).
 - Living vs cured skins.
 - Biosafety containment.

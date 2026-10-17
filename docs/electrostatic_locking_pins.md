@@ -210,6 +210,11 @@ Friction-clamp area needed to match the 3 mm steel pin (μ = 0.5): **≈ 2.8 m²
 
 **Checked, no lock-pin passages (2026-10-17):** shares `373a0a5b` ([review](newman_bubble_circulation_baghdad_review.md)), `28a95833`, `10bbfe00`, `29401d7f` and `ace6ad75` contain no lock-pin, linch-pin or electrostatic-locking passages. Share `373a0a5b` uses "Larmor precession locking … precession re-lock" (msgs 4–16) as a timing idea, which belongs with the resonance locks in (c) below, and its "barbed / pitted" surfaces (msg 18) pin bubble nucleation sites, not hardware.
 
+**Shares #60–#69 (2026-10-17): no lock-pin, linch-pin or electrostatic-locking passages.** The nearest wording describes magnetic holding of a fluid. It is not a lock-pin usage and is listed only so it is not mistaken for one:
+- Share #68, msg 21 ([archive](grok_archive/2026-10-17_stanley_meyer_resonance_stochastic_geometry.md)): "a pulsed current in a half-tube can temporarily pin or release a segment of the ferrofluid stream, letting us sculpt the exact shape and timing of the figure-eight."
+- Share #68, msg 25: "By adjusting current in the half-tubes we can raise or lower that load and therefore steer how much of the figure-eight ferrofluid stream is pinned or released."
+- Share #69, msg 6 ([archive](grok_archive/2026-10-17_ultrasonic_waves_water_harmonics_negentropy.md)): "Extending them into a mild confinement shell around the water–helium paths can pin the figure-eight or parallel-path vortices, damp chaotic streaming, and keep the free-egg (or central quartz resonator) centered via eddy-current or diamagnetic forces."
+
 **Suggested reconciliation (Resona, for Channing to accept or change):**
 - (a) **Principles:** keep one numbered list of design principles and drop the duplicate spin entry. Which list (foundations six + Spin, or `56489a13`'s seven) is canonical is **[Channing to supply]**.
 - (b) **Hardware:** call this doc's physical connectors "lock pins (hardware)". A lock pin is then a mechanical pin with an optional electrostatic clamp or sensor.
