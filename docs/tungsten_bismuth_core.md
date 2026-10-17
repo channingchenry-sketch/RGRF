@@ -370,7 +370,7 @@ Implication: at MHz heartbeat frequencies, induced currents in a W shell stay wi
 - Links: shear Alfvén-Hall waves in the Z-pinch / cyclotron-magnetron text → [§7](#7-toroidal-photon-dynamics--photon-chase-through-toroidal-field-recovered--speculative); resistive / dynamo form and the toroidal-field paste → [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15); toy HMHD results → §7b below; Z-pinch equilibrium → [§3](#3-z-pinch-with-sheared-flow-stabilization--grounded).
 
 ## 7b-dyn. Toroidal dynamo / induction equation: MHD in space (recovered, OCR-damaged, 2026-10-15)
-**Context:** Channing says the original Grok thread was mainly about **MHD in space**: space plasmas such as the solar wind and magnetospheres, and the dynamo context. Most of that thread was not saved. **[Channing to supply]** the rest as he recalls it. The "dynamo equation we explored earlier" is most likely the induction equation in [§7b-math](#7b-math-hall-mhd-math-recovered-ocr-damaged) above (Hall-MHD form). The earlier dynamo derivation itself is not in the repo. **[Channing to supply]**
+**Context:** Channing says the original Grok thread was mainly about **MHD in space**: space plasmas such as the solar wind and magnetospheres, and the dynamo context. Most of that thread was not saved. **[Channing to supply]** the rest as he recalls it. **Update 2026-10-17:** most of it has been found; see [§7b-dyn.3](#7b-dyn3-source-conversation-found-earths-em-field-magnetic-pressure-2026-10-17). The "dynamo equation we explored earlier" is most likely the induction equation in [§7b-math](#7b-math-hall-mhd-math-recovered-ocr-damaged) above (Hall-MHD form). The earlier dynamo derivation itself is not in the repo. **[Channing to supply]**
 
 **Channing's pasted text (as received, OCR garbling kept):**
 > Equations for insight: The magnetic induction in a toroidal setup follows the dynamo equation we explored earlier, with added toroidal symmetry:  
@@ -440,7 +440,7 @@ resonances. Strong shear stabilizes many modes.
 B_N = 3-5 typically).
 8 ometry: Toroidal shaping, elongati and triangularity influence limits.
 ```
-- **OCR and chip notes:** "sciencedirect" is a citation chip; the source was not recovered. "B" / "ß" = β; "B_N" = β_N (normalized beta, in %·m·T/MA); "8 ometry" = "Geometry"; "elongati" = "elongation". The text appears cut off after the geometry line; the rest is **[Channing to supply]**.
+- **OCR and chip notes:** "sciencedirect" is a citation chip; the source was not recovered. "B" / "ß" = β; "B_N" = β_N (normalized beta, in %·m·T/MA); "8 ometry" = "Geometry"; "elongati" = "elongation". The text appears cut off after the geometry line; the rest is **[Channing to supply]**. **Update 2026-10-17:** the full message (message 10) is in the archive linked from [§7b-dyn.3](#7b-dyn3-source-conversation-found-earths-em-field-magnetic-pressure-2026-10-17).
 
 **Analysis (all Grounded, mainstream fusion physics; sources checked 2026-10-15)**
 - **Safety factor q (Grok's wording is loose).** q is the number of **toroidal** transits a field line makes per **poloidal** transit, i.e. how many times it goes round the long way for each trip round the short way. For large aspect ratio, q ≈ r B_φ/(R B_θ) (the form used above). It is a winding ratio, not a count of "field lines".
@@ -520,6 +520,7 @@ The precise terminal value of 1.0399 is sensitive to the exact drive amplitude, 
 - The garbled closing is read as "not a full 3D MHD code (which would require … resources like Dedalus or NIMROD). It captures diffusion [and] advection-like resonance."
 - NIMROD exists: C. R. Sovinec et al., "Nonlinear magnetohydrodynamics simulation using high-order finite elements," *J. Comput. Phys.* 195, 355–386 (2004), doi:10.1016/j.jcp.2003.10.004. Dedalus is verified in §3a.
 - The original code: **[Channing to supply]** (Channing is asking Grok for it; compare against the rebuild if it arrives).
+- **Update 2026-10-17:** the original code was found (one line clipped) in the share archived at [grok_archive/2026-10-17_earths_em_field_magnetic_pressure.md](grok_archive/2026-10-17_earths_em_field_magnetic_pressure.md). A rerun reproduces 1.0399 and shows it is decay from 1.50: see [§7b-dyn.3](#7b-dyn3-source-conversation-found-earths-em-field-magnetic-pressure-2026-10-17).
 
 **Assessment of Grok's reported results**
 - **"Toward greater coherence" is expected and trivial.** Diffusion damps mode k at rate ηk², so high-k structure dies first and the low modes plus the forced pattern remain.
@@ -598,6 +599,85 @@ The precise terminal value of 1.0399 is sensitive to the exact drive amplitude, 
   - The spread between φ, √2, 1/2 and the plain lock (~5 %) is the size of the oscillation noise. The single-instant value at t = 40 swings from 0.75 to 1.26 with the drive phase, which is why a single "final max abs(B)" like 1.0399 is not a meaningful metric.
 - **Even with no drive,** the shear proxy plus the filter raise the low-mode share (to ~0.7–0.9) while the field decays. Coherence comes from the built-in terms.
 - **Labels:** the qualitative behavior is **reproduced by construction**. A φ advantage is **Speculative** (not seen). Dynamo or shear-stabilisation readings are an **overclaim**.
+
+### 7b-dyn.3 Source conversation found: "Earth's EM Field Magnetic Pressure" (2026-10-17)
+*Why φ appears here, and how it is tested: [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md).*
+
+**What was found.** The Grok share "Earth's EM Field Magnetic Pressure" (18 messages, archived verbatim at [grok_archive/2026-10-17_earths_em_field_magnetic_pressure.md](grok_archive/2026-10-17_earths_em_field_magnetic_pressure.md)) is the **original source** of three pasted excerpts:
+- **§7b-dyn:** the toroidal-motor paste ("Equations for insight … kink or tearing modes") is from message 8.
+- **§7b-dyn.1:** the tokamak excerpt is from message 10. The full message is now available; the "rest" that §7b-dyn.1 lists as missing is in the archive.
+- **§7b-dyn.2:** the "1D periodic model" description and the "Final max |B| = 1.0399" result are from message 12, **together with the original code**.
+
+So the "MHD in space" thread that §7b-dyn says was mostly unsaved is largely this conversation. It runs from magnetic pressure through the dynamo, Schumann nodes, the toroidal motor, tokamaks, the sim and a synthesis, to MHD instabilities and reconnection. Earlier pieces may still exist elsewhere: "the dynamo equation we explored earlier" in message 8 refers back to message 4 of the same chat. The Hall-MHD form in §7b-math is not in this share.
+
+Related captures:
+- Share `ac90931e` (magnetic pressure and the Maxwell stress tensor): [lift §9b](lift_and_equilibrium_systems.md#9b-maxwell-stress-magnetic-pressure-and-pol-lift-2026-10-17).
+- Share `e0291c5e` (tungsten toroid pressure integration): not yet archived.
+
+**Channing's prompts (verbatim):**
+1. "What is the approximate pressure density of Earth’s EM field?"
+2. "Investigate Magnetohydrodynamic Dynamo Theory"
+3. "Can we explore dynamo field stabilization using our geometrical node configuration and Schumann frequency?"
+4. "Can we explore dynamic field stabilization in a closed loop toroidal motor?"
+5. "Explore tokamak plasma stability"
+6. "Can we do a Python simulation of simplified toroidal MHD (induction equation with phi boundaries + resonant drive)?"
+7. "Let’s review what we’ve learned and weave them in. Including our earlier conversations about plasma."
+8. "Explore MHD instabilities"
+9. "Explore magnetic reconnection physics"
+
+**Rerun of the original code: [`sims/grok_toroidal_mhd_1d_rerun.py`](../sims/grok_toroidal_mhd_1d_rerun.py)**
+- **Grok's code:**
+  - Grid: L = 10, N = 256, η = 0.01, periodic.
+  - Initial field: B₀ = sin(2πx/L) + 0.5 cos(4πx/L).
+  - Drive: 0.05 sin(ωt + φ·2πx/L)·exp(−(x − L/2)² …), with ω = 2π·7.8·0.01.
+  - Solver: RK45, rtol = atol = 1e-5, t from 0 to 50.
+- **The clip.** The drive line is clipped after `(x - L/2)**2` [Channing to supply the full line]. The rerun completes it as `/(2σ²)` and scans σ.
+- **Result (run 2026-10-17):**
+
+| Case | Final max abs(B) at t = 50 |
+|---|---|
+| initial field B₀ | **1.500** |
+| no drive | 1.048 |
+| **φ phase gradient, σ = 1** (i.e. `np.exp(-(x - L/2)**2 / 2)`) | **1.0399**, matching Grok's "≈ 1.0399" to 4 digits |
+| same σ, phase gradient 0 / 1.5 / √2 / 2 instead of φ | 1.036 / 1.041 / 1.043 / 1.045 |
+| φ, σ = 0.71 or 2 | 1.043 / 1.061 |
+| drive alone (B₀ = 0) | 0.064 |
+
+- **Grok's number reproduces.** It reproduces with σ = 1, so the missing tail was very probably `/ 2)` or `/ (2*1**2))`. This is the first Grok sim number in the repo that a rerun of its own shown code matches exactly.
+- **The physics claim does not.** The field **decays** from 1.50 to ~1.04. The undriven field ends at 1.048, *higher* than the φ-driven 1.0399. "Modest amplification, showing stabilization via resonance" is wrong: 1.04 is ~70 % of the starting peak, and the drive's own forced response is only ~0.06.
+- **"Initial multi-mode chaos damped":** B₀ contains only the k = 1 and k = 2 modes (100 % of the energy is in them at t = 0). There was no multi-mode or chaotic state to damp.
+- **φ vs controls:** at the same σ, every phase gradient gives a final value between 1.036 and 1.045, with φ in the middle. The spread is set by where the oscillating drive happens to be at t = 50; over t = 40–50 every case swings by ~0.07. **No φ advantage**, matching [§7b-dyn.2](#7b-dyn2-1d-periodic-toroidal-induction-model-with-schumannphi-drive-grok-excerpt), [`sims/toroidal_induction_2d_ablation.py`](../sims/toroidal_induction_2d_ablation.py) and [transistor_drive_stages §5](transistor_drive_stages.md#5-sim-simsresonant_drive_phi_testpy-results).
+- **"phi boundaries" are not boundaries.** The grid is periodic. φ enters only as a spatial phase gradient in the forcing.
+- **No shear, filter or saturation.** The 2026-10-15 "recreation" quoted in §7b-dyn.2 described a shear proxy, high-k filtering and soft saturation. None of these is in the original code.
+
+**Labels for the rest of the conversation**
+| Claim (message) | Check | Label |
+|---|---|---|
+| B ≈ 25–65 μT, B²/2μ₀ ≈ 1×10⁻³ J/m³ ≈ 0.001 Pa at 50 μT (2) | 2.5×10⁻⁹/2.513×10⁻⁶ = 9.95×10⁻⁴ Pa | Grounded (same as [lift §9b](lift_and_equilibrium_systems.md#9b-maxwell-stress-magnetic-pressure-and-pol-lift-2026-10-17)) |
+| "comparable to the weight of a thin sheet of paper spread over a square meter" (2) | 80 g/m² paper weighs ~0.78 Pa, ~800× more | **Wrong** (0.001 Pa ≈ 0.1 g per m²) |
+| Solar-wind dynamic pressure 1–4 nPa; dayside magnetopause ~10 R_E (2) | Standard values | Grounded |
+| External-field energy 10¹⁷–10¹⁸ J "in the near-surface atmosphere" (2) | A dipole field outside Earth holds W ≈ (4π/3μ₀)R³B_eq² ≈ 8×10¹⁷ J (ANALYSIS), but that is the **whole** external field, not a near-surface layer | Grounded number, misattributed |
+| Induction equation, Rm, α–Ω, Cowling, anti-dynamo (4, 14, 16, 18) | Covered in [§7b-dyn](#7b-dyn-toroidal-dynamo--induction-equation-mhd-in-space-recovered-ocr-damaged-2026-10-15) above. Grok's "no purely axisymmetric steady dynamo" is narrower than Cowling (no axisymmetric dynamo at all) | Grounded |
+| Ohmic decay ~10⁴–10⁵ yr; core Ekman ~10⁻¹⁵; models at E ~10⁻⁷–10⁻⁸; MAC balance (4) | Free-decay time μ₀σr²/π² ≈ 50 kyr for σ ~10⁶ S/m (ANALYSIS); E ~10⁻¹⁵ standard; the low-E figures are of the Schaeffer et al. 2017 (GJI 211, 1) / Aubert 2017 kind [to verify the exact E values] | Grounded |
+| Schumann 7.8 Hz, harmonics ~14, 20, 26 Hz, ~pT magnetic component; negligible coupling to the core (6, 10, 18) | Observed modes ~7.8, 14.3, 20.8, 27.3 Hz; amplitudes ~1 pT | Grounded (Grok's own limitation is correct) |
+| Schumann "influences on heart rate variability, blood perfusion, and circadian rhythms in some studies" (6) | Correlation studies exist (e.g. Alabdulgader et al., *Sci. Rep.* 8, 2663 (2018) [to verify]); no mechanism established | Plausible-untested at most |
+| φ-spiral nodes or coils tuned to 7.8 Hz "entrain ambient fields", stabilise eddy lift or reduce reversals (6, 8, 14) | No mechanism. A ~pT field cannot steer a device's own mT–T fields, and φ gave nothing in every repo test | **Speculative** (φ **Symbolic**) |
+| Toroidal motor: closed flux path, low leakage, FOC and resonant harmonic control (8) | Standard motor engineering | Grounded |
+| "Toroidal propellers … stabilize flow by closing vortex loops, reducing noise" (8) | MIT Lincoln Laboratory toroidal propellers (2022–23) are reported quieter [to verify the mechanism and data] | Plausible-untested |
+| Tokamak q, shear, kink/ballooning/tearing/NTM/RWM/ELM, RMP/ECCD control (10, 16) | Mainstream | Grounded |
+| Troyon "β_N ≈ 3–5 typically" (10) | Already corrected in [§7b-dyn.1](#7b-dyn1-tokamak-stability-factors-grok-excerpt): ~2.5–3.5 typical | Overstated |
+| "SPARC designs emphasize low β_N with high fields" (10) | SPARC runs at β_N ≈ 1 at B₀ ≈ 12 T (Creely et al., *J. Plasma Phys.* 86, 865860502 (2020)) | Grounded |
+| "Phi-spiral coils … can increase magnetic shear, raising the kink threshold" (16) | Shear and q come from the current and coil profile, not from φ. No calculation is given | **Speculative** |
+| "Our 7.8 Hz resonant drive in the simulation … can suppress or entrain such [tearing] modes" (16); the sim "implicitly captures reconnection-like topology changes" (18) | The 1D scalar sim has no tearing mode, no topology and no reconnection (see the rerun) | **Not supported** |
+| Kink modes or reconnection "contribute to field reversals" in the core (16, 18) | Geodynamo reversals come from the convective dynamo; kink and tearing are not the standard explanation | **Speculative** |
+| Reversals "every ~200,000–300,000 years" (16) | Roughly the recent-Cenozoic average, but highly irregular; the last full reversal was ~780 kyr ago | Grounded as an average, with that caveat |
+| Mycelium composites as "adaptive damping" or "second-stability" analogs; "adaptive resistivity" for reconnection (10, 16, 18) | Analogy only | **Symbolic** |
+| Reconnection: Sweet–Parker, Petschek, plasmoid instability, frozen-in breaking, dayside and tail reconnection, sawteeth (18) | Mainstream (Dungey 1961 above) | Grounded |
+| "human-powered" POL, eddy lift "against conductive surfaces" (2, 4) | The repo contradicts "human-powered": ~520 W available vs ~10–17 kW needed ([legal_safety §3](legal_safety_and_grounding_review.md#3-the-human-powered-levitator-and-eddy-current-lift), [lift §9b](lift_and_equilibrium_systems.md#9b-maxwell-stress-magnetic-pressure-and-pol-lift-2026-10-17)) | **Contradicted by the repo** |
+
+**Open items**
+- The full share URL, the full `drive = ...` line and the plotting code; the image `toroidal_mhd_simulation.png` ("Visual from our simulation"); the "[20 sources]" list. **[Channing to supply]**
+- Share `e0291c5e` ("Tungsten Toroid Electromagnetic Pressure Integration") is related and still to be archived.
 
 ## 7b-reentry. Re-entry as a control method "that we create" (2026-10-15)
 > Channing (verbatim): "We used the concepts of re-entry as a control method that we create."
