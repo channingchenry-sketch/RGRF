@@ -1,0 +1,38 @@
+== 1. Icosahedron coordinates (msg 2) ==
+cyclic (0,+-1,+-phi): shortest distance 2.000000, count 30 (an icosahedron has 30 equal edges)
+(1,0,phi) in the cyclic set of (0,1,phi)? False
+(phi,1,0) in the cyclic set of (0,1,phi)? False
+-> (1,0,phi) and (phi,1,0) belong to the mirror-image icosahedron (anticyclic set); Grok's example list mixes the two orientations.
+
+== 2. Vector equilibrium counts (msgs 4, 6, 8) ==
+VE: 12 vertices, outer edges 24 of length 1.414214; radius 1.414214 (= edge)
+-> 24 outer edges plus 12 radial vectors, all equal. Grok's '24 unit edges radiating from the centre' should read 12 radial.
+
+== 3. Jitterbug twist angle (msg 6) ==
+VE                   triangle twist   0.000 deg ; square-diagonal / edge = 1.4142
+icosahedron          triangle twist  22.239 deg ; square-diagonal / edge = 1.0000
+octahedron (limit)   triangle twist  60.000 deg ; square-diagonal / edge = 0.0000
+-> The regular icosahedron is a single point of the twist (22.24 deg from the VE; by symmetry 97.76 deg on the return),
+   not the ranges '22.2-37.8 deg' and '82.2-97.8 deg' in msg 6. Octahedron at 60 deg is correct.
+
+== 4. Quanta-module volumes (msg 6) ==
+A = B = T = 1/24 = 0.041667; MITE = 2A + B = 0.125000 (1/8)
+E = (sqrt2/8) * phi^-3 = 0.041731   (note phi^-3 = 2phi - 3 = 0.236068; Grok's '2phi-3 ~ 0.041731' drops the sqrt2/8 factor)
+S = phi^-5 / 2 = 0.045085
+E3 = E*phi^3 = 0.176777 ; E6 = E*phi^6 = 0.748838 (Grok: 0.176766, 0.748838)
+RT(5+) = 120 E = 5.007758 (Grok 5.007758); RT(5) = 120 T = 5.0
+Icosahedron, unit edge: 5*sqrt2*phi^2 = 18.5123 tetravolumes (check: Euclidean volume 2.18169 / tetra 0.11785 = 18.5123)
+
+== 5. Great circles (msg 4) ==
+VE: 4 + 3 + 6 + 12 = 25 ; icosahedron: 6 + 10 + 15 = 31 (Fuller's counts; Grounded)
+
+== 6. Maxwell's rule (msg 4) ==
+j = 12: 3j - 6 = 30; the 6-strut tensegrity icosahedron has 30 members, i.e. exactly Maxwell's count.
+Calladine's extension b - 3j + 6 = s - m: it has s = 1 state of self-stress and m = 1 infinitesimal mechanism,
+and the prestress stiffens that mechanism (Calladine 1978). Grok's 'fewer bars than Maxwell' is true of some tensegrities, not this one.
+
+== 7. Nitinol and a static magnet (msg 14) ==
+Induction heating needs a changing field: dP ~ (dB/dt)^2. A permanent 60-deg arc magnet at rest gives dB/dt = 0 -> no heating.
+Only a rotor sweeping past the nitinol, or an AC coil, can induction-heat it, and that power comes from the drive.
+Typical NiTi A_f range -10 to 100 C: liquid-nitrogen (-196 C) or helium (-269 C) cooling is not needed to hold martensite.
+Carnot limit for an SMA heat engine between 80 C and 20 C: 17.0%; real SMA engines run well below it [to verify: measured values].

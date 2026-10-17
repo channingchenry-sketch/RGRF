@@ -3,6 +3,8 @@
 
 **Labels:** Grounded · Plausible-untested · Speculative · Symbolic. φ is **Symbolic** unless a test shows otherwise. Grok's simulation results are **Grok-reported** unless rerun. A city name is removed from the archive, and one phrase in message 4 is omitted under the repo content rules.
 
+**Follow-on thread.** Fuller's golden geodesic, tensegrity mechanics, synergetics (VE, jitterbug, quanta modules, Dymaxion) and the quartz–nitinol vortex node are reviewed in [fuller_tensegrity_vortex_node_review.md](fuller_tensegrity_vortex_node_review.md) (share 3fbfa3e5), with geometry reruns in [`sims/fuller_jitterbug_quanta_checks.py`](../sims/fuller_jitterbug_quanta_checks.py).
+
 ## 1. The named files: what the capture actually contains
 
 | File named by Grok | In the capture? | Archived as |
