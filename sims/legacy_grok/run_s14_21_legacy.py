@@ -76,5 +76,5 @@ print(f"[Resona reconstruction] phase = 2*pi*cumsum(n)*dt: base {ph_b[-1]:.0f} r
       " (Grok's plot shows ~188 and ~192: consistent with this guess)")
 sp = np.abs(np.fft.rfft(na)); fq = np.fft.rfftfreq(na.size, dt)
 top = fq[np.argsort(sp)[-3:]]
-print(f"[Resona reconstruction] FFT peaks at {[round(float(x), 3) for x in sorted(top)]} (DC, the imposed 0.5 drive, and the slow algae term)")
+print(f"[Resona reconstruction] FFT peaks at {[round(float(x), 3) for x in sorted(top)]} (DC; the slow algae term, at the 1/20 resolution limit of a 20-unit window; and the imposed 0.5 drive)")
 print("  The 'time crystal' is a prescribed n(t); no wave equation is solved, so no Floquet modes or amplification can appear.")

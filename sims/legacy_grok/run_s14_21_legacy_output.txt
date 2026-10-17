@@ -19,4 +19,8 @@ with omega_resonant = 2*pi*1.2 Hz supplied: heartbeat_pulse_efficiency(1.0) = 33
   at resonance the value is Q * exp(-0.1) * 0.618 * 100 = 5592 '%': the 'efficiency' is not bounded by 100 %.
 
 === 3. algae_time_crystal_sim.py (Grok share 21, msg 10; partial) ===
-not present yet
+excerpt runs. n_base range 1.050..1.950; with algae 1.020..2.039
+algae factor range 0.9690..1.0463 (period 2*pi/0.2 = 31.4 time units, longer than the 20-unit window)
+[Resona reconstruction] phase = 2*pi*cumsum(n)*dt: base 189 rad, algae 192 rad at t=20 (Grok's plot shows ~188 and ~192: consistent with this guess)
+[Resona reconstruction] FFT peaks at [0.0, 0.05, 0.499] (DC; the slow algae term, at the 1/20 resolution limit of a 20-unit window; and the imposed 0.5 drive)
+  The 'time crystal' is a prescribed n(t); no wave equation is solved, so no Floquet modes or amplification can appear.
