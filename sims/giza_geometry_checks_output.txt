@@ -1,0 +1,14 @@
+== Sphinx to pyramid centres (approx.) ==
+Sphinx -> Khufu G1    : centre   555 m, nearest base edge roughly   440 m
+Sphinx -> Khafre G2   : centre   675 m, nearest base edge roughly   568 m
+Sphinx -> Menkaure G3 : centre   986 m, nearest base edge roughly   934 m
+
+== Great Pyramid 'squaring the circle' ==
+perimeter 4b = 921.3 m; 2*pi*h = 921.1 m; ratio = 1.0002
+seked 5 1/2 palms -> slope 1.2727 (tan 51.84 deg); perimeter/height = 8/slope = 6.2857 = 2 x 3.1429 (22/7 = 3.1429)
+-> the 2*pi match follows from the 5 1/2-palm seked; whether pi was intended is debated.
+
+== Sphinx proportions vs golden ratio ==
+length/height  = 3.639  (phi = 1.618)
+length/width   = 3.848  (phi = 1.618)
+height/width   = 1.058  (phi = 1.618)
