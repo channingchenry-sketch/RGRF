@@ -1,0 +1,25 @@
+== 1. Muon g-2 anomalous precession per revolution ==
+gamma_magic = 29.30
+spin advance relative to momentum per turn = a*gamma*360 deg = 12.30 deg
+orbit radius at 1.45 T = 7.12 m (diameter 14.2 m)
+omega_a/2pi = 228.9 kHz  (period 4.37 us)
+lab lifetime gamma*tau = 64.4 us  -> ~14.7 g-2 cycles per lifetime
+in Earth's field (50 uT) omega_a/2pi = 7.89 Hz -> 6.25e-03 deg per rest lifetime
+
+== 2. Water density change under acoustic pressure ==
+p =      1 kPa -> drho/rho = 4.56e-07
+p =     10 kPa -> drho/rho = 4.56e-06
+p =    100 kPa -> drho/rho = 4.56e-05
+kappa = 4.56e-10 1/Pa
+
+== 3. Gor'kov contrast factors (Bruus 2012 form) ==
+polystyrene bead in water: f1=0.622, f2=0.0336, Phi=0.224 -> collects at pressure NODES (velocity antinodes)
+helium bubble in water (Gor'kov limit, far below resonance): f1=-1.3e+04, f2=-2, Phi=-4.34e+03 -> collects at pressure ANTINODES
+
+== 4. Dimensions of u_s ~ alpha*I/(rho*omega*nu) ==
+units of alpha*I/(rho*omega*nu): {'kg': 0, 'm': 0, 's': -1} -> 1/s, not m/s (dimensionally inconsistent)
+Rayleigh outer streaming amplitude (3/8)U0^2/c for U0=1 m/s in air: 1.09 mm/s
+
+== 5. Three equal paths with 120 deg offsets (share 1a396707 msg 38) ==
+max |sum| of three equal-amplitude, equal-frequency waves = 1.33e-15 (cancels exactly)
+fundamental + 4th + 5th harmonic with 120 deg offsets: peak 2.62, rms 1.224 (= sqrt(3/2)=1.225; no 'balance' beyond orthogonality)

@@ -3,6 +3,8 @@
 
 Links: [Butterfly-Node](butterfly_node.md), [muonic_hydrogen.md](muonic_hydrogen.md), `lift_and_equilibrium_systems.md` (chirp packets §8, levitation methods §9, Grounded loop mechanisms), `piezo_helium_feedback_loop.md`.
 
+**Source thread found (2026-10-17):** Grok share ebe77445, archived at [grok_archive/2026-10-17_cathodes_anodes_muon_magnetic_inductance.md](grok_archive/2026-10-17_cathodes_anodes_muon_magnetic_inductance.md). The labelled review is [muon_cathode_acoustic_water_review.md](muon_cathode_acoustic_water_review.md); it records where Grok's own streaming and Gor'kov formulas differ from the corrected ones here.
+
 ## 1. Acoustic streaming (Grounded)
 
 **Rayleigh (boundary-driven) streaming.**
