@@ -3,7 +3,7 @@
 
 **Sources (verbatim archives):**
 - **§1–§6:** "Tungsten Nodes for Z-Pinch Plasma Filaments", 14 messages: [grok_archive/2026-10-17_tungsten_nodes_z_pinch_plasma_filaments.md](grok_archive/2026-10-17_tungsten_nodes_z_pinch_plasma_filaments.md).
-- **§7:** "Z-Pinch Vortex with Tungsten Nodes in RGRF", 2 messages (added in a later commit).
+- **§7:** "Z-Pinch Vortex with Tungsten Nodes in RGRF", 2 messages: [grok_archive/2026-10-17_z_pinch_vortex_tungsten_nodes.md](grok_archive/2026-10-17_z_pinch_vortex_tungsten_nodes.md).
 
 **Repo context (cross-links, not repeated here):**
 - Z-pinch physics, the corrected force balance and the Bennett relation: [tungsten_bismuth_core §3](tungsten_bismuth_core.md#3-z-pinch-with-sheared-flow-stabilization--grounded).
@@ -134,7 +134,24 @@ All three are hand-written leapfrog loops. Every update line was clipped in the 
 | `RGRF_HET_Resonance_Hybrid_v0.4.py` | Described only; no code | [Channing to supply] if it exists |
 
 ## 7. Vortex Z-pinches around an EM field (share `5d85e88e`)
-*Added in the next commit.*
+**Source:** "Z-Pinch Vortex with Tungsten Nodes in RGRF", 2 messages: [grok_archive/2026-10-17_z_pinch_vortex_tungsten_nodes.md](grok_archive/2026-10-17_z_pinch_vortex_tungsten_nodes.md). This is a shorter, separate take on the same first question as §2.
+
+**Channing (verbatim):** "Can we create z pinches using tungsten nodes around an electromagnetic field? Also, is it possible to create vortex z pinches?"
+
+| Claim | Check | Label |
+|---|---|---|
+| Z-pinch: axial current, azimuthal B, J×B implosion; tungsten wires and electrodes are routine (Sandia Z) | As §2 | Grounded |
+| A "DIY-inspired concept" of a glass tube with tungsten electrodes and inert gas | Source not given | [to verify]; safety per [legal_safety §1.3](legal_safety_and_grounding_review.md#13-electrical-high-voltage-and-field-exposure-safety) |
+| Nodes "around an electromagnetic field"; external axial B for stabilization | An axial B_z adds magnetic tension that raises the kink threshold (the screw-pinch idea below). SFS pinches (ZaP/FuZE) use flow shear, **not** an external field | Grounded; Grok merges the two |
+| Electrode erosion "~0.01–0.1 mg/C in some tests" | Order of magnitude for arc cathodes (10⁻⁵–10⁻⁴ g/C); no pinch-electrode source given | Plausible [to verify] |
+| "Conductive floors or precise geometry (as in our POL hover dynamics) would be needed for stability" | Pinch stability comes from shear, wall stabilization, B_z or profiles. A conductive floor plays no role | **Not supported** |
+| Sheared axial flow "creates effective 'vortex-like' behavior" | Sheared axial flow has vorticity, but the plasma does not rotate about the axis. It is shear, not a vortex | Loose; **Grounded** only as "shear flow" |
+| Screw (θ-Z) pinch: axial current plus azimuthal current gives helical field lines, a "twisted vortex structure" | A screw pinch has helical **field lines**; the plasma itself need not swirl. A real thruster study: [book_blueprint §4.2](book_blueprint_structure.md#42-thruster-comparison-table-checked) (screw-pinch thruster, *Applied Physics* 2025) | Grounded (with the field-vs-flow caveat) |
+| Rotating or helical plasma in the literal sense | Exists: rotating-wall and E×B-rotated plasmas (§5), and helical flows in screw pinches or plasma guns | Grounded (not discussed by Grok) |
+| "Optical vortex collisions in laser-plasma experiments" | Laser-plasma studies with orbital-angular-momentum (vortex) beams exist; not a Z-pinch | Grounded in principle [to verify the specific study] |
+| φ-optimized tungsten node array to "induce helical flow" | Helical flow needs a driven azimuthal force (B_z with radial current, or angled injection); φ positions add none | **Symbolic** |
+| Vortex pinch for "sustained lift or power beaming", via Tesla resonant wireless transfer, "personal levitators" | No mechanism or power budget; contradicts the repo power gap (520 W vs ~10–17 kW) | **Speculative** / contradicted by the repo |
+| Tungsten with mycelium-hemp housings "that handle thermal loads" | Mycelium composites char at ~200–300 °C; usable only as outer structure far from the discharge | **Not supported** near the plasma |
 
 ## 8. Open items
 - The full share URL; uncut copies of the three codes; any of the "saved" files (`RGRF_ZPinch_SonicShear_Progress.md`, v0.1–v0.4). **[Channing to supply]**
