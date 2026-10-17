@@ -213,6 +213,49 @@ Source: S. Earnshaw, "On the nature of the molecular forces which regulate the c
 - **Unknowns:** hole size, pitch, open area %, thickness, steel grade.
 
 
+## 9b. Maxwell stress, magnetic pressure and POL lift (2026-10-17)
+*Source: Grok, "Electromagnetic Pressure Density Measurement", verbatim in [grok_archive/2026-10-17_electromagnetic_pressure_density_measurement.md](grok_archive/2026-10-17_electromagnetic_pressure_density_measurement.md) (4 messages). Sim: [`sims/maxwell_stress_dipole_2d.py`](../sims/maxwell_stress_dipole_2d.py), plot [`images/maxwell_stress_dipole_2d.png`](images/maxwell_stress_dipole_2d.png). The tensor itself was introduced earlier, in [em_topo L4](em_topological_gravity_review.md#l4-plasma-dynamics-around-an-em-field-the-isotropic-electrostatic-tensor-in-the-interstellar-medium) (isotropic vs anisotropic stress, ⟨B²⟩/6μ₀), in the "Electrostatic tensor" row of [shifting_phase_order_review.md §H9](shifting_phase_order_review.md#h9-exploratory-topic-index-channing-probably-just-exploratory), and in [DESIGN_FORCE_FLOW_MAP.md §6](DESIGN_FORCE_FLOW_MAP.md#6-multi-egg--elliptical-eye-ponderomotive-maxwell-stress).*
+
+**Grok's physics (message 2): Grounded.**
+- Maxwell stress tensor: T_ij = ε₀(E_iE_j − ½δ_ijE²) + (1/μ₀)(B_iB_j − ½δ_ijB²).
+- Energy densities: ½ε₀E² and B²/2μ₀.
+- Radiation pressure P = I/c (absorber) or 2I/c (reflector). Measured by Lebedev (1901) and by Nichols & Hull (1901/1903).
+- Grok's "sunlight ~9 μN/m²" is the **reflecting** case: 2 × 1361 W/m² / c ≈ 9.1 μPa. An absorber gets ≈ 4.5 μPa.
+- The measurement routes Grok lists are standard (torsion balances and interferometric cantilevers; field mapping plus a surface integral of T_ij, as in COMSOL). The NIST-type RF/laser radiation-pressure power calibration is real [specific NIST reference to verify].
+
+**Grok's "2D dipole on a 50×50 grid" (message 4): not reproducible, but internally consistent.**
+- The code and image were not shared, and the numbers (T_xx ≈ −0.215, T_yy ≈ +0.215, T_xy ≈ +0.161) carry no units, dipole strength or point location.
+- **Consistency check (passes):** in a plane containing the field, B has only in-plane components, so the 2×2 magnetic stress block is **traceless** (T_xx + T_yy = 0). The sim confirms this to machine precision. Grok's T_xx = −T_yy is what that gives.
+- The three numbers also fix a field direction, tan 2θ = T_xy/T_xx, so θ ≈ 71.6° from x, with B²/2μ₀ ≈ 0.269 in Grok's normalised units.
+- Note that the full 3D tensor is **not** traceless: the out-of-plane component is −B²/2μ₀.
+- **Wording correction:** field lines **pull** (contract) along B, a tension of B²/2μ₀, and **push outward** across B, a pressure of B²/2μ₀. Grok's "outward tension along field lines and inward pressure perpendicular to them" gets the directions muddled.
+
+**Rebuild results (`sims/maxwell_stress_dipole_2d.py`, Grounded):**
+- In-plane trace / max |T_xx| ≈ 1e−18 (traceless, as above).
+- **Magnetic pressure at 0.1 T = B²/2μ₀ ≈ 3.98 kPa.** For AC at 0.1 T peak, the time average is B_pk²/4μ₀ ≈ 2.0 kPa.
+- Carrying 88 kg (863 N) at 4 kPa needs ≈ 0.22 m² of floor under 0.1 T.
+- **Lift from the stress tensor equals the image force.** A dipole sized for 0.1 T at 5 cm (m ≈ 62.5 A·m²), held 5 cm above an ideal conductor:
+  - the surface integral ∫B_t²/2μ₀ dA = **23.44 N**;
+  - the image-dipole formula 3μ₀m²/(32πh⁴) gives **23.44 N** (ratio 1.0000);
+  - the peak surface field is 0.086 T (≈ 2.9 kPa).
+- **Cost: lift per watt over a real floor.** In the skin-effect limit, force per eddy-loss watt is μ₀σδ/2:
+  - aluminium: 59 N/kW at 1 kHz (δ ≈ 2.7 mm), i.e. **≈ 14.6 kW** for 88 kg;
+  - copper: 76 N/kW at 1 kHz, i.e. ≈ 11.3 kW;
+  - at 100 Hz the figure rises to 190–240 N/kW (3.6–4.6 kW), but only if the floor is thicker than δ (6.6–8.5 mm);
+  - coil copper loss is not included.
+  - This independently matches the repo's POL estimate (~52 N/kW; ~10–17 kW, see [§1a](#1a-design-intent-buoyant-stability-not-levitation) and [ANALYSIS_2026-10-12.md](ANALYSIS_2026-10-12.md)). **The ~520 W claim does not close for full lift.**
+
+**Labels**
+| Claim | Label |
+|---|---|
+| Maxwell stress tensor, B²/2μ₀, radiation pressure I/c and 2I/c, the measurement methods | Grounded |
+| Grok's 2D numbers | Unreproducible (no code, units or location); consistent with the in-plane traceless property |
+| "By tuning coil resonance, we can amplify constructive pressure zones for more efficient levitation with lower input power" (Grok, message 4) | **Not supported.** Resonance cancels the coil's *reactive* power. The *real* eddy loss in the floor still scales with B², as the lift does, so F/P = μ₀σδ/2 is unchanged by tuning. |
+| "resonant fields could provide stable lift without constant high power" (message 2) | Not supported for full lift (§1a); Plausible-untested for **trim** on a buoyant body |
+| Golden-ratio spiral coils "concentrate energy density" (message 2) | Symbolic (prior φ tests null: [em_topo L6](em_topological_gravity_review.md#l6-wireless-energy-transfer-northern-europe-focus-noted)) |
+| Embedded strain gauges / fibre sensors to "feel" eddy-lift pressure | Grounded method; a good POL bench test (compare the measured floor pressure map with ∫B_t²/2μ₀) |
+| "Field sails" for Waverider / Filament Rider | Speculative ([book_blueprint_structure.md §4](book_blueprint_structure.md#4-plasma-filament-propulsion-review-of-groks-message-8)) |
+
 ## Grounded loop mechanisms (1–8)
 *Channing's recovered text, labeled. Each mechanism is standard physics; the open question is whether they integrate into one loop, and with what energy ledger (see Power ledger summary).*
 
