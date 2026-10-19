@@ -42,7 +42,7 @@
 | σ_ij^B = (1/μ₀)(B_i B_j − ½ δ_ij B²); magnetic pressure B²/2μ₀ and tension along B | Standard magnetic Maxwell stress | **Grounded** |
 | Large-scale solar-wind / Parker-spiral / HCS / heliopause / termination-shock force balance carried mainly by magnetic stresses + plasma pressure tensor | Standard heliospheric MHD picture; VLISM \|B\| ~0.4–0.5 nT (Voyager; see [heliosphere_fibonacci_review.md](heliosphere_fibonacci_review.md), [em_topological L4](em_topological_gravity_review.md#l4-plasma-dynamics-around-an-em-field-the-isotropic-electrostatic-tensor-in-the-interstellar-medium)) | **Grounded** |
 | Electrostatic piece smaller at heliospheric scales; secondary for global force balance at the heliopause | Order-of-magnitude: for E ~ 1–10 μV/m and B ~ 0.1–0.5 nT, (E/cB)² ∈ [1×10⁻⁹, 5×10⁻⁹] (sim §2). Magnetic stress wins by ~8–9 orders | **Grounded** (plausibility verified) |
-| Exact E and B profiles used for the ratio at the heliopause / heliosheath | Share gives no numbers; sim uses a few-μV/m band typical of large-scale solar-wind / ambipolar estimates | Band is **Plausible**; precise local values **[to verify]** |
+| Exact E and B profiles used for the ratio at the heliopause / heliosheath | Share gives no numbers; sim uses a few-μV/m band. That band is the motional v×B field, not the ambipolar field (corrected 2026-10-18; see [Ambipolar field](#ambipolar-field-from-the-electron-pressure-gradient-2026-10-18)) | Band is **Plausible**; precise local values **[to verify]** |
 
 ## C. Ambipolar electric field (msg 2)
 
@@ -90,6 +90,55 @@ $$
 - (2) is the momentum conservation law. Strictly, the left side also has ∂(ε₀ E×B)/∂t (the field momentum density S/c²). It is negligible for flows far below light speed, so dropping it is the standard MHD approximation. P is the plasma pressure tensor: p I if isotropic, or p⊥ I + (p∥ − p⊥) b b in CGL/gyrotropic form.
 - For a static (∂/∂t = 0) axisymmetric shell with no flow other than rotation, (2) reduces consistently to the radial MHD force balance in [docs/poynting_vortex_force_balance_review.md](poynting_vortex_force_balance_review.md) (the share #66 corrected form: ρΩ²R = ∂(p + B²/2μ₀)/∂R + B_θ²/(μ₀R)). The sign convention matches exactly: centrifugal support balances the outward gradient of gas-plus-magnetic pressure plus the inward azimuthal-field tension term written on the same side.
 - At the heliopause, (E/cB)² ~ 1e-9 (from [sims/electrostatic_maxwell_stress_check.py](../sims/electrostatic_maxwell_stress_check.py)), so the B term dominates the total stress. The same sim checks that the trace of (1) equals −u_EM for a random E and B.
+
+## Ambipolar field from the electron pressure gradient (2026-10-18)
+
+*Channing asked to follow up Grok's share #90 offer ("explicit ambipolar recovery"). Rerun: [sims/ambipolar_field_solar_wind.py](../sims/ambipolar_field_solar_wind.py) ([output](../sims/ambipolar_field_solar_wind_output.txt)); plot: [images/2026-10-18_ambipolar_field_solar_wind.png](images/2026-10-18_ambipolar_field_solar_wind.png).*
+
+### Derivation (Grounded)
+
+- Electron momentum with inertia dropped (m_e → 0): 0 = −e n_e (**E** + **u**_e × **B**) − ∇·**P**_e (+ collisional friction with ions).
+- Along **B** (or with no B) the u_e × B term vanishes. With an isotropic electron pressure p_e:
+
+  **E**_amb = −∇p_e / (e n_e)
+
+- Isothermal (p_e = n_e k T_e, T_e constant): **E** = −(k T_e/e) ∇ln n_e.
+- Polytropic (p_e ∝ n_e^γ): ∇p_e = γ k T_e ∇n_e, so **E** = −(γ k T_e/e) ∇ln n_e. The potential is then the electron enthalpy: e Φ(r→∞) = γ/(γ−1) k T_e(r).
+- With n ∝ r⁻² (constant-speed wind): E_amb = 2γ k T_e(r)/(e r), pointing outward. For γ = 1.2, T_e ∝ r^−0.4.
+- **History (verified):** Pannekoek, "Ionization in stellar atmospheres", *Bull. Astron. Inst. Netherlands* 1, 107 (1922); Rosseland, "Electrical state of a star", *MNRAS* 84, 720 (1924). In a static (hydrostatic) atmosphere with T_e = T_p the field gives eE = ½ m_p g (the "Pannekoek–Rosseland field"). Lemaire & Scherer showed that for an *expanding* atmosphere the zero-current condition needs a larger potential, and that drives the wind: "Kinetic models of the solar wind", *J. Geophys. Res.* 76, 7479 (1971). Kappa-distribution exospheric model: Maksimovic, Pierrard & Lemaire, *A&A* 324, 725 (1997).
+
+### Solar-wind magnitudes (sim, n ∝ r⁻²)
+
+| Case | r | E_amb | eE/(m_p g) |
+|---|---|---|---|
+| Isothermal, T_e = 40 eV | 0.1 AU | 5.3×10⁻⁹ V/m | 0.86 |
+| Polytrope γ = 1.2, T_e0 = 40 eV at 0.1 AU | 0.1 AU | 6.4×10⁻⁹ V/m | 1.04 |
+| Polytrope γ = 1.2, T_e0 = 100 eV at 0.1 AU | 0.1 AU | 1.6×10⁻⁸ V/m | 2.6 |
+| Isothermal, T_e = 10 eV | 1 AU | 1.34×10⁻¹⁰ V/m | 2.16 |
+| Polytrope γ = 1.2, T_e(1 AU) = 10 eV | 1 AU | 1.60×10⁻¹⁰ V/m | 2.59 |
+
+- With an isothermal wind the ratio is 2 k T_e r/(G M m_p), so it grows linearly with r. A ratio above 1 means the electric force on a proton is larger than gravity. Above 0.5 means it is stronger than the hydrostatic Pannekoek–Rosseland field.
+- **Corrections to the pre-sim estimates:**
+  - 0.1 AU estimate (5×10⁻⁹ V/m, ratio ~0.9): **confirmed**.
+  - 1 AU estimate (0.8–1.3×10⁻¹⁰ V/m, ratio 1.3–2.2): only the upper end holds for T_e = 10 eV with n ∝ r⁻². The 0.8×10⁻¹⁰ end needs T_e ≈ 6 eV, or a density slope of ~1.2 instead of 2. The γ = 1.2 polytrope gives 1.6×10⁻¹⁰ V/m and a ratio of 2.6.
+  - n ∝ r⁻² is a poor fit inside ~0.1 AU, where the wind is still accelerating, so the 0.05 AU rows in the output are only indicative.
+- **Potential drop (polytrope, γ = 1.2):** Φ(0.1 AU → ∞) = 6 k T_e0/e = **240 V (40 eV) to 600 V (100 eV)**. The numerical integral matches the analytic one. Φ(1 AU → ∞) = 96–239 V. The isothermal potential diverges logarithmically (2 k T_e/e · ln r), so it needs a closure such as γ > 1 or the exospheric cutoff.
+- **Escape energy (correction):** the proton escape energy G M m_p/r is 199 eV at 10 R_sun but only **93 eV at 0.1 AU (21.5 R_sun)**. The 240–600 V drop is measured from 0.1 AU, so the like-for-like comparison is with 93 eV. On that basis the drop exceeds escape by ~150–510 eV, which by itself gives protons ~170–310 km/s. Measured from 10 R_sun the drop would also be larger, since T_e is higher there.
+- **Parker Solar Probe measurement (verified):** Halekas et al., "The Sunward Electron Deficit: A Telltale Sign of the Sun's Electric Potential", *ApJ* 916, 16 (2021), doi:10.3847/1538-4357/ac096e. A sunward cutoff in SPAN-E electron distributions reaches ~10,000 km/s near perihelion, corresponding to **~285 V** between PSP and the outer heliosphere. Across the data the potential is **~50–300 V** for core T_e ~ 10–60 eV, scaling linearly with T_e with a slope of ~5. A slope of 5 corresponds to γ ≈ 1.25, close to the 6 that γ = 1.2 gives here. Follow-up: Berčič et al., *ApJ* 921, 83 (2021), doi:10.3847/1538-4357/ac1f1c, finds over 20.3–85.3 R_sun that Φ ∝ r^−0.66 and E_∥ ~ 1 nV/m ∝ r^−1.69. The exospheric estimate gives 77 % of the observed proton speed at 45 R_sun. The fluid E here (a few nV/m at 0.1 AU) is on the high side of that order of magnitude. The 240 V potential agrees well with the measured ~285 V. **Grounded.**
+- These fields are far too small for in-situ electric-field instruments (Halekas et al. 2021). The potential is inferred from electron distributions.
+
+### Comparison with the motional field (Grounded)
+
+- At 1 AU, 400 km/s × 5 nT = 2 mV/m is an upper bound that uses the total B. With the Parker-spiral B_φ only (~47°), |**v** × **B**| = 1.5 mV/m. That is ~10⁶–10⁷ × E_amb at 0.05–5 AU (sim §4). The motional field is perpendicular to B and vanishes in the plasma frame, so it does not accelerate the wind along B.
+- Heliosheath / VLISM: v B ≈ 10–20 μV/m (100 km/s × 0.1–0.2 nT) and ≈ 13 μV/m (26 km/s × 0.5 nT). Extrapolated to 120 AU, E_amb is only ~3×10⁻¹³ V/m.
+- **Correction to §B / the stress-ratio sim:** the ~μV/m "E" in [sims/electrostatic_maxwell_stress_check.py](../sims/electrostatic_maxwell_stress_check.py) is the **motional** field, not the ambipolar field. The (E/cB)² ~ 10⁻⁹ conclusion stands, and for the ambipolar part alone it is far smaller: ~3×10⁻²⁰ at 1 AU (2.6×10⁻¹⁰ V/m, 5 nT) and ~10⁻²⁹ near the heliopause.
+- **Bottom line:** the electrostatic (ambipolar) part matters for particle acceleration along B: it pushes protons out and holds most electrons back. It does not matter for the global boundary force balance, which is magnetic plus plasma pressure (§B).
+
+### RGRF link: a measured leaky boundary
+
+- The electrons' higher thermal speed would let them escape the Sun's gravity faster than the protons. The resulting charge separation sets up a potential that holds most electrons back and pulls protons out. The corona is a boundary that leaks plasma at a rate set by its own electric field, and PSP has measured that potential (~285 V).
+- Ties to the *leaky boundaries* pillar: [README.md → Core of RGRF](../README.md#core-of-rgrf), [em_topological_gravity_review.md §R4](em_topological_gravity_review.md#r4-leaky-boundaries-recurring).
+- **Labels:** the physics (ambipolar potential, exospheric acceleration, PSP measurement) is **Grounded**. Reading it as an instance of RGRF's recurring leaky-boundary pattern is **Plausible** (an analogy, not a shared mechanism).
 
 ## Items [to verify]
 

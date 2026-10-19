@@ -1,0 +1,84 @@
+=== 1-2. E_amb(r) [V/m] and eE/(m_p g), n ~ r^-2 ===
+(T_e0 given at r0 = 0.1 AU; polytrope T_e ~ r^-0.4 for gamma=1.2)
+-- isothermal Te=40 eV
+   r= 0.05 AU  Te= 40.00 eV  E=1.070e-08 V/m  eE/(m_p g)=0.432
+   r= 0.10 AU  Te= 40.00 eV  E=5.348e-09 V/m  eE/(m_p g)=0.864
+   r= 0.30 AU  Te= 40.00 eV  E=1.783e-09 V/m  eE/(m_p g)=2.591
+   r= 1.00 AU  Te= 40.00 eV  E=5.348e-10 V/m  eE/(m_p g)=8.638
+   r= 2.00 AU  Te= 40.00 eV  E=2.674e-10 V/m  eE/(m_p g)=17.276
+   r= 5.00 AU  Te= 40.00 eV  E=1.070e-10 V/m  eE/(m_p g)=43.190
+-- isothermal Te=10 eV
+   r= 0.05 AU  Te= 10.00 eV  E=2.674e-09 V/m  eE/(m_p g)=0.108
+   r= 0.10 AU  Te= 10.00 eV  E=1.337e-09 V/m  eE/(m_p g)=0.216
+   r= 0.30 AU  Te= 10.00 eV  E=4.456e-10 V/m  eE/(m_p g)=0.648
+   r= 1.00 AU  Te= 10.00 eV  E=1.337e-10 V/m  eE/(m_p g)=2.160
+   r= 2.00 AU  Te= 10.00 eV  E=6.685e-11 V/m  eE/(m_p g)=4.319
+   r= 5.00 AU  Te= 10.00 eV  E=2.674e-11 V/m  eE/(m_p g)=10.798
+-- polytrope g=1.2 Te0=40 eV
+   r= 0.05 AU  Te= 52.78 eV  E=1.694e-08 V/m  eE/(m_p g)=0.684
+   r= 0.10 AU  Te= 40.00 eV  E=6.417e-09 V/m  eE/(m_p g)=1.037
+   r= 0.30 AU  Te= 25.78 eV  E=1.378e-09 V/m  eE/(m_p g)=2.004
+   r= 1.00 AU  Te= 15.92 eV  E=2.555e-10 V/m  eE/(m_p g)=4.127
+   r= 2.00 AU  Te= 12.07 eV  E=9.681e-11 V/m  eE/(m_p g)=6.255
+   r= 5.00 AU  Te=  8.37 eV  E=2.684e-11 V/m  eE/(m_p g)=10.839
+-- polytrope g=1.2 Te0=70 eV
+   r= 0.05 AU  Te= 92.37 eV  E=2.964e-08 V/m  eE/(m_p g)=1.197
+   r= 0.10 AU  Te= 70.00 eV  E=1.123e-08 V/m  eE/(m_p g)=1.814
+   r= 0.30 AU  Te= 45.11 eV  E=2.412e-09 V/m  eE/(m_p g)=3.507
+   r= 1.00 AU  Te= 27.87 eV  E=4.471e-10 V/m  eE/(m_p g)=7.222
+   r= 2.00 AU  Te= 21.12 eV  E=1.694e-10 V/m  eE/(m_p g)=10.946
+   r= 5.00 AU  Te= 14.64 eV  E=4.697e-11 V/m  eE/(m_p g)=18.968
+-- polytrope g=1.2 Te0=100 eV
+   r= 0.05 AU  Te=131.95 eV  E=4.234e-08 V/m  eE/(m_p g)=1.710
+   r= 0.10 AU  Te=100.00 eV  E=1.604e-08 V/m  eE/(m_p g)=2.591
+   r= 0.30 AU  Te= 64.44 eV  E=3.446e-09 V/m  eE/(m_p g)=5.010
+   r= 1.00 AU  Te= 39.81 eV  E=6.387e-10 V/m  eE/(m_p g)=10.317
+   r= 2.00 AU  Te= 30.17 eV  E=2.420e-10 V/m  eE/(m_p g)=15.637
+   r= 5.00 AU  Te= 20.91 eV  E=6.710e-11 V/m  eE/(m_p g)=27.097
+-- polytrope g=1.2 Te(1AU)=10 eV
+   r= 0.05 AU  Te= 33.14 eV  E=1.063e-08 V/m  eE/(m_p g)=0.429
+   r= 0.10 AU  Te= 25.12 eV  E=4.030e-09 V/m  eE/(m_p g)=0.651
+   r= 0.30 AU  Te= 16.19 eV  E=8.656e-10 V/m  eE/(m_p g)=1.258
+   r= 1.00 AU  Te= 10.00 eV  E=1.604e-10 V/m  eE/(m_p g)=2.591
+   r= 2.00 AU  Te=  7.58 eV  E=6.079e-11 V/m  eE/(m_p g)=3.928
+   r= 5.00 AU  Te=  5.25 eV  E=1.685e-11 V/m  eE/(m_p g)=6.806
+   (n ~ r^-2 is poor inside ~0.1 AU where the wind still accelerates; 0.05 AU rows are indicative.)
+   Pannekoek-Rosseland hydrostatic reference: eE/(m_p g) = 0.5 (Te = Tp).
+   Isothermal ratio = 2 kTe r/(GM m_p): grows linearly with r.
+   Polytrope ratio ~ r^(1-2(gamma-1)) = r^0.6.
+
+=== Check of the user estimates ===
+0.1 AU, Te=40 eV isothermal: E=5.348e-09 V/m, ratio=0.864  (estimate 5e-9, 0.9)
+1 AU, Te=10 eV isothermal:   E=1.337e-10 V/m, ratio=2.160
+1 AU, Te(1AU)=10 eV, g=1.2: E=1.604e-10 V/m, ratio=2.591
+   (estimate 0.8-1.3e-10 V/m, 1.3-2.2: the 0.8e-10 end needs Te ~ 6.0 eV isothermal, or a density slope ~1.2 instead of 2 at 10 eV)
+
+=== 3. Cumulative potential ===
+isothermal Te=40 eV              Phi(0.1->5 AU) num=  313.0 V ana=  313.0 V | Phi(->inf) diverges (2kTe/e ln r)
+isothermal Te=10 eV              Phi(0.1->5 AU) num=   78.2 V ana=   78.2 V | Phi(->inf) diverges (2kTe/e ln r)
+polytrope g=1.2 Te0=40 eV        Phi(0.1->5 AU) num=  189.8 V ana=  189.8 V | Phi(0.1 AU->inf)= 240.0 V  Phi(1 AU->inf)= 95.5 V
+polytrope g=1.2 Te0=70 eV        Phi(0.1->5 AU) num=  332.2 V ana=  332.2 V | Phi(0.1 AU->inf)= 420.0 V  Phi(1 AU->inf)=167.2 V
+polytrope g=1.2 Te0=100 eV       Phi(0.1->5 AU) num=  474.5 V ana=  474.5 V | Phi(0.1 AU->inf)= 600.0 V  Phi(1 AU->inf)=238.9 V
+polytrope g=1.2 Te(1AU)=10 eV    Phi(0.1->5 AU) num=  119.2 V ana=  119.2 V | Phi(0.1 AU->inf)= 150.7 V  Phi(1 AU->inf)= 60.0 V
+
+Proton escape energy GM m_p/r: 10 R_sun = 199.1 eV; 0.1 AU (= 21.5 R_sun) = 92.6 eV
+  gamma=1.2, Te0=40 eV: Phi(0.1 AU->inf)=240 V; minus escape at 0.1 AU -> 147 eV -> proton v_inf from rest ~ 168 km/s (electrostatic share only)
+  gamma=1.2, Te0=100 eV: Phi(0.1 AU->inf)=600 V; minus escape at 0.1 AU -> 507 eV -> proton v_inf from rest ~ 312 km/s (electrostatic share only)
+Halekas et al. 2021 (ApJ 916:16, PSP SPAN-E): Phi ~ 285 V near perihelion; 50-300 V for
+  core Te ~ 10-60 eV; Phi/Te slope ~5 (gamma/(gamma-1)=5 -> gamma=1.25; 1.2 gives 6).
+
+=== 4. Motional field |v x B| (Parker spiral, v=400 km/s, |B|=5 nT at 1 AU) ===
+   r= 0.05 AU  |v x B|=2.924e-02 V/m (v|B| bound 5.466e-01)  E_amb(g1.2,40eV)=1.694e-08  ratio vxB/E_amb=1.73e+06
+   r= 0.10 AU  |v x B|=1.462e-02 V/m (v|B| bound 1.372e-01)  E_amb(g1.2,40eV)=6.417e-09  ratio vxB/E_amb=2.28e+06
+   r= 0.30 AU  |v x B|=4.874e-03 V/m (v|B| bound 1.593e-02)  E_amb(g1.2,40eV)=1.378e-09  ratio vxB/E_amb=3.54e+06
+   r= 1.00 AU  |v x B|=1.462e-03 V/m (v|B| bound 2.000e-03)  E_amb(g1.2,40eV)=2.555e-10  ratio vxB/E_amb=5.72e+06
+   r= 2.00 AU  |v x B|=7.311e-04 V/m (v|B| bound 8.068e-04)  E_amb(g1.2,40eV)=9.681e-11  ratio vxB/E_amb=7.55e+06
+   r= 5.00 AU  |v x B|=2.924e-04 V/m (v|B| bound 2.975e-04)  E_amb(g1.2,40eV)=2.684e-11  ratio vxB/E_amb=1.09e+07
+   1 AU check: 400 km/s x 5 nT = 2.0e-03 V/m (upper bound, total B); B_phi only (spiral ~47 deg) -> 1.46e-03 V/m
+   inner heliosheath  v=100.0 km/s B=0.1 nT -> v*B =  10.0 uV/m
+   heliosheath        v=100.0 km/s B=0.2 nT -> v*B =  20.0 uV/m
+   VLISM              v= 26.0 km/s B=0.5 nT -> v*B =  13.0 uV/m
+   E_amb extrapolated to 120 AU (g1.2, 40 eV at 0.1 AU) = 3.1e-13 V/m
+   => the ~uV/m E in electrostatic_maxwell_stress_check.py is motional (v x B), not ambipolar.
+
+PNG saved: docs/images/2026-10-18_ambipolar_field_solar_wind.png
