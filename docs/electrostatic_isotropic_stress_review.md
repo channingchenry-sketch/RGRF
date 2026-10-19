@@ -74,6 +74,23 @@ Share #90 is a short follow-up on the **isotropic electrostatic tensor → Maxwe
 
 None. Tension-along-E / pressure-across-E matches [em_topological L4](em_topological_gravity_review.md#l4-plasma-dynamics-around-an-em-field-the-isotropic-electrostatic-tensor-in-the-interstellar-medium) and the eigenvalue picture in [inertia_sheath_stress_review.md](inertia_sheath_stress_review.md) (that file treats the full EM surface block, which is traceless in-plane when there is no z-component; the bulk 3D electrostatic stress here has trace −½ ε₀ E² — both statements are correct in their settings).
 
+
+## Total stress form (Channing, 2026-10-18)
+
+$$
+\boldsymbol{\sigma}_{EM} = \epsilon_0 \Bigl( \mathbf{E}\otimes\mathbf{E} - \tfrac12 E^2\,\mathbf{I} \Bigr) + \frac1{\mu_0}\Bigl( \mathbf{B}\otimes\mathbf{B} - \tfrac12 B^2\,\mathbf{I} \Bigr)
+$$
+
+$$
+\frac{\partial(\rho\mathbf{v})}{\partial t} + \nabla\cdot\bigl(\rho\mathbf{v}\mathbf{v} + \mathbf{P} - \boldsymbol{\sigma}_{EM}\bigr) = \rho\mathbf{g} + \text{other sources}
+$$
+
+**Grounded:**
+- In (1), each part has tension +½ε₀E² (or B²/2μ₀) along its field and pressure −½ across it. The trace is −½(ε₀E² + B²/μ₀) = −u_EM.
+- (2) is the momentum conservation law. Strictly, the left side also has ∂(ε₀ E×B)/∂t (the field momentum density S/c²). It is negligible for flows far below light speed, so dropping it is the standard MHD approximation. P is the plasma pressure tensor: p I if isotropic, or p⊥ I + (p∥ − p⊥) b b in CGL/gyrotropic form.
+- For a static (∂/∂t = 0) axisymmetric shell with no flow other than rotation, (2) reduces consistently to the radial MHD force balance in [docs/poynting_vortex_force_balance_review.md](poynting_vortex_force_balance_review.md) (the share #66 corrected form: ρΩ²R = ∂(p + B²/2μ₀)/∂R + B_θ²/(μ₀R)). The sign convention matches exactly: centrifugal support balances the outward gradient of gas-plus-magnetic pressure plus the inward azimuthal-field tension term written on the same side.
+- At the heliopause, (E/cB)² ~ 1e-9 (from [sims/electrostatic_maxwell_stress_check.py](../sims/electrostatic_maxwell_stress_check.py)), so the B term dominates the total stress. The same sim checks that the trace of (1) equals −u_EM for a random E and B.
+
 ## Items [to verify]
 
 - Precise ambipolar \|E\| and \|B\| at the heliopause / heliosheath for a published (E/cB)² table (sim uses a few-μV/m band).

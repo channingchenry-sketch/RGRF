@@ -24,3 +24,10 @@ E=10 uV/m, B=0.5 nT: (E/cB)^2 = 4.451e-09, pE = 4.427e-22 Pa, pB = 9.947e-14 Pa,
 Magnetic stress dominates by ~8-9 orders of magnitude at these
 heliospheric scales. Ambipolar E is still essential locally for
 wind acceleration; it is secondary for global heliopause balance.
+
+=== 3. Trace of total EM Maxwell stress equals -u_EM ===
+random E = [1.71932271 0.19430952 2.49343163]
+random B = [ 0.57637217 -0.22259078  0.56514813]
+tr(sigma_EM) = -2.789763e+05 Pa
+-u_EM         = -2.789763e+05 Pa
+trace == -u_EM check: PASS

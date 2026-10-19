@@ -9,6 +9,7 @@ Checks:
      traceless, unlike the 4D EM stress-energy tensor in vacuum).
   3. Heliosphere order-of-magnitude: electric vs magnetic stress ~ (E/cB)^2
      for E ~ few uV/m and B ~ 0.1-0.5 nT.
+  4. Full EM Maxwell stress trace equals -u_EM for a random E and B.
 
 CC0. No third-party data.
 """
@@ -27,6 +28,17 @@ def sigma_E(E: np.ndarray) -> np.ndarray:
     E = np.asarray(E, dtype=float)
     E2 = float(E @ E)
     return EPS0 * (np.outer(E, E) - 0.5 * np.eye(3) * E2)
+
+
+def sigma_EM(E: np.ndarray, B: np.ndarray) -> np.ndarray:
+    E = np.asarray(E, dtype=float)
+    B = np.asarray(B, dtype=float)
+    E2 = float(E @ E)
+    B2 = float(B @ B)
+    return (
+        EPS0 * (np.outer(E, E) - 0.5 * np.eye(3) * E2)
+        + (1.0 / MU0) * (np.outer(B, B) - 0.5 * np.eye(3) * B2)
+    )
 
 
 def main() -> None:
@@ -76,6 +88,21 @@ def main() -> None:
     print("Magnetic stress dominates by ~8-9 orders of magnitude at these")
     print("heliospheric scales. Ambipolar E is still essential locally for")
     print("wind acceleration; it is secondary for global heliopause balance.")
+    print()
+
+    print("=== 3. Trace of total EM Maxwell stress equals -u_EM ===")
+    rng = np.random.default_rng(20261018)
+    E_rand = rng.normal(size=3)
+    B_rand = rng.normal(size=3)
+    sig_em = sigma_EM(E_rand, B_rand)
+    u_em = 0.5 * (EPS0 * float(E_rand @ E_rand) + float(B_rand @ B_rand) / MU0)
+    tr = float(np.trace(sig_em))
+    print(f"random E = {E_rand}")
+    print(f"random B = {B_rand}")
+    print(f"tr(sigma_EM) = {tr:+.6e} Pa")
+    print(f"-u_EM         = {-u_em:+.6e} Pa")
+    ok_tr = abs(tr + u_em) <= 1e-9 * max(1.0, abs(u_em))
+    print(f"trace == -u_EM check: {'PASS' if ok_tr else 'FAIL'}")
 
 
 if __name__ == "__main__":
