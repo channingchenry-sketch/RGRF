@@ -1,0 +1,8 @@
+Monodromy matrix (Magnus, 8 steps):
+[[ 0.30845   0.969136]
+ [-0.933676  0.30845 ]]
+Determinant: 0.9999999999999996
+Deviation from 1: 4.440892098500626e-16
+
+Final state after 20 periods: [ 0.999929 -0.011707]
+Norm of final state: 0.9999973975489599

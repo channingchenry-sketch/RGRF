@@ -4,7 +4,7 @@
 
 **Rerun / check:** [sims/s70_80_claim_checks.py §3](../sims/s70_80_claim_checks.py), with output in [sims/s70_80_claim_checks_output.txt](../sims/s70_80_claim_checks_output.txt). It computes the exact surface-stress eigenvalues, tests Grok's eigenvalue formula and distinctness condition, and estimates the sheath pressure against the 88 kg load.
 
-**Related:** [lift_and_equilibrium_systems.md §9b](lift_and_equilibrium_systems.md) (Maxwell stress and POL lift; ~14.6 kW for 88 kg), [DESIGN_FORCE_FLOW_MAP.md](DESIGN_FORCE_FLOW_MAP.md) (ponderomotive "escape vectors") and [butterfly_node.md](butterfly_node.md) (double-ellipse geometry).
+**Related:** [lift_and_equilibrium_systems.md §9b](lift_and_equilibrium_systems.md) (Maxwell stress and POL lift; ~14.6 kW for 88 kg), [DESIGN_FORCE_FLOW_MAP.md](DESIGN_FORCE_FLOW_MAP.md) (ponderomotive "escape vectors") and [butterfly_node.md](butterfly_node.md) (double-ellipse geometry). Follow-up (share #89): [magnus_floquet_inertial_copv_review.md §C](magnus_floquet_inertial_copv_review.md#c-inertial-vectors-msg-2) covers inertial vectors in the navigation sense (specific force, strapdown INS). Its link to this pillar is **Speculative**.
 
 **Labels:** Grounded · Plausible-untested · Speculative · Symbolic.
 

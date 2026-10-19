@@ -338,6 +338,8 @@ Results:
 | φ step-split giving a topological advantage | Not supported (sim: no effect beyond smooth r-dependence) |
 | Driven SSH sim reproduces W₀/W_π ↔ edge modes | Grounded (reproduced textbook result) |
 
+**Follow-up (2026-10-18, share #89).** Floquet generators, the Floquet–Magnus expansion and a 4th-order Magnus integrator on the Mathieu equation are reviewed and rerun in [magnus_floquet_inertial_copv_review.md §B](magnus_floquet_inertial_copv_review.md#b-floquet-generators-and-floquetmagnus-msg-2). Results: order 3.99, det M = 1 to ~1e-16, a Mathieu stability chart, and the Kapitza high-frequency shift. **Grounded.** Any tie to shifting phase order is **Speculative**.
+
 ## G. Rotating electron systems and rotation-induced fields (reference) (2026-10-15)
 **Archived paste (verbatim, line breaks and formatting as written).** Channing describes it as "from our prior notes and complements this exploration as a reference".
 

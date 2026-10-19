@@ -1,0 +1,5 @@
+Magnus final state:      [ 0.99992887 -0.01170677]
+Reference final state:   [ 0.9999284  -0.01174554]
+Difference:              [4.71812820e-07 3.87701738e-05]
+Monodromy det (Magnus):  0.9999999999999998
+Expected det:            1.0

@@ -1,0 +1,33 @@
+Mathieu: w0=1.0, eps=0.2, omega=5.0, 20 periods, T=1.256637
+Reference final state (DOP853, rtol 1e-13): [ 0.9999283994 -0.0117455384]
+
+Convergence, correct commutator sign (+sqrt3/12 [A2,A1]):
+   8 steps/period: max error 3.877e-05
+  16 steps/period: max error 2.458e-06  ratio  15.77  observed order 3.98
+  32 steps/period: max error 1.542e-07  ratio  15.94  observed order 3.99
+
+Convergence, FLIPPED commutator sign (-sqrt3/12 [A2,A1]):
+   8 steps/period: max error 2.233e-03
+  16 steps/period: max error 5.880e-04  ratio   3.80  observed order 1.93
+  32 steps/period: max error 1.489e-04  ratio   3.95  observed order 1.98
+
+Monodromy matrix (8 steps/period):
+[[ 0.30845   0.969136]
+ [-0.933676  0.30845 ]]
+det M = 0.9999999999999998  |det-1| = 2.22e-16
+trace M = 0.616900  -> stable (|tr|<2)
+Floquet multipliers: [0.30845+0.951241j 0.30845-0.951241j]  |mu| = [1. 1.]
+Floquet exponent (rad per period) = 1.257233; omega/w0 = 5.00 (first resonance at omega ~ 2 w0)
+
+expm_simple vs scipy expm: typical Magnus step diff 1.1e-16; worst relative diff over 200 random 2x2 matrices 1.1e-07
+Full 20-period run, NumPy expm vs SciPy expm: max diff 1.7e-15
+State norm at end: 0.999997 (start 1.0; not conserved, not a structural check)
+
+High-frequency (Kapitza) check, w_eff from monodromy vs sqrt(w0^2 + eps^2/(2 omega^2)):
+  eps=0.20 omega=  5.0: tr M=0.616896 (stable); w_eff=1.0004761, Kapitza=1.0003999, shift 4.76e-04
+  eps=0.15 omega= 10.0: tr M=1.617991 (stable); w_eff=1.0000586, Kapitza=1.0000562, shift 5.86e-05
+  eps=0.15 omega= 20.0: tr M=1.902110 (stable); w_eff=1.0000142, Kapitza=1.0000141, shift 1.42e-05
+  eps=0.50 omega= 10.0: tr M=1.617553 (stable); w_eff=1.0006509, Kapitza=1.0006248, shift 6.51e-04
+
+Stability chart: 141x81 grid, omega 0.4-6.0, eps 0-2.0; stable fraction 0.773
+Saved docs/images/magnus_mathieu_stability_chart.png

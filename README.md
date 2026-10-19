@@ -21,8 +21,8 @@ In Channing's words: "Ours has always been leaky boundaries and inertial vectors
 
 These are the framework's working ideas. As a group they are **Speculative / Plausible-untested**; individual docs give finer labels.
 - **Leaky boundaries**: [em_topological_gravity_review.md §R4](docs/em_topological_gravity_review.md#r4-leaky-boundaries-recurring) (Grounded as a pattern of open systems; Speculative as one mechanism across scales), [it3_leaky_bound_states_review.md](docs/it3_leaky_bound_states_review.md).
-- **Inertial vectors**: [inertia_sheath_stress_review.md](docs/inertia_sheath_stress_review.md), [em_topological_gravity_review.md §R9](docs/em_topological_gravity_review.md#r9-last-solid-ground-pinch-waveguide-twist-waves-quadrupole-to-tensor).
-- **Shifting phase order**: [shifting_phase_order_review.md](docs/shifting_phase_order_review.md).
+- **Inertial vectors**: [inertia_sheath_stress_review.md](docs/inertia_sheath_stress_review.md), [em_topological_gravity_review.md §R9](docs/em_topological_gravity_review.md#r9-last-solid-ground-pinch-waveguide-twist-waves-quadrupole-to-tensor), [magnus_floquet_inertial_copv_review.md](docs/magnus_floquet_inertial_copv_review.md) (navigation-sense inertial vectors, Magnus/Floquet tools; the link to this pillar is Speculative).
+- **Shifting phase order**: [shifting_phase_order_review.md](docs/shifting_phase_order_review.md) (§F Floquet; Magnus/Floquet numerics in [magnus_floquet_inertial_copv_review.md](docs/magnus_floquet_inertial_copv_review.md)).
 - **Spin/vortex tensors and scalars**: [em_topological_gravity_review.md](docs/em_topological_gravity_review.md) (L1–L2 spin and vortex fields; L4 and R3 isotropic tensors).
 - **MHD equilibrium**: [poynting_vortex_force_balance_review.md](docs/poynting_vortex_force_balance_review.md) (MHD force balance), [tungsten_bismuth_core.md](docs/tungsten_bismuth_core.md) (Hall-MHD and dynamo sections).
 
