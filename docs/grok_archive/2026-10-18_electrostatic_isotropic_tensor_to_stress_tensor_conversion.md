@@ -11,6 +11,7 @@
   4. Speaker headers `==== [n] USER/GROK ====` were added; message numbers count every user and Grok message from 1. Runs of blank lines were collapsed and trailing spaces trimmed. A personal-details scan was run.
   5. Nothing was omitted for scope: the share holds no out-of-scope or personal material. The closing sign-off "Grok & Channing" is kept (first name only).
 - **Review:** see [electrostatic_isotropic_stress_review.md](../electrostatic_isotropic_stress_review.md).
+- **Fuller capture:** share #91 (`753ca89b`) is the longer capture of this same conversation (6 messages; messages 1–2 identical to this file, then "Can we do the next 2 steps?" and "Show the anisotropic total stress"): [2026-10-18_electrostatic_isotropic_tensor_to_stress_tensor_conversion_extended.md](2026-10-18_electrostatic_isotropic_tensor_to_stress_tensor_conversion_extended.md).
 
 ---
 

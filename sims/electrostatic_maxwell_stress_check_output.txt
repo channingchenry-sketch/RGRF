@@ -31,3 +31,13 @@ random B = [ 0.57637217 -0.22259078  0.56514813]
 tr(sigma_EM) = -2.789763e+05 Pa
 -u_EM         = -2.789763e+05 Pa
 trace == -u_EM check: PASS
+
+=== 5. Radial magnetic force, Parker spiral at the equator (share #91) ===
+ r[AU]  FD (JxB)_r [N/m^3]   Grok form          corrected form
+  0.3  +1.131e-28          +1.208e-19         +1.131e-28
+  1.0  +3.055e-30          +5.714e-22         +3.055e-30
+  5.0  +2.443e-32          +2.529e-24         +2.443e-32
+Corrected form matches the FD force (Parker B_phi ~ 1/r gives r*B_phi const,
+so the equatorial radial magnetic force vanishes). Grok's form is non-zero and
+outward: wrong sign on the hoop-tension term and a spurious B_r^2 pressure term.
+Uniform B_phi = 1 nT at 1 AU: corrected (inward) -5.319e-24, Grok +5.319e-24 N/m^3

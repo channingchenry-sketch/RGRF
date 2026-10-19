@@ -10,6 +10,11 @@ Checks:
   3. Heliosphere order-of-magnitude: electric vs magnetic stress ~ (E/cB)^2
      for E ~ few uV/m and B ~ 0.1-0.5 nT.
   4. Full EM Maxwell stress trace equals -u_EM for a random E and B.
+  5. (share #91, 753ca89b) Radial magnetic force for a Parker-spiral field at
+     the equator: J x B from a finite-difference curl vs Grok's radial-shell
+     form  -d/dr(B^2/2mu0) + (B_theta^2 + B_phi^2)/(mu0 r)  vs the corrected
+     form  -d/dr(B_perp^2/2mu0) - B_perp^2/(mu0 r)  (B_perp^2 = B_theta^2 + B_phi^2;
+     B_r drops out because B_r dB_r/dr cancels its own pressure gradient).
 
 CC0. No third-party data.
 """
@@ -105,5 +110,61 @@ def main() -> None:
     print(f"trace == -u_EM check: {'PASS' if ok_tr else 'FAIL'}")
 
 
+def _parker_B(x: np.ndarray, B0: float, r0: float, k: float) -> np.ndarray:
+    """Parker-type field: B_r = B0 (r0/r)^2, B_phi = -B_r k r sin(theta)."""
+    r = float(np.linalg.norm(x))
+    rho = math.hypot(x[0], x[1])
+    st = rho / r
+    rhat = x / r
+    phihat = np.array([-x[1], x[0], 0.0]) / rho
+    Br = B0 * (r0 / r) ** 2
+    Bphi = -Br * k * r * st
+    return Br * rhat + Bphi * phihat
+
+
+def _curl(f, x: np.ndarray, h: float) -> np.ndarray:
+    J = np.zeros((3, 3))
+    for j in range(3):
+        d = np.zeros(3)
+        d[j] = h
+        J[:, j] = (f(x + d) - f(x - d)) / (2.0 * h)
+    return np.array([J[2, 1] - J[1, 2], J[0, 2] - J[2, 0], J[1, 0] - J[0, 1]])
+
+
+def radial_shell_check() -> None:
+    print()
+    print("=== 5. Radial magnetic force, Parker spiral at the equator (share #91) ===")
+    AU = 1.495978707e11
+    B0, r0 = 5e-9, AU            # |B_r| = 5 nT at 1 AU (round value)
+    k = 2.0 * math.pi / (25.38 * 86400.0) / 4.0e5   # Omega / v, v = 400 km/s
+    f = lambda x: _parker_B(x, B0, r0, k)
+    print(" r[AU]  FD (JxB)_r [N/m^3]   Grok form          corrected form")
+    for r_au in (0.3, 1.0, 5.0):
+        r = r_au * AU
+        x = np.array([r, 0.0, 0.0])
+        h = 1e-4 * r
+        B = f(x)
+        Jv = _curl(f, x, h) / MU0
+        Fr = float(np.cross(Jv, B)[0])
+        Br = lambda rr: B0 * (r0 / rr) ** 2
+        Bp = lambda rr: Br(rr) * k * rr
+        B2 = lambda rr: Br(rr) ** 2 + Bp(rr) ** 2
+        dB2 = (B2(r + h) - B2(r - h)) / (2 * h)
+        dBp2 = (Bp(r + h) ** 2 - Bp(r - h) ** 2) / (2 * h)
+        grok = -dB2 / (2 * MU0) + Bp(r) ** 2 / (MU0 * r)
+        corr = -dBp2 / (2 * MU0) - Bp(r) ** 2 / (MU0 * r)
+        print(f" {r_au:4.1f}  {Fr:+.3e}          {grok:+.3e}         {corr:+.3e}")
+    print("Corrected form matches the FD force (Parker B_phi ~ 1/r gives r*B_phi const,")
+    print("so the equatorial radial magnetic force vanishes). Grok's form is non-zero and")
+    print("outward: wrong sign on the hoop-tension term and a spurious B_r^2 pressure term.")
+    # pure azimuthal test: B_phi = const -> hoop tension inward
+    Bc = 1e-9
+    r = AU
+    corr = -0.0 - Bc**2 / (MU0 * r)
+    grok = +Bc**2 / (MU0 * r)
+    print(f"Uniform B_phi = 1 nT at 1 AU: corrected (inward) {corr:+.3e}, Grok {grok:+.3e} N/m^3")
+
+
 if __name__ == "__main__":
     main()
+    radial_shell_check()
