@@ -1,0 +1,26 @@
+=== 1. Eigenvalues of electrostatic Maxwell stress ===
+E = (1.0, 0, 0) V/m
+sigma =
+[[ 4.42709391e-12  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00 -4.42709391e-12  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00 -4.42709391e-12]]
+eigenvalues (sorted): [-4.42709391e-12 -4.42709391e-12  4.42709391e-12]
+expected along E:     +4.427094e-12 Pa
+expected transverse:  -4.427094e-12 Pa (degeneracy 2)
+trace:                -4.427094e-12 Pa
+expected trace:       -4.427094e-12 Pa  (= -1/2 eps0 E^2)
+eigenvalue + trace check: PASS
+
+Note: tension along field lines (+), pressure/compression
+perpendicular (-). Trace is NOT zero (unlike the 4D EM
+stress-energy tensor in vacuum Minkowski spacetime).
+
+=== 2. Heliosphere E vs B stress ratio ~ (E/cB)^2 ===
+c = 2.997925e+08 m/s
+E=1 uV/m, B=0.1 nT: (E/cB)^2 = 1.113e-09, pE = 4.427e-24 Pa, pB = 3.979e-15 Pa, pE/pB = 1.113e-09
+E=5 uV/m, B=0.3 nT: (E/cB)^2 = 3.091e-09, pE = 1.107e-22 Pa, pB = 3.581e-14 Pa, pE/pB = 3.091e-09
+E=10 uV/m, B=0.5 nT: (E/cB)^2 = 4.451e-09, pE = 4.427e-22 Pa, pB = 9.947e-14 Pa, pE/pB = 4.451e-09
+
+Magnetic stress dominates by ~8-9 orders of magnitude at these
+heliospheric scales. Ambipolar E is still essential locally for
+wind acceleration; it is secondary for global heliopause balance.

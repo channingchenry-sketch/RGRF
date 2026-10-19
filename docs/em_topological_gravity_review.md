@@ -160,7 +160,7 @@ Then the loop returns to **shifting phase order** (see `shifting_phase_order_rev
 - **Falsifiable question.** Does a helium-rain layer at the depth implied by Brygoo et al. reproduce Juno's gravity harmonics and Saturn's luminosity at the same time? If RGRF proposes an EM role for the layer, what field signature (e.g. filtering of time-varying field) would it produce?
 
 ### L4. Plasma dynamics around an EM field; the isotropic electrostatic tensor in the interstellar medium
-*Reconstructed from Channing's recollection, 2026-10-11. The original conversation is lost, and no archived session uses "isotropic" or "tensor".*
+*Reconstructed from Channing's recollection, 2026-10-11. The original conversation is still missing (it also tied the isotropic tensor to Fuller's vector equilibrium). A related follow-up was archived 2026-10-18: share #90 (`18a292a6`), [electrostatic_isotropic_stress_review.md](electrostatic_isotropic_stress_review.md) · [grok_archive/2026-10-18_electrostatic_isotropic_tensor_to_stress_tensor_conversion.md](grok_archive/2026-10-18_electrostatic_isotropic_tensor_to_stress_tensor_conversion.md) — electrostatic Maxwell stress conversion, ambipolar E, and magnetic dominance at the heliopause.*
 
 **Thread as recalled:**
 1. An isotropic electrostatic tensor placed in open space **outside the heliopause**, in the interstellar medium (ISM).
