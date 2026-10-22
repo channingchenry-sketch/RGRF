@@ -162,3 +162,43 @@ Grok's draft (verbatim, msg 8):
 3. **11th-dimension section:** book only (*Blueprint* or *Entanglements*), or also something RGRF should try to test? Is the suggested honesty wording (§6) acceptable?
 4. **Redirect:** should the redirect point to this file or to REBUILD_INDEX, and should it be added to the README?
 5. **Drive folder:** the empty `POL_RGRF_Conversational_Dialogue` folder (16 May 2026). Did you make it by hand? Should anything be put there, or should it stay unused?
+
+## 10. Full-share recapture (2026-10-22): messages 9–58
+The archive now holds the **full share** (58 messages, 60 pages; URL in the archive header). Messages 1–8 are unchanged. This section labels the new material.
+
+**Keyword search (new material).**
+- "Wardenclyffe": 18 hits. All are Tesla history, patents, or analogies to the "Wilson-loop" sim.
+- "Lock pins": 8 hits. All are the "6 lock pins + Spin" principle list (msgs 4–23).
+- **0 hits** for ion gating, gating, green, lensing, linchpin or lynchpin. There is no tower reconstruction or feedback-control design. "Regenerative feedback" appears only as principle 3 of the lock-pin list.
+
+**Channing (verbatim, selected).**
+- Msg 13: "Move forward with this. Let’s investigate all of Tesla’s work further."
+- Msg 23: "Can you run a deeper sympy sim of Wilson-loop resonance tied to Wardenclyffe? Let’s sift through all the theories."
+- Msg 25: "So this is going to get deep and I may be off but my full belief is that we are a cell within a cell and at some point there will be a split …" (worldview; **Symbolic**)
+- Msg 35: "Tuning our radios and musical instruments back to 432hz is a must something we can easily do now."
+- Msg 51: "Can you search through all patents that could add Value. Maybe something useful will turn up."
+
+| Msg | Claim | Label | Check / correction |
+|---|---|---|---|
+| 14 | Patents 645,576 and 649,621; Colorado Springs 1899 magnifying transmitter (~50 ft); Wardenclyffe 1901–1917; Earth as "one plate of a giant capacitor" | **Grounded** history (Tesla's concept) | Funding was cut c. 1906 and the tower was demolished in 1917. Wardenclyffe never operated as a power system |
+| 14 | Tesla "tuned into Earth’s resonant frequency (~8–12 Hz range in his notes)" | **Corrected / [to verify]** | The Schumann resonance (7.83 Hz fundamental) was predicted in 1952. Tesla's Colorado Springs notes describe terrestrial stationary waves and his own Earth-resonance estimates. "8–12 Hz in his notes" is unsourced |
+| 14 | "Modern resonant inductive coupling … validates the core physics" | **Partly corrected** | It validates near-field resonant coupling only, not through-Earth global transmission |
+| 24 | "Wardenclyffe model … Base resonance ≈ 7.49 Hz" | **Grounded arithmetic** | 7.49 Hz = c / Earth's circumference. The measured fundamental is 7.83 Hz (ideal cavity value √2·c/2πR ≈ 10.6 Hz, lowered by losses) |
+| 24 | "Phi-optimized resonance: ≈ 12.13 Hz — a cleaner, more efficient harmonic shift" | **Symbolic** | 12.12 = 7.49 × φ. A cavity's modes are set by its geometry and conductivity and cannot be "optimised" by multiplying by φ. 12.1 Hz is not a Schumann mode (2nd mode ≈ 14.3 Hz) |
+| 24 | Holographic Wilson-loop proxy ⟨W⟩ ∼ exp(−√λ/2π · Area); "VEV ≈ 0.6065", "analogous to Tesla’s efficient energy locking" | Formula family **Grounded** (AdS/CFT); RGRF link **Symbolic** | 0.6065 = e^(−0.5), a dimensionless toy number with no link to coils or Earth. "Our sim just proved phi-tuning enhances standing waves" is **not supported**. No code was captured, though Grok says it is "saved in the folder" [Channing to supply] |
+| 24 | "every piece interlocks via the 7 principles with zero contradictions" | **Not supported** | The repo sims contradict φ-coil gains (Modular Core: φ ~8.7 % worse) |
+| 36 | Retune "radios" and instruments to 432 Hz | **Corrected** | A = 432 Hz is a concert-pitch choice for instruments. Radio carrier frequencies cannot be "retuned to 432 Hz". Health or coherence benefits are unsupported (see [letter_number_systems_528_review.md](letter_number_systems_528_review.md)) |
+| 40 | Schumann-harmonic, mycelium and quartz "coherence ~0.90" sims | Grok-reported | No code captured |
+| 42–46 | Cymatic sand patterns; lightning on sand (fulgurites); wine glass with water (pitch drops as water is added) | **Grounded** | See [sand_plasma_fulgurite_review.md](sand_plasma_fulgurite_review.md) |
+| 50 | Tesla coil: loose coupling k ≈ 0.1–0.2, high Q, output 50 kHz–1 MHz | **Grounded** | Also see [tesla_meao_secondary_faraday_verdet_review.md](tesla_meao_secondary_faraday_verdet_review.md) (quarter-wave helical resonator) |
+| 50 | "Tesla coil resonance tuned to 432 Hz + phi" (offered sim) | **Corrected** | At 432 Hz a Tesla coil would need impractically large L and C. Tesla coils run at 10⁴–10⁶ Hz |
+| 52–54 | Tesla patents US454,622 (1891), US645,576 (1900), US1,119,732 (1914), with stated filing/grant dates | **Grounded** [dates to verify against USPTO] | |
+| 54 | US9,328,717 B1 pentagram rotor (J. A. Walker); an Aachen mycelium/lignocellulose patent | **[to verify]** | Not checked |
+| 54 | Plasma vitrification for artificial fulgurites | **Grounded** (industrial vitrification exists) | |
+| 56–58 | Schumann integration; geomagnetic storms shift Schumann amplitudes and frequencies slightly | **Grounded** (ionospheric changes during storms) | Biological "resonance" effects of storms are **Speculative** |
+
+**What this recapture does and does not fill.**
+- It does **not** hold the gutted Wardenclyffe tower reconstruction. The v.3 / Tesla Tower Continuity material is still only in the Lorentz-force archive.
+- It does not hold ion gating, the tower feedback system, green lensing or the hardware linchpin.
+- It does confirm the 6 lock pins + Spin wording (pin 3 = "regenerative feedback") in 8 places, and gives the full Tesla patent list Channing asked for.
+- "Big Pulse" appears in msg 4 (NANOGrav "aligns beautifully with our 'Big Pulse' concept"), but it is not defined anywhere. [Channing to supply]
