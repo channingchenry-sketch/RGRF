@@ -1,0 +1,25 @@
+1. Photon energies
+   390 nm -> 3.179 eV
+   443 nm -> 2.799 eV
+   450 nm -> 2.755 eV
+   460 nm -> 2.695 eV
+   500 nm -> 2.480 eV
+   660 nm -> 1.879 eV
+   730 nm -> 1.698 eV
+   Grok: blue ~2.7-2.8 eV -> 443-459 nm (OK)
+2. 'few hundred uT ~ ten times Earth's field'
+   300 uT / 50 uT = 6x (Earth 25-65 uT)
+   500 uT / 50 uT = 10x (Earth 25-65 uT)
+3. Electron Larmor (radical-pair Zeeman) frequency g*muB*B/h
+   B=50 uT -> 1.40 MHz, period 714 ns
+   B=500 uT -> 14.01 MHz, period 71 ns
+   => needs pair coherence ~>100 ns-1 us at Earth field; consistent with ns-us pair lifetimes
+4. Zeeman energy vs kT at 300 K, 50 uT: 1.1e-07
+5. Black hole scales
+   M87*: r_g=9.60e+12 m, Omega_H=9.79e-06 rad/s, B~10 G, P_BZ~4.5e+33 W
+      Wald charge ~5.5e+21 C vs extremal 1.1e+30 C (ratio 5.0e-09)
+   Sgr A*: r_g=6.35e+09 m, Omega_H=1.48e-02 rad/s, B~30 G, P_BZ~1.8e+28 W
+      Wald charge ~7.3e+15 C vs extremal 7.4e+26 C (ratio 9.9e-12)
+   M87* jet power measured ~1e35-1e37 W; this crude B~10 G estimate is 1-2 orders low, MAD-level flux (EHT 2021 polarimetry) closes the gap.
+6. Atom vs BH 'nucleus' size ratios
+   nucleus/atom ~ 3.3e-05; M87* r_g / Bondi radius(~0.1 kpc)~ 2.6e-06
