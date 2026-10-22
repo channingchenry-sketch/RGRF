@@ -1,7 +1,7 @@
 # Grok archive: Bernoulli Principle and Oppenheimer Exploration
 
 - **Share:** #115 `564f9626` — https://grok.com/share/bGVnYWN5_564f9626-d863-4278-b45f-26f2ce3afe3d
-- **Archived:** 2026-10-22, rebuilt from the 19-page share PDF saved via the browser print dialog (`pdftotext -layout`). 20 messages: 10 Channing, 10 Grok. Channing's turns are quoted exactly. Print headers/footers and a "Continue conversation" button label were stripped; no sidebar text and no surname present. Nuclear-weapon history details in the Oppenheimer biography are replaced by [omitted: out of scope]. Equations are kept as extracted [layout to verify].
+- **Archived:** 2026-10-22, rebuilt from the 19-page share PDF saved via the browser print dialog (`pdftotext -layout`). 20 messages: 10 Channing, 10 Grok. Channing's turns are quoted exactly. Print headers/footers and a "Continue conversation" button label were stripped; no sidebar text and no surname present. Out-of-scope history details in the Oppenheimer biography are replaced by [omitted: out of scope]. Equations are kept as extracted [layout to verify].
 - **Review:** [../bernoulli_oppenheimer_review.md](../bernoulli_oppenheimer_review.md)
 - **License:** CC0
 

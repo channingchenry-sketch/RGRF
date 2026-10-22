@@ -4,7 +4,7 @@
 
 **Scope notes.**
 - **Born–Oppenheimer:** the conversation never mentions it. The Oppenheimer part is biographical only, so no cross-link to link 93 (molecular vibrations) was added.
-- **Omissions:** nuclear-weapon history details in message 2 are marked [omitted: out of scope].
+- **Omissions:** out-of-scope history details in message 2 are marked [omitted: out of scope].
 - **Keyword search:** 0 hits for "green" and 0 for "lensing". This is not the lost green-lensing thread.
 
 **Related docs:** [tungsten_bismuth_core.md](tungsten_bismuth_core.md), [tungsten_bismuth_continuity_review.md](tungsten_bismuth_continuity_review.md), [zpinch_tungsten_nodes_review.md](zpinch_tungsten_nodes_review.md), [dusty_plasma_bench.md](dusty_plasma_bench.md).
