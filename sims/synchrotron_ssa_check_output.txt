@@ -1,0 +1,9 @@
+gamma=1e+03 B=1e-03 G -> nu_c = 4.199e+09 Hz
+gamma=1e+04 B=1e-05 G -> nu_c = 4.199e+09 Hz
+gamma=1e+06 B=1e-04 G -> nu_c = 4.199e+14 Hz
+rule of thumb nu_c ~ 4.2 MHz * gamma^2 * B[G]; nu_g/B = 2.799177171908924 MHz/G
+p=2.0: slope below 2.500 (expect 2.5), above -0.500 (expect -0.500), peak at nu/nu_tau1 = 1.413
+p=2.5: slope below 2.500 (expect 2.5), above -0.750 (expect -0.750), peak at nu/nu_tau1 = 1.239
+p=3.0: slope below 2.500 (expect 2.5), above -1.000 (expect -1.000), peak at nu/nu_tau1 = 1.140
+gamma=1e+02: T_b,max ~ gamma m c^2 / 3k = 2.0e+11 K (inverse-Compton limit ~1e12 K, equipartition ~1e11 K)
+gamma=1e+03: T_b,max ~ gamma m c^2 / 3k = 2.0e+12 K (inverse-Compton limit ~1e12 K, equipartition ~1e11 K)
