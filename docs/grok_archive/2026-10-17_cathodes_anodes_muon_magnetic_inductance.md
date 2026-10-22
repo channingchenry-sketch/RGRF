@@ -1,7 +1,7 @@
 # Grok conversation archive: "Cathodes, Anodes and Muon Magnetic Inductance" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `ebe77445`; full URL [Channing to supply].
+- **Share URL:** share id begins `ebe77445`; full URL https://grok.com/share/bGVnYWN5_ebe77445-1cf8-4dfc-9a4e-dbe8ce6f2fe4 (now retitled "Cathodes Anodes Muon Magnetic Resonance"; second capture: [2026-10-22_cathodes_anodes_muon_magnetic_resonance.md](2026-10-22_cathodes_anodes_muon_magnetic_resonance.md), share #114).
 - **Captured:** 2026-10-17. 62 messages (31 user, 31 Grok). No code was visible.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:

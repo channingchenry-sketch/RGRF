@@ -2,6 +2,8 @@
 
 *License CC0. Source: Grok conversation "Cathodes, Anodes and Muon Magnetic Inductance" (62 messages), archived verbatim at [grok_archive/2026-10-17_cathodes_anodes_muon_magnetic_inductance.md](grok_archive/2026-10-17_cathodes_anodes_muon_magnetic_inductance.md). Labels: **Grounded**, **Plausible-untested**, **Speculative**, **Symbolic**. Grok's numerical or simulation claims are **Grok-reported** unless rerun. Message numbers [n] follow the archive.*
 
+**Second capture (share #114):** the same conversation, retitled "Cathodes Anodes Muon Magnetic Resonance", is archived again at [grok_archive/2026-10-22_cathodes_anodes_muon_magnetic_resonance.md](grok_archive/2026-10-22_cathodes_anodes_muon_magnetic_resonance.md). Many equations marked `[MATH garbled]` below are readable there. Lensing note: [muon_lensing_dual_torus_resonant_water_review.md](muon_lensing_dual_torus_resonant_water_review.md).
+
 **Related docs. Read these rather than repeating them here:**
 - [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md). This conversation is evidently a source thread for §1–3 of that doc, covering streaming, centrifugal buoyancy, the 60° twisted toroid and dual-torus muon pathways. Its formulas are the corrected ones; §4 below lists where Grok's versions in this share differ.
 - [zeeman_muon_cavity_review.md](zeeman_muon_cavity_review.md) and [muonic_hydrogen.md](muonic_hydrogen.md) for muon basics.
