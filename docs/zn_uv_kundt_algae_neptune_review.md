@@ -2,7 +2,7 @@
 
 *License CC0. Source: Grok conversation "Zn and UV Interactions, Kundt's Tubes, Mycosynthesis and Neptune" (38 messages), archived verbatim at [grok_archive/2026-10-17_zn_uv_kundts_tubes_mycosynthesis_neptune.md](grok_archive/2026-10-17_zn_uv_kundts_tubes_mycosynthesis_neptune.md). Labels: **Grounded**, **Plausible-untested**, **Speculative**, **Symbolic**. The Entanglements excerpts in [32]–[38] are fiction and kept as such. Message numbers [n] follow the archive.*
 
-**Capture gap.** Grok msg 6 ends with the heading "Limitations & Honest Considerations" and no body, in both the text and PDF captures. It is marked `[capture gap]` in the archive.
+**Capture gap.** Grok msg 6 ends with the heading "Limitations & Honest Considerations" and no body, in both the text and PDF captures. It is marked `[capture gap]` in the archive. A fresh capture of the share (2026-10-22, 52 pages) confirms the same 38 messages and the same missing body: the gap is in the share itself, not a capture fault. No new content, so no new claims to label.
 
 **Related docs:**
 - [acoustic_streaming_and_centrifugal.md](acoustic_streaming_and_centrifugal.md): Rayleigh's 1884 Kundt's-tube streaming paper is already cited there.
@@ -86,7 +86,11 @@
 - Cymatic patterns in a water bowl are **Grounded** (Faraday waves). That the bowl "holds the shape" through the crystal is **Symbolic**.
 - [Channing to supply] Which chapter these scenes belong to, and whether the triplets or twins are canonical.
 
-## 9. Open items
+## 9. Green / lensing check (2026-10-22)
+
+For the lost green-lensing thread: no gravitational or optical lensing content. "Green" appears only as green synthesis/chemistry, Spirogyra (green alga), the bee green photoreceptor (~544 nm, **Grounded**), and Neptune's methane "greenhouse-like" heat trapping; "thought experiment lens" in msg 30 is figurative. Nothing here belongs to the lost thread; at most the bee 544 nm receptor is a weak neighbour.
+
+## 10. Open items
 
 - [to verify] *Trametes*/hemp absorption values; Daedalea ZnO size; Padina ZnO study; phycocyanin yield units; algal 2.2 kHz claim; Sonic Bloom; ultrasonic glass fining references; mycelium MICP "Neurospora" example.
-- [Channing to supply] The missing "Limitations & Honest Considerations" section of msg 6 if you have it; the chapter placement for the scenes.
+- [Channing to supply] The missing "Limitations & Honest Considerations" section of msg 6 if you have it (not in the public share, rechecked 2026-10-22); the chapter placement for the scenes.

@@ -1,7 +1,7 @@
 # Grok conversation archive: "Zn and UV Interactions, Kundt's Tubes, Mycosynthesis and Neptune" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `b054d63d`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_b054d63d-8816-4310-866d-2de49573b7bd> (share title "Zn UV Kundt's Tube Resonance Exploration").
 - **Captured:** 2026-10-17. 38 messages (19 user, 19 Grok). No code was visible.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
@@ -10,7 +10,7 @@
   3. **Sign-off tails moved back.** The capture attached the closing paragraph of 15 Grok messages (ending "… Grok & Channing") to the start of the following user block. Each was split at the sign-off and returned to the Grok message it belongs to; only Channing's own words remain in the user block. (User messages affected: 3, 5, 9, 11, 13, 17, 19, 21, 23, 25, 27, 29, 33, 35, 37.)
   4. **Math.** Equations that the capture split into invisible one-symbol lines are marked `[MATH garbled]`; any plain-text reading is in the review.
   5. **Web-image and link-card titles** are kept as captured lines; the images were not captured and no publisher figures are included.
-  6. **Capture gap in msg 6.** The heading "Limitations & Honest Considerations" closes Grok msg 6 with no body in either the text or PDF capture; the capture had attached it to the start of user msg 7. It is returned to msg 6 and marked `[capture gap]`.
+  6. **Capture gap in msg 6.** The heading "Limitations & Honest Considerations" closes Grok msg 6 with no body in either the text or PDF capture; the capture had attached it to the start of user msg 7. It is returned to msg 6 and marked `[capture gap]`. **Re-checked 2026-10-22** against a fresh 52-page capture of the share: same 38 messages (19 user, 19 Grok), same first and last turns, and the share itself also shows the heading followed directly by user msg 7, so the gap cannot be filled from the share. No messages were missing.
   7. Page chrome was scrubbed ("Continue conversation" prompts; UI labels such as "Some files couldn't be displayed" are bracketed); the text capture carries no account names.
 - **Review:** [zn_uv_kundt_algae_neptune_review.md](../zn_uv_kundt_algae_neptune_review.md).
 
@@ -335,7 +335,7 @@ systems) on waste substrates. Low-toxicity, biocompatible outcomes support net-p
 design.
 
 Limitations & Honest Considerations
-[capture gap: the body of this section was not saved]
+[capture gap: the body of this section was not saved; also absent from the 2026-10-22 recapture of the share]
 
 ==== [7] USER ====
 Can we investigate algae as well?
