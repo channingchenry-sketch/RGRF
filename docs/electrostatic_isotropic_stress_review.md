@@ -170,3 +170,13 @@ $$
 ## Open questions for Channing
 
 1. Which of Grok's three follow-ups (radial total-stress shell, explicit ambipolar recovery, Blueprint / Entanglements aside) should be taken next, if any? *(Answered in share #91: Channing asked for the first two, then the anisotropic total stress; see [Grok's version (share #91)](#groks-version-share-91).)*
+
+## Leaky-boundary stress jump and heliopause pressure balance (2026-10-22)
+
+Channing's form of the RGRF leaky boundary is a stress jump across a thin boundary layer:
+
+$$F_{net} = \oint \left(P_{in} - P_{out} - \sigma_{EM,in} + \sigma_{EM,out}\right)\cdot dA$$
+
+with dA the outward normal. With B tangential to the heliopause, the normal EM stress reduces to B²/2μ₀, so per unit area this is the familiar p + B²/2μ₀ balance; flow adds ρvv terms. The electric part is negligible ((E/cB)² ~ 10⁻⁹, above).
+
+[`sims/heliopause_pressure_balance.py`](../sims/heliopause_pressure_balance.py) checks it with Voyager numbers. Inside: 267 ± 55 fPa total effective pressure (Rankin et al. 2019, ApJ 883, 101) **Grounded**. Outside: n_e = 0.05-0.08 cm⁻³ (Gurnett et al. 2013, Science 341, 1489) and |B| = 0.486 ± 0.045 nT (Burlaga & Ness 2014, ApJ 784, 146) **Grounded**; T_out 7,500-30,000 K **[to verify]**. Nominal outside p + B²/2μ₀ is about 138 fPa; adding the far-field ISM ram ρv² (about 90 fPa at 26 km/s) gives about 229 fPa, inside the inside error band. The "roughly 10⁻¹³ Pa" figure is confirmed as the right order on both sides. Reading the near-balance as a leaky, near-equilibrium RGRF boundary is **Speculative**.

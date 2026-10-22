@@ -1,0 +1,33 @@
+Inside (heliosheath, Rankin+2019): P_total = 267 +/- 55 fPa
+
+Outside (VLISM, Voyager 1):
+  n_e [cm^-3]  T [K]    p_th [fPa]  B [nT]  B^2/2mu0 [fPa]  P_out [fPa]  P_in-P_out [fPa]
+   0.05         7500      10.4     0.380      57.5            67.8       +199.2
+   0.05         7500      10.4     0.486      94.0           104.3       +162.7
+   0.05         7500      10.4     0.590     138.5           148.9       +118.1
+   0.05        20000      27.6     0.380      57.5            85.1       +181.9
+   0.05        20000      27.6     0.486      94.0           121.6       +145.4
+   0.05        20000      27.6     0.590     138.5           166.1       +100.9
+   0.05        30000      41.4     0.380      57.5            98.9       +168.1
+   0.05        30000      41.4     0.486      94.0           135.4       +131.6
+   0.05        30000      41.4     0.590     138.5           179.9        +87.1
+   0.08         7500      16.6     0.380      57.5            74.0       +193.0
+   0.08         7500      16.6     0.486      94.0           110.5       +156.5
+   0.08         7500      16.6     0.590     138.5           155.1       +111.9
+   0.08        20000      44.2     0.380      57.5           101.6       +165.4
+   0.08        20000      44.2     0.486      94.0           138.2       +128.8
+   0.08        20000      44.2     0.590     138.5           182.7        +84.3
+   0.08        30000      66.3     0.380      57.5           123.7       +143.3
+   0.08        30000      66.3     0.486      94.0           160.3       +106.7
+   0.08        30000      66.3     0.590     138.5           204.8        +62.2
+
+Far-field ISM ram rho v^2 (n_p = 0.05, v = 26 km/s) = 56.5 fPa
+Far-field ISM ram rho v^2 (n_p = 0.08, v = 26 km/s) = 90.5 fPa
+
+Nominal (n=0.08, T=20,000 K, B=0.486 nT): P_out = 138 fPa, P_in = 267 fPa, ratio P_in/P_out = 1.93
+Nominal P_out + full far-field ram = 229 fPa, inside the 267 +/- 55 fPa band (212-322).
+Reading: thermal + magnetic pressure outside (~0.07-0.2 pPa) alone falls short of the ~0.27 pPa
+inferred inside. Adding the stagnated ISM ram term closes most of the gap, and the remainder sits
+inside the error bar (plus unmeasured outside components such as pickup ions [to verify]). So the
+normal stress jump, and F_net per unit area, is small next to either side: a near-equilibrium boundary.
+Numbers: Grounded (sources above). RGRF 'leaky boundary' reading: Speculative.
