@@ -66,8 +66,21 @@
 | B± = \|c_a\|²B_a + \|c_b\|²B_b; cross term usually absorbed | Standard effective-Hamiltonian practice. | **Grounded** |
 | Darling–Dennison 2ν₁/2ν₃ in water | Real and classic (Darling & Dennison 1940). | **Grounded** |
 | K = (γ/2)√(2·1·1·2) = γ√2; "γ ≈ −50 to −80 cm⁻¹" | **Correction:** the arithmetic gives γ, not γ√2. In the common convention ⟨200\|H\|002⟩ = (K/4)√(2·1·1·2) = K/2 with K ≈ −155 cm⁻¹ for H₂O [to verify], i.e. an element of about −78 cm⁻¹. Grok's range is probably the matrix element, not the constant. | **Corrected** |
-| "Binaural shifts" | Grok rightly says there is no such spectroscopic term. Binaural beats are an auditory effect. [Channing to supply] what was meant. | n/a |
+| "Binaural shifts" | Grok rightly says there is no such spectroscopic term. Binaural beats are an auditory effect. Channing has since clarified what he meant: see [§D′](#d-binaural-shifts-channings-clarification). | see §D′ |
 | "Topological changes matter" (msg 13) | Vibrationally averaged geometry is a metric (bond-length) change, not a topological one. | **Symbolic** reading |
+
+## D′. "Binaural shifts": Channing's clarification
+
+Channing (verbatim, added 2026-10-22): "When to frequencies overlap and leave a standing wave behind I haven’t made the connection to electron fields and configurations yet"
+
+| Idea | Check | Label |
+|---|---|---|
+| Two close frequencies f₁, f₂ that overlap give beats: the amplitude envelope pulses at the difference frequency \|f₁ − f₂\|. Binaural beats are the auditory version, with one tone in each ear. | Standard wave superposition. | **Grounded** |
+| Standing waves: two counter-propagating waves of the *same* frequency (often one wave reflected from a boundary) add to fixed nodes and antinodes. Beats from two *different* frequencies move in time and do not leave a fixed standing pattern. | Standard (strings, Kundt's tube, cavities). | **Grounded** |
+| Electron orbitals are standing waves of the wavefunction: de Broglie λ = h/p, Bohr condition nλ = 2πr; in full quantum mechanics, the stationary states of the Schrödinger (or Dirac) equation. | Textbook. | **Grounded** |
+| Molecular-vibration standing waves (normal modes) coupling to electron configurations | Real couplings do exist and are named: vibronic coupling, Born–Oppenheimer breakdown, Jahn–Teller, Herzberg–Teller. A specific "overlap leaves a standing wave that sets the electron configuration" mechanism has not been worked out. This is the open bridge Channing says he hasn't made yet. | **Plausible-untested** |
+
+Also note that a Fermi or Darling–Dennison dyad (§D) is the quantum counterpart of "two frequencies overlapping": near-degenerate levels mix and repel. That is energy-level mixing, not a beat or a spatial standing wave.
 
 ## E. "Wavelength linking" to quantum wavelengths (context, not in the chat)
 
@@ -86,4 +99,4 @@ The share never mentions Compton, de Broglie or Zitterbewegung, but the title in
 
 ## Open
 - Zhao & Zhang 2026 and Jakubowska–Pecul–Ruud 2021 table values [to verify].
-- "Binaural shifts" and the earlier Planck's-constant thread Channing refers to [Channing to supply].
+- The vibration ↔ electron-configuration bridge in §D′ (Plausible-untested), and the earlier Planck's-constant thread Channing refers to [Channing to supply].
