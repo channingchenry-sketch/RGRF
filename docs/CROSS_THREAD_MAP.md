@@ -15,7 +15,7 @@ The hub: share #124, "Modular Core GitHub Repo Proposal" ([modular_core_repo_pro
 8. **Sodium connection to cold fusion (LENR)**: lost. Rebuild from memory (Speculative).
 9. **Lost scripts**: `graphene_hemp_braid_integration.py`, `cnt_bio_photonic_sim.py`, `piezo_feedback_full_stack_sim.py`, `save_earth_full_stack_sim.py` (Uniphysics), `jansen_linkage_sim.py`, and the HMHD script. Rebuild them as sims.
 10. **Bioelectric citations** (Wever, Becker, S. Levin, "~32 mechanisms"). These matter because they hold up the Schumann → bioelectric chain. Verify in the literature.
-11. **Linchpin / electrostatic locking linch pins ([§4g](#4g-linchpin-electrostatic-locking-linch-pins))**: the original session, the canonical lock-pin list, joint loads, and how it relates to the tower feedback system. Track down the chat (share `5b3ee5c7` → #125) and rebuild from memory.
+11. **Linchpin / electrostatic locking linch pins ([§4g](#4g-linchpin-electrostatic-locking-linch-pins))**: the original session, the canonical lock-pin list, joint loads, and how it relates to the tower feedback system. Track down the chat (#125 adds the RegenPod copper-pin sense) and rebuild from memory.
 
 ## 1. Recurring idea clusters
 | ID | Cluster | Link numbers and docs (main) | Strongest evidence | Connects to |
@@ -872,9 +872,10 @@ Several pre-July 2026 threads were lost in a Grok-side incident (see the note at
 | W4 | "charging ports and docking nodes possible early Wardenclyffe-pyramids" (Channing) | [grok_archive/2026-10-17_sphinx_geology_giza_harbor_alignments.md](grok_archive/2026-10-17_sphinx_geology_giza_harbor_alignments.md) lines 689–761; [sphinx_giza_harbor_review.md](sphinx_giza_harbor_review.md) | Speculative |
 | W5 | Tesla resonant transformer (patent 454,622), Wardenclyffe: Grounded history; long-range transmission never shown | [geodesic_organic_design_review.md](geodesic_organic_design_review.md) line 72; archive lines 662, 1003 | Context |
 | W6 | Passing mentions: Earth-reference anchor; Wardenclyffe-inspired reconnection; Tesla "reflecting on Wardenclyffe"; Tesla's global vision "hit this wall"; Wardenclyffe in synchrotron history | Archives: tungsten_toroid (990), fourier_transforms (523), heliosphere_fibonacci (387), open_source_regenerative_infrastructure (173; also [legal_safety_and_grounding_review.md](legal_safety_and_grounding_review.md) line 166), synchrotron (1463, 2019); [tesla_davinci_threads.md](tesla_davinci_threads.md), [tesla_and_ancient_alignments.md](tesla_and_ancient_alignments.md), [lorentz_larmor_boron_nitride_review.md](lorentz_larmor_boron_nitride_review.md), [muon_cathode_acoustic_water_review.md](muon_cathode_acoustic_water_review.md) | Minor |
+| W8 | #125 msg 38: "Wardenclyffe Design: 187-foot tower with a 68-foot metal dome (capacitive terminal) + extensive underground network" (Grounded); "he measured ~7–8 Hz" (corrected); Morgan "metered utilities" (contested). History only; no reconstruction | [grok_archive/2026-10-22_elon_musk_michio_kaku_book_access.md](grok_archive/2026-10-22_elon_musk_michio_kaku_book_access.md); [review §3](book_access_regenpod_linchpin_review.md) |
 | W7 | "Magnifying transmitter": the only hit is the clarification that MEAO ≠ the magnifying transmitter | #123, REBUILD_INDEX row 205 | None |
 
-Searches with 0 green/lensing hits (already ruled out): #106, #109, #110, #115, #116, #117, #120, #121, #122, #123, #124.
+Searches with 0 green/lensing hits (already ruled out): #125, #106, #109, #110, #115, #116, #117, #120, #121, #122, #123, #124.
 
 ### 4b. Sodium connection to cold fusion (LENR)
 Lost [Channing to supply]; **Speculative**. Neighbours: Na uranates in #66 ([poynting_vortex_force_balance](poynting_vortex_force_balance_review.md) §B), seawater Na⁺ in #121, μCF limits in [muonic_hydrogen](muonic_hydrogen.md) (Grounded). Action: rebuild from memory.
@@ -911,6 +912,7 @@ Not recoverable: the capture has no code, only a plot ([images/2026-10-17_grok_g
 | T10 | Ion channels as a proposed ELF mechanism (with stochastic resonance and radical pairs) | [bioelectric_coupling.md](bioelectric_coupling.md) line 17; also ion-channel mentions in [consciousness_fields.md](consciousness_fields.md), [em_geometry_map.md](em_geometry_map.md), and the floquet, mandela-mycelium and harmonic-earth archives |
 | T11 | Geobacter/Shewanella: **0 feedback or gating hits** in the archive and review | #108 [geobacter_shewanella_living_circuit_review.md](geobacter_shewanella_living_circuit_review.md) |
 | T12 | "precision gating in the electric cavity (with magnetron/cyclotron-inspired bursts)" (pulse gating, not ion gating) | [grok_archive/2026-10-22_synchrotron_radiation_and_self_absorption.md](grok_archive/2026-10-22_synchrotron_radiation_and_self_absorption.md) line 2531 |
+| T14 | #125: closed-loop PI velocity-tracking, "ω(t) = ωbase + Kp e(t) + Ki ∫ e(τ) dτ, where e(t) = velocity error", ω snapped to φ-harmonics (Symbolic); msg 18 3D filament docking "with PID + mycelium damping matrix", where the craft "locks, and docks" (Speculative) | [grok_archive/2026-10-22_elon_musk_michio_kaku_book_access.md](grok_archive/2026-10-22_elon_musk_michio_kaku_book_access.md) msgs 16, 18; [review §2](book_access_regenpod_linchpin_review.md) |
 | T13 | Magnifying transmitter: no design text (W7). "Earth resonance": Tesla-inspiration mentions only | [grok_archive/2026-10-17_earth_as_resonant_shuttle_core.md](grok_archive/2026-10-17_earth_as_resonant_shuttle_core.md) lines 2131, 2372; [tesla_davinci_threads.md](tesla_davinci_threads.md) line 54 |
 
 **Grounded basics.**
@@ -955,7 +957,7 @@ Channing flagged the linchpin as another blank page. The section was rebuilt on 
 | P11 | Hyperbolic spirals as "lock pins"; Sphinx as a "lock pin" site metaphor (Symbolic); ferrofluid "pin or release" in #68/#69 (not a lock pin) | Shares `b4089e69`, `5811b022`, #68, #69 (see P1 §4) |
 | P12 | Index row: "lock-pin May wording, 'Big Pulse' **Missing**"; "canonical lock-pin list, target joint loads, Grok images/sims **Missing**" | [REBUILD_INDEX.md](REBUILD_INDEX.md) rows 85, 95 |
 | P13 | Minor mentions: bernoulli (#115), heliosphere, letter-number 528, kessler, hopf, hemp-oil, microwave-nitinol, poynting, cavendish, geometric unity, feynman, nodal spin, meyer, alcubierre reviews | grep "lock pin / locking" |
-| P14 | **Placeholder: share `5b3ee5c7` touches the linchpin and will be archived as #125.** | pending |
+| P14 | #125 `5b3ee5c7` (archived): msg 61 (Channing) "Also, let’s explore hemp blocks with mycelium insulation and copper locking pins."; Grok: "Copper Locking Pins: ½–¾ inch copper rods … act as mechanical “keys” that pin blocks together"; msg 64 pin sim (9.6 mm deflection is right; 28.1 Hz should be ~70 Hz; ~224 MPa root stress exceeds annealed Cu yield); msg 78 pins "act as both structural locks and conductive pathways"; msg 50 a mortar layer "mineralizes and locks everything" | [grok_archive/2026-10-22_elon_musk_michio_kaku_book_access.md](grok_archive/2026-10-22_elon_musk_michio_kaku_book_access.md); [book_access_regenpod_linchpin_review.md §4](book_access_regenpod_linchpin_review.md) |
 
 **Ties to the towers, ion gating and feedback (all Speculative).**
 - "Regenerative feedback" and "resonant frequency locking" are two of the six lock-pin *principles* (P5). The tower reconstruction joined ion gating with "our feedback system" (§4f). So the linchpin may be the *locking* element of that loop: a pin that holds phase (injection locking, P3) or holds a joint (hardware, P2).
