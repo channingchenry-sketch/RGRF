@@ -200,3 +200,8 @@
    - green-lensing mechanism and source.
 6. **Materials:** a specific graphene/h-BN/TMD MISFET paper.
 7. **Tungsten-Bismuth Core:** heartbeat frequencies and geometry; the Hall-MHD simulation script and helicon text; the rest of the MHD-in-space / dynamo thread (§7b-dyn; largely found 2026-10-17 in share `a0d4fa37`, see §7b-dyn.3; still missing: the full `drive` line, the plotting code and the sim image); the end of the CSAMT text and its RGRF-extension continuation; the end of the MT-inversion text (cut off at "…geomagnetism via"); end of the quartz-partner "Bell tests" text and the ~232 as source (toroidal photon text now recovered).
+8. **Lost Grok threads (deleted or missing on Grok; from around the time of shares #93–#97, Oct 2026):**
+   - **Green lensing:** optics work on green light and lensing [Channing to supply]. Related: the green-lensing item in 5 above, and the blue-light / cryptochrome / plant-photoreceptor review of share #95, [`black_hole_magnetic_nucleus_review.md`](black_hole_magnetic_nucleus_review.md).
+   - **Glasses that could possibly heal eyes** (from the green-lensing thread) [Channing to supply]. **Speculative:** vision-therapy and health claims need clinical evidence.
+   - **Sodium connection for cold fusion (LENR)** [Channing to supply]. **Speculative.**
+   - Channing is checking for fragments of these threads.
