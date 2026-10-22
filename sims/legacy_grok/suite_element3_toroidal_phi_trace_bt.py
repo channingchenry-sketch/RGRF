@@ -1,7 +1,8 @@
 # --- ARCHIVE HEADER (added by RGRF; everything below this header is verbatim) ---
 # Grok-generated code ("Suite element 3"), pasted by Channing 2026-10-15.
 # TRUNCATED at "# --- Bluetooth packet transmission under EMI ---\n# Model".
-# Bluetooth part: [Channing to supply]. Review: docs/tesla_davinci_threads.md section 3e.1.
+# Bluetooth part: recovered 2026-10-22 from share #106; complete code in sims/legacy_grok/toroidal_phi_bluetooth_suite.py.
+# Review: docs/tesla_davinci_threads.md section 3e.1.
 # SPDX-License-Identifier: CC0-1.0
 # --- END ARCHIVE HEADER ---
 import numpy as np
