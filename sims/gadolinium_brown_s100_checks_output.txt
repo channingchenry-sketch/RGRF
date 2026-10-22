@@ -1,0 +1,30 @@
+== 1. Gadolinium magnetocaloric (Brown 1976: 14 K adiabatic, 4 kJ/kg isothermal at 7 T, Tc 293 K)
+  mean adiabatic dT/dB over 0-7 T = 2.0 K/T (low-field slope ~2.5-3 K/T; effect sub-linear in B)
+  dT_ad ~ Q/cp = 4000/236 = 17 K (upper bound; cp is larger near Tc, so 14 K is consistent)
+  implied isothermal dS_M = 4000/293 = 13.7 J/(kg K)
+  Brown 1976 regenerator span 46 C to -1 C = 47 K after ~50 cycles  (span > single-shot 14 K because of regeneration)
+  Carnot COP (cooling) across that span = 5.8  (ceiling; no over-unity: COP>1 is heat moved per work, not energy created)
+  permanent-magnet 1 T stage at ~2.5-3 K/T -> ~2.5-3 K single-shot lift (Grok: 'a few kelvin per stage' OK)
+
+== 2. Acoustic impedances (Grok: Ag ~38 MRayl, Sn ~24 MRayl)
+  Ag: Z = 38.3 MRayl
+  Sn: Z = 24.2 MRayl
+  Au: Z = 62.5 MRayl
+
+== 3. Arrhenius factor for 10 kcal/mol at 298 K (Grok: ~1e-7)
+  exp(-Ea/RT) = 4.6e-08
+
+== 4. Electron cyclotron frequency per gauss (Grok wrote 'f_ce ~ 28B kHz, B in gauss')
+  f_ce = 2.80 MHz per gauss = 28 kHz per uT = 28 Hz per nT  -> CORRECTION: 2.8 MHz/G, not 28 kHz/G
+  f_pe = 8.98 kHz * sqrt(n_e[cm^-3]) (Grok's 9 sqrt(n) kHz OK)
+  AKR at 300 kHz needs B = 10717 nT; with ~55,000 nT at the polar surface, r = 1.72 RE -> altitude ~4618 km (Grok: 'a few thousand km' OK)
+
+== 5. Three clocks, dipole, equatorial (Grok table: gyro / bounce(80 deg) / drift(90 deg))
+  L=2:     9.4 us /  0.65 s /  37.08 h |    11.0 us /  0.23 s /   4.00 h |    27.2 us /  0.14 s /   0.55 h
+  L=4:    75.0 us /  1.31 s /  18.54 h |    87.9 us /  0.46 s /   2.00 h |   217.4 us /  0.27 s /   0.27 h
+  L=6:   253.0 us /  1.96 s /  12.36 h |   296.7 us /  0.70 s /   1.33 h |   733.7 us /  0.41 s /   0.18 h
+  L=6, 10 keV: gyrations per bounce = 7740 (Grok ~7000); bounces per drift = 22724 (Grok ~20,000)
+  proton/electron at same energy: bounce ratio sqrt(mp/me) = 42.9, gyro ratio mp/me = 1836
+
+== 6. Cyclotron level spacing hbar*w_ce at 1 uT
+  = 1.2e-10 eV (Grok '~1e-10 eV' is the right order for ~1-10 uT)
