@@ -578,3 +578,5 @@ Source: [grok_archive/2026-10-15_exploring_miller_setterfield.md](grok_archive/2
 | Non-local octaves beyond mediated coupling | Speculative / Symbolic |
 | c ∝ 1/ρ_ZPE (Setterfield) | Speculative / unsupported |
 | Milli-newton ZPF thrust (Miller) | Unverifiable; Speculative |
+
+- **See also (share #97):** [sumerian_noether_arnold_ratchet_review.md](sumerian_noether_arnold_ratchet_review.md): Noether symmetry/conservation, friction-coupled counter-rotation (total L conserved), inner/outer sum vs difference circulation channels.

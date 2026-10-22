@@ -164,3 +164,5 @@ System: x'' + (w₀² + ϵ cos ωt)x = 0, w₀ = 1, ϵ = 0.2, ω = 5, 8 steps pe
 
 1. Plasma-ring / separation idea: what are the geometry and the "gaps"? [Channing to supply]
 2. Is an RGRF COPV use case real (duty, pressure, volume)? If so, a sizing pass against S-081B burst-factor and stress-rupture rules is the next grounded step. [Channing to supply]
+
+- **See also (share #97):** [sumerian_noether_arnold_ratchet_review.md](sumerian_noether_arnold_ratchet_review.md): Noether symmetry/conservation, friction-coupled counter-rotation (total L conserved), inner/outer sum vs difference circulation channels.

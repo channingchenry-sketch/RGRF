@@ -1,0 +1,24 @@
+1. Sexagesimal: divisors of 60
+   divisors: [1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60] count 12 | proper (excl 1,60): [2, 3, 4, 5, 6, 10, 12, 15, 20, 30]
+   60*60 = 3600 ; 360 = 6*60 -> 6
+2. Emmy Noether age at death (b. 1882-03-23, d. 1935-04-14): 53 (birthday passed)
+3. C60 Euler count: V-E+F with V=60, E=90, F=12 pent + 20 hex
+   V-E+F = 2 ; pentagons forced: 12 for any trivalent pent/hex cage
+4. Noether demo: planar particle, central vs. non-central potential
+   central (rotation-symmetric): L range = 0.900000 .. 0.900000  (spread 6.66e-15)
+   anisotropic (rotation broken): L range = 0.860477 .. 0.914651  (spread 5.42e-02)
+   Energy is conserved in both (time-translation symmetry kept); L only in the first.
+5. Friction from inertial momentum -> opposite angular momentum (two rotors, viscous coupling)
+   total L start 10.000000 end 10.000000; rotor-1 L change -7.5000, rotor-2 +7.5000
+   KE start 50.000 end 12.500 (friction dissipates energy, not total L)
+   With the pair fixed to a frame (anchored stator), the reaction torque goes to the frame:
+   equal-and-opposite L is Newton III + rotation symmetry (Noether), not a new effect.
+6. Grok's coupler sign: U = A cos(dphi), lock at pi
+   dphi=pi-0.1: -dU/dphi = +0.0998 (restoring=True); Grok's -A sin = -0.0998
+   dphi=pi+0.1: -dU/dphi = -0.0998 (restoring=True); Grok's -A sin = +0.0998
+   U''(pi) = -A cos(pi) = +1.0 > 0 -> a well. Grok wrote d2U = A cos(dphi)(d dphi)^2 = negative at pi; sign slip.
+   Corrected: tau = +A sin(dphi) (restoring toward pi); second variation = -A cos(dphi)(d dphi)^2 (positive at pi).
+7. Boundary-layer scale: delta/L ~ Re^-1/2 ~ sqrt(nu)
+   Re=1e+02: delta/L ~ 1.0e-01
+   Re=1e+04: delta/L ~ 1.0e-02
+   Re=1e+06: delta/L ~ 1.0e-03

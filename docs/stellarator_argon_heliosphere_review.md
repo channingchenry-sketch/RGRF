@@ -59,3 +59,5 @@ Not discussed in the share. (The heliopause nose and flanks are studied for Rayl
 - The 1/φ rotational-transform proposal: author and paper [Channing to supply / to verify].
 - Which W7-X discharge numbers to use for a D/V profile rerun [Channing to supply].
 - The note Channing asked to "make" in msg 5 (park stellarator/argon) is this review.
+
+- **See also (share #97):** [sumerian_noether_arnold_ratchet_review.md](sumerian_noether_arnold_ratchet_review.md): Noether symmetry/conservation, friction-coupled counter-rotation (total L conserved), inner/outer sum vs difference circulation channels.
