@@ -180,3 +180,54 @@ $$F_{net} = \oint \left(P_{in} - P_{out} - \sigma_{EM,in} + \sigma_{EM,out}\righ
 with dA the outward normal. With B tangential to the heliopause, the normal EM stress reduces to B²/2μ₀, so per unit area this is the familiar p + B²/2μ₀ balance; flow adds ρvv terms. The electric part is negligible ((E/cB)² ~ 10⁻⁹, above).
 
 [`sims/heliopause_pressure_balance.py`](../sims/heliopause_pressure_balance.py) checks it with Voyager numbers. Inside: 267 ± 55 fPa total effective pressure (Rankin et al. 2019, ApJ 883, 101) **Grounded**. Outside: n_e = 0.05-0.08 cm⁻³ (Gurnett et al. 2013, Science 341, 1489) and |B| = 0.486 ± 0.045 nT (Burlaga & Ness 2014, ApJ 784, 146) **Grounded**; T_out 7,500-30,000 K **[to verify]**. Nominal outside p + B²/2μ₀ is about 138 fPa; adding the far-field ISM ram ρv² (about 90 fPa at 26 km/s) gives about 229 fPa, inside the inside error band. The "roughly 10⁻¹³ Pa" figure is confirmed as the right order on both sides. Reading the near-balance as a leaky, near-equilibrium RGRF boundary is **Speculative**.
+
+## Continuation (share #92)
+
+Share #92 ([archive](grok_archive/2026-10-22_electrostatic_isotropic_tensor_to_stress_tensor_conversion_full.md), 26 messages) is the fullest capture of this conversation. Msgs 1–6 are #91 and are reviewed above; this section covers **only msgs 7–26**. Reruns: [`sims/s92_checks.py`](../sims/s92_checks.py) ([output](../sims/s92_checks_output.txt)). Grok's numbers are **Grok-reported** unless rerun here.
+
+### 1. CGL evolution and 1 AU numbers (msgs 7–8)
+
+- CGL invariants p⊥/(ρB) and p∥B²/ρ³ and the differential forms Dp∥/Dt + p∥∇·v + 2p∥(bb:∇v) = 0, Dp⊥/Dt + 2p⊥∇·v − p⊥(bb:∇v) = 0 are correct (Chew, Goldberger & Low 1956) **Grounded**. "Pure CGL over-predicts the anisotropy" is right: the rerun (0.3 → 1 AU, n ∝ r⁻², Parker |B|) gives T⊥ ×0.12 and T∥ ×0.55, so T⊥/T∥ drops ~4.5×, much more than observed.
+- **Rerun of P ~ 8×10⁻¹² Pa:** n = 5 cm⁻³, T = 10 eV, **at 1 AU**: n k T = 8.0×10⁻¹² Pa. That is **protons only**; adding electrons at similar T doubles it to ~1.6×10⁻¹¹ Pa. A more typical T_p ≈ 10⁵ K (8.6 eV) gives 6.9×10⁻¹² Pa. B²/2μ₀ = 9.95×10⁻¹² Pa and ρv² = 1.34×10⁻⁹ Pa match Grok. β_p ≈ 0.8.
+- **Corrected:** the ambipolar body force n_e e E_r is ~10⁻²² N m⁻³ at 1 AU (our ambipolar sim gives E ≈ 0.13–0.16 nV/m there; even 5 nV/m gives only 4×10⁻²¹), **not** "~10⁻¹⁵ Pa m⁻¹". Grok is off by about 10⁶. "A few nV/m" belongs to the inner heliosphere (~0.1 AU), not 1 AU.
+
+### 2. Leaky boundary alignment (msgs 9–10)
+
+The general point (heliopause is a permeable, near-balanced boundary; reconnection lets flux through) is **Grounded** and matches the heliopause pressure balance above (267 ± 55 fPa inside vs ~229 fPa outside). Grok's claim that p∥ > p⊥ "reduces the normal force" is only loosely stated (see §3 for the sign). Mapping to docking nodes stays **Speculative** (Grok labelled it).
+
+### 3. "Is there inward pull?" (msgs 11–12)
+
+- Tension (B·∇)B/μ₀ points to the centre of curvature: **Grounded**. But the net magnetic force is tension **plus** −∇(B²/2μ₀). With our corrected radial form (hoop term −(B_θ²+B_φ²)/(μ₀r), inward), the Parker-spiral B_φ ∝ 1/r makes the outward pressure gradient +B_φ²/(μ₀r) cancel the hoop tension exactly. The rerun gives a net of ~10⁻³² N m⁻³ against terms of 3×10⁻²⁶. So **in the far solar wind there is no net magnetic inward pull**. Grok's "Parker spiral tension has a radially inward component" holds only for the tension term taken alone.
+- **Sign corrected:** for field tangential to a boundary of curvature radius R, ∇·[(p∥−p⊥)bb] has a normal part −(p∥−p⊥)/R. So **p∥ > p⊥ adds** an inward, tension-like pull (firehose side), and p⊥ > p∥ reduces it. Grok said p⊥ > p∥ gives the inward contribution, which is reversed.
+- At the heliopause, the net confinement is the outside pressure (ISM thermal + B²/2μ₀ + ram) balancing the inside pressure. Within the Rankin 2019 error band there is **no measurable net inward force**: it is a balance, not a pull. Draping of the ISM field (Burlaga & Ness 2014, 0.486 nT) gives a tension that adds to the outside confinement **[to verify magnitude]**. Gravity is negligible there.
+
+### 4. Craft buoyancy and "shifting pressure" (msgs 13–14)
+
+- The surface-integral form F = ∮(P_in − P_out − σ_EM,in + σ_EM,out)·dA is ours and is correct **Grounded**. Note: a body's *own* field can't lift it in free space. The surface integral of its self-stress over an enclosing surface is zero, so lift needs a reaction (a conductive floor via eddy currents, the ambient field, or air through real buoyancy).
+- The craft is **buoyancy-first**: magnetic and EM effects are trim. Grok gave no power figure. The repo's eddy-lift hover budget stays **10–17 kW for 88 kg** ([ANALYSIS](ANALYSIS_2026-10-12.md)), and any low-power claim (e.g. the old 520 W) remains contradicted. "Steerable buoyancy from p⊥/p∥ shifts" at craft scale is **Speculative**, and Grok labelled it that way.
+
+### 5. "Is Earth already mapped?" (msgs 15–16)
+
+Grok's answer is fair: the geomagnetic field (IGRF, Swarm), crustal anomalies, gravity and seismic structure are mapped **Grounded**, and no consensus "docking node" or ley-line plasma map exists. The physics analogue of our boundary is the **magnetopause** (Chapman–Ferraro pressure balance, **Grounded**): B_s²/2μ₀ = ρv². The rerun with B₀ = 31 µT and p_dyn = 1.34 nPa gives 8.1 R_E for a bare dipole and **10.2 R_E** with the Chapman–Ferraro compression factor 2. Shue et al. (1998, B_z = 0) gives 9.8 R_E. The ~10 R_E standoff is **verified**.
+
+### 6. "Anything emerging similar?" and follow-ups (msgs 17–22, incl. the msg-22 table)
+
+| Row (Grok) | Label | Notes |
+|---|---|---|
+| Magnetic buoyancy (Parker 1955) | **Grounded** | Parker 1955, ApJ 121, 491; Parker instability 1966. |
+| Ferrofluid levitation via stress tensor | **Grounded** (principle) / **[to verify]** (specific experiment) | Rosensweig, *Ferrohydrodynamics* (1985); the magnetic normal traction ½μ₀M_n² + μ₀∫M dH is the standard Rosensweig form. The specific "lift tracks spike amplitude" measurement and the 1.35 g/cm³, 28 kA/m values are Grok-reported [to verify]. The rerun puts 0.5 N/cm³ at ≈38 g, which needs ∇(μ₀H) ≈ 18 T/m: plausible only right at an NdFeB surface. |
+| σ_mag = μ₀(H⊗B − ½H²I) | **Corrected** | The extra μ₀ is dimensionally wrong. The linear-medium form is H⊗B − ½μ₀H² I (plus the striction/pressure terms). |
+| Mycelium composites (Trametes) | Grounded field / **[to verify]** specifics | The "2026 Utrecht" rapeseed-straw 3-cycle study (88–143 kg/m³, 55–62 % GWP cut), the ~3.6 MPa coffee-ground mix and the CNF coatings are Grok-reported [to verify]. 0.2–2 MPa non-structural is the consensus range. |
+| Compact-torus plasma loops for km-scale capture | **[to verify]** | Compact-torus acceleration is real (e.g. RACE/MARAUDER). The "spacecraft capture" proposal is unverified. |
+| Resonant wireless power for hover | Grounded / **[to verify]** | Quasistatic cavity resonance is real (Chabalko, Shahmohammadi & Sample 2017, PLoS ONE). The specific UAV-hover efficiencies of 30–90 % are [to verify]. It is not lift. |
+| Table: "interior magnetic pressure / magnetization jump" (outward buoyancy) | **Grounded** | The magnetization jump at the interface sets the magnetic normal traction ½μ₀M_n². |
+| Table: inward pull rows | Plasma row **corrected** per §3 | Ferrofluid row Grounded. |
+| "Integrated regenerative node is our synthesis" | **Speculative** | — |
+
+**Rayleigh–Taylor came up** (Channing msg 19: "Rayleigh-Taylor we touched on before"; Grok msgs 20, 22 and 24). Grok's "magnetic Rayleigh–Taylor spikes" are really the **Rosensweig normal-field instability** (Cowley & Rosensweig 1967). That is a related interfacial instability but not classical RT. Kelvin–Helmholtz did not come up. → **An RT section is next** (Channing's request).
+
+### 7. Spin and low/high pressure dynamics (msgs 23–24)
+
+- Gyroviscosity (Braginskii 1965) and ferrofluid spin viscosity, with antisymmetric stress ∝ ζ(2ω − ∇×v) (Shliomis 1972; Rosensweig), are **Grounded**. Grok's ∇·Π_gyro ~ ∇·(ω_c × P) is **schematic**, not the Braginskii tensor. Centrifugal ρΩ²r in a rotating node is Grounded.
+- "Higher spin lowers confining pressure on one face and raises it on the other" and "spin moves the pressure jump without changing the mean field" are **Speculative** and unquantified. A spin-pressure actuator is **Speculative** (Grok labelled it). A Δω→Δp estimate is not done.
+- Msgs 25–26: "To be continued" and Grok's recap. No new claims.

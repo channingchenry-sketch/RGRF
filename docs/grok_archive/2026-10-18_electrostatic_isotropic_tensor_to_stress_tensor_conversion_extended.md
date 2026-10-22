@@ -2,6 +2,7 @@
 
 - **Source:** Grok-generated conversation, shared by Channing (share #91).
 - **Share URL:** https://grok.com/share/bGVnYWN5_753ca89b-dae3-41f1-b693-30744be83110 (share id `753ca89b`).
+- **Superseded by fuller capture:** [share #92 (`2b696995`)](2026-10-22_electrostatic_isotropic_tensor_to_stress_tensor_conversion_full.md) holds this conversation in full (26 messages).
 - **Relation to share #90:** same title and same conversation. This is the **fuller capture**: messages 1–2 are identical to [share #90 (`18a292a6`)](2026-10-18_electrostatic_isotropic_tensor_to_stress_tensor_conversion.md) (checked by whitespace-normalised diff of the two PDF texts); messages 3–6 are new.
 - **Captured:** 2026-10-18. 6 messages (3 user, 3 Grok). Topics: electrostatic Maxwell stress (as in #90); Grok's "next 2 steps": (1) total-stress momentum equation and its radial heliospheric-shell reduction, (2) ambipolar field E∥ ≈ −(1/n_e e) ∂p_e/∂s; then the anisotropic (CGL) total stress.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.

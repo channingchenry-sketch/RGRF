@@ -2,6 +2,7 @@
 
 - **Source:** Grok-generated conversation, shared by Channing (share #90).
 - **Share URL:** https://grok.com/share/bGVnYWN5_18a292a6-af38-4781-a566-bff18dd2bb81 (share id `18a292a6`).
+- **Superseded by fuller capture:** [share #92 (`2b696995`)](2026-10-22_electrostatic_isotropic_tensor_to_stress_tensor_conversion_full.md) holds this conversation in full (26 messages).
 - **Captured:** 2026-10-18. 2 messages (1 user, 1 Grok). Topics: electrostatic Maxwell stress from an isotropic electrostatic contribution, tension along E / pressure across E, heliosphere magnetic vs electrostatic stress balance, ambipolar electric field, and a clearly labeled Speculative note on phi-scaled / "docking" boundary readings.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the PDF capture (`/workspace/browser-pdfs/grok_share_18a292a6.pdf`, 2 pages, `pdftotext -layout`):
