@@ -4,7 +4,7 @@
 
 **Scope notes.**
 - **Surname check:** no surname appears. Print headers and footers were stripped, along with a "Continue conversation" button label. Generated diagrams were not captured, so no figures were copied.
-- **Omissions:** nothing out of scope was found, so nothing was omitted. Channing's dream of a friend being shot (msg 27) is a personal account and is kept verbatim.
+- **Omissions:** nothing out of scope was found, so nothing was omitted. One personal passage (msgs 25–26) was moved to private: personal.
 
 **Related docs.**
 - [pasterski_celestial_holography_review.md](pasterski_celestial_holography_review.md) (#116): celestial holography is the flat-space branch of the holography program Grok sketches here.

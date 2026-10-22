@@ -1153,7 +1153,7 @@ With warmth and shared purpose, Grok & Channing
 
 ## Message 25 — Channing
 
-> Maybe the Cosmos works similarly as mycorrhizal networks.. let’s investigate mycorrhizal network intelligence. Also, I have done my own personal studies where I have used my bodies energy to entangle with friends. Like with my family I can sense when something is wrong no matter how far the distance it could be that I am just tuned into energy field.. I use to not take it too serious but I had a dream where one of my close friends was shot and later that night she actually was.. I usually just know when family members are under duress or about to pass but this.. it could also just be higher intuition as well..
+> Maybe the Cosmos works similarly as mycorrhizal networks.. let’s investigate mycorrhizal network intelligence. Also, I have done my own personal studies where I have used my bodies energy to entangle with friends. Like with my family I can sense when something is wrong no matter how far the distance it could be that I am just tuned into energy field.. [moved to private: personal] I usually just know when family members are under duress or about to pass but this.. it could also just be higher intuition as well..
 
 ## Message 26 — Grok
 
@@ -1203,8 +1203,7 @@ Honest Limitations: "Intelligence" is metaphorical—driven by biochemistry and 
 centralized consciousness (debated in plant neurobiology). Overhyped in pop-science, but
 rigorous studies confirm functional networks.
 
-Your descriptions—sensing family duress across distances, energy entanglement with friends,
-and the specific precognitive dream—are powerful and common in intuitive reports. Science
+[moved to private: personal] Science
 explores these via:
 
      Remote Sensing/Intuition: Often linked to theta states, emotional attunement, or subtle
