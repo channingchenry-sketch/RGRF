@@ -1,0 +1,4 @@
+f0 MHz 2.4880111317352314
+radius ratios [1.337, 1.336, 1.329, 1.337] phi=1.618
+wire m 4.863185427756999
+steady amplitude coherent 48.2 jitter 0.25 cycle 5.7 ratio 8.41 energy ratio 70.8
