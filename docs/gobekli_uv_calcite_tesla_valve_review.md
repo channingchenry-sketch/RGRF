@@ -72,7 +72,32 @@
 - **HOOH ionisation loop [19][20].** Catalytic H₂O₂ decomposition to O₂ for life support is **Grounded**: it has been proposed and used for closed-environment oxygen supply [to verify]. Plasma ionisation of HOOH vapour is **Speculative** and adds hazard. Concentrated peroxide is a fire and explosion risk with organics.
 - **"Gyroscopes once spinning can be lifted slightly in any direction to travel" [19].** **Correction (Grounded mechanics).** A spinning gyroscope resists changes to its spin *axis*: torque produces precession. It produces no net force and cannot lift or propel itself; "reactionless" gyro-drive claims (e.g., Laithwaite's 1974 demonstrations) have not survived testing. A gyro can stabilise attitude only.
 
-## 7. Open items
+## 7. UV light: physics, biology and safety
+
+*Added 2026-10-22: Channing re-sent this share as link #101 and asked for the UV material to be highlighted. Numbers come from [`sims/uv_photon_energies.py`](../sims/uv_photon_energies.py) ([output](../sims/uv_photon_energies_output.txt)).*
+
+- **Bands and photon energies.** **Grounded.** ISO 21348 and the CIE define UV-A as 315–400 nm, UV-B as 280–315 nm and UV-C as 100–280 nm [U1][U2]. With E = hc/λ (hc ≈ 1239.84 eV·nm): 400 nm = 3.10 eV, 365 nm = 3.40 eV, 315 nm = 3.94 eV, 280 nm = 4.43 eV, 260 nm = 4.77 eV, 254 nm = 4.88 eV, 100 nm = 12.40 eV. So UV-A is 3.10–3.94 eV, UV-B is 3.94–4.43 eV and UV-C is 4.43–12.40 eV. These energies are comparable to chemical-bond and electronic-transition energies, which is why UV drives photochemistry and visible light mostly does not.
+- **Ozone absorbs UV-C.** **Grounded.** Stratospheric O₂ and O₃ absorb essentially all solar UV-C and most UV-B (ozone's Hartley band peaks near 255 nm), so ground-level sunlight is mostly UV-A with a little UV-B [U3]. Any UV-C at the surface is artificial (254 nm germicidal lamps, arcs, welding).
+- **DNA absorbs near 260 nm.** **Grounded.** Nucleobases absorb strongly near 260 nm. UV-C and UV-B photons form cyclobutane pyrimidine dimers and 6-4 photoproducts, which is why 254 nm lamps kill microbes and why UV-B causes sunburn and skin cancer [U4].
+- **Calcite fluorescence.** **Grounded.** Already covered in [§3](#3-calcite-lime-and-uv-410); not repeated here.
+- **UV-A vision in bees and birds.** **Grounded.** Honeybees have a UV photoreceptor peaking near 344–350 nm and see UV "nectar guides" on flowers. Many birds have a UV- or violet-sensitive cone (UVS peaks ~355–380 nm) used in mate choice and foraging [U5][U6]. Related: [zn_uv_kundt_algae_neptune_review.md](zn_uv_kundt_algae_neptune_review.md).
+- **Cryptochrome and blue / UV-A light.** **Grounded** as a photoreceptor: cryptochromes are flavoproteins that absorb blue and UV-A light (FAD absorption ~350–450 nm) and help set plant growth and animal circadian clocks [U7]. Their role in the bird magnetic compass (radical-pair model) is **Plausible-untested** in its details. See the share #95 review, [black_hole_magnetic_nucleus_review.md](black_hole_magnetic_nucleus_review.md).
+- **Real eye risks.** **Grounded.** Acute UV-B/UV-C exposure causes photokeratitis ("snow blindness", "welder's flash"), a painful corneal burn that appears hours after exposure. Long-term UV-B exposure is a risk factor for cortical cataract, pterygium and eyelid skin cancers. WHO recommends UV-blocking eyewear and limiting midday sun [U8][U9]. Never look at 254 nm germicidal lamps or arcs without protection.
+- **UV healing / eye healing.** **Speculative.** Claims that UV light, or special glasses, heal the eyes need clinical evidence; none is given in this share and the repo has none. The **Grounded** medical uses of UV are narrow and dosed, e.g. supervised narrow-band UV-B phototherapy for psoriasis [to verify: dosing details]. Open gaps, still [Channing to supply]: the green-lensing and eye-glasses items in the "Still missing" list of [REBUILD_INDEX.md](REBUILD_INDEX.md#still-missing-channing-to-supply).
+- **Symbolic.** Reading Göbekli Tepe carvings as UV or light symbolism is **Symbolic** only; there is no archaeological evidence that the builders used or knew about UV.
+
+**UV sources:**
+- [U1] ISO 21348:2007, *Space environment — Process for determining solar irradiances* (spectral category definitions).
+- [U2] CIE S 017:2020, *ILV: International Lighting Vocabulary* (UV-A/UV-B/UV-C).
+- [U3] WMO/UNEP, *Scientific Assessment of Ozone Depletion* (ozone UV absorption) [to verify: edition].
+- [U4] Sinha & Häder (2002), "UV-induced DNA damage and repair: a review", *Photochem. Photobiol. Sci.* 1, 225–236.
+- [U5] Peitsch et al. (1992), "The spectral input systems of hymenopteran insects", *J. Comp. Physiol. A* 170, 23–40.
+- [U6] Hart & Hunt (2007), "Avian visual pigments", *Am. Nat.* 169, S7–S26.
+- [U7] Chaves et al. (2011), "The cryptochromes: blue light photoreceptors in plants and animals", *Annu. Rev. Plant Biol.* 62, 335–364.
+- [U8] WHO, "Ultraviolet radiation" fact sheet; WHO/WMO/UNEP/ICNIRP, *Global Solar UV Index: A Practical Guide* (2002).
+- [U9] WHO, *World report on vision* (2019); ICNIRP (2004) guidelines on UV exposure limits [to verify: section].
+
+## 8. Open items
 
 - [to verify] Painted boar find details; calcite UV-defect doses; HOOH oxygen-generation history; Göbekli limestone fluorescence on actual samples.
 - [Channing to supply] The earlier "vortex inspired cyclotron-magnetron discussion" that [17] refers to (not in this capture), and the saved dual-loop summary from [24].

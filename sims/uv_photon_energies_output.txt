@@ -1,0 +1,10 @@
+E = hc/lambda;  hc = 1239.841984 eV nm
+      nm        eV  label
+     400     3.100  UV-A upper edge (visible boundary)
+     365     3.397  UV-A reference: blacklight / Hg 365 nm
+     315     3.936  UV-A / UV-B boundary
+     280     4.428  UV-B / UV-C boundary
+     260     4.769  DNA absorption peak (approx.)
+     254     4.881  Low-pressure Hg germicidal line
+     100    12.398  UV-C lower edge (vacuum-UV boundary)
+Bands: UV-A 3.10-3.94 eV; UV-B 3.94-4.43 eV; UV-C 4.43-12.40 eV
