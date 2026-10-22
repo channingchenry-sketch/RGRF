@@ -1,0 +1,14 @@
+1) Critical density at 24 GHz: 7.145e+18 m^-3 = 7.14e+12 cm^-3 (Grok-reported ~7e12 cm^-3)
+   free-space wavelength 1.249 cm (Grok: ~1 cm)
+   Ne=1e+14 cm^-3 -> Ne/Ncr = 14, f_p = 90 GHz
+   Ne=1e+15 cm^-3 -> Ne/Ncr = 140, f_p = 284 GHz
+2) Argon ionization energies (NIST ASD, eV): Ar0->1+ 15.760, Ar15+->16+ 918.4, Ar16+->17+ 4120.7, Ar17+->18+ 4426.2
+   He-like Ar16+ is a closed shell: wide temperature window -> core X-ray diagnostics (XICS)
+3) 1/phi = 0.618034 ; continued fraction [0;1,1,1,...] -> 'most irrational' (Hurwitz). Symbolic for coil design.
+   W7-X standard configuration edge iota ~ 5/5 = 1 (island divertor uses that low-order resonance)
+4) solar wind n(  1 AU) ~ 5.00e+00 cm^-3 (n1AU=5, 1/r^2, no TS jump)
+4) solar wind n( 10 AU) ~ 5.00e-02 cm^-3 (n1AU=5, 1/r^2, no TS jump)
+4) solar wind n( 40 AU) ~ 3.13e-03 cm^-3 (n1AU=5, 1/r^2, no TS jump)
+4) solar wind n( 90 AU) ~ 6.17e-04 cm^-3 (n1AU=5, 1/r^2, no TS jump)
+4) solar wind n(120 AU) ~ 3.47e-04 cm^-3 (n1AU=5, 1/r^2, no TS jump)
+   VLISM n_e ~0.08 cm^-3 (Gurnett 2013) / ~0.002 cm^-3 heliosheath -> ratio ~40
