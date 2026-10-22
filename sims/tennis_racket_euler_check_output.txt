@@ -1,0 +1,7 @@
+closed-form growth rate lambda/omega = sqrt((I2-I1)(I3-I2)/(I1 I3)) = 0.577350
+2% on w1 and w3: max|dE/E|=3.3e-14 max|dL2/L2|=3.4e-14 omega2 zero crossings t=[ 9.71 26.85 44.  ]
+2% on w1 only: max|dE/E|=4.4e-14 max|dL2/L2|=4.5e-14 omega2 zero crossings t=[ 9.17 27.52 45.87]
+2% on w3 only: max|dE/E|=4.6e-14 max|dL2/L2|=4.6e-14 omega2 zero crossings t=[ 8.22 24.66 41.11 57.56]
+fitted early growth rate of |w1|: 0.564142
+spin on I1: max |other comps| = 0.040
+spin on I3: max |other comps| = 0.028
