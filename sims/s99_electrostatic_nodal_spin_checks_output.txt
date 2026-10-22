@@ -1,0 +1,21 @@
+1. Electrostatic Maxwell stress T=e0(EE-1/2 d E^2)
+  eig/u = [-1. -1.  1.]  trace/u = -1.0
+  true isotropic part (tr/3)/u = -0.333333 -> -u/3 (trace = -u), NOT -u; the -1/2 e0E^2 d term is not the isotropic projection
+  deviatoric eig/u = [-0.666667 -0.666667  1.333333]
+2. When is T_ij purely isotropic? average EE over random directions:
+  <T>/u diag = [-0.333 -0.334 -0.333] (-1/3: isotropic only for direction-averaged/random fields)
+  full EM plane wave E_|_B, |E|=c|B|: T = -u k^k (pure pressure along k, zero transverse):
+  diag/u = [-0.  0. -1.]
+3. Standing wave nodes: E=E0 sin kx cos wt, B=(E0/c) cos kx sin wt
+  E nodes at x/lambda=0,0.5; B nodes at 0.25,0.75 (quarter-wave offset). time-avg u(x)/(e0 E0^2/4): [1. 1. 1. 1. 1. 1. 1. 1. 1.]
+  -> time-averaged total u is uniform; nodes are E- or B-nodes, energy sloshes between them
+4. Nodal 'time dilation' scale dtau/tau ~ G/c^4 * int u/r dV (Grok-reported form, order-of-magnitude)
+  lab 1 MV/m + 1 T, R=1 m: u=3.98e+05 J/m3 -> dtau/tau ~ 2.07e-38
+  heliosphere-ish 1 uV/m,1 nT,R=1 AU: u=3.98e-13 J/m3 -> dtau/tau ~ 4.65e-34
+5. Plasma beta 2mu0 p/B^2 examples
+  photosphere-ish n=1e23 m^-3,6000K,0.15T: beta=1.85
+  1 AU wind n=5/cc,1e5K,10nT: beta=0.35
+6. Umbra deficit: photosphere 5772 K vs umbra 3900-4700 K (textbook range) -> 1072 to 1872 K; Grok's 1000-1900 K is consistent
+7. Io wing power Grok-reported 5e11-1.5e12 W; Voyager-era ~2e12 W: not rerun (needs conductance model) [to verify]
+8. Angular momentum: friction-coupled counter-rotating rotors conserve total L (share #97)
+  L0=1.000000 L_end=1.000000; common w=0.3333; KE lost to heat=5.3333 J
