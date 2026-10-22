@@ -1,0 +1,29 @@
+1. Brillouin density n_B = eps0 B^2 / (2 m)
+   electron coefficient: 4.860e+18 m^-3 per T^2 (Grok: 4.86e18)
+   f_c per tesla: 27.99 GHz (Grok: 28.0)
+ B(T)   nB_e(cm^-3)  f_c(GHz)  f_rot@limit(GHz)  nB_p(cm^-3)
+  0.01   4.860e+08      0.28      0.14   2.647e+05
+  0.05   1.215e+10      1.40      0.70   6.617e+06
+  0.10   4.860e+10      2.80      1.40   2.647e+07
+  0.20   1.944e+11      5.60      2.80   1.059e+08
+  0.50   1.215e+12     14.00      7.00   6.617e+08
+  1.00   4.860e+12     27.99     14.00   2.647e+09
+  2.00   1.944e+13     55.98     27.99   1.059e+10
+  4.00   7.776e+13    111.97     55.98   4.235e+10
+  5.00   1.215e+14    139.96     69.98   6.617e+10
+ 10.00   4.860e+14    279.92    139.96   2.647e+11
+   mass ratio m_p/m_e = 1836.2
+2. Rim field of a uniform column, n = 0.2 n_B, B = 1 T, R = 1 cm
+   n = 9.72e+17 m^-3, E_rim = 8.79e+07 V/m = 879 kV/cm (Grok: 'tens of kV/cm')
+3. Cyclotron cooling time tau = 3 pi eps0 me^3 c^3 / (e^4 B^2)
+   B=0.1 T: tau = 258 s
+   B=1 T: tau = 2.58 s
+   B=5 T: tau = 0.103 s
+4. Feynman rule n_v = 2 Omega / kappa, kappa = h/m4
+   kappa = 9.969e-08 m^2/s (Grok: 9.97e-8)
+   Omega=1 rad/s: n_v = 2.01e+07 m^-2, spacing ~ 223 um
+   Omega=3.5 rad/s: n_v = 7.02e+07 m^-2, spacing ~ 119 um
+5. Electrons on liquid helium (1D hydrogenic model, Lambda = e^2 (eps-1)/(4(eps+1)) / (4 pi eps0))
+   ground binding 0.657 meV = 7.63 K (Grok: ~7.6 K; measured ~0.7 meV)
+   <z> = 1.5 a_B = 11.4 nm (Grok: ~11 nm)
+   1->2 transition (hydrogenic) 119 GHz (Grok: ~125 GHz; measured 125.9 GHz, Grimes et al. 1976)
