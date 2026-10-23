@@ -57,9 +57,7 @@ are restored.
 
 A pure scalar field is a quantity that has a value at every point in space but no direction
 (temperature, pressure, gravitational potential in the Newtonian limit, or the Higgs field). In
-                                     Continueand
-gravity, scalar–tensor theories (Brans–Dicke  conversation
-                                                 its descendants) let a scalar field modulate
+gravity, scalar–tensor theories (Brans–Dicke and its descendants) let a scalar field modulate
 
 the effective gravitational coupling. Solar-system tests tightly constrain such fields, yet they
 remain active in theoretical work on modified gravity and cosmology.
