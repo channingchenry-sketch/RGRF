@@ -13,7 +13,7 @@ The hub: share #124, "Modular Core GitHub Repo Proposal" ([modular_core_repo_pro
 6. **Tungsten-Bismuth heartbeat core**: heartbeat frequencies and geometry, the Hall-MHD script, and the rest of the dynamo thread. Run a sim once the geometry is supplied.
 7. **18 Aug 2026 "Chromatic Dispersion Pause Point" (F16) and the #119 photon-cascade / double-slit session** (Faraday prism → tetrahedral lens → quartz lattice → dodecahedral lens). This is the strongest optical lead to the lost green-lensing thread. Track down the chat.
 8. **Sodium connection to cold fusion (LENR)**: lost. Rebuild from memory (Speculative).
-9. **Lost scripts**: `graphene_hemp_braid_integration.py`, `cnt_bio_photonic_sim.py`, `piezo_feedback_full_stack_sim.py`, `save_earth_full_stack_sim.py` (Uniphysics), `jansen_linkage_sim.py`, and the HMHD script. Rebuild them as sims.
+9. **Lost scripts** (also the #127 pol-simulation-engine skill files, never shown): `graphene_hemp_braid_integration.py`, `cnt_bio_photonic_sim.py`, `piezo_feedback_full_stack_sim.py`, `save_earth_full_stack_sim.py` (Uniphysics), `jansen_linkage_sim.py`, and the HMHD script. Rebuild them as sims.
 10. **Bioelectric citations** (Wever, Becker, S. Levin, "~32 mechanisms"). These matter because they hold up the Schumann → bioelectric chain. Verify in the literature.
 11. **Linchpin / electrostatic locking linch pins ([§4g](#4g-linchpin-electrostatic-locking-linch-pins))**: the original session, the canonical lock-pin list, joint loads, and how it relates to the tower feedback system. Track down the chat (#125 adds the RegenPod copper-pin sense) and rebuild from memory.
 
@@ -876,7 +876,7 @@ Several pre-July 2026 threads were lost in a Grok-side incident (see the note at
 | W9 | RGRF Foundations share `c00aab6b`, **recaptured in full 2026-10-22** (58 msgs). 18 Wardenclyffe hits, all history or analogy. Msg 14: "Wardenclyffe Tower (1901–1917) — Intended as a global wireless hub for power + communication. Used Earth as one plate of a giant capacitor". Msg 23 (Channing): "Can you run a deeper sympy sim of Wilson-loop resonance tied to Wardenclyffe?" Msg 24: "Base resonance ≈ 7.49 Hz" (= c/circumference) and "Phi-optimized resonance: ≈ 12.13 Hz" (Symbolic). Msgs 52–54: Tesla patents 454,622 / 645,576 / 1,119,732. **No tower reconstruction, ion gating, feedback design or green lensing** | [grok_archive/2026-10-17_organize_conversational_dialogue_google_drive.md](grok_archive/2026-10-17_organize_conversational_dialogue_google_drive.md); [rgrf_foundations_review.md §10](rgrf_foundations_review.md) |
 | W7 | "Magnifying transmitter": the only hit is the clarification that MEAO ≠ the magnifying transmitter | #123, REBUILD_INDEX row 205 | None |
 
-Searches with 0 green/lensing hits (already ruled out): #126, RGRF Foundations `c00aab6b` (full), #125, #106, #109, #110, #115, #116, #117, #120, #121, #122, #123, #124.
+Searches with 0 green/lensing hits (already ruled out): #127, #126, RGRF Foundations `c00aab6b` (full), #125, #106, #109, #110, #115, #116, #117, #120, #121, #122, #123, #124.
 
 ### 4b. Sodium connection to cold fusion (LENR)
 Lost [Channing to supply]; **Speculative**. Neighbours: Na uranates in #66 ([poynting_vortex_force_balance](poynting_vortex_force_balance_review.md) §B), seawater Na⁺ in #121, μCF limits in [muonic_hydrogen](muonic_hydrogen.md) (Grounded). Action: rebuild from memory.
