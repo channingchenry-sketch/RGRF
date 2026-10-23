@@ -235,3 +235,6 @@ The archive now holds the **full share**: 76 messages (38 Channing, 38 Grok), 92
 - **Added:** the Da Vinci notebook folios are only in this chat, because the Google Doc save failed (msg 65).
 - **Resolved:** the "Filament Rider Propulsion" subsection text exists (msgs 9–10). §4 above already reviews its table.
 - **Not resolved:** none of the lost threads (green lensing, the towers, ion gating, the linchpin, Perez Hourglass, glasses, sodium/LENR).
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

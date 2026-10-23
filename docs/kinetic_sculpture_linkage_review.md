@@ -96,3 +96,6 @@ Channing's repeated insistence on credit (prompt 4) and on not harming ocean lif
 
 - Grok's `jansen_linkage_sim.py`, `wave_overlay.py` and every later sim and plot: **[Channing to supply]**. Until then only the rebuild is runnable.
 - EHD "30–80 %" drag reduction source; Margolin "Confluence (2024)"; nautilus-ratio source: **[to verify]**.
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

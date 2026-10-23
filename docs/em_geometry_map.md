@@ -77,3 +77,6 @@ The original labels are kept. Channing is reviewing the original reasoning and m
 
 ## C1–C12 seed map
 The C1–C12 map from Grok chat `68a752c4` (Aug 2026) has been recovered. See [C1-C12_seed_map.md](C1-C12_seed_map.md).
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

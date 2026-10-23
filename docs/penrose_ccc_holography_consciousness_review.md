@@ -94,3 +94,6 @@ There are 0 hits for "green" and 0 for "lensing". "Lens" appears 4 times, all as
 3. Is the maze study McDougall's rats (or Sheldrake's retelling of it)?
 4. Should "big pulse" be kept as Symbolic narrative, or do you want a quantitative comparison against inflation's n_s and r?
 5. Which crystal and mycelium tones would you test? A classical vibration-coupling experiment is buildable. Entanglement is not.
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

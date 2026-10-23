@@ -202,3 +202,6 @@ The archive now holds the **full share** (58 messages, 60 pages; URL in the arch
 - It does not hold ion gating, the tower feedback system, green lensing or the hardware linchpin.
 - It does confirm the 6 lock pins + Spin wording (pin 3 = "regenerative feedback") in 8 places, and gives the full Tesla patent list Channing asked for.
 - "Big Pulse" appears in msg 4 (NANOGrav "aligns beautifully with our 'Big Pulse' concept"), but it is not defined anywhere. [Channing to supply]
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

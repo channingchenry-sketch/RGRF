@@ -114,3 +114,6 @@ Every passage in this share that uses lock-pin or pinning wording, quoted exactl
 2. Do you have the code for the Bach-rotation, Rodin-coil and core-oscillation sims (msgs 18, 22, 28, 30)?
 3. Original May 2026 wording of the lock pins, and the "electrostatic locking linch pins" text.
 4. *The Vital Veil* and the 5-layer Hoverway documents, if saved.
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

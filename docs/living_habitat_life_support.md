@@ -438,3 +438,6 @@ Channing (verbatim): "Have the used in mechanical pressure for node structuring 
 - **Not found:** controlled **cyclic loading during colonization**, or growth under bending to set curvature or node placement. Bending of bamboo culms (heat or steam bending) was not researched in this pass. **Open gap.**
 - **Link to item (g):** Channing's Speculative thought that perturbation zones densify over time. The *Fomes* result is the closest verified support: stress during growth led to a denser, more branched network. That moves the idea from **Speculative toward Plausible-untested** for living zones.
   - Proposed bench test: colonize coupons under static weights and under low-frequency cyclic load (for example tied to the coil envelope). Compare micro-CT node density and compressive modulus against unloaded controls.
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

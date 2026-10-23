@@ -123,3 +123,6 @@ The idea: apply mechanical stress during growth to living mycelium, hemp and bam
    - compression (modulus, 10 % strength);
    - cyclic-compression damping (loss factor).
 5. Pass/fail: the loaded blocks show a statistically higher node density **and** modulus or damping at equal density. A density-only increase means compaction, not conditioning.
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

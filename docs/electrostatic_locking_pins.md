@@ -304,3 +304,6 @@ Generated from the archive by matching "lock pin", "lock-pin", "linch", "lynch" 
 | 48 | Grok | Collective input — a farmer suggesting potato starch hydrogels, a weaver proposing chitin-lignin weaves, an electrician tuning electrostatic locking — drives breakthroughs. |
 | 48 | Grok | Design: Lightweight, compostable binding for Knight Owl skins or lynchpin stacks. |
 | 56 | Grok | Copper veins and electrostatic locking help manage charge buildup from radiation. |
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*

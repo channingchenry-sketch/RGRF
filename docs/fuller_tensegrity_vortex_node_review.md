@@ -142,3 +142,6 @@ The geometry is solid once two slips are fixed: the vertex list mixes orientatio
 3. Transducer array (msg 23): should the circular motion be in the **fluid** (acoustic vortex, streaming) or in a **solid rotor** (travelling-wave ultrasonic motor)? Element count and frequency follow from that.
 4. Is "microwave entanglement" meant as a narrative element for *Entanglements*, or as hardware? As hardware it needs a dilution refrigerator.
 5. The saved summary file from msg 26 [Channing to supply].
+
+
+*See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*
