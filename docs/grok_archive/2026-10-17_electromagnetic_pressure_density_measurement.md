@@ -2,6 +2,7 @@
 
 - **Source:** Grok-generated conversation, shared by Channing.
 - **Share URL:** https://grok.com/share/bGVnYWN5_ac90931e-b214-41f5-8866-11b97e790ee9
+- **Re-checked:** 2026-10-22 against the share PDF (4 pages, 4 messages, same first prompt and last turn): duplicate, no recapture.
 - **Captured:** 2026-10-17. 4 messages (2 user, 2 Grok). No code was visible.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:

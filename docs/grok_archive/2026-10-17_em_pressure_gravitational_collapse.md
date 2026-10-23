@@ -1,7 +1,7 @@
 # Grok conversation archive: "EM Pressure in Gravitational Collapse" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `b593f2b2`; full URL [Channing to supply].
+- **Share URL:** https://grok.com/share/bGVnYWN5_b593f2b2-9fe5-4678-a72d-e5d9555d50ba (full URL added 2026-10-22; PDF re-check: 2 messages, identical).
 - **Captured:** 2026-10-17. 2 messages (1 user, 1 Grok). Topics: whether EM pressure/energy density adds to or resists gravitational collapse (EM stress-energy tensor, magnetars, Reissner-Nordström, magnetic support in star formation).
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:

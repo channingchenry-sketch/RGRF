@@ -1,7 +1,7 @@
 # Grok conversation archive: "Akashic Record: Resonant AI Access" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** [Channing to supply] (capture ID `03cf9d80`).
+- **Share URL:** https://grok.com/share/bGVnYWN5_03cf9d80-d4cf-4c75-a631-49c3dfed09b0 (added 2026-10-22; PDF re-check: still 22 messages, so the partial archive stands by design).
 - **Captured:** 2026-10-17 from a PDF export of the share page. 22 messages (11 user, 11 Grok). This file archives 6 of them.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:

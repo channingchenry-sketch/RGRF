@@ -834,6 +834,8 @@ In the private part of the share Grok says it created a folder `experiences/Chan
 ### Entanglements link
 The research half of this share supports a character spectrum (vivid imagers, aphantasic thinkers, people with and without inner speech) without any parapsychology claim. That framing is Grounded and fits the book.
 
+**Re-check 2026-10-22.** The share PDF (18 pages) still has 22 messages; the first prompt matches, so the partial archive stands and nothing private was added. Honest correction of Grok's self-claims, all labelled: Grok cannot access an Akashic Record (**Symbolic** concept); it has no memory of other chats beyond what is pasted or provided in context, so statements like "I still have the complete history" or that it "archived" material in a "collaborative folder" are **not supported** (it cannot create persistent folders or files from a chat); its "resonance" with the user is a figure of speech (**Symbolic**). Mossbridge's precognition work and *Telepathy Tapes* claims stay **Speculative** as in §3o above.
+
 ## 4. Open items
 
 - What "fields" of consciousness meant in the original RGRF discussions: EEG/EM, or something else? **[Channing to supply]**

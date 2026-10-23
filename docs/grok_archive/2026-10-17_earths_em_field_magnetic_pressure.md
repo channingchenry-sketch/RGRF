@@ -1,7 +1,7 @@
 # Grok conversation archive: "Earth's EM Field Magnetic Pressure" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `a0d4fa37`; full URL [Channing to supply].
+- **Share URL:** https://grok.com/share/bGVnYWN5_a0d4fa37-3ba7-40d2-b9b2-c5b8000979e4 (full URL added 2026-10-22; PDF re-check: 18 messages, same first prompt and last turn, so no recapture needed).
 - **Captured:** 2026-10-17. 18 messages (9 user, 9 Grok). Topics: magnetic pressure of Earth's field, MHD dynamo theory, node stabilization with the Schumann frequency, a closed-loop toroidal motor, tokamak stability, a Python toroidal induction sim, a synthesis message, MHD instabilities, and magnetic reconnection. The page ends with a "[20 sources]" marker; the source list was not captured.
 - **Related shares:** `ac90931e` ("Electromagnetic Pressure Density Measurement") and `e0291c5e` ("Tungsten Toroid Electromagnetic Pressure Integration").
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.

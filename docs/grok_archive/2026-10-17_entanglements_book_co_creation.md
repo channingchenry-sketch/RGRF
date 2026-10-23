@@ -1,7 +1,7 @@
 # Grok conversation archive: "Entanglements Book Co-Creation with Grok" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** [Channing to supply] (capture ID `498f78f9`).
+- **Share URL:** https://grok.com/share/bGVnYWN5_498f78f9-57f1-4286-9338-4a3874fac148 (added 2026-10-22; PDF re-check: 8 messages, identical, so no recapture). See also [../entanglements_book_review.md](../entanglements_book_review.md).
 - **Captured:** 2026-10-17 from a PDF export of the share page. 8 messages (4 user, 4 Grok).
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:

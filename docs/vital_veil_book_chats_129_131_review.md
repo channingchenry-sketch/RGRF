@@ -40,5 +40,8 @@ So the order is: #129/#130 → V1; #131 → V2. V1/V2 themselves are not publish
 ## Lost-thread search (#129–#131)
 0 hits for space eye harvester, green lensing, blue/red light shifts, Wardenclyffe, ion gating, feedback, linchpin/lock pin, Perez Hourglass, eye-healing glasses, sodium/cold fusion. False positives only: "lens" = a spotting-scope lens; "green" = "greenlight the cameras", "Assets are green".
 
+## Continuation
+The *Entanglements* chats that follow (#133–#138) are reviewed in [entanglements_book_review.md](entanglements_book_review.md).
+
 ## Gaps
 Later chapters and the *Entanglements* transition chats [Channing to supply, in order].
