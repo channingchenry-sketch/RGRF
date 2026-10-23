@@ -1,13 +1,13 @@
 # Grok conversation archive: "Poynting's Theorem in Electric Universe" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `0e4fc6cb`; full URL [Channing to supply].
-- **Captured:** 2026-10-17 from the saved page PDF. 22 messages (11 user, 11 Grok). Topics: Poynting's theorem, plasma-cosmology vs standard planet formation, vortex planet factories and moon formation, whether the strong force or vortices can be gravity, vortex vs spacetime curvature, boundary layers, mass loading of magnetised vortices.
+- **Share URL:** https://grok.com/share/bGVnYWN5_0e4fc6cb-d05e-4e82-9d3b-1d62c6061c8a
+- **Captured:** 2026-10-17 from the saved page PDF; **recaptured 2026-10-22** from a new full 20-page PDF of the share (`pdftotext -layout` and plain), which confirms the same 22 messages and text. 22 messages (11 user, 11 Grok). Topics: Poynting's theorem, plasma-cosmology vs standard planet formation, vortex planet factories and moon formation, whether the strong force or vortices can be gravity, vortex vs spacetime curvature, boundary layers, mass loading of magnetised vortices.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
   1. **Turn boundaries rebuilt from the PDF.** The pre-built text file assigned speakers by indentation and mislabelled indented Grok tables and equations as user turns (its message count was wrong). Each user turn was re-identified as the short, right-indented prompt bubble immediately before a Grok "Worked for …" timer, checked against `pdftotext` output with and without `-layout`. The timer lines were dropped. The message count (22: 11 user, 11 Grok; 11 "Worked for" timers) was derived from the PDF. It differs from the 8 messages given in the task notes; the PDF is complete and ends with a normal sign-off.
   2. Zero-width spaces from equation rendering were removed. Sub- and superscripts were flattened by the capture (e.g. "B 2" means B²). Runs of stacked equation fragments are collapsed onto one line marked `[MATH garbled]`; the legible fragments are kept after the marker. Tables lost their grid and are kept as captured column text. Single-line equations whose fractions or subscripts were split (u, S, the Maxwell Lagrangian −¼FμνF^μν, Einstein's equation) are also marked `[MATH garbled]`.
-  3. **Uncertain attribution (message 18 end):** the capture shows "Stability condition you mentioned" then "You" and nothing more of that Grok message. It is kept as captured with a note; it may be a quoted-reply chip. **Message 19** is cut off in the PDF after "Along with the EM field our"; the rest is [Channing to supply].
+  3. **Uncertain attribution (message 18 end):** the capture shows "Stability condition you mentioned" then "You" and nothing more of that Grok message. It is kept as captured with a note; it may be a quoted-reply chip. **Message 19:** the 2026-10-22 recapture of the full share renders the same text, so "Along with the EM field our" is the whole prompt as sent. The "Stability condition you mentioned" / "You" lines just before it are most likely a quoted-reply chip attached to that prompt (Channing quoting Grok's heading), not lost Grok text.
   4. The "Continue conversation" overlay button text was removed; where it was printed over page text, the covered words were restored from the non-layout extraction. Speaker headers `==== [n] USER/GROK ====` were added and runs of blank lines collapsed. A personal-details scan was run: no account names from the page chrome and no sidebar chat titles were present in the capture.
 - **Review:** see [poynting_vortex_force_balance_review.md §A](../poynting_vortex_force_balance_review.md#a-share-65-0e4fc6cb-poyntings-theorem-in-electric-universe).
 
@@ -768,10 +768,10 @@ stays stable.
 
 Stability condition you mentioned
 You
-[Capture note: the Grok message stops here in the saved PDF. "Stability condition you mentioned" / "You" may be a quoted-reply chip or the start of an unrendered section; attribution is uncertain.]
+[Capture note: the Grok message ends here in both captures. "Stability condition you mentioned" / "You" is most likely the quoted-reply chip attached to message 19.]
 
 ==== [19] USER ====
-Along with the EM field our [rest of prompt not rendered in the capture; Channing to supply]
+Along with the EM field our
 
 ==== [20] GROK ====
 Yes — let’s bring the electromagnetic field fully into the picture.

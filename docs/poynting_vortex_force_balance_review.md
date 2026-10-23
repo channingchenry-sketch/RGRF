@@ -28,7 +28,7 @@ Share #66 picks up where #65 stops: its first prompt asks for the force balance,
 7. "Is a vortex not curvature of spacetime"
 8. "Right, ok I was just thinking of the scaled up perspective my idea of gravity as this boundary layer with angular pressure"
 9. "What happens when mass accumulates, would the vortex core enlarge and become stable(given it had stable flow) the boundary layer would increase per each mass increase right?"
-10. "Along with the EM field our" (cut off in the capture; rest [Channing to supply])
+10. "Along with the EM field our" (complete as sent per the 2026-10-22 recapture; sent with a quoted chip "Stability condition you mentioned")
 11. "We will continue later, we should have an investigations folder and save into that"
 
 ### A2. Claims
@@ -45,6 +45,10 @@ Share #66 picks up where #65 stops: its first prompt asks for the force balance,
 | "A vortex is not curvature of spacetime"; a vortex's energy sources only a negligible curvature; analog-gravity draining vortices mimic horizons | Correct. Analog gravity: W. G. Unruh, *PRL* 46, 1351 (1981); rotational superradiance in a draining vortex, T. Torres et al., *Nat. Phys.* 13, 833 (2017). | **Grounded** |
 | Gravity as "a boundary layer with angular pressure" at the largest scale | Grok kept this as an exploratory lens. Local angular-momentum-supported layers are real; promoting them to gravity has no model or prediction. | **Speculative** |
 | Adding mass at fixed angular momentum compacts a vortex core rather than enlarging it; in dusty vortices the dust can collapse into a planetesimal | Qualitatively consistent with disc-vortex simulations; no numbers given. | **Plausible-untested** |
+| Msg 20: with a frozen-in field, added mass compresses B so magnetic pressure B²/2μ₀ resists compression; tension stabilises ordered rotation | Standard ideal-MHD flux freezing. | **Grounded** |
+| Msg 20: core radius set by centrifugal + gas/magnetic pressure + tension; with added mass it stays similar or slightly more compact, expanding only if the field diffuses or reconnects | Qualitative, no numbers or model. | **Plausible-untested** |
+| Msg 20: the boundary layer becomes a current/magnetic shear sheet; magnetic diffusivity can thicken it; Poynting flux concentrates there carrying energy and angular momentum | Current sheets at shear layers and Poynting/Maxwell-stress angular-momentum transport are standard; concentration in this layer is untested. | **Plausible-untested** |
+| Msg 20: field can stabilise or destabilise a vortex (e.g. magnetic tension vs magnetorotational/kink-type instabilities) | Both occur in MHD depending on geometry. | **Grounded** (generic) |
 | Message 22: an investigations file "2026-07-27_vortex-em-boundary-layer-gravity-exploration.md" was saved | A Grok-side artefact; it is **not in this repo**. The date suggests the conversation was held in July 2026. Contents: [Channing to supply] if wanted. | open |
 
 **Contradiction with the repo.** The repo's position is that gravity is not EM ([cavendish review §9](cavendish_breathing_solids_review.md#9-gravity-grace-dipoles-dynamos-field-history-messages-89106)). Grok's answers here agree with it.
@@ -94,5 +98,4 @@ Share #66 picks up where #65 stops: its first prompt asks for the force balance,
 
 ## C. Open items
 
-- The rest of message 19 in share #65 ("Along with the EM field our…"): [Channing to supply].
 - The Grok investigations file named in share #65 message 22: [Channing to supply] if it should be archived.

@@ -42,12 +42,12 @@
 | Claim | Check | Label |
 |---|---|---|
 | Entanglement changes the joint state, not particle shape; Bell states | ✓ | **Grounded** |
-| The yin-yang image is "almost certainly" an opposite-angular-momentum diagram | **Corrected/added:** the widely shared image is most likely the 2023 biphoton digital-holography reconstruction of two entangled photons (Univ. of Ottawa / Sapienza, Zia et al., *Nature Photonics* 2023), whose interference pattern looks like a yin-yang. It images the joint (two-photon) state, not a particle shape, so Grok's answer to msg 17 still stands | **Grounded** [to verify; Channing to confirm it's the image he remembered] |
+| The yin-yang image is "almost certainly" an opposite-angular-momentum diagram | **Corrected/added:** the image is the 2023 biphoton digital-holography reconstruction of two entangled photons (Univ. of Ottawa / Sapienza, Zia et al., *Nature Photonics* 2023), whose interference pattern looks like a yin-yang. It images the joint (two-photon) state, not a particle shape, so Grok's answer to msg 17 still stands | **Grounded**; confirmed by Channing (2026-10-22) |
 | Topological charge ℓ = (1/2π)∮∇φ·dr, integer, protected; L_z = ℓħ per photon (Allen et al. 1992) | ✓ | **Grounded** |
 | ±ℓ mirror pairs ↔ mirrored golden spirals | **Symbolic** analogy |
 
 ## 5. Key corrections
-1. The yin-yang "entangled photons" picture Channing recalled is probably the 2023 biphoton holography image (Zia et al.), not a generic angular-momentum diagram, and it shows correlations, not a shape.
+1. The yin-yang "entangled photons" picture Channing recalled is the 2023 biphoton holography image (Zia et al.; confirmed by Channing (2026-10-22)), not a generic angular-momentum diagram, and it shows correlations, not a shape.
 2. φ-scaled circle chains only approximate the golden spiral; φ adds nothing physical to counter-wound coils (Symbolic).
 3. "Associative derivative algorithms" is not an established term; the nearest real methods are autodiff and associative memory.
 
