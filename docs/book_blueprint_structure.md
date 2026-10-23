@@ -191,3 +191,47 @@ Grok's table (verbatim columns "Thruster Type | Filament Role | Performance High
 5. **Book manuscript:** Does a draft of the book (foreword, chapter list) exist outside these threads? If so, where should it live in the repo? **[Channing to supply]**
 6. **Filament Rider scope:** Is the target cosmic-web filaments, the solar wind / heliospheric current sheet, or planetary magnetospheres? The physics differs by many orders of magnitude (same question as [em_topo L5b open items](em_topological_gravity_review.md#l5b-filament-riding-casimir-resonance-chamber--quartz-tuning-grok-excerpt-recovered-2026-10-15)).
 7. **Grok's source lists** (20, 32 and 240 sources) were not captured. If you can export them, the remaining [to verify] items (AP News, NYTimes, Lppfusion, φ force-free scaling) can be closed.
+
+## 7. Full-share recapture (2026-10-22): messages 9–76
+The archive now holds the **full share**: 76 messages (38 Channing, 38 Grok), 92 pages, URL in the archive header. Messages 1–8 are unchanged. Surname, handle, town and a private Doc link were removed (see the archive header).
+
+**Keyword search (lost threads).** The 7 "green" hits are all *Trametes versi**color*** or Brian **Greene**, so there is **no green-lensing content**. There are 0 hits for lensing, Wardenclyffe, ion/charge gating, linchpin / lock pin, Perez Hourglass, glasses / eye healing, sodium or cold fusion / LENR, and no colour or light-control content. "Tower" appears once, in a Da Vinci notebook line (msg 54: "strikes the tower follows the same golden turn"). "Feedback" appears once: "Feedback cooling further damps motion" (OIST levitation, msg 46). This share is **not** a lost-thread source.
+
+### 7.1 How the new material maps onto the book (Ancient / Modern / Future)
+| Part | New material (msg) | Repo doc |
+|---|---|---|
+| **I. Ancient Foundations** | Horns, trumpets and sacred resonance; religious texts and classical music (22); crop circles (52, see 7.2); Da Vinci notebook and sketch pad folios (52–58) | [freemasonry_sacred_geometry_review.md](freemasonry_sacred_geometry_review.md), [tesla_davinci_threads.md](tesla_davinci_threads.md) |
+| **II. Modern Realizations** | Z-pinch stability (18); lithium / LiPb (20); vibration and water (24); acoustic metamaterials (28); "current barriers" and the **conductive-floor fix → POL v0.2** (30–38); physics double-check (42); OIST pyrolytic-graphite data (46) | [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md), [zpinch_tungsten_nodes_review.md](zpinch_tungsten_nodes_review.md), Modular Core `sim/` |
+| **III. Future Resonance** | "Filament Rider Propulsion" subsection (9–10); Birkeland and diocotron dynamics, Schumann (52–54); "highest tech and alien phenomena" (48) | [em_topological_gravity_review.md](em_topological_gravity_review.md), [dusty_plasma_bench.md](dusty_plasma_bench.md) |
+| **Appendix: Collaborators & Alignments** | Outreach note (11–16); Hawking, Loeb, Greene, Tyson chapters (64) | §3 above (open invitation, not a partnership). Hawking (d. 2018) can only be a tribute |
+| **Media** | Python animations and video questions (68–76) | — |
+
+### 7.2 Labels and corrections
+| Msg | Claim | Label | Check / correction |
+|---|---|---|---|
+| 18, 42, 52 | Bennett relation I² = (8π/μ₀) N k_B (T_e + T_i); m = 0 sausage and m = 1 kink modes; sheared-flow stabilisation (Zap Energy) | **Grounded** | Rerun: N = 10²⁰ m⁻¹ with T_e = T_i = 10⁵ K gives I ≈ 0.07 MA (0.05 MA if T_e + T_i = 10⁵ K). Zap's "100 kW-scale" figure [to verify] |
+| 20 | LiPb eutectic (17 Li / 83 Pb at.%) as a blanket; Li propellant "Isp ~19,400 s with 38 kN" | Blanket **Grounded**; Isp/thrust **Grok-reported** from pulsed Z-pinch fusion-propulsion design studies [to verify] | Lithium does not damp m = 0/1 modes, as Grok says |
+| 22 | Isotopic "beats" (Li-6/Li-7), binaural beats or sacred horns to stabilise a Z-pinch | **Speculative** | Binaural beats are a perceptual effect in the brain and have no physical acoustic beat to couple to a plasma. Magnetoacoustic waves are real, but at plasma frequencies (kHz–MHz), not audio-tuning choices |
+| 24 | Sonoluminescence concentrates energy ~12 orders of magnitude | **Grounded** | |
+| 24 | 432 Hz "alters hydrogen bonding, promoting crystallization"; 440 Hz "weaker/opposite effects" | **Not supported** | No replicated evidence; H-bond dynamics are at ps timescales. See [letter_number_systems_528_review.md](letter_number_systems_528_review.md) |
+| 28 | Acoustic metamaterials beat conventional tiles over 250–5000 Hz; mycelium absorbers | **Grounded** (mycelium best above ~1 kHz) | |
+| 32 | POL v0.1 "Power draw is low (~1 kW human-scale)" | **Contradicted** | The Modular Core sim needs ~16.7 kW (best ~10 kW) for 88 kg |
+| 32–34 | POL v0.2: N52 magnets in a φ spiral plus pyrolytic graphite (diamagnetic) as the floor-independent fix | **Corrected** | PG χ ≈ −4.5 × 10⁻⁴ caps the diamagnetic pressure at about \|χ\|B²/2μ₀ ≈ 350 Pa at 1.4 T, and only within ~mm of the magnets. Lifting 834 N needs ≳ 2.4 m² of PG at a sub-mm gap. Diamagnetic levitation remains a **mm-scale** effect; it does not remove the floor requirement. φ layout is **Symbolic** |
+| 32 | Acoustic levitation as a floor-independent option | **Grounded** for mm particles; human-scale **not feasible** (radiation pressure ~kPa at extreme SPL over cm²) | |
+| 36–38 | "Chemical-geometrical stabilization": mycelium doped with graphite or lithium | **Plausible-untested** (graphite-filled composites exist); Li compounds are reactive and toxic to fungi | |
+| 46 | OIST PG rotor (Communications Physics 2025, 10.02 mm × 1.12 mm disk, 0.82 mm height, damping 5.5 × 10⁻⁵ Hz); "Feedback cooling further damps motion" | Numbers **Grok-reported** [verify DOI 10.1038/s42005-025-02318-4]; PG eddy damping and feedback cooling **Grounded** in principle | |
+| 48 | "Highest tech and alien phenomena" | UAP reports **unverified**; no physics adopted | |
+| 52 | LOFAR "2026" intergalactic filament field detection | **[to verify]** (LOFAR has detected ~nG-scale fields in filaments: Vernstrom et al. 2021, Carretti et al. 2022) | |
+| 52 | Acoustic metamaterial lenses | **Grounded** | |
+| 52 | Crop circles | **Human-made** (Bower & Chorley 1991, plus later art groups); no plasma mechanism supported | |
+| 54 | Diocotron growth rate ~ (ω_p²/2ω_c)(Δv/v); "injecting 432 Hz magnetoacoustic waves turns instability into controlled …" | Formula family **Grounded**; 432 Hz control **Speculative** | Schumann 7.83 Hz **Grounded** |
+| 16, 56–60 | Gmail draft "created"; notebook "sent to your Google Doc" | **Grok-reported** | Msg 65 (Channing): "For some reason it didn’t save to Google Docs." |
+| 66–74 | "Full videos", coding and video apps | Capability statements; Grok-reported | |
+| 76 | Python animation code (matplotlib, gold φ spiral) | Kept in the archive | A visual only, with no physics model |
+
+### 7.3 Hanging items resolved or added
+- **Added:** the POL v0.2 diamagnetic/hybrid BOM (msgs 34–38), which needs a re-sim against the honest floor model.
+- **Added:** where the outreach note was used. Draft only; nothing was sent from the chat. [Channing to supply]
+- **Added:** the Da Vinci notebook folios are only in this chat, because the Google Doc save failed (msg 65).
+- **Resolved:** the "Filament Rider Propulsion" subsection text exists (msgs 9–10). §4 above already reviews its table.
+- **Not resolved:** none of the lost threads (green lensing, the towers, ion gating, the linchpin, Perez Hourglass, glasses, sodium/LENR).
