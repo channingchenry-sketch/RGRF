@@ -1,0 +1,24 @@
+Assumed: r = 0.10 m, m = 0.5 kg, N = 50, R = 0.5 ohm/phase, I = 2 A, gap 5 mm, v = 0.5 m/s, B_pm = 0.4 T
+3-phase copper loss P_cu = 3.0 W
+(B) with an iron-backed gap field of 0.3 T the force would scale by (0.3/B)^2 = 570x (rough)
+(B) coil gap field 12.6 mT; best slip speed 0.23 m/s; slip s = 0.32 at v = 0.5 m/s
+(C) L_max = 1.01 mH, dL/dx = 14.40 mH/m
+
+Mover type                      F (N)   N/A     N/W     efficiency at 0.5 m/s
+(A) PM mover, 60 deg arcs         2.292   1.146   0.764   26.9 %
+(A) PM mover, 45 deg arcs         2.339   1.169   0.780   27.3 %
+(B) passive Al shell (induction)  0.001   0.001   0.000    0.0 %
+(C) soft-iron reluctance          0.014   0.007   0.007    0.4 %
+
+Commutation (1D track, PM 60 deg mover, 3 V drive, friction 0.2 N s/m, 8 s)
+  no commutation                         final v = +0.001 m/s | E_in  142.96 J = Cu  142.92 + friction   0.08 + KE 0.000 (residual -0.038 J)
+  Hall, 0 deg error                      final v = +2.433 m/s | E_in   13.09 J = Cu    2.45 + friction   9.16 + KE 1.480 (residual -0.001 J)
+  Hall, 10 deg error                     final v = +2.146 m/s | E_in   40.61 J = Cu   32.23 + friction   7.24 + KE 1.151 (residual -0.009 J)
+  Hall, 30 deg error                     final v = +0.005 m/s | E_in  143.32 J = Cu  143.30 + friction   0.05 + KE 0.000 (residual -0.038 J)
+  hold, then scheduled reversal at 4 s   final v = -2.433 m/s | E_in   19.01 J = Cu    8.79 + friction   8.74 + KE 1.480 (residual -0.003 J)
+
+EDS over a 1 mm Cu sheet: characteristic speed w = 27.4 m/s; lift/drag = v/w
+  v =   0.5 m/s: L/D = 0.018, lift fraction of max = 0.0003
+  v =   5.0 m/s: L/D = 0.182, lift fraction of max = 0.0321
+  v =  50.0 m/s: L/D = 1.822, lift fraction of max = 0.7685
+EMS attraction to hold 4.9 N over 2 x 16 cm^2 poles needs B = 62 mT (achievable; needs feedback, Earnshaw)

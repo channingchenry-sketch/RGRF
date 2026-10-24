@@ -24,9 +24,9 @@ Channing: "With the right outer spine though it would make sense, right?" and "H
 
 ## 1. Oloid kinematics (Grounded)
 
-The oloid (Paul Schatz, 1929) is the convex hull of two perpendicular circles of radius r whose centres are r apart. It rolls on a developable surface, touching the ground along a ruling segment. The sim uses a contact-plane approach: the ground plane must touch both circles at once (equal support functions). With contact angle t on circle 1, this gives c² = 1/(2−2cos t), u_z² = (1−2cos t)/(2−2cos t), t ∈ [π/3, 5π/3], and COM height H = r c (1 − cos t/2). It is checked numerically against brute-force sampled circles. Closed-form rolling parametrisation: Dirnböck & Stachel, *J. Geometry Graphics* 1 (1997) [to verify].
+The oloid (Paul Schatz, 1929) is the convex hull of two perpendicular circles of radius r whose centres are r apart. It rolls on a developable surface, touching the ground along a ruling segment. The sim uses a contact-plane approach: the ground plane must touch both circles at once (equal support functions). With contact angle t on circle 1, this gives c² = 1/(2−2cos t), u_z² = (1−2cos t)/(2−2cos t), t ∈ [π/3, 5π/3], and COM height H = r c (1 − cos t/2). It is checked numerically against brute-force sampled circles. Closed-form rolling parametrisation: Dirnböck & Stachel, *J. Geometry and Graphics* 1(2) (1997), verified.
 
-- **Model output:** H_min = r/√2 (0.0707 m) and H_max = 3r/4 (0.075 m), a 4.3 % of r swing. **Note:** the brief's h_min = 3√3 r/8 (0.6495 r) does not match this calculation; my derived minimum equals the brief's h_max. [to verify against the literature]
+- **Model output:** H_min = r/√2 (0.0707 m) and H_max = 3r/4 (0.075 m), a 4.3 % of r swing. **Resolved:** this matches Dirnböck & Stachel (1997) eq. (25); the 3√3 r/8 minimum quoted on the HITS page is inconsistent with it. See [oloid_magnetic_track_motor.md §6](oloid_magnetic_track_motor.md).
 - **Inversion:** the normal of circle 1 changes vertical sign twice per cycle (the two u_z branches). A loop or band riding on circle 1 therefore sees the spine field reverse relative to itself every half-cycle. This is the "field reversing" Channing anticipated, and it is purely geometric.
 
 ![kinematics](images/oloid_kinematics_drive.png)
@@ -79,6 +79,8 @@ Channing: "A 60 degree magnetic arc might come in handy and it something we had 
 Reading: both align with the oloid's half-cycle inversion when phased correctly. 60° trades ~2 % of field and more ripple for fewer parts, and it is more sensitive to phasing errors. Because the rolling phase is not uniform in time, the real boundaries must be set from the measured inversion points [Channing to supply spine geometry]. 60° is hexagonal symmetry, not φ: **Symbolic** as anything beyond geometry.
 
 **Nitinol role (Plausible-untested):** NiTi springs or actuators as (i) the kickstart past the dead point, or (ii) a way to reposition or retract arc segments to change phasing. They must be heated by an **AC coil** or resistive current. A static magnet gives dB/dt = 0 and no heating (the earlier correction). Model: a kick to 0.3 cycles/s needs 4.4 mJ of kinetic energy; at an assumed 1–5 % heat-to-work efficiency [to verify], that is 0.09–0.44 J of heating per kick. Nitinol **amplifies force, not energy** (Grounded, consistent with the earlier reviews).
+
+**Follow-up:** the spine as a switched stator (magnetic track motor, levitation, frame vs track): [oloid_magnetic_track_motor.md](oloid_magnetic_track_motor.md).
 
 ## 7. Unknowns and next steps
 
