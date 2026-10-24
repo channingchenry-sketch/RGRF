@@ -340,7 +340,7 @@ These are design parameters that have no force mapping yet.
 - Heartbeat frequency, geometry and drive mechanism ([core §0, §10](tungsten_bismuth_core.md)).
 - Phi / fractal / golden-spiral geometry factors (core §7, §8; [em_geometry_map](em_geometry_map.md): Symbolic).
 - Helium "octave" positions ([helium_octave_table](helium_octave_table.md): Symbolic/curiosity).
-- "Impedance zone" and "equilibrium" as quantities ([lift, Missing pieces](lift_and_equilibrium_systems.md)).
+- "Impedance zone" and "equilibrium" as quantities ([lift, Missing pieces](lift_and_equilibrium_systems.md)). Drive option checked (2026-10-24): switched 45° Halbach arc with ramped litz trim zones, SmCo in hot/high-reverse segments, Tesla HF shielded from magnets: [halbach_switched_arc_materials_check.md](halbach_switched_arc_materials_check.md).
 - Terpene / spice concentration as an interface-tension knob (size of effect unknown).
 - CBD oil (no EM role).
 - 60° twist as an "information-rich signal".

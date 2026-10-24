@@ -354,6 +354,7 @@ Source: S. Earnshaw, "On the nature of the molecular forces which regulate the c
 - Target vehicle mass, volume and trim-force budget (newtons and response time).
 - Envelope material and helium leakage rate. A mycelium-composite or film envelope is not yet specified.
 - A quantity for "impedance zone" and "equilibrium". What is measured, in what units?
+  - **Impedance-zone drive (2026-10-24):** currently Tesla coils. A switched 45° Halbach arc with low-voltage litz trim zones, ramped (sin/cos) rather than hard-switched, is checked in [halbach_switched_arc_materials_check.md](halbach_switched_arc_materials_check.md) (mechanical, eddy heating, demag, transients, materials/cost).
 - How sheath or envelope EM manipulation reacts against the *external* air or field. Without this there is no net force.
 - Weight of HV supplies and batteries for ionic trim.
 - Planet-to-space mode switch with trimming coils (ionic trim and buoyancy do not work in vacuum), **to recreate**: [em_topo L5c](em_topological_gravity_review.md#l5c-to-recreate-planet-to-space-mode-switching-trimming-coils--aligning-in-the-magnetosphere). **[Channing to supply]**

@@ -39,6 +39,8 @@ Channing's earlier egg line ([DESIGN_FORCE_FLOW_MAP §1b](DESIGN_FORCE_FLOW_MAP.
 3. Buy damping with fast rotor-speed control (≤ 10 ms) or add passive damping (eddy damper plate). **Grounded (model).**
 4. Add orthogonal-axis rotor pairs for y and yaw. **Plausible-untested.**
 
+**Follow-up (materials, switched coil zones):** [halbach_switched_arc_materials_check.md](halbach_switched_arc_materials_check.md).
+
 ## 4. Model limits
 - 2-D first-harmonic EDS per rotor, quasi-static forces (no eddy-current time constant), and parametric inherent damping. Real EDW heave damping can be negative, which would make control harder.
 - Small angles; no rotor-to-rotor field interaction, track edges, motor current/torque limits beyond a ±40 % speed clamp, or sensor noise.

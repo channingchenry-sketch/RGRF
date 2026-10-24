@@ -1,0 +1,68 @@
+Switched 45-deg Halbach arc check (CC0). lambda=10 cm, M=8 (45 deg steps), gap fraction 5 %, segment 11.9 x 25.0 x 50 mm
+
+[1] Mechanical (Grounded, model)
+  surface field B0=0.96 T (N42-class Br 1.3 T) -> magnetic pressure B0^2/2mu0 = 0.36 MPa
+  inter-segment net force per segment (charge model, M=8): mean 509 N, peak 924 N (= 1.56 MPa over the segment footprint, 0.74 MPa over a side face)
+  convergence of peak force vs face grid n: n=10: 3179 N, n=16: 1415 N, n=22: 924 N (not converged: grid spacing ~ the 0.6 mm gap)
+  Richardson estimate (1/n^2) of the converged peak: ~373 N; reference scale Br^2/2mu0 x side face = 841 N. Design value used: n=22 result 924 N (conservative).
+  -> retainer must hold ~924 N per 12x50 mm segment against ejection/slide; the 'push-out' segments alternate along the array.
+  coil trim zone Bc=0.15 T: pressure change 123 kPa per switching event (fraction 34 % of static)
+  load step with ramp 0.00 ms (Tn=1.25 ms): dynamic amplification 2.00 -> peak extra pressure 246 kPa
+  load step with ramp 0.25 ms (Tn=1.25 ms): dynamic amplification 1.94 -> peak extra pressure 238 kPa
+  load step with ramp 1.00 ms (Tn=1.25 ms): dynamic amplification 1.23 -> peak extra pressure 152 kPa
+  load step with ramp 5.00 ms (Tn=1.25 ms): dynamic amplification 1.00 -> peak extra pressure 123 kPa
+  sin/cos blending of adjacent zones (I_A = I cos th, I_B = I sin th) steers the trim-field angle with |B_trim| constant;
+  pressure swing during a 90-deg steer: 114 kPa vs hard on/off of both zones 123 kPa (x2 dynamic)
+  retainer plate strip, span 50 mm, t=5 mm, design pressure 2.17 MPa (static + hard-switch peak + inter-segment)
+   Ti-6Al-4V                  stress   162.4 MPa vs strength  880.0 (SF  5.42; fatigue SF ~2.71), deflection     0.148 mm
+   Al 7075-T6                 stress   162.4 MPa vs strength  503.0 (SF  3.10; fatigue SF ~0.93), deflection     0.236 mm
+   G10/FR4                    stress   162.4 MPa vs strength  300.0 (SF  1.85; fatigue SF ~0.55), deflection     0.940 mm
+   CFRP (quasi-iso)           stress   162.4 MPa vs strength  600.0 (SF  3.69; fatigue SF ~1.48), deflection     0.282 mm
+   mycelium composite (raw)   stress   162.4 MPa vs strength    0.6 (SF  0.00; fatigue SF ~0.00), deflection  3383.679 mm
+  mycelium composites: published compressive/flexural strength ~0.2-1.1 MPa (e.g. Jones et al. 2020, Mater. Des.) -> inadequate for magnet retention unless densified/hot-pressed.
+
+[2] Eddy heating in magnet segments at Tesla-coil frequencies (Grounded, model; ripple amplitude assumed)
+  NdFeB (1.5 uOhm m) f=  100 kHz delta=1.95 mm | solid Bac=5mT:   15.23 W, dT=   71.1 K | solid Bac=20mT:  243.66 W, dT= 1138.2 K | 1 mm lam Bac=5mT:    0.34 W, dT=    1.6 K | 1 mm lam Bac=20mT:    5.48 W, dT=   25.6 K
+  NdFeB (1.5 uOhm m) f= 1000 kHz delta=0.62 mm | solid Bac=5mT:   48.16 W, dT=  225.0 K | solid Bac=20mT:  770.51 W, dT= 3599.4 K | 1 mm lam Bac=5mT:   34.27 W, dT=  160.1 K | 1 mm lam Bac=20mT:  548.31 W, dT= 2561.5 K
+  SmCo (0.8 uOhm m) f=  100 kHz delta=1.42 mm | solid Bac=5mT:   11.12 W, dT=   52.0 K | solid Bac=20mT:  177.94 W, dT=  831.3 K | 1 mm lam Bac=5mT:    0.64 W, dT=    3.0 K | 1 mm lam Bac=20mT:   10.28 W, dT=   48.0 K
+  SmCo (0.8 uOhm m) f= 1000 kHz delta=0.45 mm | solid Bac=5mT:   35.17 W, dT=  164.3 K | solid Bac=20mT:  562.70 W, dT= 2628.7 K | 1 mm lam Bac=5mT:   35.17 W, dT=  164.3 K | 1 mm lam Bac=20mT:  562.70 W, dT= 2628.7 K
+  NOTE: laminations must be cut perpendicular to the eddy-current loop (i.e. the stack normal along Bac's plane); thin-slab loss ~ b^2, so 1 mm vs 11.9 mm cuts loss ~140x until skin-limited.
+  litz: f=   50 kHz Cu skin depth 0.292 mm -> strand diameter <= 0.146-0.292 mm (AWG ~31)
+  litz: f=  100 kHz Cu skin depth 0.206 mm -> strand diameter <= 0.103-0.206 mm (AWG ~34)
+  litz: f=  500 kHz Cu skin depth 0.092 mm -> strand diameter <= 0.046-0.092 mm (AWG ~41)
+  litz: f= 1000 kHz Cu skin depth 0.065 mm -> strand diameter <= 0.033-0.065 mm (AWG ~44)
+
+[3] Demagnetisation margin (worst segment, charge-model reverse field + coil opposing field + temperature)
+  worst internal reverse field (incl. self-demag, points 15 % in from corners): mu0*H = 0.72 x Br
+  N42                Br 1.30 T HcJ  1000 kA/m Tmax  80C | 20C:   +136 kA/m (MARGINAL) | 80C:   -170 kA/m (DEMAG) | 120C:   -374 kA/m (DEMAG) | 150C:   -528 kA/m (DEMAG)
+  N42SH              Br 1.30 T HcJ  1590 kA/m Tmax 150C | 20C:   +726 kA/m (OK) | 80C:   +255 kA/m (OK) | 120C:    -59 kA/m (DEMAG) | 150C:   -294 kA/m (DEMAG)
+  N42UH              Br 1.29 T HcJ  1990 kA/m Tmax 180C | 20C:  +1132 kA/m (OK) | 80C:   +588 kA/m (OK) | 120C:   +226 kA/m (OK) | 150C:    -46 kA/m (DEMAG)
+  N42EH              Br 1.28 T HcJ  2390 kA/m Tmax 200C | 20C:  +1538 kA/m (OK) | 80C:   +873 kA/m (OK) | 120C:   +431 kA/m (OK) | 150C:    +99 kA/m (MARGINAL)
+  Sm2Co17 (30 MGOe)  Br 1.10 T HcJ  1990 kA/m Tmax 300C | 20C:  +1241 kA/m (OK) | 80C:   +956 kA/m (OK) | 120C:   +765 kA/m (OK) | 150C:   +623 kA/m (OK)
+  SmCo5 (20 MGOe)    Br 0.90 T HcJ  1990 kA/m Tmax 250C | 20C:  +1355 kA/m (OK) | 80C:  +1011 kA/m (OK) | 120C:   +781 kA/m (OK) | 150C:   +609 kA/m (OK)
+  AlNiCo 5           Br 1.25 T HcJ    51 kA/m Tmax 525C | 20C:   -784 kA/m (DEMAG) | 80C:   -775 kA/m (DEMAG) | 120C:   -769 kA/m (DEMAG) | 150C:   -765 kA/m (DEMAG)
+  AlNiCo 8           Br 0.82 T HcJ   150 kA/m Tmax 550C | 20C:   -439 kA/m (DEMAG) | 80C:   -434 kA/m (DEMAG) | 120C:   -431 kA/m (DEMAG) | 150C:   -429 kA/m (DEMAG)
+  Ferrite C8/Y30     Br 0.39 T HcJ   240 kA/m Tmax 250C | 20C:   -103 kA/m (DEMAG) | 80C:    -37 kA/m (DEMAG) | 120C:     +7 kA/m (MARGINAL) | 150C:    +40 kA/m (MARGINAL)
+  Pure nickel: soft ferromagnet (HcJ ~ 0.1 kA/m scale, Bs ~ 0.6 T): not a permanent magnet. Ni-Fe permalloy: soft back-iron/shield (Bs ~0.8-1.5 T).
+
+[4] Switching transients (design level; Grounded circuit physics)
+  coil L=20 uH, I=50 A, current change in     0.10 us -> L di/dt =   10000.0 V
+  coil L=20 uH, I=50 A, current change in     1.00 us -> L di/dt =    1000.0 V
+  coil L=20 uH, I=50 A, current change in   100.00 us -> L di/dt =      10.0 V
+  coil L=20 uH, I=50 A, current change in  1000.00 us -> L di/dt =       1.0 V
+  stored energy 1/2 L I^2 = 25 mJ per zone; RC snubber to clamp 200 V: C ~ 1.25 uF, R ~ 4.0 ohm (or TVS/flyback to bus)
+  creepage/clearance: IEC 60664-1 tables give roughly 5 mm creepage per kV rms (pollution degree 2, material IIIa) and ~1-1.5 mm clearance per kV
+  impulse in air (Paschen: ~3 kV/mm uniform field at 1 atm, less for sharp edges). A 1-2 mm insulating gap stands off a few hundred V to ~1 kV,
+  NOT Tesla-coil output (tens-hundreds of kV): keep switched trim zones on a low-voltage litz bus, galvanically separate from the Tesla secondary.
+
+[5] Field and lift per dollar for the 88 kg (863 N) hover array (assumptions: flat array, lambda=10 cm, d=lambda/4, gap 10 mm, lift factor 0.9)
+  N42                B0=0.96 T  area      93 cm2  magnet mass   1.65 kg  cost $     66-    140  lift/$   6.15- 13.07 N/$  B0 per $/kg-of-magnet 0.0153 T/($/kg)
+  N42SH              B0=0.96 T  area      93 cm2  magnet mass   1.65 kg  cost $     74-    289  lift/$   2.99- 11.61 N/$  B0 per $/kg-of-magnet 0.0087 T/($/kg)
+  N42UH              B0=0.95 T  area      94 cm2  magnet mass   1.68 kg  cost $     84-    293  lift/$   2.94- 10.29 N/$  B0 per $/kg-of-magnet 0.0084 T/($/kg)
+  N42EH              B0=0.94 T  area      96 cm2  magnet mass   1.70 kg  cost $     94-    307  lift/$   2.81-  9.21 N/$  B0 per $/kg-of-magnet 0.0080 T/($/kg)
+  Sm2Co17 (30 MGOe)  B0=0.81 T  area     129 cm2  magnet mass   2.58 kg  cost $    387-    775  lift/$   1.11-  2.23 N/$  B0 per $/kg-of-magnet 0.0036 T/($/kg)
+  SmCo5 (20 MGOe)    B0=0.66 T  area     193 cm2  magnet mass   3.86 kg  cost $    579-   1158  lift/$   0.75-  1.49 N/$  B0 per $/kg-of-magnet 0.0029 T/($/kg)
+  AlNiCo 5           B0=0.92 T  area     100 cm2  magnet mass   1.74 kg  cost $     70-    156  lift/$   5.52- 12.41 N/$  B0 per $/kg-of-magnet 0.0141 T/($/kg)
+  AlNiCo 8           B0=0.60 T  area     233 cm2  magnet mass   4.04 kg  cost $    202-    404  lift/$   2.14-  4.27 N/$  B0 per $/kg-of-magnet 0.0080 T/($/kg)
+  Ferrite C8/Y30     B0=0.29 T  area    1030 cm2  magnet mass  11.99 kg  cost $     96-    144  lift/$   6.00-  9.00 N/$  B0 per $/kg-of-magnet 0.0287 T/($/kg)
+  (AlNiCo rows are not usable in a Halbach: they demagnetise; shown for cost only.)
