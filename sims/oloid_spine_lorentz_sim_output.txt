@@ -1,0 +1,30 @@
+1. Oloid rolling kinematics (r = 0.10 m)
+   COM height min 0.7071 r, max 0.7500 r, swing 4.29 % of r
+   (analytic: min r/sqrt2 = 0.7071 r at t = pi/2, max 3r/4 at t = pi/3 and pi)
+   circle-1 normal vertical component (= -u_z) changes sign 2 times (incl. wrap) per cycle
+
+2. Radial Lorentz drive, I = 10 A, B = 0.10 T, R = 0.05 ohm -> P = 5.0 W
+   (a) no commutation               mean torque  -0.0000 mN m |  -0.0000 mN m/A |  -0.0000 mN m/W
+   (b) commutated at inversions     mean torque  23.5498 mN m |   2.3550 mN m/A |   4.7100 mN m/W
+   (c) gapped-junction baseline     mean torque   0.6000 mN m |   0.0600 mN m/A |   0.1200 mN m/W
+
+3. Motional EMF at 1 cycle/s (phase taken uniform in time): rms = 34.58 mV, median |EMF| = 3.11 mV
+   (peak 756 mV is a spike at the inversion points where d(u_z)/dt is singular in this parametrisation)
+   shorted-band eddy drag: mean 3805.536 uN m (dissipates 23910.89 uW)
+
+4. Bullard homopolar dynamo: L dI/dt = (M w - R) I.  Threshold w_c = R/M = 5000 rad/s (796 rev/s)
+   w = 0.8 w_c, seed 0.001 A -> I after 20 ms = 1.83e-05 A
+   w = 1.2 w_c, seed 0.001 A -> I after 20 ms = 0.0545 A
+   w = 1.2 w_c, seed 0 A -> I after 20 ms = 0 A
+
+5. Rikitake two-disc dynamo (mu = 1.0, A = 2.0), t = 0-400 (dimensionless)
+   free run: 36 polarity reversals (irregular)
+   polarity-hold feedback u = 2(1-x) when x<1: 0 reversals
+   scheduled reversal every 100 time units (target +/-1.5): 3 reversals
+
+6a. From rest at an inversion point g = 0.000: zero torque, needs a kick
+
+6. Energy ledger (V = 0.5 V commutated, J = 2.50e-03 kg m^2, c = 0.0002 N m s, 20 s)
+   E_in = 77.386 J; Joule = 60.897 J; friction = 10.584 J; KE = 5.9096 J
+   residual E_in - (Joule + friction + KE) = -4.49e-03 J (integration error); efficiency to friction work 13.7 %
+   steady roll speed 10.94 cycles/s. Output never exceeds input: no over-unity.
