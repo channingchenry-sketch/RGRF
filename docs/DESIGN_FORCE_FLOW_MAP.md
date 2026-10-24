@@ -143,7 +143,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 |---|---|---|---|---|---|
 | Coil frequency ω, plate skin depth δ | Plate loss P/F ≥ ωδ (Dodd & Deeds eddy model) | Charge (eddy current) → heat | Grounded | Sim: 10–17 kW for 88 kg (~52 N/kW). Bench: Al plate, N per W vs f | [ANALYSIS](ANALYSIS_2026-10-12.md), [lift §9](lift_and_equilibrium_systems.md) |
 | Relative speed v (EDS / Inductrack) | Lenz repulsion; drag ∝ ~1/v above the transition speed; L/D ≥ 200:1 | Charge (induced), heat (drag) | Grounded | — | [lift §9](lift_and_equilibrium_systems.md) |
-| Halbach magnet sequence | One-sided field concentration | Field | Grounded | Proposed sim upgrade | [lift §9](lift_and_equilibrium_systems.md) |
+| Halbach magnet sequence | One-sided field concentration | Field | Grounded | Sim done: [halbach_litz_drag_reduction.md](halbach_litz_drag_reduction.md) | [lift §9](lift_and_equilibrium_systems.md) |
 | Gap (EMS) | Attractive force, unstable by Earnshaw → active feedback | Force, charge (control current) | Grounded | — | [lift §9](lift_and_equilibrium_systems.md) |
 | Coil current and gap stiffness | m z'' = F(I, z) − mg; eddy stiffness ~37 kN/m (sim) | Force | Grounded (sim) | Sim only | [piezo_helium](piezo_helium_feedback_loop.md) |
 | Helium cell p, A, V | Gas spring k ≈ γpA²/V (≈8 kN/m for the stated case) | Fluid (gas compression) | Grounded / Plausible-untested as an add-on | — | [piezo_helium](piezo_helium_feedback_loop.md) |
@@ -357,5 +357,5 @@ These are the parameters that change the force most, but whose values are unknow
 5. **Quartz/piezo d-coefficients and the coupling path into the plasma.** These set the charge per stress, but the sheath/wall coupling mechanism has no quantity.
 6. **W k(T) and ρ(T) at operating temperature.** Using room-temperature values overstates the heat flow and understates δ.
 7. **Length scale L vs d_i.** This sets whether the Hall term matters (ε_H). The plasma density is not given.
-8. **Halbach EDS force-per-watt vs speed.** This is the open re-run that decides whether POL improves on ~52 N/kW.
+8. **Halbach EDS force-per-watt vs speed.** This is the open re-run that decides whether POL improves on ~52 N/kW. **Status (2026-10-24): model run done** ([halbach_litz_drag_reduction.md](halbach_litz_drag_reduction.md)). Magnetic drag W/N = v_c, independent of speed: 112–224 N/kW for Cu litz tracks (×2–4), ~79 N/kW for a stationary electrodynamic-wheel hover including the motor allowance, and ~940 N/kW at 77 K. Bench confirmation still open (Plausible-untested).
 9. **Larmor coupling efficiency and terpene interface effect.** Both are named as design parameters but have never been measured.

@@ -1,0 +1,47 @@
+Halbach + EDS drag-reduction sweep (CC0). Br = 1.35 T NdFeB; load 88 kg = 863 N; baseline 52 N/kW
+==============================================================================
+
+[1] Halbach surface field B0 (T), d = lambda/4, Grounded (model)
+  lambda=   5 cm M=4: g=0.00:0.963 g=0.05:0.924 g=0.10:0.884 g=0.20:0.800
+  lambda=   5 cm M=8: g=0.00:1.042 g=0.05:0.992 g=0.10:0.943 g=0.20:0.841
+  lambda=  10 cm M=4: g=0.00:0.963 g=0.05:0.924 g=0.10:0.884 g=0.20:0.800
+  lambda=  10 cm M=8: g=0.00:1.042 g=0.05:0.992 g=0.10:0.943 g=0.20:0.841
+  lambda=  20 cm M=4: g=0.00:0.963 g=0.05:0.924 g=0.10:0.884 g=0.20:0.800
+  lambda=  20 cm M=8: g=0.00:1.042 g=0.05:0.992 g=0.10:0.943 g=0.20:0.841
+  -> gaps cost field ~linearly (B0 ~ (1-g) for small g); lift ~ B0^2 so 10% gap ~ -19% lift, M=8 vs 4 ~ +11% B0.
+
+[2] Transition speed vc and magnetic-drag W per N of lift (= vc at v>>vc), lambda=10 cm. Grounded (model)
+    litz: strands 0.10 mm, N_s=1000; max f=1000 Hz, delta_Cu(min)=2.06 mm, F_R(max)=1.0002
+  Cu plate t=10mm                  vc@10m/s=  5.22 m/s  vc@100m/s= 13.06  L/D@100=   7.7  W/N@100=13.06  N/kW@100=    77
+  Al plate t=10mm                  vc@10m/s=  7.30 m/s  vc@100m/s= 16.63  L/D@100=   6.0  W/N@100=16.63  N/kW@100=    60
+  Cu litz ladder eta=0.6           vc@10m/s=  8.91 m/s  vc@100m/s=  8.91  L/D@100=  11.2  W/N@100= 8.91  N/kW@100=   112
+  Al litz ladder eta=0.6           vc@10m/s= 14.06 m/s  vc@100m/s= 14.06  L/D@100=   7.1  W/N@100=14.06  N/kW@100=    71
+  Cu litz ladder t=20mm eta=0.6    vc@10m/s=  4.46 m/s  vc@100m/s=  4.46  L/D@100=  22.4  W/N@100= 4.46  N/kW@100=   224
+
+[3] Area of array needed to lift 863 N at v = 10*vc (lift factor 0.99), Cu litz eta=0.6, d=lambda/4, M=8, g=0.05. Grounded (model)
+  lambda=  5cm  y=5mm:   78.2cm2 y=10mm:  274.7cm2 y=20mm: 3390.8cm2 y=30mm:41860.5cm2
+  lambda= 10cm  y=5mm:   41.7cm2 y=10mm:   78.2cm2 y=20mm:  274.7cm2 y=30mm:  965.1cm2
+  lambda= 20cm  y=5mm:   30.5cm2 y=10mm:   41.7cm2 y=20mm:   78.2cm2 y=30mm:  146.5cm2
+  lambda= 40cm  y=5mm:   26.0cm2 y=10mm:   30.5cm2 y=20mm:   41.7cm2 y=30mm:   57.1cm2
+  -> W/N is independent of gap and lambda in this model; gap and lambda set AREA and MAGNET MASS (lift ~ exp(-4 pi y/lambda)).
+
+[4] Electrodynamic-wheel hover (4 counter-rotating rotors, ro=0.10 m, width 0.10 m, active arc ro*pi/3,
+    lambda=2*pi*ro/P with P=4 pole pairs (lambda=15.7 cm), y=10 mm, M=8, g=0.05, conductor Cu litz eta=0.6, t=10 mm)
+  vs=  5 m/s (   477 rpm): lift=   1766 N  drag=  3148 N  torque/rotor= 78.7 N·m  shaft P(magnetic)= 15.74 kW  N/kW=   112  (x 2.2 baseline)
+  vs= 10 m/s (   955 rpm): lift=   4111 N  drag=  3664 N  torque/rotor= 91.6 N·m  shaft P(magnetic)= 36.64 kW  N/kW=   112  (x 2.2 baseline)
+  vs= 20 m/s (  1910 rpm): lift=   6155 N  drag=  2743 N  torque/rotor= 68.6 N·m  shaft P(magnetic)= 54.85 kW  N/kW=   112  (x 2.2 baseline)
+  vs= 40 m/s (  3820 rpm): lift=   7028 N  drag=  1566 N  torque/rotor= 39.1 N·m  shaft P(magnetic)= 62.64 kW  N/kW=   112  (x 2.2 baseline)
+  vs= 60 m/s (  5730 rpm): lift=   7218 N  drag=  1072 N  torque/rotor= 26.8 N·m  shaft P(magnetic)= 64.33 kW  N/kW=   112  (x 2.2 baseline)
+  Need for 863 N: lift capacity 7377 N > 863 N. At vs where lift = 863 N, P = 863*vc = 7.69 kW magnetic; with eta_motor=0.85 and +20% windage/bearing allowance: 10.86 kW -> 79 N/kW. Plausible-untested as hardware.
+
+[5] Drag levers (W/N = vc = 4 rho F_R/(mu0 t eta) for litz; 2 rho/(mu0 t_eff) plate):
+  baseline Cu litz t=10mm eta=0.6                vc =  8.91 m/s ->  8.91 W/N,    112 N/kW
+  t=20mm (more conductor depth)                  vc =  4.46 m/s ->  4.46 W/N,    224 N/kW
+  eta=0.8 (compact/rectangular litz)             vc =  6.68 m/s ->  6.68 W/N,    150 N/kW
+  Al instead of Cu (same t)                      vc = 14.06 m/s -> 14.06 W/N,     71 N/kW
+  Cu at 77 K (rho~0.2e-8, LN2)                   vc =  1.06 m/s ->  1.06 W/N,    942 N/kW
+  solid Cu plate t=10mm @ 10 m/s, lambda 10cm    vc =  5.23 m/s ->  5.23 W/N,    191 N/kW
+  solid Cu plate t=10mm @ 100 m/s                vc = 13.06 m/s -> 13.06 W/N,     77 N/kW
+
+Separation: everything above is MAGNETIC drag (eddy/I^2R heat). Drive power still needed: a moving craft must also supply
+aero drag and propulsion; a wheel hover must supply motor + windage + bearing losses and gyroscopic/thrust balancing.
