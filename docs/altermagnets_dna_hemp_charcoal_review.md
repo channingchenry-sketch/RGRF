@@ -26,7 +26,7 @@
 |---|---|---|
 | Unzipping ~12–15 pN; 10.5 bp/turn; ~2 nm | **Grounded** | Essevaz-Roulet, Bockelmann & Heslot, PNAS 94, 11935 (1997). |
 | AT ≈ 4 kBT, GC ≈ 6 kBT | **Simplified** | Duplex stability is dominated by stacking (SantaLucia, PNAS 95, 1460 (1998)), not just H-bond count. |
-| Electrostatic zipper (2001) | **Grounded** | Kornyshev & Leikin, PRL 86, 3666 (2001). Sept 2026 imaging / GTAC preference Grok-reported [to verify]. |
+| Electrostatic zipper (2001) | **Grounded** | Kornyshev & Leikin, PRL 86, 3666 (2001). Sept 2026 imaging now confirmed (Catley et al., *NAR* 2026, doi:10.1093/nar/gkag817; see share #142 [dna_zipper_model_exploration_review.md](dna_zipper_model_exploration_review.md)); GTAC preference still Grok-reported [to verify]. |
 | Ca²⁺ persistent bridging, Mg²⁺ transient, Na⁺ screens | **Grounded** | Msg 4 then says "a nickel ion bridged two DNA grooves" — inconsistent with msg 2's "divalent metal ions" [to verify which ion]. |
 | Ca-rinse dock on hemp–mycelium | **Plausible-untested** | Ca crosslinking of pectin is Grounded; on fungal walls untested. |
 
