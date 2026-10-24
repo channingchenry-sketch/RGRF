@@ -28,3 +28,13 @@
    E_in = 77.386 J; Joule = 60.897 J; friction = 10.584 J; KE = 5.9096 J
    residual E_in - (Joule + friction + KE) = -4.49e-03 J (integration error); efficiency to friction work 13.7 %
    steady roll speed 10.94 cycles/s. Output never exceeds input: no over-unity.
+
+7. Spine arc segments: 60 deg (6 per ring/wavelength) vs 45 deg (8)
+   M = 6: fundamental field factor 95.5 % of ideal; first harmonic order 5 and 7
+   M = 8: fundamental field factor 97.4 % of ideal; first harmonic order 7 and 9
+   M = 6 commutation capture vs boundary offset from inversion:    0 deg: 100.0 %;    5 deg:  97.9 %;   10 deg:  94.2 %;   15 deg:  89.9 %; 22.5 deg:  82.5 %;   30 deg:  74.4 %
+   M = 8 commutation capture vs boundary offset from inversion:    0 deg: 100.0 %;    5 deg:  97.9 %;   10 deg:  94.2 %;   15 deg:  89.9 %; 22.5 deg:  82.5 %;   30 deg:  90.0 %
+   Both 6 and 8 divide 180 deg evenly, so either aligns with the half-cycle inversion when phased correctly.
+
+8. Nitinol kickstart: KE to reach 0.3 cycles/s = 4.4 mJ; at an assumed 1-5 % SMA heat-to-work efficiency
+   the AC-coil heating needed is 0.09-0.44 J per kick. A static magnet gives dB/dt = 0: no heating.

@@ -122,6 +122,26 @@ say(f"   E_in = {Ein:.3f} J; Joule = {Ej:.3f} J; friction = {Ef:.3f} J; KE = {KE
 say(f"   residual E_in - (Joule + friction + KE) = {Ein-Ej-Ef-KE:+.2e} J (integration error); efficiency to friction work {Ef/Ein*100:.1f} %")
 say(f"   steady roll speed {om/2/np.pi:.2f} cycles/s. Output never exceeds input: no over-unity.")
 
+# ---------------- 7. 60 deg vs 45 deg spine arc segments ----------------
+say("\n7. Spine arc segments: 60 deg (6 per ring/wavelength) vs 45 deg (8)")
+for Mseg in (6, 8):
+    kf = np.sin(np.pi/Mseg)/(np.pi/Mseg)          # fundamental of a segmented Halbach (Mallinson/Halbach)
+    say(f"   M = {Mseg}: fundamental field factor {kf*100:.1f} % of ideal; first harmonic order {Mseg-1} and {Mseg+1}")
+# commutation can only change sign at arc boundaries; inversions sit at phase 0 and pi
+G = np.abs(g).sum()
+for Mseg in (6, 8):
+    row = []
+    for dd in (0, 5, 10, 15, 22.5, 30):
+        d = np.deg2rad(dd); edges = (theta - d) % (2*np.pi)
+        seg = np.floor(edges/(2*np.pi/Mseg)).astype(int)
+        cap = sum(abs(g[seg == q].sum()) for q in range(Mseg))/G
+        row.append(f"{dd:>4} deg: {cap*100:5.1f} %")
+    say(f"   M = {Mseg} commutation capture vs boundary offset from inversion: " + "; ".join(row))
+say("   Both 6 and 8 divide 180 deg evenly, so either aligns with the half-cycle inversion when phased correctly.")
+Jk = J; kick = 0.5*Jk*(2*np.pi*0.3)**2
+say(f"\n8. Nitinol kickstart: KE to reach 0.3 cycles/s = {kick*1e3:.1f} mJ; at an assumed 1-5 % SMA heat-to-work efficiency")
+say(f"   the AC-coil heating needed is {kick/0.05:.2f}-{kick/0.01:.2f} J per kick. A static magnet gives dB/dt = 0: no heating.")
+
 fig, ax = plt.subplots(2, 1, sharex=True)
 ax[0].plot(theta, HH/r); ax[0].set_ylabel("COM height / r"); ax[0].set_title("Oloid: COM height and axis inversion")
 ax[1].plot(theta, g, label="torque/amp shape (no commutation)"); ax[1].plot(theta, np.abs(g), "--", label="commutated")

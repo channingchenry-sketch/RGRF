@@ -19,6 +19,7 @@ Channing: "With the right outer spine though it would make sense, right?" and "H
 | Motional EMF at 1 cycle/s | rms ≈ 35 mV (spikes at inversions) | Grounded (physics) / model-dependent |
 | Kickstart (Bullard disc) | Needs seed **and** Mω > R; ω_c = R/M = 5000 rad/s (~800 rev/s) for the assumed disc | Grounded |
 | Rikitake two-disc | 36 irregular reversals free-running; 0 with polarity-hold feedback; 3 on a timed schedule | Grounded (math) / Plausible (geodynamo analogy) |
+| 60° vs 45° spine arcs | 95.5 % vs 97.4 % field; both align with inversions; worst-case capture 74 % vs 83 % | Grounded / model |
 | Energy ledger (20 s, 0.5 V) | In 77.4 J = Joule 60.9 + friction 10.6 + KE 5.9 (residual −0.004 J) | Grounded: no over-unity |
 
 ## 1. Oloid kinematics (Grounded)
@@ -61,6 +62,23 @@ Rikitake system ẋ = −μx + zy, ẏ = −μy + (z−A)x, ż = 1 − xy (μ = 
 ## 6. Energy ledger (Grounded)
 
 Commutated 0.5 V supply, J = 2.5e-3 kg·m², loss c = 2e-4 N·m·s, 20 s: E_in 77.4 J = Joule 60.9 J + friction 10.6 J + kinetic 5.9 J (residual −0.004 J from integration). About 14 % of the input does useful work against friction. Input ≥ output + losses at every step: **no over-unity.**
+
+## 6b. 60° spine arc option and a nitinol role
+
+Channing: "A 60 degree magnetic arc might come in handy and it something we had discussed before but with nitinol". Prior notes: [fuller_tensegrity_vortex_node_review.md §4](fuller_tensegrity_vortex_node_review.md), [kinetic_sculpture_linkage_review.md §5](kinetic_sculpture_linkage_review.md), [nitinol_buga_resonant_node_review.md](nitinol_buga_resonant_node_review.md), and for the 45° arc, [halbach_switched_arc_materials_check.md](halbach_switched_arc_materials_check.md).
+
+| Item | 60° arcs (M = 6, six tile a ring) | 45° arcs (M = 8) | Label |
+|---|---|---|---|
+| Fundamental field vs ideal Halbach, sin(π/M)/(π/M) | 95.5 % | 97.4 % | Grounded |
+| Lowest harmonics | 5th, 7th (more ripple) | 7th, 9th | Grounded |
+| Arc boundaries on the two inversions per cycle (0°, 180°) | Yes (180/60 = 3 arcs per half-cycle) | Yes (180/45 = 4) | Grounded (geometry) |
+| Commutation capture if boundaries are offset 5° / 15° | 97.9 % / 89.9 % | 97.9 % / 89.9 % | model output |
+| Worst-case offset | 74.4 % (at 30°) | 82.5 % (at 22.5°) | model output |
+| Parts count / switches per cycle | 6 (cheaper, fewer switches) | 8 | Plausible-untested |
+
+Reading: both align with the oloid's half-cycle inversion when phased correctly. 60° trades ~2 % of field and more ripple for fewer parts, and it is more sensitive to phasing errors. Because the rolling phase is not uniform in time, the real boundaries must be set from the measured inversion points [Channing to supply spine geometry]. 60° is hexagonal symmetry, not φ: **Symbolic** as anything beyond geometry.
+
+**Nitinol role (Plausible-untested):** NiTi springs or actuators as (i) the kickstart past the dead point, or (ii) a way to reposition or retract arc segments to change phasing. They must be heated by an **AC coil** or resistive current. A static magnet gives dB/dt = 0 and no heating (the earlier correction). Model: a kick to 0.3 cycles/s needs 4.4 mJ of kinetic energy; at an assumed 1–5 % heat-to-work efficiency [to verify], that is 0.09–0.44 J of heating per kick. Nitinol **amplifies force, not energy** (Grounded, consistent with the earlier reviews).
 
 ## 7. Unknowns and next steps
 
