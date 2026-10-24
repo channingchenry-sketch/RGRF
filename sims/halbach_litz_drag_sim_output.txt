@@ -8,7 +8,7 @@ Halbach + EDS drag-reduction sweep (CC0). Br = 1.35 T NdFeB; load 88 kg = 863 N;
   lambda=  10 cm M=8: g=0.00:1.042 g=0.05:0.992 g=0.10:0.943 g=0.20:0.841
   lambda=  20 cm M=4: g=0.00:0.963 g=0.05:0.924 g=0.10:0.884 g=0.20:0.800
   lambda=  20 cm M=8: g=0.00:1.042 g=0.05:0.992 g=0.10:0.943 g=0.20:0.841
-  -> gaps cost field ~linearly (B0 ~ (1-g) for small g); lift ~ B0^2 so 10% gap ~ -19% lift, M=8 vs 4 ~ +11% B0.
+  -> gaps cost field ~linearly (B0 ~ (1-g) for small g); lift ~ B0^2 so 10% gap ~ -19% lift, M=8 vs 4 ~ +8% B0.
 
 [2] Transition speed vc and magnetic-drag W per N of lift (= vc at v>>vc), lambda=10 cm. Grounded (model)
     litz: strands 0.10 mm, N_s=1000; max f=1000 Hz, delta_Cu(min)=2.06 mm, F_R(max)=1.0002

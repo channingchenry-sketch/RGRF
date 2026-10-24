@@ -74,7 +74,7 @@ for lam in (0.05, 0.10, 0.20):
     for M in (4, 8):
         row = " ".join("g=%.2f:%.3f" % (g, B0(Br, lam, lam/4, M, g)) for g in (0, .05, .1, .2))
         say(f"  lambda={lam*100:4.0f} cm M={M}: {row}")
-say("  -> gaps cost field ~linearly (B0 ~ (1-g) for small g); lift ~ B0^2 so 10% gap ~ -19% lift, M=8 vs 4 ~ +11% B0.")
+say("  -> gaps cost field ~linearly (B0 ~ (1-g) for small g); lift ~ B0^2 so 10% gap ~ -19% lift, M=8 vs 4 ~ +8% B0.")
 
 # --- 2. conductors: transition speed vs speed
 lam, t = 0.10, 0.010

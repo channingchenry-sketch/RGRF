@@ -46,4 +46,6 @@
 - Cryogenic cooling power, magnet cost/mass and thermal limits are excluded.
 - No bench data yet. The open bench test stays: Al/Cu plate vs litz ladder under a spinning Halbach rotor, N per W vs rpm. **Plausible-untested** until measured.
 
+*Control follow-up: [halbach_rotor_control_vs_perturbation_sections.md](halbach_rotor_control_vs_perturbation_sections.md) (four-rotor EDW hover: height/tilt/lateral/precession mapping, control sim).*
+
 *See also: [lift_and_equilibrium_systems.md §9](lift_and_equilibrium_systems.md), [DESIGN_FORCE_FLOW_MAP.md](DESIGN_FORCE_FLOW_MAP.md) §4 and open item 8.*

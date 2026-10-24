@@ -1,0 +1,32 @@
+Halbach EDW four-rotor hover control sim (CC0). Grounded (model) unless noted.
+vc=4.46 m/s, hover slip v0=6.7 m/s (638 rpm), gap z0=23.6 mm, lambda=15.7 cm, B0=0.99 T
+heave stiffness 2kW=69.1 kN/m, wn=28.0 rad/s (4.46 Hz); rotor I=0.015 kg m^2, h=1.00 N m s each
+hover magnetic drag power = W*vc = 3.85 kW (224 N/kW)
+per-rotor sensitivities at hover: dF_L/dv=19.9 N/(m/s), dF_D/dv=-8.3 N/(m/s) (drag falls as speed rises)
+Linear design with motor lag tau=20 ms: best achievable min-zeta heave=0.36 (Kp=0 kN/m, Kd=3575 N s/m), roll/pitch=0.24; open-loop zeta=0.024 (parametric)
+   if motor lag were 5 ms: heave best zeta=1.00
+   if motor lag were 10 ms: heave best zeta=0.70
+   if motor lag were 50 ms: heave best zeta=0.15
+
+[Test 1] +10 kg load step at t=0.5 s
+  open : final gap shift -1.52 mm, peak dip -2.57 mm, zeta_fit=0.016, settle(±0.2mm)=3.42 s, peak rotor-speed excursion 0.0 %, magnetic P 3.85->4.35 kW, peak input P 4.73 kW
+  pd   : final gap shift -1.35 mm, peak dip -1.35 mm, zeta_fit=0.356, settle(±0.2mm)=0.07 s, peak rotor-speed excursion 12.8 %, magnetic P 3.85->4.28 kW, peak input P 5.10 kW
+
+[Test 2] 5 deg roll disturbance (initial condition)
+  open counter-rot: settle(±0.5deg)=2.47 s, final roll -0.23 deg, yaw drift +0.00 deg, peak gyro yaw torque 0.00 N m, peak speed exc 0.0 %
+  pd   counter-rot: settle(±0.5deg)=0.72 s, final roll +0.00 deg, yaw drift +0.00 deg, peak gyro yaw torque 0.00 N m, peak speed exc 39.9 %
+  pd   co-rot H (gyro only): settle(±0.5deg)=0.72 s, final roll +0.00 deg, yaw drift +7.25 deg, peak gyro yaw torque 15.37 N m, peak speed exc 39.9 %
+
+[Test 3] lateral gust 50 N in y for 1 s (y has no EDS stiffness; corrected by roll tilt)
+  open: y at 1.5 s +0.284 m, final y +6.249 m, max |roll| 0.00 deg, settle(±2 cm)=10.50 s
+  full: y at 1.5 s +0.238 m, final y -0.233 m, max |roll| 0.79 deg, settle(±2 cm)=10.50 s
+
+[Test 4] commanded 1 m x-move via pure x-thrust pattern (pair imbalance), counter-rotating
+  overshoot 8.6 cm, settle(±2 cm)=5.14 s, yaw drift -0.000 deg, pitch max 0.00 deg
+  peak rotor-speed excursion 40.0 %, peak input power 4.32 kW vs hover 3.85 kW; manoeuvre energy above hover 0.00 kJ with regenerative motors, 0.04 kJ without; max change in magnetic drag power 214 W
+  co-rotating thrust if spin signs were all equal: net x-force = 4*F_D = 576 N (drag-as-thrust; cancelled by counter-rotation)
+
+[Gyro] net angular momentum: counter-rotating H = 0; co-rotating H = 4.0 N m s -> a 1 rad/s roll rate gives 4.0 N m yaw torque (= 23% of a 50 N gust x 0.35 m)
+
+Limits: 2-D first-harmonic EDS per rotor, quasi-static forces (no eddy time constant), parametric inherent damping,
+small angles, no rotor-to-rotor field interaction, track edges, sensor noise or motor current limits. Hardware: Plausible-untested.

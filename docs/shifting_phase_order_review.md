@@ -69,6 +69,7 @@ Chain: phi-spaced coils/rotors spin with 3-6-9 phasing → the axis precesses in
 3. **Lateral.** Chain: phase shift between coils → horizontal force.
    - GROUNDED: a travelling-wave field over a conductor is a linear induction motor, F_x ∝ slip.
    - "Boundary-layer style self-correcting EM layers": SPECULATIVE wording. Eddy-current drag does damp lateral motion over a plate (GROUNDED), but nothing "self-corrects".
+   - **EDW comparison (2026-10-24):** sections 1–3 mapped onto a four-rotor counter-rotating Halbach electrodynamic-wheel hover (height = rotor speed, tilt = differential speed, lateral = drag-as-thrust pair imbalance); control sim reaches ζ ≈ 0.36 with a 20 ms motor lag, 0.7 needs ≤ 10 ms. See [halbach_rotor_control_vs_perturbation_sections.md](halbach_rotor_control_vs_perturbation_sections.md).
 4. **Mode / triadic resonance.** Chain: frequency ratio → spin-over mode parametrically excites secondary modes → detune to stay laminar.
    - Triadic resonance instability in precessing cylinders: GROUNDED (fluids).
    - Applying it to resonant coil arrays: PLAUSIBLE-UNTESTED. Parametric coupling between LC resonators is real (nonlinear circuits), but this system as specified is linear, so there is no triadic coupling to avoid unless magnetic cores or ferrofluids add nonlinearity.

@@ -28,6 +28,8 @@ Sources: [shifting_phase_order_review.md §A3, §B3](shifting_phase_order_review
 | "3-6-9" / φ phasing of rotors | No force law | — | Symbolic | — | [§A3](shifting_phase_order_review.md) |
 | Precession for "lift assist" | None (closed system) | — | Speculative | Load-cell null test (bench 3) | [§A3](shifting_phase_order_review.md) |
 
+**EDW comparison:** the four counter-rotating Halbach-rotor hover reaches the same conclusion (rotors are gyros: torque/attitude, not lift). See [halbach_rotor_control_vs_perturbation_sections.md](halbach_rotor_control_vs_perturbation_sections.md).
+
 **Unknown parameters (egg):** egg dimensions (L, aspect ratio), spin rate Ω and precession rate Ω_p, fluid (ρ, μ or ν), applied torque τ and rotor I. Without these, Re, E, Ta and Po cannot be computed, so the laminar regime is undetermined.
 
 ### 1b. Recovered egg design details (Channing, 2026-10-12)
@@ -143,7 +145,7 @@ Source: [tungsten_bismuth_core.md](tungsten_bismuth_core.md). Section numbers (�
 |---|---|---|---|---|---|
 | Coil frequency ω, plate skin depth δ | Plate loss P/F ≥ ωδ (Dodd & Deeds eddy model) | Charge (eddy current) → heat | Grounded | Sim: 10–17 kW for 88 kg (~52 N/kW). Bench: Al plate, N per W vs f | [ANALYSIS](ANALYSIS_2026-10-12.md), [lift §9](lift_and_equilibrium_systems.md) |
 | Relative speed v (EDS / Inductrack) | Lenz repulsion; drag ∝ ~1/v above the transition speed; L/D ≥ 200:1 | Charge (induced), heat (drag) | Grounded | — | [lift §9](lift_and_equilibrium_systems.md) |
-| Halbach magnet sequence | One-sided field concentration | Field | Grounded | Sim done: [halbach_litz_drag_reduction.md](halbach_litz_drag_reduction.md) | [lift §9](lift_and_equilibrium_systems.md) |
+| Halbach magnet sequence | One-sided field concentration | Field | Grounded | Sim done: [halbach_litz_drag_reduction.md](halbach_litz_drag_reduction.md); control: [rotor control](halbach_rotor_control_vs_perturbation_sections.md) | [lift §9](lift_and_equilibrium_systems.md) |
 | Gap (EMS) | Attractive force, unstable by Earnshaw → active feedback | Force, charge (control current) | Grounded | — | [lift §9](lift_and_equilibrium_systems.md) |
 | Coil current and gap stiffness | m z'' = F(I, z) − mg; eddy stiffness ~37 kN/m (sim) | Force | Grounded (sim) | Sim only | [piezo_helium](piezo_helium_feedback_loop.md) |
 | Helium cell p, A, V | Gas spring k ≈ γpA²/V (≈8 kN/m for the stated case) | Fluid (gas compression) | Grounded / Plausible-untested as an add-on | — | [piezo_helium](piezo_helium_feedback_loop.md) |
