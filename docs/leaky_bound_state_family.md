@@ -55,3 +55,5 @@ Plot: `/workspace/leaky_bound_state_family_plot.png` (box only).
 - Craft: what is trapped, the target τ/Q, the leak hardware and the power budget [Channing to supply].
 - Cavity C: medium, frequency, measured Q [Channing to supply].
 - [to verify]: heliosheath residence time from models; solar-wind power figure; Armani 2003 Q; SRF Q₀ reference.
+
+- **See also:** [oscillator_ratchet_array_review.md](oscillator_ratchet_array_review.md): the gating demo read as a flashing ratchet.

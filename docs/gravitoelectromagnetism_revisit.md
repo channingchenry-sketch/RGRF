@@ -86,3 +86,5 @@ Plot: `/workspace/gem_field_scale_plot.png` (box only).
 ## 7. Gaps
 - What is new that Channing wants from the "again": a specific device, the hamster-wheel generator, or the Pais/fractal chain? [Channing to supply]
 - [to verify]: Mashhoon review ref; Heaviside 1893 page; Lense–Thirring 1918 ref; Breton 2008; Bardeen–Petterson 1975; Podkletnov 1992 page and the NASA replication; the exact GP-B orbit for the 39.2 figure.
+
+- **See also:** [oscillator_ratchet_array_review.md](oscillator_ratchet_array_review.md): coherent rotor arrays and ratchets; no number of lab rotors reaches detectable frame dragging (packing limit ~6×10⁻²² rad/s).

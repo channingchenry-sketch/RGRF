@@ -69,3 +69,5 @@ Every run closes: E_in = copper + friction + kinetic, with residuals ≤ 0.04 J 
 ## 6. Oloid centre-of-mass height: resolved
 
 Dirnböck & Stachel, "The Development of the Oloid", *J. Geometry and Graphics* 1(2), 1997 (verified, https://www.geometrie.tuwien.ac.at/stachel/jgg0113.pdf), eq. (25): h = r(2 + cos t)/(2√(2(1 + cos t))), t ∈ (−2π/3, 2π/3). This gives h_min = r√2/2 ≈ 0.7071 r (t = 0) and h_max = 3r/4 (t → ±2π/3), so Δh ≈ 0.0429 r. That matches this repo's sim and English Wikipedia. The HITS page (and Russian Wikipedia) give h_max = r√2/2 and h_min = 3√3 r/8 ≈ 0.6495 r. That is inconsistent with eq. (25), which never goes below r/√2, so it looks like an error there. The irregular oloid (centre distance r√2) has constant COM height per HITS, a different solid. **Grounded.**
+
+- **See also (2026-10-25):** [oscillator_ratchet_array_review.md](oscillator_ratchet_array_review.md): the commutated spine as a phase-sequenced oscillator array (ratchet view); hub motors and regen.

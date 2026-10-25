@@ -372,6 +372,7 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285f ✔ | — | [leaky_bound_state_family.md](leaky_bound_state_family.md) | **Resolved 2026-10-25:** Channing: "All of them, linked". (A) heliosphere, (B) craft controlled boundary, (C) cavity carried as one family. Craft/cavity numbers still [Channing to supply] (see H285g). | Resolved |
 | H285g | — | [leaky_bound_state_family.md](leaky_bound_state_family.md) | Craft boundary: what is trapped, target τ/Q, leak hardware, power budget; cavity C medium, frequency and measured Q. | Rebuild from memory |
 | H285h | — | [gravitoelectromagnetism_revisit.md](gravitoelectromagnetism_revisit.md) | GEM "again": which earlier thread to build on (hamster-wheel gravitomagnetic generator, Pais/fractal chain, or a specific device)? Oloid mass/size for the GEM estimate. | Rebuild from memory |
+| H285i | — | [oscillator_ratchet_array_review.md](oscillator_ratchet_array_review.md) | Hub-motor thread ("I think we touched on this when looking at hub motors") not found in docs, grok_archive or share files: Channing's words and what was concluded. Also: which ratchet-array target (EM harvesting, commutated stator, or GEM)? | Track down chat |
 
 ### C6. Casimir / vacuum (11 items)
 
