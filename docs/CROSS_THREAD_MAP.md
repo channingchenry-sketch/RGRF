@@ -368,6 +368,7 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285d | — | [marklund_convection_review.md](marklund_convection_review.md) | Tesla-turbine thread ion-separation / air-funneling turns lost in a capture gap; loop speed, radius, He fraction; electrode geometry. | Track down chat |
 | H285e | — | [fractional_fermi_sea_review.md](fractional_fermi_sea_review.md) | Which "fractional Fermi sea" is meant for RGRF use: composite-fermion Fermi sea at ν=1/2 (geometric-resonance measurable) or the 2026 Innsbruck 1D cold-atom FFS? Plus the [to verify] citation page numbers. | Rebuild from memory |
 | H285e ✔ | — | [flux_attachment_review.md](flux_attachment_review.md) | **Resolved 2026-10-25:** Channing chose meaning (a), the composite-fermion Fermi sea ("Let’s look at the flux quanta binding"). Follow-up: flux-attachment review + Jain-sequence sim. Remaining: [to verify] refs listed in the doc. | Resolved |
+| H285f | — | [leaky_boundary_tunneling_review.md](leaky_boundary_tunneling_review.md) | "Our leaky boundary state": heliosphere leaky bound state (share 10bbfe00 msg 9), POL controlled leaky boundary, or cavity as bound state? Is tunneling a mechanism or a parallel? Plus pressure–density gradient scope. | Rebuild from memory |
 
 ### C6. Casimir / vacuum (11 items)
 
