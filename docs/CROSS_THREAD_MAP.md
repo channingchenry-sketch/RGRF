@@ -381,6 +381,8 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285n | — | [degrees_of_freedom_shifting_phases_review.md](degrees_of_freedom_shifting_phases_review.md) | 'Shifting phase order': (a) which degree of freedom leads in time (VO₂/magnetite/OIST) or (b) phase relation of coupled oscillators (Kuramoto/Floquet in Multi-Egg / magnetic sail)? Fe3 meant Fe³⁺ or Fe₃O₄ (both covered)? |
 | H285n ✔ | — | [shifting_phase_order_coupled_oscillators.md](shifting_phase_order_coupled_oscillators.md) | **Answered 2026-10-25:** Channing: "The phase relationship between coupled oscillators". |
 | H285o | — | [shifting_phase_order_coupled_oscillators.md](shifting_phase_order_coupled_oscillators.md) | Which system to model first as coupled oscillators: hub-motor/stator, Multi-Egg gyros, magnetic sail, or oloid track? |
+| H285o ↷ | — | [shifting_phase_order_coupled_oscillators.md §8](shifting_phase_order_coupled_oscillators.md) | **Superseded 2026-10-25:** Channing's reply didn't pick a system; he clarified φ is for nature and engineering tunes geometry and frequency to the material or plasma. |
+| H285p | — | [shifting_phase_order_coupled_oscillators.md §8](shifting_phase_order_coupled_oscillators.md) | **Missing thread** [Channing to supply]: phi-for-nature vs engineering tuning relative to plasma ("that thread didn’t get copied over but was relatively to the plasma"). Nearest: tungsten nodes l. 642, Magnus/Floquet l. 320, BN nano l. 2659. |
 
 ### C6. Casimir / vacuum (11 items)
 

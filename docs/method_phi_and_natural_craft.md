@@ -47,3 +47,5 @@
 A related actuator design thread was not pursued and is intentionally not documented here.
 
 *Structural parallel example:* Boyer's repulsive Casimir cavity, where a boundary π phase shift reverses the force, is recorded as a Symbolic/structural parallel to "shifting phase order" in [shifting_phase_order_review.md §E](shifting_phase_order_review.md#e-boyer-repulsive-casimir-as-a-parallel-to-shifting-phase-order-2026-10-15).
+
+**Pointer (2026-10-25): φ for nature, tuning for engineering.** Channing (verbatim): "Phi was meant for nature when engineering we would shift geometry and frequency relative to the materials or chemicals. We addressed it a little bit that thread didn’t get copied over but was relatively to the plasma." So φ describes *natural* patterns (Symbolic as a design input), while engineered drives are tuned to the medium (plasma f_pe/f_ce/f_ci, material resonances, impedance match). See [shifting_phase_order_coupled_oscillators.md §8](shifting_phase_order_coupled_oscillators.md#8-phi-for-nature-tuning-for-engineering-2026-10-25). The plasma-tuning thread is missing (H285p).

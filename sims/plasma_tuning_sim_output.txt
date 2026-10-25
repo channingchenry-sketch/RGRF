@@ -1,0 +1,11 @@
+plasma                        n_e m^-3  Te eV      B T       f_pe       f_ce       f_ci       f_LH   v_A m/s  lambda_D    c/w_pe
+lab glow discharge (Ar)          1e+16      2     0.01 8.98e+08 Hz 2.8e+08 Hz 3.81e+03 Hz 9.86e+05 Hz  3.45e+05  0.000105    0.0531
+tokamak edge (D)                 1e+19     20        2 2.84e+10 Hz 5.6e+10 Hz 1.52e+07 Hz 4.18e+08 Hz  9.75e+06  1.05e-05   0.00168
+ionosphere F layer (O+)          1e+12    0.1    5e-05 8.98e+06 Hz 1.4e+06 Hz    47.6 Hz 8.07e+03 Hz  2.73e+05   0.00235      5.31
+solar wind 1 AU (p)              5e+06     10    5e-09 2.01e+04 Hz     140 Hz  0.0762 Hz    3.27 Hz  4.88e+04      10.5  2.38e+03
+check: f_pe = 8.98 kHz*sqrt(n_e/cm^-3): 8.98e+08 Hz for 1e10 cm^-3
+drive tuned f0    2.449 GHz: absorbed  1000.00 W, reflected     0.00 W of 1000 W (ledger: 1000.00)
+drive phi*f0      3.963 GHz: absorbed     1.60 W, reflected   998.40 W of 1000 W (ledger: 1000.00)
+drive f0/phi      1.514 GHz: absorbed     1.60 W, reflected   998.40 W of 1000 W (ledger: 1000.00)
+drive 1% detuned  2.474 GHz: absorbed   801.58 W, reflected   198.42 W of 1000 W (ledger: 1000.00)
+ECR at B=0.0875 T: f_ce = 2.449 GHz (2.45 GHz magnetron); Q=50; half-power bandwidth 49 MHz
