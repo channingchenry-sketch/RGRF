@@ -375,6 +375,7 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285i | — | [oscillator_ratchet_array_review.md](oscillator_ratchet_array_review.md) | Hub-motor thread ("I think we touched on this when looking at hub motors") not found in docs, grok_archive or share files: Channing's words and what was concluded. Also: which ratchet-array target (EM harvesting, commutated stator, or GEM)? | Track down chat |
 | H285j | — | [stator_review.md](stator_review.md) | Lost stator thread ("I thought I had a thread but couldn’t find it"): not found in docs, grok_archive, share txt/pdfs, capture_queue, private or Gmail. Likely together with the hub-motor thread (H285i). Also: target machine power/speed/size. | Track down chat |
 | H285k | — | [bcaa_electrolytes_review.md](bcaa_electrolytes_review.md) | BCAA + electrolytes: original turns withheld (private); which angle next (neuro, metabolic, exercise, electrochemical)? | Rebuild from memory |
+| H285l | — | [nv_center_spin_degrees_of_freedom_review.md](nv_center_spin_degrees_of_freedom_review.md) | NV centre / OIST spin-force diamond: which earlier thread it 'touches' (lab-grown crystals msg 13 diamond-core feedback; Earth-shuttle msg 61 spinning tetra at '532'; or green lensing)? NV bench mapping of the Halbach array (diamond + bias magnet) [Channing to supply]. |
 
 ### C6. Casimir / vacuum (11 items)
 

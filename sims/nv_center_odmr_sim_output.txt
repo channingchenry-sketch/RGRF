@@ -1,0 +1,11 @@
+B=50 mT theta=0.0 deg: transitions 1.469, 4.271 GHz
+B=50 mT theta=54.7 deg: transitions 2.719, 4.289 GHz
+single NV, R=1e5 cps: eta ~ 2.17e+04 nT/sqrtHz
+ensemble 4.5 ppm, ~1e11 cps (1 mW-scale spot): eta ~ 21.7 nT/sqrtHz
+Halbach surface 0.96 T -> on-axis line 29.8 GHz; far beyond GSLAC (102 mT): near the surface use a Hall probe, NV for the far/stray field
+y=2 cm: B ~ 273 mT -> 2*gamma*B = 1.531e+04 MHz splitting; ensemble (~22 nT/sqrtHz) resolves dB/B ~ 8.1e-08 in 1 s
+y=5 cm: B ~ 41.5 mT -> 2*gamma*B = 2325 MHz splitting; ensemble (~22 nT/sqrtHz) resolves dB/B ~ 5.3e-07 in 1 s
+y=10 cm: B ~ 1.79 mT -> 2*gamma*B = 100.5 MHz splitting; ensemble (~22 nT/sqrtHz) resolves dB/B ~ 1.2e-05 in 1 s
+y=15 cm: B ~ 0.0775 mT -> 2*gamma*B = 4.342 MHz splitting; ensemble (~22 nT/sqrtHz) resolves dB/B ~ 2.8e-04 in 1 s
+y=20 cm: B ~ 0.00335 mT -> 2*gamma*B = 0.1876 MHz splitting; ensemble (~22 nT/sqrtHz) resolves dB/B ~ 6.6e-03 in 1 s
+Window where ODMR is clean (B < ~50-100 mT, below ESLAC 51 mT / GSLAC 102 mT, and aligned): y > ~3.6-4.7 cm for this array
