@@ -17,8 +17,8 @@
 
 | Claim | Label | Source |
 |---|---|---|
-| Electrons plus an even number of flux quanta form composite fermions (CFs); the FQH states ν = p/(2p±1) are integer QH states of CFs | **Grounded** | J. K. Jain, *Phys. Rev. Lett.* 63, 199 (1989) [page number from memory, to verify] |
-| At ν = 1/2 the attached flux cancels the external field on average, B_eff = B − 2φ0 n = 0, so CFs form a Fermi sea with k_F = √(4πn) (spin-polarized); Chern–Simons theory | **Grounded** | B. I. Halperin, P. A. Lee, N. Read, *Phys. Rev. B* 47, 7312 (1993) [volume/page from memory, to verify] |
+| Electrons plus an even number of flux quanta form composite fermions (CFs); the FQH states ν = p/(2p±1) are integer QH states of CFs | **Grounded** | J. K. Jain, *Phys. Rev. Lett.* 63, 199 (1989) |
+| At ν = 1/2 the attached flux cancels the external field on average, B_eff = B − 2φ0 n = 0, so CFs form a Fermi sea with k_F = √(4πn) (spin-polarized); Chern–Simons theory | **Grounded** | B. I. Halperin, P. A. Lee, N. Read, *Phys. Rev. B* 47, 7312 (1993) |
 | Surface acoustic waves showed a Fermi surface at ν = 1/2 | **Grounded** | R. L. Willett et al., "Experimental demonstration of a Fermi surface at one-half filling of the lowest Landau level", *PRL* 71, 3846 (1993) |
 | Antidot/commensurability experiments: CF cyclotron orbits match an imposed lattice | **Grounded** | W. Kang, H. L. Stormer et al., *PRL* 71, 3850 (1993) [to verify]; Smet et al. 1990s [to verify] |
 | Modern "geometric resonance" data (Princeton, Shayegan group) map the CF Fermi wave vector; minima are asymmetric about ν = 1/2, consistent with k_F set by the minority carriers | **Grounded** | D. Kamburov, Y. Liu, M. A. Mueed, M. Shayegan et al., "What Determines the Fermi Wave Vector of Composite Fermions?", *PRL* 113, 196801 (2014); hole-flux CF commensurability, *PRL* 109, 236401 (2012) |
@@ -67,8 +67,8 @@
 
 ## 6. Gaps
 
-- Exact Jain 1989 and HLR 1993 page numbers; Kang/Stormer 1993 and Smet references; trion-sensing author list; the Wang–Senthil and Metlitski–Vishwanath references [to verify].
+- Kang/Stormer 1993 and Smet references; trion-sensing author list; the Wang–Senthil and Metlitski–Vishwanath references [to verify].
 - The diagrams and "project memory" file from the 2026-10-17 thread [Channing to supply] (already H315).
-- Which meaning Channing intends for RGRF use: (a) CF Fermi sea or (c) Innsbruck FFS? [Channing to supply]
+- Meaning for RGRF use: Channing chose (a), the composite-fermion Fermi sea (2026-10-25). Deeper flux-attachment section: [flux_attachment_review.md](flux_attachment_review.md).
 
 *Credit: Jain; Halperin, Lee and Read; Willett; Stormer; Shayegan and the Princeton group; Son; Senthil, Sachdev and Vojta; the Xu, Mak/Shan, Ju/Fu, Vishwanath and Nägerl groups. Open and regenerative: everything here is CC0.*
