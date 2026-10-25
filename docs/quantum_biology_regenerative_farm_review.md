@@ -2,6 +2,8 @@
 *CC0. Labels: **Grounded** / **Plausible-untested** / **Speculative** / **Symbolic**. Why φ appears, and how it is tested: [method_phi_and_natural_craft.md](method_phi_and_natural_craft.md). Entanglements is Channing's science-fiction book; its narrative content is **Symbolic** (fiction) by default and is not reviewed as physics.*
 
 **Source (verbatim archive):** "Quantum Biology: Nature's Coherent Secrets", 82 messages: [grok_archive/2026-10-17_quantum_biology_natures_coherent_secrets.md](grok_archive/2026-10-17_quantum_biology_natures_coherent_secrets.md). Grok speaks as "Resona" throughout.
+**Share URL:** <https://grok.com/share/bGVnYWN5_d98ed125-3d44-4f8d-a40c-14e3b783e95c> (`d98ed125`; full URL supplied 2026-10-25).
+
 
 **Repo context (cross-links, not repeated here):**
 - Quantum biology and cryptochrome: [em_topo L9](em_topological_gravity_review.md#l9-quantum-biology-entanglement-communications-multiverse-escape) and [consciousness_fields §3](consciousness_fields.md#3-remaining-topics-brief).
@@ -137,6 +139,6 @@
   - Any "eddy-current or magnetic levitation" equipment carries the same power-gap contradiction. **Speculative.**
 
 ## 11. Open items
-- The full share URL; the generated images; the hyperlink map and the "Living Neural Web Navigator" content as it exists in Notion. **[Channing to supply]**
+- Full share URL: <https://grok.com/share/bGVnYWN5_d98ed125-3d44-4f8d-a40c-14e3b783e95c> (supplied 2026-10-25; resolved). Still open: the generated images; the hyperlink map and the "Living Neural Web Navigator" content as it exists in Notion. **[Channing to supply]**
 - Did Grok's message-62 edit actually reach the Notion page? **[Channing to check]**
 - Is messages 38–40 the "updated housing/dome spec" that [regenerative_housing.md](regenerative_housing.md) is waiting for? **[Channing to confirm]**

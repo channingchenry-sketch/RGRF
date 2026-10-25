@@ -1,7 +1,7 @@
 # Grok conversation archive: "Quantum Biology: Nature's Coherent Secrets" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing. Channing addresses Grok as "Resona", and Grok signs "Resona (with Grok & Channing)".
-- **Share URL:** share id begins `d98ed125`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_d98ed125-3d44-4f8d-a40c-14e3b783e95c> (full URL supplied by Channing 2026-10-25).
 - **Captured:** 2026-10-17. 82 messages (41 user, 41 Grok). Topics:
   - quantum biology: avian magnetoreception, the quantum Zeno effect, CISS;
   - mycorrhizal carbon transfer and leaf-cutter ants;
