@@ -61,3 +61,21 @@ Not discussed in the share. (The heliopause nose and flanks are studied for Rayl
 - The note Channing asked to "make" in msg 5 (park stellarator/argon) is this review.
 
 - **See also (share #97):** [sumerian_noether_arnold_ratchet_review.md](sumerian_noether_arnold_ratchet_review.md): Noether symmetry/conservation, friction-coupled counter-rotation (total L conserved), inner/outer sum vs difference circulation channels.
+
+## 7. Re-capture as share #143 (2026-10-25)
+
+Channing re-shared this conversation on 2026-10-25 (share #143, the same id `3fcd1ac6`, "Stellarators and Argon Review"). The new PDF capture has the same **3 Channing turns and 3 Grok replies** as the #94 archive, and the text matches it apart from page-break and UI artifacts ("Worked for …", "Continue conversation", the "Live preview unavailable" box). It adds **no new content**, so the verbatim archive above stays canonical and no duplicate transcript was added. As before, the '40 sources' list and the embedded web images (the W7-X vessel interior, a UMD modular-coil schematic, the Physics of Plasmas 24 GHz filament schematic, and the Wikipedia heliosphere diagram) are described, not committed.
+
+Channing's turns (verbatim, as in #94):
+1. "Can we look at stellarators again? Also, can we look at argon?"
+2. "Can we do steps 2 and 3 and look at an argon filament?"
+3. "Let’s make a note then, leave this for now. Can we scale out to our solar system and talk about our leaky boundary(heliosphere)? The leaky boundary that we have discussed I have been thinking about how it can create the vacuum of our solar system based on what we have already discussed. Just want to see if that thought makes sense."
+
+**Gap check.** The share has 0 hits for sodium, potassium, K-40, pump, hub, stator and electrolyte. It does **not** fill H285i (hub motors), H285j (stators) or the electrochemical sodium/potassium/K-40/pumping-to-pressure-pumps thread.
+
+**Newer cross-links:**
+- [leaky_bound_state_family.md](leaky_bound_state_family.md): heliosphere as row A, plasma residence ~2.5 yr (estimate).
+- [leaky_boundary_tunneling_review.md](leaky_boundary_tunneling_review.md): why heliopause leakage is classical, not tunneling; RT/KH at gradients.
+- [electrostatic_isotropic_stress_review.md](electrostatic_isotropic_stress_review.md) and `sims/heliopause_pressure_balance.py` (commit 44423b3): 267 ± 55 vs ~229 fPa.
+- [marklund_convection_review.md](marklund_convection_review.md): filamentary plasma separation, the counterpart of the argon filament's resonance surface.
+- [stator_review.md](stator_review.md): non-planar modular stellarator coils vs motor stators. Both shape a field with external coils; the stellarator's is static and the motor's rotates. **Symbolic** parallel.
