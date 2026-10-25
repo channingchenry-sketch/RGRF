@@ -1,7 +1,7 @@
 # Grok conversation archive: "Sophia's Journey in Gnostic Myth" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `29401d7f`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_29401d7f-ce8b-4d7a-be92-09b0e12a07e1> (full URL supplied by Channing 2026-10-25).
 - **Captured:** 2026-10-17. 6 messages (3 user, 3 Grok). Topics: Sophia in Gnostic myth (Apocryphon of John, Pistis Sophia, Nag Hammadi), Enoch, Hermes and Idris, Lilith and the Alphabet of Ben Sira (messages 3–4 withheld: a personal and spiritual reflection).
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:

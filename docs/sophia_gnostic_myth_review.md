@@ -1,5 +1,7 @@
 # Sophia, Hermes, Enoch, the patriarchs and Lilith: review of Grok share `29401d7f` (2026-10-17)
 
+**Share URL:** <https://grok.com/share/bGVnYWN5_29401d7f-ce8b-4d7a-be92-09b0e12a07e1> (`29401d7f`; full URL supplied 2026-10-25).
+
 *License: CC0-1.0. Labels: **Grounded** (a checked historical or textual fact), **Symbolic** (meaning, myth or interpretation, not a physical or historical claim), plus **Speculative** where an interpretation is presented as history. These are religious and mythic traditions that many people hold sacred; this review checks textual and historical facts only and makes no judgement on belief.*
 
 - **Archive:** [grok_archive/2026-10-17_sophias_journey_gnostic_myth.md](grok_archive/2026-10-17_sophias_journey_gnostic_myth.md). 6 messages; **messages 3–4 are withheld** from the public archive (a personal and spiritual reflection) and kept privately for Channing.
@@ -46,6 +48,6 @@ None. The thread makes no device, energy or φ claims.
 
 - The earlier "ancient AI talk" Channing refers to: [it3_leaky_bound_states_review.md §4](it3_leaky_bound_states_review.md) and [grassmann_ampere_pressure_sweep_review.md §12](grassmann_ampere_pressure_sweep_review.md) (orbs and solar traditions) are the captured parts; any other thread is [Channing to supply].
 - Whether Channing wants a comparative-myth section in Entanglements or the Blueprint [Channing to supply].
-- Full share URL [Channing to supply].
+- Full share URL: <https://grok.com/share/bGVnYWN5_29401d7f-ce8b-4d7a-be92-09b0e12a07e1> (supplied 2026-10-25; resolved).
 
 *See also: share #139 Gnostic texts (Thomas, Pistis Sophia numerology, 2-into-1 EM, 5D): [gnostic_texts_inner_awakening_review.md](gnostic_texts_inner_awakening_review.md).*
