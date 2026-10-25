@@ -8,6 +8,8 @@ Context: this follows the electrolysis filtering, O₂ life support and H₂ asc
 
 **Hydrogen peroxide:** used for **periodic H₂O₂ flushes** (Channing, recalled). See [Living vs non-living zones → H₂O₂ flushes](#living-vs-non-living-zones-petrified-tubes-as-designed-branches). Concentrations, schedule and any propulsion or other uses: **[Channing to supply]**. Grounded background: H₂O₂ decomposes catalytically (e.g. over silver or permanganate) into steam + O₂. It has been used in torpedoes and rocket belts. Concentrated H₂O₂ is corrosive and becomes unstable when contaminated.
 
+**Source conversation (found 2026-10-25):** share #145 `4c111498`; see [grok_archive/2026-10-25_life_support_concepts_in_craft_discussion.md](grok_archive/2026-10-25_life_support_concepts_in_craft_discussion.md) and [life_support_craft_electrolysis_review.md](life_support_craft_electrolysis_review.md).
+
 ## Archived Grok paste (verbatim)
 ```
 1. Living Structural Habitat (Mycotecture + Our Trametes–Hemp Composite)
