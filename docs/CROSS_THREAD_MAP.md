@@ -376,6 +376,7 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285j | — | [stator_review.md](stator_review.md) | Lost stator thread ("I thought I had a thread but couldn’t find it"): not found in docs, grok_archive, share txt/pdfs, capture_queue, private or Gmail. Likely together with the hub-motor thread (H285i). Also: target machine power/speed/size. | Track down chat |
 | H285k | — | [bcaa_electrolytes_review.md](bcaa_electrolytes_review.md) | BCAA + electrolytes: original turns withheld (private); which angle next (neuro, metabolic, exercise, electrochemical)? | Rebuild from memory |
 | H285l | — | [nv_center_spin_degrees_of_freedom_review.md](nv_center_spin_degrees_of_freedom_review.md) | NV centre / OIST spin-force diamond: which earlier thread it 'touches' (lab-grown crystals msg 13 diamond-core feedback; Earth-shuttle msg 61 spinning tetra at '532'; or green lensing)? NV bench mapping of the Halbach array (diamond + bias magnet) [Channing to supply]. |
+| H285m | — | [vanadium_revisit_review.md](vanadium_revisit_review.md) | Vanadium 'again': the original 2026-10-12 question (screenshots, wording not captured) [Channing to supply]. Which angle: VRFB dock buffer, VO₂ heat-gated skin, V alloys in motor/structure, biology, or R7 charge separation? |
 
 ### C6. Casimir / vacuum (11 items)
 

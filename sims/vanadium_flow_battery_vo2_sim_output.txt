@@ -1,0 +1,8 @@
+OCV at SOC 50% (simple) 1.260 V; with proton term 1.331 V; SOC 10->90%: 1.218 -> 1.444 V
+Usable energy density (1.6 M, 15-85 % SOC, both tanks): 20.3 Wh/L electrolyte = 15.0 Wh/kg (excl. stack, pumps, tanks)
+bench 520 W, 4 h: E_out 2.08 kWh -> electrolyte 103 L (139 kg); recharge input 2.60-2.77 kWh (eta 75-80 %); loss 520-693 Wh; tau = E/P = 240 min
+hover 10 kW, 15 min: E_out 2.50 kWh -> electrolyte 123 L (167 kg); recharge input 3.12-3.33 kWh (eta 75-80 %); loss 625-833 Wh; tau = E/P = 15 min
+hover 17 kW, 15 min: E_out 4.25 kWh -> electrolyte 210 L (283 kg); recharge input 5.31-5.67 kWh (eta 75-80 %); loss 1062-1417 Wh; tau = E/P = 15 min
+hover 17 kW, 1 h: E_out 17.00 kWh -> electrolyte 839 L (1133 kg); recharge input 21.25-22.67 kWh (eta 75-80 %); loss 4250-5667 Wh; tau = E/P = 60 min
+Compare Li-ion pack ~150-250 Wh/kg: VRFB is a ground/dock buffer, not a flight battery.
+VO2 (illustrative): heating Tc 68 C, cooling 62 C, IR 2.5 um transmittance 60% -> 5%, resistance ratio 1e4
