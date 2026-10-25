@@ -366,6 +366,7 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285b | — | [oloid_spine_lorentz_drive.md](oloid_spine_lorentz_drive.md) | Spine geometry, field source, and whether the current rides on the oloid or the spine. | Run a sim / rebuild code |
 | H285c | — | [oloid_magnetic_track_motor.md](oloid_magnetic_track_motor.md) | Track length/shape, coil count, drive frequency, oloid size and material for the track motor. | Run a sim / rebuild code |
 | H285d | — | [marklund_convection_review.md](marklund_convection_review.md) | Tesla-turbine thread ion-separation / air-funneling turns lost in a capture gap; loop speed, radius, He fraction; electrode geometry. | Track down chat |
+| H285e | — | [fractional_fermi_sea_review.md](fractional_fermi_sea_review.md) | Which "fractional Fermi sea" is meant for RGRF use: composite-fermion Fermi sea at ν=1/2 (geometric-resonance measurable) or the 2026 Innsbruck 1D cold-atom FFS? Plus the [to verify] citation page numbers. | Rebuild from memory |
 
 ### C6. Casimir / vacuum (11 items)
 
