@@ -1,6 +1,7 @@
 # Review: "Tesla Tower Waveguide Atmospheric Charge" (share #86, 2026-10-17)
 
 - **Archive:** [grok_archive/2026-10-17_tesla_tower_waveguide_atmospheric_charge.md](grok_archive/2026-10-17_tesla_tower_waveguide_atmospheric_charge.md) (28 messages: 14 user, 14 Grok; session dated 29 Aug 2026 by Grok's own recap). Personal material in messages 7, 9, 10 and 26 is withheld to Channing's private notes.
+- **Share URL:** <https://grok.com/share/bGVnYWN5_e3f85fa0-2f1a-4705-b1e6-32eadb61f23f> (share #86, `e3f85fa0`; full URL supplied 2026-10-25).
 - **Labels:** **Grounded** · **Plausible-untested** · **Speculative** · **Symbolic** (as in [REBUILD_INDEX.md](REBUILD_INDEX.md)). φ is Symbolic unless tested. Numbers Grok quoted are **Grok-reported** unless the row says they were recomputed.
 - **Sims:** no code was shown. The quoted numbers were recomputed in [`sims/grok_claim_checks_share_86.py`](../sims/grok_claim_checks_share_86.py) ([output](../sims/grok_claim_checks_share_86_output.txt)): fair-weather E(z) fit, ion-pair power floor, ELF skin depths, rod-electrode resistance, ideal Schumann modes, Schumann-band stored energy, aerosol steady state, the Saturn Gaussian-jet numbers and the hexagon drift.
 - **Channing's choice, kept:** in message 7 Channing paused the tower waveguide / aquifer thread and the earlier "steel two-way Schumann confinement" idea. This review does not rebuild either; it only checks the physics Grok stated.
@@ -137,6 +138,6 @@ Key equations, transcribed cleanly (the capture flattened them):
 
 ## 10. Open items
 
-- Full share URL: [Channing to supply].
+- Full share URL: <https://grok.com/share/bGVnYWN5_e3f85fa0-2f1a-4705-b1e6-32eadb61f23f> (supplied 2026-10-25; resolved).
 - The earlier "Tesla tower" conversation that message 2 refers to (three-tower triad, "stirring the pot", positive-ion attractors) is not in this repo: [Channing to supply] if it should be archived.
 - Sources marked [to verify] above: Volland fit; Mars image release details; Saturn Webb+Hubble release; LPSC 2026 Valle Grande abstracts; hexagon jet fit (U₀, FWHM, b); hexagon drift rate; Saturn polar wind depth and ohmic-floor depth.

@@ -137,7 +137,7 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H73 | — | [tesla_davinci_threads.md](tesla_davinci_threads.md#L530) (530) | The larger-scale analogy for sinusoidal torque (§3d.1a); Grok reconstruction pending. [Channing to supply] | Rebuild from memory |
 | H74 | #86 | [tesla_tower_atmosphere_rossby_review.md](tesla_tower_atmosphere_rossby_review.md#L134) (134) | Grok's recap cites its own workspace files ( continuity-keeper/memory.md , archive_maps/TIMELINE.md , DEAD_ENDS_AND_DEEP_DIVES.md ). They are not in this repo. [Channing to supply] if they should be archived. | Track down chat |
 | H75 | #86 | [tesla_tower_atmosphere_rossby_review.md](tesla_tower_atmosphere_rossby_review.md#L135) (135) | …91.8 % η, 0.102 m, +367 N, 108.8 % overshoot, still ringing at 4 s; BOM dated 23 Aug; Multi-Egg geometry): Grok-reported . No script or output for them is in this repo. [Channing to supply] | Run a sim / rebuild code |
-| H76 | #86 | [tesla_tower_atmosphere_rossby_review.md](tesla_tower_atmosphere_rossby_review.md#L140) (140) | Full share URL: [Channing to supply]. | Track down chat |
+| H76 | #86 | [tesla_tower_atmosphere_rossby_review.md](tesla_tower_atmosphere_rossby_review.md#L140) (140) | Full share URL: **Resolved 2026-10-25** (<https://grok.com/share/bGVnYWN5_e3f85fa0-2f1a-4705-b1e6-32eadb61f23f>). | Resolved |
 | H77 | #86 | [tesla_tower_atmosphere_rossby_review.md](tesla_tower_atmosphere_rossby_review.md#L141) (141) | The earlier "Tesla tower" conversation that message 2 refers to (three-tower triad, "stirring the pot", positive-ion attractors) is not in this repo: [Channing to supply] if it should be archived. | Track down chat |
 
 ### C3. Mycelium, hemp and living composites (46 items)

@@ -1,7 +1,7 @@
 # Grok conversation archive: "Tesla Tower Waveguide Atmospheric Charge" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing (share #86).
-- **Share URL:** share id begins `e3f85fa0`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_e3f85fa0-2f1a-4705-b1e6-32eadb61f23f> (full URL supplied by Channing 2026-10-25).
 - **Captured:** 2026-10-17 from the saved page PDF (38 pages). **28 messages (14 user, 14 Grok).** The page DOM showed only 4 exchanges / 8 messages (a truncated read); the count here was rebuilt from the PDF. Grok's own recap (message 26) dates the session to the evening of 29 Aug 2026. Topics: the fair-weather atmospheric electric field and conductivity with height; an ionization power budget, aquifer grounding and Schumann resonances for the Tesla-tower concept; aerosols and static electrode arrays; Channing pausing the tower/waveguide thread; harmonics; a consciousness side-thread (mostly withheld); new Mars (Curiosity, Perseverance) and Saturn (Webb + Hubble) images; Mars transfer geometry; Rossby-wave physics, Saturn's ribbon wave and north-polar hexagon; Saturn's interior differential rotation; and Grok's archive recap.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
