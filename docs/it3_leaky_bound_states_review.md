@@ -93,3 +93,5 @@ Channing (msg 17): "Let’s keep going Noah’s Ark would have been filled with 
 - Which IT³ claims, if any, Channing wants tested [Channing to supply].
 - The earlier "coming from Mars" thread Channing refers to [Channing to supply].
 - Full share URL [Channing to supply].
+
+- **See also (2026-10-25):** [leaky_bound_state_family.md](leaky_bound_state_family.md): the heliosphere "leaky bound state" and the cavity-as-bound-state in one framework with the craft boundary.

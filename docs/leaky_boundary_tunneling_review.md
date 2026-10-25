@@ -100,3 +100,5 @@ Plot: `/workspace/leaky_boundary_tunneling_plot.png` (box only).
 ## 8. Gaps
 - Which meaning, (A), (B) or (C), is intended, and whether tunneling is a mechanism or a parallel [Channing to supply].
 - [to verify]: Josephson 1962; Zhu et al. 1986 FTIR; Halperin 1982, Wen edge refs; Kane–Mele 2005, Hasan–Kane 2010; Hasegawa 2004; heliopause RT/KH papers.
+
+- **See also:** [leaky_bound_state_family.md](leaky_bound_state_family.md) for the linked family (heliosphere / craft boundary / cavity).

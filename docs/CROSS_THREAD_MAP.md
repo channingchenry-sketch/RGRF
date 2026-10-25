@@ -369,6 +369,8 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285e | — | [fractional_fermi_sea_review.md](fractional_fermi_sea_review.md) | Which "fractional Fermi sea" is meant for RGRF use: composite-fermion Fermi sea at ν=1/2 (geometric-resonance measurable) or the 2026 Innsbruck 1D cold-atom FFS? Plus the [to verify] citation page numbers. | Rebuild from memory |
 | H285e ✔ | — | [flux_attachment_review.md](flux_attachment_review.md) | **Resolved 2026-10-25:** Channing chose meaning (a), the composite-fermion Fermi sea ("Let’s look at the flux quanta binding"). Follow-up: flux-attachment review + Jain-sequence sim. Remaining: [to verify] refs listed in the doc. | Resolved |
 | H285f | — | [leaky_boundary_tunneling_review.md](leaky_boundary_tunneling_review.md) | "Our leaky boundary state": heliosphere leaky bound state (share 10bbfe00 msg 9), POL controlled leaky boundary, or cavity as bound state? Is tunneling a mechanism or a parallel? Plus pressure–density gradient scope. | Rebuild from memory |
+| H285f ✔ | — | [leaky_bound_state_family.md](leaky_bound_state_family.md) | **Resolved 2026-10-25:** Channing: "All of them, linked". (A) heliosphere, (B) craft controlled boundary, (C) cavity carried as one family. Craft/cavity numbers still [Channing to supply] (see H285g). | Resolved |
+| H285g | — | [leaky_bound_state_family.md](leaky_bound_state_family.md) | Craft boundary: what is trapped, target τ/Q, leak hardware, power budget; cavity C medium, frequency and measured Q. | Rebuild from memory |
 
 ### C6. Casimir / vacuum (11 items)
 
