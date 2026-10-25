@@ -365,6 +365,7 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285a | — | [plasma_shielding_patents_review.md](plasma_shielding_patents_review.md) | Switched Halbach zone moment, switching rate, plasma injection and mission profile for the shielding tie-in. | Run a sim / rebuild code |
 | H285b | — | [oloid_spine_lorentz_drive.md](oloid_spine_lorentz_drive.md) | Spine geometry, field source, and whether the current rides on the oloid or the spine. | Run a sim / rebuild code |
 | H285c | — | [oloid_magnetic_track_motor.md](oloid_magnetic_track_motor.md) | Track length/shape, coil count, drive frequency, oloid size and material for the track motor. | Run a sim / rebuild code |
+| H285d | — | [marklund_convection_review.md](marklund_convection_review.md) | Tesla-turbine thread ion-separation / air-funneling turns lost in a capture gap; loop speed, radius, He fraction; electrode geometry. | Track down chat |
 
 ### C6. Casimir / vacuum (11 items)
 

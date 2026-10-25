@@ -65,6 +65,7 @@ Channing's notes ask to explore plasma-filament shielding for the RGRF / POL cra
 - **Records (verified):** GB 300,311 "A method of and an apparatus or machine for producing force or motion", priority 1927-08-15, accepted/published 1928-11-15, https://patents.google.com/patent/GB300311A/en. US 1,974,483 "Electrostatic motor", priority 1930-02-07, granted 1934-09-25, https://patents.google.com/patent/US1974483A/en. Patent list: https://www.thomastownsendbrown.com/misc/patents.htm.
 - **Credit:** the Biefeld–Brown effect is named for T. T. Brown and his mentor Paul Alfred Biefeld.
 - **Labels:** the force on an asymmetric capacitor in air is **Grounded** (T. B. Bahder and C. Fazi, ARL, "Force on an Asymmetric Capacitor", arXiv:physics/0211001, verified). The ion-wind (EHD) explanation is mainstream. Vacuum tests show little or no thrust (M. Tajmar, ~2004 [to verify]). The gravitational interpretation is **Speculative**.
+- **See also:** [marklund_convection_review.md §2b](marklund_convection_review.md) (jagged-surface ion wind archive review).
 - **Relevance to RGRF:** atmosphere-side ion-wind / EHD flow control over the hull, not space shielding.
 
 ## 4. RGRF tie-in

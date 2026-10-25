@@ -1,0 +1,36 @@
+
+(a) coronal-loop-like: a = 1e+06 m, n_e = 1e+15 m^-3, T core 0.26 eV -> rim 8.62 eV, B0 = 0.01 T
+  Lundquist field: |B| from 0.01 T (axis) to 0.00519 T (rim), force-free J = alpha B with alpha = 2.4e-06 1/m
+  stopping radius (50 % ionised), outermost -> innermost:
+    He  r = 0.269 a  (2.69e+05 m)  T = 0.863 eV
+    N   r = 0.178 a  (1.78e+05 m)  T = 0.524 eV
+    O   r = 0.167 a  (1.67e+05 m)  T = 0.492 eV
+    H   r = 0.167 a  (1.67e+05 m)  T = 0.492 eV
+    C   r = 0.135 a  (1.35e+05 m)  T = 0.411 eV
+    Si  r = 0.073 a  (7.28e+04 m)  T = 0.303 eV
+    Fe  r = 0.065 a  (6.5e+04 m)  T = 0.294 eV
+    K   r = 0.000 a  (0 m)  T = 0.259 eV
+    Na  r = 0.000 a  (0 m)  T = 0.259 eV
+  timescales: drift a/(E/B) = 809 s; recombination = 7.1e+03 s; neutral diffusion a^2/D = 1.82e+03 s
+  neutral diffusion length during recombination sqrt(D t_rec) = 1.97e+06 m = 1.97 a; smallest layer gap (excl. H/O pair) = 0 a
+  -> layering WASHED OUT (neutrals diffuse farther than the layer spacing before/after recombining)
+
+(b) lab / RGRF bench (Tesla-coil plasma): a = 0.02 m, n_e = 1e+19 m^-3, T core 0.10 eV -> rim 5.00 eV, B0 = 0.05 T
+  Lundquist field: |B| from 0.05 T (axis) to 0.026 T (rim), force-free J = alpha B with alpha = 120 1/m
+  stopping radius (50 % ionised), outermost -> innermost:
+    He  r = 0.482 a  (0.00965 m)  T = 1.239 eV
+    N   r = 0.367 a  (0.00735 m)  T = 0.761 eV
+    O   r = 0.355 a  (0.0071 m)  T = 0.716 eV
+    H   r = 0.355 a  (0.00709 m)  T = 0.715 eV
+    C   r = 0.320 a  (0.0064 m)  T = 0.601 eV
+    Si  r = 0.266 a  (0.00531 m)  T = 0.445 eV
+    Fe  r = 0.261 a  (0.00522 m)  T = 0.433 eV
+    Na  r = 0.198 a  (0.00395 m)  T = 0.291 eV
+    K   r = 0.175 a  (0.00349 m)  T = 0.249 eV
+  timescales: drift a/(E/B) = 8.09e-06 s; recombination = 0.451 s; neutral diffusion a^2/D = 9.62e-06 s
+  neutral diffusion length during recombination sqrt(D t_rec) = 4.33 m = 216 a; smallest layer gap (excl. H/O pair) = 0.00475 a
+  -> layering WASHED OUT (neutrals diffuse farther than the layer spacing before/after recombining)
+
+Ion-wind rerun (Grok-reported example: I = 1 mA, V = 50 kV, claimed ~0.5 N):
+  F = I d / mu = 0.100 N at d = 2 cm (mu = 2e-4 m^2/Vs) -> 2.0 N/kW
+  F = I d / mu = 0.250 N at d = 5 cm (mu = 2e-4 m^2/Vs) -> 5.0 N/kW
