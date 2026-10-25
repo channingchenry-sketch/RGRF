@@ -1,0 +1,10 @@
+g=1.0: B=+1.0 (2nd order); heating loses order at 62.00 C, cooling regains at 61.99 C, hysteresis 0.01 K
+g=2.0: B=+0.0 (2nd order); heating loses order at 62.00 C, cooling regains at 61.99 C, hysteresis 0.01 K
+g=5.0: B=-3.0 (1st order); heating loses order at 63.51 C, cooling regains at 61.99 C, hysteresis 1.52 K; equilibrium Tc 63.12 C
+g=8.0: B=-6.0 (1st order); heating loses order at 68.01 C, cooling regains at 61.99 C, hysteresis 6.02 K; equilibrium Tc 66.50 C
+ledger g=8: heat in on heating leg 3678.59, heat out on cooling leg 3678.59; net -0.000 (= U_end - U_start = +0.000) -> first law closes, no work extracted
+entropy produced per cycle 0.1193 (>0, irreversible); hysteresis loss T*S_prod ~ 40.34 model units of heat moved, never created
+VO2 scale [to verify L ~ 51 J/g]: a 62/68 C loop is bounded by Carnot 1-(335.15/341.15) = 1.76 % -> < 0.90 J/g per cycle even as an ideal engine
+toy pump: electronic order halves at 9 fs, lattice dimerisation at 679 fs (ordering, not exact times, is the point)
+Fe3+ S=5/2: Msat 5 muB, mu_eff 5.92 muB; at 1 T/300 K M/Msat = 0.0052; at 2 K, 1 T: 0.626
+Verwey toy: rho jump across Tv: 201x (real Fe3O4 ~ 100x) [to verify]

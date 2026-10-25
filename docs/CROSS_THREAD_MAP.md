@@ -377,6 +377,8 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285k | — | [bcaa_electrolytes_review.md](bcaa_electrolytes_review.md) | BCAA + electrolytes: original turns withheld (private); which angle next (neuro, metabolic, exercise, electrochemical)? | Rebuild from memory |
 | H285l | — | [nv_center_spin_degrees_of_freedom_review.md](nv_center_spin_degrees_of_freedom_review.md) | NV centre / OIST spin-force diamond: which earlier thread it 'touches' (lab-grown crystals msg 13 diamond-core feedback; Earth-shuttle msg 61 spinning tetra at '532'; or green lensing)? NV bench mapping of the Halbach array (diamond + bias magnet) [Channing to supply]. |
 | H285m | — | [vanadium_revisit_review.md](vanadium_revisit_review.md) | Vanadium 'again': the original 2026-10-12 question (screenshots, wording not captured) [Channing to supply]. Which angle: VRFB dock buffer, VO₂ heat-gated skin, V alloys in motor/structure, biology, or R7 charge separation? |
+| H285m ✔ | — | [degrees_of_freedom_shifting_phases_review.md](degrees_of_freedom_shifting_phases_review.md) | **Answered 2026-10-25:** Channing chose 'degrees of freedom and shifting phases' (plus Fe3). |
+| H285n | — | [degrees_of_freedom_shifting_phases_review.md](degrees_of_freedom_shifting_phases_review.md) | 'Shifting phase order': (a) which degree of freedom leads in time (VO₂/magnetite/OIST) or (b) phase relation of coupled oscillators (Kuramoto/Floquet in Multi-Egg / magnetic sail)? Fe3 meant Fe³⁺ or Fe₃O₄ (both covered)? |
 
 ### C6. Casimir / vacuum (11 items)
 
