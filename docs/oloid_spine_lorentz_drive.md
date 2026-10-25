@@ -88,3 +88,5 @@ Reading: both align with the oloid's half-cycle inversion when phased correctly.
 - Field source (permanent-magnet Halbach arcs, coils, Tesla-coil drive) [Channing to supply].
 - Whether the current rides on the oloid (needs brushes or slip rings) or on the spine (moving-magnet oloid) [Channing to supply].
 - What the drive is for (demonstrator, mixer/pump like Schatz's, or craft attitude) [Channing to supply]. Any claim of propulsion or gravity effects is **Speculative**; the oloid's symbolism is **Symbolic**.
+
+- **See also (2026-10-25):** [stator_review.md](stator_review.md): stator topologies, windings, losses, cogging and the track as an unrolled stator.

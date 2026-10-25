@@ -75,3 +75,5 @@ Plot: `/workspace/oscillator_ratchet_array_plot.png` (box only).
 ## 6. Gaps
 - The hub-motor thread and Channing's words from it [Channing to supply].
 - [to verify]: fluxon/SQUID ratchet refs; Bennett 2002 Huygens; Kuramoto 1975, Strogatz 2000; Shamonina 2002; Williams & Yates 1996; motor-protein efficiency figures; Engel 2003 torque formula (carried over).
+
+- **See also (2026-10-25):** [stator_review.md](stator_review.md): stator topologies, windings, losses, cogging and the track as an unrolled stator.

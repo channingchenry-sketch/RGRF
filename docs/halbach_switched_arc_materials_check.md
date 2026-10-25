@@ -94,3 +94,5 @@ The worst segment's internal reverse field from the charge model, including self
 - No bench data exists.
 
 *See also: [halbach_litz_drag_reduction.md](halbach_litz_drag_reduction.md), [halbach_rotor_control_vs_perturbation_sections.md](halbach_rotor_control_vs_perturbation_sections.md), [lift_and_equilibrium_systems.md](lift_and_equilibrium_systems.md).*
+
+- **See also (2026-10-25):** [stator_review.md](stator_review.md): stator topologies, windings, losses, cogging and the track as an unrolled stator.

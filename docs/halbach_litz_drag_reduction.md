@@ -51,3 +51,5 @@
 *Control follow-up: [halbach_rotor_control_vs_perturbation_sections.md](halbach_rotor_control_vs_perturbation_sections.md) (four-rotor EDW hover: height/tilt/lateral/precession mapping, control sim).*
 
 *See also: [lift_and_equilibrium_systems.md §9](lift_and_equilibrium_systems.md), [DESIGN_FORCE_FLOW_MAP.md](DESIGN_FORCE_FLOW_MAP.md) §4 and open item 8.*
+
+- **See also (2026-10-25):** [stator_review.md](stator_review.md): stator topologies, windings, losses, cogging and the track as an unrolled stator.
