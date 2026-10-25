@@ -167,3 +167,5 @@ Plot: `/workspace/dof_phases_plot.png` (6 panels), kept on the box and not commi
   - Lee–Hu–Ribbe 2010; Hruska–Savinell 1981; Kimura 2003; Pecharsky–Gschneidner 1997; Dornes 2019; Bean–Rodbell 1962
 - **Numbers:** VO₂ latent heat (~51 J/g); the Verwey resistivity ratio; NdFeB grade-dependent Curie points.
 - **Open question for Channing:** when "shifting phase order" pops into your head, is it closer to (a) **which degree of freedom leads in time** (electrons before lattice, spin before motion, as in VO₂, magnetite and OIST), or (b) **the phase relationship between coupled oscillators** (Kuramoto/Floquet locking in the Multi-Egg or magnetic-sail drives)? Or is it something else?
+
+- **See also: shifting phase order = the phase relationship between coupled oscillators** (Channing's definition, 2026-10-25): [shifting_phase_order_coupled_oscillators.md](shifting_phase_order_coupled_oscillators.md).

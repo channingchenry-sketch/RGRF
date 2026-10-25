@@ -77,3 +77,5 @@ Plot: `/workspace/oscillator_ratchet_array_plot.png` (box only).
 - [to verify]: fluxon/SQUID ratchet refs; Bennett 2002 Huygens; Kuramoto 1975, Strogatz 2000; Shamonina 2002; Williams & Yates 1996; motor-protein efficiency figures; Engel 2003 torque formula (carried over).
 
 - **See also (2026-10-25):** [stator_review.md](stator_review.md): stator topologies, windings, losses, cogging and the track as an unrolled stator.
+
+- **See also: shifting phase order = the phase relationship between coupled oscillators** (Channing's definition, 2026-10-25): [shifting_phase_order_coupled_oscillators.md](shifting_phase_order_coupled_oscillators.md).

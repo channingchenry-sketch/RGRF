@@ -379,6 +379,8 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H285m | — | [vanadium_revisit_review.md](vanadium_revisit_review.md) | Vanadium 'again': the original 2026-10-12 question (screenshots, wording not captured) [Channing to supply]. Which angle: VRFB dock buffer, VO₂ heat-gated skin, V alloys in motor/structure, biology, or R7 charge separation? |
 | H285m ✔ | — | [degrees_of_freedom_shifting_phases_review.md](degrees_of_freedom_shifting_phases_review.md) | **Answered 2026-10-25:** Channing chose 'degrees of freedom and shifting phases' (plus Fe3). |
 | H285n | — | [degrees_of_freedom_shifting_phases_review.md](degrees_of_freedom_shifting_phases_review.md) | 'Shifting phase order': (a) which degree of freedom leads in time (VO₂/magnetite/OIST) or (b) phase relation of coupled oscillators (Kuramoto/Floquet in Multi-Egg / magnetic sail)? Fe3 meant Fe³⁺ or Fe₃O₄ (both covered)? |
+| H285n ✔ | — | [shifting_phase_order_coupled_oscillators.md](shifting_phase_order_coupled_oscillators.md) | **Answered 2026-10-25:** Channing: "The phase relationship between coupled oscillators". |
+| H285o | — | [shifting_phase_order_coupled_oscillators.md](shifting_phase_order_coupled_oscillators.md) | Which system to model first as coupled oscillators: hub-motor/stator, Multi-Egg gyros, magnetic sail, or oloid track? |
 
 ### C6. Casimir / vacuum (11 items)
 

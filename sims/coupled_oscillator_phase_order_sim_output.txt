@@ -1,0 +1,18 @@
+Adler K=1: dw=0.5: phi* = 30.0 deg
+Adler K=1: dw=0.866: phi* = 60.0 deg
+Adler K=1: dw=0.99: phi* = 81.9 deg
+dw=1.2 (outside lock): 4.19 slips in 40 s, theory period 9.47 s -> 4.22 slips
+circle map at K=1 (critical): fraction of Omega on locked plateaus ~ 0.51 (devil's staircase; theory -> 1, measure-zero gaps)
+width of 1:2 tongue at K=1: 0.073 in Omega; 0:1/1:1 tongues width 0.160
+Kuramoto K=0.5: r_sim=0.11, r_theory=0.00
+Kuramoto K=1.0: r_sim=0.19, r_theory=0.00
+Kuramoto K=1.5: r_sim=0.57, r_theory=0.58
+Kuramoto K=2.0: r_sim=0.75, r_theory=0.71
+Kuramoto K=3.0: r_sim=0.83, r_theory=0.82
+3-phase ABC: |B| = 1.50 (const 1.5), rotation CCW
+3-phase ACB: |B| = 1.50 (const 1.5), rotation CW
+ledger: drive in 19.3174, dissipated 18.2527, stored change 1.0652, residual -4.19e-04 (0.002 % of input, integrator error) -> no over-unity
+normal modes: in-phase 1.000, anti-phase 1.095 rad/s; beat (energy swap) period 65.8 s
+phased array N=1: coherent peak intensity ~N^2 = 1, incoherent ~N = 1 (total power still N; coherence redistributes it in angle)
+phased array N=10: coherent peak intensity ~N^2 = 100, incoherent ~N = 10 (total power still N; coherence redistributes it in angle)
+phased array N=100: coherent peak intensity ~N^2 = 10000, incoherent ~N = 100 (total power still N; coherence redistributes it in angle)

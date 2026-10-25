@@ -584,3 +584,5 @@ Source: [grok_archive/2026-10-15_exploring_miller_setterfield.md](grok_archive/2
 
 
 *See also: robotics in the POL → RGRF plan, [robotics_integration_review.md](robotics_integration_review.md) (share #132).*
+
+- **See also: shifting phase order = the phase relationship between coupled oscillators** (Channing's definition, 2026-10-25): [shifting_phase_order_coupled_oscillators.md](shifting_phase_order_coupled_oscillators.md).
