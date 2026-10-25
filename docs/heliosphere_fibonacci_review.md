@@ -1,6 +1,7 @@
 # Review: "Heliosphere Fibonacci Spirals in RGRF" (share #59, 2026-10-17)
 
 - **Archive:** [grok_archive/2026-10-17_heliosphere_fibonacci_spirals.md](grok_archive/2026-10-17_heliosphere_fibonacci_spirals.md) (36 messages). Message 16 is withheld and one phrase in message 15 is omitted, under the repo content rules. In later messages, the repeated name of a proposed Tesla device that is outside the repo's scope is replaced with `[omitted]`. Historical Tesla material is in [tesla_davinci_threads.md §1a](tesla_davinci_threads.md#1a-mechanical-oscillator-earthquake-machine).
+- **Share URL:** <https://grok.com/share/bGVnYWN5_3a9a2e48-8271-4bb1-88c5-32033ecd38ac> (share #59, `3a9a2e48`; full URL supplied 2026-10-25).
 - **Labels:** **Grounded** · **Plausible-untested** · **Speculative** · **Symbolic**. φ is Symbolic unless tested.
 - **Sims:** Grok reports runs in messages 6, 10, 18, 20, 24, 26, 28, 32 and 34, saved to `/home/workdir/artifacts/…`. That is Grok's own sandbox, so the files are not in the capture. **No code was shown**, so all results are **Grok-reported**. The BOM spreadsheet `Plasma_Light_Shuttle_BOM_v0.1.xlsx` (message 36) is [Channing to supply].
 - **Lock pins:** no lock-pin wording appears in this share.
@@ -91,5 +92,5 @@
 
 - Grok sandbox artifacts (`oscillator_frc_sim/`, `frc_oscillator_sim_20260610/`, the BOM `.xlsx`): [Channing to supply].
 - Mycelium aerogel conductivity: [to verify].
-- Full share URL: [Channing to supply].
+- Full share URL: <https://grok.com/share/bGVnYWN5_3a9a2e48-8271-4bb1-88c5-32033ecd38ac> (supplied 2026-10-25; resolved).
 - Channing: is the "light shuttle" meant as a photon-propulsion craft (light sail or laser), or as a plasma craft using Helion-style fuel? The share uses both meanings.

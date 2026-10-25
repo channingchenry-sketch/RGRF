@@ -1,7 +1,7 @@
 # Grok conversation archive: "Heliosphere Fibonacci Spirals in RGRF" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `3a9a2e48`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_3a9a2e48-8271-4bb1-88c5-32033ecd38ac> (full URL supplied by Channing 2026-10-25).
 - **Captured:** 2026-10-17. 36 messages (18 user, 18 Grok). Topics: heliosphere shape (the "shrimp"/croissant model) and Fibonacci spirals, Parker spiral, the VLISM (helium, fields), "localized gravity", a plasma Z-pinch shuttle and a "light shuttle" with Helion-style direct conversion, iron in a plasma stream, magneto-inertial fusion, FRC stability and a 3D force map, helium-water, superfluid helium nanodroplets, quantized vortices, helium in a piezo tube, BOM tuning and condensation, regolith seeding, steel / Mg-Si / Al hazards.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
