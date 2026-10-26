@@ -877,6 +877,9 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H722 | #149 | [pais_gem_fractal_follicle_silk_review.md](pais_gem_fractal_follicle_silk_review.md) §4 | The "pong" conversation (magnetic confinement + static electric-field dynamics), referenced in msg 23 [Channing to supply] | Track down chat |
 | H723 | #149 | [pais_gem_fractal_follicle_silk_review.md](pais_gem_fractal_follicle_silk_review.md) §2 | Verify Chen et al. 2025 *Cell* (KCNJ2 dermal fibroblasts), the silk piezo figures and the 2024 Schouten–Codazzi gravity proposal [to verify] | Verify citation |
 | H724 | #149 | [pais_gem_fractal_follicle_silk_review.md](pais_gem_fractal_follicle_silk_review.md) §0 | Grok images (silk cuboctahedron, eye-node rendering) not captured [Channing to supply] | Track down chat |
+| H725 | #150 | [aharonov_bohm_gravity_waveguide_review.md](aharonov_bohm_gravity_waveguide_review.md) §4 | Toy spiral-vs-bar galactic quadrupole strain estimate (Grok's resume point) | Build / measure |
+| H726 | #150 | [aharonov_bohm_gravity_waveguide_review.md](aharonov_bohm_gravity_waveguide_review.md) §4 | Axion scalar field theory, deferred by Channing (msg 13) | Track down chat |
+| H727 | #150 | [aharonov_bohm_gravity_waveguide_review.md](aharonov_bohm_gravity_waveguide_review.md) §2 | Verify Overstreet et al. 2022 *Science*, Fein et al. 2019 *Nat. Phys.*, Matteucci & Pozzi 1985 [to verify] | Verify citation |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
