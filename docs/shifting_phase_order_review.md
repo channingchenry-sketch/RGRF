@@ -471,6 +471,7 @@ The original thread is **[Channing to supply]**; there is a gap in his notes. Ca
 - RGRF use (**Plausible-untested**): CL as a cheap diagnostic of crystal quality and defects for any mineral or crystal element (quartz Q in L5b, ulexite in [tesla_davinci_threads.md §3d.1](tesla_davinci_threads.md#3d1-ulexite-and-the-faraday-effect-2026-10-15)).
 
 ### H6. Imprinting techniques
+> **Source found (2026-10-25):** share #148 ([cathodoluminescence_imprinting_ve_review.md](cathodoluminescence_imprinting_ve_review.md)) is a "Cathodoluminescence and Imprinting Techniques" chat. In it, imprinting means CL-guided e-beam lithography, molecularly imprinted polymers with luminescent readout, and luminescent patterned imprinting. The other stops in this chain are still missing.
 Which imprinting was meant: **[Channing to clarify]**. Candidates:
 - **Nanoimprint lithography.** S. Y. Chou, P. R. Krauss & P. J. Renstrom, "Imprint lithography with 25-nanometer resolution," *Science* 272, 85–87 (1996), doi:10.1126/science.272.5258.85. A mold presses a pattern into resist; this is now a manufacturing method.
 - **Molecular imprinting.** A polymer is cast around a template molecule, leaving shape-selective cavities. This is a classic Wulff-era technique from the 1970s (originating citation **[source to verify]**).
