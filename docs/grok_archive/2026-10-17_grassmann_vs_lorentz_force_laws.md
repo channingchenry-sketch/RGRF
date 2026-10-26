@@ -1,8 +1,9 @@
 # Grok conversation archive: "Grassmann vs Lorentz Force Laws" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `ace6ad75`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_ace6ad75-69be-4856-9e1e-9bbdf548452d> (`ace6ad75`).
 - **Captured:** 2026-10-17. 42 messages (21 user, 21 Grok) (the page header said 38; short unlabelled turns were missed). Topics: Ampère's and Grassmann's current-element force laws vs the Lorentz force, longitudinal forces, Grassmann's original papers, compression, a pressure/height sweep run by Grok on the POL hover model, work integrals, a Multi-Egg modulation factor, Tesla's Egg of Columbus, a classroom fiction draft, desk-toy kits, induction cooktops, magnetic sails, piezo rain-drop harvesting, a manta-style dive-burst cycle, and solar traditions (messages 37–40 withheld: a personal memory and reflection side-thread).
+- **Re-share check (2026-10-25):** the same share id `ace6ad75` was captured again (40-page PDF, ends "We can pause here, thank you!"). A word-level diff found the same 21 Channing and 21 Grok turns and no new content (similarity 0.90; the differences are the existing [omitted] scope/personal passages plus table and layout). Logged as a duplicate re-share with no new number. The full URL is now recorded.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
   1. **Turn boundaries checked.** Speaker boundaries were spot-checked against the full printed PDF (right-aligned user bubbles vs left-aligned Grok replies). No Grok sign-off was glued onto a user turn.
