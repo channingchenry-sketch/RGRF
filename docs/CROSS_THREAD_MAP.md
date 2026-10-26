@@ -893,6 +893,9 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H738 | #154 | [entanglements_continuity_dougherty_vlasov_review.md](entanglements_continuity_dougherty_vlasov_review.md) §5 | 1-D Vlasov–Poisson beam-vs-plug simulation (well depth, bounce spectrum, rim loss) | Build / run |
 | H739 | #154 | [entanglements_continuity_dougherty_vlasov_review.md](entanglements_continuity_dougherty_vlasov_review.md) §5 | Source of the "Dougherty set" fractal plasma model [Channing to supply] | Verify |
 | H740 | #154 | [entanglements_continuity_dougherty_vlasov_review.md](entanglements_continuity_dougherty_vlasov_review.md) §5 | Raychaudhuri on a charged congruence in a Wald / split-monopole magnetosphere | Calculate |
+| H741 | #155 | [magnet_electricity_vortex_reef_sahel_review.md](magnet_electricity_vortex_reef_sahel_review.md) §4 | Rotor–coil / contra-rotating disk generators: reference for the stator thread (not the original) | Cross-ref stator |
+| H742 | #155 | [magnet_electricity_vortex_reef_sahel_review.md](magnet_electricity_vortex_reef_sahel_review.md) §6 | Coined word "reefence": define for the Blueprint glossary [Channing to supply] | Define |
+| H743 | #155 | [magnet_electricity_vortex_reef_sahel_review.md](magnet_electricity_vortex_reef_sahel_review.md) §6 | Shoreline mosaic note: tetrapod retrofit + hybrid reef | Draft |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
