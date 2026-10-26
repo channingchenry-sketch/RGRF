@@ -1,8 +1,9 @@
 # Grok conversation archive: "Hemp Seed Oil Electrical Properties" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `b895db3a`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_b895db3a-a28f-4fa1-8411-d2a52e1ac111> (`b895db3a`, link #61).
 - **Captured:** 2026-10-17 from the saved page PDF. 16 messages (8 user, 8 Grok). Topics: dielectric properties of hemp seed oil, its chlorophyll and photo-oxidation, carbon-black electrochemical H₂O₂ for life support, the history of US hemp prohibition, Canadian hemp, hemp in crop rotation, and hemp + mycelium economics.
+- **Re-share check (2026-10-25):** the same share id `b895db3a` was captured again (16-page PDF, 35 sources, ends "…regenerative infrastructure elements we are developing?"). A word-level diff found the same 8 Channing and 8 Grok turns and no new content (similarity 0.968; header and layout only). Logged as a duplicate re-share of link #61 with no new number. The full URL is now recorded.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
   1. **Turn boundaries rebuilt from the PDF.** The pre-built text file assigned speakers by indentation and mislabelled indented Grok tables and equations as user turns (its message count was wrong). Each user turn was re-identified as the short, right-indented prompt bubble immediately before a Grok "Worked for …" timer, checked against `pdftotext` output with and without `-layout`. The timer lines were dropped. The message count (16: 8 user, 8 Grok) was derived from the PDF.
