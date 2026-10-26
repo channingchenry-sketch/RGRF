@@ -907,6 +907,9 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H752 | #158 | [leds_hydroxyapatite_dmt_glycoproteins_review.md](leds_hydroxyapatite_dmt_glycoproteins_review.md) §5 | Unify the #157 / #158 colour codes (Symbolic scaffold) [Channing to decide] | Decide |
 | H753 | #158 | [leds_hydroxyapatite_dmt_glycoproteins_review.md](leds_hydroxyapatite_dmt_glycoproteins_review.md) §2 | Verify PBM / HAp / endogenous-DMT / polariton citations (Dean 2019, Dietrich 2016, Coles 2014, Karst 2023) [to verify] | Verify citations |
 | H754 | #158 | [leds_hydroxyapatite_dmt_glycoproteins_review.md](leds_hydroxyapatite_dmt_glycoproteins_review.md) §5 | "Vortex rendering mirror casting entanglement matrix": choose physics, novel or material [Channing to choose] | Decide |
+| H755 | #159 | [regenerative_materials_fusion_nylon_mycelium_review.md](regenerative_materials_fusion_nylon_mycelium_review.md) §6 | Mycelium-mineral node panel v0.1: density/strength targets vs POL 2.1–2.8 MPa; coupon test | Build / measure |
+| H756 | #159 | [regenerative_materials_fusion_nylon_mycelium_review.md](regenerative_materials_fusion_nylon_mycelium_review.md) §2 | Verify the 2025 electrochemical D–D loading paper and Grok-reported 10⁻⁹ W / 15 W figures [to verify] | Verify citation |
+| H757 | #159 | [regenerative_materials_fusion_nylon_mycelium_review.md](regenerative_materials_fusion_nylon_mycelium_review.md) §6 | Cottonwood vs hemp substrate; fungal vs bacterial self-healing comparison | Explore |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
