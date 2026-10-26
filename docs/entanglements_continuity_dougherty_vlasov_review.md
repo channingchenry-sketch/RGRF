@@ -4,7 +4,7 @@
 - **Share URL:** <https://grok.com/share/bGVnYWN5_49e8d161-c7d1-43c7-a444-8002e319e370> (`49e8d161`). All 24 footers match; no be448400 page.
 - **Labels:** **Grounded** · **Plausible-untested** · **Speculative** · **Symbolic**. Citations are [to verify] unless marked. All numbers are Grok-reported.
 - **Duplicate check:** the id and "Dougherty set" were both new to the repo. This is a new conversation, not a re-share.
-- **Personal content:** one personal scheduling line was moved to private as [omitted: personal]. There was no health, ECAC or military content.
+- **Personal content:** one personal scheduling line was moved to private as [omitted: personal]. No other personal material.
 
 ## 0. What it recaps (continuity diff)
 
