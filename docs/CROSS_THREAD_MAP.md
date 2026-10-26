@@ -896,6 +896,10 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H741 | #155 | [magnet_electricity_vortex_reef_sahel_review.md](magnet_electricity_vortex_reef_sahel_review.md) §4 | Rotor–coil / contra-rotating disk generators: reference for the stator thread (not the original) | Cross-ref stator |
 | H742 | #155 | [magnet_electricity_vortex_reef_sahel_review.md](magnet_electricity_vortex_reef_sahel_review.md) §6 | Coined word "reefence": define for the Blueprint glossary [Channing to supply] | Define |
 | H743 | #155 | [magnet_electricity_vortex_reef_sahel_review.md](magnet_electricity_vortex_reef_sahel_review.md) §6 | Shoreline mosaic note: tetrapod retrofit + hybrid reef | Draft |
+| H744 | #156 | [russell_octave_periodic_chemistry_path_review.md](russell_octave_periodic_chemistry_path_review.md) §3 | Chemistry exploratory path (Grok-proposed): confirm or amend [Channing to confirm] | Decide |
+| H745 | #156 | [russell_octave_periodic_chemistry_path_review.md](russell_octave_periodic_chemistry_path_review.md) §6 | Polyborate rings vs vanadate / hydrogen phosphate; BiPO₄ vs H₂PO₄⁻/HPO₄²⁻ | Explore |
+| H746 | #156 | [russell_octave_periodic_chemistry_path_review.md](russell_octave_periodic_chemistry_path_review.md) §6 | Spin states (quadrupole / non-quadrupole ions), deferred | Explore |
+| H747 | #156 | [russell_octave_periodic_chemistry_path_review.md](russell_octave_periodic_chemistry_path_review.md) §1 | Cross-link: helium-seed octave table (Oct 12) ↔ #156; vanadium (⁵¹V 7/2, vanadate-phosphate mimic) | Cross-ref |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
