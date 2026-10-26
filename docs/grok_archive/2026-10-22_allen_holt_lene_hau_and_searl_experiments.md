@@ -3,6 +3,7 @@
 - **Source:** Grok-generated conversation, shared by Channing (share #96).
 - **Share URL:** https://grok.com/share/bGVnYWN5_7cf75c45-01f7-4a32-abfe-fec972bed321 (share id `7cf75c45`).
 - **Captured:** 2026-10-22. 6 messages (3 user, 3 Grok); conversation complete in the capture (ends on Grok's closing line). Topics: Alan C. Holt's NASA field-resonance memo, Lene Hau's slow/stopped light, John R. R. Searl's SEG, Fermi–Pasta–Ulam–Tsingou recurrence, Fuller's vector equilibrium, and the jitterbug transformation.
+- **Re-share check (2026-10-25):** the same share id `7cf75c45` was captured again (9-page PDF, last line "The squares fold. The triangles remember. That is the whole transformation."). A word-level diff against this archive found the same 3 Channing turns and 3 Grok replies and no new content (similarity 0.94; the only difference is a table header repeated at a page break, plus the archive's own header and reconstruction notes). Logged as a duplicate re-share with no new number.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.**
   1. Rebuilt from the 9-page PDF (`pdftotext -layout`); right-indented user turns re-joined onto one line each. Channing wrote "Allen Holt"; Grok and the NASA record use **Alan C. Holt**.
