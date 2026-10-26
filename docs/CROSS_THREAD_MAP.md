@@ -886,6 +886,9 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H731 | #152 | [biefeld_brown_hub_motor_dbd_review.md](biefeld_brown_hub_motor_dbd_review.md) §5 | Grok's "August BSI Mark 2 notes" not in the repo [Channing to supply] | Track down chat |
 | H732 | #152 | [biefeld_brown_hub_motor_dbd_review.md](biefeld_brown_hub_motor_dbd_review.md) §5 | Single-stage screened ion-wind duct with inlet/outlet Tesla valves (HV safety per §3) | Build / measure |
 | H733 | #152 | [biefeld_brown_hub_motor_dbd_review.md](biefeld_brown_hub_motor_dbd_review.md) §0 | DBD lattice voltage/frequency/geometry pattern selection as a lab analogue for H285p plasma tuning | Build / measure |
+| H734 | #153 | [godel_counter_rotation_dusty_plasma_review.md](godel_counter_rotation_dusty_plasma_review.md) §4 | "Recent experiment with metal gates" (Grok suggests Choi et al. 2025 anode-spot double layer) [Channing to confirm] | Track down chat |
+| H735 | #153 | [godel_counter_rotation_dusty_plasma_review.md](godel_counter_rotation_dusty_plasma_review.md) §4 | Tabletop crystal/bubble/gate cell: spinner dimensions and Γ–κ–α map | Build / measure |
+| H736 | #153 | [godel_counter_rotation_dusty_plasma_review.md](godel_counter_rotation_dusty_plasma_review.md) §2 | Verify the 2025–26 Gödel-type Pantheon+ cosmography paper [to verify] | Verify citation |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
