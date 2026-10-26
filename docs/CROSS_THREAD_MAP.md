@@ -868,6 +868,9 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H713 | #146 | [light_bioelectricity_retina_pituitary_mitochondria_review.md](light_bioelectricity_retina_pituitary_mitochondria_review.md) §5 | Grok's saved Blueprint section on crystalline order / biogenic silica / phase order (msg 14), in Grok's sandbox only [Channing to supply] | Track down chat |
 | H714 | #146 | [light_bioelectricity_retina_pituitary_mitochondria_review.md](light_bioelectricity_retina_pituitary_mitochondria_review.md) §2 | Verify Hollwich 1979, Ott 1973, Lundholm 2015, Nardecchia 2018, Kotlobay 2018, Cope 1973 [to verify] | Verify citation |
 | H715 | #146 | [light_bioelectricity_retina_pituitary_mitochondria_review.md](light_bioelectricity_retina_pituitary_mitochondria_review.md) §0 | Green lensing revisited (msg 5–6) but the blue/red-control thread and the glasses are still lost (fragment F19; §4a stays open) | Track down chat |
+| H716 | #147 | [micro_modular_reactors_memristors_review.md](micro_modular_reactors_memristors_review.md) §2 | Verify the Grok-reported 2026 microreactor criticality milestones and memristor RF figures (6.8×/6.2×, >840 GHz) [to verify] | Verify citation |
+| H717 | #147 | [micro_modular_reactors_memristors_review.md](micro_modular_reactors_memristors_review.md) §2 | Memristor-adaptive chirp-packet node (UV + acoustic dual-mode): define the bench test | Build / measure |
+| H718 | #147 | [micro_modular_reactors_memristors_review.md](micro_modular_reactors_memristors_review.md) §4 | "The conscious shifts that happen" (msg 19), to resume [Channing to supply] | Track down chat |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
