@@ -880,6 +880,9 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H725 | #150 | [aharonov_bohm_gravity_waveguide_review.md](aharonov_bohm_gravity_waveguide_review.md) §4 | Toy spiral-vs-bar galactic quadrupole strain estimate (Grok's resume point) | Build / measure |
 | H726 | #150 | [aharonov_bohm_gravity_waveguide_review.md](aharonov_bohm_gravity_waveguide_review.md) §4 | Axion scalar field theory, deferred by Channing (msg 13) | Track down chat |
 | H727 | #150 | [aharonov_bohm_gravity_waveguide_review.md](aharonov_bohm_gravity_waveguide_review.md) §2 | Verify Overstreet et al. 2022 *Science*, Fein et al. 2019 *Nat. Phys.*, Matteucci & Pozzi 1985 [to verify] | Verify citation |
+| H728 | #151 | [multiferroics_skyrmions_heat_reuse_review.md](multiferroics_skyrmions_heat_reuse_review.md) §4 | 1 MW data-hall → greenhouse heat-reuse budget sim (Odense / Northern Sweden inputs) | Build / measure |
+| H729 | #151 | [multiferroics_skyrmions_heat_reuse_review.md](multiferroics_skyrmions_heat_reuse_review.md) §4 | VCMA coupon on a mycelium frame: does it change coil Q / egg tilt stiffness measurably? | Build / measure |
+| H730 | #151 | [multiferroics_skyrmions_heat_reuse_review.md](multiferroics_skyrmions_heat_reuse_review.md) §2 | Verify the 2025–26 vdW multiferroic results, the underwater-DC deployments, seawater-distillation yields and the Whiteshell 1976 study [to verify] | Verify citation |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
