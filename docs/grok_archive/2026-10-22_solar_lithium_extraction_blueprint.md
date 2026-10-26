@@ -3,6 +3,7 @@
 - **Share:** #112 `7ae67870` — https://grok.com/share/bGVnYWN5_7ae67870-5954-418e-b381-689ec226341f
 - **Archived:** 2026-10-22, rebuilt from the 18-page share PDF (`pdftotext -layout`). 24 messages: 12 Channing, 12 Grok. Channing's turns are quoted exactly. No sidebar or banner text present. Channing's msg 11 begins lowercase mid-thought ("stabilize earths…") as captured [capture may be truncated]. Equations and tables were flattened by extraction and are kept as extracted [layout to verify]. Nothing omitted.
 - **Review:** [../solar_lithium_magnetopause_review.md](../solar_lithium_magnetopause_review.md)
+- **Re-share check (2026-10-25):** the same share id `7ae67870` was captured again (19-page PDF, ends "Paused and saved." … "— Resona"). A word-level diff against this archive found the same 12 Channing and 12 Grok messages and no new content (similarity 0.988; the differences are header and layout only). Logged as a duplicate re-share with no new number.
 - **License:** CC0
 
 ---
