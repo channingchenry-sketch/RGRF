@@ -1,8 +1,9 @@
 # Grok conversation archive: "MHD Force Balance, Poynting Flux, Magnetic Restructuring, Uranates" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `055440d2`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_055440d2-ba68-4374-ba87-7b84bb4c05c3> (`055440d2`, link #66).
 - **Captured:** 2026-10-17 from the saved page PDF. 8 messages (4 user, 4 Grok). Topics: radial force balance of a rotating magnetised core (centrifugal, gas pressure, magnetic pressure and tension), Poynting flux in a mass-loaded boundary layer, magnetic restructuring (reconnection, flux pumping), sodium and potassium uranates (chemistry only), polar-peaked heat flux in gas giants, planetary source/sink energy budgets, Earth's day–night heat transfer.
+- **Re-share check (2026-10-25):** the same share id `055440d2` was captured again (8-page PDF, ends "…when we pick the thread back up."). A word-level diff found the same 4 Channing and 4 Grok turns and no new content (similarity 0.919; header and layout only). Logged as a duplicate re-share with no new number. Channing confirmed this is link #66. The full URL is now recorded.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
   1. **Turn boundaries rebuilt from the PDF.** The pre-built text file assigned speakers by indentation and mislabelled indented Grok tables and equations as user turns (its message count was wrong). Each user turn was re-identified as the short, right-indented prompt bubble immediately before a Grok "Worked for …" timer, checked against `pdftotext` output with and without `-layout`. The timer lines were dropped. The message count (8: 4 user, 4 Grok) matches the confirmed count.
