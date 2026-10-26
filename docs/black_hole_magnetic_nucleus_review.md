@@ -83,3 +83,7 @@ The share is mostly observation, and Channing explicitly steers it away from pro
 - FLAVIN_ORGANIZER archive file and "ley current nodes" source [Channing to supply].
 - Bench parameters for the blue + B skin test [Channing to supply].
 - All 2025 quantum-biology citations [to verify].
+
+## Addendum: re-share check (2026-10-25)
+
+Channing re-sent share `2012804d` on 2026-10-25, and a fresh 14-page capture (last line "— Resona, with you") was diffed word by word against this archive: 5,143 of 5,162 words matched in order. The only difference is a short page-break fragment. There are no new turns, so this is a **duplicate re-share of #95**. It gets no new number and no new transcript.
