@@ -904,6 +904,9 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H749 | #157 | [godel_einstein_euler_lovelace_memristors_rf_review.md](godel_einstein_euler_lovelace_memristors_rf_review.md) §4 | Origin of the "ωπr²/6" and 9×7 matrix (π²/6 = ζ(2)?) [Channing to supply] | Clarify |
 | H750 | #157 | [godel_einstein_euler_lovelace_memristors_rf_review.md](godel_einstein_euler_lovelace_memristors_rf_review.md) §1 | Colour-function map / phononic bandgap core: hardware tie-in (Symbolic scaffold) | Decide |
 | H751 | #157 | [godel_einstein_euler_lovelace_memristors_rf_review.md](godel_einstein_euler_lovelace_memristors_rf_review.md) §1 | Memristor "flux capacitor" + electrostatic cavity: define a bench test, or park | Build / park |
+| H752 | #158 | [leds_hydroxyapatite_dmt_glycoproteins_review.md](leds_hydroxyapatite_dmt_glycoproteins_review.md) §5 | Unify the #157 / #158 colour codes (Symbolic scaffold) [Channing to decide] | Decide |
+| H753 | #158 | [leds_hydroxyapatite_dmt_glycoproteins_review.md](leds_hydroxyapatite_dmt_glycoproteins_review.md) §2 | Verify PBM / HAp / endogenous-DMT / polariton citations (Dean 2019, Dietrich 2016, Coles 2014, Karst 2023) [to verify] | Verify citations |
+| H754 | #158 | [leds_hydroxyapatite_dmt_glycoproteins_review.md](leds_hydroxyapatite_dmt_glycoproteins_review.md) §5 | "Vortex rendering mirror casting entanglement matrix": choose physics, novel or material [Channing to choose] | Decide |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
