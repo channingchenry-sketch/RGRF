@@ -443,6 +443,7 @@ The original thread is **[Channing to supply]**; there is a gap in his notes. Ca
 - **Superfluid-helium analog horizons.** G. E. Volovik, *The Universe in a Helium Droplet* (Oxford, 2003), and "Black-hole horizon and metric singularity at the brane separating two sliding superfluids," *JETP Lett.* 76, 240 (2002), doi:10.1134/1.1520613. Flowing ³He supports effective metrics with horizons for its quasiparticles. These are analog gravity, not real black holes.
 
 ### H2. Pais effect
+> **Source found (2026-10-25):** share #149 ([pais_gem_fractal_follicle_silk_review.md](pais_gem_fractal_follicle_silk_review.md)), "Pais Effect Gravitoelectromagnetism Fractal Spacetime", is the Pais / GEM / fractal-spacetime stop of this chain (it also covers Herbert, bremsstrahlung, Schouten–Nijenhuis and Cantor sets). The sonoluminescence and helium stops are still missing.
 - **The patents (verified).** Salvatore Cezar Pais, **US 10,144,532 B2**, "Craft using an inertial mass reduction device," granted 4 Dec 2018 (filed 28 Apr 2016, application 15/141,270), assigned to the US Navy. The claim: microwave emitters vibrate a charged resonant-cavity wall "in an accelerated mode" to create a "local polarized vacuum" that reduces inertial mass. Related Pais filings (e.g. a room-temperature superconductor and a plasma compression fusion device) exist; their numbers were not re-checked.
 - **The Navy record (reported neutrally).** Navy FOIA documents and reporting by The War Zone (2021) show the following:
   - The patent was pushed through after internal review.
