@@ -1,8 +1,9 @@
 # Grok conversation archive: "Ultrasonic Waves: Water Harmonics and Negentropy" (2026-10-17)
 
 - **Source:** Grok-generated conversation, shared by Channing.
-- **Share URL:** share id begins `dcf6e870`; full URL [Channing to supply].
+- **Share URL:** <https://grok.com/share/bGVnYWN5_dcf6e870-cae9-4443-be61-314e772b8c55> (`dcf6e870`).
 - **Captured:** 2026-10-17 from the saved page PDF. 14 messages (7 user, 7 Grok). Topics: ultrasonic standing waves and water's response at the 3rd and 4th harmonics, negentropy stabilisation, Tesla valves with quartz and helium pressure feedback, magnetic confinement, radial craft and node layouts with hemp-leather and mycelium, pulsed ionised-water thrust, a personal-suit scale-down, swirl "virtual nozzles", and a double-ellipse (eye) valve layout.
+- **Re-share check (2026-10-25):** the same share id `dcf6e870` was captured again (13-page PDF, ends "We can rest here or continue refining whenever you are ready."). A word-level diff found the same 7 Channing and 7 Grok turns and no new content (similarity 0.956; header and layout only). Logged as a duplicate re-share with no new number. The full URL is now recorded. The text never mentions sonoluminescence, so the Oct 15 sonoluminescence stop stays open.
 - **License:** CC0-1.0 (this archive file). The quoted text is Grok output, reproduced for the record.
 - **Extraction cleanups.** The text below is verbatim except for these mechanical fixes from the web capture:
   1. **Turn boundaries rebuilt from the PDF.** The pre-built text file assigned speakers by indentation and mislabelled indented Grok tables and equations as user turns (its message count was wrong). Each user turn was re-identified as the short, right-indented prompt bubble immediately before a Grok "Worked for …" timer, checked against `pdftotext` output with and without `-layout`. The timer lines were dropped. The PDF has 14 messages (7 user, 7 Grok), more than the 8 given in the task notes; the PDF is complete and ends with "Let’s save" and Grok's save note.
