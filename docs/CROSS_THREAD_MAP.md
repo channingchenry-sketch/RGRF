@@ -889,6 +889,10 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H734 | #153 | [godel_counter_rotation_dusty_plasma_review.md](godel_counter_rotation_dusty_plasma_review.md) §4 | "Recent experiment with metal gates" (Grok suggests Choi et al. 2025 anode-spot double layer) [Channing to confirm] | Track down chat |
 | H735 | #153 | [godel_counter_rotation_dusty_plasma_review.md](godel_counter_rotation_dusty_plasma_review.md) §4 | Tabletop crystal/bubble/gate cell: spinner dimensions and Γ–κ–α map | Build / measure |
 | H736 | #153 | [godel_counter_rotation_dusty_plasma_review.md](godel_counter_rotation_dusty_plasma_review.md) §2 | Verify the 2025–26 Gödel-type Pantheon+ cosmography paper [to verify] | Verify citation |
+| H737 | #154 | [entanglements_continuity_dougherty_vlasov_review.md](entanglements_continuity_dougherty_vlasov_review.md) §1 | Electrostatic / Penning / bounce-spectrum material: reference for the H722 "pong" thread (not the original) | Cross-ref H722 |
+| H738 | #154 | [entanglements_continuity_dougherty_vlasov_review.md](entanglements_continuity_dougherty_vlasov_review.md) §5 | 1-D Vlasov–Poisson beam-vs-plug simulation (well depth, bounce spectrum, rim loss) | Build / run |
+| H739 | #154 | [entanglements_continuity_dougherty_vlasov_review.md](entanglements_continuity_dougherty_vlasov_review.md) §5 | Source of the "Dougherty set" fractal plasma model [Channing to supply] | Verify |
+| H740 | #154 | [entanglements_continuity_dougherty_vlasov_review.md](entanglements_continuity_dougherty_vlasov_review.md) §5 | Raychaudhuri on a charged congruence in a Wald / split-monopole magnetosphere | Calculate |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
