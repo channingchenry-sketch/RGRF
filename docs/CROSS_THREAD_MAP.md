@@ -910,6 +910,10 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H755 | #159 | [regenerative_materials_fusion_nylon_mycelium_review.md](regenerative_materials_fusion_nylon_mycelium_review.md) §6 | Mycelium-mineral node panel v0.1: density/strength targets vs POL 2.1–2.8 MPa; coupon test | Build / measure |
 | H756 | #159 | [regenerative_materials_fusion_nylon_mycelium_review.md](regenerative_materials_fusion_nylon_mycelium_review.md) §2 | Verify the 2025 electrochemical D–D loading paper and Grok-reported 10⁻⁹ W / 15 W figures [to verify] | Verify citation |
 | H757 | #159 | [regenerative_materials_fusion_nylon_mycelium_review.md](regenerative_materials_fusion_nylon_mycelium_review.md) §6 | Cottonwood vs hemp substrate; fungal vs bacterial self-healing comparison | Explore |
+| H758 | #160 | [propulsion_energy_harvesting_breakthroughs_review.md](propulsion_energy_harvesting_breakthroughs_review.md) §4 | POL parameter sweep with rim-drive factor (0–5 cm gap), power vs lift ledger | Build / run |
+| H759 | #160 | [propulsion_energy_harvesting_breakthroughs_review.md](propulsion_energy_harvesting_breakthroughs_review.md) §4 | Open-source resource note: rectennas, piezo composites, MPD materials | Draft |
+| H760 | #160 | [propulsion_energy_harvesting_breakthroughs_review.md](propulsion_energy_harvesting_breakthroughs_review.md) §3 | Rim-drive (shaftless perimeter rotor): reference for the stator / hub-motor threads (not the original) | Cross-ref H285j/H285i |
+| H761 | #160 | [propulsion_energy_harvesting_breakthroughs_review.md](propulsion_energy_harvesting_breakthroughs_review.md) §4 | Verify the JPL MPD 120 kW, Tesla fan ~80 kW / ~2 g and biohybrid >10× figures [to verify] | Verify |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
