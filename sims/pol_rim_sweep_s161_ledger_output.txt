@@ -1,0 +1,14 @@
+copper    f=      1000 Hz  F/P<=0.1523 N/W  min power for 1547 N:      10.2 kW
+copper    f=     10000 Hz  F/P<=0.0482 N/W  min power for 1547 N:      32.1 kW
+copper    f=    100000 Hz  F/P<=0.0152 N/W  min power for 1547 N:     101.6 kW
+copper    f=  13560000 Hz  F/P<=0.0013 N/W  min power for 1547 N:    1182.7 kW
+aluminium f=      1000 Hz  F/P<=0.1183 N/W  min power for 1547 N:      13.1 kW
+aluminium f=     10000 Hz  F/P<=0.0374 N/W  min power for 1547 N:      41.3 kW
+aluminium f=    100000 Hz  F/P<=0.0118 N/W  min power for 1547 N:     130.7 kW
+aluminium f=  13560000 Hz  F/P<=0.0010 N/W  min power for 1547 N:    1522.5 kW
+
+rim=0.00  Grok lift 1547 N at 520 W -> 2.98 N/W claimed
+rim=0.30  Grok lift 1445 N at 520 W -> 2.78 N/W claimed
+rim=0.50  Grok lift 1360 N at 520 W -> 2.62 N/W claimed
+rim=1.00  Grok lift 1300 N at 520 W -> 2.50 N/W claimed
+Ledger: steady hover does no mechanical work; all input is dissipated (plate + coil + drive). Claimed ~2.8-3.0 N/W exceeds the 13.56 MHz copper bound (~0.0013 N/W) by ~2000x and the 1 kHz bound (~0.15 N/W) by ~20x.
