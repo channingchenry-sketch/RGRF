@@ -64,3 +64,6 @@ Roy D. Herbert (Chronoflux); Salvatore Cezar Pais (patents); J. A. Schouten and 
 - Grok images (silk cuboctahedron, eye-node rendering) [Channing to supply if wanted].
 - Verify the Chen et al. 2025 *Cell* KCNJ2 paper, the silk piezo figures and the 2024 Schouten–Codazzi gravity proposal [to verify].
 - The sonoluminescence and helium-opacity stops of the Oct 15 rabbit-hole chain are still missing.
+
+
+> **2026-10-31 note on H722 (pong):** the original chat share was blank. Its origin is reconstructed in [pong_spinning_leaky_boundary_reconstruction.md](pong_spinning_leaky_boundary_reconstruction.md).

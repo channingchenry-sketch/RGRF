@@ -1,0 +1,23 @@
+== Part A: mirror + barrier + rotation (m=q=v=1, B0=L=1, mirror ratio Rm=5.0) ==
+Loss cone (no Phi, no Omega): sin^2(a_lc)=1/Rm -> a_lc=26.57 deg
+Bounce period, alpha=60deg: sim 7.2552, analytic 2pi/sqrt(2 mu B0/L^2)=7.2552, |dJ|max=9.4e-08
+Bounce period with Omega=0.3: sim 7.7340, analytic 2pi/sqrt(2muB0/L^2-Om^2)=7.7341, |dJ|max=8.3e-08
+mirror only                   : escape fraction (isotropic) 0.106; largest escaping pitch angle 26 deg; max |dJ| 1.2e-07
+mirror + barrier Phi0=0.3     : escape fraction (isotropic) 0.047; largest escaping pitch angle 17 deg; max |dJ| 3.5e-06
+mirror + rotation Om=0.3      : escape fraction (isotropic) 0.149; largest escaping pitch angle 31 deg; max |dJ| 1.0e-07
+mirror + barrier + rotation   : escape fraction (isotropic) 0.084; largest escaping pitch angle 23 deg; max |dJ| 6.1e-06
+Analytic isotropic loss fraction (mirror only) 1-cos(a_lc)=0.106
+Ledger A: J (Jacobi constant) conserved to the residuals above; rotation energy comes from the frame (pinned), no source term, no over-unity.
+
+== Part B: double-well tunnelling (hbar=m=1, lam=1, a=1.5) ==
+E0=1.970570 E1=2.012392 barrier V(0)=5.062 splitting dE=4.182e-02 -> tunnelling ('pong') period T=2pi/dE=150.24
+t/T=0.000  P(left well)=0.9981  norm=1.000000000000
+t/T=0.125  P(left well)=0.8522  norm=1.000000000000
+t/T=0.250  P(left well)=0.5000  norm=1.000000000000
+t/T=0.375  P(left well)=0.1478  norm=1.000000000000
+t/T=0.500  P(left well)=0.0019  norm=1.000000000000
+t/T=0.625  P(left well)=0.1478  norm=1.000000000000
+t/T=0.750  P(left well)=0.5000  norm=1.000000000000
+t/T=0.875  P(left well)=0.8522  norm=1.000000000000
+t/T=1.000  P(left well)=0.9981  norm=1.000000000000
+Ledger B: max |norm-1|=1.2e-15, max |<H>(t)-<H>(0)|=1.9e-12; R+T style probability balance holds; no energy gained.
