@@ -917,6 +917,10 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H762 | #161 | [pol_rim_drive_coil_sweep_review.md](pol_rim_drive_coil_sweep_review.md) §4 | Rebuild the POL sweep with a dissipation model (plate + coil + drive): N/W and kW per config | Build / run |
 | H763 | #161 | [pol_rim_drive_coil_sweep_review.md](pol_rim_drive_coil_sweep_review.md) §4 | FEM check of the horseshoe / saddle / stacked coil multipliers | Simulate |
 | H764 | #161 | [pol_rim_drive_coil_sweep_review.md](pol_rim_drive_coil_sweep_review.md) §2 | Magneto-acoustic (EMAT-type) damping/sensing layer in the Trametes–hemp frame: bench test | Build / measure |
+| H765 | #162 | [dipole_antennas_craft_interface_review.md](dipole_antennas_craft_interface_review.md) §4 | Blueprint note for the craft-interface geometry (dipole + saddle/horseshoe coils + oloid spine + COPVs), labelled [Channing to confirm] | Draft |
+| H766 | #162 | [dipole_antennas_craft_interface_review.md](dipole_antennas_craft_interface_review.md) §4 | Define the sketch elements (two circles: coils, plates or plasma nodes?) and proportions / side view [Channing to supply] | Clarify |
+| H767 | #162 | [dipole_antennas_craft_interface_review.md](dipole_antennas_craft_interface_review.md) §3 | Saddle/horseshoe stack around the central spine: cross-ref to POL coils and rim drive (H760–H763) and the stator thread | Cross-ref |
+| H768 | #162 | [dipole_antennas_craft_interface_review.md](dipole_antennas_craft_interface_review.md) §2 | Any sim of the craft interface: lift per watt and P/c radiation ledger, no over-unity | Build / check |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
