@@ -2,6 +2,7 @@
 
 - **Type:** reconstruction (2026-10-31). This is not a Grok share and has no share number. The original pong chat share was **blank / unrecoverable**.
 - **Sim:** [../sims/pong_mirror_barrier_spin_sim.py](../sims/pong_mirror_barrier_spin_sim.py) → [output](../sims/pong_mirror_barrier_spin_sim_output.txt) (numpy only, deterministic, ~20 s).
+- **Further continuation:** share #165 `4b786de0` extends this chat to 28 messages (spin, leaky boundary, neutrinos, monopoles, LISA): [transcript](grok_archive/2026-10-31_springer_spin_leaky_boundary_neutrino_monopole_lisa.md), [review](spin_leaky_boundary_neutrino_monopole_lisa_review.md).
 - **Labels:** **Grounded** · **Plausible-untested** · **Speculative** · **Symbolic** · **Unsupported**; [to verify]; [Channing to supply/confirm]. φ is Symbolic throughout.
 - **Cross-thread rows:** H778–H786.
 

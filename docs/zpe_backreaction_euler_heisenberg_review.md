@@ -4,6 +4,7 @@
 - **Share URL:** <https://grok.com/share/bGVnYWN5_b196b2ec-a72e-474f-b75d-1e1630fea681> (`b196b2ec`). All 20 footers match.
 - **Prefix:** the word-level diff shows the whole #163 text (2,995 words) is an exact prefix. Review of messages 1–8: [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) (#163). Precedent: #91 was a fuller re-share of #90 and got its own number.
 - **Check script:** [../sims/eh_stress_check_s164.py](../sims/eh_stress_check_s164.py). It reruns Grok's tables and works out the Euler–Heisenberg stress.
+- **Further continuation:** share #165 `4b786de0` extends this chat to 28 messages (spin, leaky boundary, neutrinos, monopoles, LISA): [transcript](grok_archive/2026-10-31_springer_spin_leaky_boundary_neutrino_monopole_lisa.md), [review](spin_leaky_boundary_neutrino_monopole_lisa_review.md).
 - **Labels:** **Grounded** · **Plausible-untested** · **Speculative** · **Symbolic** · **Unsupported**. Grok's numbers are Grok-reported unless *rerun*.
 - **Privacy:** no personal, location or military material.
 

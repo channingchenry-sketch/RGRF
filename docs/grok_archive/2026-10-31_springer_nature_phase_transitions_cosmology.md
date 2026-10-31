@@ -6,6 +6,7 @@
 - **Review:** [springer_holographic_phase_transitions_pair_plasma_review.md](../springer_holographic_phase_transitions_pair_plasma_review.md)
 - **Conventions:** Channing’s turns verbatim (typos kept). Equations came through the PDF text layer shredded and are left as captured. All numbers are **Grok-reported**. The share shows thumbnails of the paper’s figures (Fig. 1 isotherms); these are third-party and not copied.
 - **Continuation:** a longer re-share of this chat, with 5 more turns on ZPE back-reaction and Euler–Heisenberg, is archived as share #164 `b196b2ec`: [2026-10-31_springer_phase_transitions_zpe_euler_heisenberg.md](2026-10-31_springer_phase_transitions_zpe_euler_heisenberg.md).
+- **Further continuation:** share #165 `4b786de0` extends this chat to 28 messages (spin, leaky boundary, neutrinos, monopoles, LISA): [transcript](2026-10-31_springer_spin_leaky_boundary_neutrino_monopole_lisa.md), [review](../spin_leaky_boundary_neutrino_monopole_lisa_review.md).
 - **License:** CC0-1.0 (text only).
 
 ---

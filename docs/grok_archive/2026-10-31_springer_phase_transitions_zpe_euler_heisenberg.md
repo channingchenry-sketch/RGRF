@@ -6,6 +6,7 @@
 - **Relation to #163:** messages 1–8 match the [#163 transcript](2026-10-31_springer_nature_phase_transitions_cosmology.md) word for word (`7c4dd4a8`). **Messages 9–18 are new**: the w_eff note and table, ZPE as back-reaction, and the Euler–Heisenberg Lagrangian.
 - **Review:** [zpe_backreaction_euler_heisenberg_review.md](../zpe_backreaction_euler_heisenberg_review.md) (covers the new turns; the shared prefix is reviewed in [springer_holographic_phase_transitions_pair_plasma_review.md](../springer_holographic_phase_transitions_pair_plasma_review.md)).
 - **Conventions:** Channing’s turns verbatim (typos kept). Equations came through the PDF text layer shredded and are left as captured. All numbers are **Grok-reported**, and several Grok tables are wrong (see the review). There are two images: a paper-figure thumbnail (third-party) and a Grok-generated panel (msg 18), described in the review and not copied.
+- **Further continuation:** share #165 `4b786de0` extends this chat to 28 messages (spin, leaky boundary, neutrinos, monopoles, LISA): [transcript](2026-10-31_springer_spin_leaky_boundary_neutrino_monopole_lisa.md), [review](../spin_leaky_boundary_neutrino_monopole_lisa_review.md).
 - **License:** CC0-1.0 (text only).
 
 ---

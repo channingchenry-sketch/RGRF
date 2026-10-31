@@ -939,6 +939,11 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H784 | recon | [pong_spinning_leaky_boundary_reconstruction.md](pong_spinning_leaky_boundary_reconstruction.md) §3.2 | Double-well quantum pong (ammonia maser, Josephson, Rabi); macroscopic superposition Unsupported | Reference |
 | H785 | recon | [pong_spinning_leaky_boundary_reconstruction.md](pong_spinning_leaky_boundary_reconstruction.md) §3.3 | Exchange: Heisenberg exchange, virtual-particle language, heliopause charge exchange, leaky-boundary design principle | Design note |
 | H786 | recon | [pong_spinning_leaky_boundary_reconstruction.md](pong_spinning_leaky_boundary_reconstruction.md) §4 | Sim: pong_mirror_barrier_spin_sim.py; optional 3D Boris pusher in a rotating dipole | Build / extend |
+| H787 | #165 | [spin_leaky_boundary_neutrino_monopole_lisa_review.md](spin_leaky_boundary_neutrino_monopole_lisa_review.md) §2 | Correct the radial force-balance signs (+B_φ tension, −ρ_eE_r) in the saved Blueprint note [to verify vs MHD text] | Correct note |
+| H788 | #165 | [spin_leaky_boundary_neutrino_monopole_lisa_review.md](spin_leaky_boundary_neutrino_monopole_lisa_review.md) §2 | Schwinger criterion is field E→E_c, not potential \|eΦ\|→m_ec²; drop the note's w_eff<−1 | Correct note |
+| H789 | #165 | [spin_leaky_boundary_neutrino_monopole_lisa_review.md](spin_leaky_boundary_neutrino_monopole_lisa_review.md) §5 | Spin, centrifugal, potential and leaky-boundary turns rebuild pong in-chat; link to H722/H778 | Cross-ref H722/H778 |
+| H790 | #165 | [spin_leaky_boundary_neutrino_monopole_lisa_review.md](spin_leaky_boundary_neutrino_monopole_lisa_review.md) §2 | Monopole threading as 'lensing / weak-force moments' in the pair sea (chiral dyon) [Channing to supply/confirm] | Clarify |
+| H791 | #165 | [spin_leaky_boundary_neutrino_monopole_lisa_review.md](spin_leaky_boundary_neutrino_monopole_lisa_review.md) §2 | LISA band vs phase-transition temperature (rerun table); SM crossovers mean BSM is needed; verify LISA schedule, STAR 2025, monopole limits [to verify] | Verify / reference |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
