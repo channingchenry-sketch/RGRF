@@ -921,6 +921,10 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H766 | #162 | [dipole_antennas_craft_interface_review.md](dipole_antennas_craft_interface_review.md) §4 | Define the sketch elements (two circles: coils, plates or plasma nodes?) and proportions / side view [Channing to supply] | Clarify |
 | H767 | #162 | [dipole_antennas_craft_interface_review.md](dipole_antennas_craft_interface_review.md) §3 | Saddle/horseshoe stack around the central spine: cross-ref to POL coils and rim drive (H760–H763) and the stator thread | Cross-ref |
 | H768 | #162 | [dipole_antennas_craft_interface_review.md](dipole_antennas_craft_interface_review.md) §2 | Any sim of the craft interface: lift per watt and P/c radiation ledger, no over-unity | Build / check |
+| H769 | #163 | [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) §1 | Verify EPJC 86, 239 (2026) DOI and the related JHEP / EPJC Barrow-BEC papers [to verify] | Verify citation |
+| H770 | #163 | [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) §2 | Electrostatic isotropic tensor as an e⁺e⁻ pair sea with magnetic filaments: link to electrostatic_isotropic_stress_review; EM stress cannot give w<−1 | Cross-ref / correct |
+| H771 | #163 | [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) §6 | Optional numerical example: pair pressure vs filament B with a traceless EM tensor (expect no phantom) | Build / check |
+| H772 | #163 | [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) §4 | Pair-sea + filament confinement as a neighbour of H722 pong (not the original) | Cross-ref H722 |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
