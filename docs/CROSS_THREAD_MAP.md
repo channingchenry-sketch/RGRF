@@ -925,6 +925,11 @@ Every `[Channing to supply]`, `**Missing**`, `[capture gap]`, lost/gutted-thread
 | H770 | #163 | [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) §2 | Electrostatic isotropic tensor as an e⁺e⁻ pair sea with magnetic filaments: link to electrostatic_isotropic_stress_review; EM stress cannot give w<−1 | Cross-ref / correct |
 | H771 | #163 | [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) §6 | Optional numerical example: pair pressure vs filament B with a traceless EM tensor (expect no phantom) | Build / check |
 | H772 | #163 | [springer_holographic_phase_transitions_pair_plasma_review.md](springer_holographic_phase_transitions_pair_plasma_review.md) §4 | Pair-sea + filament confinement as a neighbour of H722 pong (not the original) | Cross-ref H722 |
+| H773 | #164 | [zpe_backreaction_euler_heisenberg_review.md](zpe_backreaction_euler_heisenberg_review.md) §2 | Verify EH pure-B stress (δu=−cB⁴, δp∥=+cB⁴, δp⊥=−3cB⁴) against Heyl–Hernquist / Dunne [to verify] | Verify |
+| H774 | #164 | [zpe_backreaction_euler_heisenberg_review.md](zpe_backreaction_euler_heisenberg_review.md) §7 | Replace Grok's w_eff tables in any Blueprint note with the rerun (sims/eh_stress_check_s164.py); drop the spurious −1 | Correct note |
+| H775 | #164 | [zpe_backreaction_euler_heisenberg_review.md](zpe_backreaction_euler_heisenberg_review.md) §5 | Pair sea + EH vacuum polarization extends H772 (#163); phantom claim still fails | Cross-ref H772 |
+| H776 | #164 | [zpe_backreaction_euler_heisenberg_review.md](zpe_backreaction_euler_heisenberg_review.md) §5 | E/(E·B) mixed-invariant remark as a neighbour of the H722 pong gap (not recovered) | Cross-ref H722 |
+| H777 | #164 | [zpe_backreaction_euler_heisenberg_review.md](zpe_backreaction_euler_heisenberg_review.md) §2 | Source refs for ATLAS light-by-light (2017/2019) and magnetar / IXPE vacuum-birefringence hints [to verify] | Verify citation |
 
 ## 4. Lost threads
 Several pre-July 2026 threads were lost in a Grok-side incident (see the note at the top of REBUILD_INDEX). The threads below are flagged lost or gutted.
